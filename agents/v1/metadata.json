@@ -1,0 +1,35 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "role": "closed-loop economic rule agent",
+  "status": "locally_validated_auth_pending",
+  "created_at": "2026-08-21",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "dependencies": "Python standard library only",
+    "mutable_global_state": false,
+    "tested_environment": "kaggle-environments==1.32.7"
+  },
+  "economy": {
+    "opening": "Wheat and Carrot cash flow",
+    "core": "Cow, Sheep, Wheat, Strawberry",
+    "target_livestock": {
+      "cow": 8,
+      "sheep": 4,
+      "goose": 0
+    }
+  },
+  "local_validation": {
+    "unit_and_integration_tests": 10,
+    "starter_games": 6,
+    "starter_wins": 6,
+    "starter_mean_coins": 59820.0,
+    "random_games": 4,
+    "random_wins": 4,
+    "all_games_completed": true
+  },
+  "submission": {
+    "submitted": false,
+    "blocker": "Kaggle authentication is not configured on the local machine"
+  }
+}

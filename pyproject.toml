@@ -1,0 +1,26 @@
+[project]
+name = "pj-kaggriculture"
+version = "0.1.0"
+description = "Closed-loop economic agent and local evaluation tools for Kaggriculture"
+requires-python = ">=3.11,<3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "kaggle==2.2.4",
+    "kaggle-environments==1.32.7",
+    "pytest>=8.4,<9",
+    "ruff>=0.12,<0.13",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

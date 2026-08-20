@@ -1,0 +1,25 @@
+.python/
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+
+# Generated submission archives; keep the directory itself.
+artifacts/submissions/*
+!artifacts/submissions/.gitkeep
+
+# Potentially large/generated match data; keep the documented layout.
+data/analysis/*
+!data/analysis/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+data/replays/*
+!data/replays/.gitkeep
+data/runs/*
+!data/runs/.gitkeep
+data/submissions/*
+!data/submissions/.gitkeep
+data/summaries/*
+!data/summaries/.gitkeep
