@@ -54,6 +54,17 @@ full replayも残す場合:
 uv run python scripts/run_match.py --opponent starter --pairs 1 --save-replays
 ```
 
+Kaggleへ提出したagentの対戦データは、submission IDを指定して取得できます。Kaggle CLIではなく、KaggleのEpisodeServiceと公開replay CDNを使用します。
+
+```powershell
+uv run python scripts/fetch_submission_logs.py `
+  --submission-id 55649709 `
+  --version v1 `
+  --rating 521.9
+```
+
+`--version v1` を指定した場合、試合一覧とmanifestは `data/submissions/v1_submission_<ID>/`、full replayは `data/replays/v1_submission_<ID>/`、両agentの観測ログは `data/logs/v1_submission_<ID>/` に保存されます。これによりフォルダ名だけでagent versionとsubmission IDを判別できます。さらに全データをまとめた `v1_submission_<ID>_battle_logs.zip` もsubmissionフォルダ内に自動生成されます。ZIPが不要な場合は `--no-zip` を指定します。同じコマンドは取得済みファイルを再利用するため、安全に再実行できます。再取得する場合は `--overwrite` を付けます。
+
 1 episodeの日別状態とaction構成は `data/analysis/` に保存されます。
 
 ```powershell

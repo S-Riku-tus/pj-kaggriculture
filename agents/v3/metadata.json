@@ -1,0 +1,25 @@
+{
+  "name": "v3",
+  "version": "3.0.0",
+  "description": "Top-3 expert-distilled hybrid strategy agent",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "language": "python",
+    "network": false,
+    "mutable_episode_state": false,
+    "files": [
+      "main.py",
+      "feature_schema.py",
+      "strategy_model.json",
+      "v2_base.py (packaged from ../v2/main.py)"
+    ]
+  },
+  "training": {
+    "method": "weighted multi-output extremely randomized regression trees",
+    "teacher_submissions": [55614463, 55623460, 55574890],
+    "episodes": 450,
+    "portfolio_examples": 9450,
+    "target_horizon_days": 1,
+    "split": "episode-level holdout"
+  }
+}

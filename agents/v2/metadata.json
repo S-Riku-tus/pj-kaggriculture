@@ -1,0 +1,22 @@
+{
+  "name": "v2",
+  "version": "2.0.0",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "dependencies": "python-standard-library-only",
+    "mutable_global_state": false
+  },
+  "strategy": "replay-calibrated adaptive productive-capital controller",
+  "training": {
+    "method": "offline replay policy calibration",
+    "corpora": [
+      "v1_submission_55649709",
+      "leaderboard_rank1_submission_55614463",
+      "leaderboard_rank2_submission_55623460",
+      "leaderboard_rank3_submission_55574890"
+    ]
+  },
+  "submission": {
+    "status": "not_submitted"
+  }
+}

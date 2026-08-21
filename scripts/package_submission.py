@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_AGENT = Path("agents/v1")
+SUBMISSION_MANIFEST = "submission_manifest.json"
 
 
 def resolve_agent(value: Path) -> Path:
@@ -25,6 +26,28 @@ def resolve_agent(value: Path) -> Path:
     return candidate
 
 
+def submission_files(agent_dir: Path) -> dict[str, Path]:
+    manifest_path = agent_dir / SUBMISSION_MANIFEST
+    if not manifest_path.is_file():
+        return {"main.py": agent_dir / "main.py"}
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    files: dict[str, Path] = {}
+    for entry in payload.get("files", []):
+        target = str(entry["target"]).replace("\\", "/")
+        target_path = Path(target)
+        if target_path.is_absolute() or ".." in target_path.parts or target in {"", "."}:
+            raise ValueError(f"unsafe archive target: {target!r}")
+        source = (agent_dir / str(entry["source"])).resolve()
+        if not source.is_relative_to(ROOT) or not source.is_file():
+            raise FileNotFoundError(f"submission source not found under repository: {source}")
+        if target in files:
+            raise ValueError(f"duplicate archive target: {target}")
+        files[target] = source
+    if "main.py" not in files:
+        raise ValueError(f"{SUBMISSION_MANIFEST} must include main.py")
+    return files
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--agent", type=Path, default=DEFAULT_AGENT, help="versioned agent directory")
@@ -34,23 +57,27 @@ def main() -> None:
     agent_dir = resolve_agent(args.agent)
     output = args.output or ROOT / "artifacts" / "submissions" / f"{agent_dir.name}.tar.gz"
     output = output if output.is_absolute() else ROOT / output
-    source_path = agent_dir / "main.py"
+    files = submission_files(agent_dir)
+    source_path = files["main.py"]
     source = source_path.read_bytes()
     tree = ast.parse(source, filename=str(source_path))
     if not any(isinstance(node, ast.FunctionDef | ast.AsyncFunctionDef) and node.name == "agent" for node in tree.body):
         raise SystemExit("main.py does not define a top-level agent function")
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    info = tarfile.TarInfo("main.py")
-    info.size = len(source)
-    info.mtime = 0
-    info.mode = 0o644
     with tarfile.open(output, "w:gz") as archive:
-        archive.addfile(info, io.BytesIO(source))
+        for target, path in sorted(files.items(), key=lambda item: (item[0] != "main.py", item[0])):
+            content = path.read_bytes()
+            info = tarfile.TarInfo(target)
+            info.size = len(content)
+            info.mtime = 0
+            info.mode = 0o644
+            archive.addfile(info, io.BytesIO(content))
 
     with tarfile.open(output, "r:gz") as archive:
         names = archive.getnames()
-        if names != ["main.py"]:
+        expected_names = sorted(files, key=lambda name: (name != "main.py", name))
+        if names != expected_names:
             raise SystemExit(f"unexpected archive layout: {names}")
 
     created_at = datetime.now().astimezone()
