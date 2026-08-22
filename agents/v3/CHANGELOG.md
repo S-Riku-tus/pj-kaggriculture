@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.1 - 2026-08-21
+
+- Kaggleが`main.py`を`__file__`なし・別作業ディレクトリから実行する場合も、展開済みsubmission directoryを`sys.path`から検出するよう修正。
+- 3つの補助ファイルが揃ったディレクトリだけをruntime directoryとして採用。
+
 ## 3.0.0 - 2026-08-21
 
 - Rank1/2/3の全450 public replayから、Day 3-23の1日先portfolioを教師化。

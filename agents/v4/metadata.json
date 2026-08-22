@@ -1,0 +1,34 @@
+{
+  "name": "v4",
+  "version": "4.0.0",
+  "description": "Top-3 strategy with feasibility projection and route-dense execution",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "language": "python",
+    "network": false,
+    "mutable_episode_state": false,
+    "files": [
+      "main.py",
+      "v3_base.py (packaged from ../v3/main.py)",
+      "v2_base.py (packaged from ../v2/main.py)",
+      "feature_schema.py (packaged from ../v3/feature_schema.py)",
+      "strategy_model.json (packaged from ../v3/strategy_model.json)"
+    ]
+  },
+  "strategy": {
+    "opening": "Rank1 exact 24-turn opening inherited from v3",
+    "learned_goal": "Top-3 one-day portfolio forests inherited from v3",
+    "feasibility": [
+      "pasture-before-animal transaction",
+      "capacity-backed animal purchases",
+      "just-in-time seed batches",
+      "crop payback horizon guards"
+    ],
+    "execution": [
+      "route-density task assignment",
+      "same-tile animal service completion",
+      "expired crop and weed recycling",
+      "multi-use fertilizer pickup"
+    ]
+  }
+}

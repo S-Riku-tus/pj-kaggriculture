@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import shutil
+import subprocess
+import sys
 from copy import deepcopy
+from pathlib import Path
 
 from agents.v3.feature_schema import FEATURE_NAMES, OUTPUT_NAMES, encode_observation
 from agents.v3.main import MODEL, _assign_tasks, _expert_weights, _strategy_targets, agent
@@ -103,3 +107,39 @@ def test_v3_equal_priority_assignment_is_global_not_task_greedy() -> None:
 
 def test_v3_missing_observation_fails_closed() -> None:
     assert agent({}) == {"farmer": ["PASS"], "hands": [], "market": []}
+
+
+def test_v3_submission_resolves_helpers_when_cwd_is_elsewhere(tmp_path: Path) -> None:
+    root = Path(__file__).resolve().parents[1]
+    submission = tmp_path / "submission"
+    elsewhere = tmp_path / "elsewhere"
+    submission.mkdir()
+    elsewhere.mkdir()
+    for source, target in (
+        (root / "agents" / "v3" / "main.py", "main.py"),
+        (root / "agents" / "v3" / "feature_schema.py", "feature_schema.py"),
+        (root / "agents" / "v3" / "strategy_model.json", "strategy_model.json"),
+        (root / "agents" / "v2" / "main.py", "v2_base.py"),
+    ):
+        shutil.copyfile(source, submission / target)
+
+    code = """
+import os
+import sys
+from pathlib import Path
+
+submission = Path(sys.argv[1]).resolve()
+os.chdir(sys.argv[2])
+sys.path.append(str(submission))
+namespace = {}
+main_path = submission / "main.py"
+exec(compile(main_path.read_text(encoding="utf-8"), str(main_path), "exec"), namespace)
+assert namespace["MODULE_DIR"] == submission
+assert namespace["MODEL"] is not None
+"""
+    subprocess.run(
+        [sys.executable, "-c", code, str(submission), str(elsewhere)],
+        check=True,
+        capture_output=True,
+        text=True,
+    )

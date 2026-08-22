@@ -20,9 +20,23 @@ from typing import Any
 if "__file__" in globals():
     MODULE_DIR = Path(__file__).resolve().parent
 else:
-    _runtime_candidates = (Path.cwd() / "agents" / "v3", Path.cwd())
+    # kaggle-environments executes main.py from source without defining
+    # ``__file__``. It appends the extracted submission directory to sys.path,
+    # but the process working directory may be somewhere else.
+    _runtime_candidates = (
+        Path("/kaggle_simulations/agent"),
+        *(Path(entry) for entry in reversed(sys.path) if entry),
+        Path.cwd() / "agents" / "v3",
+        Path.cwd(),
+    )
     MODULE_DIR = next(
-        (candidate for candidate in _runtime_candidates if (candidate / "feature_schema.py").is_file()),
+        (
+            candidate.resolve()
+            for candidate in _runtime_candidates
+            if (candidate / "feature_schema.py").is_file()
+            and (candidate / "v2_base.py").is_file()
+            and (candidate / "strategy_model.json").is_file()
+        ),
         Path.cwd(),
     )
 if str(MODULE_DIR) not in sys.path:
