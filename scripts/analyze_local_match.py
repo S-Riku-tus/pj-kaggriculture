@@ -12,6 +12,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 MOVES = {"NORTH", "SOUTH", "EAST", "WEST"}
 ANIMALS = ("COW", "SHEEP", "GOOSE")
+CROPS = ("WHEAT", "CARROT", "TOMATO", "STRAWBERRY", "MELON")
 CHECKPOINTS = (7, 10, 12, 15, 20, 24, 27, 29)
 
 
@@ -45,15 +46,19 @@ def _snapshot(obs: dict[str, Any], seat: int) -> dict[str, Any]:
         owned[animal] += sum(_count(inventory, animal) for inventory in private.get("inventories") or [])
     unlocked = len(farm.get("unlocked_quadrants") or [])
     productive = sum(crops.values()) + sum(placed.values())
+    empty_structures = max(0, pastures - sum(placed.values()))
     return {
         "money": float(farm.get("money") or 0),
         "utilization": productive / max(25, unlocked * 25),
+        "unlocked": unlocked,
+        "productive": productive,
+        "empty_tiles": max(0, unlocked * 25 - productive - weeds - empty_structures),
         "pastures": pastures,
         "weeds": weeds,
         "placed": dict(placed),
         "owned": dict(owned),
         "crops": dict(crops),
-        "seed_units": sum(_count(private.get("seeds") or {}, crop) for crop in ("WHEAT", "STRAWBERRY", "MELON")),
+        "seed_units": sum(_count(private.get("seeds") or {}, crop) for crop in CROPS),
     }
 
 
@@ -64,6 +69,8 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
     actions: Counter[str] = Counter()
     transitions: Counter[str] = Counter()
     plant_hours: Counter[int] = Counter()
+    daily_field: dict[int, Counter[str]] = {}
+    daily_market: dict[int, Counter[str]] = {}
     previous_actions: dict[int, str] = {}
     previous_observation: dict[str, Any] | None = None
     previous_action_day = -1
@@ -91,20 +98,34 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
             previous_actions = {}
         action = state.get("action") or {}
         units = [action.get("farmer") or ["PASS"], *(action.get("hands") or [])]
+        field_today = daily_field.setdefault(action_day, Counter())
         next_previous: dict[int, str] = {}
         for index, unit_action in enumerate(units):
             op = unit_action[0] if unit_action else "PASS"
             actions[op] += 1
+            field_today[op] += 1
             previous = previous_actions.get(index)
             if previous is not None:
                 transitions[f"{previous}->{op if op not in MOVES else 'MOVE'}"] += 1
             next_previous[index] = op
             if op == "PLANT":
                 plant_hours[action_hour] += 1
+                crop = str(unit_action[1]) if len(unit_action) > 1 else "UNKNOWN"
+                field_today[f"PLANT_{crop}"] += 1
             if index > 0:
                 hand_actions += 1
                 hand_moves += op in MOVES
         previous_actions = next_previous
+        market_today = daily_market.setdefault(action_day, Counter())
+        for order in action.get("market") or []:
+            if not order:
+                continue
+            op = str(order[0])
+            item = str(order[1]) if len(order) > 1 else ""
+            quantity = max(0, int(order[2])) if len(order) > 2 else 1
+            market_today[op] += quantity
+            if item:
+                market_today[f"{op}_{item}"] += quantity
         previous_observation = obs
         final_obs = obs
     final = _snapshot(final_obs, seat)
@@ -125,6 +146,8 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
         "actions": dict(actions),
         "transitions": dict(transitions),
         "plant_hours": {str(hour): count for hour, count in plant_hours.items()},
+        "daily_field": {str(day): dict(counts) for day, counts in daily_field.items()},
+        "daily_market": {str(day): dict(counts) for day, counts in daily_market.items()},
         "checkpoints": checkpoints,
         "final": final,
     }
@@ -158,10 +181,70 @@ def main() -> None:
             for hour in range(24)
             if any(game["plant_hours"].get(str(hour), 0) for game in games)
         },
+        "daily_activity": {
+            str(day): {
+                "field": {
+                    key: mean(game["daily_field"].get(str(day), {}).get(key, 0) for game in games)
+                    for key in sorted(
+                        {
+                            key
+                            for game in games
+                            for key in game["daily_field"].get(str(day), {})
+                        }
+                    )
+                },
+                "market": {
+                    key: mean(game["daily_market"].get(str(day), {}).get(key, 0) for game in games)
+                    for key in sorted(
+                        {
+                            key
+                            for game in games
+                            for key in game["daily_market"].get(str(day), {})
+                        }
+                    )
+                },
+            }
+            for day in range(30)
+            if any(
+                game["daily_field"].get(str(day)) or game["daily_market"].get(str(day))
+                for game in games
+            )
+        },
         "daily": {
             str(day): {
-                key: mean(game["checkpoints"][str(day)][key] for game in games if str(day) in game["checkpoints"])
-                for key in ("money", "utilization", "pastures", "weeds", "seed_units")
+                **{
+                    key: mean(
+                        game["checkpoints"][str(day)][key]
+                        for game in games
+                        if str(day) in game["checkpoints"]
+                    )
+                    for key in (
+                        "money",
+                        "utilization",
+                        "unlocked",
+                        "productive",
+                        "empty_tiles",
+                        "pastures",
+                        "weeds",
+                        "seed_units",
+                    )
+                },
+                "crops": {
+                    crop: mean(
+                        game["checkpoints"][str(day)]["crops"].get(crop, 0)
+                        for game in games
+                        if str(day) in game["checkpoints"]
+                    )
+                    for crop in CROPS
+                },
+                "animals": {
+                    animal: mean(
+                        game["checkpoints"][str(day)]["placed"].get(animal, 0)
+                        for game in games
+                        if str(day) in game["checkpoints"]
+                    )
+                    for animal in ANIMALS
+                },
             }
             for day in CHECKPOINTS
             if any(str(day) in game["checkpoints"] for game in games)
