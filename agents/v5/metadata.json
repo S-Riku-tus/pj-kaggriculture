@@ -1,0 +1,11 @@
+{
+  "name": "v5",
+  "version": "5.0.0",
+  "description": "Adaptive portfolio and observation-derived animal missions on the V4 executor",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "language": "python",
+    "network": false,
+    "mutable_episode_state": false
+  }
+}

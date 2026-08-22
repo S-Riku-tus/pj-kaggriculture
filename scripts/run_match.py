@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import re
 from datetime import datetime
@@ -29,6 +30,23 @@ def resolve_opponent(value: str) -> str:
     candidate = Path(value)
     rooted = candidate if candidate.is_absolute() else ROOT / candidate
     return str(rooted.resolve()) if rooted.is_file() else value
+
+
+def import_agent(path: Path):
+    """Import a multi-file agent with a reliable ``__file__`` value.
+
+    kaggle-environments normally executes a Python path as raw source.  That is
+    useful for submission smoke tests, but older multi-file agents use
+    ``__file__`` to locate packaged helpers and therefore need normal import
+    semantics for local cross-version benchmarks.
+    """
+    module_name = f"_local_match_agent_{abs(hash(path.resolve()))}"
+    spec = importlib.util.spec_from_file_location(module_name, path.resolve())
+    if spec is None or spec.loader is None:
+        raise ImportError(f"cannot import agent: {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.agent
 
 
 def slug(value: str) -> str:
@@ -73,6 +91,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--agent", type=Path, default=DEFAULT_AGENT, help="versioned agent directory or main.py")
     parser.add_argument("--opponent", default="starter", help="built-in name or agent main.py path")
+    parser.add_argument(
+        "--import-opponent",
+        action="store_true",
+        help="import a Python opponent instead of executing it as raw source",
+    )
     parser.add_argument("--pairs", type=int, default=2, help="number of seeds; both seats run for each seed")
     parser.add_argument("--seed", type=int, default=20260821)
     parser.add_argument("--episode-steps", type=int, default=720)
@@ -82,10 +105,15 @@ def main() -> None:
 
     agent_path = resolve_agent(args.agent)
     opponent = resolve_opponent(args.opponent)
+    opponent_name = slug(opponent)
+    if args.import_opponent:
+        opponent_path = Path(opponent)
+        if not opponent_path.is_file():
+            raise FileNotFoundError("--import-opponent requires a Python file path")
+        opponent = import_agent(opponent_path)
     created_at = datetime.now().astimezone()
     run_id = created_at.strftime("%Y%m%d_%H%M%S_%z")
     agent_name = agent_path.parent.name
-    opponent_name = slug(opponent)
     replay_dir = ROOT / "data" / "replays" / f"{run_id}_{agent_name}_vs_{opponent_name}"
 
     results = []

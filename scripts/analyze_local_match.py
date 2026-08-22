@@ -62,6 +62,11 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
     replay = json.loads(replay_path.read_text(encoding="utf-8"))
     seat = int(game["seat"])
     actions: Counter[str] = Counter()
+    transitions: Counter[str] = Counter()
+    plant_hours: Counter[int] = Counter()
+    previous_actions: dict[int, str] = {}
+    previous_observation: dict[str, Any] | None = None
+    previous_action_day = -1
     hand_actions = 0
     hand_moves = 0
     checkpoints: dict[str, dict[str, Any]] = {}
@@ -75,14 +80,32 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
             last_day = day
             if day in CHECKPOINTS:
                 checkpoints[str(day)] = _snapshot(obs, seat)
+        if previous_observation is None:
+            previous_observation = obs
+            final_obs = obs
+            continue
+        action_day = int(previous_observation.get("day") or 0)
+        action_hour = int(previous_observation.get("hour") or 0)
+        if action_day != previous_action_day:
+            previous_action_day = action_day
+            previous_actions = {}
         action = state.get("action") or {}
         units = [action.get("farmer") or ["PASS"], *(action.get("hands") or [])]
+        next_previous: dict[int, str] = {}
         for index, unit_action in enumerate(units):
             op = unit_action[0] if unit_action else "PASS"
             actions[op] += 1
+            previous = previous_actions.get(index)
+            if previous is not None:
+                transitions[f"{previous}->{op if op not in MOVES else 'MOVE'}"] += 1
+            next_previous[index] = op
+            if op == "PLANT":
+                plant_hours[action_hour] += 1
             if index > 0:
                 hand_actions += 1
                 hand_moves += op in MOVES
+        previous_actions = next_previous
+        previous_observation = obs
         final_obs = obs
     final = _snapshot(final_obs, seat)
     hires = sum(
@@ -100,6 +123,8 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
         "core_work_per_hire": core / hires if hires else 0.0,
         "hires": hires,
         "actions": dict(actions),
+        "transitions": dict(transitions),
+        "plant_hours": {str(hour): count for hour, count in plant_hours.items()},
         "checkpoints": checkpoints,
         "final": final,
     }
@@ -114,6 +139,7 @@ def main() -> None:
     run = json.loads(run_path.read_text(encoding="utf-8"))
     games = [analyze_game(game) for game in run.get("games") or [] if game.get("replay")]
     action_names = sorted({op for game in games for op in game["actions"]})
+    transition_names = sorted({transition for game in games for transition in game["transitions"]})
     summary = {
         "games": len(games),
         "mean_reward": mean(game["reward"] for game in games),
@@ -122,6 +148,15 @@ def main() -> None:
         "core_work_per_hire": mean(game["core_work_per_hire"] for game in games),
         "action_avg": {
             op: mean(game["actions"].get(op, 0) for game in games) for op in action_names
+        },
+        "transition_avg": {
+            transition: mean(game["transitions"].get(transition, 0) for game in games)
+            for transition in transition_names
+        },
+        "plant_hour_avg": {
+            str(hour): mean(game["plant_hours"].get(str(hour), 0) for game in games)
+            for hour in range(24)
+            if any(game["plant_hours"].get(str(hour), 0) for game in games)
         },
         "daily": {
             str(day): {
