@@ -1,0 +1,16 @@
+{
+  "name": "v8",
+  "version": "8.0.0",
+  "description": "Confidence-gated Top-3 multi-horizon expert strategy on the V7 feasible executor",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "language": "python",
+    "network": false,
+    "mutable_episode_state": false
+  },
+  "selection": {
+    "primary_metric": "held-out expert trajectory fidelity",
+    "old_agent_win_rate": false,
+    "teacher_episodes": 447
+  }
+}

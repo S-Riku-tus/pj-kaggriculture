@@ -1,0 +1,26 @@
+{
+  "name": "v9",
+  "version": "9.0.0",
+  "description": "Confidence-gated Rank-1 decision intent and market policy on V8's deterministic executor",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "language": "python",
+    "network": false,
+    "mutable_episode_state": false
+  },
+  "selection": {
+    "primary_metric": "episode-held-out expert macro-decision fidelity",
+    "old_agent_win_rate": false,
+    "teacher_episodes": 133,
+    "train_episodes": 69,
+    "validation_episodes": 25,
+    "untouched_test_episodes": 39
+  },
+  "active_controls": {
+    "market_policy": true,
+    "bounded_land_crop_intent": true,
+    "soft_option_value_cap": true,
+    "direct_herd_purchase_intent": false,
+    "mission_continuation_experiment": false
+  }
+}

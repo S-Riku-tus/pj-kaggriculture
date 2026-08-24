@@ -27,6 +27,10 @@ def _snapshot(obs: dict[str, Any], seat: int) -> dict[str, Any]:
     placed: Counter[str] = Counter()
     pastures = 0
     weeds = 0
+    unfed = 0
+    unwatered = 0
+    max_consecutive_unfed = 0
+    max_consecutive_unwatered = 0
     for row in farm.get("tiles") or []:
         for tile in row:
             if not isinstance(tile, dict):
@@ -35,6 +39,13 @@ def _snapshot(obs: dict[str, Any], seat: int) -> dict[str, Any]:
                 crops[str(tile.get("crop"))] += 1
             if tile.get("kind") == "PASTURE":
                 pastures += 1
+                consecutive = max(0, int(tile.get("consecutive_unfed", 0) or 0))
+                unfed += consecutive > 0
+                max_consecutive_unfed = max(max_consecutive_unfed, consecutive)
+            if tile.get("kind") == "PLANT":
+                consecutive = max(0, int(tile.get("consecutive_unwatered", 0) or 0))
+                unwatered += consecutive > 0
+                max_consecutive_unwatered = max(max_consecutive_unwatered, consecutive)
             if tile.get("kind") == "WEED":
                 weeds += 1
             if tile.get("animal") in ANIMALS:
@@ -55,6 +66,10 @@ def _snapshot(obs: dict[str, Any], seat: int) -> dict[str, Any]:
         "empty_tiles": max(0, unlocked * 25 - productive - weeds - empty_structures),
         "pastures": pastures,
         "weeds": weeds,
+        "unfed": unfed,
+        "unwatered": unwatered,
+        "max_consecutive_unfed": max_consecutive_unfed,
+        "max_consecutive_unwatered": max_consecutive_unwatered,
         "placed": dict(placed),
         "owned": dict(owned),
         "crops": dict(crops),
@@ -79,14 +94,37 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
     checkpoints: dict[str, dict[str, Any]] = {}
     last_day = -1
     final_obs: dict[str, Any] = {}
+    previous_owned: dict[str, int] | None = None
+    animal_loss_events: Counter[str] = Counter()
+    max_unfed = 0
+    max_unwatered = 0
+    max_consecutive_unfed = 0
+    max_consecutive_unwatered = 0
+    minimum_money = float("inf")
     for states in replay.get("steps") or []:
         state = states[seat]
         obs = state.get("observation") or {}
         day = int(obs.get("day") or 0)
         if day != last_day:
             last_day = day
+            day_snapshot = _snapshot(obs, seat)
+            minimum_money = min(minimum_money, day_snapshot["money"])
+            max_unfed = max(max_unfed, day_snapshot["unfed"])
+            max_unwatered = max(max_unwatered, day_snapshot["unwatered"])
+            max_consecutive_unfed = max(
+                max_consecutive_unfed, day_snapshot["max_consecutive_unfed"]
+            )
+            max_consecutive_unwatered = max(
+                max_consecutive_unwatered, day_snapshot["max_consecutive_unwatered"]
+            )
+            if previous_owned is not None:
+                for animal in ANIMALS:
+                    decline = previous_owned.get(animal, 0) - day_snapshot["owned"].get(animal, 0)
+                    if decline > 0:
+                        animal_loss_events[animal] += decline
+            previous_owned = dict(day_snapshot["owned"])
             if day in CHECKPOINTS:
-                checkpoints[str(day)] = _snapshot(obs, seat)
+                checkpoints[str(day)] = day_snapshot
         if previous_observation is None:
             previous_observation = obs
             final_obs = obs
@@ -150,6 +188,14 @@ def analyze_game(game: dict[str, Any]) -> dict[str, Any]:
         "daily_market": {str(day): dict(counts) for day, counts in daily_market.items()},
         "checkpoints": checkpoints,
         "final": final,
+        "safety": {
+            "animal_loss_events": dict(animal_loss_events),
+            "max_unfed_at_day_start": max_unfed,
+            "max_unwatered_at_day_start": max_unwatered,
+            "max_consecutive_unfed": max_consecutive_unfed,
+            "max_consecutive_unwatered": max_consecutive_unwatered,
+            "minimum_day_start_money": minimum_money if minimum_money != float("inf") else 0.0,
+        },
     }
 
 
@@ -250,6 +296,22 @@ def main() -> None:
             if any(str(day) in game["checkpoints"] for game in games)
         },
         "final_seed_units": mean(game["final"]["seed_units"] for game in games),
+        "safety": {
+            "games_with_animal_loss": sum(bool(game["safety"]["animal_loss_events"]) for game in games),
+            "animal_loss_events": {
+                animal: sum(game["safety"]["animal_loss_events"].get(animal, 0) for game in games)
+                for animal in ANIMALS
+            },
+            "max_unfed_at_day_start": max(game["safety"]["max_unfed_at_day_start"] for game in games),
+            "max_unwatered_at_day_start": max(
+                game["safety"]["max_unwatered_at_day_start"] for game in games
+            ),
+            "max_consecutive_unfed": max(game["safety"]["max_consecutive_unfed"] for game in games),
+            "max_consecutive_unwatered": max(
+                game["safety"]["max_consecutive_unwatered"] for game in games
+            ),
+            "minimum_day_start_money": min(game["safety"]["minimum_day_start_money"] for game in games),
+        },
         "games_detail": games,
     }
     output = args.output
