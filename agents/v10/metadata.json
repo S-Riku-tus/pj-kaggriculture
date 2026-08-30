@@ -1,0 +1,34 @@
+{
+  "name": "v10",
+  "version": "10.0.0",
+  "description": "Top-team future-state recovery with OOD-gated targets and deterministic safety",
+  "runtime": {
+    "entrypoint": "main.py:agent",
+    "language": "python",
+    "network": false,
+    "mutable_episode_state": false
+  },
+  "selection": {
+    "primary_evidence": "whole-episode top-team replay gaps, future-state trajectories, lower tails, and safety",
+    "old_agent_win_rate": false,
+    "student_public_episodes": 55,
+    "rank1_teacher_episodes": 133,
+    "rank2_teacher_episodes": 130,
+    "rank3_teacher_episodes": 184,
+    "rating_guarantee": false
+  },
+  "active_controls": {
+    "v9_strategy_atlas_and_ood_gate": true,
+    "demand_conditioned_herd": true,
+    "day12_productive_portfolio": true,
+    "late_wheat_future_state": true,
+    "early_strawberry_execution": true,
+    "underutilized_refill": true,
+    "safe_local_watering": true,
+    "idle_worker_prepositioning": true,
+    "expiry_safe_animal_placement": true,
+    "early_fertilizer_working_capital": true,
+    "deterministic_feed_and_budget_safety": true,
+    "mission_continuation_experiment": false
+  }
+}

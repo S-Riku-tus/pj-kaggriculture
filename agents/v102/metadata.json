@@ -1,0 +1,10 @@
+{
+  "version": "v102",
+  "base": "v11",
+  "candidate_layer": "narrow v14 winner-recovery crop projection",
+  "status": "neutral-no-action-effect",
+  "teacher_sources": ["rank1", "rank2", "rank3", "opponents"],
+  "validation": "episode-disjoint future-goal fidelity; eight targeted replay forks produced identical actions and trajectories",
+  "rating_target": 3000,
+  "rating_claim": "unverified"
+}

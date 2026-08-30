@@ -1,0 +1,15 @@
+{
+  "version": "v103",
+  "base": "v11",
+  "entry_gate": "v102 episode-held-out recovery meta-gate",
+  "status": "neutral-no-action-effect-disabled",
+  "runtime_change": "hold only a strategic crop goal for at most 12 turns; replan all actions deterministically",
+  "rating_target": 3000,
+  "rating_claim": "unverified",
+  "replay_fork_evidence": {
+    "episodes": 8,
+    "action_differences": 0,
+    "reward_differences": 0,
+    "runtime_failures": 0
+  }
+}

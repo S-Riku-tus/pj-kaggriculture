@@ -4,6 +4,7 @@ import zipfile
 
 from scripts.fetch_submission_logs import (
     EpisodeRecord,
+    build_parser,
     create_battle_log_archive,
     detect_submission_seat,
     extract_observation_logs,
@@ -98,6 +99,14 @@ def test_submission_storage_name_includes_agent_version() -> None:
     assert submission_storage_name(55649709, "v1") == "v1_submission_55649709"
     assert submission_storage_name(55649709, "economic core/v2") == "economic_core_v2_submission_55649709"
     assert submission_storage_name(55649709, "") == "submission_55649709"
+
+
+def test_parser_accepts_disjoint_episode_slice() -> None:
+    args = build_parser().parse_args(
+        ["--submission-id", "123", "--skip-episodes", "24", "--max-episodes", "16"]
+    )
+    assert args.skip_episodes == 24
+    assert args.max_episodes == 16
 
 
 def test_create_battle_log_archive_preserves_data_layout(tmp_path) -> None:

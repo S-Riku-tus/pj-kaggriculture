@@ -421,6 +421,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--sleep", type=float, default=0.5)
     parser.add_argument("--max-episodes", type=int, default=0)
+    parser.add_argument(
+        "--skip-episodes",
+        type=int,
+        default=0,
+        help="Skip this many EpisodeService rows before applying --max-episodes.",
+    )
     parser.add_argument("--after-episode-id", type=int, default=0)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument(
@@ -457,6 +463,8 @@ def run(args: argparse.Namespace) -> int:
 
     if args.after_episode_id > 0:
         episodes = [episode for episode in episodes if episode.episode_id > args.after_episode_id]
+    if args.skip_episodes > 0:
+        episodes = episodes[args.skip_episodes :]
     if args.max_episodes > 0:
         episodes = episodes[: args.max_episodes]
 
