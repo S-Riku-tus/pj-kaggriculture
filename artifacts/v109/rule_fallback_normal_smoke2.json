@@ -1,0 +1,314 @@
+{
+  "created_at": "2026-08-30T20:28:51.546657+09:00",
+  "purpose": "safety/state-coverage diagnostics; not a promotion-by-old-agent-win-rate test",
+  "configuration": {
+    "pairs": 1,
+    "seed": 20260852,
+    "both_seats": true,
+    "force_fallback_step": null
+  },
+  "results": {
+    "kaggriculture-public-v27": {
+      "opponent": "C:\\tmp\\kaggriculture-public-v27\\main.py",
+      "summary": {
+        "games": 2,
+        "completed": 2,
+        "wins_diagnostic_only": 2,
+        "reward": {
+          "mean": 85395.0,
+          "median": 85395.0,
+          "minimum": 85395.0,
+          "p10_nearest_rank": 85395.0
+        },
+        "margin": {
+          "mean": 2857.0,
+          "median": 2857.0,
+          "minimum": 2857.0,
+          "p10_nearest_rank": 2857.0
+        },
+        "action_utilization": {
+          "mean": 0.942299411511411,
+          "minimum": 0.942299411511411
+        },
+        "minimum_cash": 9.0,
+        "animal_losses": 0,
+        "fallback_games": 2,
+        "fallback_steps": 908,
+        "demand_groups": {
+          "BRUNCH_SPOT+FARMERS_MARKET+FARMERS_MARKET+ICE_CREAM_SHOP+ICE_CREAM_SHOP+YARN_STORE+YARN_STORE+YARN_STORE": {
+            "games": 2,
+            "mean_reward": 85395.0,
+            "minimum_reward": 85395.0,
+            "mean_margin": 2857.0
+          }
+        }
+      },
+      "games": [
+        {
+          "seed": 20260852,
+          "seat": 0,
+          "ours": 85395.0,
+          "theirs": 82538.0,
+          "margin": 2857.0,
+          "win": true,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "action_utilization": 0.942299411511411,
+          "minimum_cash": 9.0,
+          "animal_losses": 0,
+          "fallback_steps": 454,
+          "fallback_first_step": 265,
+          "fallback_reason": "third-land-missing",
+          "shops": [
+            "BRUNCH_SPOT",
+            "FARMERS_MARKET",
+            "FARMERS_MARKET",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "YARN_STORE",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "checkpoints": {
+            "24": {
+              "money": 168.0,
+              "hands": 0,
+              "land": 1,
+              "productive_tiles": 16,
+              "utilization": 0.64,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "MELON": 7,
+                "WHEAT": 5
+              },
+              "animals": {
+                "SHEEP": 4
+              }
+            },
+            "72": {
+              "money": 320.0,
+              "hands": 0,
+              "land": 1,
+              "productive_tiles": 21,
+              "utilization": 0.84,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "MELON": 7,
+                "STRAWBERRY": 2,
+                "WHEAT": 8
+              },
+              "animals": {
+                "SHEEP": 4
+              }
+            },
+            "168": {
+              "money": 3146.0,
+              "hands": 0,
+              "land": 2,
+              "productive_tiles": 34,
+              "utilization": 0.68,
+              "weeds": 0,
+              "max_consecutive_unfed": 1,
+              "crops": {
+                "MELON": 7,
+                "STRAWBERRY": 14,
+                "WHEAT": 7
+              },
+              "animals": {
+                "COW": 2,
+                "SHEEP": 4
+              }
+            },
+            "264": {
+              "money": 10938.0,
+              "hands": 0,
+              "land": 2,
+              "productive_tiles": 48,
+              "utilization": 0.96,
+              "weeds": 1,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "STRAWBERRY": 26,
+                "WHEAT": 6
+              },
+              "animals": {
+                "COW": 6,
+                "SHEEP": 10
+              }
+            },
+            "480": {
+              "money": 47920.0,
+              "hands": 0,
+              "land": 3,
+              "productive_tiles": 67,
+              "utilization": 0.8933333333333333,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "STRAWBERRY": 31,
+                "WHEAT": 20
+              },
+              "animals": {
+                "COW": 6,
+                "SHEEP": 10
+              }
+            },
+            "648": {
+              "money": 70403.0,
+              "hands": 0,
+              "land": 3,
+              "productive_tiles": 63,
+              "utilization": 0.84,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "STRAWBERRY": 8,
+                "WHEAT": 39
+              },
+              "animals": {
+                "COW": 6,
+                "SHEEP": 10
+              }
+            }
+          }
+        },
+        {
+          "seed": 20260852,
+          "seat": 1,
+          "ours": 85395.0,
+          "theirs": 82538.0,
+          "margin": 2857.0,
+          "win": true,
+          "statuses": [
+            "DONE",
+            "DONE"
+          ],
+          "action_utilization": 0.942299411511411,
+          "minimum_cash": 9.0,
+          "animal_losses": 0,
+          "fallback_steps": 454,
+          "fallback_first_step": 265,
+          "fallback_reason": "third-land-missing",
+          "shops": [
+            "BRUNCH_SPOT",
+            "FARMERS_MARKET",
+            "FARMERS_MARKET",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "YARN_STORE",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "checkpoints": {
+            "24": {
+              "money": 168.0,
+              "hands": 0,
+              "land": 1,
+              "productive_tiles": 16,
+              "utilization": 0.64,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "MELON": 7,
+                "WHEAT": 5
+              },
+              "animals": {
+                "SHEEP": 4
+              }
+            },
+            "72": {
+              "money": 320.0,
+              "hands": 0,
+              "land": 1,
+              "productive_tiles": 21,
+              "utilization": 0.84,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "MELON": 7,
+                "STRAWBERRY": 2,
+                "WHEAT": 8
+              },
+              "animals": {
+                "SHEEP": 4
+              }
+            },
+            "168": {
+              "money": 3146.0,
+              "hands": 0,
+              "land": 2,
+              "productive_tiles": 34,
+              "utilization": 0.68,
+              "weeds": 0,
+              "max_consecutive_unfed": 1,
+              "crops": {
+                "MELON": 7,
+                "STRAWBERRY": 14,
+                "WHEAT": 7
+              },
+              "animals": {
+                "COW": 2,
+                "SHEEP": 4
+              }
+            },
+            "264": {
+              "money": 10938.0,
+              "hands": 0,
+              "land": 2,
+              "productive_tiles": 48,
+              "utilization": 0.96,
+              "weeds": 1,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "STRAWBERRY": 26,
+                "WHEAT": 6
+              },
+              "animals": {
+                "COW": 6,
+                "SHEEP": 10
+              }
+            },
+            "480": {
+              "money": 47920.0,
+              "hands": 0,
+              "land": 3,
+              "productive_tiles": 67,
+              "utilization": 0.8933333333333333,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "STRAWBERRY": 31,
+                "WHEAT": 20
+              },
+              "animals": {
+                "COW": 6,
+                "SHEEP": 10
+              }
+            },
+            "648": {
+              "money": 70403.0,
+              "hands": 0,
+              "land": 3,
+              "productive_tiles": 63,
+              "utilization": 0.84,
+              "weeds": 0,
+              "max_consecutive_unfed": 0,
+              "crops": {
+                "STRAWBERRY": 8,
+                "WHEAT": 39
+              },
+              "animals": {
+                "COW": 6,
+                "SHEEP": 10
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

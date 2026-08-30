@@ -54,6 +54,14 @@ def slug(value: str) -> str:
     return re.sub(r"[^A-Za-z0-9_.-]+", "_", label).strip("_") or "opponent"
 
 
+def display_path(path: Path) -> str:
+    """Prefer a repository-relative path, but allow external reference agents."""
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
 def run_one(
     agent_path: Path,
     opponent: str,
@@ -134,7 +142,7 @@ def main() -> None:
     }
     payload = {
         "created_at": created_at.isoformat(),
-        "agent": str(agent_path.relative_to(ROOT)),
+        "agent": display_path(agent_path),
         "opponent": args.opponent,
         "configuration": {
             "pairs": args.pairs,

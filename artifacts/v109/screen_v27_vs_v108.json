@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-08-30T19:53:07.911298+09:00",
+  "agent": "C:\\tmp\\kaggriculture-public-v27\\main.py",
+  "opponent": "agents\\v108\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 20260830,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 91063.5,
+    "mean_opponent_reward": 63798.0,
+    "mean_margin": 27265.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 20260830,
+      "seat": 0,
+      "ours": 97496.0,
+      "theirs": 73181.0,
+      "margin": 24315.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 20260830,
+      "seat": 1,
+      "ours": 97496.0,
+      "theirs": 73181.0,
+      "margin": 24315.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 20260831,
+      "seat": 0,
+      "ours": 84631.0,
+      "theirs": 54415.0,
+      "margin": 30216.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 20260831,
+      "seat": 1,
+      "ours": 84631.0,
+      "theirs": 54415.0,
+      "margin": 30216.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}
