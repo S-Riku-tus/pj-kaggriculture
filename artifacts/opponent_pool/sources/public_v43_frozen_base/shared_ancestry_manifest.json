@@ -1,0 +1,107 @@
+{
+  "schema_version": "gold-opponent-fixture-v1",
+  "created_at": "2026-09-01",
+  "grade": "Gold",
+  "shared_ancestry_id": "public-v43-exact-69f06a802b62",
+  "source": {
+    "workspace_path": "agents/v109/public_v43_base.py",
+    "original_local_path": "C:/tmp/kaggriculture-public-v43/main.py",
+    "sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+    "hash_guarded": true,
+    "production_agent_modified": false
+  },
+  "ancestry_policy": {
+    "implementation_source_count": 1,
+    "forced_continuation_probe_count": 3,
+    "independence_note": "The three fixtures can form distinct executed-action clusters, but share one implementation ancestor and must not be counted as three independent source lineages.",
+    "common_raw_route_prefix_last_step": 87,
+    "raw_route_first_divergence": {
+      "default_vs_yarn_first": 88,
+      "default_vs_yarn_second": 153,
+      "yarn_first_vs_yarn_second": 88
+    }
+  },
+  "fixtures": [
+    {
+      "fixture_id": "public_v43_forced_default",
+      "entrypoint": "artifacts/opponent_pool/sources/public_v43_forced_default/main.py",
+      "entrypoint_sha256": "abcc50f2fb5574caf75f510be81396a913ca2fd14296ddb0c9f773ab693b9fbf",
+      "forced_route": "default"
+    },
+    {
+      "fixture_id": "public_v43_forced_yarn_first",
+      "entrypoint": "artifacts/opponent_pool/sources/public_v43_forced_yarn_first/main.py",
+      "entrypoint_sha256": "7c4e8bcb693c508d2d1ff820e9e2fd9d3bb0708d030d7fa590309987c65e3b21",
+      "forced_route": "yarn_first"
+    },
+    {
+      "fixture_id": "public_v43_forced_yarn_second",
+      "entrypoint": "artifacts/opponent_pool/sources/public_v43_forced_yarn_second/main.py",
+      "entrypoint_sha256": "dbf1c2d9738ed406a5f9dd6c28bab9728958853311b18c7d9c9626e742bf9a13",
+      "forced_route": "yarn_second"
+    }
+  ],
+  "frozen_loader": {
+    "entrypoint": "artifacts/opponent_pool/sources/public_v43_frozen_base/main.py",
+    "sha256": "e33ebd08987edabf08e66293269add0f996bc5d7edc974dbb19d5b93b83c2421"
+  },
+  "validation": {
+    "command": ".venv/Scripts/python.exe scripts/validate_public_v43_fixtures.py --seed 29114343 --workers 6 --compact",
+    "validator_sha256": "e65d82e156e52db85d2b029286e82ceafbd21d66e9aec8df824b630ed5138113",
+    "seed": 29114343,
+    "episode_steps": 720,
+    "decision_count": 719,
+    "last_decision_step": 718,
+    "checkpoint_semantics": "A checkpoint N hash covers the first min(N, 719) emitted actions. Checkpoint 719 therefore covers the complete stream; its last emitted action is decision step 718.",
+    "all_terminal_statuses": "DONE/DONE",
+    "all_fixture_fallback_counts": 0,
+    "rows": [
+      {
+        "fixture_id": "public_v43_forced_default",
+        "champion_seat": 0,
+        "champion_margin": 1785.0,
+        "prefix_hashes_24_100_200_400_719": ["e54f0394432d7890a030", "7ec6681b25cdba59c487", "c13200b55cc3d3a7ea35", "4b254f701db8952b2f52", "fd0ecaad7813343ca150"]
+      },
+      {
+        "fixture_id": "public_v43_forced_default",
+        "champion_seat": 1,
+        "champion_margin": 1785.0,
+        "prefix_hashes_24_100_200_400_719": ["e54f0394432d7890a030", "7ec6681b25cdba59c487", "c13200b55cc3d3a7ea35", "4b254f701db8952b2f52", "fd0ecaad7813343ca150"]
+      },
+      {
+        "fixture_id": "public_v43_forced_yarn_first",
+        "champion_seat": 0,
+        "champion_margin": 52919.0,
+        "prefix_hashes_24_100_200_400_719": ["e54f0394432d7890a030", "596b0917e8cd6b09945d", "4fd31a0e35e89644cc46", "cc3cea7fbe1330b5b826", "6e8d0bf7a79017942bf0"]
+      },
+      {
+        "fixture_id": "public_v43_forced_yarn_first",
+        "champion_seat": 1,
+        "champion_margin": 51942.0,
+        "prefix_hashes_24_100_200_400_719": ["e54f0394432d7890a030", "596b0917e8cd6b09945d", "4fd31a0e35e89644cc46", "aead23b95b9b26e7980d", "b9ee2858398ea1af9100"]
+      },
+      {
+        "fixture_id": "public_v43_forced_yarn_second",
+        "champion_seat": 0,
+        "champion_margin": 40236.0,
+        "prefix_hashes_24_100_200_400_719": ["e54f0394432d7890a030", "7ec6681b25cdba59c487", "65fc0bf5a42f0cf9fa23", "bb161d6936cfeeb1be3b", "bc26bdeea4c1f23641cf"]
+      },
+      {
+        "fixture_id": "public_v43_forced_yarn_second",
+        "champion_seat": 1,
+        "champion_margin": 39773.0,
+        "prefix_hashes_24_100_200_400_719": ["e54f0394432d7890a030", "7ec6681b25cdba59c487", "65fc0bf5a42f0cf9fa23", "bb161d6936cfeeb1be3b", "06105247c83d4c391d09"]
+      }
+    ],
+    "representative_actions_champion_seat_0": {
+      "step_24_all_routes": {"farmer": ["PICKUP", "WHEAT", 4], "hands": [], "market": [["BUY_PRODUCT", "WHEAT", 5], ["BUY_SEED", "WHEAT", 1]]},
+      "step_100_all_routes": {"farmer": ["COLLECT_FERTILIZER"], "hands": [["NORTH"], ["WATER"], ["NORTH"]], "market": []},
+      "step_200_default": {"farmer": ["EAST"], "hand_ops": ["CARE", "HARVEST", "NORTH", "CARE", "WATER", "WEST", "NORTH"], "market": []},
+      "step_200_yarn_first": {"farmer": ["PLACE", "COW"], "hand_ops": ["CARE", "WATER", "WATER", "CARE", "WATER", "WATER"], "market": []},
+      "step_200_yarn_second": {"farmer": ["FEED"], "hand_ops": ["FEED", "HARVEST", "FEED", "WEST"], "market": []},
+      "step_400_default": {"farmer": ["CARE"], "hand_ops": ["NORTH", "FEED", "COLLECT_FERTILIZER", "WATER", "CARE", "NORTH", "WEST", "NORTH", "EAST", "SOUTH", "SOUTH"], "market": []},
+      "step_400_yarn_first": {"farmer": ["WEST"], "hand_ops": ["FEED", "COLLECT_FERTILIZER", "COLLECT_FERTILIZER", "SOUTH", "WEST", "EAST", "WEST", "WATER", "WEST", "SOUTH", "WATER"], "market": []},
+      "step_400_yarn_second": {"farmer": ["FEED"], "hand_ops": ["FEED", "CARE", "WEST", "SOUTH", "WEST", "WATER", "SOUTH", "EAST", "WEST", "EAST", "EAST", "PASS"], "market": []}
+    }
+  }
+}

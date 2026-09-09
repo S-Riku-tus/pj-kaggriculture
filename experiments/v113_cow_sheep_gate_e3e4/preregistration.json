@@ -1,0 +1,253 @@
+{
+  "format": "kaggriculture-experiment-preregistration-v1",
+  "frozen_at": "2026-09-01T20:20:33.1968332+09:00",
+  "hypothesis_id": "H-V113-GENERALIZED-COW-SHEEP-001",
+  "hypothesis": "Relative to the v111-equivalent gate-disabled control, enabling only the v113 tilt>=1.5 generalized Cow2-to-Sheep2 gate increases paired closed-loop win probability against executable Gold opponents without a new safety regression, pre-intervention divergence, or material major-lineage harm.",
+  "preregistration_scope": {
+    "frozen_before": "all fast-screen and formal-promotion games using the seed manifest below",
+    "already_seen_and_excluded_from_fresh_claims": [
+      "Top1-3 latest 366 replay threshold/model analyses",
+      "historical v14 diagnostic seed 20260901 including the known seat1 anomaly",
+      "archive smoke tests and control-equivalence checks"
+    ],
+    "note": "This is a preregistration of the unused executable-opponent Promotion cohort, not a claim that candidate selection or the Top-366 Development corpus was blinded."
+  },
+  "dataset_roles": {
+    "top_366_replays": "Development",
+    "bronze_continuation_analysis": "Development",
+    "known_v14_seed_20260901": "Development",
+    "gold_fast_screen": "Promotion",
+    "gold_formal_promotion": "Promotion",
+    "fresh_holdout": "Fresh Holdout (reserved and not sampled in this experiment)"
+  },
+  "arms": {
+    "control": {
+      "name": "Champion v111-equivalent",
+      "repository_commit": "7c4577f9fc1ba7366859700d2f63b34c27a30b29",
+      "source_reference": "agents/v111/main.py",
+      "source_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+      "model_reference": "agents/v111/strategy_model.json",
+      "model_sha256": "5bd9f7c69e5226262c711196256ba148ccfdd24108c989251fa1f1440d46ee23",
+      "archive": "artifacts/evaluation/v113_cow_sheep/control.tar.gz",
+      "sha256": "85337f8390094f162e3ab7476f8e8575310e0f16aa0a9a4a2659bc3648e73871",
+      "runtime_overrides": {
+        "ENABLE_GENERALIZED_ANIMAL_GATE": false,
+        "ENABLE_PREMIUM_FIRST": false
+      },
+      "equivalence_claim": "Same v113 wrapper/clock/model package as Treatment with the generalized gate disabled; smoke traces matched v111 actions exactly."
+    },
+    "treatment": {
+      "name": "Challenger v113 generalized gate",
+      "repository_commit": "7c4577f9fc1ba7366859700d2f63b34c27a30b29",
+      "source_reference": "agents/v113/main.py",
+      "source_sha256": "5c984877b7b03c51304b9a2ee1e0b92788e8b161a1cf426c6b1db98743f49f4e",
+      "archive": "artifacts/evaluation/v113_cow_sheep/treatment.tar.gz",
+      "sha256": "8e70f27af32ff0b469cf60d7822faf9ccf7371ba4bc0fd293de61815a752221d",
+      "runtime_overrides": {
+        "ENABLE_GENERALIZED_ANIMAL_GATE": true,
+        "ENABLE_PREMIUM_FIRST": false
+      },
+      "allowed_difference": "Only the tilt>=1.5 generalized Cow2-to-Sheep2 gate and its closed-loop causal descendants."
+    }
+  },
+  "opponent_pool": [
+    {
+      "lineage_id": "gold_v14",
+      "name": "local-v14",
+      "tier": "Gold",
+      "path": "agents/v14/main.py",
+      "sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7",
+      "meta_weight": 0.2
+    },
+    {
+      "lineage_id": "gold_v18",
+      "name": "local-v18",
+      "tier": "Gold",
+      "path": "agents/v18/main.py",
+      "sha256": "c952c06e6226dc2d056bf28382e25e6bc4c03ec0c67b700f763dda8a0dceef85",
+      "meta_weight": 0.2
+    },
+    {
+      "lineage_id": "gold_public_v27",
+      "name": "public-v27-executable",
+      "tier": "Gold",
+      "path": "agents/v112/main.py",
+      "sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+      "meta_weight": 0.2
+    },
+    {
+      "lineage_id": "gold_public_v43",
+      "name": "public-v43-executable",
+      "tier": "Gold",
+      "path": "agents/v109/public_v43_base.py",
+      "sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+      "meta_weight": 0.2
+    },
+    {
+      "lineage_id": "gold_v11",
+      "name": "local-v11",
+      "tier": "Gold",
+      "path": "agents/v11/main.py",
+      "sha256": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+      "meta_weight": 0.2
+    }
+  ],
+  "meta_weighting": {
+    "name": "equal-Gold current-meta proxy",
+    "source": "No defensible mapping exists from the current Bronze replay lineages to these executable Gold source lineages, so equal 0.2 weights are frozen as an explicit proxy and Macro-lineage is reported separately.",
+    "verified_current_meta_mapping": false,
+    "limitation": "The proxy must not be relabeled as an empirically measured current-meta frequency distribution."
+  },
+  "seed_manifest": {
+    "fast_screen": [
+      19135001
+    ],
+    "formal_promotion": [
+      19135101,
+      19135102,
+      19135103,
+      19135104,
+      19135105,
+      19135106
+    ],
+    "fresh_holdout": []
+  },
+  "seat_configuration": {
+    "seats": [
+      0,
+      1
+    ],
+    "episode_steps": 720,
+    "pairing": "For every opponent lineage, requested seed, and focal seat, run Control and Treatment from turn 0. Both seats are retained in the same seed cluster.",
+    "required_pre_branch_identity": true
+  },
+  "intervention": {
+    "signal_step": 216,
+    "first_allowed_action_step": 248,
+    "expected_first_action_difference": "Exactly one market order changes from BUY_ANIMAL COW 2 to BUY_ANIMAL SHEEP 2; field and other market actions remain identical at first divergence.",
+    "two_stage_gate": "Not implemented or evaluated in this experiment."
+  },
+  "evaluator": {
+    "version": "champion-challenger-v1",
+    "files": [
+      "scripts/evaluation/__init__.py",
+      "scripts/evaluation/schema.py",
+      "scripts/evaluation/replay.py",
+      "scripts/evaluation/divergence.py",
+      "scripts/evaluation/safety.py",
+      "scripts/evaluation/statistics.py",
+      "scripts/evaluation/registry.py",
+      "scripts/evaluation/runner.py",
+      "scripts/evaluation/report.py",
+      "scripts/evaluate_v113_champion_challenger.py"
+    ],
+    "sha256": "4f234c9d0d470f580ee639e53634f87f1081a2c7ddd57b97e4e5a15c450defcc"
+  },
+  "engine": {
+    "name": "kaggriculture",
+    "version": "kaggle-environments 1.32.7",
+    "source_path": ".venv/Lib/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "statistics": {
+    "primary_outcome": "paired delta win score (win=1, draw=0.5, loss=0)",
+    "strict_win_rate_reported_separately": true,
+    "independent_unit": "executable opponent source/action lineage",
+    "cluster_hierarchy": "lineage -> requested seed, retaining both seats within each sampled seed",
+    "bootstrap_repetitions": 5000,
+    "bootstrap_seed": 11320260901,
+    "confidence_level": 0.95,
+    "bradley_terry": "diagnostic only; Pairwise Payoff Matrix remains authoritative"
+  },
+  "robust_meta": {
+    "weight_radius": 0.1,
+    "scenario_rule": "Move each lineage weight up/down by 0.10 in turn and renormalize all other frozen weights proportionally."
+  },
+  "fast_screen": {
+    "purpose": "Negative-only early rejection; a positive screen is not evidence of strength.",
+    "harm_discordance_tolerance": 1,
+    "stop_on_candidate_safety_or_isolation_failure": true
+  },
+  "diagnostic_reproduction": {
+    "lineage_id": "gold_v14",
+    "seed": 20260901,
+    "seat": 1,
+    "historical_observation": {
+      "delta_self_coin": 10828.0,
+      "delta_opponent_coin": 21305.0,
+      "delta_margin": -10477.0
+    },
+    "role": "Development First Divergence Audit only; excluded from formal Promotion estimates"
+  },
+  "bronze_evidence": {
+    "analysis_path": "data/analysis/v113_continuation_package_bronze.json",
+    "tier": "Bronze",
+    "allowed_use": "E1 descriptive hypothesis generation and state-model diagnostics only",
+    "forbidden_use": "closed-loop counterfactual win-rate or production promotion evidence"
+  },
+  "evidence_policy": {
+    "levels": {
+      "E0": "engine mechanics",
+      "E1": "replay descriptive correlation",
+      "E2": "lineage-held-out predictive validation",
+      "E3": "paired causal experiment against executable opponents",
+      "E4": "diverse meta tournament",
+      "E5": "fresh holdout",
+      "E6": "live ladder evidence"
+    },
+    "production_promotion_requires": [
+      "E4",
+      "E5"
+    ],
+    "no_composite_score_rescue": true,
+    "bronze_replay_is_not_closed_loop_evidence": true
+  },
+  "promotion_criteria": {
+    "engine_correctness": {
+      "all_archive_hashes_verified": true,
+      "all_games_complete_720": true,
+      "maximum_new_major_regressions": 0,
+      "required_audits": [
+        "runtime exception",
+        "animal loss",
+        "plant-to-weed",
+        "cash floor",
+        "fallback",
+        "OOD",
+        "silent illegal/no-op",
+        "transaction incomplete",
+        "seat swap completeness",
+        "archive-only execution"
+      ]
+    },
+    "behavioral_isolation": {
+      "maximum_invalid_pairs": 0,
+      "inactive_pairs_require_exact_identity": true,
+      "first_divergence_must_match_expected_rewrite": true
+    },
+    "trigger_causal_uplift": {
+      "minimum_trigger_requests": 8,
+      "minimum_delta_win_score_low_95": 0.0,
+      "require_loss_to_win_greater_than_win_to_loss": true,
+      "harm_reject_delta_win_score": -0.05
+    },
+    "diverse_meta_payoff_improvement": {
+      "minimum_independent_lineages": 5,
+      "minimum_meta_delta_low_95": 0.0,
+      "minimum_macro_delta_low_95": 0.0,
+      "major_lineage_minimum_weight": 0.1,
+      "major_lineage_delta_floor": -0.1,
+      "harm_reject_meta_delta": -0.05,
+      "pairwise_matrix_required": true
+    },
+    "robustness": {
+      "minimum_worst_scenario_delta": 0.0,
+      "harm_reject_worst_delta": -0.05
+    },
+    "fresh_holdout": {
+      "required": true,
+      "minimum_delta_win_score_low_95": 0.0,
+      "threshold_or_feature_change_contaminates_holdout": true
+    }
+  }
+}

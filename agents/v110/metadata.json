@@ -1,0 +1,9 @@
+{
+  "version": "v110",
+  "base": "v109-current-meta-route",
+  "strategy": "public-transition near-clone front-run; opponent phase is diagnostic-only",
+  "fallback": "unchanged v109 route, then model-disabled-v11 deterministic executor",
+  "status": "offline-validated-live-unverified-candidate",
+  "rating_target": 3000,
+  "rating_claim": "unverified"
+}

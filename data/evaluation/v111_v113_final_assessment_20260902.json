@@ -1,0 +1,2028 @@
+{
+  "format": "kaggriculture-v111-v113-final-research-assessment-v1",
+  "source_snapshot_date": "2026-09-02",
+  "immutable_preservation": {
+    "all_valid": true,
+    "sources_modified_by_builder": false,
+    "checks": [
+      {
+        "path": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/experiment_result.json",
+        "expected_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+        "actual_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+        "valid": true
+      },
+      {
+        "path": "data/evaluation/v113_live_e6_55933145/immutable_raw_manifest.json",
+        "expected_sha256": "ec5394577555ba7a114bd1729df033e9403812b162e339862fe10cade5ff8f1b",
+        "actual_sha256": "ec5394577555ba7a114bd1729df033e9403812b162e339862fe10cade5ff8f1b",
+        "valid": true
+      },
+      {
+        "path": "data/evaluation/v111_v113_expanded_20260902/experiment_result.json",
+        "expected_sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+        "actual_sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+        "valid": true
+      },
+      {
+        "path": "data/evaluation/v111_v113_public_gold_addendum_20260902/experiment_result.json",
+        "expected_sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+        "actual_sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+        "valid": true
+      },
+      {
+        "path": "data/evaluation/v111_v113_expanded_20260902/immutable_result_manifest.json",
+        "declared_result_sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+        "actual_result_sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+        "valid": true
+      },
+      {
+        "path": "data/evaluation/v111_v113_public_gold_addendum_20260902/immutable_result_manifest.json",
+        "declared_result_sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+        "actual_result_sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+        "valid": true
+      }
+    ]
+  },
+  "status": {
+    "preregistered_experiment_verdict": "REJECTED_SAFETY",
+    "preregistered_verdict_frozen": true,
+    "current_research_interpretation": "LIVE_VIABLE / CAUSAL_UNRESOLVED",
+    "live_ladder_evidence": "E6_OBSERVATIONAL",
+    "clean_causal_control": "V111",
+    "production_champion": "V111",
+    "live_validated_field_benchmark": "V113 submission 55933145",
+    "v113_artifact_status": "FROZEN_PROMISING_UNPROVEN",
+    "v113_discarded": false,
+    "v113_v114_base_eligible": false
+  },
+  "source_records": {
+    "formal_result": {
+      "path": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/experiment_result.json",
+      "sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+      "bytes": 2282201
+    },
+    "posthoc_forensics": {
+      "path": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/posthoc_e6_interpretation_and_forensics_v1.json",
+      "sha256": "a811c160833849bd1a24ce132e62e3ef3745557fee594d9a828dd6c621c572e2",
+      "bytes": 54528
+    },
+    "live_raw_manifest": {
+      "path": "data/evaluation/v113_live_e6_55933145/immutable_raw_manifest.json",
+      "sha256": "ec5394577555ba7a114bd1729df033e9403812b162e339862fe10cade5ff8f1b",
+      "bytes": 17714
+    },
+    "live_analysis": {
+      "path": "data/evaluation/v113_live_e6_55933145/analysis.json",
+      "sha256": "7e65ca0a19230ed04112183c67bb5f3e9271686a038379153eeb3d9f442a3a06",
+      "bytes": 9081
+    },
+    "live_family_summary": {
+      "path": "data/evaluation/v113_live_e6_55933145/live_family_summary.json",
+      "sha256": "cfcca982cfd7cb0ee98beb15792d5a87aed411d259fd3383665a9b8fafa84465",
+      "bytes": 703585
+    },
+    "top_continuation": {
+      "path": "data/analysis/v113_continuation_package_bronze_v2.json",
+      "sha256": "c34b0a9e8a18205b1c2d9fd9f03a7bbc0d4f6a2a2d2cb263e492b7238b0e9c55",
+      "bytes": 6622255
+    },
+    "gold_registry": {
+      "path": "experiments/independent_gold_pool/consolidated_gold_family_registry.json",
+      "sha256": "369cac61da2afd8ba0689aac80f4438b44384a1f59c58ce3856c423db8cc0717",
+      "bytes": 85721
+    },
+    "expanded_result": {
+      "path": "data/evaluation/v111_v113_expanded_20260902/experiment_result.json",
+      "sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+      "bytes": 11887269
+    },
+    "public_addendum_result": {
+      "path": "data/evaluation/v111_v113_public_gold_addendum_20260902/experiment_result.json",
+      "sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+      "bytes": 10516334
+    }
+  },
+  "why_formal_and_live_coexist": {
+    "formal_60_pair": {
+      "v111": "58W 0D 2L",
+      "v113": "58W 0D 2L",
+      "loss_to_win": 0,
+      "win_to_loss": 0,
+      "independent_action_families": 3,
+      "sensitivity_problem": "V111 already won 96.7%; at most two losses could be rescued."
+    },
+    "live_e6": {
+      "episodes": 58,
+      "wins": 44,
+      "draws": 0,
+      "losses": 14,
+      "win_rate": 0.7586206896551724,
+      "mean_margin": 7538.0,
+      "initial_rating": 600.0,
+      "final_rating": 1676.0258139483012,
+      "rating_confidence_available": false,
+      "rating_gap_bands": {
+        "absolute_gap_le_50": {
+          "episodes": 37,
+          "wins": 26,
+          "draws": 0,
+          "losses": 11,
+          "win_rate": 0.7027027027027027,
+          "win_score": 0.7027027027027027,
+          "mean_self_coin": 86218.2972972973,
+          "mean_opponent_coin": 80968.8918918919,
+          "mean_margin": 5249.405405405405,
+          "median_margin": 3299.0
+        },
+        "absolute_gap_le_100": {
+          "episodes": 53,
+          "wins": 41,
+          "draws": 0,
+          "losses": 12,
+          "win_rate": 0.7735849056603774,
+          "win_score": 0.7735849056603774,
+          "mean_self_coin": 87686.22641509434,
+          "mean_opponent_coin": 80024.2075471698,
+          "mean_margin": 7662.018867924528,
+          "median_margin": 5712.0
+        },
+        "opponent_plus_100_or_more": {
+          "episodes": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "win_rate": 0.6666666666666666,
+          "win_score": 0.6666666666666666,
+          "mean_self_coin": 78943.66666666667,
+          "mean_opponent_coin": 73195.0,
+          "mean_margin": 5748.666666666667,
+          "median_margin": 7307.0
+        },
+        "opponent_minus_100_or_less": {
+          "episodes": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "win_rate": 0.5,
+          "win_score": 0.5,
+          "mean_self_coin": 114726.0,
+          "mean_opponent_coin": 107790.5,
+          "mean_margin": 6935.5,
+          "median_margin": 6935.5
+        },
+        "note": "Requested bands are intentionally overlapping; <=50 is a subset of <=100."
+      }
+    },
+    "conclusion": "The formal run estimates a narrow gate effect in an easy local panel; the ladder observes the whole Agent under changing matchmaking. Different opponent/Town support, rating dynamics, and scarce local loss headroom make the results compatible without making the gate causal."
+  },
+  "gold_pool": {
+    "coverage": {
+      "source_labels": 72,
+      "complete_source_labels": 72,
+      "exact_executed_action_families": 37,
+      "python_action_families": 36,
+      "engine_builtin_families": 1
+    },
+    "identity_rule": "Exact equality of the complete common-seed, both-seat action-prefix vector at turns 24/100/200/400/719. Source names do not create families.",
+    "sensitivity": {
+      "eligible_opponent_family_ids_30_to_70": [],
+      "eligible_opponent_family_count": 0,
+      "near_family_ids_70_to_80": [
+        "gold_exec_aa5d5586"
+      ],
+      "adequacy": "INSUFFICIENT",
+      "calibration_clone_excluded": true
+    },
+    "fresh_holdout_status": "Every family and seed in this registry is Development and ineligible for Fresh Holdout.",
+    "live_correspondence": {
+      "strong_h200_or_later_episodes": 5,
+      "shared_opening_only_episodes": 18,
+      "no_strong_correspondence_episodes": 53,
+      "h200_route_clusters": 35,
+      "h200_clusters_without_strong_gold": 33,
+      "evidence_boundary": "Unmatched clusters are live-only Bronze behavioral-cluster candidates, not proven new executable policy families."
+    }
+  },
+  "expanded_v111_v113": {
+    "first_expanded_run": {
+      "sensitivity": {
+        "registered_pairs": 180,
+        "independent_families": 15,
+        "v111": {
+          "wins": 167,
+          "draws": 10,
+          "losses": 3,
+          "strict_win_probability": 0.9277777777777778,
+          "win_score": 0.9555555555555556,
+          "mean_self_coin": 80716.1888888889,
+          "mean_opponent_coin": 63524.02222222222,
+          "mean_margin": 17192.166666666668
+        },
+        "v113": {
+          "wins": 169,
+          "draws": 8,
+          "losses": 3,
+          "strict_win_probability": 0.9388888888888889,
+          "win_score": 0.9611111111111111,
+          "mean_self_coin": 80911.50555555556,
+          "mean_opponent_coin": 63574.822222222225,
+          "mean_margin": 17336.683333333334
+        },
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "trigger_pairs": 44,
+        "actual_treatment_pairs": 27,
+        "hard_safety_failure_pairs": 4,
+        "validity_gate": {
+          "registered_pairs": 180,
+          "causal_valid_pairs": 180,
+          "causal_invalid_pairs": 0,
+          "causal_exclusion_reason_counts": {},
+          "families_without_any_causal_valid_pair": [],
+          "hard_safety_failure_pairs": 4,
+          "pairing_and_behavioral_isolation_status": "PASS",
+          "hard_safety_status": "FAIL",
+          "promotion_strength_gate_open": false
+        },
+        "meta_weighted_delta_win_probability": {
+          "estimate": 0.01111111111111111,
+          "low_95": 0.0,
+          "high_95": 0.044444444444444446
+        },
+        "macro_lineage_delta_win_probability": {
+          "estimate": 0.01111111111111111,
+          "low_95": 0.0,
+          "high_95": 0.044444444444444446
+        },
+        "meta_weighted_delta_win_score": {
+          "estimate": 0.005555555555555555,
+          "low_95": 0.0,
+          "high_95": 0.022222222222222223
+        },
+        "macro_lineage_delta_win_score": {
+          "estimate": 0.005555555555555555,
+          "low_95": 0.0,
+          "high_95": 0.022222222222222223
+        }
+      },
+      "meta": {
+        "registered_pairs": 84,
+        "independent_families": 7,
+        "v111": {
+          "wins": 73,
+          "draws": 10,
+          "losses": 1,
+          "strict_win_probability": 0.8690476190476191,
+          "win_score": 0.9285714285714286,
+          "mean_self_coin": 83184.71428571429,
+          "mean_opponent_coin": 66012.09523809524,
+          "mean_margin": 17172.619047619046
+        },
+        "v113": {
+          "wins": 75,
+          "draws": 8,
+          "losses": 1,
+          "strict_win_probability": 0.8928571428571429,
+          "win_score": 0.9404761904761905,
+          "mean_self_coin": 83271.38095238095,
+          "mean_opponent_coin": 65985.0,
+          "mean_margin": 17286.380952380954
+        },
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "trigger_pairs": 23,
+        "actual_treatment_pairs": 11,
+        "hard_safety_failure_pairs": 2,
+        "validity_gate": {
+          "registered_pairs": 84,
+          "causal_valid_pairs": 84,
+          "causal_invalid_pairs": 0,
+          "causal_exclusion_reason_counts": {},
+          "families_without_any_causal_valid_pair": [],
+          "hard_safety_failure_pairs": 2,
+          "pairing_and_behavioral_isolation_status": "PASS",
+          "hard_safety_status": "FAIL",
+          "promotion_strength_gate_open": false
+        },
+        "meta_weighted_delta_win_probability": {
+          "estimate": 0.023809523809523808,
+          "low_95": 0.0,
+          "high_95": 0.09523809523809523
+        },
+        "macro_lineage_delta_win_probability": {
+          "estimate": 0.023809523809523808,
+          "low_95": 0.0,
+          "high_95": 0.11904761904761904
+        },
+        "meta_weighted_delta_win_score": {
+          "estimate": 0.011904761904761904,
+          "low_95": 0.0,
+          "high_95": 0.047619047619047616
+        },
+        "macro_lineage_delta_win_score": {
+          "estimate": 0.011904761904761904,
+          "low_95": 0.0,
+          "high_95": 0.05952380952380952
+        }
+      },
+      "regression": {
+        "registered_pairs": 168,
+        "independent_families": 14,
+        "v111": {
+          "wins": 166,
+          "draws": 0,
+          "losses": 2,
+          "strict_win_probability": 0.9880952380952381,
+          "win_score": 0.9880952380952381,
+          "mean_self_coin": 82520.94047619047,
+          "mean_opponent_coin": 64100.76190476191,
+          "mean_margin": 18420.178571428572
+        },
+        "v113": {
+          "wins": 166,
+          "draws": 0,
+          "losses": 2,
+          "strict_win_probability": 0.9880952380952381,
+          "win_score": 0.9880952380952381,
+          "mean_self_coin": 82688.82738095238,
+          "mean_opponent_coin": 64150.97619047619,
+          "mean_margin": 18537.85119047619
+        },
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "trigger_pairs": 42,
+        "actual_treatment_pairs": 25,
+        "hard_safety_failure_pairs": 4,
+        "validity_gate": {
+          "registered_pairs": 168,
+          "causal_valid_pairs": 168,
+          "causal_invalid_pairs": 0,
+          "causal_exclusion_reason_counts": {},
+          "families_without_any_causal_valid_pair": [],
+          "hard_safety_failure_pairs": 4,
+          "pairing_and_behavioral_isolation_status": "PASS",
+          "hard_safety_status": "FAIL",
+          "promotion_strength_gate_open": false
+        },
+        "meta_weighted_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "meta_weighted_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        }
+      },
+      "sensitivity_adequacy": {
+        "status": "INSUFFICIENT",
+        "target_family_count": 1,
+        "reason": "Fewer than three independent 30-70% draw-adjusted probe families; coverage extensions are Regression/diversity, not uplift-sensitive evidence."
+      }
+    },
+    "public_gold_addendum": {
+      "sensitivity": {
+        "registered_pairs": 168,
+        "independent_families": 14,
+        "v111": {
+          "wins": 162,
+          "draws": 0,
+          "losses": 6,
+          "strict_win_probability": 0.9642857142857143,
+          "win_score": 0.9642857142857143,
+          "mean_self_coin": 98758.02380952382,
+          "mean_opponent_coin": 72397.88095238095,
+          "mean_margin": 26360.14285714286
+        },
+        "v113": {
+          "wins": 162,
+          "draws": 0,
+          "losses": 6,
+          "strict_win_probability": 0.9642857142857143,
+          "win_score": 0.9642857142857143,
+          "mean_self_coin": 98751.11309523809,
+          "mean_opponent_coin": 72377.55357142857,
+          "mean_margin": 26373.559523809523
+        },
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "trigger_pairs": 19,
+        "actual_treatment_pairs": 4,
+        "hard_safety_failure_pairs": 0,
+        "validity_gate": {
+          "registered_pairs": 168,
+          "causal_valid_pairs": 168,
+          "causal_invalid_pairs": 0,
+          "causal_exclusion_reason_counts": {},
+          "families_without_any_causal_valid_pair": [],
+          "hard_safety_failure_pairs": 0,
+          "pairing_and_behavioral_isolation_status": "PASS",
+          "hard_safety_status": "PASS",
+          "promotion_strength_gate_open": true
+        },
+        "meta_weighted_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "meta_weighted_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        }
+      },
+      "meta": {
+        "registered_pairs": 48,
+        "independent_families": 4,
+        "v111": {
+          "wins": 46,
+          "draws": 0,
+          "losses": 2,
+          "strict_win_probability": 0.9583333333333334,
+          "win_score": 0.9583333333333334,
+          "mean_self_coin": 100381.14583333333,
+          "mean_opponent_coin": 70867.04166666667,
+          "mean_margin": 29514.104166666668
+        },
+        "v113": {
+          "wins": 46,
+          "draws": 0,
+          "losses": 2,
+          "strict_win_probability": 0.9583333333333334,
+          "win_score": 0.9583333333333334,
+          "mean_self_coin": 100403.33333333333,
+          "mean_opponent_coin": 70788.5625,
+          "mean_margin": 29614.770833333332
+        },
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "trigger_pairs": 3,
+        "actual_treatment_pairs": 1,
+        "hard_safety_failure_pairs": 0,
+        "validity_gate": {
+          "registered_pairs": 48,
+          "causal_valid_pairs": 48,
+          "causal_invalid_pairs": 0,
+          "causal_exclusion_reason_counts": {},
+          "families_without_any_causal_valid_pair": [],
+          "hard_safety_failure_pairs": 0,
+          "pairing_and_behavioral_isolation_status": "PASS",
+          "hard_safety_status": "PASS",
+          "promotion_strength_gate_open": true
+        },
+        "meta_weighted_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "meta_weighted_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        }
+      },
+      "regression": {
+        "registered_pairs": 168,
+        "independent_families": 14,
+        "v111": {
+          "wins": 162,
+          "draws": 0,
+          "losses": 6,
+          "strict_win_probability": 0.9642857142857143,
+          "win_score": 0.9642857142857143,
+          "mean_self_coin": 98758.02380952382,
+          "mean_opponent_coin": 72397.88095238095,
+          "mean_margin": 26360.14285714286
+        },
+        "v113": {
+          "wins": 162,
+          "draws": 0,
+          "losses": 6,
+          "strict_win_probability": 0.9642857142857143,
+          "win_score": 0.9642857142857143,
+          "mean_self_coin": 98751.11309523809,
+          "mean_opponent_coin": 72377.55357142857,
+          "mean_margin": 26373.559523809523
+        },
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "trigger_pairs": 19,
+        "actual_treatment_pairs": 4,
+        "hard_safety_failure_pairs": 0,
+        "validity_gate": {
+          "registered_pairs": 168,
+          "causal_valid_pairs": 168,
+          "causal_invalid_pairs": 0,
+          "causal_exclusion_reason_counts": {},
+          "families_without_any_causal_valid_pair": [],
+          "hard_safety_failure_pairs": 0,
+          "pairing_and_behavioral_isolation_status": "PASS",
+          "hard_safety_status": "PASS",
+          "promotion_strength_gate_open": true
+        },
+        "meta_weighted_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_probability": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "meta_weighted_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_lineage_delta_win_score": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        }
+      }
+    },
+    "combined_development_diagnostic": {
+      "scope": "Diagnostic aggregation of two non-overlapping Development runs; not one pre-registered Meta estimate.",
+      "total_pairs": 348,
+      "v111": {
+        "wins": 329,
+        "draws": 10,
+        "losses": 9,
+        "strict_win_probability": 0.9454022988505747,
+        "win_score": 0.9597701149425287,
+        "mean_self_coin": 89426.04022988505,
+        "mean_opponent_coin": 67807.9540229885,
+        "mean_margin": 21618.08620689655
+      },
+      "v113": {
+        "wins": 331,
+        "draws": 8,
+        "losses": 9,
+        "strict_win_probability": 0.9511494252873564,
+        "win_score": 0.9626436781609196,
+        "mean_self_coin": 89523.72988505747,
+        "mean_opponent_coin": 67824.41666666667,
+        "mean_margin": 21699.313218390806
+      },
+      "outcome_transition_counts": {
+        "draw->draw": 8,
+        "draw->win": 2,
+        "loss->loss": 9,
+        "win->win": 329
+      },
+      "loss_to_win": 0,
+      "win_to_loss": 0,
+      "any_outcome_changed_pairs": 2,
+      "trigger_pairs": 63,
+      "actual_treatment_pairs": 31,
+      "action_divergent_pairs": 31,
+      "treatment_delivery_failures": 16,
+      "safe_baseline_overlaps": 16,
+      "hard_safety_failure_pairs": 4,
+      "mean_delta_self_coin": 97.6896551724138,
+      "mean_delta_opponent_coin": 16.46264367816092,
+      "mean_delta_margin": 81.22701149425288,
+      "interpretation": "The only two outcome changes were Draw->Win against the V110/V111 calibration family. No baseline loss became a candidate win, and no baseline win became a candidate loss."
+    },
+    "family_level_findings": {
+      "outcome_improved_families": [
+        "gold_family_22_f835f763"
+      ],
+      "outcome_improvement_scope": "Two Draw->Win pairs in gold_family_22_f835f763, the V110/V111 calibration family; no Loss->Win.",
+      "outcome_worsened_families": [],
+      "candidate_new_hard_safety_families": [
+        "gold_family_14_9aa44dd2",
+        "gold_family_16_b0b3c33c",
+        "gold_family_19_d4e09ee0",
+        "gold_family_20_db8eac65"
+      ],
+      "public_addendum_outcome_delta": "Zero in all 14 families, including the three 10W2L families."
+    },
+    "strength_interpretation": "Strength is statistically unresolved. V113 shows no Loss->Win rescue and no Win->Loss regression; its two Draw->Win changes are confined to the V110/V111 calibration family. Public Gold outcomes are exactly equal.",
+    "safety_interpretation": "Pairing and Behavioral Isolation pass, but four candidate-new spawned-weed pairs close the hard Safety gate. The later public addendum Safety pass does not erase the earlier failure."
+  },
+  "live_gate_use": {
+    "cohorts": {
+      "A_gate_non_trigger": {
+        "episodes": 44,
+        "wins": 34,
+        "draws": 0,
+        "losses": 10,
+        "win_rate": 0.7727272727272727,
+        "win_score": 0.7727272727272727,
+        "mean_self_coin": 89244.70454545454,
+        "mean_opponent_coin": 81435.20454545454,
+        "mean_margin": 7809.5,
+        "median_margin": 7341.0
+      },
+      "B_trigger_but_no_incremental_conversion": {
+        "episodes": 11,
+        "wins": 8,
+        "draws": 0,
+        "losses": 3,
+        "win_rate": 0.7272727272727273,
+        "win_score": 0.7272727272727273,
+        "mean_self_coin": 85998.90909090909,
+        "mean_opponent_coin": 80468.45454545454,
+        "mean_margin": 5530.454545454545,
+        "median_margin": 2415.0
+      },
+      "C_actual_incremental_conversion": {
+        "episodes": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.6666666666666666,
+        "win_score": 0.6666666666666666,
+        "mean_self_coin": 80299.33333333333,
+        "mean_opponent_coin": 69382.33333333333,
+        "mean_margin": 10917.0,
+        "median_margin": 1363.0
+      }
+    },
+    "transaction_complete_conversions": 3,
+    "actual_conversion_episodes": [
+      {
+        "episode_id": 104506581,
+        "opponent_submission_id": 55355192,
+        "opponent_team_name": "Mk26",
+        "seat": 0,
+        "result": "win",
+        "margin": 44531.0,
+        "self_initial_rating": 797.6596903120453,
+        "opponent_initial_rating": 802.4984548176592,
+        "rating_gap_opponent_minus_self": 4.838764505613881,
+        "town_regime_signature": "PET_CAFE|FARMERS_MARKET|FARMERS_MARKET|BAKERY|SMOOTHIE_SHOP|PET_CAFE|SMOOTHIE_SHOP|FARMERS_MARKET",
+        "h200_field_route_cluster": "live_field_route_h200_c11"
+      },
+      {
+        "episode_id": 104513571,
+        "opponent_submission_id": 55877482,
+        "opponent_team_name": "fvong",
+        "seat": 0,
+        "result": "loss",
+        "margin": -13143.0,
+        "self_initial_rating": 1509.1572765158728,
+        "opponent_initial_rating": 1519.5475770276116,
+        "rating_gap_opponent_minus_self": 10.390300511738815,
+        "town_regime_signature": "PET_CAFE|BAKERY|FARMERS_MARKET|YARN_STORE|SMOOTHIE_SHOP|YARN_STORE|SMOOTHIE_SHOP|BAKERY",
+        "h200_field_route_cluster": "live_field_route_h200_c21"
+      },
+      {
+        "episode_id": 104517922,
+        "opponent_submission_id": 55933381,
+        "opponent_team_name": "tatt:)ch",
+        "seat": 0,
+        "result": "win",
+        "margin": 1363.0,
+        "self_initial_rating": 1584.7249242800694,
+        "opponent_initial_rating": 1520.5849732212394,
+        "rating_gap_opponent_minus_self": -64.13995105883009,
+        "town_regime_signature": "PIZZA_SHOP|BRUNCH_SPOT|YARN_STORE|FARMERS_MARKET|PIZZA_SHOP|FARMERS_MARKET|SMOOTHIE_SHOP|YARN_STORE",
+        "h200_field_route_cluster": "live_field_route_h200_c01"
+      }
+    ],
+    "actual_conversion_seat_observation": "All three observed conversions occurred from seat0; this is descriptive coverage, not evidence of a causal seat effect.",
+    "live_field_priority_sets": {
+      "losses": {
+        "episodes": 14,
+        "h200_field_route_cluster_count": 11
+      },
+      "close_margin_abs_le_3000": {
+        "episodes": 15,
+        "h200_field_route_cluster_count": 10
+      },
+      "high_absolute_rating_wins_ge_1600": {
+        "episodes": 14,
+        "h200_field_route_cluster_count": 11
+      },
+      "rating_upset_wins_opponent_plus_100": {
+        "episodes": 2,
+        "h200_field_route_cluster_count": 2
+      }
+    },
+    "causal_limit": "Live outcomes are Agent-level E6 observations under Kaggle matchmaking. Gate A/B/C comparisons are selected by state/opponent and cannot identify a gate treatment effect."
+  },
+  "formal_trigger_funnel": {
+    "formal_pairs": 60,
+    "gate_requests": 29,
+    "reason_counts": {
+      "ACTUAL_INCREMENTAL_COW_TO_SHEEP": 13,
+      "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP": 8,
+      "SAFE_CANCEL_PURCHASE_SLOT_ABSENT": 8
+    },
+    "accounting_identity": "29 = 13 incremental + 8 baseline overlap + 8 safe cancel",
+    "all_requests_classified": true,
+    "future_taxonomy": {
+      "hard_safety_failure": {
+        "definition": "game-integrity regression",
+        "examples": [
+          "runtime error or incomplete game",
+          "illegal/no-op with material harm",
+          "animal loss or weed regression",
+          "negative cash or transaction corruption"
+        ],
+        "promotion_effect": "fails Engine Correctness / Safety"
+      },
+      "treatment_delivery_failure": {
+        "definition": "experimental branch is not delivered and baseline continuation is preserved",
+        "examples": [
+          "purchase slot absent at revalidation",
+          "state changed before commit",
+          "already satisfied by baseline route"
+        ],
+        "promotion_effect": "reported in trigger funnel and treatment sample; not a catastrophic Safety failure when baseline identity and game integrity are verified"
+      }
+    },
+    "controller": {
+      "state_order": [
+        "ARM",
+        "REVALIDATE",
+        "COMMIT",
+        "SAFE_CANCEL"
+      ],
+      "ARM": "record intent, trigger observation digest, intended delta, and expiry; emit no rewrite",
+      "REVALIDATE": [
+        "the exact baseline purchase slot still exists",
+        "the route has not already satisfied the animal target",
+        "cash reserve and order-slot capacity remain valid",
+        "pasture, shed, pickup/place workers, inventory, and horizon remain feasible",
+        "no conflicting baseline continuation owns the same slot"
+      ],
+      "COMMIT": "rewrite only the validated order, then audit purchase, pickup, and placement atomically",
+      "SAFE_CANCEL": "clear intent, emit the byte-equivalent baseline action, record one reason code, and do not latch a per-turn fallback diagnostic",
+      "reason_code_mapping": {
+        "unexpected-late-purchase-action": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "baseline-already-converts": "SAFE_CANCEL_ALREADY_SATISFIED",
+        "state-changed": "SAFE_CANCEL_STATE_CHANGED",
+        "cash-or-capacity-invalid": "SAFE_CANCEL_FEASIBILITY_CHANGED"
+      },
+      "post_commit_partial_or_corrupt_transaction": "HARD_SAFETY_FAILURE"
+    }
+  },
+  "v14_opponent_response": {
+    "timeline": {
+      "first_self_action_divergence": 248,
+      "first_self_money_divergence": 249,
+      "first_self_portfolio_divergence": 257,
+      "first_opponent_response": 270,
+      "opponent_response_lag": {
+        "from_own_action": 22,
+        "from_first_public_signal": 21
+      },
+      "first_opponent_money_divergence": 271,
+      "first_market_inventory_divergence": 302,
+      "first_price_divergence": 312,
+      "first_money_divergence": {
+        "either_farm": 249,
+        "self": 249,
+        "opponent": 271
+      }
+    },
+    "first_response_action": {
+      "changed_component": "market",
+      "action_type": "BUY_SEED",
+      "item": "STRAWBERRY",
+      "control_quantity": 2,
+      "treatment_quantity": 1,
+      "unchanged_market_order": [
+        "BUY_PRODUCT",
+        "WHEAT",
+        1
+      ],
+      "farmer_and_hands_unchanged": true,
+      "control": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            2
+          ]
+        ]
+      },
+      "treatment": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            1
+          ]
+        ]
+      }
+    },
+    "observation_before_response": {
+      "focal_money": {
+        "control": 8212.0,
+        "treatment": 8012.0
+      },
+      "focal_field_animals": {
+        "control": {
+          "COW": 9,
+          "SHEEP": 4
+        },
+        "treatment": {
+          "COW": 7,
+          "SHEEP": 6
+        }
+      },
+      "focal_tile_differences": [
+        {
+          "x": 3,
+          "y": 5,
+          "control": {
+            "kind": "PASTURE",
+            "animal": "COW",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          },
+          "treatment": {
+            "kind": "PASTURE",
+            "animal": "SHEEP",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          }
+        },
+        {
+          "x": 4,
+          "y": 5,
+          "control": {
+            "kind": "PASTURE",
+            "animal": "COW",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          },
+          "treatment": {
+            "kind": "PASTURE",
+            "animal": "SHEEP",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          }
+        }
+      ],
+      "market_equal": true,
+      "town_equal": true,
+      "opponent_private_equal": true
+    },
+    "conclusion": {
+      "most_supported_public_mediator": "focal Cow/Sheep field portfolio",
+      "money_difference_sufficient": false,
+      "public_tile_difference_sufficient_in_one_step_source_probe": true,
+      "interpretation": "V14 changed its Strawberry seed purchase after observing the focal Cow-to-Sheep portfolio. This is second-order policy feedback and precedes both market-inventory and price divergence.",
+      "scope": "Deterministic one-step source-code mediation diagnostic for this pair; not a population-level effect estimate."
+    }
+  },
+  "top_continuation_package": {
+    "evidence_level": "E1_replay_descriptive_correlation",
+    "coverage": {
+      "all_rows": 366,
+      "triggered": 84,
+      "trigger_rate": 0.22950819672131148,
+      "material": 56,
+      "no_material": 28,
+      "distinct_lineages": 25
+    },
+    "animal_movement": {
+      "label_horizon": "step216_to_step288_72_turn_state_delta",
+      "material_pattern_counts": {
+        "cow_flat_sheep_up": 56
+      },
+      "no_material_pattern_counts": {
+        "cow_flat_sheep_flat": 28
+      },
+      "material_cow_delta_distribution": {
+        "0.0": 56
+      },
+      "material_sheep_delta_distribution": {
+        "3.0": 6,
+        "4.0": 13,
+        "6.0": 1,
+        "2.0": 2,
+        "5.0": 34
+      },
+      "interpretation": "A positive Sheep-minus-Cow tilt is not automatically a literal Cow removal. The component deltas must be retained when forming a future continuation hypothesis."
+    },
+    "archetype_partition": {
+      "selection_rule": "The most frequent lineage among no-material triggers is isolated before cohort comparison; ties resolve by lexical lineage id.",
+      "dominant_no_material_lineage": "a10f229861f92b52",
+      "dominant_no_material_episodes": 24,
+      "dominant_share_of_no_material": 0.8571428571428571,
+      "other_no_material_episodes": 4,
+      "other_no_material_lineages": 3
+    },
+    "production_eligible": false,
+    "interpretation": "The material replay signal is Sheep expansion with Cow delta zero, plus FEED/CARE, hand-utilization, crop, sell-timing, and market-exposure co-movement. It is not evidence for isolated Cow removal."
+  },
+  "weakness_map": {
+    "format": "kaggriculture-v111-v113-loss-taxonomy-v1",
+    "dataset_role": "Development",
+    "classification_basis": "draw-adjusted win score; strict WR retained as diagnostic",
+    "executable_loss_families": [
+      {
+        "behavior_family_id": "gold_family_02_01651da9",
+        "source_members": [
+          "public_v43_forced_yarn_first"
+        ],
+        "calibration_or_self_lineage": false,
+        "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+        "priority_class": "REGRESSION_OR_CALIBRATION",
+        "v111_strict_win_probability": 0.9166666666666666,
+        "v113_strict_win_probability": 0.9166666666666666,
+        "v111_win_score": 0.9166666666666666,
+        "v113_win_score": 0.9166666666666666,
+        "v111_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v113_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v111_lead_to_loss": 1,
+        "v113_lead_to_loss": 1,
+        "v111_loss_cases": [
+          {
+            "seed": 29115003,
+            "seat": 0,
+            "margin": -1081.0,
+            "day_cash_margins": {
+              "288": -1113.0,
+              "432": 9359.0,
+              "480": 10300.0,
+              "576": 6042.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "FARMERS_MARKET",
+              "FARMERS_MARKET",
+              "PET_CAFE",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 4,
+              "SHEEP": 8
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 740.0
+          }
+        ],
+        "v113_loss_cases": [
+          {
+            "seed": 29115003,
+            "seat": 0,
+            "margin": -1081.0,
+            "day_cash_margins": {
+              "288": -1113.0,
+              "432": 9359.0,
+              "480": 10300.0,
+              "576": 6042.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "FARMERS_MARKET",
+              "FARMERS_MARKET",
+              "PET_CAFE",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 4,
+              "SHEEP": 8
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 740.0
+          }
+        ],
+        "pairwise_v111_to_v113": {
+          "total_pairs": 12,
+          "causal_valid_pairs": 12,
+          "causal_effect_available": true,
+          "v111_strict_win_probability": 0.9166666666666666,
+          "v113_strict_win_probability": 0.9166666666666666,
+          "v111_win_score": 0.9166666666666666,
+          "v113_win_score": 0.9166666666666666,
+          "delta_win_probability": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "mean_delta_self_coin": 0.0,
+          "mean_delta_opponent_coin": 0.0,
+          "mean_delta_margin": 0.0,
+          "trigger_pairs": 2,
+          "actual_treatment_pairs": 0,
+          "strict_discordant_outcome_pairs": 0
+        }
+      },
+      {
+        "behavior_family_id": "gold_family_08_4fcc1724",
+        "source_members": [
+          "local_v109",
+          "public_v43_forced_default",
+          "public_v43_raw"
+        ],
+        "calibration_or_self_lineage": false,
+        "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+        "priority_class": "REGRESSION_OR_CALIBRATION",
+        "v111_strict_win_probability": 0.9166666666666666,
+        "v113_strict_win_probability": 0.9166666666666666,
+        "v111_win_score": 0.9166666666666666,
+        "v113_win_score": 0.9166666666666666,
+        "v111_diagnostic_loss_signals": [
+          "terminal_animal_portfolio_deficit",
+          "losses_have_higher_terminal_market_price_displacement"
+        ],
+        "v113_diagnostic_loss_signals": [
+          "terminal_animal_portfolio_deficit"
+        ],
+        "v111_lead_to_loss": 0,
+        "v113_lead_to_loss": 0,
+        "v111_loss_cases": [
+          {
+            "seed": 29115003,
+            "seat": 1,
+            "margin": -3202.0,
+            "day_cash_margins": {
+              "288": -48.0,
+              "432": -3261.0,
+              "480": -3631.0,
+              "576": -3689.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "ICE_CREAM_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1018.0
+          }
+        ],
+        "v113_loss_cases": [
+          {
+            "seed": 29115003,
+            "seat": 1,
+            "margin": -3202.0,
+            "day_cash_margins": {
+              "288": -48.0,
+              "432": -3261.0,
+              "480": -3631.0,
+              "576": -3689.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "ICE_CREAM_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1018.0
+          }
+        ],
+        "pairwise_v111_to_v113": {
+          "total_pairs": 12,
+          "causal_valid_pairs": 12,
+          "causal_effect_available": true,
+          "v111_strict_win_probability": 0.9166666666666666,
+          "v113_strict_win_probability": 0.9166666666666666,
+          "v111_win_score": 0.9166666666666666,
+          "v113_win_score": 0.9166666666666666,
+          "delta_win_probability": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "mean_delta_self_coin": 87.5,
+          "mean_delta_opponent_coin": 179.83333333333334,
+          "mean_delta_margin": -92.33333333333333,
+          "trigger_pairs": 2,
+          "actual_treatment_pairs": 2,
+          "strict_discordant_outcome_pairs": 0
+        }
+      },
+      {
+        "behavior_family_id": "gold_family_22_f835f763",
+        "source_members": [
+          "local_v110",
+          "v111_self_calibration"
+        ],
+        "calibration_or_self_lineage": true,
+        "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+        "priority_class": "SENSITIVITY_CLOSE_MATCHUP",
+        "v111_strict_win_probability": 0.08333333333333333,
+        "v113_strict_win_probability": 0.25,
+        "v111_win_score": 0.5,
+        "v113_win_score": 0.5833333333333334,
+        "v111_diagnostic_loss_signals": [
+          "terminal_animal_portfolio_deficit"
+        ],
+        "v113_diagnostic_loss_signals": [
+          "terminal_animal_portfolio_deficit",
+          "losses_have_higher_terminal_market_price_displacement"
+        ],
+        "v111_lead_to_loss": 0,
+        "v113_lead_to_loss": 0,
+        "v111_loss_cases": [
+          {
+            "seed": 29115003,
+            "seat": 1,
+            "margin": -3202.0,
+            "day_cash_margins": {
+              "288": -48.0,
+              "432": -3261.0,
+              "480": -3631.0,
+              "576": -3689.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "ICE_CREAM_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1018.0
+          }
+        ],
+        "v113_loss_cases": [
+          {
+            "seed": 29115003,
+            "seat": 1,
+            "margin": -3202.0,
+            "day_cash_margins": {
+              "288": -48.0,
+              "432": -3261.0,
+              "480": -3631.0,
+              "576": -3689.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "FARMERS_MARKET",
+              "ICE_CREAM_SHOP",
+              "PET_CAFE",
+              "PIZZA_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 10,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 11,
+              "SHEEP": 4
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1018.0
+          }
+        ],
+        "pairwise_v111_to_v113": {
+          "total_pairs": 12,
+          "causal_valid_pairs": 12,
+          "causal_effect_available": true,
+          "v111_strict_win_probability": 0.08333333333333333,
+          "v113_strict_win_probability": 0.25,
+          "v111_win_score": 0.5,
+          "v113_win_score": 0.5833333333333334,
+          "delta_win_probability": 0.16666666666666666,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "mean_delta_self_coin": 579.3333333333334,
+          "mean_delta_opponent_coin": 59.0,
+          "mean_delta_margin": 520.3333333333334,
+          "trigger_pairs": 2,
+          "actual_treatment_pairs": 2,
+          "strict_discordant_outcome_pairs": 0
+        }
+      },
+      {
+        "behavior_family_id": "gold_public_0b7f92b9",
+        "source_members": [
+          "public_route_frontier_moon"
+        ],
+        "calibration_or_self_lineage": false,
+        "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+        "priority_class": "REGRESSION_OR_CALIBRATION",
+        "v111_strict_win_probability": 0.8333333333333334,
+        "v113_strict_win_probability": 0.8333333333333334,
+        "v111_win_score": 0.8333333333333334,
+        "v113_win_score": 0.8333333333333334,
+        "v111_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v113_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v111_lead_to_loss": 2,
+        "v113_lead_to_loss": 2,
+        "v111_loss_cases": [
+          {
+            "seed": 29117001,
+            "seat": 0,
+            "margin": -3505.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1026.0,
+              "480": -1043.0,
+              "576": -36.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2010.0
+          },
+          {
+            "seed": 29117001,
+            "seat": 1,
+            "margin": -3203.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1026.0,
+              "480": -1043.0,
+              "576": 314.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2010.0
+          }
+        ],
+        "v113_loss_cases": [
+          {
+            "seed": 29117001,
+            "seat": 0,
+            "margin": -3505.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1026.0,
+              "480": -1043.0,
+              "576": -36.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2010.0
+          },
+          {
+            "seed": 29117001,
+            "seat": 1,
+            "margin": -3203.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1026.0,
+              "480": -1043.0,
+              "576": 314.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2010.0
+          }
+        ],
+        "pairwise_v111_to_v113": {
+          "total_pairs": 12,
+          "causal_valid_pairs": 12,
+          "causal_effect_available": true,
+          "v111_strict_win_probability": 0.8333333333333334,
+          "v113_strict_win_probability": 0.8333333333333334,
+          "v111_win_score": 0.8333333333333334,
+          "v113_win_score": 0.8333333333333334,
+          "delta_win_probability": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "mean_delta_self_coin": 0.0,
+          "mean_delta_opponent_coin": 0.0,
+          "mean_delta_margin": 0.0,
+          "trigger_pairs": 0,
+          "actual_treatment_pairs": 0,
+          "strict_discordant_outcome_pairs": 0
+        }
+      },
+      {
+        "behavior_family_id": "gold_public_46d78f69",
+        "source_members": [
+          "public_route_high_score"
+        ],
+        "calibration_or_self_lineage": false,
+        "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+        "priority_class": "REGRESSION_OR_CALIBRATION",
+        "v111_strict_win_probability": 0.8333333333333334,
+        "v113_strict_win_probability": 0.8333333333333334,
+        "v111_win_score": 0.8333333333333334,
+        "v113_win_score": 0.8333333333333334,
+        "v111_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v113_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v111_lead_to_loss": 2,
+        "v113_lead_to_loss": 2,
+        "v111_loss_cases": [
+          {
+            "seed": 29117001,
+            "seat": 0,
+            "margin": -3902.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1034.0,
+              "480": -1050.0,
+              "576": -211.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1905.0
+          },
+          {
+            "seed": 29117001,
+            "seat": 1,
+            "margin": -3543.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1034.0,
+              "480": -1050.0,
+              "576": 157.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1905.0
+          }
+        ],
+        "v113_loss_cases": [
+          {
+            "seed": 29117001,
+            "seat": 0,
+            "margin": -3902.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1034.0,
+              "480": -1050.0,
+              "576": -211.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1905.0
+          },
+          {
+            "seed": 29117001,
+            "seat": 1,
+            "margin": -3543.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": 1034.0,
+              "480": -1050.0,
+              "576": 157.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 1905.0
+          }
+        ],
+        "pairwise_v111_to_v113": {
+          "total_pairs": 12,
+          "causal_valid_pairs": 12,
+          "causal_effect_available": true,
+          "v111_strict_win_probability": 0.8333333333333334,
+          "v113_strict_win_probability": 0.8333333333333334,
+          "v111_win_score": 0.8333333333333334,
+          "v113_win_score": 0.8333333333333334,
+          "delta_win_probability": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "mean_delta_self_coin": 0.0,
+          "mean_delta_opponent_coin": 0.0,
+          "mean_delta_margin": 0.0,
+          "trigger_pairs": 0,
+          "actual_treatment_pairs": 0,
+          "strict_discordant_outcome_pairs": 0
+        }
+      },
+      {
+        "behavior_family_id": "gold_public_a6f1291b",
+        "source_members": [
+          "public_github_seyamalam_head"
+        ],
+        "calibration_or_self_lineage": false,
+        "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+        "priority_class": "REGRESSION_OR_CALIBRATION",
+        "v111_strict_win_probability": 0.8333333333333334,
+        "v113_strict_win_probability": 0.8333333333333334,
+        "v111_win_score": 0.8333333333333334,
+        "v113_win_score": 0.8333333333333334,
+        "v111_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v113_diagnostic_loss_signals": [
+          "late_cash_reversal_after_major_checkpoint_lead"
+        ],
+        "v111_lead_to_loss": 2,
+        "v113_lead_to_loss": 2,
+        "v111_loss_cases": [
+          {
+            "seed": 29117001,
+            "seat": 0,
+            "margin": -3358.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": -2521.0,
+              "480": -1461.0,
+              "576": -2491.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2253.0
+          },
+          {
+            "seed": 29117001,
+            "seat": 1,
+            "margin": -2997.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": -2521.0,
+              "480": -1461.0,
+              "576": -2069.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2253.0
+          }
+        ],
+        "v113_loss_cases": [
+          {
+            "seed": 29117001,
+            "seat": 0,
+            "margin": -3358.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": -2521.0,
+              "480": -1461.0,
+              "576": -2491.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2253.0
+          },
+          {
+            "seed": 29117001,
+            "seat": 1,
+            "margin": -2997.0,
+            "day_cash_margins": {
+              "288": 1308.0,
+              "432": -2521.0,
+              "480": -1461.0,
+              "576": -2069.0
+            },
+            "terminal_shop_regime": [
+              "BAKERY",
+              "BRUNCH_SPOT",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "ICE_CREAM_SHOP",
+              "PIZZA_SHOP",
+              "YARN_STORE",
+              "YARN_STORE"
+            ],
+            "terminal_own_animals": {
+              "GOOSE": 0,
+              "COW": 9,
+              "SHEEP": 4
+            },
+            "terminal_opponent_animals": {
+              "GOOSE": 0,
+              "COW": 8,
+              "SHEEP": 5
+            },
+            "focal_premium_sell_quantity": 1018.0,
+            "opponent_premium_sell_quantity": 2253.0
+          }
+        ],
+        "pairwise_v111_to_v113": {
+          "total_pairs": 12,
+          "causal_valid_pairs": 12,
+          "causal_effect_available": true,
+          "v111_strict_win_probability": 0.8333333333333334,
+          "v113_strict_win_probability": 0.8333333333333334,
+          "v111_win_score": 0.8333333333333334,
+          "v113_win_score": 0.8333333333333334,
+          "delta_win_probability": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "mean_delta_self_coin": 0.0,
+          "mean_delta_opponent_coin": 0.0,
+          "mean_delta_margin": 0.0,
+          "trigger_pairs": 0,
+          "actual_treatment_pairs": 0,
+          "strict_discordant_outcome_pairs": 0
+        }
+      }
+    ],
+    "largest_experimentable_signal": {
+      "hypothesis_id": "H_WEAK_LATE_PREMIUM_REVERSAL_001",
+      "status": "DEVELOPMENT_HYPOTHESIS_NOT_YET_A_BEST_RESPONSE",
+      "loss_pairs": 6,
+      "independent_seeds": [
+        29117001
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "continuation_families": [
+        "gold_public_0b7f92b9",
+        "gold_public_46d78f69",
+        "gold_public_a6f1291b"
+      ],
+      "shared_opponent_prefix_family_count": {
+        "24": 1,
+        "100": 1,
+        "200": 1,
+        "400": 3,
+        "719": 3
+      },
+      "shared_through_step200": true,
+      "distinct_continuations_by_step400": 3,
+      "distinct_terminal_trajectories": 3,
+      "terminal_shop_regimes": [
+        [
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "ICE_CREAM_SHOP",
+          "ICE_CREAM_SHOP",
+          "ICE_CREAM_SHOP",
+          "PIZZA_SHOP",
+          "YARN_STORE",
+          "YARN_STORE"
+        ]
+      ],
+      "gate_requested_pairs": 0,
+      "actual_treatment_pairs": 0,
+      "v111_v113_action_identical_pairs": 6,
+      "day12_cash_margin": [
+        1308.0
+      ],
+      "day20_cash_margin_range": [
+        -1461.0,
+        -1043.0
+      ],
+      "terminal_margin_range": [
+        -3902.0,
+        -2997.0
+      ],
+      "focal_premium_sell_quantity": [
+        1018.0
+      ],
+      "opponent_premium_sell_quantity_range": [
+        1905.0,
+        2253.0
+      ],
+      "taxonomy": "Late premium/residual-demand cash reversal after a shared opening. V111 leads by +1308 at Day12 in every loss, then is behind by Day20.",
+      "dependence_guardrail": "Six seat-level losses are one seed/Town regime and share the exact opponent action prefix through step200. They cannot be counted as six independent weakness confirmations.",
+      "next_valid_test": "Acquire executable independent descendants or synthesize pre-registered Targeted Efficacy seeds with the same regime before selecting a continuation."
+    },
+    "live_bronze_acquisition_priority": {
+      "cluster_id": "live_field_route_h200_c03",
+      "episodes": 5,
+      "wins": 1,
+      "losses": 4,
+      "win_rate": 0.2,
+      "mean_margin": -3220.0,
+      "executable_status": "UNIDENTIFIED_BRONZE",
+      "best_response_eligible": false,
+      "reason": "Recorded trajectory similarity is not executable policy identity and cannot support a counterfactual."
+    },
+    "weakness_conclusions": {
+      "v111": "No broad 30-70% independent executable family weakness was found. The largest Development signal is a one-seed shared-opening late premium cash reversal, which is a target for further opponent acquisition.",
+      "v113": "Outcome weaknesses match V111 in every executable loss. Its additional verified weakness is a treatment-linked hard Safety regression: one extra spawned weed in four pairs."
+    }
+  },
+  "v114_decision": {
+    "best_response_selected": false,
+    "candidate_implemented": false,
+    "causal_win_uplift": "NOT_ESTIMATED",
+    "research_target": "H_WEAK_LATE_PREMIUM_REVERSAL_001",
+    "reason": "The only repeatable executable loss pattern is one Development seed/Town regime shared through step200, while the genuine 30-70% Sensitivity count is zero. Selecting implementation details now would be post-hoc overfit.",
+    "next_gate": "Promote executable live-loss candidates or independent variants into a pre-registered Targeted Efficacy Panel, then measure actual-treatment Loss->Win and Win->Loss before creating V114."
+  },
+  "evidence_levels": {
+    "E0": "ACHIEVED for engine/evaluator mechanics and tests",
+    "E1": "ACHIEVED for Top continuation-package descriptive analysis",
+    "E2": "ACHIEVED for the previously frozen animal-direction predictive model; NOT ACHIEVED for the newly extracted continuation package and not causal policy-strength evidence",
+    "E3": "ACHIEVED as executable paired diagnosis for V111 versus V113; promotion fails hard Safety and shows no Loss->Win rescue",
+    "E4": "NOT ACHIEVED: Sensitivity has zero genuine 30-70% opponents and Meta weights are not a validated diverse current-field population",
+    "E5": "NOT ACHIEVED: no Fresh Holdout was consumed or relabeled",
+    "E6": "ACHIEVED observationally for V113 submission 55933145; not a gate-level causal effect"
+  },
+  "final_decision": {
+    "v111_remains_champion": true,
+    "v113_retained_as_live_benchmark": true,
+    "v113_strength_vs_v111": "INCONCLUSIVE",
+    "v113_promotion": "NO",
+    "v114_created": false,
+    "v114_kaggle_submission_basis": "INSUFFICIENT",
+    "fresh_holdout_used": false,
+    "decision_rationale": "Strength non-separation alone would justify retaining both research candidates, but the hard Safety regression keeps V111 as the sole production Champion. V113 remains a non-discarded live-validated field benchmark."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "format": "kaggriculture-reaction-aware-gold-policy-query-preregistration-v1",
+  "frozen_at": "2026-09-02T18:07:00+09:00",
+  "hypothesis_id": "H_GOLD_PUBLIC_FARM_RESPONSE_001",
+  "question": "Do multiple executable Gold policies change their future action stream when the opponent public farm is shown a small persistent Cow/Sheep portfolio intervention with all supplied replay observations otherwise fixed?",
+  "dataset_role": "Development mechanistic screening",
+  "evidence_ceiling": "E2 executable-policy response query; not an E3 closed-loop payoff experiment",
+  "control": "the executable opponent receives the original observation history",
+  "treatments": [
+    {
+      "id": "cow_to_sheep_signal_1",
+      "operation": "From onset onward, change the first opponent-public COW tile to SHEEP while preserving every other public/private/market/Town field.",
+      "availability": "at least one public COW tile"
+    },
+    {
+      "id": "sheep_plus_one_free_pasture_signal",
+      "operation": "From onset onward, place one synthetic SHEEP on the first built, unoccupied public PASTURE; preserve every other field.",
+      "availability": "at least one built unoccupied public PASTURE"
+    }
+  ],
+  "onset_steps": [216, 248, 288],
+  "response_horizon_turns": 72,
+  "baseline_seed": 19135101,
+  "seats": [0, 1],
+  "sources": [
+    {
+      "policy_id": "gold_v11",
+      "source_ancestry": "local_mainline_v11_descendant",
+      "path": "agents/v11/main.py",
+      "sha256": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+      "baseline": "saved formal V111-control replay"
+    },
+    {
+      "policy_id": "gold_v14",
+      "source_ancestry": "local_mainline_v11_descendant",
+      "path": "agents/v14/main.py",
+      "sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7",
+      "baseline": "saved formal V111-control replay"
+    },
+    {
+      "policy_id": "gold_v18",
+      "source_ancestry": "local_mainline_v11_descendant",
+      "path": "agents/v18/main.py",
+      "sha256": "c952c06e6226dc2d056bf28382e25e6bc4c03ec0c67b700f763dda8a0dceef85",
+      "baseline": "saved formal V111-control replay"
+    },
+    {
+      "policy_id": "gold_public_v27",
+      "source_ancestry": "public_v27",
+      "path": "agents/v112/main.py",
+      "sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+      "baseline": "saved formal V111-control replay"
+    },
+    {
+      "policy_id": "gold_public_v43",
+      "source_ancestry": "public_v43",
+      "path": "agents/v109/public_v43_base.py",
+      "sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+      "baseline": "generate V111-control replay at the frozen seed and save it with the result"
+    }
+  ],
+  "primary_outputs": [
+    "baseline executable-policy action fidelity against the source replay",
+    "available treatment conditions",
+    "conditions with any action response",
+    "first response step and lag",
+    "first changed field/market component",
+    "affected product categories",
+    "response replication by source ancestry and both seats"
+  ],
+  "validity_rules": {
+    "minimum_baseline_action_fidelity_per_policy_seat": 0.99,
+    "unavailable_intervention": "report and exclude only from that treatment denominator",
+    "population_replication": "at least two source ancestries must respond, each in both seats in at least one frozen onset/treatment condition",
+    "shared_local_descendants": "gold_v11, gold_v14, and gold_v18 count as one source ancestry"
+  },
+  "guardrails": [
+    "Future observations remain the recorded control trajectory, so this tests policy sensitivity and response lag, not closed-loop consequences.",
+    "A response does not imply that the response is rational, profitable, or common in the live population.",
+    "A fixed/open-loop policy is a valid negative control.",
+    "No result changes V111/V113 status or authorizes V114.",
+    "If population replication passes, the next step is a separate closed-loop observation- or portfolio-intervention experiment."
+  ]
+}

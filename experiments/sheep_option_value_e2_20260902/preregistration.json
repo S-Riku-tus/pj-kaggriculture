@@ -1,0 +1,69 @@
+{
+  "format": "kaggriculture-sheep-option-value-e2-preregistration-v1",
+  "frozen_at": "2026-09-02T17:55:40+09:00",
+  "hypothesis_id": "H_OPTION_PRESERVING_SHEEP_EXPANSION_001",
+  "question": "Among the already-triggered Top366 step216 states, do mechanically available animal/cash/feed/labor options plus frozen Wool-vs-Milk demand signals predict material Sheep expansion on an action-lineage held-out basis?",
+  "dataset_role": "Development",
+  "evidence_target": "E2 lineage-held-out prediction only; never policy strength or causal option value",
+  "source": "data/analysis/v113_strategy_gate_audit_v2.json",
+  "cohort_rule": "max_abs_z <= 4 and predicted_tilt >= 1.5",
+  "state_step": 216,
+  "label_step": 288,
+  "label": "material Sheep expansion iff actual_cow_delta == 0 and actual_sheep_delta >= 1",
+  "independent_unit": "h200 action lineage; episode rows are averaged within lineage before fitting",
+  "features": [
+    "free_pasture_slots",
+    "cash_after_two_sheep",
+    "feed_surplus_3d_after_two_sheep",
+    "prior_worker_slack_rate_48",
+    "prior_mean_hands_48",
+    "wool_minus_milk_residual_demand_72",
+    "wool_minus_milk_price",
+    "wool_minus_milk_market_scarcity"
+  ],
+  "feature_semantics": {
+    "free_pasture_slots": "built PASTURE tiles without a placed animal at step216",
+    "cash_after_two_sheep": "public cash minus 1000, the engine cost of two Sheep",
+    "feed_surplus_3d_after_two_sheep": "private Wheat plus on-farm Wheat yield minus three days of feed for current placed animals plus two Sheep",
+    "prior_worker_slack_rate_48": "PASS or missing actor slots divided by public actor slots over steps168-215",
+    "prior_mean_hands_48": "mean public hired hands over steps168-215",
+    "wool_minus_milk_residual_demand_72": "known-shop/Town demand through step287 minus both farms' public held yield and gross scheduled animal base production, Wool minus Milk",
+    "wool_minus_milk_price": "public Wool price minus Milk price at step216",
+    "wool_minus_milk_market_scarcity": "Milk market inventory minus Wool inventory at step216; positive means Wool is scarcer"
+  },
+  "mechanical_rule": {
+    "prediction": "positive iff every threshold passes",
+    "thresholds": {
+      "free_pasture_slots": ">= 2",
+      "cash_after_two_sheep": ">= 500",
+      "feed_surplus_3d_after_two_sheep": ">= 0",
+      "prior_worker_slack_actions_48": ">= 8"
+    }
+  },
+  "predictive_model": {
+    "type": "balanced L2 logistic regression",
+    "validation": "leave-one-action-lineage-out",
+    "standardization": "training lineages only in each fold",
+    "class_weights": "n/(2*n_class) on training lineages",
+    "l2": 1.0,
+    "probability_threshold": 0.5,
+    "iterations": 100,
+    "fit_unit": "one mean feature vector and one pure binary label per action lineage"
+  },
+  "pass_rule": {
+    "minimum_positive_lineages": 10,
+    "minimum_negative_lineages": 4,
+    "minimum_sensitivity": 0.70,
+    "minimum_specificity": 0.75,
+    "minimum_balanced_accuracy": 0.725,
+    "maximum_brier_score": 0.25,
+    "all_conditions_required": true
+  },
+  "guardrails": [
+    "No threshold or feature changes after reading the output.",
+    "The Top366 corpus remains Development and is not Fresh Holdout.",
+    "A pass supports prediction of Top-policy behavior, not that preserving options improves win probability.",
+    "Cow and Sheep component deltas remain separate; Cow removal is not inferred.",
+    "Requested market actions and replay state are Bronze evidence, not audited Gold counterfactuals."
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "format": "kaggriculture-public-kaggle-acquisition-queue-v1",
+  "observed_at": "2026-09-02T17:30:45+09:00",
+  "dataset_role": "Discovery only; any downloaded artifact and probe becomes Development and never Fresh Holdout",
+  "claim_boundary": "Displayed notebook scores and indexed output listings are acquisition-priority metadata, not executable Gold evidence or a live-strength estimate. A candidate becomes Gold only after exact bytes are acquired, provenance/hash is frozen, all common-seed both-seat games complete, and executed action-family collapse is applied.",
+  "api_status": {
+    "kaggle_cli": "AUTHENTICATION_REQUIRED",
+    "anonymous_get_kernel": 403,
+    "anonymous_list_kernel_session_output": 403,
+    "manual_browser_download_required": true
+  },
+  "already_acquired_high_score_reference": {
+    "candidate_id": "public_v27_raw",
+    "url": "https://www.kaggle.com/code/kaitofukami/25-27-strict-future-v27-midgame-meta-reset/output?scriptVersionId=340638748",
+    "notebook_version": 4,
+    "indexed_best_score": 3090.1,
+    "local_entrypoint": "agents/v112/main.py",
+    "local_entrypoint_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+    "common_probe": {
+      "games": 4,
+      "v111_wins": 4,
+      "v111_mean_margin": 8967.5,
+      "executed_family": "gold_family_21_e9b175a2"
+    },
+    "expanded_dual_benchmark": {
+      "pairs": 12,
+      "v111_wins": 12,
+      "v113_wins": 12,
+      "loss_to_win": 0,
+      "win_to_loss": 0
+    },
+    "interpretation": "This is exact high-score public executable evidence, but it is Regression coverage rather than a 30-70% local Sensitivity family on the spent Development seeds. Do not reacquire or rerun it merely because its indexed score is high."
+  },
+  "priority_queue": [
+    {
+      "priority": 1,
+      "candidate_id": "kaggle_rayk_rank_your_agent_v11",
+      "url": "https://www.kaggle.com/code/raykkretzschmar/kaggriculture-rank-your-agent/output",
+      "indexed_best_score": 2990.4,
+      "target_best_score_version": 11,
+      "indexed_current_public_score": 2563.4,
+      "indexed_current_version": 23,
+      "indexed_output_files": ["main.py", "my_agent.py", "submission.tar.gz"],
+      "reason": "Highest currently indexed public executable-output lead; near the project target and not present in the local Gold registry."
+    },
+    {
+      "priority": 2,
+      "candidate_id": "kaggle_andrey_breaking_tie_v12",
+      "url": "https://www.kaggle.com/code/andrewsokolovsky/kaggriculture-breaking-the-tie/output?scriptVersionId=341994976",
+      "script_version_id": "341994976",
+      "indexed_public_score": 2883.0,
+      "indexed_best_score": 2883.0,
+      "indexed_version": 12,
+      "indexed_output_files": ["main.py", "submission.py", "submission.tar.gz"],
+      "indexed_submission_py_sha256": "df4e899ad535754cf2ddbd3c16e48085916b0cd2baa5182a1a2cfc6a856abae5",
+      "reason": "High-score output with a published build hash; stronger lead than the previously audited generic Andrey notebook slug."
+    },
+    {
+      "priority": 3,
+      "candidate_id": "kaggle_flexonafft_multi_route_v59",
+      "url": "https://www.kaggle.com/code/flexonafft/kaggriculture-multi-route-farming-agent",
+      "indexed_public_score": 1961.6,
+      "indexed_best_score": 2767.3,
+      "target_best_score_version": 59,
+      "indexed_current_version": 84,
+      "indexed_output_file_count": 2,
+      "reason": "Previously highest-priority lead; remains important because other public notebooks consume it as an input."
+    },
+    {
+      "priority": 4,
+      "candidate_id": "kaggle_salem_2900_v2",
+      "url": "https://www.kaggle.com/code/salemali7/kaggriculture-2900",
+      "indexed_public_score": 2243.2,
+      "indexed_best_score": 2702.3,
+      "target_best_score_version": 2,
+      "indexed_current_version": 13,
+      "indexed_current_output_file_count": 7,
+      "reason": "Newly discovered high-score public notebook absent from the prior seven-notebook audit."
+    },
+    {
+      "priority": 5,
+      "candidate_id": "kaggle_anas_kaggriculture_v3",
+      "url": "https://www.kaggle.com/code/anasriaz/kaggriculture/output",
+      "indexed_public_score": 1085.7,
+      "indexed_best_score": 2213.8,
+      "target_best_score_version": 2,
+      "indexed_current_version": 3,
+      "indexed_output_files": ["main.py", "submission.tar.gz"],
+      "reason": "Indexed output exposes a closed-loop main.py and submission archive; code snippets suggest premium timing and terminal reconciliation behavior."
+    },
+    {
+      "priority": 6,
+      "candidate_id": "kaggle_tetsu_read_town_v2",
+      "url": "https://www.kaggle.com/code/tetsutani/read-the-town-build-the-farm-kaggriculture/output",
+      "indexed_public_score": 1896.6,
+      "indexed_best_score": 2043.8,
+      "target_best_score_version": 1,
+      "indexed_current_version": 2,
+      "indexed_output_files": ["submission.tar.gz"],
+      "indexed_submission_archive_bytes": 95846,
+      "reason": "Output archive is explicitly indexed and the route is relevant to Town-conditioned continuation."
+    },
+    {
+      "priority": 7,
+      "candidate_id": "kaggle_amey_premium_first_v25",
+      "url": "https://www.kaggle.com/code/ameythakur20/kaggriculture-premium-first-market-agent",
+      "indexed_best_score": 1796.7,
+      "target_best_score_version": 4,
+      "indexed_current_version": 25,
+      "indexed_output_file_count": 3,
+      "reason": "Mechanistically relevant to H_WEAK_LATE_PREMIUM_REVERSAL_001 even if it is not the strongest live lead."
+    }
+  ],
+  "live_c03_submission_targets": [
+    {
+      "submission_id": 55932210,
+      "opponent_display_name": "kurushun",
+      "episode_id": 104512704,
+      "public_code_match": "NOT_FOUND"
+    },
+    {
+      "submission_id": 55861952,
+      "opponent_display_name": "The Great Alliance",
+      "episode_id": 104521034,
+      "public_code_match": "NOT_FOUND"
+    },
+    {
+      "submission_id": 55804049,
+      "opponent_display_name": "Diavolo",
+      "episode_id": 104524863,
+      "public_code_match": "NOT_FOUND"
+    },
+    {
+      "submission_id": 55813308,
+      "opponent_display_name": "Rohit Raj Singh",
+      "episode_id": 104532282,
+      "public_code_match": "NOT_FOUND"
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "format": "kaggriculture-public-gold-addendum-panel-v1",
+  "created_at": "2026-09-02T09:49:03.522147+09:00",
+  "dataset_role": "Discovery/Development public executable addendum; permanently excluded from Fresh Holdout",
+  "source_probes": [
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\public_candidate_addendum_probe.json",
+      "sha256": "8a25a4f1e4c80efa71cc67eab01fcbaa95594bf0e7bbfa0e0661c97e2f673389"
+    },
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json",
+      "sha256": "346a32e25e9560cd4787184260cce73bdf26ffcbe8753cd243c2e1316f3c89e3"
+    }
+  ],
+  "controls": {
+    "clean_v111": {
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v111\\main.py",
+      "entrypoint_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+      "dependency_closure_sha256": "2088328ffe20f5846bdb7316a85075a4615b241b984ec15cc8d1eec7f605b51d",
+      "role": "clean causal control"
+    },
+    "live_benchmark_v113": {
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v113\\main.py",
+      "entrypoint_sha256": "fc83664b1cfa05db3fb781800bc4277c00607b7d729e94a78d3c4d39a1f0474b",
+      "dependency_closure_sha256": "cd8a9bc9940c832be576a07f2a21554e49ce5597660378bb5ca7ea67cb16e16b",
+      "role": "live-validated field benchmark; not gate-causal proof"
+    }
+  },
+  "selection": {
+    "selected_family_count": 14,
+    "closed_loop_public_family_count": 4,
+    "executable_open_loop_route_count": 10,
+    "exact_action_family_collapse": true,
+    "sensitivity_target_family_ids": [],
+    "near_target_70_to_80_family_ids": [
+      "gold_public_aa5d5586"
+    ],
+    "sensitivity_adequacy": {
+      "status": "INSUFFICIENT",
+      "target_family_count": 0,
+      "reason": "No newly acquired family had a draw-adjusted V111 common-probe win score in the preregistered 30-70% target band."
+    }
+  },
+  "preregistered_dual_benchmark": {
+    "purpose": "Add only newly acquired executable public families to the V111/V113 comparison without rerunning the completed 180-pair experiment.",
+    "planned_unique_pairs": 168,
+    "report_separately": [
+      "total_pairs",
+      "trigger_pairs",
+      "actual_treatment_pairs",
+      "discordant_outcome_pairs",
+      "hard_safety_failure_pairs",
+      "treatment_delivery_failures"
+    ],
+    "base_selection_rule": {
+      "retain_v113_as_v114_base_candidate": "Requires no Hard Safety Failure, positive major-family discordance, and non-inferior family-clustered win-score intervals; this addendum cannot override the completed benchmark's safety failure.",
+      "return_to_v111_base": "Keep V111 as clean champion when V113 has any unresolved Hard Safety Failure or a major-family regression.",
+      "dual_champion_candidates": "Allowed only if safety passes and strength is unresolved."
+    },
+    "v114_authorization": "None. A repeated executable loss regime and preregistered Targeted Efficacy experiment are still required."
+  },
+  "families": [
+    {
+      "behavior_family_id": "gold_public_0b7f92b9",
+      "family_signature": "0b7f92b9a48ad37ff163d8d8c01309b1",
+      "representative_candidate_id": "public_route_frontier_moon",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\frontier_moon\\main.py",
+      "entrypoint_sha256": "046f51c666b89e7b570117e6ccd494e8df3aa7745f6047c748de1c975ea6bdae",
+      "dependency_closure_sha256": "230f3ff5edc1df35eb7b345df7d45ebd5cdedce6cd58e1f02130ca431c74663d",
+      "provenance": "public notebook snapshot kaggriculture-frontier-the-moon-counts-melons",
+      "artifact_scope": "executable open-loop route extracted from public notebook",
+      "license": null,
+      "source_members": [
+        "public_route_frontier_moon"
+      ],
+      "source_ancestry_ids": [
+        "public_frontier_moon_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_0b7f92b9",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 18453.75,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_1f13714f",
+      "family_signature": "1f13714fbd2050f1e8041f81a378423f",
+      "representative_candidate_id": "public_github_cok_zhangziliang_head",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\cok_zhangziliang_kaggriculture\\main.py",
+      "entrypoint_sha256": "1c7335f698692f1c7bac34913a9ededc0f736dfb2b51346a4fa59098ab471d01",
+      "dependency_closure_sha256": "5056683fef7a39f860fd66a1eabdb6963344cbb46ec38f8ad25660d448980b5d",
+      "provenance": "https://github.com/COK-ZhangZiliang/Kaggriculture at 7ef67eac458cd9ecd13786063e2e581fbe7403ec",
+      "artifact_scope": "exact public repository HEAD; not assumed identical to README's historical submitted hash",
+      "license": "Apache-2.0 with third-party notices",
+      "source_members": [
+        "public_github_cok_zhangziliang_head"
+      ],
+      "source_ancestry_ids": [
+        "github_cok_public_route_derived"
+      ],
+      "meta_vote_group": "github_cok_public_route_derived",
+      "style_tags": [
+        "milk_cowward",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 11724.5,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 1.0
+    },
+    {
+      "behavior_family_id": "gold_public_30c5a82e",
+      "family_signature": "30c5a82ea939c94dce56c0f834f99485",
+      "representative_candidate_id": "public_route_v13_r3",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v13_r3\\main.py",
+      "entrypoint_sha256": "23a76c675f2284a037223eee666a971887afe1393f5e70ae9498da4715712926",
+      "dependency_closure_sha256": "0f4a6ff7fd396f5ebcff518c8ed14eb1246fb2dcce6b303e9562139ba64f24c5",
+      "provenance": "GzmCR/Kaggriculture public snapshot notebook-extracted v13_r3 route",
+      "artifact_scope": "executable open-loop route artifact",
+      "license": null,
+      "source_members": [
+        "public_route_v13_r3"
+      ],
+      "source_ancestry_ids": [
+        "public_v13_r3_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_30c5a82e",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 32978.5,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_3ddfa626",
+      "family_signature": "3ddfa6262138e1115c4bd1fd5929d89a",
+      "representative_candidate_id": "public_github_lonespear_head",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main.py",
+      "entrypoint_sha256": "3981830b9181db4685afe2b61f182edb13ff5a19d344a70b16a6bc5aedf2a026",
+      "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+      "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+      "artifact_scope": "exact public repository HEAD; repository states root main.py was submitted as 55309483 but this linkage was not re-verified",
+      "license": "MIT",
+      "source_members": [
+        "public_github_lonespear_head"
+      ],
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "meta_vote_group": "github_lonespear",
+      "style_tags": [
+        "milk_cowward",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 49368.0,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 1.0
+    },
+    {
+      "behavior_family_id": "gold_public_46d78f69",
+      "family_signature": "46d78f69d9ae15f2c286341bbf1ad613",
+      "representative_candidate_id": "public_route_high_score",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\high_score\\main.py",
+      "entrypoint_sha256": "a328e29d12cdb6a0cf43fc54a5b54a4e50fe0663d962012f4091f255017244f5",
+      "dependency_closure_sha256": "795d681aac290274cbc74881757152d6929d259fcf50bbe2c84f75f5b3ba85dd",
+      "provenance": "public notebook snapshot my-2026-08-04-high-score-pipeline",
+      "artifact_scope": "executable open-loop route extracted from public notebook",
+      "license": null,
+      "source_members": [
+        "public_route_high_score"
+      ],
+      "source_ancestry_ids": [
+        "public_bruce_high_score_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_46d78f69",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 17943.75,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_552d0330",
+      "family_signature": "552d033034fd2b464b7a3d1edb9b0c7a",
+      "representative_candidate_id": "public_route_stable12",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\stable12\\main.py",
+      "entrypoint_sha256": "fe1d7f30c93deaaf93161f96577202dc73dcc38db022803bf73e0ecd33da8edf",
+      "dependency_closure_sha256": "2c4528615fb112ebf3a4780941f2e537101ea32151fb0bc98dcf4ea86ac6f609",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/stable12",
+      "artifact_scope": "executable open-loop route artifact",
+      "license": null,
+      "source_members": [
+        "public_route_stable12"
+      ],
+      "source_ancestry_ids": [
+        "public_stable12_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_552d0330",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 57353.5,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_728728d6",
+      "family_signature": "728728d6cea0252c76b2d435dcb467b2",
+      "representative_candidate_id": "public_github_gzmcr_head",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\main.py",
+      "entrypoint_sha256": "fef48be655b403c994979ba1e88eaa550c98ec7e1a7b207c1ceebda990d69c23",
+      "dependency_closure_sha256": "16370cff72e66ff3f2080d0277e38311e95a5f1c4935d9ae3f35da26afcd79fc",
+      "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+      "artifact_scope": "exact public repository HEAD, not verified as an exact live submission binary",
+      "license": "No root license file found; internal discovery probe only pending license review",
+      "source_members": [
+        "public_github_gzmcr_head"
+      ],
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "meta_vote_group": "github_gzmcr",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 29362.25,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 1.0
+    },
+    {
+      "behavior_family_id": "gold_public_9ddbfb07",
+      "family_signature": "9ddbfb07d8841cfd98d98fb177478dfc",
+      "representative_candidate_id": "public_route_v022c",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v022c\\main.py",
+      "entrypoint_sha256": "266db4384aa32a0b54e402c12b94a0ee3a7b7eded8610b753e80773ad34f69b6",
+      "dependency_closure_sha256": "36980bc320342e55ed9d4e0e4719ef009ce29933475bd6d67d9946f544b8c98d",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v022c",
+      "artifact_scope": "executable open-loop route artifact",
+      "license": null,
+      "source_members": [
+        "public_route_v022c"
+      ],
+      "source_ancestry_ids": [
+        "public_v022c_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_9ddbfb07",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 28800.5,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_a6f1291b",
+      "family_signature": "a6f1291b286390da3647173c55a111a3",
+      "representative_candidate_id": "public_github_seyamalam_head",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\main.py",
+      "entrypoint_sha256": "4c02a323b0939e8f99df69dc6c23026946b033b0d831c79216ffac0ded9c8e60",
+      "dependency_closure_sha256": "a88106866d7c95b5c7bdd80a85531020b1f297b133cc74c60339f25d7006229d",
+      "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+      "artifact_scope": "exact public repository HEAD; repository documents public V18/C20 ancestry",
+      "license": "MIT with third-party notices",
+      "source_members": [
+        "public_github_seyamalam_head"
+      ],
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "meta_vote_group": "github_seyamalam_public_v18_derived",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 19015.25,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 1.0
+    },
+    {
+      "behavior_family_id": "gold_public_aa5d5586",
+      "family_signature": "aa5d55860f2293e27499ac410361586d",
+      "representative_candidate_id": "public_route_frontier_soil",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\frontier_soil\\main.py",
+      "entrypoint_sha256": "fe4f7691b48607e6f6b41aeb5c4a4877e2fdbf6a4af439180743cadb77179105",
+      "dependency_closure_sha256": "048f9bf0be6c5cf6e6b7315dd1c7077c524b2de44348fc1217c51924829bcfcb",
+      "provenance": "public notebook snapshot kaggriculture-frontier-the-soil-remembers-rain",
+      "artifact_scope": "executable open-loop route extracted from public notebook",
+      "license": null,
+      "source_members": [
+        "public_route_frontier_soil"
+      ],
+      "source_ancestry_ids": [
+        "public_frontier_soil_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_aa5d5586",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 0.75,
+      "v111_probe_win_score": 0.75,
+      "v111_probe_mean_margin": 14836.25,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_acfb3cab",
+      "family_signature": "acfb3cabb060ae7fabc31d66dca6be6e",
+      "representative_candidate_id": "public_route_agent_builder",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\agent_builder\\main.py",
+      "entrypoint_sha256": "6241f0aaac7994a0e995eca04434f0a988c84da9453276a34547a8f4e011d100",
+      "dependency_closure_sha256": "293687a2ec59c8ab6e07fcd4d64841cd5e88c84abdd5de18d32b2459c61697e3",
+      "provenance": "public notebook snapshot kaggriculture-agent-builder",
+      "artifact_scope": "executable open-loop route extracted from public notebook",
+      "license": null,
+      "source_members": [
+        "public_route_agent_builder"
+      ],
+      "source_ancestry_ids": [
+        "public_agent_builder_route"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_acfb3cab",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 34632.75,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_b6f3732a",
+      "family_signature": "b6f3732adf8da8edcb4f40cf4ec5696c",
+      "representative_candidate_id": "public_route_v22",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v22\\main.py",
+      "entrypoint_sha256": "5807bf35a4b8a2d90eeb798e8b3a0943622d12e2926032ff24ddd4220b58d984",
+      "dependency_closure_sha256": "4d676df7f527f7c5960e4658ffbf5bd04d0741c2716b4604bec52b98726447dd",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v22",
+      "artifact_scope": "executable open-loop route artifact; original closed-loop policy identity is not asserted",
+      "license": null,
+      "source_members": [
+        "public_route_v22"
+      ],
+      "source_ancestry_ids": [
+        "public_route_v22"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_b6f3732a",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27499.0,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_d3edb8ec",
+      "family_signature": "d3edb8eccf3a7f9b488e8d091ba493ac",
+      "representative_candidate_id": "public_route_adaptive_v14",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\adaptive_v14\\main.py",
+      "entrypoint_sha256": "c4774e2460573ae5800ba589c61aa16f56f57320abdba6d7c3fc72b746e4a9bf",
+      "dependency_closure_sha256": "5d93c076a15a84f76f55d218af78567be2672ba71aed42ac5a58855cbcfdb5d8",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/adaptive_v14",
+      "artifact_scope": "executable open-loop route artifact; original adaptive policy identity is not asserted",
+      "license": null,
+      "source_members": [
+        "public_route_adaptive_v14"
+      ],
+      "source_ancestry_ids": [
+        "public_adaptive_replay_lineage"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_d3edb8ec",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 15833.5,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_public_fcc926c5",
+      "family_signature": "fcc926c5df906642fb9a5eea7d5a6c0f",
+      "representative_candidate_id": "public_route_v27",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v27\\main.py",
+      "entrypoint_sha256": "028af4f781045fba5530dbf151c47b63037f51226aa7177020fb17871887ed90",
+      "dependency_closure_sha256": "b3a4c5d7d7ff8a9803fbd3666f41cddce3bf014884e672cb4e9eaad904ce482e",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v27",
+      "artifact_scope": "executable open-loop route artifact; probe must determine overlap with public_v27_raw",
+      "license": null,
+      "source_members": [
+        "public_route_v27"
+      ],
+      "source_ancestry_ids": [
+        "public_v27"
+      ],
+      "meta_vote_group": "open_loop_route:gold_public_fcc926c5",
+      "style_tags": [
+        "comparatively_open_loop_observed",
+        "milk_cowward",
+        "premium_heavy",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "closed_loop_policy": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 9301.75,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    }
+  ],
+  "panels": {
+    "sensitivity": {
+      "description": "All newly acquired exact executable families; zero are in the 30-70% target band.",
+      "family_ids": [
+        "gold_public_0b7f92b9",
+        "gold_public_1f13714f",
+        "gold_public_30c5a82e",
+        "gold_public_3ddfa626",
+        "gold_public_46d78f69",
+        "gold_public_552d0330",
+        "gold_public_728728d6",
+        "gold_public_9ddbfb07",
+        "gold_public_a6f1291b",
+        "gold_public_aa5d5586",
+        "gold_public_acfb3cab",
+        "gold_public_b6f3732a",
+        "gold_public_d3edb8ec",
+        "gold_public_fcc926c5"
+      ],
+      "seeds": [
+        29117001,
+        29117002,
+        29117003,
+        29117004,
+        29117005,
+        29117006
+      ],
+      "both_seats": true,
+      "weights": {
+        "gold_public_0b7f92b9": 1.0,
+        "gold_public_1f13714f": 1.0,
+        "gold_public_30c5a82e": 1.0,
+        "gold_public_3ddfa626": 1.0,
+        "gold_public_46d78f69": 1.0,
+        "gold_public_552d0330": 1.0,
+        "gold_public_728728d6": 1.0,
+        "gold_public_9ddbfb07": 1.0,
+        "gold_public_a6f1291b": 1.0,
+        "gold_public_aa5d5586": 1.0,
+        "gold_public_acfb3cab": 1.0,
+        "gold_public_b6f3732a": 1.0,
+        "gold_public_d3edb8ec": 1.0,
+        "gold_public_fcc926c5": 1.0
+      },
+      "target_family_ids_30_to_70": [],
+      "near_target_family_ids_70_to_80": [
+        "gold_public_aa5d5586"
+      ],
+      "coverage_extension_family_ids": [
+        "gold_public_0b7f92b9",
+        "gold_public_1f13714f",
+        "gold_public_30c5a82e",
+        "gold_public_3ddfa626",
+        "gold_public_46d78f69",
+        "gold_public_552d0330",
+        "gold_public_728728d6",
+        "gold_public_9ddbfb07",
+        "gold_public_a6f1291b",
+        "gold_public_aa5d5586",
+        "gold_public_acfb3cab",
+        "gold_public_b6f3732a",
+        "gold_public_d3edb8ec",
+        "gold_public_fcc926c5"
+      ]
+    },
+    "meta": {
+      "description": "Provisional equal-weight public closed-loop policies only; not live-frequency weights.",
+      "family_ids": [
+        "gold_public_1f13714f",
+        "gold_public_3ddfa626",
+        "gold_public_728728d6",
+        "gold_public_a6f1291b"
+      ],
+      "seeds": [
+        29117001,
+        29117002,
+        29117003,
+        29117004,
+        29117005,
+        29117006
+      ],
+      "both_seats": true,
+      "weights": {
+        "gold_public_1f13714f": 1.0,
+        "gold_public_3ddfa626": 1.0,
+        "gold_public_728728d6": 1.0,
+        "gold_public_a6f1291b": 1.0
+      },
+      "weight_source": "provisional_equal_public_closed_loop_family_weight",
+      "shared_ancestry_vote_rule": "one vote per source ancestry"
+    },
+    "regression": {
+      "description": "Public executable diversity/easy-matchup coverage; not positive-uplift proof.",
+      "family_ids": [
+        "gold_public_0b7f92b9",
+        "gold_public_1f13714f",
+        "gold_public_30c5a82e",
+        "gold_public_3ddfa626",
+        "gold_public_46d78f69",
+        "gold_public_552d0330",
+        "gold_public_728728d6",
+        "gold_public_9ddbfb07",
+        "gold_public_a6f1291b",
+        "gold_public_aa5d5586",
+        "gold_public_acfb3cab",
+        "gold_public_b6f3732a",
+        "gold_public_d3edb8ec",
+        "gold_public_fcc926c5"
+      ],
+      "seeds": [
+        29117001,
+        29117002,
+        29117003,
+        29117004,
+        29117005,
+        29117006
+      ],
+      "both_seats": true,
+      "weights": {
+        "gold_public_0b7f92b9": 1.0,
+        "gold_public_1f13714f": 1.0,
+        "gold_public_30c5a82e": 1.0,
+        "gold_public_3ddfa626": 1.0,
+        "gold_public_46d78f69": 1.0,
+        "gold_public_552d0330": 1.0,
+        "gold_public_728728d6": 1.0,
+        "gold_public_9ddbfb07": 1.0,
+        "gold_public_a6f1291b": 1.0,
+        "gold_public_aa5d5586": 1.0,
+        "gold_public_acfb3cab": 1.0,
+        "gold_public_b6f3732a": 1.0,
+        "gold_public_d3edb8ec": 1.0,
+        "gold_public_fcc926c5": 1.0
+      }
+    },
+    "fresh_holdout": {
+      "description": "Reserved for later unprobed executable families and seeds.",
+      "family_ids": [],
+      "seeds": [],
+      "both_seats": true,
+      "reserved": true
+    }
+  },
+  "fresh_holdout_exclusions": {
+    "all_addendum_family_ids": [
+      "gold_public_0b7f92b9",
+      "gold_public_1f13714f",
+      "gold_public_30c5a82e",
+      "gold_public_3ddfa626",
+      "gold_public_46d78f69",
+      "gold_public_552d0330",
+      "gold_public_728728d6",
+      "gold_public_9ddbfb07",
+      "gold_public_a6f1291b",
+      "gold_public_aa5d5586",
+      "gold_public_acfb3cab",
+      "gold_public_b6f3732a",
+      "gold_public_d3edb8ec",
+      "gold_public_fcc926c5"
+    ],
+    "common_probe_seeds": [
+      29114001,
+      29114002
+    ],
+    "expanded_development_seeds": [
+      29117001,
+      29117002,
+      29117003,
+      29117004,
+      29117005,
+      29117006
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "kaggriculture-public-executable-route-candidate-addendum-v1",
+  "frozen_before_probe": "2026-09-02",
+  "dataset_role": "Discovery/Development; never Fresh Holdout",
+  "claim_boundary": "Each entry is an executable fixed route extracted from a public notebook snapshot. It is Gold for the route actually executed here, but is not claimed to reproduce the notebook author's complete closed-loop policy or live submission binary. Exact action fingerprints decide family collapse; shared notebook ancestry cannot create extra Meta votes.",
+  "candidates": [
+    {
+      "candidate_id": "public_route_v22",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/v22/main.py",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v22",
+      "source_ancestry_id": "public_route_v22",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route artifact; original closed-loop policy identity is not asserted"
+    },
+    {
+      "candidate_id": "public_route_adaptive_v14",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/adaptive_v14/main.py",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/adaptive_v14",
+      "source_ancestry_id": "public_adaptive_replay_lineage",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route artifact; original adaptive policy identity is not asserted"
+    },
+    {
+      "candidate_id": "public_route_v27",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/v27/main.py",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v27",
+      "source_ancestry_id": "public_v27",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route artifact; probe must determine overlap with public_v27_raw"
+    },
+    {
+      "candidate_id": "public_route_stable12",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/stable12/main.py",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/stable12",
+      "source_ancestry_id": "public_stable12_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route artifact"
+    },
+    {
+      "candidate_id": "public_route_v022c",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/v022c/main.py",
+      "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v022c",
+      "source_ancestry_id": "public_v022c_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route artifact"
+    },
+    {
+      "candidate_id": "public_route_v13_r3",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/v13_r3/main.py",
+      "provenance": "GzmCR/Kaggriculture public snapshot notebook-extracted v13_r3 route",
+      "source_ancestry_id": "public_v13_r3_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route artifact"
+    },
+    {
+      "candidate_id": "public_route_high_score",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/high_score/main.py",
+      "provenance": "public notebook snapshot my-2026-08-04-high-score-pipeline",
+      "source_ancestry_id": "public_bruce_high_score_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route extracted from public notebook"
+    },
+    {
+      "candidate_id": "public_route_frontier_soil",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/frontier_soil/main.py",
+      "provenance": "public notebook snapshot kaggriculture-frontier-the-soil-remembers-rain",
+      "source_ancestry_id": "public_frontier_soil_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route extracted from public notebook"
+    },
+    {
+      "candidate_id": "public_route_frontier_moon",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/frontier_moon/main.py",
+      "provenance": "public notebook snapshot kaggriculture-frontier-the-moon-counts-melons",
+      "source_ancestry_id": "public_frontier_moon_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route extracted from public notebook"
+    },
+    {
+      "candidate_id": "public_route_agent_builder",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/baseline/history/pure_routes/agent_builder/main.py",
+      "provenance": "public notebook snapshot kaggriculture-agent-builder",
+      "source_ancestry_id": "public_agent_builder_route",
+      "exact_submitted_or_public_artifact": false,
+      "artifact_scope": "executable open-loop route extracted from public notebook"
+    }
+  ]
+}

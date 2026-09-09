@@ -1,0 +1,469 @@
+{
+  "format": "kaggriculture-v113-live-e6-immutable-raw-manifest-v1",
+  "submission_id": 55933145,
+  "snapshot_fetched_at_utc": "2026-09-01T14:03:23.513784+00:00",
+  "episode_source": "https://www.kaggle.com/api/i/competitions.EpisodeService/ListEpisodes",
+  "replay_source_template": "https://www.kaggleusercontent.com/episodes/{episode_id}.json",
+  "reported_rating_at_fetch": 1676.0,
+  "coverage": {
+    "episode_service_rows": 59,
+    "episode_csv_rows": 59,
+    "fetch_manifest_rows": 59,
+    "replays": 59,
+    "replays_with_720_states": 59,
+    "fetch_errors": 0
+  },
+  "source_files": [
+    {
+      "path": "data/submissions/v113_submission_55933145/metadata.json",
+      "bytes": 975,
+      "sha256": "5d5aeccd65aac42079c2e8cb3603b947b507b9adc4a27fae756ea0429eefadea"
+    },
+    {
+      "path": "data/submissions/v113_submission_55933145/episode_service_response.json",
+      "bytes": 89513,
+      "sha256": "f0c7534c37e480326f33d210c4edac85c5e1a99d5abf7627c4916c8a78fa4f25"
+    },
+    {
+      "path": "data/submissions/v113_submission_55933145/episodes.csv",
+      "bytes": 11628,
+      "sha256": "068de27f8d527632139beeca13caa4a44c0762a12a9af272b7940c1aa2a4fecf"
+    },
+    {
+      "path": "data/submissions/v113_submission_55933145/manifest.csv",
+      "bytes": 15604,
+      "sha256": "7472816466ef990bd793334cfb238b1078041e6ba8a3512fb573f616d75a6de7"
+    },
+    {
+      "path": "data/submissions/v113_submission_55933145/v113_submission_55933145_battle_logs.zip",
+      "bytes": 30201187,
+      "sha256": "849dd37f3716ff7d2bd338b6bd2d61cf68cc3edea2341b3bee701e19be1996c3"
+    },
+    {
+      "path": "artifacts/evaluation/v113_cow_sheep/treatment.tar.gz",
+      "bytes": 116885,
+      "sha256": "8e70f27af32ff0b469cf60d7822faf9ccf7371ba4bc0fd293de61815a752221d"
+    },
+    {
+      "path": "artifacts/evaluation/v113_cow_sheep/control.tar.gz",
+      "bytes": 116878,
+      "sha256": "85337f8390094f162e3ab7476f8e8575310e0f16aa0a9a4a2659bc3648e73871"
+    }
+  ],
+  "replays": [
+    {
+      "episode_id": 104505192,
+      "path": "data/replays/v113_submission_55933145/episode_104505192.json",
+      "bytes": 28194506,
+      "sha256": "6d62538472dacfa1b0078dc0e81f9dbe202be946e9618c315390114fec65619e",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104505990,
+      "path": "data/replays/v113_submission_55933145/episode_104505990.json",
+      "bytes": 19897954,
+      "sha256": "841b98094124fd708189bc4b50306218a234089a94106a8de5ec560b995a30bc",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104506155,
+      "path": "data/replays/v113_submission_55933145/episode_104506155.json",
+      "bytes": 27337561,
+      "sha256": "46cfcb3a61ea1cb069e1ef25a911c7845a49ec0494f1981fb75f4178b8dbda00",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104506581,
+      "path": "data/replays/v113_submission_55933145/episode_104506581.json",
+      "bytes": 28161218,
+      "sha256": "0e54f9d970d29bd1bdd04140a3bdd8c46608b1299a7aa54e49a80687c29d2db1",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104506991,
+      "path": "data/replays/v113_submission_55933145/episode_104506991.json",
+      "bytes": 28824000,
+      "sha256": "dd0e5f5fcd10672d833b0130b53f63630f9b95eea3fa5c27db5f2562c449c6c5",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104507418,
+      "path": "data/replays/v113_submission_55933145/episode_104507418.json",
+      "bytes": 29163634,
+      "sha256": "5f4742c0fb0018fd2930cc14c9355dd5a54ec8c4abac540870d1c3ef49af112b",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104507842,
+      "path": "data/replays/v113_submission_55933145/episode_104507842.json",
+      "bytes": 28372178,
+      "sha256": "aee167cabc54fe724c6594dce0c3a714dbcc24507f206cc440b8716bd63cd9e5",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104507913,
+      "path": "data/replays/v113_submission_55933145/episode_104507913.json",
+      "bytes": 28261397,
+      "sha256": "e1e97687ed57c959df81e681d997c1af2e159b7d850b79186fe8134b738f8aa8",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104508285,
+      "path": "data/replays/v113_submission_55933145/episode_104508285.json",
+      "bytes": 27792643,
+      "sha256": "0f6d4878e542afbfc4b4b2886d8adf0551d756b063a7ae358d38b926e862caab",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104508722,
+      "path": "data/replays/v113_submission_55933145/episode_104508722.json",
+      "bytes": 28969459,
+      "sha256": "7f3a4dc190a59fcbadeaedbae84093b45cbd6ec26bcaa599fe0ad4cdd4dea8a9",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104509179,
+      "path": "data/replays/v113_submission_55933145/episode_104509179.json",
+      "bytes": 28586419,
+      "sha256": "b31f6dd112f0716e6c4c9c7504bf2ec582bbbd7c8f3469a467cef11bc7e7fe67",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104509628,
+      "path": "data/replays/v113_submission_55933145/episode_104509628.json",
+      "bytes": 28420991,
+      "sha256": "fa0a1a8d867904ee23a26503cf359498e98ed2bc54dea4c1a1b2524d3f7426f5",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104510054,
+      "path": "data/replays/v113_submission_55933145/episode_104510054.json",
+      "bytes": 28443283,
+      "sha256": "7fdc696b782bff80053f07b21043ae26e16cfdc72ffcdd0ea7fae78604dca001",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104510539,
+      "path": "data/replays/v113_submission_55933145/episode_104510539.json",
+      "bytes": 28302509,
+      "sha256": "a8f348d8e9ea4d02896110de98d53c70f51a0f993609bf3326644f97b8f096df",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104511059,
+      "path": "data/replays/v113_submission_55933145/episode_104511059.json",
+      "bytes": 28842476,
+      "sha256": "9546b184bc58d7121fd830ed96c053c8b3b8b95d1b5ed7320fce5b1c06c7c0b0",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104511367,
+      "path": "data/replays/v113_submission_55933145/episode_104511367.json",
+      "bytes": 28288546,
+      "sha256": "dcf063db3badca815e86bb1d21e30877449638eecbee5ebb0709511bd3c95eb3",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104511811,
+      "path": "data/replays/v113_submission_55933145/episode_104511811.json",
+      "bytes": 28893749,
+      "sha256": "7442d8435b09abd548f6f735ae05fbf53cf1424a906111a8fb732052a9a1b7bc",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104511889,
+      "path": "data/replays/v113_submission_55933145/episode_104511889.json",
+      "bytes": 28887302,
+      "sha256": "9cc353c6f16e13a5e1f41b65f7ed9b67b54f55d62da16d40382be1d70d9a0930",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104512223,
+      "path": "data/replays/v113_submission_55933145/episode_104512223.json",
+      "bytes": 27584601,
+      "sha256": "b851585f9d125c8494dcdbb292bc1c9f5a68d690c217b533d519b3e578333fa2",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104512704,
+      "path": "data/replays/v113_submission_55933145/episode_104512704.json",
+      "bytes": 28627526,
+      "sha256": "93b9c468568076810e482eff88fc70782788b864d01c8d74ef031fea85e6e667",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104513137,
+      "path": "data/replays/v113_submission_55933145/episode_104513137.json",
+      "bytes": 28358483,
+      "sha256": "5e9964bf40a5c16525a32a2404184cb0a9eafdc4557526285584c4ee215680a7",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104513571,
+      "path": "data/replays/v113_submission_55933145/episode_104513571.json",
+      "bytes": 28936178,
+      "sha256": "0d6d3611e3c81e6ec44d7b81603bdc32a64754840f9802683a7544157e4a6a7d",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104514016,
+      "path": "data/replays/v113_submission_55933145/episode_104514016.json",
+      "bytes": 28783835,
+      "sha256": "8898afdddda5ef0b3fd0e5570de92faf768eca48de0036e73365e6e49c2314c2",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104514450,
+      "path": "data/replays/v113_submission_55933145/episode_104514450.json",
+      "bytes": 28504670,
+      "sha256": "948a0c5d91bf8130c55157d27ebd04c64b4f96ddc572171fcd25fb2244408965",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104514883,
+      "path": "data/replays/v113_submission_55933145/episode_104514883.json",
+      "bytes": 26047149,
+      "sha256": "57dad444cb9fe173d76477b7ba0235343f4fada5526b917c9805598187fa12ac",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104515036,
+      "path": "data/replays/v113_submission_55933145/episode_104515036.json",
+      "bytes": 28776484,
+      "sha256": "63668a9e8d328f04d5595e7e0988ed3947ad0bb132d39d669d484b7858cac588",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104515324,
+      "path": "data/replays/v113_submission_55933145/episode_104515324.json",
+      "bytes": 28779728,
+      "sha256": "e68c5cbfc2601e8dcc244be961a01283a5a3ce100b1a00f9394fbf82d4015f12",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104515754,
+      "path": "data/replays/v113_submission_55933145/episode_104515754.json",
+      "bytes": 29055763,
+      "sha256": "d951f2626b46de159a76216a161d2b34e5dec7a557771d310de97f6d09bda6bd",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104516184,
+      "path": "data/replays/v113_submission_55933145/episode_104516184.json",
+      "bytes": 28782852,
+      "sha256": "012d3792372e34cef2fe34edd0ab1f0a4bb3ba6605ae03b9154867fa026e44ef",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104516622,
+      "path": "data/replays/v113_submission_55933145/episode_104516622.json",
+      "bytes": 29609115,
+      "sha256": "ea2314fb084ed4f1a297ce4b6efdaf241c24d66b25dc2c12b896790df9adeee2",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104517056,
+      "path": "data/replays/v113_submission_55933145/episode_104517056.json",
+      "bytes": 28815723,
+      "sha256": "dfd5bf4cefa4261900cbb5a0bfc51ab8ec3135a20620b06b615a7af8496116d1",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104517491,
+      "path": "data/replays/v113_submission_55933145/episode_104517491.json",
+      "bytes": 27852777,
+      "sha256": "e833401ab315730a0d9b33a083601a0595fc52bbe3ab027340c7ae8e18a1da86",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104517922,
+      "path": "data/replays/v113_submission_55933145/episode_104517922.json",
+      "bytes": 28649760,
+      "sha256": "0273b0cb0dfe9240cc9e2c95b9483283cab6572f9bc27f8ae74e010bdd51bc17",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104518362,
+      "path": "data/replays/v113_submission_55933145/episode_104518362.json",
+      "bytes": 28802247,
+      "sha256": "4315f167cbab90a259e22551b146cf7d501bffb3511bb4b51ade7842151bc1e0",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104518852,
+      "path": "data/replays/v113_submission_55933145/episode_104518852.json",
+      "bytes": 28918544,
+      "sha256": "bb1b6680854c4ce2530b55afb34f0de0e59f28f16c56ba54e201a796d26e7a17",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104519214,
+      "path": "data/replays/v113_submission_55933145/episode_104519214.json",
+      "bytes": 27966668,
+      "sha256": "72932f65ff01f37b6c04c5c7dae4731f3a876784b10891491320c6b0cf618b69",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104519654,
+      "path": "data/replays/v113_submission_55933145/episode_104519654.json",
+      "bytes": 28743871,
+      "sha256": "6c2a0fb4605fe60dad7c4fdad7e382cbc44c2b20f386fb1806819a4b3cd5f046",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104520088,
+      "path": "data/replays/v113_submission_55933145/episode_104520088.json",
+      "bytes": 28741646,
+      "sha256": "d87ceeb8b1501ad5bb5f01a3df3c0e15fdfcbf413536cd14ddb4640abb2c52d4",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104520529,
+      "path": "data/replays/v113_submission_55933145/episode_104520529.json",
+      "bytes": 28737776,
+      "sha256": "684ffa6c47c898d2bb59794b197e16a761344e645487b2e4c80779fc66c8adde",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104521034,
+      "path": "data/replays/v113_submission_55933145/episode_104521034.json",
+      "bytes": 28110106,
+      "sha256": "9e277664aec0acd85fbc81781f2e32d8fb97f94eaef35a83938c3ffc4ac41396",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104521384,
+      "path": "data/replays/v113_submission_55933145/episode_104521384.json",
+      "bytes": 29629984,
+      "sha256": "f48e6eb56b18b9d7a91aa3adb2d6b4f5f7cf28d5a515ec71f0b2e8a302d2b332",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104521818,
+      "path": "data/replays/v113_submission_55933145/episode_104521818.json",
+      "bytes": 27475126,
+      "sha256": "6773c8ef87eb4558ff9afe2ffa315a9a7bbee14dd19c455b1848e6c18767eb33",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104522258,
+      "path": "data/replays/v113_submission_55933145/episode_104522258.json",
+      "bytes": 29716039,
+      "sha256": "0db468d86a898bbed1f866114a04aa02c17df4515c0b9c2d9c3ad4d71b58ecb5",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104522745,
+      "path": "data/replays/v113_submission_55933145/episode_104522745.json",
+      "bytes": 28529799,
+      "sha256": "8c698b382b2c6c120df39aa712a004fd7c6d5b98c52cd7712b26ecc94ff72b57",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104523123,
+      "path": "data/replays/v113_submission_55933145/episode_104523123.json",
+      "bytes": 27910766,
+      "sha256": "c50c6ad59a6124c8b115a2c39600a840df588175ee63a9eb8dd7fd7b5c2f9115",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104523554,
+      "path": "data/replays/v113_submission_55933145/episode_104523554.json",
+      "bytes": 28863408,
+      "sha256": "425dc8801af991add0c0d984c9a20668d41ab224a9ba4d4f3b81ac2ec84fc2af",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104523977,
+      "path": "data/replays/v113_submission_55933145/episode_104523977.json",
+      "bytes": 28737161,
+      "sha256": "eefdf5285259d6c058d45c93de8ed985ac553cc0c5fba83f7a8266342dd9c200",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104524436,
+      "path": "data/replays/v113_submission_55933145/episode_104524436.json",
+      "bytes": 27655390,
+      "sha256": "56f05612caad7b3dae94c4ef0782119703858d344b3a2e606d461d623dd1d84a",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104524863,
+      "path": "data/replays/v113_submission_55933145/episode_104524863.json",
+      "bytes": 28549325,
+      "sha256": "3b91e61bd8f86acbb3adc65afd682378b93836b5bc8b895b47c4e515cb9d70c8",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104525309,
+      "path": "data/replays/v113_submission_55933145/episode_104525309.json",
+      "bytes": 28617905,
+      "sha256": "551e17fd210d501e2912a1a0aba29f22ce0aa4084ea5b880dc01ffc4ff931d5c",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104525745,
+      "path": "data/replays/v113_submission_55933145/episode_104525745.json",
+      "bytes": 28765924,
+      "sha256": "550296f3a75efc1b35f1690f74c2e95ae067b42900c500cae8982483f82d0159",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104526194,
+      "path": "data/replays/v113_submission_55933145/episode_104526194.json",
+      "bytes": 28358195,
+      "sha256": "8d97026df3f4f47ecaaa69e301a9ea2e25e54586608adc1fc6bf0a617386f649",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104526676,
+      "path": "data/replays/v113_submission_55933145/episode_104526676.json",
+      "bytes": 28059243,
+      "sha256": "de075dc9d5bff7fa8e27fe7bf6c6b4c3ce82f4e4a5251289b713fa5cf5a47e2c",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104526928,
+      "path": "data/replays/v113_submission_55933145/episode_104526928.json",
+      "bytes": 27439025,
+      "sha256": "50f9af048dbf7fc587cce6ec2bd5d47e6841c558387ce6cd17d6672edfdba295",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104532282,
+      "path": "data/replays/v113_submission_55933145/episode_104532282.json",
+      "bytes": 28625778,
+      "sha256": "6846b13978eb068b02d89b67f8f2fcc9ae78d12f1418875673f3b661a8e7e1da",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104536598,
+      "path": "data/replays/v113_submission_55933145/episode_104536598.json",
+      "bytes": 29613359,
+      "sha256": "70637d6fee25dea4ff42954eb7fe0cf2ead9935013b87d2f471282b65b3f9e31",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104536856,
+      "path": "data/replays/v113_submission_55933145/episode_104536856.json",
+      "bytes": 29712029,
+      "sha256": "a428ab2e9f6d805bf62ddfc8708f455f7fe7a23a2d85a9d28877bebeed5e40cf",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104549591,
+      "path": "data/replays/v113_submission_55933145/episode_104549591.json",
+      "bytes": 29600228,
+      "sha256": "7b89e5019e2e33671a4704c979e61dcf9416cba7cf8517d1bdb23e556f21054c",
+      "step_count": 720
+    },
+    {
+      "episode_id": 104554452,
+      "path": "data/replays/v113_submission_55933145/episode_104554452.json",
+      "bytes": 28610306,
+      "sha256": "a42599ee910bbd9de91bf4a6ffcaa05eb82c5e8f20a2bea6ddc5e321e9b5bebf",
+      "step_count": 720
+    }
+  ],
+  "immutability_note": "This file hashes the already-complete 2026-09-01 snapshot. The analyzer does not call Kaggle or overwrite source replays. A later ladder refresh must use a new snapshot/addendum path."
+}

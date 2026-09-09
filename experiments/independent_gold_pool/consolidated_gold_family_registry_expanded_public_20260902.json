@@ -1,0 +1,3247 @@
+{
+  "format": "kaggriculture-consolidated-executed-gold-registry-v1",
+  "created_at": "2026-09-02T16:24:40.498929+09:00",
+  "identity_rule": "Exact equality of the complete common-seed, both-seat action-prefix vector at turns 24/100/200/400/719. Source names do not create families.",
+  "statistical_guardrail": "Executed action families are the clustering unit; shared ancestry and open-loop routes still receive capped or zero Meta votes as appropriate.",
+  "probe_inputs": [
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\common_probe.json",
+      "sha256": "b7efadefe2e2cafdc2ed9a3465b0ddb44f90729ff59b09ca9336fbb2493f5213"
+    },
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\public_candidate_addendum_probe.json",
+      "sha256": "8a25a4f1e4c80efa71cc67eab01fcbaa95594bf0e7bbfa0e0661c97e2f673389"
+    },
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json",
+      "sha256": "346a32e25e9560cd4787184260cce73bdf26ffcbe8753cd243c2e1316f3c89e3"
+    },
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json",
+      "sha256": "ed4c78eaa984dc5a4288d5d5d76fd83a34b728762308237720bc3e11b39af1e4"
+    },
+    {
+      "path": "data\\evaluation\\independent_gold_pool\\public_external_github_candidate_probe.json",
+      "sha256": "7dff18c63b6bb8299004acf948a1d27533fe486bd2f694ec305327d69f2a4fec"
+    }
+  ],
+  "coverage": {
+    "source_labels": 100,
+    "complete_source_labels": 100,
+    "exact_executed_action_families": 63,
+    "distinct_source_ancestry_ids": 22,
+    "python_action_families": 62,
+    "engine_builtin_families": 1
+  },
+  "sensitivity": {
+    "eligible_opponent_family_ids_30_to_70": [],
+    "eligible_opponent_family_count": 0,
+    "near_family_ids_70_to_80": [
+      "gold_exec_aa5d5586"
+    ],
+    "adequacy": "INSUFFICIENT",
+    "calibration_clone_excluded": true
+  },
+  "operational_manifests": [
+    "experiments/independent_gold_pool/family_panel_manifest.json",
+    "experiments/independent_gold_pool/public_gold_addendum_panel_manifest.json"
+  ],
+  "discovery_source_manifests": [
+    "experiments/independent_gold_pool/candidate_sources.json",
+    "experiments/independent_gold_pool/public_candidate_addendum_sources.json",
+    "experiments/independent_gold_pool/public_pure_route_candidate_sources.json",
+    "experiments/independent_gold_pool/public_history_candidate_sources.json",
+    "experiments/independent_gold_pool/public_external_github_candidate_sources.json"
+  ],
+  "fresh_holdout_status": "Every family and seed in this registry is Development and ineligible for Fresh Holdout.",
+  "families": [
+    {
+      "family_signature": "01234e64c59c3a619d58ef6940992066",
+      "source_members": [
+        "local_v6"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v6",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v6\\main.py",
+          "entrypoint_sha256": "19892316a5230bb5b58d08d35f32ba5f3b3282cd2d7c9a8904ac65cafcb6c024",
+          "dependency_closure_sha256": "f7fda822211dbbda0d0dfc37b4dcaab25f16b023f7df3ace996941de781dc120",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 47595.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_01234e64",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 47595.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "01651da99e964bee1985457dd2acfa9e",
+      "source_members": [
+        "public_v43_forced_yarn_first"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_v43_forced_yarn_first",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\public_v43_forced_yarn_first\\main.py",
+          "entrypoint_sha256": "7c4e8bcb693c508d2d1ff820e9e2fd9d3bb0708d030d7fa590309987c65e3b21",
+          "dependency_closure_sha256": "66a65d3f36a5d8b6ba719b68459a0abd843ee233335d7a593fdb95cf3294982a",
+          "provenance": "hash-pinned exact public V43 executor with yarn_first continuation forced",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v43",
+          "normalized_source_ancestry_id": "public_v43",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 31912.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_01651da9",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "public_v43"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 31912.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "0399d7e805a6e0a352dce2e4fc307cc9",
+      "source_members": [
+        "public_history_gzmcr_rl5_multi_opponent"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_rl5_multi_opponent",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\rl_005_multi_opponent\\main.py",
+          "entrypoint_sha256": "b833c19d732a9a1080f25ca47d001d90c872077ccdb96269ff9a194abe63ce53",
+          "dependency_closure_sha256": "3f50db3acb123ad061a27562b4e1f898cc01e53dc7a3700ee7a7c6238f9718f7",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "multi-opponent fitted policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 27414.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_0399d7e8",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27414.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "04e85f35584a66dee8fe349ee4126997",
+      "source_members": [
+        "local_v3"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v3",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v3\\main.py",
+          "entrypoint_sha256": "789f1315048010253553573ec120e985193dcae09fc3a9fcc199a9486d0381bb",
+          "dependency_closure_sha256": "df1838530acb01b65073948127fbc34f9d5490d52661ed2d29f04d8caf580d9d",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 80837.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_04e85f35",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 80837.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "0b75f64f79557fcfdfd4ba9e585cb094",
+      "source_members": [
+        "local_v2"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v2",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v2\\main.py",
+          "entrypoint_sha256": "fa5f5a07487531e3180bd33c7b8612f5414381778ec55940690dbcf07c1a1383",
+          "dependency_closure_sha256": "7f7bcf92b393b84fd27f1c63fb4502a0ef5af1981996c80b5a3eeb35c0c67bab",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 59182.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_0b75f64f",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 59182.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "0b7f92b9a48ad37ff163d8d8c01309b1",
+      "source_members": [
+        "public_route_frontier_moon"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_frontier_moon",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\frontier_moon\\main.py",
+          "entrypoint_sha256": "046f51c666b89e7b570117e6ccd494e8df3aa7745f6047c748de1c975ea6bdae",
+          "dependency_closure_sha256": "230f3ff5edc1df35eb7b345df7d45ebd5cdedce6cd58e1f02130ca431c74663d",
+          "provenance": "public notebook snapshot kaggriculture-frontier-the-moon-counts-melons",
+          "artifact_scope": "executable open-loop route extracted from public notebook",
+          "source_ancestry_id": "public_frontier_moon_route",
+          "normalized_source_ancestry_id": "public_frontier_moon_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 18453.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_0b7f92b9",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_frontier_moon_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 18453.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "1f13714fbd2050f1e8041f81a378423f",
+      "source_members": [
+        "public_github_cok_zhangziliang_head"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_candidate_addendum_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_cok_zhangziliang_head",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\cok_zhangziliang_kaggriculture\\main.py",
+          "entrypoint_sha256": "1c7335f698692f1c7bac34913a9ededc0f736dfb2b51346a4fa59098ab471d01",
+          "dependency_closure_sha256": "5056683fef7a39f860fd66a1eabdb6963344cbb46ec38f8ad25660d448980b5d",
+          "provenance": "https://github.com/COK-ZhangZiliang/Kaggriculture at 7ef67eac458cd9ecd13786063e2e581fbe7403ec",
+          "artifact_scope": "exact public repository HEAD; not assumed identical to README's historical submitted hash",
+          "source_ancestry_id": "github_cok_public_route_derived",
+          "normalized_source_ancestry_id": "github_cok_public_route_derived",
+          "archetype_hint": null,
+          "license": "Apache-2.0 with third-party notices",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 11724.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_1f13714f",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_cok_public_route_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 11724.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "2233fa657be20d6474e8c32db8edf582",
+      "source_members": [
+        "public_github_deepeshumrao_farmbrain"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_external_github_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_deepeshumrao_farmbrain",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\deepeshumrao_kaggriculture_agent\\deliverables\\kaggriculture_submission.py",
+          "entrypoint_sha256": "7885b9b9c571c2d90224b4b629d44896aeb3680100058356e4b404219fd187e6",
+          "dependency_closure_sha256": "47a800105485b4b96d07c2f2adbe72f43eb52dc90a06e1d87e38798bd0c92c30",
+          "provenance": "https://github.com/deepeshumrao/kaggriculture-agent at 65724ce530af8e8ea0410d5b7f0e2a997ca676cb",
+          "artifact_scope": "exact self-contained public deliverable at pinned repository HEAD; live submission identity not asserted",
+          "source_ancestry_id": "github_deepeshumrao",
+          "normalized_source_ancestry_id": "github_deepeshumrao",
+          "archetype_hint": "single-farmer nearest-task wheat loop with market-first restock/liquidation",
+          "license": "MIT",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 158231.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_2233fa65",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_deepeshumrao"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 158231.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "273e253e963caa0fecf7b14fd55608f7",
+      "source_members": [
+        "builtin_starter"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "builtin_starter",
+          "kind": "builtin",
+          "entrypoint": "starter",
+          "entrypoint_sha256": null,
+          "dependency_closure_sha256": null,
+          "provenance": "kaggle-environments built-in executable",
+          "artifact_scope": null,
+          "source_ancestry_id": "engine_starter",
+          "normalized_source_ancestry_id": "engine_starter",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 174345.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_273e253e",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "engine_builtin_executable",
+      "source_ancestry_ids": [
+        "engine_starter"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 174345.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "2e4e06f7d26e77006ed05fcd53a70e1d",
+      "source_members": [
+        "frozen_v18_intraday_enabled"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "frozen_v18_intraday_enabled",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\v18_intraday_enabled\\main.py",
+          "entrypoint_sha256": "1c456cf5f9c6e528ce5187b046eb211f7e1b6d8873418b44040afb41866172c8",
+          "dependency_closure_sha256": "bc35261f516407640654a7cb36df33ad93b301d84efb5b73d81f980424c462e4",
+          "provenance": "rank2_v18_intraday_gate.zip extraction with gate enabled",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline_v18_enabled",
+          "normalized_source_ancestry_id": "local_mainline_v18_enabled",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 24206.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_2e4e06f7",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline_v18_enabled"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 24206.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "2fa9713d09d950ed4fc5cff41743bbfb",
+      "source_members": [
+        "public_history_gzmcr_v6_livestock_only"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v6_livestock_only",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v006b_livestock_only\\main.py",
+          "entrypoint_sha256": "5901249e76060c57d0d735776b42e438fe8289b405fc5a6145b3644b3437072b",
+          "dependency_closure_sha256": "25769c0baca7f113b4ef0175725950143ce6fb4dbb9e2516404ab7f9fb906467",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "livestock-only branch",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 30225.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_2fa9713d",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 30225.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "2fcdeaa09280bba8446fd8f085ca7d4c",
+      "source_members": [
+        "public_history_gzmcr_v3_crop_wheat_mix"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v3_crop_wheat_mix",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v003_crop_wheat_mix\\main.py",
+          "entrypoint_sha256": "757b9381c463b13ecee7aa1c61f4e8bee28b4455acb2f38b2d68ace7f9dd4efb",
+          "dependency_closure_sha256": "71ea5d05883c8da3581f53288ee86a436279f6982bc950bbcc45c49cf9f6d24d",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "commodity-heavy wheat mix",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 35192.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_2fcdeaa0",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 35192.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "30c5a82ea939c94dce56c0f834f99485",
+      "source_members": [
+        "public_route_v13_r3"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_v13_r3",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v13_r3\\main.py",
+          "entrypoint_sha256": "23a76c675f2284a037223eee666a971887afe1393f5e70ae9498da4715712926",
+          "dependency_closure_sha256": "0f4a6ff7fd396f5ebcff518c8ed14eb1246fb2dcce6b303e9562139ba64f24c5",
+          "provenance": "GzmCR/Kaggriculture public snapshot notebook-extracted v13_r3 route",
+          "artifact_scope": "executable open-loop route artifact",
+          "source_ancestry_id": "public_v13_r3_route",
+          "normalized_source_ancestry_id": "public_v13_r3_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 32978.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_30c5a82e",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_v13_r3_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 32978.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "35af8bccb431d845e2c8c70ac64326e3",
+      "source_members": [
+        "local_v100"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v100",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v100\\main.py",
+          "entrypoint_sha256": "545b21f89a5557433d419620df76292cd144ea8ed826d16242cea8e416fd16e1",
+          "dependency_closure_sha256": "029f40002a1fcecbad9fe8b563c54be32a8682ef68a852288c89ae172bcda698",
+          "provenance": "enabled candidate-ranking research wrapper",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 27062.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_35af8bcc",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27062.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "3b0d982e569b852e251de5181936425d",
+      "source_members": [
+        "public_github_alpesh_allocator_rejected"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_external_github_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_alpesh_allocator_rejected",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\alpeshkumar9_kaggriculture\\python_bot\\agent_allocator.py",
+          "entrypoint_sha256": "31ca4e1559f71b0548061daf3464a8bc068e79a71c0c21a50fc8688feb19e7ec",
+          "dependency_closure_sha256": "b5494cc51164626420accfa3b55eddb28c63879744b6a227eb7f4372e806931f",
+          "provenance": "https://github.com/alpeshkumar9/kaggriculture at 848c64c2dac1c6a88d8675a56fc15b020f4e0314",
+          "artifact_scope": "exact historical executable at pinned repository HEAD; repository marks it rejected and not shipped",
+          "source_ancestry_id": "github_alpeshkumar9",
+          "normalized_source_ancestry_id": "github_alpeshkumar9",
+          "archetype_hint": "marginal-revenue allocator research branch",
+          "license": "Apache-2.0",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 58852.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_3b0d982e",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_alpeshkumar9"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 58852.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "3ddfa6262138e1115c4bd1fd5929d89a",
+      "source_members": [
+        "public_github_lonespear_head"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_candidate_addendum_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_lonespear_head",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main.py",
+          "entrypoint_sha256": "3981830b9181db4685afe2b61f182edb13ff5a19d344a70b16a6bc5aedf2a026",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "exact public repository HEAD; repository states root main.py was submitted as 55309483 but this linkage was not re-verified",
+          "source_ancestry_id": "github_lonespear",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": null,
+          "license": "MIT",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 49368.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_3ddfa626",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 49368.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "46d78f69d9ae15f2c286341bbf1ad613",
+      "source_members": [
+        "public_route_high_score"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_high_score",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\high_score\\main.py",
+          "entrypoint_sha256": "a328e29d12cdb6a0cf43fc54a5b54a4e50fe0663d962012f4091f255017244f5",
+          "dependency_closure_sha256": "795d681aac290274cbc74881757152d6929d259fcf50bbe2c84f75f5b3ba85dd",
+          "provenance": "public notebook snapshot my-2026-08-04-high-score-pipeline",
+          "artifact_scope": "executable open-loop route extracted from public notebook",
+          "source_ancestry_id": "public_bruce_high_score_route",
+          "normalized_source_ancestry_id": "public_bruce_high_score_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 17943.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_46d78f69",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_bruce_high_score_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 17943.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "4d993a52a64e7287022d71bad6905b0c",
+      "source_members": [
+        "public_history_gzmcr_v30_cross_product_guard"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v30_cross_product_guard",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v030_adaptive_market\\v030b_cross_product_guard\\main.py",
+          "entrypoint_sha256": "56bf9f2ab3b872a80cbce6f6bebbade6d0e85bcbefd3b2f23bbebe8ce27f9efa",
+          "dependency_closure_sha256": "50ab6531127c212682d3d5399a89f11ae7b6a8188ab5f2c7f718f7aa413b8963",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "cross-product adaptive market guard",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 27416.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_4d993a52",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27416.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "4ef2112f5158f9d5a92cb6c95c187da4",
+      "source_members": [
+        "public_history_gzmcr_v23_high_output_14hands"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v23_high_output_14hands",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v023a_high_output_14hands\\main.py",
+          "entrypoint_sha256": "70778469d97e3303628eca3381d13d96785e6b0ba0a31541343d4a5a44594ec2",
+          "dependency_closure_sha256": "c6557f7efe869a681ee8691a49e5fd6810ad6674f03723843e931aa90b2cef99",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "high-output 14-hand route",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 36793.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_4ef2112f",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 36793.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "4f7857e30e3cce61ae55e4d78102f302",
+      "source_members": [
+        "public_history_seyamalam_v6_adaptive_livestock"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v6_adaptive_livestock",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v6_adaptive_livestock.py",
+          "entrypoint_sha256": "171f36cfdc5950e7e2836905d0d43b2b9bec43349fb545830a5ac4e2c5f8b005",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_history",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "opponent-adaptive livestock mix",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 104338.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_4f7857e3",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 104338.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "4fcc17248ecd140574b0524a288e8232",
+      "source_members": [
+        "local_v109",
+        "public_v43_forced_default",
+        "public_v43_raw"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v109",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v109\\main.py",
+          "entrypoint_sha256": "e1ac59d40f41b04dad9b673c22cc04a640646b190c67fc2158d898e1ddbaf464",
+          "dependency_closure_sha256": "ce900c5d4a71fcd842b36a445bf0a8465bdafb188a94b61d50eeb5a5bb76c6fc",
+          "provenance": "public V43 plus conservative OOD recovery",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v43",
+          "normalized_source_ancestry_id": "public_v43",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 2739.0
+        },
+        {
+          "candidate_id": "public_v43_forced_default",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\public_v43_forced_default\\main.py",
+          "entrypoint_sha256": "abcc50f2fb5574caf75f510be81396a913ca2fd14296ddb0c9f773ab693b9fbf",
+          "dependency_closure_sha256": "4fd5ea69f02f38dadd122d0692ba700e323ca312d14d44d362d2cc1af8c13785",
+          "provenance": "hash-pinned exact public V43 executor with default continuation forced",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v43",
+          "normalized_source_ancestry_id": "public_v43",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 2739.0
+        },
+        {
+          "candidate_id": "public_v43_raw",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v109\\public_v43_base.py",
+          "entrypoint_sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+          "dependency_closure_sha256": "ce900c5d4a71fcd842b36a445bf0a8465bdafb188a94b61d50eeb5a5bb76c6fc",
+          "provenance": "byte-identical public Kaggle V43 source",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v43",
+          "normalized_source_ancestry_id": "public_v43",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 2739.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_4fcc1724",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "public_v43"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 2739.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "552d033034fd2b464b7a3d1edb9b0c7a",
+      "source_members": [
+        "public_route_stable12"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_stable12",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\stable12\\main.py",
+          "entrypoint_sha256": "fe1d7f30c93deaaf93161f96577202dc73dcc38db022803bf73e0ecd33da8edf",
+          "dependency_closure_sha256": "2c4528615fb112ebf3a4780941f2e537101ea32151fb0bc98dcf4ea86ac6f609",
+          "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/stable12",
+          "artifact_scope": "executable open-loop route artifact",
+          "source_ancestry_id": "public_stable12_route",
+          "normalized_source_ancestry_id": "public_stable12_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 57353.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_552d0330",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_stable12_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 57353.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "55d707fe8efb0ab19969684662f86f4d",
+      "source_members": [
+        "local_v9"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v9",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v9\\main.py",
+          "entrypoint_sha256": "9ff27930c9007d2f81b13f4f97a0a959c0b06901cf198cd9359703fe0e26b70b",
+          "dependency_closure_sha256": "38ed5bc6d803ca1329af767c40a6545e3b1f5993a4c268920bca0bc5562f42a8",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 22201.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_55d707fe",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 22201.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "595361e488b6abcce9c65e2dab30e2b8",
+      "source_members": [
+        "local_v67"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v67",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v67\\main.py",
+          "entrypoint_sha256": "8a2ded7cc17ed698647aaa9edaba0433463f8bebb81db3a92fb54417e2679416",
+          "dependency_closure_sha256": "e4337f40f071517f1cfa82df1758cd6290bcee08fe37f707d9469ffb9f9dc44f",
+          "provenance": "mixed-assignment research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26782.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_595361e4",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 26782.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "63b5d7892e2feeb8974fb370dd6f0abc",
+      "source_members": [
+        "public_v43_forced_yarn_second"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_v43_forced_yarn_second",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\public_v43_forced_yarn_second\\main.py",
+          "entrypoint_sha256": "dbf1c2d9738ed406a5f9dd6c28bab9728958853311b18c7d9c9626e742bf9a13",
+          "dependency_closure_sha256": "e88214523a86e37d52ff74e794924e48b360423d39ff82872285287474f7cbdc",
+          "provenance": "hash-pinned exact public V43 executor with yarn_second continuation forced",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v43",
+          "normalized_source_ancestry_id": "public_v43",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 33942.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_63b5d789",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "public_v43"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 33942.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "7049089bfa8498db8c5bbbc861408de2",
+      "source_members": [
+        "public_history_lonespear_meta"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_lonespear_meta",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main_meta.py",
+          "entrypoint_sha256": "81875aeb8636f36b7f0673aa8a0da0602e9bb7d100db0c62ced9f5dc1b69483e",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_lonespear_history",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": "meta-parameterized closed-loop policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 107714.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_7049089b",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 107714.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "720fa14a6b03b07b996fd451555efd60",
+      "source_members": [
+        "local_v4"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v4",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v4\\main.py",
+          "entrypoint_sha256": "8185bcfbfe6ea8fa0259dae69c59b70f27d9ac62ae1dc7fa2274fc3ef730d45d",
+          "dependency_closure_sha256": "b78592a399b135fc35546e89fe69f88b353498f1e62cda1cf49a6b71f84a48a6",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 47927.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_720fa14a",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 47927.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "728728d6cea0252c76b2d435dcb467b2",
+      "source_members": [
+        "public_github_gzmcr_head",
+        "public_history_gzmcr_v9_public_meta_counter"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_candidate_addendum_probe.json",
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_gzmcr_head",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\main.py",
+          "entrypoint_sha256": "fef48be655b403c994979ba1e88eaa550c98ec7e1a7b207c1ceebda990d69c23",
+          "dependency_closure_sha256": "16370cff72e66ff3f2080d0277e38311e95a5f1c4935d9ae3f35da26afcd79fc",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "exact public repository HEAD, not verified as an exact live submission binary",
+          "source_ancestry_id": "github_gzmcr",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": null,
+          "license": "No root license file found; internal discovery probe only pending license review",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 29362.25
+        },
+        {
+          "candidate_id": "public_history_gzmcr_v9_public_meta_counter",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v009b_public_meta_counter\\main.py",
+          "entrypoint_sha256": "cc7dfdb87bba976d4349815f51bfec6a6528ca4ca0c3b8924e2540800352dddd",
+          "dependency_closure_sha256": "2d377d26dde0534e01354503a09b3ca296e2a8759fe741d02e51bb5f1953eae2",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "public-meta counter router",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 29362.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_728728d6",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 29362.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "77f62ecd0dd5779cfa345dd5616ec16b",
+      "source_members": [
+        "public_history_lonespear_v11_prev"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_lonespear_v11_prev",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main_v11_prev.py",
+          "entrypoint_sha256": "f1a8d965e1ae40dc69c0d9201d63acf7920b1aa4c6382ec05f40ff72661e647b",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_lonespear_history",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": "early livestock continuation",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 74271.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_77f62ecd",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 74271.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "87cc7b7862a6a17ec652a170bd6ae21e",
+      "source_members": [
+        "local_v63",
+        "local_v68"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v63",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v63\\main.py",
+          "entrypoint_sha256": "d181a40367e3582c97d858486e524c43eceda82281a0fa418dc74624138c1bb5",
+          "dependency_closure_sha256": "e82b2ac8112520f39810a04b2222c8bb7e02ccdb9f5e59dcdae67e22aa046f88",
+          "provenance": "role-continuity research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 25854.25
+        },
+        {
+          "candidate_id": "local_v68",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v68\\main.py",
+          "entrypoint_sha256": "6b150c631269a7adbbb73be058b7321c3a1de6b815a6dcb33a94f1f16ddfbbf1",
+          "dependency_closure_sha256": "aaabbcccdbb7fddbc4556368ede4066a43cb275c885de44948d471751499e16a",
+          "provenance": "mixed-assignment research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 25854.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_87cc7b78",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 25854.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "9aa44dd2ed3c88c16e56c04c1943e19b",
+      "source_members": [
+        "local_v105",
+        "local_v106"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v105",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v105\\main.py",
+          "entrypoint_sha256": "fd8bd809e1e1e11bd617671b3c46080820db1c86f2ce05088f58c1adc1ce8cb6",
+          "dependency_closure_sha256": "470da8f8bb947ca3f8c2ae854e66c5990984b43ce71d5ef2b71895fd96326d55",
+          "provenance": "daily-recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 24798.5
+        },
+        {
+          "candidate_id": "local_v106",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v106\\main.py",
+          "entrypoint_sha256": "515277febbd99477a21317fdd2a8b74e7fea05818feac20589a0bef72f0c7829",
+          "dependency_closure_sha256": "b9e7a37a4e173eaf23c4fa657b1cb7329f20e7fa18a323c77412cdb1bd58954f",
+          "provenance": "adaptive-recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 24798.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_9aa44dd2",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 24798.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "9ddbfb07d8841cfd98d98fb177478dfc",
+      "source_members": [
+        "public_route_v022c"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_v022c",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v022c\\main.py",
+          "entrypoint_sha256": "266db4384aa32a0b54e402c12b94a0ee3a7b7eded8610b753e80773ad34f69b6",
+          "dependency_closure_sha256": "36980bc320342e55ed9d4e0e4719ef009ce29933475bd6d67d9946f544b8c98d",
+          "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v022c",
+          "artifact_scope": "executable open-loop route artifact",
+          "source_ancestry_id": "public_v022c_route",
+          "normalized_source_ancestry_id": "public_v022c_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 28800.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_9ddbfb07",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_v022c_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 28800.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "9f9491bef4f171c0f470f4370b987966",
+      "source_members": [
+        "public_history_gzmcr_v6_wheat_only"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v6_wheat_only",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v006b_wheat_only\\main.py",
+          "entrypoint_sha256": "8f63a772054896cb7e95ee5f6b275c61f4a96481740fa230d83fdab18f3d17aa",
+          "dependency_closure_sha256": "efdb92b5d8e9a6fd235575f0aa0d305681deb7be95e8148e092dba7cc6a8d819",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "wheat-only commodity branch",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 34865.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_9f9491be",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 34865.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "a5220801d292d837bdc60fc572e1d582",
+      "source_members": [
+        "public_history_gzmcr_v18_market_wave"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v18_market_wave",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v018_market_wave\\main.py",
+          "entrypoint_sha256": "6b723a79e16e4da87727e1fa8713760fa0f877d399537be8a15d8caf78289254",
+          "dependency_closure_sha256": "cca8a7778eb0af12a232550a4c4f8689bbbd840059091b2d0a06acf5fc7a92ef",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "market-wave reactive policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 21534.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_a5220801",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 21534.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "a63a31d6ffdbe6c2f34db824661ab6f6",
+      "source_members": [
+        "public_history_gzmcr_v8_hybrid_router"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_v8_hybrid_router",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v008_hybrid_router\\main.py",
+          "entrypoint_sha256": "3c8e1ef20b4a1361d768daf1b955873996a839afbe5bccffdb14d04fcd3aa66a",
+          "dependency_closure_sha256": "ab48f152a03db2cf4a196de18ebd9e18bdfb76d5795edb9a6e437ae951aa20c9",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "scenario-aware hybrid route selector",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 28310.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_a63a31d6",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 28310.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "a6f1291b286390da3647173c55a111a3",
+      "source_members": [
+        "public_github_seyamalam_head"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_candidate_addendum_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_seyamalam_head",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\main.py",
+          "entrypoint_sha256": "4c02a323b0939e8f99df69dc6c23026946b033b0d831c79216ffac0ded9c8e60",
+          "dependency_closure_sha256": "a88106866d7c95b5c7bdd80a85531020b1f297b133cc74c60339f25d7006229d",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "exact public repository HEAD; repository documents public V18/C20 ancestry",
+          "source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": null,
+          "license": "MIT with third-party notices",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 19015.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_a6f1291b",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 19015.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "aa5d55860f2293e27499ac410361586d",
+      "source_members": [
+        "public_route_frontier_soil"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_frontier_soil",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\frontier_soil\\main.py",
+          "entrypoint_sha256": "fe4f7691b48607e6f6b41aeb5c4a4877e2fdbf6a4af439180743cadb77179105",
+          "dependency_closure_sha256": "048f9bf0be6c5cf6e6b7315dd1c7077c524b2de44348fc1217c51924829bcfcb",
+          "provenance": "public notebook snapshot kaggriculture-frontier-the-soil-remembers-rain",
+          "artifact_scope": "executable open-loop route extracted from public notebook",
+          "source_ancestry_id": "public_frontier_soil_route",
+          "normalized_source_ancestry_id": "public_frontier_soil_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 0.75,
+          "probe_win_score_of_v111": 0.75,
+          "probe_mean_margin_of_v111": 14836.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_aa5d5586",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_frontier_soil_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 0.75,
+      "v111_probe_win_score": 0.75,
+      "v111_probe_mean_margin": 14836.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": true
+    },
+    {
+      "family_signature": "aac2ea8e02b2be68a1f873a9810d9de4",
+      "source_members": [
+        "public_history_lonespear_baseline_v1"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_lonespear_baseline_v1",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\baseline_v1.py",
+          "entrypoint_sha256": "551471552095d798cc969feea8c5433c410e72b8f036c6150cc2ddd9d16fc2ec",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "historical executable source in public repository snapshot; not asserted to be a live submission binary",
+          "source_ancestry_id": "github_lonespear_history",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": "early baseline",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 153943.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_aac2ea8e",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 153943.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "acfb3cabb060ae7fabc31d66dca6be6e",
+      "source_members": [
+        "public_route_agent_builder"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_agent_builder",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\agent_builder\\main.py",
+          "entrypoint_sha256": "6241f0aaac7994a0e995eca04434f0a988c84da9453276a34547a8f4e011d100",
+          "dependency_closure_sha256": "293687a2ec59c8ab6e07fcd4d64841cd5e88c84abdd5de18d32b2459c61697e3",
+          "provenance": "public notebook snapshot kaggriculture-agent-builder",
+          "artifact_scope": "executable open-loop route extracted from public notebook",
+          "source_ancestry_id": "public_agent_builder_route",
+          "normalized_source_ancestry_id": "public_agent_builder_route",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 34632.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_acfb3cab",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_agent_builder_route"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 34632.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "af440239cdf89aada422c8974ef81ba9",
+      "source_members": [
+        "local_v8"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v8",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v8\\main.py",
+          "entrypoint_sha256": "ecca27be76c97d034771730e04d9a1bf1f27e62fac4bf72c4d9d62444ddd7ac5",
+          "dependency_closure_sha256": "0d7b35ea5fcbb7719ed4a004418d0dd0d20a413092d178240d02b4f8aa9b62bc",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 30497.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_af440239",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 30497.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "b0b3c33ca74db6465aa8b0e587515cdb",
+      "source_members": [
+        "local_v74"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v74",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v74\\main.py",
+          "entrypoint_sha256": "9b488762a5f709ff2f7f07b1d3dfa163036787a795cae593bc428ac70df275f6",
+          "dependency_closure_sha256": "50bf9e3cee06f48abad17c83c9566a8bc7d3d9e7418798de8fc12b461f8aac34",
+          "provenance": "late-role research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 27506.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_b0b3c33c",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27506.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "b6f3732adf8da8edcb4f40cf4ec5696c",
+      "source_members": [
+        "public_route_v22"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_v22",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v22\\main.py",
+          "entrypoint_sha256": "5807bf35a4b8a2d90eeb798e8b3a0943622d12e2926032ff24ddd4220b58d984",
+          "dependency_closure_sha256": "4d676df7f527f7c5960e4658ffbf5bd04d0741c2716b4604bec52b98726447dd",
+          "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v22",
+          "artifact_scope": "executable open-loop route artifact; original closed-loop policy identity is not asserted",
+          "source_ancestry_id": "public_route_v22",
+          "normalized_source_ancestry_id": "public_route_v22",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 27499.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_b6f3732a",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_route_v22"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27499.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "b844d910ef2b4ef924f586111b0e638b",
+      "source_members": [
+        "public_history_seyamalam_v3_sheep"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v3_sheep",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v3_sheep.py",
+          "entrypoint_sha256": "26b4be22af2434dbf5ca82a57347d3369bddc86ca74b4869cc3b90327439fd67",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_history",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "sheep-specialist continuation",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 122623.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_b844d910",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 122623.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "be53ae38eee534962bf36827738210df",
+      "source_members": [
+        "public_history_seyamalam_submission_v1"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_submission_v1",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\submission_v1.py",
+          "entrypoint_sha256": "99eed6941c3dc9b24b3c003a14e33127ae0fb24b59e3057bdee7cdd3155ee952",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_history",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "early submitted baseline",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 143033.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_be53ae38",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 143033.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "c296875cdceb3fcdc0c828b1a7282cd1",
+      "source_members": [
+        "public_history_lonespear_v23_large_farm"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_lonespear_v23_large_farm",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main_v23.py",
+          "entrypoint_sha256": "cbd9c95446986d3de84d87cca5fa876196ddcb6c0027d18290419e385970edf2",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_lonespear_history",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": "three-quadrant high-acreage high-hands policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 80630.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_c296875c",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 80630.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "c965376faae2aeed0cf27260b6b56f1d",
+      "source_members": [
+        "local_v7"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v7",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v7\\main.py",
+          "entrypoint_sha256": "94f14894b2861c570985e70508b96602cabfb3571acb3d8c63385ea5a0e69c59",
+          "dependency_closure_sha256": "e03e932a8fa0af864f704f34b4dea274b840e3e6c6dce00bfaea1abb71e261af",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 47161.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_c965376f",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 47161.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "cdaf225e1c8138198942a6a5421edab7",
+      "source_members": [
+        "public_history_gzmcr_rl10_milk_bidirectional",
+        "public_history_gzmcr_v32_v27_timing"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_gzmcr_rl10_milk_bidirectional",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\rl_010_milk_bidirectional\\main.py",
+          "entrypoint_sha256": "296402b1a42d7620feffbefcb6b3769bd5289b918fecffc9e8087a90efbb3114",
+          "dependency_closure_sha256": "7035f6a02a8c71a88f3d7088ddc76b74d52f7c6308d57eec1d258cf27fdce943",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "bidirectional milk-response policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 8967.5
+        },
+        {
+          "candidate_id": "public_history_gzmcr_v32_v27_timing",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\v032_route_conditioned_timing_r1\\v032_r1_v27_timing\\main.py",
+          "entrypoint_sha256": "93e943fd4358d4ad566c22a03c03b105c5916cbb0469047ea7241bad6c1ba615",
+          "dependency_closure_sha256": "9f140cea20a3b79b6bf5f9615f93af0fe4cfa7d0aac197ad8d26ab659161dde9",
+          "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_gzmcr_history",
+          "normalized_source_ancestry_id": "github_gzmcr",
+          "archetype_hint": "V27 route with route-conditioned market timing",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 8967.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_cdaf225e",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_gzmcr"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 8967.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "d14244c039cbcd735095947ea62184dc",
+      "source_members": [
+        "local_v1"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v1",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v1\\main.py",
+          "entrypoint_sha256": "9500ecddb934ee1cee9a8f05b155f0f376c8ea33f4c77c0415dddad68a8a9a0e",
+          "dependency_closure_sha256": "7a5963f24291dd6ec11f0cb11cb39ff33313250e879d056fb30d35298864216e",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 94099.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_d14244c0",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 94099.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "d1e1ba37f5ef69cf45f76b21430e1c1b",
+      "source_members": [
+        "public_github_alpesh_crop_first_head"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_external_github_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_github_alpesh_crop_first_head",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\alpeshkumar9_kaggriculture\\python_bot\\agent.py",
+          "entrypoint_sha256": "0d063618ec4be8ecae639412b03dec634cb973a5722eb5625932401209a30c58",
+          "dependency_closure_sha256": "b5494cc51164626420accfa3b55eddb28c63879744b6a227eb7f4372e806931f",
+          "provenance": "https://github.com/alpeshkumar9/kaggriculture at 848c64c2dac1c6a88d8675a56fc15b020f4e0314",
+          "artifact_scope": "exact public self-contained agent.py at pinned repository HEAD; live submission identity not asserted",
+          "source_ancestry_id": "github_alpeshkumar9",
+          "normalized_source_ancestry_id": "github_alpeshkumar9",
+          "archetype_hint": "crop-first three-quadrant route with compact cow/sheep herd, premium timing, and 13 hands",
+          "license": "Apache-2.0",
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 75446.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_d1e1ba37",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_snapshot",
+      "source_ancestry_ids": [
+        "github_alpeshkumar9"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 75446.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "d3edb8eccf3a7f9b488e8d091ba493ac",
+      "source_members": [
+        "public_route_adaptive_v14"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_adaptive_v14",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\adaptive_v14\\main.py",
+          "entrypoint_sha256": "c4774e2460573ae5800ba589c61aa16f56f57320abdba6d7c3fc72b746e4a9bf",
+          "dependency_closure_sha256": "5d93c076a15a84f76f55d218af78567be2672ba71aed42ac5a58855cbcfdb5d8",
+          "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/adaptive_v14",
+          "artifact_scope": "executable open-loop route artifact; original adaptive policy identity is not asserted",
+          "source_ancestry_id": "public_adaptive_replay_lineage",
+          "normalized_source_ancestry_id": "public_adaptive_replay_lineage",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 15833.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_d3edb8ec",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_adaptive_replay_lineage"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 15833.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "d4e09ee0484b9783e967c89ef462a0d3",
+      "source_members": [
+        "frozen_v108",
+        "local_v10",
+        "local_v102",
+        "local_v103",
+        "local_v104",
+        "local_v107",
+        "local_v108",
+        "local_v11",
+        "local_v12",
+        "local_v13"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "frozen_v108",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\v108_packaged\\main.py",
+          "entrypoint_sha256": "368213b425ca17de7b6ff16a02d35a868741029415d8ff7310e0c5a7a5fc35e6",
+          "dependency_closure_sha256": "caa71f68d7b5aa92a30dda1a5c3062a8c9ff3e2192314821ef89d55e0431058b",
+          "provenance": "strongest_candidate_v108_20260830.zip extraction",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v10",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v10\\main.py",
+          "entrypoint_sha256": "b48f80d72cfe4c62f9d1232740bb8ae5585a4808bd0a5c0e22f94118e7d73c6d",
+          "dependency_closure_sha256": "bc782b74b7bca2b0badd72d5f0d11d5b71ff664e10840a3ae7dc27ca4405db69",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v102",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v102\\main.py",
+          "entrypoint_sha256": "f1784e6b4c7b87d90c4a7bef716f536377e359f4ac6fce953441e209985fb2fe",
+          "dependency_closure_sha256": "1ce93c7b5a93b980098c18a9fc7733eb7cab72e9df52ed5861c3d6eed313e334",
+          "provenance": "recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v103",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v103\\main.py",
+          "entrypoint_sha256": "8a5a73ad47c30862828f3de38075f97f04da2b98a403450f13a40e39b273c35f",
+          "dependency_closure_sha256": "2b443bd352353dbb1ed35b60b4db392bc301af083204568316ab2789cdcf6194",
+          "provenance": "recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v104",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v104\\main.py",
+          "entrypoint_sha256": "908565fe5b02b7608a1da8cce7e47e67f0baad7084ddbbc2b36827ecdbf26cd2",
+          "dependency_closure_sha256": "e0790d63579d19cbcb3d43f6c7df78043a28f9adf8bafe3ee26169b30ce5441c",
+          "provenance": "latched-recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v107",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v107\\main.py",
+          "entrypoint_sha256": "5d4976b58ab8539cfb9475c8649c724cae695b195e23fcbe6345e8d14873be18",
+          "dependency_closure_sha256": "3f376ff378a82f3559e720f07c31c508deaf41a677eb35ecc1937c18c7a41504",
+          "provenance": "runtime-gated recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v108",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v108\\main.py",
+          "entrypoint_sha256": "368213b425ca17de7b6ff16a02d35a868741029415d8ff7310e0c5a7a5fc35e6",
+          "dependency_closure_sha256": "1f97cc440b6169afb5d472c8afe2bc059ac2e0b148b1f415660272ddb96a0e13",
+          "provenance": "liquidity recovery research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v11",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v11\\main.py",
+          "entrypoint_sha256": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+          "dependency_closure_sha256": "876ea1c9793196f0d8723fdaae7e3db4475d83455b12cf0684cd44ce5c51bd4d",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v12",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v12\\main.py",
+          "entrypoint_sha256": "ef8d2e2981a0b09f949aac82d7210786f7715f362bbdac943a181eb16f9fadff",
+          "dependency_closure_sha256": "dde5f40f21bfb948d4b807984b935283f5cf5ec56d0750ba85acf637bdd1d20f",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v13",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v13\\main.py",
+          "entrypoint_sha256": "96f76423a29195826fd69a5afb452a8b255130d6ed5f0f2c8f6203fc96dd26f6",
+          "dependency_closure_sha256": "1361ef0f1c2e5772e5b4d84c56e1e117225020f9dc4888a53706cf79b07d3ab0",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_d4e09ee0",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 26783.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "db8eac65a40f02e617e4af3092dac1c9",
+      "source_members": [
+        "local_v101",
+        "local_v14",
+        "local_v15",
+        "local_v16",
+        "local_v17",
+        "local_v18_default",
+        "local_v19",
+        "local_v20",
+        "local_v21",
+        "local_v40",
+        "local_v43",
+        "local_v45",
+        "local_v47",
+        "local_v49",
+        "local_v51",
+        "local_v53",
+        "local_v54",
+        "local_v55",
+        "local_v58",
+        "local_v81",
+        "local_v88",
+        "local_v92"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v101",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v101\\main.py",
+          "entrypoint_sha256": "e12f469c8000d9725df597a655515b719466e88d8da1842d5c38b1837bf4b763",
+          "dependency_closure_sha256": "a897110eb526266b6eae5248d42abf3bdc07be0fc82806d38179c2f1a6db1046",
+          "provenance": "early-commitment research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v14",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v14\\main.py",
+          "entrypoint_sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7",
+          "dependency_closure_sha256": "9de8fea32140c45d7ed2eb7d412e5093618ee65a2d3c81cfd4c0a64d19fb248a",
+          "provenance": "historical local champion",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v15",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v15\\main.py",
+          "entrypoint_sha256": "dcdc1b354a81173b483b9cac2c59a1f2e2c199ae9455597b6aef53742e62fcf7",
+          "dependency_closure_sha256": "bc5fa6a0ffbbfc370dcbcb1b0f2994f74d3a50539d404896c3980e1cb3f7ac14",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v16",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v16\\main.py",
+          "entrypoint_sha256": "132b3e3c10b52568ca91a98bb0f58f589e204321fa926ca79954d5e6801b0fc6",
+          "dependency_closure_sha256": "cf8bbab4f6d164f58d57088fa1e80aaf28d188f696ea8421831fbc48a77eb5a4",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v17",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v17\\main.py",
+          "entrypoint_sha256": "b78ba601b248f4a973791ff79949bdda892135b035d094fc7727f96a09be2925",
+          "dependency_closure_sha256": "da8472d08a61ae6b394600346591e3156f27fb071888987b4cbf15c0282d9476",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v18_default",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v18\\main.py",
+          "entrypoint_sha256": "c952c06e6226dc2d056bf28382e25e6bc4c03ec0c67b700f763dda8a0dceef85",
+          "dependency_closure_sha256": "d1afd6c49f2dfd69c8664d752fd83b0785e1e014363ca61cfa5673a205b159c6",
+          "provenance": "historical local default-disabled wrapper",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v19",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v19\\main.py",
+          "entrypoint_sha256": "e3e34ad100703beeb9f8da91f7200c77859c7b6c8466582641fb096498a70221",
+          "dependency_closure_sha256": "7450719a1d2d3e8218093836b0ded5765731e23d3535399a2e86cbc2cbb2f353",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v20",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v20\\main.py",
+          "entrypoint_sha256": "530646cd8adcfb3721b34fa266ca99614e8cdf5f37ce2b9463d2739e5b214be6",
+          "dependency_closure_sha256": "aad71c5505094ed298837754eae05c7d0bf9b0f413b8de13082e4a1dc7fa4e1a",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v21",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v21\\main.py",
+          "entrypoint_sha256": "a15be080cece93dce09339e4c3f6d62f7456d92e734e6bb3fa677c3341fe285e",
+          "dependency_closure_sha256": "8ec509f2c9bc5e3376f3ab71912f93f1622b07e4e6144da6e840e27d61baeff7",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v40",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v40\\main.py",
+          "entrypoint_sha256": "6b6e6126331c8742c0199dc226955bc256df7acd68934fbef85e09a9846460e1",
+          "dependency_closure_sha256": "63e2699f4b139ab9bdc10035bb7fa07adf886cd8b3882259b2ad24b26d0d8283",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v43",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v43\\main.py",
+          "entrypoint_sha256": "b22f29736000e4de1167c811ca68596bfd0316d9dc8551d1833969e308b8648a",
+          "dependency_closure_sha256": "e8b8f03974a9989956f9c71e2de76a62d7b14ff4c49b626d031369d658297205",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v45",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v45\\main.py",
+          "entrypoint_sha256": "20a858fefee7375ac7a7d6f7c9767aea3c5ce92cba282e29127c949c2f3fe476",
+          "dependency_closure_sha256": "b5d5d41a8a7fe978af33b8c525c8181fe9f05bb412b1307096d87afd2747f718",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v47",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v47\\main.py",
+          "entrypoint_sha256": "1886c1095291f30a60c5a5fb62a508dd9149dc2682f10a348f172568626c17e2",
+          "dependency_closure_sha256": "fd8ca87abae68d2d7565bf9be8eb0dac93c96c537df03e94b17d51cd0f4ed68e",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v49",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v49\\main.py",
+          "entrypoint_sha256": "2a3e08870059f18a88a80bfa4b8adc38e7c22a9e4249a1061ab8000e03e040a5",
+          "dependency_closure_sha256": "b8df9dffb557381085b18d943eff45b555fe6389aee0f51c03d6a550ce6446cf",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v51",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v51\\main.py",
+          "entrypoint_sha256": "c69ad84dff90b7a9d4a6bb1e5ab2430921819e5d5770a4c715c267899021296c",
+          "dependency_closure_sha256": "d92e303d4c51f7fa0329a5ab9dad6f73305e518636c708eac90b0b53ee933d24",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v53",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v53\\main.py",
+          "entrypoint_sha256": "caacf0a48c1e2017c5a35761f374b44d8053f6dd1db3f80a72d2b2c50b6cf00f",
+          "dependency_closure_sha256": "04780a8c7e9e59c481c81a56eb79c322cfa522dd749e4061acd48cb2f96a4aac",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v54",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v54\\main.py",
+          "entrypoint_sha256": "fcc4f7043cba98d486d2044cc4f4c515c412e0d5be9853b72e2b2ec14a74f496",
+          "dependency_closure_sha256": "7557a2c85a3ea0714267a91fe74109be147dce8af5f78f4a2fa07884e95ca570",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v55",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v55\\main.py",
+          "entrypoint_sha256": "d9719cd949c020978f1f1ceeeec3355e7db1a89681e39c5d5d86c309e660ee50",
+          "dependency_closure_sha256": "7b4f1cd4df00e45f2cde3f7537cbadbbe2778bdd6bdf825d12a6cec8fd53a05d",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v58",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v58\\main.py",
+          "entrypoint_sha256": "3639c7ea93073cc2956a19ec3bbfaefc2459eb6ee9972f7fb8d2d7a29f0402db",
+          "dependency_closure_sha256": "81704ff8c3a77f7939fd1ef8b266d03aada2bf1e3cbbc4fe891457ed02707929",
+          "provenance": "historical local research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v81",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v81\\main.py",
+          "entrypoint_sha256": "efa346472ac53ab33efa12b1331b74ea605278f1b4cfb51ec61a21e67776d880",
+          "dependency_closure_sha256": "4a98f96b7a9c4959f6f063b00908ff787b2b93e8259fa7a666fe511954448f7d",
+          "provenance": "late-harvest research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v88",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v88\\main.py",
+          "entrypoint_sha256": "60c315f1cd7363f58905621ef138522d122f53ae0b4074aea857436fcdffd208",
+          "dependency_closure_sha256": "ce6a31b371ce895890fe9a198c79656ee7feaffe1e179bd669ced781d110698c",
+          "provenance": "goal-model research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        },
+        {
+          "candidate_id": "local_v92",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v92\\main.py",
+          "entrypoint_sha256": "8d0847bd4fe118baf460610403837778ee26b03ecb24b40625fac3d8a65c8082",
+          "dependency_closure_sha256": "b341f702224fa356d52f42bcb110f91089ca344901430139acdd220ada60e70a",
+          "provenance": "candidate-ranking research agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 26783.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_db8eac65",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 26783.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "dc8116276a29a73457e47846338cacfc",
+      "source_members": [
+        "public_history_seyamalam_v20_late_abstain"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v20_late_abstain",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v20_late_abstain.py",
+          "entrypoint_sha256": "490a876ff3387c129b05048d91f05f2d31d61324053c55bde0565d208c9b6cbc",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "late lead-conditioned abstention overlay",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 18312.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_dc811627",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 18312.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "e147666e2d512ce23320dea10d562815",
+      "source_members": [
+        "public_history_lonespear_v9_melon_geese"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_lonespear_v9_melon_geese",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main_v9.py",
+          "entrypoint_sha256": "5016e0c3241426223b4b324b0e0944e5d68a64a98d095e1f65e4fd5beae06d4d",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_lonespear_history",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": "melon and geese crop-heavy predecessor",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 136290.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_e147666e",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 136290.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "e21de1f6e33461439274909f9a9dc513",
+      "source_members": [
+        "public_history_lonespear_bigherd"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_lonespear_bigherd",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\lonespear_kaggriculture\\main_bigherd.py",
+          "entrypoint_sha256": "8a8504ad9941d16f23405a841aed5acaf0468705c5abc0865ce4c3c63a22a3ea",
+          "dependency_closure_sha256": "7263f87347fde941d60f3e2d5bf0a27d109f7cbceef9699455039a5a3844cc61",
+          "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_lonespear_history",
+          "normalized_source_ancestry_id": "github_lonespear",
+          "archetype_hint": "milk-flooding large-herd policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 93162.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_e21de1f6",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_lonespear"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 93162.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "e9b175a28f0221ce2b4acfb9859b6c1f",
+      "source_members": [
+        "public_v27_raw"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_v27_raw",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v112\\main.py",
+          "entrypoint_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+          "dependency_closure_sha256": "eac869453a47376f66ec95fbc7dd6ddb7f056c7bb29cbd529394d3d8373b9bc9",
+          "provenance": "byte-identical public Kaggle V27 source",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v27",
+          "normalized_source_ancestry_id": "public_v27",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 8967.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_e9b175a2",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "public_v27"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 8967.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "eaa5e17dcedcf422de3afb11462dfadb",
+      "source_members": [
+        "public_history_seyamalam_v19_wool_floor"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v19_wool_floor",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v19_wool_floor.py",
+          "entrypoint_sha256": "03eed134c5536934a124069d8fe238cdc23669bbd00cc2451ce2968dc7ac5ac7",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "wool price-floor recovery overlay",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 18209.5
+        }
+      ],
+      "behavior_family_id": "gold_exec_eaa5e17d",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 18209.5,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "eadf6ec0484611b5e3b32f211f3aeeb9",
+      "source_members": [
+        "public_history_seyamalam_v5_eight_sheep"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v5_eight_sheep",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v5_eight_sheep.py",
+          "entrypoint_sha256": "1fad335846504b7334fd4b33f0c1c3f149ff47ac5d1f9d18e845d94cb80cec3c",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_history",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "eight-sheep wool-heavy policy",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 119486.25
+        }
+      ],
+      "behavior_family_id": "gold_exec_eadf6ec0",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 119486.25,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "f497cc76a44fd70721b3a1f6907bbf3e",
+      "source_members": [
+        "public_history_seyamalam_v8_market_order"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v8_market_order",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v8_market_order.py",
+          "entrypoint_sha256": "15bf5f6c121d1c16f911cb9fb9eaa2cd4e2c9f84c0c2940eeccc40d3b8869f98",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical executable source in public repository snapshot",
+          "source_ancestry_id": "github_seyamalam_history",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "market-order timing overlay",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 17794.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_f497cc76",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 17794.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "f6cd787964371d9b5e2888746c24b782",
+      "source_members": [
+        "public_history_seyamalam_v7_public_v18"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_history_candidate_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_history_seyamalam_v7_public_v18",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\seyamalam_kaggriculture\\agents\\candidate_v7_public_v18.py",
+          "entrypoint_sha256": "5653d08ad2d52756cb069df6c3bf5e9cd2d1751b4d40eb40abbc2da97ab4145e",
+          "dependency_closure_sha256": "b9b1ea04bef03d6c058d0b8135a08cb84c560324d6a5871189bff97691f757ba",
+          "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+          "artifact_scope": "historical public-V18-derived executable source; probe determines overlap",
+          "source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "normalized_source_ancestry_id": "github_seyamalam_public_v18_derived",
+          "archetype_hint": "public V18 closed-loop route",
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 17794.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_f6cd7879",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_closed_loop_repository_history_snapshot",
+      "source_ancestry_ids": [
+        "github_seyamalam_public_v18_derived"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 17794.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "f835f763d4249cea0ea165c3857ea8d9",
+      "source_members": [
+        "local_v110",
+        "v111_self_calibration"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v110",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v110\\main.py",
+          "entrypoint_sha256": "3c5a8a5f443368c52ef3a914a7ed27e6204582d6ddf6d8996de9bdb76a428ddc",
+          "dependency_closure_sha256": "27d638060b2d72919471596cd672113b7fa0b0a2286a6ad94af7c44a136ea653",
+          "provenance": "near-clone/current-meta market adaptation",
+          "artifact_scope": null,
+          "source_ancestry_id": "public_v43_v110",
+          "normalized_source_ancestry_id": "public_v43_v110",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 0.0,
+          "probe_win_score_of_v111": 0.5,
+          "probe_mean_margin_of_v111": 0.0
+        },
+        {
+          "candidate_id": "v111_self_calibration",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v111\\main.py",
+          "entrypoint_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+          "dependency_closure_sha256": "2088328ffe20f5846bdb7316a85075a4615b241b984ec15cc8d1eec7f605b51d",
+          "provenance": "Champion self-play calibration only; never an independent family",
+          "artifact_scope": null,
+          "source_ancestry_id": "champion_self",
+          "normalized_source_ancestry_id": "champion_self",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": "calibration_only",
+          "probe_strict_win_rate_of_v111": 0.0,
+          "probe_win_score_of_v111": 0.5,
+          "probe_mean_margin_of_v111": 0.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_f835f763",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "champion_self",
+        "public_v43_v110"
+      ],
+      "calibration_only": true,
+      "v111_probe_strict_win_rate": 0.0,
+      "v111_probe_win_score": 0.5,
+      "v111_probe_mean_margin": 0.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "f9ef43eba9de4aa9e5561824e50f63b9",
+      "source_members": [
+        "local_v5"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\common_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "local_v5",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v5\\main.py",
+          "entrypoint_sha256": "a5e1e33ad79bb8d03847e55a5061e1f8c9dc343102ae3295dcc506091819ca87",
+          "dependency_closure_sha256": "4b22d155d16ede2b61d70e6a9b5161a2ad7713f5111a13360cc07921167d83ca",
+          "provenance": "historical local agent",
+          "artifact_scope": null,
+          "source_ancestry_id": "local_mainline",
+          "normalized_source_ancestry_id": "local_mainline",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 48720.0
+        }
+      ],
+      "behavior_family_id": "gold_exec_f9ef43eb",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "local_or_archived_closed_loop_executable",
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 48720.0,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    },
+    {
+      "family_signature": "fcc926c5df906642fb9a5eea7d5a6c0f",
+      "source_members": [
+        "public_route_v27"
+      ],
+      "probe_origins": [
+        "data\\evaluation\\independent_gold_pool\\public_pure_route_probe.json"
+      ],
+      "source_records": [
+        {
+          "candidate_id": "public_route_v27",
+          "kind": "python",
+          "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\candidates\\gzmcr_kaggriculture\\baseline\\history\\pure_routes\\v27\\main.py",
+          "entrypoint_sha256": "028af4f781045fba5530dbf151c47b63037f51226aa7177020fb17871887ed90",
+          "dependency_closure_sha256": "b3a4c5d7d7ff8a9803fbd3666f41cddce3bf014884e672cb4e9eaad904ce482e",
+          "provenance": "GzmCR/Kaggriculture public snapshot baseline/history/pure_routes/v27",
+          "artifact_scope": "executable open-loop route artifact; probe must determine overlap with public_v27_raw",
+          "source_ancestry_id": "public_v27",
+          "normalized_source_ancestry_id": "public_v27",
+          "archetype_hint": null,
+          "license": null,
+          "panel_restriction": null,
+          "probe_strict_win_rate_of_v111": 1.0,
+          "probe_win_score_of_v111": 1.0,
+          "probe_mean_margin_of_v111": 9301.75
+        }
+      ],
+      "behavior_family_id": "gold_exec_fcc926c5",
+      "evidence_tier": "Gold executable",
+      "policy_scope": "public_executable_open_loop_route",
+      "source_ancestry_ids": [
+        "public_v27"
+      ],
+      "calibration_only": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 9301.75,
+      "sensitivity_target_30_to_70": false,
+      "near_sensitivity_70_to_80": false
+    }
+  ]
+}

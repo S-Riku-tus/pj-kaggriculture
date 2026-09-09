@@ -1,0 +1,2434 @@
+{
+  "format": "kaggriculture-posthoc-action-lineage-assessment-v1",
+  "created_at": "2026-09-01T20:41:15.263839+09:00",
+  "assessment_scope": "Conservative downgrade/sensitivity audit after identical executable action fingerprints were discovered. It is not preregistered evidence and cannot upgrade the original promotion decision.",
+  "source_result": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\data\\evaluation\\v113_cow_sheep_gate_e3e4_20260901_2024\\experiment_result.json",
+  "source_result_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+  "original_decision": "REJECTED_SAFETY",
+  "preregistration": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\v113_cow_sheep_gate_e3e4\\preregistration.json",
+  "preregistration_sha256": "f98a86c1becf2c38170ad59f499fe70ed64b6abf16d6adf38e6bf02e4dadeb54",
+  "provenance": {
+    "verified_at": "2026-09-01T20:23:26.513479+09:00",
+    "checks": [
+      {
+        "kind": "arm_archive",
+        "name": "control",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\evaluation\\v113_cow_sheep\\control.tar.gz",
+        "expected_sha256": "85337f8390094f162e3ab7476f8e8575310e0f16aa0a9a4a2659bc3648e73871",
+        "actual_sha256": "85337f8390094f162e3ab7476f8e8575310e0f16aa0a9a4a2659bc3648e73871",
+        "passed": true
+      },
+      {
+        "kind": "arm_archive",
+        "name": "treatment",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\evaluation\\v113_cow_sheep\\treatment.tar.gz",
+        "expected_sha256": "8e70f27af32ff0b469cf60d7822faf9ccf7371ba4bc0fd293de61815a752221d",
+        "actual_sha256": "8e70f27af32ff0b469cf60d7822faf9ccf7371ba4bc0fd293de61815a752221d",
+        "passed": true
+      },
+      {
+        "kind": "opponent",
+        "name": "gold_v14",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v14\\main.py",
+        "expected_sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7",
+        "actual_sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7",
+        "passed": true
+      },
+      {
+        "kind": "opponent",
+        "name": "gold_v18",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v18\\main.py",
+        "expected_sha256": "c952c06e6226dc2d056bf28382e25e6bc4c03ec0c67b700f763dda8a0dceef85",
+        "actual_sha256": "c952c06e6226dc2d056bf28382e25e6bc4c03ec0c67b700f763dda8a0dceef85",
+        "passed": true
+      },
+      {
+        "kind": "opponent",
+        "name": "gold_public_v27",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v112\\main.py",
+        "expected_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+        "actual_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+        "passed": true
+      },
+      {
+        "kind": "opponent",
+        "name": "gold_public_v43",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v109\\public_v43_base.py",
+        "expected_sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+        "actual_sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+        "passed": true
+      },
+      {
+        "kind": "opponent",
+        "name": "gold_v11",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v11\\main.py",
+        "expected_sha256": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+        "actual_sha256": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+        "passed": true
+      },
+      {
+        "kind": "evaluator_bundle",
+        "name": "champion-challenger-v1",
+        "expected_sha256": "4f234c9d0d470f580ee639e53634f87f1081a2c7ddd57b97e4e5a15c450defcc",
+        "actual_sha256": "4f234c9d0d470f580ee639e53634f87f1081a2c7ddd57b97e4e5a15c450defcc",
+        "passed": true
+      },
+      {
+        "kind": "engine",
+        "name": "kaggle-environments 1.32.7",
+        "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "expected_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "actual_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "passed": true
+      }
+    ],
+    "all_passed": true,
+    "git": {
+      "commit": "7c4577f9fc1ba7366859700d2f63b34c27a30b29",
+      "dirty": true
+    }
+  },
+  "dataset_roles": {
+    "top_366_replays": "Development",
+    "bronze_continuation_analysis": "Development",
+    "known_v14_seed_20260901": "Development",
+    "gold_fast_screen": "Promotion",
+    "gold_formal_promotion": "Promotion",
+    "fresh_holdout": "Fresh Holdout (reserved and not sampled in this experiment)"
+  },
+  "evidence_policy": {
+    "levels": {
+      "E0": "engine mechanics",
+      "E1": "replay descriptive correlation",
+      "E2": "lineage-held-out predictive validation",
+      "E3": "paired causal experiment against executable opponents",
+      "E4": "diverse meta tournament",
+      "E5": "fresh holdout",
+      "E6": "live ladder evidence"
+    },
+    "production_promotion_requires": [
+      "E4",
+      "E5"
+    ],
+    "no_composite_score_rescue": true,
+    "bronze_replay_is_not_closed_loop_evidence": true
+  },
+  "evaluation": {
+    "decision": "REJECTED_SAFETY",
+    "promotion_allowed": false,
+    "highest_supported_evidence": "E2_lineage_held_out_predictive_validation",
+    "supported_evidence_levels": [
+      "E0_engine_mechanics",
+      "E1_replay_descriptive_correlation",
+      "E2_lineage_held_out_predictive_validation"
+    ],
+    "ordered_promotion_gates": {
+      "engine_correctness": {
+        "status": "FAIL",
+        "details": {
+          "archive_inputs_verified": true,
+          "pairs": 60,
+          "treatment_incomplete_720": 0,
+          "candidate_new_major_regressions": [
+            {
+              "lineage_id": "gold_public_v27",
+              "seed": 19135103,
+              "seat": 0,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_public_v27",
+              "seed": 19135103,
+              "seat": 1,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_v11",
+              "seed": 19135103,
+              "seat": 0,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_v11",
+              "seed": 19135103,
+              "seat": 1,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_v14",
+              "seed": 19135103,
+              "seat": 0,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_v14",
+              "seed": 19135103,
+              "seat": 1,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_v18",
+              "seed": 19135103,
+              "seat": 0,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            },
+            {
+              "lineage_id": "gold_v18",
+              "seed": 19135103,
+              "seat": 1,
+              "failures": [
+                "new_fallback_steps"
+              ]
+            }
+          ],
+          "runtime_exceptions": 0,
+          "animal_losses": 0,
+          "plant_to_weed": 1273,
+          "transaction_incomplete": 0,
+          "seat_counts": {
+            "0": 30,
+            "1": 30
+          }
+        }
+      },
+      "behavioral_isolation": {
+        "status": "BLOCKED_BY_EARLIER_GATE",
+        "details": {
+          "pairs": 60,
+          "valid_pairs": 60,
+          "invalid_pairs": [],
+          "inactive_pairs": 31,
+          "inactive_non_identity_pairs": 0,
+          "gate_requested_pairs": 29,
+          "incremental_treatment_pairs": 13,
+          "rule": "pre-step248 identity; first action difference must be the single Cow2-to-Sheep2 market rewrite"
+        },
+        "diagnostic_status_before_ordering": "PASS"
+      },
+      "trigger_causal_uplift": {
+        "status": "BLOCKED_BY_EARLIER_GATE",
+        "details": {
+          "all_games": 60,
+          "trigger_requests": 29,
+          "trigger_frequency": 0.48333333333333334,
+          "incremental_treatments": 13,
+          "conditional_on_pre_action_request": {
+            "paired": {
+              "pairs": 29,
+              "independent_seeds": 4,
+              "baseline": {
+                "wins": 29,
+                "draws": 0,
+                "losses": 0,
+                "win_rate": 1.0,
+                "win_score": 1.0
+              },
+              "candidate": {
+                "wins": 29,
+                "draws": 0,
+                "losses": 0,
+                "win_rate": 1.0,
+                "win_score": 1.0
+              },
+              "delta_win_rate": 0.0,
+              "delta_win_score": 0.0,
+              "loss_to_win": 0,
+              "win_to_loss": 0,
+              "discordant_net": 0,
+              "score_improved": 0,
+              "score_worsened": 0,
+              "both_draw": 0,
+              "mean_delta_self_coin": 3305.103448275862,
+              "mean_delta_opponent_coin": 2779.793103448276,
+              "mean_delta_margin": 525.3103448275862,
+              "trigger_requests": 29,
+              "incremental_treatments": 13
+            },
+            "uncertainty": {
+              "method": "hierarchical cluster bootstrap: executable lineage -> seed cluster (both seats retained)",
+              "independent_lineages": 3,
+              "repetitions": 5000,
+              "meta_delta": {
+                "estimate": 0.0,
+                "low_95": 0.0,
+                "high_95": 0.0
+              },
+              "macro_delta": {
+                "estimate": 0.0,
+                "low_95": 0.0,
+                "high_95": 0.0
+              },
+              "meta_control": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              },
+              "meta_treatment": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              },
+              "macro_control": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              },
+              "macro_treatment": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              }
+            }
+          },
+          "conditional_on_emitted_incremental_transaction": {
+            "paired": {
+              "pairs": 13,
+              "independent_seeds": 3,
+              "baseline": {
+                "wins": 13,
+                "draws": 0,
+                "losses": 0,
+                "win_rate": 1.0,
+                "win_score": 1.0
+              },
+              "candidate": {
+                "wins": 13,
+                "draws": 0,
+                "losses": 0,
+                "win_rate": 1.0,
+                "win_score": 1.0
+              },
+              "delta_win_rate": 0.0,
+              "delta_win_score": 0.0,
+              "loss_to_win": 0,
+              "win_to_loss": 0,
+              "discordant_net": 0,
+              "score_improved": 0,
+              "score_worsened": 0,
+              "both_draw": 0,
+              "mean_delta_self_coin": 7372.923076923077,
+              "mean_delta_opponent_coin": 6201.076923076923,
+              "mean_delta_margin": 1171.8461538461538,
+              "trigger_requests": 13,
+              "incremental_treatments": 13
+            },
+            "uncertainty": {
+              "method": "hierarchical cluster bootstrap: executable lineage -> seed cluster (both seats retained)",
+              "independent_lineages": 2,
+              "repetitions": 5000,
+              "meta_delta": {
+                "estimate": 0.0,
+                "low_95": 0.0,
+                "high_95": 0.0
+              },
+              "macro_delta": {
+                "estimate": 0.0,
+                "low_95": 0.0,
+                "high_95": 0.0
+              },
+              "meta_control": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              },
+              "meta_treatment": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              },
+              "macro_control": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              },
+              "macro_treatment": {
+                "estimate": 1.0,
+                "low_95": 1.0,
+                "high_95": 1.0
+              }
+            }
+          },
+          "global_policy_effect": {
+            "paired": {
+              "pairs": 60,
+              "independent_seeds": 6,
+              "baseline": {
+                "wins": 58,
+                "draws": 0,
+                "losses": 2,
+                "win_rate": 0.9666666666666667,
+                "win_score": 0.9666666666666667
+              },
+              "candidate": {
+                "wins": 58,
+                "draws": 0,
+                "losses": 2,
+                "win_rate": 0.9666666666666667,
+                "win_score": 0.9666666666666667
+              },
+              "delta_win_rate": 0.0,
+              "delta_win_score": 0.0,
+              "loss_to_win": 0,
+              "win_to_loss": 0,
+              "discordant_net": 0,
+              "score_improved": 0,
+              "score_worsened": 0,
+              "both_draw": 0,
+              "mean_delta_self_coin": 1597.4666666666667,
+              "mean_delta_opponent_coin": 1343.5666666666666,
+              "mean_delta_margin": 253.9,
+              "trigger_requests": 29,
+              "incremental_treatments": 13
+            },
+            "uncertainty": {
+              "method": "hierarchical cluster bootstrap: executable lineage -> seed cluster (both seats retained)",
+              "independent_lineages": 3,
+              "repetitions": 5000,
+              "meta_delta": {
+                "estimate": 0.0,
+                "low_95": 0.0,
+                "high_95": 0.0
+              },
+              "macro_delta": {
+                "estimate": 0.0,
+                "low_95": 0.0,
+                "high_95": 0.0
+              },
+              "meta_control": {
+                "estimate": 0.9666666666666668,
+                "low_95": 0.861111111111111,
+                "high_95": 1.0
+              },
+              "meta_treatment": {
+                "estimate": 0.9666666666666668,
+                "low_95": 0.8611111111111112,
+                "high_95": 1.0
+              },
+              "macro_control": {
+                "estimate": 0.9444444444444444,
+                "low_95": 0.8055555555555556,
+                "high_95": 1.0
+              },
+              "macro_treatment": {
+                "estimate": 0.9444444444444444,
+                "low_95": 0.8055555555555556,
+                "high_95": 1.0
+              }
+            }
+          },
+          "warning": "The request cohort is the preregistered pre-action trigger analysis. The emitted-transaction cohort is a complier diagnostic and not a replacement for global impact."
+        },
+        "diagnostic_status_before_ordering": "INSUFFICIENT_EVIDENCE"
+      },
+      "diverse_meta_payoff_improvement": {
+        "status": "BLOCKED_BY_EARLIER_GATE",
+        "details": {
+          "independent_executable_lineages": 3,
+          "pairs": 60,
+          "meta_weighted": {
+            "baseline": {
+              "estimate": 0.9666666666666668,
+              "low_95": 0.861111111111111,
+              "high_95": 1.0
+            },
+            "candidate": {
+              "estimate": 0.9666666666666668,
+              "low_95": 0.861111111111111,
+              "high_95": 1.0
+            },
+            "delta": {
+              "estimate": 0.0,
+              "low_95": 0.0,
+              "high_95": 0.0
+            }
+          },
+          "macro_lineage": {
+            "baseline": {
+              "estimate": 0.9444444444444444,
+              "low_95": 0.8055555555555556,
+              "high_95": 1.0
+            },
+            "candidate": {
+              "estimate": 0.9444444444444444,
+              "low_95": 0.8055555555555556,
+              "high_95": 1.0
+            },
+            "delta": {
+              "estimate": 0.0,
+              "low_95": 0.0,
+              "high_95": 0.0
+            }
+          },
+          "major_lineage_harm": []
+        },
+        "diagnostic_status_before_ordering": "INSUFFICIENT_EVIDENCE"
+      },
+      "robustness": {
+        "status": "BLOCKED_BY_EARLIER_GATE",
+        "details": {
+          "weight_radius": 0.1,
+          "scenarios": [
+            {
+              "name": "current",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.2,
+                "action_family_0013ef3496d9": 0.2,
+                "action_family_227d04476287": 0.6000000000000001
+              },
+              "baseline_win_score": 0.9666666666666668,
+              "candidate_win_score": 0.9666666666666668,
+              "delta": 0.0
+            },
+            {
+              "name": "action_family_0013ef3496d9_up_0.100",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.17499999999999996,
+                "action_family_0013ef3496d9": 0.30000000000000004,
+                "action_family_227d04476287": 0.525
+              },
+              "baseline_win_score": 0.9500000000000001,
+              "candidate_win_score": 0.9500000000000001,
+              "delta": 0.0
+            },
+            {
+              "name": "action_family_0013ef3496d9_down_0.100",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.225,
+                "action_family_0013ef3496d9": 0.1,
+                "action_family_227d04476287": 0.6750000000000002
+              },
+              "baseline_win_score": 0.9833333333333335,
+              "candidate_win_score": 0.9833333333333335,
+              "delta": 0.0
+            },
+            {
+              "name": "action_family_227d04476287_up_0.100",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.15000000000000002,
+                "action_family_0013ef3496d9": 0.15000000000000002,
+                "action_family_227d04476287": 0.7000000000000001
+              },
+              "baseline_win_score": 0.9750000000000001,
+              "candidate_win_score": 0.9750000000000001,
+              "delta": 0.0
+            },
+            {
+              "name": "action_family_227d04476287_down_0.100",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.25,
+                "action_family_0013ef3496d9": 0.25,
+                "action_family_227d04476287": 0.5000000000000001
+              },
+              "baseline_win_score": 0.9583333333333335,
+              "candidate_win_score": 0.9583333333333335,
+              "delta": 0.0
+            },
+            {
+              "name": "action_family_ced7dd42bab8_up_0.100",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.30000000000000004,
+                "action_family_0013ef3496d9": 0.17499999999999996,
+                "action_family_227d04476287": 0.525
+              },
+              "baseline_win_score": 0.9708333333333334,
+              "candidate_win_score": 0.9708333333333334,
+              "delta": 0.0
+            },
+            {
+              "name": "action_family_ced7dd42bab8_down_0.100",
+              "weights": {
+                "action_family_ced7dd42bab8": 0.1,
+                "action_family_0013ef3496d9": 0.225,
+                "action_family_227d04476287": 0.6750000000000002
+              },
+              "baseline_win_score": 0.9625000000000001,
+              "candidate_win_score": 0.9625000000000001,
+              "delta": 0.0
+            }
+          ],
+          "robust_baseline_win_score": 0.9500000000000001,
+          "robust_candidate_win_score": 0.9500000000000001,
+          "worst_delta": 0.0,
+          "worst_delta_scenario": "current"
+        },
+        "diagnostic_status_before_ordering": "INSUFFICIENT_EVIDENCE"
+      },
+      "fresh_holdout": {
+        "status": "BLOCKED_BY_EARLIER_GATE",
+        "details": {
+          "dataset": "Fresh Holdout (reserved and not sampled in this experiment)",
+          "reason": "No post-freeze unused executable lineage/episode cohort is available in this run."
+        },
+        "diagnostic_status_before_ordering": "NOT_RUN"
+      }
+    },
+    "fast_screen": {
+      "purpose": "negative-only early harm screen; a positive result is not strength evidence",
+      "pairs": 10,
+      "summary": {
+        "pairs": 10,
+        "independent_seeds": 1,
+        "baseline": {
+          "wins": 10,
+          "draws": 0,
+          "losses": 0,
+          "win_rate": 1.0,
+          "win_score": 1.0
+        },
+        "candidate": {
+          "wins": 10,
+          "draws": 0,
+          "losses": 0,
+          "win_rate": 1.0,
+          "win_score": 1.0
+        },
+        "delta_win_rate": 0.0,
+        "delta_win_score": 0.0,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "discordant_net": 0,
+        "score_improved": 0,
+        "score_worsened": 0,
+        "both_draw": 0,
+        "mean_delta_self_coin": 0.0,
+        "mean_delta_opponent_coin": 0.0,
+        "mean_delta_margin": 0.0,
+        "trigger_requests": 0,
+        "incremental_treatments": 0
+      },
+      "major_regression_pairs": 0
+    },
+    "formal_promotion": {
+      "pairs": 60,
+      "lineage_independence_audit": {
+        "method": "Exact equality of opponent Control action-fingerprint vectors on the common pre-intervention seed/seat grid",
+        "fingerprint_key": "opponent_control_h200",
+        "checkpoint_limitation": "A common pre-intervention fingerprint is not a universal-policy identity proof; future experiments must calibrate and freeze the fingerprint grid before promotion games.",
+        "declared_source_lineages": 5,
+        "observed_action_families": 3,
+        "common_grid_size": 12,
+        "complete_common_grid": true,
+        "missing_fingerprints": [],
+        "families": [
+          {
+            "family_id": "action_family_227d04476287",
+            "source_lineages": [
+              "gold_v11",
+              "gold_v14",
+              "gold_v18"
+            ],
+            "source_count": 3,
+            "aggregate_meta_weight": 0.6000000000000001,
+            "fingerprint_vector": [
+              {
+                "seed": 19135101,
+                "seat": 0,
+                "sha": "2c1572ee73427aaf48a6"
+              },
+              {
+                "seed": 19135101,
+                "seat": 1,
+                "sha": "2c1572ee73427aaf48a6"
+              },
+              {
+                "seed": 19135102,
+                "seat": 0,
+                "sha": "242636bbcb74155bc0ab"
+              },
+              {
+                "seed": 19135102,
+                "seat": 1,
+                "sha": "242636bbcb74155bc0ab"
+              },
+              {
+                "seed": 19135103,
+                "seat": 0,
+                "sha": "140e9fbcf0a546ea0c88"
+              },
+              {
+                "seed": 19135103,
+                "seat": 1,
+                "sha": "140e9fbcf0a546ea0c88"
+              },
+              {
+                "seed": 19135104,
+                "seat": 0,
+                "sha": "1ba2236e23d98751c0dd"
+              },
+              {
+                "seed": 19135104,
+                "seat": 1,
+                "sha": "1ba2236e23d98751c0dd"
+              },
+              {
+                "seed": 19135105,
+                "seat": 0,
+                "sha": "87abd90367d9f8cda521"
+              },
+              {
+                "seed": 19135105,
+                "seat": 1,
+                "sha": "214472d24a34a6912bf0"
+              },
+              {
+                "seed": 19135106,
+                "seat": 0,
+                "sha": "26cca91019a50ae5ff8c"
+              },
+              {
+                "seed": 19135106,
+                "seat": 1,
+                "sha": "26cca91019a50ae5ff8c"
+              }
+            ]
+          },
+          {
+            "family_id": "action_family_ced7dd42bab8",
+            "source_lineages": [
+              "gold_public_v27"
+            ],
+            "source_count": 1,
+            "aggregate_meta_weight": 0.2,
+            "fingerprint_vector": [
+              {
+                "seed": 19135101,
+                "seat": 0,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135101,
+                "seat": 1,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135102,
+                "seat": 0,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135102,
+                "seat": 1,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135103,
+                "seat": 0,
+                "sha": "0d545dd8a36d14995379"
+              },
+              {
+                "seed": 19135103,
+                "seat": 1,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135104,
+                "seat": 0,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135104,
+                "seat": 1,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135105,
+                "seat": 0,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135105,
+                "seat": 1,
+                "sha": "74c25d28571c5ec1255c"
+              },
+              {
+                "seed": 19135106,
+                "seat": 0,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              },
+              {
+                "seed": 19135106,
+                "seat": 1,
+                "sha": "a9ae8e00e0b19e5a0c2d"
+              }
+            ]
+          },
+          {
+            "family_id": "action_family_0013ef3496d9",
+            "source_lineages": [
+              "gold_public_v43"
+            ],
+            "source_count": 1,
+            "aggregate_meta_weight": 0.2,
+            "fingerprint_vector": [
+              {
+                "seed": 19135101,
+                "seat": 0,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135101,
+                "seat": 1,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135102,
+                "seat": 0,
+                "sha": "59a67b487b7b2c2c7928"
+              },
+              {
+                "seed": 19135102,
+                "seat": 1,
+                "sha": "59a67b487b7b2c2c7928"
+              },
+              {
+                "seed": 19135103,
+                "seat": 0,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135103,
+                "seat": 1,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135104,
+                "seat": 0,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135104,
+                "seat": 1,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135105,
+                "seat": 0,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135105,
+                "seat": 1,
+                "sha": "1194aa7e8dd8c345c5ac"
+              },
+              {
+                "seed": 19135106,
+                "seat": 0,
+                "sha": "faf180c17b82798ab07f"
+              },
+              {
+                "seed": 19135106,
+                "seat": 1,
+                "sha": "faf180c17b82798ab07f"
+              }
+            ]
+          }
+        ],
+        "duplicate_source_families": [
+          {
+            "family_id": "action_family_227d04476287",
+            "source_lineages": [
+              "gold_v11",
+              "gold_v14",
+              "gold_v18"
+            ],
+            "source_count": 3,
+            "aggregate_meta_weight": 0.6000000000000001,
+            "fingerprint_vector": [
+              {
+                "seed": 19135101,
+                "seat": 0,
+                "sha": "2c1572ee73427aaf48a6"
+              },
+              {
+                "seed": 19135101,
+                "seat": 1,
+                "sha": "2c1572ee73427aaf48a6"
+              },
+              {
+                "seed": 19135102,
+                "seat": 0,
+                "sha": "242636bbcb74155bc0ab"
+              },
+              {
+                "seed": 19135102,
+                "seat": 1,
+                "sha": "242636bbcb74155bc0ab"
+              },
+              {
+                "seed": 19135103,
+                "seat": 0,
+                "sha": "140e9fbcf0a546ea0c88"
+              },
+              {
+                "seed": 19135103,
+                "seat": 1,
+                "sha": "140e9fbcf0a546ea0c88"
+              },
+              {
+                "seed": 19135104,
+                "seat": 0,
+                "sha": "1ba2236e23d98751c0dd"
+              },
+              {
+                "seed": 19135104,
+                "seat": 1,
+                "sha": "1ba2236e23d98751c0dd"
+              },
+              {
+                "seed": 19135105,
+                "seat": 0,
+                "sha": "87abd90367d9f8cda521"
+              },
+              {
+                "seed": 19135105,
+                "seat": 1,
+                "sha": "214472d24a34a6912bf0"
+              },
+              {
+                "seed": 19135106,
+                "seat": 0,
+                "sha": "26cca91019a50ae5ff8c"
+              },
+              {
+                "seed": 19135106,
+                "seat": 1,
+                "sha": "26cca91019a50ae5ff8c"
+              }
+            ]
+          }
+        ],
+        "source_to_family": {
+          "gold_v11": "action_family_227d04476287",
+          "gold_v14": "action_family_227d04476287",
+          "gold_v18": "action_family_227d04476287",
+          "gold_public_v27": "action_family_ced7dd42bab8",
+          "gold_public_v43": "action_family_0013ef3496d9"
+        },
+        "independence_claim_valid": false
+      },
+      "pairwise_payoff_matrix": [
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 10,
+            "draws": 0,
+            "losses": 2,
+            "win_rate": 0.8333333333333334,
+            "win_score": 0.8333333333333334
+          },
+          "candidate": {
+            "wins": 10,
+            "draws": 0,
+            "losses": 2,
+            "win_rate": 0.8333333333333334,
+            "win_score": 0.8333333333333334
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": 0.0,
+          "mean_delta_opponent_coin": 0.0,
+          "mean_delta_margin": 0.0,
+          "trigger_requests": 2,
+          "incremental_treatments": 0,
+          "lineage_id": "action_family_0013ef3496d9",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          },
+          "source_lineages": [
+            "gold_public_v43"
+          ]
+        },
+        {
+          "pairs": 36,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 36,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "candidate": {
+            "wins": 36,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": 3174.277777777778,
+          "mean_delta_opponent_coin": 2154.8333333333335,
+          "mean_delta_margin": 1019.4444444444445,
+          "trigger_requests": 21,
+          "incremental_treatments": 9,
+          "lineage_id": "action_family_227d04476287",
+          "meta_weight": 0.6000000000000001,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          },
+          "source_lineages": [
+            "gold_v11",
+            "gold_v14",
+            "gold_v18"
+          ]
+        },
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "candidate": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": -1535.5,
+          "mean_delta_opponent_coin": 253.33333333333334,
+          "mean_delta_margin": -1788.8333333333333,
+          "trigger_requests": 6,
+          "incremental_treatments": 4,
+          "lineage_id": "action_family_ced7dd42bab8",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          },
+          "source_lineages": [
+            "gold_public_v27"
+          ]
+        }
+      ],
+      "source_variant_payoff_matrix_diagnostic": [
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "candidate": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": -1535.5,
+          "mean_delta_opponent_coin": 253.33333333333334,
+          "mean_delta_margin": -1788.8333333333333,
+          "trigger_requests": 6,
+          "incremental_treatments": 4,
+          "lineage_id": "gold_public_v27",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          }
+        },
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 10,
+            "draws": 0,
+            "losses": 2,
+            "win_rate": 0.8333333333333334,
+            "win_score": 0.8333333333333334
+          },
+          "candidate": {
+            "wins": 10,
+            "draws": 0,
+            "losses": 2,
+            "win_rate": 0.8333333333333334,
+            "win_score": 0.8333333333333334
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": 0.0,
+          "mean_delta_opponent_coin": 0.0,
+          "mean_delta_margin": 0.0,
+          "trigger_requests": 2,
+          "incremental_treatments": 0,
+          "lineage_id": "gold_public_v43",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          }
+        },
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "candidate": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": 3171.8333333333335,
+          "mean_delta_opponent_coin": 2188.8333333333335,
+          "mean_delta_margin": 983.0,
+          "trigger_requests": 7,
+          "incremental_treatments": 3,
+          "lineage_id": "gold_v11",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          }
+        },
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "candidate": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": 3175.5,
+          "mean_delta_opponent_coin": 2137.8333333333335,
+          "mean_delta_margin": 1037.6666666666667,
+          "trigger_requests": 7,
+          "incremental_treatments": 3,
+          "lineage_id": "gold_v14",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          }
+        },
+        {
+          "pairs": 12,
+          "independent_seeds": 6,
+          "baseline": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "candidate": {
+            "wins": 12,
+            "draws": 0,
+            "losses": 0,
+            "win_rate": 1.0,
+            "win_score": 1.0
+          },
+          "delta_win_rate": 0.0,
+          "delta_win_score": 0.0,
+          "loss_to_win": 0,
+          "win_to_loss": 0,
+          "discordant_net": 0,
+          "score_improved": 0,
+          "score_worsened": 0,
+          "both_draw": 0,
+          "mean_delta_self_coin": 3175.5,
+          "mean_delta_opponent_coin": 2137.8333333333335,
+          "mean_delta_margin": 1037.6666666666667,
+          "trigger_requests": 7,
+          "incremental_treatments": 3,
+          "lineage_id": "gold_v18",
+          "meta_weight": 0.2,
+          "delta_win_score_ci": {
+            "estimate": 0.0,
+            "low_95": 0.0,
+            "high_95": 0.0
+          }
+        }
+      ],
+      "hierarchical_uncertainty": {
+        "method": "hierarchical cluster bootstrap: executable lineage -> seed cluster (both seats retained)",
+        "independent_lineages": 3,
+        "repetitions": 5000,
+        "meta_delta": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "macro_delta": {
+          "estimate": 0.0,
+          "low_95": 0.0,
+          "high_95": 0.0
+        },
+        "meta_control": {
+          "estimate": 0.9666666666666668,
+          "low_95": 0.861111111111111,
+          "high_95": 1.0
+        },
+        "meta_treatment": {
+          "estimate": 0.9666666666666668,
+          "low_95": 0.861111111111111,
+          "high_95": 1.0
+        },
+        "macro_control": {
+          "estimate": 0.9444444444444444,
+          "low_95": 0.8055555555555556,
+          "high_95": 1.0
+        },
+        "macro_treatment": {
+          "estimate": 0.9444444444444444,
+          "low_95": 0.8055555555555556,
+          "high_95": 1.0
+        }
+      },
+      "robust_meta": {
+        "weight_radius": 0.1,
+        "scenarios": [
+          {
+            "name": "current",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.2,
+              "action_family_0013ef3496d9": 0.2,
+              "action_family_227d04476287": 0.6000000000000001
+            },
+            "baseline_win_score": 0.9666666666666668,
+            "candidate_win_score": 0.9666666666666668,
+            "delta": 0.0
+          },
+          {
+            "name": "action_family_0013ef3496d9_up_0.100",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.17499999999999996,
+              "action_family_0013ef3496d9": 0.30000000000000004,
+              "action_family_227d04476287": 0.525
+            },
+            "baseline_win_score": 0.9500000000000001,
+            "candidate_win_score": 0.9500000000000001,
+            "delta": 0.0
+          },
+          {
+            "name": "action_family_0013ef3496d9_down_0.100",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.225,
+              "action_family_0013ef3496d9": 0.1,
+              "action_family_227d04476287": 0.6750000000000002
+            },
+            "baseline_win_score": 0.9833333333333335,
+            "candidate_win_score": 0.9833333333333335,
+            "delta": 0.0
+          },
+          {
+            "name": "action_family_227d04476287_up_0.100",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.15000000000000002,
+              "action_family_0013ef3496d9": 0.15000000000000002,
+              "action_family_227d04476287": 0.7000000000000001
+            },
+            "baseline_win_score": 0.9750000000000001,
+            "candidate_win_score": 0.9750000000000001,
+            "delta": 0.0
+          },
+          {
+            "name": "action_family_227d04476287_down_0.100",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.25,
+              "action_family_0013ef3496d9": 0.25,
+              "action_family_227d04476287": 0.5000000000000001
+            },
+            "baseline_win_score": 0.9583333333333335,
+            "candidate_win_score": 0.9583333333333335,
+            "delta": 0.0
+          },
+          {
+            "name": "action_family_ced7dd42bab8_up_0.100",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.30000000000000004,
+              "action_family_0013ef3496d9": 0.17499999999999996,
+              "action_family_227d04476287": 0.525
+            },
+            "baseline_win_score": 0.9708333333333334,
+            "candidate_win_score": 0.9708333333333334,
+            "delta": 0.0
+          },
+          {
+            "name": "action_family_ced7dd42bab8_down_0.100",
+            "weights": {
+              "action_family_ced7dd42bab8": 0.1,
+              "action_family_0013ef3496d9": 0.225,
+              "action_family_227d04476287": 0.6750000000000002
+            },
+            "baseline_win_score": 0.9625000000000001,
+            "candidate_win_score": 0.9625000000000001,
+            "delta": 0.0
+          }
+        ],
+        "robust_baseline_win_score": 0.9500000000000001,
+        "robust_candidate_win_score": 0.9500000000000001,
+        "worst_delta": 0.0,
+        "worst_delta_scenario": "current"
+      },
+      "bradley_terry_diagnostic": {
+        "model": "Bradley-Terry/logistic with baseline ability fixed at 0 and lineage intercepts",
+        "candidate_minus_baseline_ability": 1.8780451351826932e-05,
+        "approx_standard_error": 0.7745952869449035,
+        "approx_95_interval": [
+          -1.518187981960659,
+          1.5182255428633626
+        ],
+        "opponent_abilities": {
+          "action_family_0013ef3496d9": -1.6094280394094822,
+          "action_family_227d04476287": -15.360375874775832,
+          "action_family_ced7dd42bab8": -14.33112093883332
+        },
+        "warning": "diagnostic only; non-transitive matchups require the pairwise payoff matrix"
+      }
+    },
+    "first_divergence_reproduction": [
+      {
+        "phase": "first_divergence_reproduction",
+        "lineage_id": "gold_v14",
+        "opponent_name": "local-v14",
+        "opponent_tier": "Gold",
+        "meta_weight": 0.2,
+        "seed": 20260901,
+        "seat": 1,
+        "control": {
+          "requested_seed": 20260901,
+          "resolved_seed": 20260901,
+          "seat": 1,
+          "ours": 109082.0,
+          "theirs": 90741.0,
+          "margin": 18341.0,
+          "score": 1.0,
+          "result": "win",
+          "final_statuses": [
+            "DONE",
+            "DONE"
+          ]
+        },
+        "treatment": {
+          "requested_seed": 20260901,
+          "resolved_seed": 20260901,
+          "seat": 1,
+          "ours": 119910.0,
+          "theirs": 112046.0,
+          "margin": 7864.0,
+          "score": 1.0,
+          "result": "win",
+          "final_statuses": [
+            "DONE",
+            "DONE"
+          ]
+        },
+        "delta_self_coin": 10828.0,
+        "delta_opponent_coin": 21305.0,
+        "delta_margin": -10477.0,
+        "delta_win_score": 0.0,
+        "loss_to_win": false,
+        "win_to_loss": false,
+        "gate_requested": true,
+        "gate_model": {
+          "step": 216,
+          "animal_tilt": 1.838725678897552,
+          "max_abs_z": 0.9718587602117446,
+          "in_support": true,
+          "animal_residual_score": 0.27740046838407495
+        },
+        "incremental_treatment": true,
+        "behavioral_isolation_valid": true,
+        "divergence_audit": {
+          "alignment": "observation[t] -> action stored at steps[t+1]",
+          "gate_requested": true,
+          "intended_action_step": 248,
+          "first_focal_action": {
+            "step": 248,
+            "day": 10,
+            "hour": 8,
+            "control": {
+              "farmer": [
+                "SOUTH"
+              ],
+              "hands": [
+                [
+                  "CARE"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "WEST"
+                ],
+                [
+                  "DROP"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "SOUTH"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "WEST"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "NORTH"
+                ]
+              ],
+              "market": [
+                [
+                  "SELL",
+                  "MELON",
+                  6
+                ],
+                [
+                  "BUY_ANIMAL",
+                  "COW",
+                  2
+                ]
+              ]
+            },
+            "treatment": {
+              "farmer": [
+                "SOUTH"
+              ],
+              "hands": [
+                [
+                  "CARE"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "WEST"
+                ],
+                [
+                  "DROP"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "SOUTH"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "WEST"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "NORTH"
+                ]
+              ],
+              "market": [
+                [
+                  "SELL",
+                  "MELON",
+                  6
+                ],
+                [
+                  "BUY_ANIMAL",
+                  "SHEEP",
+                  2
+                ]
+              ]
+            }
+          },
+          "first_opponent_action": {
+            "step": 270,
+            "day": 11,
+            "hour": 6,
+            "control": {
+              "farmer": [
+                "EAST"
+              ],
+              "hands": [
+                [
+                  "COLLECT_FERTILIZER"
+                ],
+                [
+                  "WEST"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "CARE"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "WATER"
+                ]
+              ],
+              "market": [
+                [
+                  "BUY_PRODUCT",
+                  "WHEAT",
+                  1
+                ],
+                [
+                  "BUY_SEED",
+                  "STRAWBERRY",
+                  2
+                ]
+              ]
+            },
+            "treatment": {
+              "farmer": [
+                "EAST"
+              ],
+              "hands": [
+                [
+                  "COLLECT_FERTILIZER"
+                ],
+                [
+                  "WEST"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "CARE"
+                ],
+                [
+                  "WATER"
+                ],
+                [
+                  "NORTH"
+                ],
+                [
+                  "EAST"
+                ],
+                [
+                  "WATER"
+                ]
+              ],
+              "market": [
+                [
+                  "BUY_PRODUCT",
+                  "WHEAT",
+                  1
+                ],
+                [
+                  "BUY_SEED",
+                  "STRAWBERRY",
+                  1
+                ]
+              ]
+            }
+          },
+          "first_state_divergence": {
+            "market_inventory": {
+              "step": 302,
+              "control": {
+                "WHEAT": 9801,
+                "CARROT": 9987,
+                "TOMATO": 9987,
+                "STRAWBERRY": 9943,
+                "MELON": 10084,
+                "EGG": 9929,
+                "MILK": 9961,
+                "WOOL": 9999,
+                "FERTILIZER": 10130
+              },
+              "treatment": {
+                "WHEAT": 9802,
+                "CARROT": 9987,
+                "TOMATO": 9987,
+                "STRAWBERRY": 9943,
+                "MELON": 10084,
+                "EGG": 9929,
+                "MILK": 9961,
+                "WOOL": 9999,
+                "FERTILIZER": 10130
+              }
+            },
+            "prices": {
+              "step": 312,
+              "control": {
+                "WHEAT": 39,
+                "CARROT": 36,
+                "TOMATO": 62,
+                "STRAWBERRY": 186,
+                "MELON": 179,
+                "EGG": 54,
+                "MILK": 213,
+                "WOOL": 215,
+                "FERTILIZER": 71
+              },
+              "treatment": {
+                "WHEAT": 39,
+                "CARROT": 36,
+                "TOMATO": 62,
+                "STRAWBERRY": 186,
+                "MELON": 179,
+                "EGG": 54,
+                "MILK": 213,
+                "WOOL": 215,
+                "FERTILIZER": 72
+              }
+            },
+            "town": {
+              "step": 432,
+              "control": {
+                "unlocked_shops": [
+                  "BAKERY",
+                  "ICE_CREAM_SHOP",
+                  "YARN_STORE",
+                  "ICE_CREAM_SHOP",
+                  "SMOOTHIE_SHOP",
+                  "YARN_STORE"
+                ]
+              },
+              "treatment": {
+                "unlocked_shops": [
+                  "BAKERY",
+                  "ICE_CREAM_SHOP",
+                  "YARN_STORE",
+                  "ICE_CREAM_SHOP",
+                  "SMOOTHIE_SHOP",
+                  "ICE_CREAM_SHOP"
+                ]
+              }
+            },
+            "self_money": {
+              "step": 249,
+              "control": 3561.0,
+              "treatment": 3361.0
+            },
+            "opponent_money": {
+              "step": 271,
+              "control": 11488.0,
+              "treatment": 11588.0
+            },
+            "self_portfolio": {
+              "step": 257,
+              "control": {
+                "crops": {
+                  "WHEAT": 8,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 27,
+                  "MELON": 1
+                },
+                "animals": {
+                  "GOOSE": 0,
+                  "COW": 8,
+                  "SHEEP": 4
+                },
+                "structures": {
+                  "PASTURE": 14
+                },
+                "unlocked_quadrants": [
+                  "NW",
+                  "NE",
+                  "SW"
+                ],
+                "weeds": 0
+              },
+              "treatment": {
+                "crops": {
+                  "WHEAT": 8,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 27,
+                  "MELON": 1
+                },
+                "animals": {
+                  "GOOSE": 0,
+                  "COW": 7,
+                  "SHEEP": 5
+                },
+                "structures": {
+                  "PASTURE": 14
+                },
+                "unlocked_quadrants": [
+                  "NW",
+                  "NE",
+                  "SW"
+                ],
+                "weeds": 0
+              }
+            },
+            "opponent_portfolio": {
+              "step": 282,
+              "control": {
+                "crops": {
+                  "WHEAT": 28,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 25,
+                  "MELON": 0
+                },
+                "animals": {
+                  "GOOSE": 0,
+                  "COW": 8,
+                  "SHEEP": 3
+                },
+                "structures": {
+                  "PASTURE": 11
+                },
+                "unlocked_quadrants": [
+                  "NW",
+                  "NE",
+                  "SW"
+                ],
+                "weeds": 0
+              },
+              "treatment": {
+                "crops": {
+                  "WHEAT": 29,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 24,
+                  "MELON": 0
+                },
+                "animals": {
+                  "GOOSE": 0,
+                  "COW": 8,
+                  "SHEEP": 3
+                },
+                "structures": {
+                  "PASTURE": 11
+                },
+                "unlocked_quadrants": [
+                  "NW",
+                  "NE",
+                  "SW"
+                ],
+                "weeds": 0
+              }
+            },
+            "self_workers": null,
+            "opponent_workers": {
+              "step": 281,
+              "control": {
+                "farmer": [
+                  2,
+                  0
+                ],
+                "hands": [
+                  [
+                    8,
+                    2
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    9,
+                    0
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    6,
+                    2
+                  ]
+                ],
+                "hires_today": 12
+              },
+              "treatment": {
+                "farmer": [
+                  2,
+                  0
+                ],
+                "hands": [
+                  [
+                    8,
+                    2
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    9,
+                    0
+                  ],
+                  [
+                    7,
+                    0
+                  ],
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    6,
+                    2
+                  ]
+                ],
+                "hires_today": 12
+              }
+            },
+            "self_private": {
+              "step": 249,
+              "control": {
+                "shed": {
+                  "WHEAT": 16,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 0,
+                  "MELON": 0,
+                  "EGG": 0,
+                  "MILK": 0,
+                  "WOOL": 2,
+                  "FERTILIZER": 0,
+                  "GOOSE": 0,
+                  "COW": 4,
+                  "SHEEP": 0
+                },
+                "seeds": {
+                  "WHEAT": 4,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 17,
+                  "MELON": 4
+                },
+                "inventories": [
+                  {
+                    "WHEAT": 4,
+                    "FERTILIZER": 1
+                  },
+                  {
+                    "WHEAT": 4,
+                    "FERTILIZER": 1
+                  },
+                  {
+                    "WHEAT": 3,
+                    "FERTILIZER": 1
+                  },
+                  {},
+                  {},
+                  {},
+                  {
+                    "MELON": 6
+                  },
+                  {},
+                  {
+                    "MELON": 6
+                  },
+                  {},
+                  {},
+                  {},
+                  {}
+                ]
+              },
+              "treatment": {
+                "shed": {
+                  "WHEAT": 16,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 0,
+                  "MELON": 0,
+                  "EGG": 0,
+                  "MILK": 0,
+                  "WOOL": 2,
+                  "FERTILIZER": 0,
+                  "GOOSE": 0,
+                  "COW": 2,
+                  "SHEEP": 2
+                },
+                "seeds": {
+                  "WHEAT": 4,
+                  "CARROT": 0,
+                  "TOMATO": 0,
+                  "STRAWBERRY": 17,
+                  "MELON": 4
+                },
+                "inventories": [
+                  {
+                    "WHEAT": 4,
+                    "FERTILIZER": 1
+                  },
+                  {
+                    "WHEAT": 4,
+                    "FERTILIZER": 1
+                  },
+                  {
+                    "WHEAT": 3,
+                    "FERTILIZER": 1
+                  },
+                  {},
+                  {},
+                  {},
+                  {
+                    "MELON": 6
+                  },
+                  {},
+                  {
+                    "MELON": 6
+                  },
+                  {},
+                  {},
+                  {},
+                  {}
+                ]
+              }
+            }
+          },
+          "first_opponent_money_benefit": {
+            "step": 271,
+            "control": 11488.0,
+            "treatment": 11588.0
+          },
+          "expected_first_intervention": true,
+          "behavioral_isolation_valid": true,
+          "incremental_treatment_emitted": true,
+          "classification": "intended_intervention_then_closed_loop_opponent_response"
+        },
+        "safety": {
+          "control": {
+            "stored_steps": 720,
+            "decisions": 719,
+            "final_statuses": [
+              "DONE",
+              "DONE"
+            ],
+            "runtime_failures": [],
+            "completed_720": true,
+            "minimum_cash": 2.0,
+            "animal_losses": {
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "animal_loss_total": 0,
+            "plant_to_weed": 20,
+            "spawned_weeds": 1,
+            "fallback_steps": 0,
+            "ood_steps": 0,
+            "engine_action_audit": {
+              "partial_market_commit": 51,
+              "pre_intervention_partial_market_commit": 7,
+              "silent_market_noop": 187,
+              "pre_intervention_silent_market_noop": 5,
+              "silent_field_noop": 183,
+              "pre_intervention_silent_field_noop": 16,
+              "post_intervention_silent_field_noop": 167,
+              "post_intervention_silent_market_noop": 182,
+              "post_intervention_partial_market_commit": 44
+            },
+            "engine_action_examples": [
+              {
+                "step": 120,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 5,
+                "committed": 4
+              },
+              {
+                "step": 137,
+                "kind": "market_commit",
+                "slot": 1,
+                "op": "BUY_SEED",
+                "item": "STRAWBERRY",
+                "requested": 1,
+                "committed": 0
+              },
+              {
+                "step": 140,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 5,
+                "committed": 4
+              },
+              {
+                "step": 188,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 4,
+                "committed": 3
+              },
+              {
+                "step": 192,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "FEED"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 192,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 4,
+                "committed": 3
+              },
+              {
+                "step": 197,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "PLACE",
+                  "COW"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 198,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "FEED"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 199,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "CARE"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 203,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "PLACE",
+                  "COW"
+                ],
+                "atomic_plant_block": false
+              }
+            ],
+            "transaction": {
+              "emitted_purchase_rewrite": false,
+              "purchase_units_committed": 0,
+              "emitted_pickups": 0,
+              "emitted_placements": 0,
+              "pickup_noops": 0,
+              "placement_noops": 0,
+              "complete": true
+            }
+          },
+          "treatment": {
+            "stored_steps": 720,
+            "decisions": 719,
+            "final_statuses": [
+              "DONE",
+              "DONE"
+            ],
+            "runtime_failures": [],
+            "completed_720": true,
+            "minimum_cash": 2.0,
+            "animal_losses": {
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "animal_loss_total": 0,
+            "plant_to_weed": 20,
+            "spawned_weeds": 1,
+            "fallback_steps": 0,
+            "ood_steps": 0,
+            "engine_action_audit": {
+              "partial_market_commit": 44,
+              "pre_intervention_partial_market_commit": 7,
+              "silent_market_noop": 202,
+              "pre_intervention_silent_market_noop": 5,
+              "silent_field_noop": 188,
+              "pre_intervention_silent_field_noop": 16,
+              "post_intervention_silent_field_noop": 172,
+              "post_intervention_silent_market_noop": 197,
+              "post_intervention_partial_market_commit": 37
+            },
+            "engine_action_examples": [
+              {
+                "step": 120,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 5,
+                "committed": 4
+              },
+              {
+                "step": 137,
+                "kind": "market_commit",
+                "slot": 1,
+                "op": "BUY_SEED",
+                "item": "STRAWBERRY",
+                "requested": 1,
+                "committed": 0
+              },
+              {
+                "step": 140,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 5,
+                "committed": 4
+              },
+              {
+                "step": 188,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 4,
+                "committed": 3
+              },
+              {
+                "step": 192,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "FEED"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 192,
+                "kind": "market_commit",
+                "slot": 0,
+                "op": "SELL",
+                "item": "FERTILIZER",
+                "requested": 4,
+                "committed": 3
+              },
+              {
+                "step": 197,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "PLACE",
+                  "COW"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 198,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "FEED"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 199,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "CARE"
+                ],
+                "atomic_plant_block": false
+              },
+              {
+                "step": 203,
+                "kind": "silent_field_noop",
+                "unit": 0,
+                "action": [
+                  "PLACE",
+                  "COW"
+                ],
+                "atomic_plant_block": false
+              }
+            ],
+            "transaction": {
+              "emitted_purchase_rewrite": true,
+              "purchase_units_committed": 2,
+              "emitted_pickups": 2,
+              "emitted_placements": 2,
+              "pickup_noops": 0,
+              "placement_noops": 0,
+              "complete": true
+            }
+          }
+        },
+        "candidate_new_major_regressions": [],
+        "agent_trace": {
+          "control": {
+            "generalized_goal_requested": false,
+            "generalized_goal": null,
+            "generalized_goal_step": null,
+            "last_v113_model": {
+              "step": 216,
+              "animal_tilt": 1.838725678897552,
+              "max_abs_z": 0.9718587602117446,
+              "in_support": true,
+              "animal_residual_score": 0.27740046838407495
+            },
+            "strategy_counts": {},
+            "fallback_steps": 0,
+            "ood_steps": 0,
+            "fallback_reasons": [],
+            "agent_exceptions": [],
+            "last_diagnostics": {
+              "version": "v113",
+              "strategic_policy": "v111-plus-external-top3-validated-animal-gate",
+              "generalized_animal_gate_enabled": false,
+              "generalized_animal_tilt": 1.5,
+              "premium_first_enabled": false,
+              "fallback_latched": false,
+              "strategy_fallback_reason": null
+            }
+          },
+          "treatment": {
+            "generalized_goal_requested": true,
+            "generalized_goal": {
+              "step": 216,
+              "reason": "v113-external-top3-validated-animal-tilt",
+              "animal_tilt": 1.838725678897552,
+              "max_abs_z": 0.9718587602117446,
+              "animal_residual_score": 0.27740046838407495
+            },
+            "generalized_goal_step": 216,
+            "last_v113_model": {
+              "step": 216,
+              "animal_tilt": 1.838725678897552,
+              "max_abs_z": 0.9718587602117446,
+              "in_support": true,
+              "animal_residual_score": 0.27740046838407495
+            },
+            "strategy_counts": {
+              "v113-generalized-animal-goal": 1,
+              "cow-to-sheep-purchase": 1,
+              "cow-to-sheep-pickup": 2,
+              "cow-to-sheep-place": 2
+            },
+            "fallback_steps": 0,
+            "ood_steps": 0,
+            "fallback_reasons": [],
+            "agent_exceptions": [],
+            "last_diagnostics": {
+              "version": "v113",
+              "strategic_policy": "v111-plus-external-top3-validated-animal-gate",
+              "generalized_animal_gate_enabled": true,
+              "generalized_animal_tilt": 1.5,
+              "premium_first_enabled": false,
+              "fallback_latched": false,
+              "strategy_fallback_reason": null
+            }
+          }
+        },
+        "executed_lineages": {
+          "control_h200": "beda257562c06e75a713",
+          "treatment_h200": "beda257562c06e75a713",
+          "opponent_control_h200": "d8d2a17d0e7ef5948d68",
+          "opponent_treatment_h200": "d8d2a17d0e7ef5948d68"
+        },
+        "replay_artifacts": {
+          "control": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\data\\evaluation\\v113_cow_sheep_gate_e3e4_20260901_2024\\replays\\first_divergence_reproduction\\gold_v14\\seed_20260901_seat_1\\control.json.gz",
+          "treatment": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\data\\evaluation\\v113_cow_sheep_gate_e3e4_20260901_2024\\replays\\first_divergence_reproduction\\gold_v14\\seed_20260901_seat_1\\treatment.json.gz"
+        }
+      }
+    ],
+    "causal_interpretation": "Replay prediction and Top imitation are E1/E2 hypothesis evidence only. Only paired closed-loop executable-opponent outcomes contribute to E3/E4."
+  }
+}

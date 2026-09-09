@@ -1,0 +1,942 @@
+{
+  "format": "kaggriculture-v111-v113-loss-taxonomy-v1",
+  "dataset_role": "Development",
+  "classification_basis": "draw-adjusted win score; strict WR retained as diagnostic",
+  "executable_loss_families": [
+    {
+      "behavior_family_id": "gold_family_02_01651da9",
+      "source_members": [
+        "public_v43_forced_yarn_first"
+      ],
+      "calibration_or_self_lineage": false,
+      "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+      "priority_class": "REGRESSION_OR_CALIBRATION",
+      "v111_strict_win_probability": 0.9166666666666666,
+      "v113_strict_win_probability": 0.9166666666666666,
+      "v111_win_score": 0.9166666666666666,
+      "v113_win_score": 0.9166666666666666,
+      "v111_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v113_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v111_lead_to_loss": 1,
+      "v113_lead_to_loss": 1,
+      "v111_loss_cases": [
+        {
+          "seed": 29115003,
+          "seat": 0,
+          "margin": -1081.0,
+          "day_cash_margins": {
+            "288": -1113.0,
+            "432": 9359.0,
+            "480": 10300.0,
+            "576": 6042.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "FARMERS_MARKET",
+            "FARMERS_MARKET",
+            "PET_CAFE",
+            "PET_CAFE",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 11,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 4,
+            "SHEEP": 8
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 740.0
+        }
+      ],
+      "v113_loss_cases": [
+        {
+          "seed": 29115003,
+          "seat": 0,
+          "margin": -1081.0,
+          "day_cash_margins": {
+            "288": -1113.0,
+            "432": 9359.0,
+            "480": 10300.0,
+            "576": 6042.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "FARMERS_MARKET",
+            "FARMERS_MARKET",
+            "PET_CAFE",
+            "PET_CAFE",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 11,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 4,
+            "SHEEP": 8
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 740.0
+        }
+      ],
+      "pairwise_v111_to_v113": {
+        "total_pairs": 12,
+        "causal_valid_pairs": 12,
+        "causal_effect_available": true,
+        "v111_strict_win_probability": 0.9166666666666666,
+        "v113_strict_win_probability": 0.9166666666666666,
+        "v111_win_score": 0.9166666666666666,
+        "v113_win_score": 0.9166666666666666,
+        "delta_win_probability": 0.0,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "mean_delta_self_coin": 0.0,
+        "mean_delta_opponent_coin": 0.0,
+        "mean_delta_margin": 0.0,
+        "trigger_pairs": 2,
+        "actual_treatment_pairs": 0,
+        "strict_discordant_outcome_pairs": 0
+      }
+    },
+    {
+      "behavior_family_id": "gold_family_08_4fcc1724",
+      "source_members": [
+        "local_v109",
+        "public_v43_forced_default",
+        "public_v43_raw"
+      ],
+      "calibration_or_self_lineage": false,
+      "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+      "priority_class": "REGRESSION_OR_CALIBRATION",
+      "v111_strict_win_probability": 0.9166666666666666,
+      "v113_strict_win_probability": 0.9166666666666666,
+      "v111_win_score": 0.9166666666666666,
+      "v113_win_score": 0.9166666666666666,
+      "v111_diagnostic_loss_signals": [
+        "terminal_animal_portfolio_deficit",
+        "losses_have_higher_terminal_market_price_displacement"
+      ],
+      "v113_diagnostic_loss_signals": [
+        "terminal_animal_portfolio_deficit"
+      ],
+      "v111_lead_to_loss": 0,
+      "v113_lead_to_loss": 0,
+      "v111_loss_cases": [
+        {
+          "seed": 29115003,
+          "seat": 1,
+          "margin": -3202.0,
+          "day_cash_margins": {
+            "288": -48.0,
+            "432": -3261.0,
+            "480": -3631.0,
+            "576": -3689.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "FARMERS_MARKET",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE",
+            "PIZZA_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 10,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 11,
+            "SHEEP": 4
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1018.0
+        }
+      ],
+      "v113_loss_cases": [
+        {
+          "seed": 29115003,
+          "seat": 1,
+          "margin": -3202.0,
+          "day_cash_margins": {
+            "288": -48.0,
+            "432": -3261.0,
+            "480": -3631.0,
+            "576": -3689.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "FARMERS_MARKET",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE",
+            "PIZZA_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 10,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 11,
+            "SHEEP": 4
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1018.0
+        }
+      ],
+      "pairwise_v111_to_v113": {
+        "total_pairs": 12,
+        "causal_valid_pairs": 12,
+        "causal_effect_available": true,
+        "v111_strict_win_probability": 0.9166666666666666,
+        "v113_strict_win_probability": 0.9166666666666666,
+        "v111_win_score": 0.9166666666666666,
+        "v113_win_score": 0.9166666666666666,
+        "delta_win_probability": 0.0,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "mean_delta_self_coin": 87.5,
+        "mean_delta_opponent_coin": 179.83333333333334,
+        "mean_delta_margin": -92.33333333333333,
+        "trigger_pairs": 2,
+        "actual_treatment_pairs": 2,
+        "strict_discordant_outcome_pairs": 0
+      }
+    },
+    {
+      "behavior_family_id": "gold_family_22_f835f763",
+      "source_members": [
+        "local_v110",
+        "v111_self_calibration"
+      ],
+      "calibration_or_self_lineage": true,
+      "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+      "priority_class": "SENSITIVITY_CLOSE_MATCHUP",
+      "v111_strict_win_probability": 0.08333333333333333,
+      "v113_strict_win_probability": 0.25,
+      "v111_win_score": 0.5,
+      "v113_win_score": 0.5833333333333334,
+      "v111_diagnostic_loss_signals": [
+        "terminal_animal_portfolio_deficit"
+      ],
+      "v113_diagnostic_loss_signals": [
+        "terminal_animal_portfolio_deficit",
+        "losses_have_higher_terminal_market_price_displacement"
+      ],
+      "v111_lead_to_loss": 0,
+      "v113_lead_to_loss": 0,
+      "v111_loss_cases": [
+        {
+          "seed": 29115003,
+          "seat": 1,
+          "margin": -3202.0,
+          "day_cash_margins": {
+            "288": -48.0,
+            "432": -3261.0,
+            "480": -3631.0,
+            "576": -3689.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "FARMERS_MARKET",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE",
+            "PIZZA_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 10,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 11,
+            "SHEEP": 4
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1018.0
+        }
+      ],
+      "v113_loss_cases": [
+        {
+          "seed": 29115003,
+          "seat": 1,
+          "margin": -3202.0,
+          "day_cash_margins": {
+            "288": -48.0,
+            "432": -3261.0,
+            "480": -3631.0,
+            "576": -3689.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "FARMERS_MARKET",
+            "ICE_CREAM_SHOP",
+            "PET_CAFE",
+            "PIZZA_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 10,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 11,
+            "SHEEP": 4
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1018.0
+        }
+      ],
+      "pairwise_v111_to_v113": {
+        "total_pairs": 12,
+        "causal_valid_pairs": 12,
+        "causal_effect_available": true,
+        "v111_strict_win_probability": 0.08333333333333333,
+        "v113_strict_win_probability": 0.25,
+        "v111_win_score": 0.5,
+        "v113_win_score": 0.5833333333333334,
+        "delta_win_probability": 0.16666666666666666,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "mean_delta_self_coin": 579.3333333333334,
+        "mean_delta_opponent_coin": 59.0,
+        "mean_delta_margin": 520.3333333333334,
+        "trigger_pairs": 2,
+        "actual_treatment_pairs": 2,
+        "strict_discordant_outcome_pairs": 0
+      }
+    },
+    {
+      "behavior_family_id": "gold_public_0b7f92b9",
+      "source_members": [
+        "public_route_frontier_moon"
+      ],
+      "calibration_or_self_lineage": false,
+      "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+      "priority_class": "REGRESSION_OR_CALIBRATION",
+      "v111_strict_win_probability": 0.8333333333333334,
+      "v113_strict_win_probability": 0.8333333333333334,
+      "v111_win_score": 0.8333333333333334,
+      "v113_win_score": 0.8333333333333334,
+      "v111_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v113_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v111_lead_to_loss": 2,
+      "v113_lead_to_loss": 2,
+      "v111_loss_cases": [
+        {
+          "seed": 29117001,
+          "seat": 0,
+          "margin": -3505.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1026.0,
+            "480": -1043.0,
+            "576": -36.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2010.0
+        },
+        {
+          "seed": 29117001,
+          "seat": 1,
+          "margin": -3203.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1026.0,
+            "480": -1043.0,
+            "576": 314.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2010.0
+        }
+      ],
+      "v113_loss_cases": [
+        {
+          "seed": 29117001,
+          "seat": 0,
+          "margin": -3505.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1026.0,
+            "480": -1043.0,
+            "576": -36.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2010.0
+        },
+        {
+          "seed": 29117001,
+          "seat": 1,
+          "margin": -3203.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1026.0,
+            "480": -1043.0,
+            "576": 314.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2010.0
+        }
+      ],
+      "pairwise_v111_to_v113": {
+        "total_pairs": 12,
+        "causal_valid_pairs": 12,
+        "causal_effect_available": true,
+        "v111_strict_win_probability": 0.8333333333333334,
+        "v113_strict_win_probability": 0.8333333333333334,
+        "v111_win_score": 0.8333333333333334,
+        "v113_win_score": 0.8333333333333334,
+        "delta_win_probability": 0.0,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "mean_delta_self_coin": 0.0,
+        "mean_delta_opponent_coin": 0.0,
+        "mean_delta_margin": 0.0,
+        "trigger_pairs": 0,
+        "actual_treatment_pairs": 0,
+        "strict_discordant_outcome_pairs": 0
+      }
+    },
+    {
+      "behavior_family_id": "gold_public_46d78f69",
+      "source_members": [
+        "public_route_high_score"
+      ],
+      "calibration_or_self_lineage": false,
+      "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+      "priority_class": "REGRESSION_OR_CALIBRATION",
+      "v111_strict_win_probability": 0.8333333333333334,
+      "v113_strict_win_probability": 0.8333333333333334,
+      "v111_win_score": 0.8333333333333334,
+      "v113_win_score": 0.8333333333333334,
+      "v111_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v113_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v111_lead_to_loss": 2,
+      "v113_lead_to_loss": 2,
+      "v111_loss_cases": [
+        {
+          "seed": 29117001,
+          "seat": 0,
+          "margin": -3902.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1034.0,
+            "480": -1050.0,
+            "576": -211.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1905.0
+        },
+        {
+          "seed": 29117001,
+          "seat": 1,
+          "margin": -3543.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1034.0,
+            "480": -1050.0,
+            "576": 157.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1905.0
+        }
+      ],
+      "v113_loss_cases": [
+        {
+          "seed": 29117001,
+          "seat": 0,
+          "margin": -3902.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1034.0,
+            "480": -1050.0,
+            "576": -211.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1905.0
+        },
+        {
+          "seed": 29117001,
+          "seat": 1,
+          "margin": -3543.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": 1034.0,
+            "480": -1050.0,
+            "576": 157.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 1905.0
+        }
+      ],
+      "pairwise_v111_to_v113": {
+        "total_pairs": 12,
+        "causal_valid_pairs": 12,
+        "causal_effect_available": true,
+        "v111_strict_win_probability": 0.8333333333333334,
+        "v113_strict_win_probability": 0.8333333333333334,
+        "v111_win_score": 0.8333333333333334,
+        "v113_win_score": 0.8333333333333334,
+        "delta_win_probability": 0.0,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "mean_delta_self_coin": 0.0,
+        "mean_delta_opponent_coin": 0.0,
+        "mean_delta_margin": 0.0,
+        "trigger_pairs": 0,
+        "actual_treatment_pairs": 0,
+        "strict_discordant_outcome_pairs": 0
+      }
+    },
+    {
+      "behavior_family_id": "gold_public_a6f1291b",
+      "source_members": [
+        "public_github_seyamalam_head"
+      ],
+      "calibration_or_self_lineage": false,
+      "classification_basis": "draw-adjusted win score (win=1, draw=0.5, loss=0)",
+      "priority_class": "REGRESSION_OR_CALIBRATION",
+      "v111_strict_win_probability": 0.8333333333333334,
+      "v113_strict_win_probability": 0.8333333333333334,
+      "v111_win_score": 0.8333333333333334,
+      "v113_win_score": 0.8333333333333334,
+      "v111_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v113_diagnostic_loss_signals": [
+        "late_cash_reversal_after_major_checkpoint_lead"
+      ],
+      "v111_lead_to_loss": 2,
+      "v113_lead_to_loss": 2,
+      "v111_loss_cases": [
+        {
+          "seed": 29117001,
+          "seat": 0,
+          "margin": -3358.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": -2521.0,
+            "480": -1461.0,
+            "576": -2491.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2253.0
+        },
+        {
+          "seed": 29117001,
+          "seat": 1,
+          "margin": -2997.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": -2521.0,
+            "480": -1461.0,
+            "576": -2069.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2253.0
+        }
+      ],
+      "v113_loss_cases": [
+        {
+          "seed": 29117001,
+          "seat": 0,
+          "margin": -3358.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": -2521.0,
+            "480": -1461.0,
+            "576": -2491.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2253.0
+        },
+        {
+          "seed": 29117001,
+          "seat": 1,
+          "margin": -2997.0,
+          "day_cash_margins": {
+            "288": 1308.0,
+            "432": -2521.0,
+            "480": -1461.0,
+            "576": -2069.0
+          },
+          "terminal_shop_regime": [
+            "BAKERY",
+            "BRUNCH_SPOT",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "ICE_CREAM_SHOP",
+            "PIZZA_SHOP",
+            "YARN_STORE",
+            "YARN_STORE"
+          ],
+          "terminal_own_animals": {
+            "GOOSE": 0,
+            "COW": 9,
+            "SHEEP": 4
+          },
+          "terminal_opponent_animals": {
+            "GOOSE": 0,
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "focal_premium_sell_quantity": 1018.0,
+          "opponent_premium_sell_quantity": 2253.0
+        }
+      ],
+      "pairwise_v111_to_v113": {
+        "total_pairs": 12,
+        "causal_valid_pairs": 12,
+        "causal_effect_available": true,
+        "v111_strict_win_probability": 0.8333333333333334,
+        "v113_strict_win_probability": 0.8333333333333334,
+        "v111_win_score": 0.8333333333333334,
+        "v113_win_score": 0.8333333333333334,
+        "delta_win_probability": 0.0,
+        "loss_to_win": 0,
+        "win_to_loss": 0,
+        "mean_delta_self_coin": 0.0,
+        "mean_delta_opponent_coin": 0.0,
+        "mean_delta_margin": 0.0,
+        "trigger_pairs": 0,
+        "actual_treatment_pairs": 0,
+        "strict_discordant_outcome_pairs": 0
+      }
+    }
+  ],
+  "largest_experimentable_signal": {
+    "hypothesis_id": "H_WEAK_LATE_PREMIUM_REVERSAL_001",
+    "status": "DEVELOPMENT_HYPOTHESIS_NOT_YET_A_BEST_RESPONSE",
+    "loss_pairs": 6,
+    "independent_seeds": [
+      29117001
+    ],
+    "seats": [
+      0,
+      1
+    ],
+    "continuation_families": [
+      "gold_public_0b7f92b9",
+      "gold_public_46d78f69",
+      "gold_public_a6f1291b"
+    ],
+    "shared_opponent_prefix_family_count": {
+      "24": 1,
+      "100": 1,
+      "200": 1,
+      "400": 3,
+      "719": 3
+    },
+    "shared_through_step200": true,
+    "distinct_continuations_by_step400": 3,
+    "distinct_terminal_trajectories": 3,
+    "terminal_shop_regimes": [
+      [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "YARN_STORE"
+      ]
+    ],
+    "gate_requested_pairs": 0,
+    "actual_treatment_pairs": 0,
+    "v111_v113_action_identical_pairs": 6,
+    "day12_cash_margin": [
+      1308.0
+    ],
+    "day20_cash_margin_range": [
+      -1461.0,
+      -1043.0
+    ],
+    "terminal_margin_range": [
+      -3902.0,
+      -2997.0
+    ],
+    "focal_premium_sell_quantity": [
+      1018.0
+    ],
+    "opponent_premium_sell_quantity_range": [
+      1905.0,
+      2253.0
+    ],
+    "taxonomy": "Late premium/residual-demand cash reversal after a shared opening. V111 leads by +1308 at Day12 in every loss, then is behind by Day20.",
+    "dependence_guardrail": "Six seat-level losses are one seed/Town regime and share the exact opponent action prefix through step200. They cannot be counted as six independent weakness confirmations.",
+    "next_valid_test": "Acquire executable independent descendants or synthesize pre-registered Targeted Efficacy seeds with the same regime before selecting a continuation."
+  },
+  "live_bronze_acquisition_priority": {
+    "cluster_id": "live_field_route_h200_c03",
+    "episodes": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate": 0.2,
+    "mean_margin": -3220.0,
+    "executable_status": "UNIDENTIFIED_BRONZE",
+    "best_response_eligible": false,
+    "reason": "Recorded trajectory similarity is not executable policy identity and cannot support a counterfactual."
+  },
+  "weakness_conclusions": {
+    "v111": "No broad 30-70% independent executable family weakness was found. The largest Development signal is a one-seed shared-opening late premium cash reversal, which is a target for further opponent acquisition.",
+    "v113": "Outcome weaknesses match V111 in every executable loss. Its additional verified weakness is a treatment-linked hard Safety regression: one extra spawned weed in four pairs."
+  }
+}

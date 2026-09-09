@@ -1,0 +1,2061 @@
+{
+  "format": "kaggriculture-v113-posthoc-e6-and-forensics-v1",
+  "created_at": "2026-09-02T00:33:30.453875+09:00",
+  "source_records": {
+    "immutable_formal_result": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/experiment_result.json",
+    "immutable_formal_result_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+    "preregistration": "experiments/v113_cow_sheep_gate_e3e4/preregistration.json",
+    "preregistration_sha256": "8fc2d016b6008d56e70216c380dbdafb8e5c796d59377d1ed2a0fbe6be5f6af6",
+    "v14_gold_source": "agents/v14/main.py",
+    "v14_gold_source_sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7"
+  },
+  "separated_interpretations": {
+    "preregistered_experiment_verdict": {
+      "value": "REJECTED_SAFETY",
+      "frozen": true,
+      "scope": "the 60-pair preregistered V111-vs-V113 gate experiment",
+      "changed_by_this_addendum": false
+    },
+    "current_research_interpretation": {
+      "value": "LIVE_VIABLE / CAUSAL_UNRESOLVED",
+      "promotion_claim": false,
+      "v113_greater_than_v111_claim": false,
+      "cow_to_sheep_gate_success_claim": false
+    },
+    "live_ladder_evidence": {
+      "evidence_level": "E6_live_ladder_observational",
+      "submission_id": 55933145,
+      "reported_final_rating_approx": 1675,
+      "source_status": "user-provided external evidence",
+      "episode_level_reconstruction": "stored separately when collection completes",
+      "supports": "Agent-level live viability in the sampled field",
+      "does_not_support": "a causal gate effect, V113>V111, or promotion without paired E3-E5 evidence"
+    }
+  },
+  "historical_verdict_preservation": "The old evaluator treated candidate-new fallback as a Safety hard-gate failure. This post-hoc taxonomy does not rewrite that preregistered verdict.",
+  "trigger_funnel": {
+    "formal_pairs": 60,
+    "gate_requests": 29,
+    "reason_counts": {
+      "ACTUAL_INCREMENTAL_COW_TO_SHEEP": 13,
+      "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP": 8,
+      "SAFE_CANCEL_PURCHASE_SLOT_ABSENT": 8
+    },
+    "accounting_identity": "29 = 13 incremental + 8 baseline overlap + 8 safe cancel",
+    "all_requests_classified": true,
+    "pairs": [
+      {
+        "lineage_id": "gold_public_v27",
+        "seed": 19135101,
+        "seat": 0,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_public_v27",
+        "seed": 19135101,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_public_v27",
+        "seed": 19135102,
+        "seat": 0,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_public_v27",
+        "seed": 19135102,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_public_v27",
+        "seed": 19135103,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "WEST"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "WEST"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 2904.0,
+        "step248_field_animals": {
+          "COW": 6,
+          "SHEEP": 8
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 9.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_public_v27",
+        "seed": 19135103,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "WEST"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "WEST"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 2904.0,
+        "step248_field_animals": {
+          "COW": 6,
+          "SHEEP": 8
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 9.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_public_v43",
+        "seed": 19135103,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_public_v43",
+        "seed": 19135103,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135101,
+        "seat": 0,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135101,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135102,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135102,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135103,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 1603.0,
+        "step248_field_animals": {
+          "COW": 5,
+          "SHEEP": 7
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 2.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135103,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 1603.0,
+        "step248_field_animals": {
+          "COW": 5,
+          "SHEEP": 7
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 2.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_v11",
+        "seed": 19135105,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135101,
+        "seat": 0,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135101,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135102,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135102,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135103,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 1603.0,
+        "step248_field_animals": {
+          "COW": 5,
+          "SHEEP": 7
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 2.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135103,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 1603.0,
+        "step248_field_animals": {
+          "COW": 5,
+          "SHEEP": 7
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 2.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_v14",
+        "seed": 19135105,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135101,
+        "seat": 0,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135101,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135102,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135102,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": true,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 2,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ALREADY_SATISFIED_BASELINE_ROUTE_OVERLAP",
+        "delivery_state": "SAFE_CANCEL"
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135103,
+        "seat": 0,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 1603.0,
+        "step248_field_animals": {
+          "COW": 5,
+          "SHEEP": 7
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 2.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135103,
+        "seat": 1,
+        "incremental_treatment": false,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": false,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 0,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [
+            "new_fallback_steps"
+          ],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": true
+        },
+        "reason_code": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+        "delivery_state": "SAFE_CANCEL",
+        "legacy_diagnostic": [
+          "unexpected-late-purchase-action"
+        ],
+        "legacy_diagnostic_steps": 471,
+        "legacy_step_count_semantics": "one reason latched from step248 through step718; not 471 failures",
+        "step248_control_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_treatment_action": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [
+            [
+              "CARE"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "CARE"
+            ],
+            [
+              "DROP"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "EAST"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "MELON",
+              6
+            ]
+          ]
+        },
+        "step248_money": 1603.0,
+        "step248_field_animals": {
+          "COW": 5,
+          "SHEEP": 7
+        },
+        "all_control_treatment_actions_equal": true,
+        "same_terminal_outcome": true,
+        "integrity_checks": {
+          "completed_720": true,
+          "runtime_failures": [],
+          "animal_loss_delta": 0,
+          "minimum_cash": 2.0,
+          "transaction_complete": true,
+          "behavioral_isolation_valid": true
+        }
+      },
+      {
+        "lineage_id": "gold_v18",
+        "seed": 19135105,
+        "seat": 1,
+        "incremental_treatment": true,
+        "control_purchase_rewrite": false,
+        "treatment_purchase_rewrite": true,
+        "control_purchase_units_committed": 0,
+        "treatment_purchase_units_committed": 2,
+        "incident_classification_under_future_framework": {
+          "hard_safety_failures": [],
+          "treatment_delivery_failures": [],
+          "hard_safety_failure": false,
+          "treatment_delivery_failure": false
+        },
+        "reason_code": "ACTUAL_INCREMENTAL_COW_TO_SHEEP",
+        "delivery_state": "COMMIT"
+      }
+    ]
+  },
+  "future_safety_taxonomy": {
+    "hard_safety_failure": {
+      "definition": "game-integrity regression",
+      "examples": [
+        "runtime error or incomplete game",
+        "illegal/no-op with material harm",
+        "animal loss or weed regression",
+        "negative cash or transaction corruption"
+      ],
+      "promotion_effect": "fails Engine Correctness / Safety"
+    },
+    "treatment_delivery_failure": {
+      "definition": "experimental branch is not delivered and baseline continuation is preserved",
+      "examples": [
+        "purchase slot absent at revalidation",
+        "state changed before commit",
+        "already satisfied by baseline route"
+      ],
+      "promotion_effect": "reported in trigger funnel and treatment sample; not a catastrophic Safety failure when baseline identity and game integrity are verified"
+    }
+  },
+  "transaction_controller_design": {
+    "state_order": [
+      "ARM",
+      "REVALIDATE",
+      "COMMIT",
+      "SAFE_CANCEL"
+    ],
+    "ARM": "record intent, trigger observation digest, intended delta, and expiry; emit no rewrite",
+    "REVALIDATE": [
+      "the exact baseline purchase slot still exists",
+      "the route has not already satisfied the animal target",
+      "cash reserve and order-slot capacity remain valid",
+      "pasture, shed, pickup/place workers, inventory, and horizon remain feasible",
+      "no conflicting baseline continuation owns the same slot"
+    ],
+    "COMMIT": "rewrite only the validated order, then audit purchase, pickup, and placement atomically",
+    "SAFE_CANCEL": "clear intent, emit the byte-equivalent baseline action, record one reason code, and do not latch a per-turn fallback diagnostic",
+    "reason_code_mapping": {
+      "unexpected-late-purchase-action": "SAFE_CANCEL_PURCHASE_SLOT_ABSENT",
+      "baseline-already-converts": "SAFE_CANCEL_ALREADY_SATISFIED",
+      "state-changed": "SAFE_CANCEL_STATE_CHANGED",
+      "cash-or-capacity-invalid": "SAFE_CANCEL_FEASIBILITY_CHANGED"
+    },
+    "post_commit_partial_or_corrupt_transaction": "HARD_SAFETY_FAILURE"
+  },
+  "v14_mediator_analysis": {
+    "lineage_id": "gold_v14",
+    "seed": 20260901,
+    "focal_seat": 1,
+    "opponent_seat": 0,
+    "timeline": {
+      "first_self_action_divergence": 248,
+      "first_self_money_divergence": 249,
+      "first_self_portfolio_divergence": 257,
+      "first_opponent_response": 270,
+      "opponent_response_lag": {
+        "from_own_action": 22,
+        "from_first_public_signal": 21
+      },
+      "first_opponent_money_divergence": 271,
+      "first_market_inventory_divergence": 302,
+      "first_price_divergence": 312,
+      "first_money_divergence": {
+        "either_farm": 249,
+        "self": 249,
+        "opponent": 271
+      }
+    },
+    "opponent_first_response_action": {
+      "changed_component": "market",
+      "action_type": "BUY_SEED",
+      "item": "STRAWBERRY",
+      "control_quantity": 2,
+      "treatment_quantity": 1,
+      "unchanged_market_order": [
+        "BUY_PRODUCT",
+        "WHEAT",
+        1
+      ],
+      "farmer_and_hands_unchanged": true,
+      "control": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            2
+          ]
+        ]
+      },
+      "treatment": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            1
+          ]
+        ]
+      }
+    },
+    "observation_immediately_before_response": {
+      "focal_money": {
+        "control": 8212.0,
+        "treatment": 8012.0
+      },
+      "focal_field_animals": {
+        "control": {
+          "COW": 9,
+          "SHEEP": 4
+        },
+        "treatment": {
+          "COW": 7,
+          "SHEEP": 6
+        }
+      },
+      "focal_tile_differences": [
+        {
+          "x": 3,
+          "y": 5,
+          "control": {
+            "kind": "PASTURE",
+            "animal": "COW",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          },
+          "treatment": {
+            "kind": "PASTURE",
+            "animal": "SHEEP",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          }
+        },
+        {
+          "x": 4,
+          "y": 5,
+          "control": {
+            "kind": "PASTURE",
+            "animal": "COW",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          },
+          "treatment": {
+            "kind": "PASTURE",
+            "animal": "SHEEP",
+            "placed_day": 10,
+            "yield_units": 0,
+            "consecutive_unfed": 0,
+            "fed_today": false,
+            "cared_today": false,
+            "fertilizer_available": true,
+            "pending_care_bonus": 1
+          }
+        }
+      ],
+      "market_equal": true,
+      "town_equal": true,
+      "opponent_private_equal": true
+    },
+    "source_counterfactual_probe": {
+      "control_observation": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            2
+          ]
+        ]
+      },
+      "treatment_observation": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            1
+          ]
+        ]
+      },
+      "restore_focal_money_only": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            1
+          ]
+        ]
+      },
+      "restore_focal_public_tiles_only": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            2
+          ]
+        ]
+      },
+      "restore_money_and_tiles": {
+        "farmer": [
+          "EAST"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "STRAWBERRY",
+            2
+          ]
+        ]
+      }
+    },
+    "mediator_conclusion": {
+      "most_supported_public_mediator": "focal Cow/Sheep field portfolio",
+      "money_difference_sufficient": false,
+      "public_tile_difference_sufficient_in_one_step_source_probe": true,
+      "interpretation": "V14 changed its Strawberry seed purchase after observing the focal Cow-to-Sheep portfolio. This is second-order policy feedback and precedes both market-inventory and price divergence.",
+      "scope": "Deterministic one-step source-code mediation diagnostic for this pair; not a population-level effect estimate."
+    },
+    "replay_sha256": {
+      "control": "2d513037d21bfe48d74e2ffd501320a0a90cb95a99f06e03e28a11ac5903eceb",
+      "treatment": "6c18196caa5ad59bd2dc718f8a15895da28aac28296eead0c82770f9318efbb3"
+    }
+  },
+  "required_future_paired_fields": [
+    "first_self_divergence",
+    "first_opponent_response",
+    "opponent_response_lag",
+    "first_market_divergence",
+    "first_price_divergence",
+    "first_money_divergence"
+  ]
+}

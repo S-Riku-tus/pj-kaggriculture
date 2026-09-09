@@ -1,0 +1,47 @@
+{
+  "format": "kaggriculture-public-external-github-candidate-addendum-v1",
+  "frozen_before_probe": "2026-09-02",
+  "dataset_role": "Discovery/Development; permanently ineligible for Fresh Holdout",
+  "claim_boundary": "These are exact executable files from pinned public GitHub repository snapshots. Repository benchmark claims are provenance notes only. Source names do not create policy families; common-seed, both-seat executed action fingerprints decide collapse.",
+  "acquisition_leads_not_included": [
+    {
+      "url": "https://www.kaggle.com/code/flexonafft/kaggriculture-multi-route-farming-agent",
+      "reason": "Public page advertised score 1961.6, but authenticated notebook output was unavailable: Kaggle CLI required login and anonymous GetKernel/ListKernelSessionOutput returned HTTP 403. No executable bytes were acquired, so this remains a lead rather than Gold."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "public_github_alpesh_crop_first_head",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/alpeshkumar9_kaggriculture/python_bot/agent.py",
+      "provenance": "https://github.com/alpeshkumar9/kaggriculture at 848c64c2dac1c6a88d8675a56fc15b020f4e0314",
+      "source_ancestry_id": "github_alpeshkumar9",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact public self-contained agent.py at pinned repository HEAD; live submission identity not asserted",
+      "license": "Apache-2.0",
+      "archetype_hint": "crop-first three-quadrant route with compact cow/sheep herd, premium timing, and 13 hands"
+    },
+    {
+      "candidate_id": "public_github_alpesh_allocator_rejected",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/alpeshkumar9_kaggriculture/python_bot/agent_allocator.py",
+      "provenance": "https://github.com/alpeshkumar9/kaggriculture at 848c64c2dac1c6a88d8675a56fc15b020f4e0314",
+      "source_ancestry_id": "github_alpeshkumar9",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact historical executable at pinned repository HEAD; repository marks it rejected and not shipped",
+      "license": "Apache-2.0",
+      "archetype_hint": "marginal-revenue allocator research branch"
+    },
+    {
+      "candidate_id": "public_github_deepeshumrao_farmbrain",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/deepeshumrao_kaggriculture_agent/deliverables/kaggriculture_submission.py",
+      "provenance": "https://github.com/deepeshumrao/kaggriculture-agent at 65724ce530af8e8ea0410d5b7f0e2a997ca676cb",
+      "source_ancestry_id": "github_deepeshumrao",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact self-contained public deliverable at pinned repository HEAD; live submission identity not asserted",
+      "license": "MIT",
+      "archetype_hint": "single-farmer nearest-task wheat loop with market-first restock/liquidation"
+    }
+  ]
+}

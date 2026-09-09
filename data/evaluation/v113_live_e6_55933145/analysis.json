@@ -1,0 +1,270 @@
+{
+  "format": "kaggriculture-v113-live-e6-analysis-v1",
+  "submission_id": 55933145,
+  "status_fields": {
+    "preregistered_experiment_verdict": "REJECTED_SAFETY",
+    "preregistered_result_path": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/experiment_result.json",
+    "preregistered_result_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+    "current_research_interpretation": "LIVE_VIABLE / CAUSAL_UNRESOLVED",
+    "live_ladder_evidence": "E6_OBSERVATIONAL",
+    "promotion_implication": "none_without_expanded_paired_E3_E4_and_fresh_E5"
+  },
+  "coverage": {
+    "raw_episodes": 59,
+    "public_episode_service_rows": 58,
+    "non_public_or_validation_episodes_excluded": 1,
+    "public_live_opponent_episodes": 58,
+    "self_play_validation_episodes_excluded_from_live_performance": 0,
+    "replays_analyzed": 58,
+    "rating_confidence_available": false,
+    "opponent_submission_available": true,
+    "opponent_team_available": true
+  },
+  "public_episode_performance_before_self_play_exclusion": {
+    "episodes": 58,
+    "wins": 44,
+    "draws": 0,
+    "losses": 14,
+    "win_rate": 0.7586206896551724,
+    "win_score": 0.7586206896551724,
+    "mean_self_coin": 88166.43103448275,
+    "mean_opponent_coin": 80628.43103448275,
+    "mean_margin": 7538.0,
+    "median_margin": 6235.5
+  },
+  "live_public_performance": {
+    "episodes": 58,
+    "wins": 44,
+    "draws": 0,
+    "losses": 14,
+    "win_rate": 0.7586206896551724,
+    "win_score": 0.7586206896551724,
+    "mean_self_coin": 88166.43103448275,
+    "mean_opponent_coin": 80628.43103448275,
+    "mean_margin": 7538.0,
+    "median_margin": 6235.5
+  },
+  "rating_trajectory": {
+    "initial_public_rating": 600.0,
+    "final_rating": 1676.0258139483012,
+    "peak_updated_rating": 1676.0258139483012,
+    "minimum_updated_rating": 692.5100900378501,
+    "continuity": {
+      "ordered_by": "EpisodeService createTime, then episode id",
+      "links": 57,
+      "continuous_links": 54,
+      "discontinuities": [
+        {
+          "previous_episode_id": 104511367,
+          "previous_updated_rating": 1431.075496268457,
+          "current_episode_id": 104511811,
+          "current_initial_rating": 1456.1727546959437,
+          "difference": 25.097258427486622
+        },
+        {
+          "previous_episode_id": 104511811,
+          "previous_updated_rating": 1479.2518385618746,
+          "current_episode_id": 104511889,
+          "current_initial_rating": 1431.075496268457,
+          "difference": -48.17634229341752
+        },
+        {
+          "previous_episode_id": 104511889,
+          "previous_updated_rating": 1456.1727546959437,
+          "current_episode_id": 104512223,
+          "current_initial_rating": 1479.2518385618746,
+          "difference": 23.079083865930897
+        }
+      ]
+    },
+    "confidence": {
+      "available": false,
+      "reason": "EpisodeService snapshot exposes initialScore/updatedScore but no confidence field."
+    }
+  },
+  "rating_gap_bands": {
+    "absolute_gap_le_50": {
+      "episodes": 37,
+      "wins": 26,
+      "draws": 0,
+      "losses": 11,
+      "win_rate": 0.7027027027027027,
+      "win_score": 0.7027027027027027,
+      "mean_self_coin": 86218.2972972973,
+      "mean_opponent_coin": 80968.8918918919,
+      "mean_margin": 5249.405405405405,
+      "median_margin": 3299.0
+    },
+    "absolute_gap_le_100": {
+      "episodes": 53,
+      "wins": 41,
+      "draws": 0,
+      "losses": 12,
+      "win_rate": 0.7735849056603774,
+      "win_score": 0.7735849056603774,
+      "mean_self_coin": 87686.22641509434,
+      "mean_opponent_coin": 80024.2075471698,
+      "mean_margin": 7662.018867924528,
+      "median_margin": 5712.0
+    },
+    "opponent_plus_100_or_more": {
+      "episodes": 3,
+      "wins": 2,
+      "draws": 0,
+      "losses": 1,
+      "win_rate": 0.6666666666666666,
+      "win_score": 0.6666666666666666,
+      "mean_self_coin": 78943.66666666667,
+      "mean_opponent_coin": 73195.0,
+      "mean_margin": 5748.666666666667,
+      "median_margin": 7307.0
+    },
+    "opponent_minus_100_or_less": {
+      "episodes": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "win_rate": 0.5,
+      "win_score": 0.5,
+      "mean_self_coin": 114726.0,
+      "mean_opponent_coin": 107790.5,
+      "mean_margin": 6935.5,
+      "median_margin": 6935.5
+    },
+    "note": "Requested bands are intentionally overlapping; <=50 is a subset of <=100."
+  },
+  "gate_reconstruction": {
+    "method": "Frozen submitted V113 and gate-disabled control archives replayed on recorded observations. This reconstructs branch use but is not a closed-loop causal comparison.",
+    "cohorts": {
+      "A_gate_non_trigger": {
+        "episodes": 44,
+        "wins": 34,
+        "draws": 0,
+        "losses": 10,
+        "win_rate": 0.7727272727272727,
+        "win_score": 0.7727272727272727,
+        "mean_self_coin": 89244.70454545454,
+        "mean_opponent_coin": 81435.20454545454,
+        "mean_margin": 7809.5,
+        "median_margin": 7341.0
+      },
+      "B_trigger_but_no_incremental_conversion": {
+        "episodes": 11,
+        "wins": 8,
+        "draws": 0,
+        "losses": 3,
+        "win_rate": 0.7272727272727273,
+        "win_score": 0.7272727272727273,
+        "mean_self_coin": 85998.90909090909,
+        "mean_opponent_coin": 80468.45454545454,
+        "mean_margin": 5530.454545454545,
+        "median_margin": 2415.0
+      },
+      "C_actual_incremental_conversion": {
+        "episodes": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.6666666666666666,
+        "win_score": 0.6666666666666666,
+        "mean_self_coin": 80299.33333333333,
+        "mean_opponent_coin": 69382.33333333333,
+        "mean_margin": 10917.0,
+        "median_margin": 1363.0
+      }
+    },
+    "reason_codes": {
+      "already_satisfied_by_v111_route": {
+        "episodes": 5,
+        "wins": 4,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.8,
+        "win_score": 0.8,
+        "mean_self_coin": 78643.8,
+        "mean_opponent_coin": 76823.8,
+        "mean_margin": 1820.0,
+        "median_margin": 2415.0
+      },
+      "baseline_purchase_slot_absent": {
+        "episodes": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "win_score": 0.0,
+        "mean_self_coin": 92473.0,
+        "mean_opponent_coin": 93572.0,
+        "mean_margin": -1099.0,
+        "median_margin": -1099.0
+      },
+      "cash_reserve_revalidation_failed": {
+        "episodes": 5,
+        "wins": 4,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.8,
+        "win_score": 0.8,
+        "mean_self_coin": 92059.2,
+        "mean_opponent_coin": 81492.4,
+        "mean_margin": 10566.8,
+        "median_margin": 16616.0
+      },
+      "incremental_cow2_to_sheep2_rewrite": {
+        "episodes": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.6666666666666666,
+        "win_score": 0.6666666666666666,
+        "mean_self_coin": 80299.33333333333,
+        "mean_opponent_coin": 69382.33333333333,
+        "mean_margin": 10917.0,
+        "median_margin": 1363.0
+      },
+      "{'below-tilt': 1}": {
+        "episodes": 43,
+        "wins": 34,
+        "draws": 0,
+        "losses": 9,
+        "win_rate": 0.7906976744186046,
+        "win_score": 0.7906976744186046,
+        "mean_self_coin": 89842.53488372093,
+        "mean_opponent_coin": 81774.30232558139,
+        "mean_margin": 8068.232558139535,
+        "median_margin": 7375.0
+      },
+      "{'out-of-support': 1}": {
+        "episodes": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "win_score": 0.0,
+        "mean_self_coin": 63538.0,
+        "mean_opponent_coin": 66854.0,
+        "mean_margin": -3316.0,
+        "median_margin": -3316.0
+      }
+    },
+    "exact_policy_reproductions": 58,
+    "episodes_with_reconstruction_error": [],
+    "transaction_complete_conversions": 3
+  },
+  "opponent_action_lineages": {
+    "family_count": 58,
+    "method": "Exact equality of recorded ordered actor+market action-prefix hashes. A live fingerprint is a behavioral trajectory, not executable-code identity and not a policy counterfactual.",
+    "checkpoint_unique_prefixes": {
+      "24": 24,
+      "100": 28,
+      "200": 40,
+      "400": 57,
+      "719": 58
+    },
+    "strong_near_similarity_pairs_h200": 200,
+    "common_probe_correspondence_status": "MATCHED",
+    "common_probe_exact_prefix_matches": 108,
+    "unmatched_live_trajectories_remain": "Bronze until executable code correspondence is established"
+  },
+  "causal_limit": "Live outcomes are Agent-level E6 observations under Kaggle matchmaking. Gate A/B/C comparisons are selected by state/opponent and cannot identify a gate treatment effect."
+}

@@ -48,29 +48,42 @@ def main() -> None:
     main_path = args.submission / "main.py" if args.submission.is_dir() else args.submission
     main_path = main_path.resolve()
     module = _import_main(main_path)
+    route_core = module
+    wrapper_depth = 0
+    while not hasattr(route_core, "safe_rule") and hasattr(route_core, "base"):
+        route_core = route_core.base
+        wrapper_depth += 1
+    if not hasattr(route_core, "safe_rule") or not hasattr(route_core, "public_v43"):
+        raise RuntimeError("could not locate the packaged V109 route core")
     fallback_modules = (
-        module.safe_rule,
-        module.safe_rule.v10,
-        module.safe_rule.v9,
-        module.safe_rule.v8,
-        module.safe_rule.v7,
-        module.safe_rule.v6,
-        module.safe_rule.v5,
-        module.safe_rule.v4,
-        module.safe_rule.v3,
-        module.safe_rule.base,
+        route_core.safe_rule,
+        route_core.safe_rule.v10,
+        route_core.safe_rule.v9,
+        route_core.safe_rule.v8,
+        route_core.safe_rule.v7,
+        route_core.safe_rule.v6,
+        route_core.safe_rule.v5,
+        route_core.safe_rule.v4,
+        route_core.safe_rule.v3,
+        route_core.safe_rule.base,
     )
     checks = {
         "module_dir_is_submission": Path(module.MODULE_DIR).resolve() == main_path.parent,
+        "wrapper_depth": wrapper_depth,
         "all_runtime_modules_are_packaged": all(
             Path(child.__file__).resolve().parent == main_path.parent for child in fallback_modules
         ),
-        "feature_schema_is_packaged": Path(module.safe_rule.v3.schema.__file__).resolve().parent == main_path.parent,
-        "route_length": len(module.public_v43._V43_ROUTES["default"]),
-        "fallback_top3_model_disabled": module.safe_rule.v3.MODEL is None,
-        "fallback_future_model_disabled": module.safe_rule.v8.POLICY_MODEL is None,
-        "fallback_action_model_disabled": module.safe_rule.v9.DECISION_MODEL is None,
-        "fallback_imitation_opening_disabled": module.safe_rule.v8.EXPERT_OPENING == {},
+        "feature_schema_is_packaged": (
+            Path(route_core.safe_rule.v3.schema.__file__).resolve().parent == main_path.parent
+        ),
+        "route_length": len(route_core.public_v43._V43_ROUTES["default"]),
+        "fallback_top3_model_disabled": route_core.safe_rule.v3.MODEL is None,
+        "fallback_future_model_disabled": route_core.safe_rule.v8.POLICY_MODEL is None,
+        "fallback_action_model_disabled": route_core.safe_rule.v9.DECISION_MODEL is None,
+        "fallback_imitation_opening_disabled": route_core.safe_rule.v8.EXPERT_OPENING == {},
+        "strategy_model_packaged": (
+            not hasattr(module, "MODEL") or (main_path.parent / "strategy_model.json").is_file()
+        ),
     }
     games = [run_one(main_path, args.seed, seat) for seat in (0, 1)]
     payload = {
@@ -79,7 +92,11 @@ def main() -> None:
         "checks": checks,
         "games": games,
         "passed": (
-            all(value is True for key, value in checks.items() if key != "route_length")
+            all(
+                value is True
+                for key, value in checks.items()
+                if key not in {"route_length", "wrapper_depth"}
+            )
             and checks["route_length"] == 719
             and all(game["steps"] == 720 and game["statuses"] == ["DONE", "DONE"] for game in games)
         ),

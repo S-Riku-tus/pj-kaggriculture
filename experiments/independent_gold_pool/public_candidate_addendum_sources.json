@@ -1,0 +1,48 @@
+{
+  "format": "kaggriculture-public-executable-candidate-addendum-v1",
+  "frozen_before_probe": "2026-09-02",
+  "dataset_role": "Discovery/Development; never Fresh Holdout",
+  "claim_boundary": "These are hash-pinned executable snapshots of public GitHub repository HEADs. A repository or submission name is not an independent action family; common-probe fingerprints decide collapse. Repository claims about live submissions are provenance notes, not locally verified ladder evidence.",
+  "candidates": [
+    {
+      "candidate_id": "public_github_gzmcr_head",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/gzmcr_kaggriculture/main.py",
+      "provenance": "https://github.com/GzmCR/Kaggriculture at 6a76335397d5cd2facffa91c938f629b119ea350",
+      "source_ancestry_id": "github_gzmcr",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact public repository HEAD, not verified as an exact live submission binary",
+      "license": "No root license file found; internal discovery probe only pending license review"
+    },
+    {
+      "candidate_id": "public_github_seyamalam_head",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/seyamalam_kaggriculture/main.py",
+      "provenance": "https://github.com/Seyamalam/Kaggriculture at 8b8c421eb10634c756583ce10c75189f50c83a72",
+      "source_ancestry_id": "github_seyamalam_public_v18_derived",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact public repository HEAD; repository documents public V18/C20 ancestry",
+      "license": "MIT with third-party notices"
+    },
+    {
+      "candidate_id": "public_github_cok_zhangziliang_head",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/cok_zhangziliang_kaggriculture/main.py",
+      "provenance": "https://github.com/COK-ZhangZiliang/Kaggriculture at 7ef67eac458cd9ecd13786063e2e581fbe7403ec",
+      "source_ancestry_id": "github_cok_public_route_derived",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact public repository HEAD; not assumed identical to README's historical submitted hash",
+      "license": "Apache-2.0 with third-party notices"
+    },
+    {
+      "candidate_id": "public_github_lonespear_head",
+      "kind": "python",
+      "entrypoint": "artifacts/opponent_pool/candidates/lonespear_kaggriculture/main.py",
+      "provenance": "https://github.com/lonespear/kaggriculture at 774b26093ccf4246525517d48420349b841b6e50",
+      "source_ancestry_id": "github_lonespear",
+      "exact_submitted_or_public_artifact": true,
+      "artifact_scope": "exact public repository HEAD; repository states root main.py was submitted as 55309483 but this linkage was not re-verified",
+      "license": "MIT"
+    }
+  ]
+}

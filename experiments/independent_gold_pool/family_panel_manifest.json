@@ -1,0 +1,801 @@
+{
+  "format": "kaggriculture-independent-gold-family-panel-v1",
+  "created_at": "2026-09-02T08:56:07.004681+09:00",
+  "dataset_role": "Discovery/Development expanded executable panel; permanently excluded from Fresh Holdout",
+  "source_common_probe": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\data\\evaluation\\independent_gold_pool\\common_probe.json",
+  "source_common_probe_sha256": "b7efadefe2e2cafdc2ed9a3465b0ddb44f90729ff59b09ca9336fbb2493f5213",
+  "controls": {
+    "clean_v111": {
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v111\\main.py",
+      "entrypoint_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+      "dependency_closure_sha256": "2088328ffe20f5846bdb7316a85075a4615b241b984ec15cc8d1eec7f605b51d",
+      "role": "clean causal control"
+    },
+    "live_benchmark_v113": {
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v113\\main.py",
+      "entrypoint_sha256": "fc83664b1cfa05db3fb781800bc4277c00607b7d729e94a78d3c4d39a1f0474b",
+      "dependency_closure_sha256": "cd8a9bc9940c832be576a07f2a21554e49ce5597660378bb5ca7ea67cb16e16b",
+      "role": "live-validated field benchmark; not gate-causal proof"
+    }
+  },
+  "selection": {
+    "target_family_count": "8-15 when the executable inventory permits",
+    "selected_family_count": 15,
+    "selection_priority": "30-70% draw-adjusted probe matchups, then style/ancestry diversity, then closeness",
+    "exact_action_family_collapse": true,
+    "shared_forced_router_meta_vote_cap": true,
+    "sensitivity_target_family_ids": [
+      "gold_family_22_f835f763"
+    ],
+    "sensitivity_coverage_extension_family_ids": [
+      "gold_family_02_01651da9",
+      "gold_family_06_2e4e06f7",
+      "gold_family_07_35af8bcc",
+      "gold_family_08_4fcc1724",
+      "gold_family_09_55d707fe",
+      "gold_family_10_595361e4",
+      "gold_family_11_63b5d789",
+      "gold_family_13_87cc7b78",
+      "gold_family_14_9aa44dd2",
+      "gold_family_15_af440239",
+      "gold_family_16_b0b3c33c",
+      "gold_family_19_d4e09ee0",
+      "gold_family_20_db8eac65",
+      "gold_family_21_e9b175a2"
+    ],
+    "sensitivity_adequacy": {
+      "status": "INSUFFICIENT",
+      "target_family_count": 1,
+      "reason": "Fewer than three independent 30-70% draw-adjusted probe families; coverage extensions are Regression/diversity, not uplift-sensitive evidence."
+    }
+  },
+  "preregistered_dual_benchmark": {
+    "purpose": "Compare clean causal control V111 with the live-viable V113 benchmark; this is not a rerun or rewrite of the immutable 60-pair experiment.",
+    "planned_unique_pairs": 180,
+    "report_separately": [
+      "total_pairs",
+      "trigger_pairs",
+      "actual_treatment_pairs",
+      "discordant_outcome_pairs"
+    ],
+    "base_selection_rule": {
+      "retain_v113_as_v114_base_candidate": "V113 is non-inferior to V111 on both Meta-weighted and Macro-family win score (95% lower bound >= -0.025), has no new Hard Safety Failure, and produces a positive net discordant outcome in at least one major family without a larger major-family regression.",
+      "return_to_v111_base": "V113 is clearly inferior when either Meta-weighted or Macro-family delta win-score 95% upper bound is below -0.025, or major-family Win-to-Loss regressions exceed Loss-to-Win improvements.",
+      "dual_champion_candidates": "Use when neither direction is established, including when the Sensitivity Panel has fewer than three independent target-band families."
+    },
+    "v114_authorization": "No strategy implementation is authorized by this manifest alone. A measured loss family/regime and a targeted causal efficacy design are required first."
+  },
+  "families": [
+    {
+      "behavior_family_id": "gold_family_02_01651da9",
+      "family_signature": "01651da99e964bee1985457dd2acfa9e",
+      "representative_candidate_id": "public_v43_forced_yarn_first",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\public_v43_forced_yarn_first\\main.py",
+      "entrypoint_sha256": "7c4e8bcb693c508d2d1ff820e9e2fd9d3bb0708d030d7fa590309987c65e3b21",
+      "dependency_closure_sha256": "66a65d3f36a5d8b6ba719b68459a0abd843ee233335d7a593fdb95cf3294982a",
+      "provenance": "hash-pinned exact public V43 executor with yarn_first continuation forced",
+      "source_members": [
+        "public_v43_forced_yarn_first"
+      ],
+      "source_ancestry_ids": [
+        "public_v43"
+      ],
+      "meta_vote_group": "shared_ancestry:public_v43",
+      "style_tags": [
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy",
+        "wool_sheepward"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 31912.25,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_06_2e4e06f7",
+      "family_signature": "2e4e06f7d26e77006ed05fcd53a70e1d",
+      "representative_candidate_id": "frozen_v18_intraday_enabled",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\v18_intraday_enabled\\main.py",
+      "entrypoint_sha256": "1c456cf5f9c6e528ce5187b046eb211f7e1b6d8873418b44040afb41866172c8",
+      "dependency_closure_sha256": "bc35261f516407640654a7cb36df33ad93b301d84efb5b73d81f980424c462e4",
+      "provenance": "rank2_v18_intraday_gate.zip extraction with gate enabled",
+      "source_members": [
+        "frozen_v18_intraday_enabled"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline_v18_enabled"
+      ],
+      "meta_vote_group": "gold_family_06_2e4e06f7",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 24206.75,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    },
+    {
+      "behavior_family_id": "gold_family_07_35af8bcc",
+      "family_signature": "35af8bccb431d845e2c8c70ac64326e3",
+      "representative_candidate_id": "local_v100",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v100\\main.py",
+      "entrypoint_sha256": "545b21f89a5557433d419620df76292cd144ea8ed826d16242cea8e416fd16e1",
+      "dependency_closure_sha256": "029f40002a1fcecbad9fe8b563c54be32a8682ef68a852288c89ae172bcda698",
+      "provenance": "enabled candidate-ranking research wrapper",
+      "source_members": [
+        "local_v100"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_07_35af8bcc",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27062.75,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_08_4fcc1724",
+      "family_signature": "4fcc17248ecd140574b0524a288e8232",
+      "representative_candidate_id": "public_v43_raw",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v109\\public_v43_base.py",
+      "entrypoint_sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+      "dependency_closure_sha256": "ce900c5d4a71fcd842b36a445bf0a8465bdafb188a94b61d50eeb5a5bb76c6fc",
+      "provenance": "byte-identical public Kaggle V43 source",
+      "source_members": [
+        "local_v109",
+        "public_v43_forced_default",
+        "public_v43_raw"
+      ],
+      "source_ancestry_ids": [
+        "public_v43"
+      ],
+      "meta_vote_group": "shared_ancestry:public_v43",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 2739.0,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_09_55d707fe",
+      "family_signature": "55d707fe8efb0ab19969684662f86f4d",
+      "representative_candidate_id": "local_v9",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v9\\main.py",
+      "entrypoint_sha256": "9ff27930c9007d2f81b13f4f97a0a959c0b06901cf198cd9359703fe0e26b70b",
+      "dependency_closure_sha256": "38ed5bc6d803ca1329af767c40a6545e3b1f5993a4c268920bca0bc5562f42a8",
+      "provenance": "historical local agent",
+      "source_members": [
+        "local_v9"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_09_55d707fe",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 22201.25,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    },
+    {
+      "behavior_family_id": "gold_family_10_595361e4",
+      "family_signature": "595361e488b6abcce9c65e2dab30e2b8",
+      "representative_candidate_id": "local_v67",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v67\\main.py",
+      "entrypoint_sha256": "8a2ded7cc17ed698647aaa9edaba0433463f8bebb81db3a92fb54417e2679416",
+      "dependency_closure_sha256": "e4337f40f071517f1cfa82df1758cd6290bcee08fe37f707d9469ffb9f9dc44f",
+      "provenance": "mixed-assignment research agent",
+      "source_members": [
+        "local_v67"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_10_595361e4",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 26782.75,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_11_63b5d789",
+      "family_signature": "63b5d7892e2feeb8974fb370dd6f0abc",
+      "representative_candidate_id": "public_v43_forced_yarn_second",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\opponent_pool\\sources\\public_v43_forced_yarn_second\\main.py",
+      "entrypoint_sha256": "dbf1c2d9738ed406a5f9dd6c28bab9728958853311b18c7d9c9626e742bf9a13",
+      "dependency_closure_sha256": "e88214523a86e37d52ff74e794924e48b360423d39ff82872285287474f7cbdc",
+      "provenance": "hash-pinned exact public V43 executor with yarn_second continuation forced",
+      "source_members": [
+        "public_v43_forced_yarn_second"
+      ],
+      "source_ancestry_ids": [
+        "public_v43"
+      ],
+      "meta_vote_group": "shared_ancestry:public_v43",
+      "style_tags": [
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy",
+        "wool_sheepward"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": true,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 33942.5,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_13_87cc7b78",
+      "family_signature": "87cc7b7862a6a17ec652a170bd6ae21e",
+      "representative_candidate_id": "local_v68",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v68\\main.py",
+      "entrypoint_sha256": "6b150c631269a7adbbb73be058b7321c3a1de6b815a6dcb33a94f1f16ddfbbf1",
+      "dependency_closure_sha256": "aaabbcccdbb7fddbc4556368ede4066a43cb275c885de44948d471751499e16a",
+      "provenance": "mixed-assignment research agent",
+      "source_members": [
+        "local_v63",
+        "local_v68"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_13_87cc7b78",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 25854.25,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_14_9aa44dd2",
+      "family_signature": "9aa44dd2ed3c88c16e56c04c1943e19b",
+      "representative_candidate_id": "local_v106",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v106\\main.py",
+      "entrypoint_sha256": "515277febbd99477a21317fdd2a8b74e7fea05818feac20589a0bef72f0c7829",
+      "dependency_closure_sha256": "b9e7a37a4e173eaf23c4fa657b1cb7329f20e7fa18a323c77412cdb1bd58954f",
+      "provenance": "adaptive-recovery research agent",
+      "source_members": [
+        "local_v105",
+        "local_v106"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_14_9aa44dd2",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 24798.5,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_15_af440239",
+      "family_signature": "af440239cdf89aada422c8974ef81ba9",
+      "representative_candidate_id": "local_v8",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v8\\main.py",
+      "entrypoint_sha256": "ecca27be76c97d034771730e04d9a1bf1f27e62fac4bf72c4d9d62444ddd7ac5",
+      "dependency_closure_sha256": "0d7b35ea5fcbb7719ed4a004418d0dd0d20a413092d178240d02b4f8aa9b62bc",
+      "provenance": "historical local agent",
+      "source_members": [
+        "local_v8"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_15_af440239",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 30497.5,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    },
+    {
+      "behavior_family_id": "gold_family_16_b0b3c33c",
+      "family_signature": "b0b3c33ca74db6465aa8b0e587515cdb",
+      "representative_candidate_id": "local_v74",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v74\\main.py",
+      "entrypoint_sha256": "9b488762a5f709ff2f7f07b1d3dfa163036787a795cae593bc428ac70df275f6",
+      "dependency_closure_sha256": "50bf9e3cee06f48abad17c83c9566a8bc7d3d9e7418798de8fc12b461f8aac34",
+      "provenance": "late-role research agent",
+      "source_members": [
+        "local_v74"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_16_b0b3c33c",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": false,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 27506.0,
+      "panels": [
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": null
+    },
+    {
+      "behavior_family_id": "gold_family_19_d4e09ee0",
+      "family_signature": "d4e09ee0484b9783e967c89ef462a0d3",
+      "representative_candidate_id": "local_v11",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v11\\main.py",
+      "entrypoint_sha256": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+      "dependency_closure_sha256": "876ea1c9793196f0d8723fdaae7e3db4475d83455b12cf0684cd44ce5c51bd4d",
+      "provenance": "historical local agent",
+      "source_members": [
+        "frozen_v108",
+        "local_v10",
+        "local_v102",
+        "local_v103",
+        "local_v104",
+        "local_v107",
+        "local_v108",
+        "local_v11",
+        "local_v12",
+        "local_v13"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_19_d4e09ee0",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 26783.5,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    },
+    {
+      "behavior_family_id": "gold_family_20_db8eac65",
+      "family_signature": "db8eac65a40f02e617e4af3092dac1c9",
+      "representative_candidate_id": "local_v14",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v14\\main.py",
+      "entrypoint_sha256": "727a5e11d735977ba35f27f0c86ed2583fa919aa83d6eb26c34dc3d9783dcdc7",
+      "dependency_closure_sha256": "9de8fea32140c45d7ed2eb7d412e5093618ee65a2d3c81cfd4c0a64d19fb248a",
+      "provenance": "historical local champion",
+      "source_members": [
+        "local_v101",
+        "local_v14",
+        "local_v15",
+        "local_v16",
+        "local_v17",
+        "local_v18_default",
+        "local_v19",
+        "local_v20",
+        "local_v21",
+        "local_v40",
+        "local_v43",
+        "local_v45",
+        "local_v47",
+        "local_v49",
+        "local_v51",
+        "local_v53",
+        "local_v54",
+        "local_v55",
+        "local_v58",
+        "local_v81",
+        "local_v88",
+        "local_v92"
+      ],
+      "source_ancestry_ids": [
+        "local_mainline"
+      ],
+      "meta_vote_group": "gold_family_20_db8eac65",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 26783.5,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    },
+    {
+      "behavior_family_id": "gold_family_21_e9b175a2",
+      "family_signature": "e9b175a28f0221ce2b4acfb9859b6c1f",
+      "representative_candidate_id": "public_v27_raw",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v112\\main.py",
+      "entrypoint_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+      "dependency_closure_sha256": "eac869453a47376f66ec95fbc7dd6ddb7f056c7bb29cbd529394d3d8373b9bc9",
+      "provenance": "byte-identical public Kaggle V27 source",
+      "source_members": [
+        "public_v27_raw"
+      ],
+      "source_ancestry_ids": [
+        "public_v27"
+      ],
+      "meta_vote_group": "gold_family_21_e9b175a2",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 1.0,
+      "v111_probe_win_score": 1.0,
+      "v111_probe_mean_margin": 8967.5,
+      "panels": [
+        "meta",
+        "regression",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    },
+    {
+      "behavior_family_id": "gold_family_22_f835f763",
+      "family_signature": "f835f763d4249cea0ea165c3857ea8d9",
+      "representative_candidate_id": "local_v110",
+      "entrypoint": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\agents\\v110\\main.py",
+      "entrypoint_sha256": "3c5a8a5f443368c52ef3a914a7ed27e6204582d6ddf6d8996de9bdb76a428ddc",
+      "dependency_closure_sha256": "27d638060b2d72919471596cd672113b7fa0b0a2286a6ad94af7c44a136ea653",
+      "provenance": "near-clone/current-meta market adaptation",
+      "source_members": [
+        "local_v110",
+        "v111_self_calibration"
+      ],
+      "source_ancestry_ids": [
+        "public_v43_v110"
+      ],
+      "meta_vote_group": "gold_family_22_f835f763",
+      "style_tags": [
+        "milk_cowward",
+        "premium_heavy",
+        "shared_opening_continuation_split",
+        "state_or_seat_responsive_observed",
+        "wheat_or_commodity_heavy"
+      ],
+      "contains_exact_public_or_submitted_artifact": true,
+      "contains_forced_fixture": false,
+      "fresh_holdout_eligible": false,
+      "v111_probe_strict_win_rate": 0.0,
+      "v111_probe_win_score": 0.5,
+      "v111_probe_mean_margin": 0.0,
+      "panels": [
+        "meta",
+        "sensitivity"
+      ],
+      "meta_weight": 0.14285714285714285
+    }
+  ],
+  "panels": {
+    "sensitivity": {
+      "description": "All selected independent families for weakness mapping; draw-adjusted 30-70% target-band families are marked separately and receive interpretation priority.",
+      "family_ids": [
+        "gold_family_02_01651da9",
+        "gold_family_06_2e4e06f7",
+        "gold_family_07_35af8bcc",
+        "gold_family_08_4fcc1724",
+        "gold_family_09_55d707fe",
+        "gold_family_10_595361e4",
+        "gold_family_11_63b5d789",
+        "gold_family_13_87cc7b78",
+        "gold_family_14_9aa44dd2",
+        "gold_family_15_af440239",
+        "gold_family_16_b0b3c33c",
+        "gold_family_19_d4e09ee0",
+        "gold_family_20_db8eac65",
+        "gold_family_21_e9b175a2",
+        "gold_family_22_f835f763"
+      ],
+      "target_family_ids_30_to_70": [
+        "gold_family_22_f835f763"
+      ],
+      "coverage_extension_family_ids": [
+        "gold_family_02_01651da9",
+        "gold_family_06_2e4e06f7",
+        "gold_family_07_35af8bcc",
+        "gold_family_08_4fcc1724",
+        "gold_family_09_55d707fe",
+        "gold_family_10_595361e4",
+        "gold_family_11_63b5d789",
+        "gold_family_13_87cc7b78",
+        "gold_family_14_9aa44dd2",
+        "gold_family_15_af440239",
+        "gold_family_16_b0b3c33c",
+        "gold_family_19_d4e09ee0",
+        "gold_family_20_db8eac65",
+        "gold_family_21_e9b175a2"
+      ],
+      "seeds": [
+        29115001,
+        29115002,
+        29115003,
+        29115004,
+        29115005,
+        29115006
+      ],
+      "both_seats": true,
+      "weights": {
+        "gold_family_02_01651da9": 1.0,
+        "gold_family_06_2e4e06f7": 1.0,
+        "gold_family_07_35af8bcc": 1.0,
+        "gold_family_08_4fcc1724": 1.0,
+        "gold_family_09_55d707fe": 1.0,
+        "gold_family_10_595361e4": 1.0,
+        "gold_family_11_63b5d789": 1.0,
+        "gold_family_13_87cc7b78": 1.0,
+        "gold_family_14_9aa44dd2": 1.0,
+        "gold_family_15_af440239": 1.0,
+        "gold_family_16_b0b3c33c": 1.0,
+        "gold_family_19_d4e09ee0": 1.0,
+        "gold_family_20_db8eac65": 1.0,
+        "gold_family_21_e9b175a2": 1.0,
+        "gold_family_22_f835f763": 1.0
+      }
+    },
+    "meta": {
+      "description": "Provisional executable current-field proxy. Equal family weights are not claimed to be live field frequencies.",
+      "family_ids": [
+        "gold_family_06_2e4e06f7",
+        "gold_family_09_55d707fe",
+        "gold_family_15_af440239",
+        "gold_family_19_d4e09ee0",
+        "gold_family_20_db8eac65",
+        "gold_family_21_e9b175a2",
+        "gold_family_22_f835f763"
+      ],
+      "seeds": [
+        29115001,
+        29115002,
+        29115003,
+        29115004,
+        29115005,
+        29115006
+      ],
+      "both_seats": true,
+      "weights": {
+        "gold_family_06_2e4e06f7": 1.0,
+        "gold_family_09_55d707fe": 1.0,
+        "gold_family_15_af440239": 1.0,
+        "gold_family_19_d4e09ee0": 1.0,
+        "gold_family_20_db8eac65": 1.0,
+        "gold_family_21_e9b175a2": 1.0,
+        "gold_family_22_f835f763": 1.0
+      },
+      "weight_source": "provisional_equal_independent_family_weight",
+      "shared_ancestry_vote_rule": "at most one family from a meta_vote_cap group"
+    },
+    "regression": {
+      "description": "Known formal-panel sources and easy probe matchups; detects loss of existing strengths, not positive uplift.",
+      "family_ids": [
+        "gold_family_02_01651da9",
+        "gold_family_06_2e4e06f7",
+        "gold_family_07_35af8bcc",
+        "gold_family_08_4fcc1724",
+        "gold_family_09_55d707fe",
+        "gold_family_10_595361e4",
+        "gold_family_11_63b5d789",
+        "gold_family_13_87cc7b78",
+        "gold_family_14_9aa44dd2",
+        "gold_family_15_af440239",
+        "gold_family_16_b0b3c33c",
+        "gold_family_19_d4e09ee0",
+        "gold_family_20_db8eac65",
+        "gold_family_21_e9b175a2"
+      ],
+      "seeds": [
+        29115001,
+        29115002,
+        29115003,
+        29115004,
+        29115005,
+        29115006
+      ],
+      "both_seats": true,
+      "weights": {
+        "gold_family_02_01651da9": 1.0,
+        "gold_family_06_2e4e06f7": 1.0,
+        "gold_family_07_35af8bcc": 1.0,
+        "gold_family_08_4fcc1724": 1.0,
+        "gold_family_09_55d707fe": 1.0,
+        "gold_family_10_595361e4": 1.0,
+        "gold_family_11_63b5d789": 1.0,
+        "gold_family_13_87cc7b78": 1.0,
+        "gold_family_14_9aa44dd2": 1.0,
+        "gold_family_15_af440239": 1.0,
+        "gold_family_16_b0b3c33c": 1.0,
+        "gold_family_19_d4e09ee0": 1.0,
+        "gold_family_20_db8eac65": 1.0,
+        "gold_family_21_e9b175a2": 1.0
+      }
+    },
+    "fresh_holdout": {
+      "description": "Reserved for later unprobed executable families and/or newly acquired episodes after rules are frozen.",
+      "family_ids": [],
+      "seeds": [],
+      "both_seats": true,
+      "reserved": true
+    }
+  },
+  "fresh_holdout_exclusions": {
+    "all_common_probe_family_ids": [
+      "gold_family_02_01651da9",
+      "gold_family_06_2e4e06f7",
+      "gold_family_07_35af8bcc",
+      "gold_family_08_4fcc1724",
+      "gold_family_09_55d707fe",
+      "gold_family_10_595361e4",
+      "gold_family_11_63b5d789",
+      "gold_family_13_87cc7b78",
+      "gold_family_14_9aa44dd2",
+      "gold_family_15_af440239",
+      "gold_family_16_b0b3c33c",
+      "gold_family_19_d4e09ee0",
+      "gold_family_20_db8eac65",
+      "gold_family_21_e9b175a2",
+      "gold_family_22_f835f763"
+    ],
+    "common_probe_seeds": [
+      29114001,
+      29114002
+    ],
+    "expanded_development_seeds": [
+      29115001,
+      29115002,
+      29115003,
+      29115004,
+      29115005,
+      29115006
+    ]
+  }
+}

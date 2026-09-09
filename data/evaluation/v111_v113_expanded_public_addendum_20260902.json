@@ -1,0 +1,197 @@
+{
+  "format": "kaggriculture-v111-v113-expanded-public-addendum-v1",
+  "dataset_role": "Discovery/Development addendum; never Fresh Holdout",
+  "parent_assessment": {
+    "path": "data/evaluation/v111_v113_final_assessment_20260902.json",
+    "sha256": "aa8ec24d45b57ec9c77ef06e9a28d07d5ad735666ef80a1d40826f81d7cb722a",
+    "bytes": 69823
+  },
+  "parent_source_integrity": {
+    "all_valid": true,
+    "checks": [
+      {
+        "label": "formal_result",
+        "path": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/experiment_result.json",
+        "expected_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+        "actual_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5",
+        "valid": true
+      },
+      {
+        "label": "posthoc_forensics",
+        "path": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/posthoc_e6_interpretation_and_forensics_v1.json",
+        "expected_sha256": "a811c160833849bd1a24ce132e62e3ef3745557fee594d9a828dd6c621c572e2",
+        "actual_sha256": "a811c160833849bd1a24ce132e62e3ef3745557fee594d9a828dd6c621c572e2",
+        "valid": true
+      },
+      {
+        "label": "live_raw_manifest",
+        "path": "data/evaluation/v113_live_e6_55933145/immutable_raw_manifest.json",
+        "expected_sha256": "ec5394577555ba7a114bd1729df033e9403812b162e339862fe10cade5ff8f1b",
+        "actual_sha256": "ec5394577555ba7a114bd1729df033e9403812b162e339862fe10cade5ff8f1b",
+        "valid": true
+      },
+      {
+        "label": "live_analysis",
+        "path": "data/evaluation/v113_live_e6_55933145/analysis.json",
+        "expected_sha256": "7e65ca0a19230ed04112183c67bb5f3e9271686a038379153eeb3d9f442a3a06",
+        "actual_sha256": "7e65ca0a19230ed04112183c67bb5f3e9271686a038379153eeb3d9f442a3a06",
+        "valid": true
+      },
+      {
+        "label": "live_family_summary",
+        "path": "data/evaluation/v113_live_e6_55933145/live_family_summary.json",
+        "expected_sha256": "cfcca982cfd7cb0ee98beb15792d5a87aed411d259fd3383665a9b8fafa84465",
+        "actual_sha256": "cfcca982cfd7cb0ee98beb15792d5a87aed411d259fd3383665a9b8fafa84465",
+        "valid": true
+      },
+      {
+        "label": "top_continuation",
+        "path": "data/analysis/v113_continuation_package_bronze_v2.json",
+        "expected_sha256": "c34b0a9e8a18205b1c2d9fd9f03a7bbc0d4f6a2a2d2cb263e492b7238b0e9c55",
+        "actual_sha256": "c34b0a9e8a18205b1c2d9fd9f03a7bbc0d4f6a2a2d2cb263e492b7238b0e9c55",
+        "valid": true
+      },
+      {
+        "label": "gold_registry",
+        "path": "experiments/independent_gold_pool/consolidated_gold_family_registry.json",
+        "expected_sha256": "369cac61da2afd8ba0689aac80f4438b44384a1f59c58ce3856c423db8cc0717",
+        "actual_sha256": "369cac61da2afd8ba0689aac80f4438b44384a1f59c58ce3856c423db8cc0717",
+        "valid": true
+      },
+      {
+        "label": "expanded_result",
+        "path": "data/evaluation/v111_v113_expanded_20260902/experiment_result.json",
+        "expected_sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+        "actual_sha256": "07be500829e444d113aa186d19c40ba907d9ae09e0db6ca7691f5cd6182e8b06",
+        "valid": true
+      },
+      {
+        "label": "public_addendum_result",
+        "path": "data/evaluation/v111_v113_public_gold_addendum_20260902/experiment_result.json",
+        "expected_sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+        "actual_sha256": "a53b89b013ef845e010bcf5e3ea7460942b428f3299e4d73d51bc5dec137df2b",
+        "valid": true
+      }
+    ]
+  },
+  "new_sources": {
+    "expanded_registry": {
+      "path": "experiments/independent_gold_pool/consolidated_gold_family_registry_expanded_public_20260902.json",
+      "sha256": "63b474a81c495424fd1af20a7e6cdb4675bd50c5bd69b8116c444f5b6619e91f",
+      "bytes": 148293
+    },
+    "expanded_live_correspondence": {
+      "path": "data/evaluation/v113_live_e6_55933145/live_family_summary_expanded_public_20260902.json",
+      "sha256": "37b3f66bfe1e20925129f94af36e432e0698e8b8556f11352a61fe600eda0121",
+      "bytes": 705590
+    },
+    "public_history_probe": {
+      "path": "data/evaluation/independent_gold_pool/public_history_candidate_probe.json",
+      "sha256": "ed4c78eaa984dc5a4288d5d5d76fd83a34b728762308237720bc3e11b39af1e4",
+      "bytes": 2131535
+    },
+    "public_external_github_probe": {
+      "path": "data/evaluation/independent_gold_pool/public_external_github_candidate_probe.json",
+      "sha256": "7dff18c63b6bb8299004acf948a1d27533fe486bd2f694ec305327d69f2a4fec",
+      "bytes": 253472
+    }
+  },
+  "new_discovery_results": {
+    "public_history": {
+      "source_labels": 25,
+      "complete_source_labels": 25,
+      "games": 100,
+      "exact_action_families": 24,
+      "failed_tasks": 0,
+      "non_done_games": 0,
+      "v111_wins": 100,
+      "v111_draws": 0,
+      "v111_losses": 0,
+      "minimum_family_mean_margin": 8967.5,
+      "mean_family_margin": 61986.916666666664,
+      "target_30_to_70_families": 0,
+      "near_70_to_80_families": 0
+    },
+    "public_external_github": {
+      "source_labels": 3,
+      "complete_source_labels": 3,
+      "games": 12,
+      "exact_action_families": 3,
+      "failed_tasks": 0,
+      "non_done_games": 0,
+      "v111_wins": 12,
+      "v111_draws": 0,
+      "v111_losses": 0,
+      "minimum_family_mean_margin": 58852.5,
+      "mean_family_margin": 97509.83333333333,
+      "target_30_to_70_families": 0,
+      "near_70_to_80_families": 0
+    },
+    "expanded_registry": {
+      "coverage": {
+        "source_labels": 100,
+        "complete_source_labels": 100,
+        "exact_executed_action_families": 63,
+        "distinct_source_ancestry_ids": 22,
+        "python_action_families": 62,
+        "engine_builtin_families": 1
+      },
+      "sensitivity": {
+        "eligible_opponent_family_ids_30_to_70": [],
+        "eligible_opponent_family_count": 0,
+        "near_family_ids_70_to_80": [
+          "gold_exec_aa5d5586"
+        ],
+        "adequacy": "INSUFFICIENT",
+        "calibration_clone_excluded": true
+      },
+      "fresh_holdout_status": "Every family and seed in this registry is Development and ineligible for Fresh Holdout."
+    },
+    "live_hash_rematch": {
+      "public_live_episodes": 58,
+      "local_exact_executable_families": 63,
+      "strong_h200_or_later_episodes": 5,
+      "shared_opening_h100_only_episodes": 18,
+      "no_strong_correspondence_episodes": 53,
+      "new_external_family_added_strong_match": false,
+      "evidence_boundary": "Unmatched clusters are live-only Bronze behavioral-cluster candidates, not proven new executable policy families."
+    }
+  },
+  "paired_addendum_decision": {
+    "run_started": false,
+    "reason_code": "NO_NEW_SENSITIVITY_FAMILY",
+    "precondition": "at least one newly acquired exact family with V111 draw-adjusted score in 30-70% (or exploratory 70-80% near band)",
+    "precondition_met": false,
+    "reason": "All 27 newly probed repository-history/external families were outside the qualifying band. Re-running V111/V113 over easy opponents would add Regression coverage but not strategy-uplift sensitivity, so no strength claim is made.",
+    "old_paired_results_reused_without_rerun": true,
+    "completed_development_pairs": 348
+  },
+  "acquisition_blocker": {
+    "candidate": "flexonafft/kaggriculture-multi-route-farming-agent",
+    "public_page_score_observation": 1961.6,
+    "executable_status": "UNACQUIRED_LEAD",
+    "gold_status": false,
+    "reason": "Kaggle CLI required authentication and anonymous GetKernel / ListKernelSessionOutput returned HTTP 403; no executable bytes were available to hash or run."
+  },
+  "current_decision": {
+    "production_champion": "V111",
+    "clean_causal_control": "V111",
+    "v113_status": "LIVE_VIABLE / CAUSAL_UNRESOLVED",
+    "v113_role": "frozen live-validated field benchmark",
+    "preregistered_v113_verdict": "REJECTED_SAFETY (unchanged)",
+    "v114_candidate_created": false,
+    "best_response_selected": false,
+    "causal_win_uplift": "NOT_ESTIMATED",
+    "kaggle_submission_basis": "INSUFFICIENT"
+  },
+  "evidence_level": {
+    "E0": "achieved",
+    "E1": "achieved",
+    "E2": "animal-direction predictive model only; not continuation-package policy strength",
+    "E3": "paired diagnosis completed previously; V113 promotion chain failed Safety and no Loss-to-Win rescue",
+    "E4": "not achieved",
+    "E5": "not achieved",
+    "E6": "V113 whole-Agent observational ladder evidence",
+    "new_pool_addendum": "Gold executable Discovery/Regression coverage; not a new promotion level"
+  }
+}

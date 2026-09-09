@@ -1,0 +1,81 @@
+{
+  "format": "kaggriculture-dataset-role-manifest-v1",
+  "hypothesis_id": "H-V113-GENERALIZED-COW-SHEEP-001",
+  "preregistration_sha256": "f98a86c1becf2c38170ad59f499fe70ed64b6abf16d6adf38e6bf02e4dadeb54",
+  "Discovery": [
+    {
+      "name": "historical strategy analyses and prior Codex execution logs",
+      "use": "question and hypothesis generation only",
+      "promotion_eligible": false
+    }
+  ],
+  "Development": [
+    {
+      "name": "Top1-3 latest 366 replay threshold/model corpus",
+      "reason": "thresholds 1.0, 1.5, and 2.0 were compared and 1.5 was selected",
+      "analysis": "data/analysis/v113_strategy_gate_audit_v2.json",
+      "analysis_sha256": "8ae54216b5c6905fff1a8e8ad91bfadc8d65da320e247a5ac37162163530b683",
+      "fresh_holdout_eligible": false
+    },
+    {
+      "name": "Top-366 Bronze continuation-package analysis",
+      "analysis": "data/analysis/v113_continuation_package_bronze.json",
+      "analysis_sha256": "69550dd8331d74b33baefc0c3ee5fd074d23236f9a6ee0c4c4f09427ae354c5b",
+      "evidence_level": "E1_replay_descriptive_correlation",
+      "promotion_eligible": false
+    },
+    {
+      "name": "known V14 first-divergence reproduction",
+      "seed": 20260901,
+      "seat": 1,
+      "use": "externality diagnosis only",
+      "included_in_promotion_estimate": false
+    },
+    {
+      "name": "archive smoke and V111-equivalence traces",
+      "use": "mechanical validation only",
+      "included_in_strength_estimate": false
+    }
+  ],
+  "Promotion": [
+    {
+      "name": "negative-only fast screen",
+      "seeds": [
+        19135001
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "consumed": true,
+      "positive_result_is_strength_evidence": false
+    },
+    {
+      "name": "formal paired Gold-opponent cohort",
+      "seeds": [
+        19135101,
+        19135102,
+        19135103,
+        19135104,
+        19135105,
+        19135106
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "consumed": true,
+      "result": "data/evaluation/v113_cow_sheep_gate_e3e4_20260901_2024/experiment_result.json",
+      "result_sha256": "70f4e3ebd86b77686247f82ff253300d5374040cc70bc96ba6d3fbdc181597d5"
+    }
+  ],
+  "Fresh Holdout": [
+    {
+      "name": "post-freeze unused executable lineages/episodes",
+      "status": "RESERVED_NOT_AVAILABLE_NOT_RUN",
+      "seeds": [],
+      "promotion_required": true
+    }
+  ],
+  "contamination_rule": "If a threshold, feature, route condition, or evaluation rule is changed after inspecting a dataset, that dataset becomes Development permanently and cannot be relabeled Fresh Holdout."
+}
