@@ -1,0 +1,101 @@
+{
+  "version": "v114r1",
+  "frozen_at": "2026-09-11T01:16:49.239702+00:00",
+  "hypothesis": "H1 residual-demand second-shop continuation",
+  "source_hashes": {
+    "main.py": "ba6b8f07eef3bff698986ded8b6bacb5071c3bcecbf51bf4fc9c303c7e4de571",
+    "strategy_model.json": "5bd9f7c69e5226262c711196256ba148ccfdd24108c989251fa1f1440d46ee23",
+    "v111_base.py": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "v110_base.py": "3c5a8a5f443368c52ef3a914a7ed27e6204582d6ddf6d8996de9bdb76a428ddc",
+    "v109_base.py": "e1ac59d40f41b04dad9b673c22cc04a640646b190c67fc2158d898e1ddbaf464",
+    "public_v43_base.py": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+    "v11_base.py": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+    "v10_base.py": "b48f80d72cfe4c62f9d1232740bb8ae5585a4808bd0a5c0e22f94118e7d73c6d",
+    "v9_base.py": "9ff27930c9007d2f81b13f4f97a0a959c0b06901cf198cd9359703fe0e26b70b",
+    "v8_base.py": "ecca27be76c97d034771730e04d9a1bf1f27e62fac4bf72c4d9d62444ddd7ac5",
+    "v7_base.py": "94f14894b2861c570985e70508b96602cabfb3571acb3d8c63385ea5a0e69c59",
+    "v6_base.py": "19892316a5230bb5b58d08d35f32ba5f3b3282cd2d7c9a8904ac65cafcb6c024",
+    "v5_base.py": "a5e1e33ad79bb8d03847e55a5061e1f8c9dc343102ae3295dcc506091819ca87",
+    "v4_base.py": "8185bcfbfe6ea8fa0259dae69c59b70f27d9ac62ae1dc7fa2274fc3ef730d45d",
+    "v3_base.py": "789f1315048010253553573ec120e985193dcae09fc3a9fcc199a9486d0381bb",
+    "feature_schema.py": "8551eb6d5b1d25d8dc1e52957d62970a4274f31c2826ca6da3b85afebb4b45ff",
+    "v2_base.py": "fa5f5a07487531e3180bd33c7b8612f5414381778ec55940690dbcf07c1a1383",
+    "NOTICE.md": "63429a456914cfc492e2a38408bc010f639de7baf8deb6f579d323e940068a0e"
+  },
+  "archive": "artifacts\\submissions\\v114r1.tar.gz",
+  "archive_sha256": "08b249b246949424fa519c1b06ac234c82957dbf302c21d00a305f3fb676505c",
+  "control_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+  "engine_version": "1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "framework_hashes": {
+    "scripts\\evaluation\\divergence.py": "ea812e997f68db8e3b8e89da03ecd7e996e3d54696ad9936e68221015125e4ef",
+    "scripts\\evaluation\\lineage.py": "797a066e94225a2524af59dd58e88b48b2814386a8383e86c00eb4410a911da3",
+    "scripts\\evaluation\\registry.py": "34995e2bf064735b33f210d914a0344405646b41c658393348efc5e6033a79d9",
+    "scripts\\evaluation\\replay.py": "572a57acb447b48ba8955417e2b46dcc8ce9a7ecdde3fbc9d02505effda63822",
+    "scripts\\evaluation\\report.py": "c2a00fa98910063aab53f172d3a5a52f4a56aa1a448fa2a06656d5a9de96cd84",
+    "scripts\\evaluation\\runner.py": "e3aefa8780e39f3f231f3f5de6f65a0906ea68d04d889a87838b7790b409e720",
+    "scripts\\evaluation\\safety.py": "dfc3e09135e379f25cea8ff81f5f72e0a7a280aebdebe76ea4b1367ca6028ed2",
+    "scripts\\evaluation\\schema.py": "8045f554e64748addc197a2a2d3dafbd354814eae06ba3d2750ac32d73c049e8",
+    "scripts\\evaluation\\statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+    "scripts\\evaluation\\__init__.py": "b6fc7ff25d2d2174a63dd64d71de3ecf97acbc529545235b6189fefc4af84e9c"
+  },
+  "intervention_kind": "route_choice",
+  "intended_action_step": 153,
+  "threshold": 2000,
+  "supply_scale_scenarios": [
+    0.75,
+    1.0,
+    1.25
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "stored_steps": 720,
+  "seeds": {
+    "development": [
+      10091011,
+      10091012,
+      10091013,
+      10091014
+    ],
+    "promotion": [
+      10091101,
+      10091102,
+      10091103,
+      10091104,
+      10091105,
+      10091106,
+      10091107,
+      10091108,
+      10091109,
+      10091110,
+      10091111,
+      10091112
+    ],
+    "fresh_holdout": [
+      10091901,
+      10091902,
+      10091903,
+      10091904,
+      10091905,
+      10091906,
+      10091907,
+      10091908,
+      10091909,
+      10091910,
+      10091911,
+      10091912
+    ]
+  },
+  "criteria": {
+    "safety": "No candidate-new runtime, incomplete, animal/weed, negative cash, field/market no-op, partial transaction or missing action count regression.",
+    "isolation": "Exact actions and states before t153; only declared route choice at t153 permits divergence.",
+    "trigger": "Observed loss-to-win exceeds win-to-loss; no coin-only promotion.",
+    "meta": "At least three materially independent reacting policy families, positive family-cluster lower CI and no major-lineage regression.",
+    "robustness": "Positive worst scenario under source/lineage reweighting; Bradley-Terry diagnostic only.",
+    "holdout": "Run unused seeds only after all prior gates pass; no retuning. Otherwise remain sealed."
+  },
+  "lineage_caution": "mooman/souvik share PSR continuation ancestry; mooman/ggmljs additionally share Kaito ancestry. Report source matrix plus conservative merged ancestry results.",
+  "outcome_selection": "First ordered failed gate rejects; fast screen is negative-only"
+}

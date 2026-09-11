@@ -1,0 +1,550 @@
+{
+  "version": "v114probe",
+  "phase": "development",
+  "evidence_level": "E3 development screen; not E4/E5",
+  "decision": "REJECT",
+  "reasons": [
+    "safety_regression",
+    "no_net_loss_to_win_uplift",
+    "insufficient_independent_opponent_diversity"
+  ],
+  "summary": {
+    "pairs": 32,
+    "independent_seeds": 4,
+    "baseline": {
+      "wins": 12,
+      "draws": 0,
+      "losses": 20,
+      "win_rate": 0.375,
+      "win_score": 0.375
+    },
+    "candidate": {
+      "wins": 0,
+      "draws": 0,
+      "losses": 32,
+      "win_rate": 0.0,
+      "win_score": 0.0
+    },
+    "delta_win_rate": -0.375,
+    "delta_win_score": -0.375,
+    "loss_to_win": 0,
+    "win_to_loss": 12,
+    "discordant_net": -12,
+    "score_improved": 0,
+    "score_worsened": 12,
+    "both_draw": 0,
+    "mean_delta_self_coin": -9534.25,
+    "mean_delta_opponent_coin": 72.65625,
+    "mean_delta_margin": -9606.90625,
+    "trigger_requests": 24,
+    "incremental_treatments": 24
+  },
+  "source_payoff_matrix": [
+    {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "win_rate": 1.0,
+        "win_score": 1.0
+      },
+      "candidate": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "delta_win_rate": -1.0,
+      "delta_win_score": -1.0,
+      "loss_to_win": 0,
+      "win_to_loss": 8,
+      "discordant_net": -8,
+      "score_improved": 0,
+      "score_worsened": 8,
+      "both_draw": 0,
+      "mean_delta_self_coin": 2276.25,
+      "mean_delta_opponent_coin": 23864.375,
+      "mean_delta_margin": -21588.125,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "lineage_id": "ggmljs_v16",
+      "meta_weight": 0.25,
+      "delta_win_score_ci": {
+        "estimate": -1.0,
+        "low_95": -1.0,
+        "high_95": -1.0
+      }
+    },
+    {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "candidate": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "delta_win_rate": -0.25,
+      "delta_win_score": -0.25,
+      "loss_to_win": 0,
+      "win_to_loss": 2,
+      "discordant_net": -2,
+      "score_improved": 0,
+      "score_worsened": 2,
+      "both_draw": 0,
+      "mean_delta_self_coin": -17669.25,
+      "mean_delta_opponent_coin": -5716.0,
+      "mean_delta_margin": -11953.25,
+      "trigger_requests": 4,
+      "incremental_treatments": 4,
+      "lineage_id": "mooman_e052a",
+      "meta_weight": 0.25,
+      "delta_win_score_ci": {
+        "estimate": -0.25,
+        "low_95": -0.75,
+        "high_95": 0.0
+      }
+    },
+    {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "candidate": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "delta_win_rate": -0.25,
+      "delta_win_score": -0.25,
+      "loss_to_win": 0,
+      "win_to_loss": 2,
+      "discordant_net": -2,
+      "score_improved": 0,
+      "score_worsened": 2,
+      "both_draw": 0,
+      "mean_delta_self_coin": -18881.5,
+      "mean_delta_opponent_coin": -16331.5,
+      "mean_delta_margin": -2550.0,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "lineage_id": "qeinstein_moev2",
+      "meta_weight": 0.25,
+      "delta_win_score_ci": {
+        "estimate": -0.25,
+        "low_95": -0.75,
+        "high_95": 0.0
+      }
+    },
+    {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "candidate": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "delta_win_rate": 0.0,
+      "delta_win_score": 0.0,
+      "loss_to_win": 0,
+      "win_to_loss": 0,
+      "discordant_net": 0,
+      "score_improved": 0,
+      "score_worsened": 0,
+      "both_draw": 0,
+      "mean_delta_self_coin": -3862.5,
+      "mean_delta_opponent_coin": -1526.25,
+      "mean_delta_margin": -2336.25,
+      "trigger_requests": 4,
+      "incremental_treatments": 4,
+      "lineage_id": "souvik_v4",
+      "meta_weight": 0.25,
+      "delta_win_score_ci": {
+        "estimate": 0.0,
+        "low_95": 0.0,
+        "high_95": 0.0
+      }
+    }
+  ],
+  "conservative_ancestry_matrix": [
+    {
+      "pairs": 24,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 10,
+        "draws": 0,
+        "losses": 14,
+        "win_rate": 0.4166666666666667,
+        "win_score": 0.4166666666666667
+      },
+      "candidate": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 24,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "delta_win_rate": -0.4166666666666667,
+      "delta_win_score": -0.4166666666666667,
+      "loss_to_win": 0,
+      "win_to_loss": 10,
+      "discordant_net": -10,
+      "score_improved": 0,
+      "score_worsened": 10,
+      "both_draw": 0,
+      "mean_delta_self_coin": -6418.5,
+      "mean_delta_opponent_coin": 5540.708333333333,
+      "mean_delta_margin": -11959.208333333334,
+      "trigger_requests": 16,
+      "incremental_treatments": 16,
+      "lineage_id": "overlapping_PSR_Kaito",
+      "meta_weight": 0.5,
+      "delta_win_score_ci": {
+        "estimate": -0.4166666666666667,
+        "low_95": -0.5833333333333334,
+        "high_95": -0.3333333333333333
+      }
+    },
+    {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "candidate": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "delta_win_rate": -0.25,
+      "delta_win_score": -0.25,
+      "loss_to_win": 0,
+      "win_to_loss": 2,
+      "discordant_net": -2,
+      "score_improved": 0,
+      "score_worsened": 2,
+      "both_draw": 0,
+      "mean_delta_self_coin": -18881.5,
+      "mean_delta_opponent_coin": -16331.5,
+      "mean_delta_margin": -2550.0,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "lineage_id": "qeinstein",
+      "meta_weight": 0.5,
+      "delta_win_score_ci": {
+        "estimate": -0.25,
+        "low_95": -0.75,
+        "high_95": 0.0
+      }
+    }
+  ],
+  "source_equal_weight_scenario": {
+    "method": "hierarchical cluster bootstrap: executable lineage -> seed cluster (both seats retained)",
+    "independent_lineages": 4,
+    "repetitions": 2000,
+    "meta_delta": {
+      "estimate": -0.375,
+      "low_95": -0.8125,
+      "high_95": 0.0
+    },
+    "macro_delta": {
+      "estimate": -0.375,
+      "low_95": -0.8125,
+      "high_95": 0.0
+    },
+    "meta_control": {
+      "estimate": 0.375,
+      "low_95": 0.0,
+      "high_95": 0.75
+    },
+    "meta_treatment": {
+      "estimate": 0.0,
+      "low_95": 0.0,
+      "high_95": 0.0
+    },
+    "macro_control": {
+      "estimate": 0.375,
+      "low_95": 0.0,
+      "high_95": 0.8125
+    },
+    "macro_treatment": {
+      "estimate": 0.0,
+      "low_95": 0.0,
+      "high_95": 0.0
+    }
+  },
+  "ancestry_equal_weight_scenario": {
+    "method": "hierarchical cluster bootstrap: executable lineage -> seed cluster (both seats retained)",
+    "independent_lineages": 2,
+    "repetitions": 2000,
+    "meta_delta": {
+      "estimate": -0.33333333333333337,
+      "low_95": -0.5416666666666666,
+      "high_95": -0.125
+    },
+    "macro_delta": {
+      "estimate": -0.33333333333333337,
+      "low_95": -0.5833333333333333,
+      "high_95": -0.125
+    },
+    "meta_control": {
+      "estimate": 0.33333333333333337,
+      "low_95": 0.0,
+      "high_95": 0.5427083333333277
+    },
+    "meta_treatment": {
+      "estimate": 0.0,
+      "low_95": 0.0,
+      "high_95": 0.0
+    },
+    "macro_control": {
+      "estimate": 0.33333333333333337,
+      "low_95": 0.0,
+      "high_95": 0.5833333333333333
+    },
+    "macro_treatment": {
+      "estimate": 0.0,
+      "low_95": 0.0,
+      "high_95": 0.0
+    }
+  },
+  "robust_source_reweighting": {
+    "weight_radius": 0.2,
+    "scenarios": [
+      {
+        "name": "current",
+        "weights": {
+          "ggmljs_v16": 0.25,
+          "mooman_e052a": 0.25,
+          "qeinstein_moev2": 0.25,
+          "souvik_v4": 0.25
+        },
+        "baseline_win_score": 0.375,
+        "candidate_win_score": 0.0,
+        "delta": -0.375
+      },
+      {
+        "name": "ggmljs_v16_up_0.200",
+        "weights": {
+          "ggmljs_v16": 0.45,
+          "mooman_e052a": 0.18333333333333335,
+          "qeinstein_moev2": 0.18333333333333335,
+          "souvik_v4": 0.18333333333333335
+        },
+        "baseline_win_score": 0.5416666666666667,
+        "candidate_win_score": 0.0,
+        "delta": -0.5416666666666667
+      },
+      {
+        "name": "ggmljs_v16_down_0.200",
+        "weights": {
+          "ggmljs_v16": 0.04999999999999999,
+          "mooman_e052a": 0.31666666666666665,
+          "qeinstein_moev2": 0.31666666666666665,
+          "souvik_v4": 0.31666666666666665
+        },
+        "baseline_win_score": 0.20833333333333331,
+        "candidate_win_score": 0.0,
+        "delta": -0.20833333333333331
+      },
+      {
+        "name": "mooman_e052a_up_0.200",
+        "weights": {
+          "ggmljs_v16": 0.18333333333333335,
+          "mooman_e052a": 0.45,
+          "qeinstein_moev2": 0.18333333333333335,
+          "souvik_v4": 0.18333333333333335
+        },
+        "baseline_win_score": 0.3416666666666667,
+        "candidate_win_score": 0.0,
+        "delta": -0.3416666666666667
+      },
+      {
+        "name": "mooman_e052a_down_0.200",
+        "weights": {
+          "ggmljs_v16": 0.31666666666666665,
+          "mooman_e052a": 0.04999999999999999,
+          "qeinstein_moev2": 0.31666666666666665,
+          "souvik_v4": 0.31666666666666665
+        },
+        "baseline_win_score": 0.4083333333333333,
+        "candidate_win_score": 0.0,
+        "delta": -0.4083333333333333
+      },
+      {
+        "name": "qeinstein_moev2_up_0.200",
+        "weights": {
+          "ggmljs_v16": 0.18333333333333335,
+          "mooman_e052a": 0.18333333333333335,
+          "qeinstein_moev2": 0.45,
+          "souvik_v4": 0.18333333333333335
+        },
+        "baseline_win_score": 0.3416666666666667,
+        "candidate_win_score": 0.0,
+        "delta": -0.3416666666666667
+      },
+      {
+        "name": "qeinstein_moev2_down_0.200",
+        "weights": {
+          "ggmljs_v16": 0.31666666666666665,
+          "mooman_e052a": 0.31666666666666665,
+          "qeinstein_moev2": 0.04999999999999999,
+          "souvik_v4": 0.31666666666666665
+        },
+        "baseline_win_score": 0.4083333333333333,
+        "candidate_win_score": 0.0,
+        "delta": -0.4083333333333333
+      },
+      {
+        "name": "souvik_v4_up_0.200",
+        "weights": {
+          "ggmljs_v16": 0.18333333333333335,
+          "mooman_e052a": 0.18333333333333335,
+          "qeinstein_moev2": 0.18333333333333335,
+          "souvik_v4": 0.45
+        },
+        "baseline_win_score": 0.275,
+        "candidate_win_score": 0.0,
+        "delta": -0.275
+      },
+      {
+        "name": "souvik_v4_down_0.200",
+        "weights": {
+          "ggmljs_v16": 0.31666666666666665,
+          "mooman_e052a": 0.31666666666666665,
+          "qeinstein_moev2": 0.31666666666666665,
+          "souvik_v4": 0.04999999999999999
+        },
+        "baseline_win_score": 0.475,
+        "candidate_win_score": 0.0,
+        "delta": -0.475
+      }
+    ],
+    "robust_baseline_win_score": 0.20833333333333331,
+    "robust_candidate_win_score": 0.0,
+    "worst_delta": -0.5416666666666667,
+    "worst_delta_scenario": "ggmljs_v16_up_0.200"
+  },
+  "robust_ancestry_reweighting": {
+    "weight_radius": 0.2,
+    "scenarios": [
+      {
+        "name": "current",
+        "weights": {
+          "overlapping_PSR_Kaito": 0.5,
+          "qeinstein": 0.5
+        },
+        "baseline_win_score": 0.33333333333333337,
+        "candidate_win_score": 0.0,
+        "delta": -0.33333333333333337
+      },
+      {
+        "name": "overlapping_PSR_Kaito_up_0.200",
+        "weights": {
+          "overlapping_PSR_Kaito": 0.7,
+          "qeinstein": 0.30000000000000004
+        },
+        "baseline_win_score": 0.3666666666666667,
+        "candidate_win_score": 0.0,
+        "delta": -0.3666666666666667
+      },
+      {
+        "name": "overlapping_PSR_Kaito_down_0.200",
+        "weights": {
+          "overlapping_PSR_Kaito": 0.3,
+          "qeinstein": 0.7
+        },
+        "baseline_win_score": 0.3,
+        "candidate_win_score": 0.0,
+        "delta": -0.3
+      },
+      {
+        "name": "qeinstein_up_0.200",
+        "weights": {
+          "overlapping_PSR_Kaito": 0.30000000000000004,
+          "qeinstein": 0.7
+        },
+        "baseline_win_score": 0.30000000000000004,
+        "candidate_win_score": 0.0,
+        "delta": -0.30000000000000004
+      },
+      {
+        "name": "qeinstein_down_0.200",
+        "weights": {
+          "overlapping_PSR_Kaito": 0.7,
+          "qeinstein": 0.3
+        },
+        "baseline_win_score": 0.3666666666666667,
+        "candidate_win_score": 0.0,
+        "delta": -0.3666666666666667
+      }
+    ],
+    "robust_baseline_win_score": 0.3,
+    "robust_candidate_win_score": 0.0,
+    "worst_delta": -0.3666666666666667,
+    "worst_delta_scenario": "overlapping_PSR_Kaito_up_0.200"
+  },
+  "bradley_terry_diagnostic": {
+    "model": "Bradley-Terry/logistic with baseline ability fixed at 0 and lineage intercepts",
+    "candidate_minus_baseline_ability": -24.955598721464735,
+    "approx_standard_error": 196.28410210532138,
+    "approx_95_interval": [
+      -409.6724388478946,
+      359.7612414049651
+    ],
+    "opponent_abilities": {
+      "ggmljs_v16": -12.277744833160153,
+      "mooman_e052a": 1.0986115562863503,
+      "qeinstein_moev2": 1.0986115562863503,
+      "souvik_v4": 13.306683972973296
+    },
+    "warning": "diagnostic only; non-transitive matchups require the pairwise payoff matrix"
+  },
+  "meta_weight_warning": "Live source frequencies unidentified. Equal-source and equal-ancestry are assumptions, not estimated current meta.",
+  "safety_failure_pair_counts": {
+    "new_crop_to_weed": 24,
+    "new_spawned_weed": 11,
+    "new_all_step_silent_field_noop": 24
+  },
+  "unexpected_divergence_pairs": 0,
+  "draw_to_win": 0,
+  "win_to_draw": 0,
+  "p10_margin": {
+    "control": -23861.0,
+    "treatment": -27764.0
+  },
+  "fresh_holdout": "UNUSED; earlier gates did not establish promotion eligibility"
+}

@@ -68,7 +68,9 @@ def main() -> None:
         route_core.safe_rule.base,
     )
     checks = {
-        "module_dir_is_submission": Path(module.MODULE_DIR).resolve() == main_path.parent,
+        "module_dir_is_submission": Path(
+            getattr(module, "MODULE_DIR", getattr(module, "HERE", main_path.parent))
+        ).resolve() == main_path.parent,
         "wrapper_depth": wrapper_depth,
         "all_runtime_modules_are_packaged": all(
             Path(child.__file__).resolve().parent == main_path.parent for child in fallback_modules

@@ -1,0 +1,153 @@
+{
+  "exit": "Completed bounded research with negative candidates; no promotion or live-strength uplift claimed",
+  "artifact_evidence": [
+    {
+      "path": "docs/current_state_20260910.md",
+      "bytes": 7830,
+      "sha256": "279370435b8ec4a1b3e61ce6e0558c8ea60cdb98f9cea8fd6cb3397e679074a4"
+    },
+    {
+      "path": "docs/current_state_20260911.md",
+      "bytes": 4316,
+      "sha256": "071ecb70b0862d1db21aceb67a8a47aa662257544650215642028d2553f0e0c9"
+    },
+    {
+      "path": "docs/current_meta_analysis_20260910.md",
+      "bytes": 10747,
+      "sha256": "af29f7b95e590f703733b47e024e5178032a136320a7d9a8c0d486e5569b6fd4"
+    },
+    {
+      "path": "docs/champion_weakness_map_20260910.md",
+      "bytes": 11054,
+      "sha256": "48bfd9bf75f6395b78e401df45b257cd0aa4194ff7bd41582e3545086e6e267f"
+    },
+    {
+      "path": "docs/research_hypothesis_ranking_20260910.md",
+      "bytes": 7055,
+      "sha256": "06b5576d2be356276a00c5fad49603476d47090959e31c40ca3a716708f4a08e"
+    },
+    {
+      "path": "docs/opponent_supply_estimation_20260910.md",
+      "bytes": 2978,
+      "sha256": "9a1f6d9ee8a6723eaceb9235a04ec3b85a3f2e102cd6507dd194d344582d90f6"
+    },
+    {
+      "path": "docs/v114_research_and_evaluation_report.md",
+      "bytes": 19146,
+      "sha256": "ab89ea8ad42b2bc1090467bd64aec9234480ba98e4721f38b1799597a8226b67"
+    },
+    {
+      "path": "agents/v114/main.py",
+      "bytes": 8399,
+      "sha256": "b51383d914ae989b290ca7e0519db08e5f46555399170eb1a7dba23d31311c39"
+    },
+    {
+      "path": "agents/v114r1/main.py",
+      "bytes": 8488,
+      "sha256": "ba6b8f07eef3bff698986ded8b6bacb5071c3bcecbf51bf4fc9c303c7e4de571"
+    },
+    {
+      "path": "agents/v114probe/main.py",
+      "bytes": 8087,
+      "sha256": "994e5f382e6b0772450e0562f543853310fb196629a722f9b409604dba586fad"
+    },
+    {
+      "path": "artifacts/submissions/v114.tar.gz",
+      "bytes": 116948,
+      "sha256": "bd3972926c5ecb6613d355fc9fbfc827728dbc5b83d8b64dd317e69cd37f0851"
+    },
+    {
+      "path": "artifacts/submissions/v114r1.tar.gz",
+      "bytes": 116963,
+      "sha256": "08b249b246949424fa519c1b06ac234c82957dbf302c21d00a305f3fb676505c"
+    },
+    {
+      "path": "artifacts/submissions/v114probe.tar.gz",
+      "bytes": 116895,
+      "sha256": "f99a614a5901ff33ecf00cc420385b0f9284c4c27513eba9c72109d09c8d1a2f"
+    },
+    {
+      "path": "experiments/research_20260910/final_artifact_verification.json",
+      "bytes": 11357,
+      "sha256": "46e4459d8b1ba2ea8ea9411ff7a14e1bc2c9541d769524d649e1a1afb52be995"
+    },
+    {
+      "path": "experiments/research_20260910/final_holdout_audit.json",
+      "bytes": 532,
+      "sha256": "eab6f5b46d0b2cd8128a2bb795bbeef51f3f4eb9d97ea52f2402ca8bf5b4a617"
+    },
+    {
+      "path": "experiments/research_20260910/final_preservation_audit.json",
+      "bytes": 363,
+      "sha256": "42bf01b2aec87f914e1bff78e0f8562b4a45b4cc3b44647c80d47b22aa7cf407"
+    },
+    {
+      "path": "experiments/research_20260910/champion_challenger_decision.json",
+      "bytes": 872,
+      "sha256": "75fe623222260bb9f626e088dc6804513c86be5997429a58bca0ab3bf5aec47f"
+    }
+  ],
+  "panels": {
+    "v114r1": {
+      "pairs": 32,
+      "independent_seeds": 4,
+      "executable_policies": 4,
+      "conservative_ancestry_groups": 2,
+      "actual_results_verified": true
+    },
+    "v114probe": {
+      "pairs": 32,
+      "independent_seeds": 4,
+      "executable_policies": 4,
+      "conservative_ancestry_groups": 2,
+      "actual_results_verified": true
+    }
+  },
+  "focused_tests": 21,
+  "lint": "pass",
+  "broken_document_links": [],
+  "champion_preserved": true,
+  "four_way_top_trajectory_pair_counts": {
+    "different_opening_different_observed_portfolio": 2884,
+    "same_opening_different_field_continuation": 1241,
+    "different_opening_similar_mean_portfolio_L1_le5": 436,
+    "same_opening_same_field_continuation": 95
+  },
+  "trajectory_warning": "Descriptive dependent pair counts, not independent policy-lineage counts. Similarity threshold is diagnostic only.",
+  "requirements_review": {
+    "0_objective": "Pairwise outcomes and relative coin, not own coin, govern rejection.",
+    "1_prior_claims": "Reverified identities, V113 rejection, fixed routes, lineage overlap, mechanics; non-transitivity remains unestablished.",
+    "2_repository": "895-file clean initial audit, current preservation proof, archive/runtime hashes and GitHub/local commit match.",
+    "3_current_kaggle": "CLI/authentication checked; public leaderboard/top30/episode acquisition; latest refresh separate. Authenticated latest artifact unavailable.",
+    "4_lineages": "Multi-horizon action/field hashes and observed groups; latent independent top families not assumed.",
+    "5_top_strength": "Mechanics-led E1 opening/continuation/event/market/horizon study; definitive causal explanation of #1 unproven.",
+    "6_weakness": "Recomputed historical V111 map plus newly executed strong public-source challenge; no false claim of fresh V111 ladder episodes.",
+    "7_supply": "Rule/mean/ridge at24/72/144; stricter held-out-episode exclusion, private labels offline only; larger models deferred.",
+    "8_future_economics": "Relative route projection implemented and its cash/execution limitations tested; no claim of a calibrated general EV.",
+    "9_continuation": "Small existing suffix library, once-only t153 gate and forced-delivery ablation.",
+    "10_opening": "Exact common prefix retained; PSRO not introduced without non-transitive evidence.",
+    "11_ranking": "Ten hypotheses ranked before implementation with evidence, mechanism, upside, failure, risk, complexity and testability.",
+    "12_framework": "Existing runner/replay/divergence/safety/statistics/registry reused; no replay-only causal opponent.",
+    "13_champion_challenger": "V111 frozen, both seats, four identical requested/resolved seeds, same engine and archives, complete panels.",
+    "14_divergence": "All paired first action/money/portfolio/workers/opponent/market/price/Town channels saved. Internal RNG state not instrumented.",
+    "15_dashboard": "WDL/flips, grouped payoffs, weighting scenarios, BT diagnostic, comparative safety, lead loss and terminal stock saved.",
+    "16_holdout": "Unused seeds and replay bodies sealed; public metadata not claimed blind. Runtime driver prevents ineligible promotion/holdout phases.",
+    "17_opponents": "Four newly acquired complete executables; two conservative ancestry groups. Sensitivity/diversity remains insufficient for promotion.",
+    "18_artifacts": "Separate versions, exact source hashes, deterministic standalone archives, both-seat runs, tests and lint.",
+    "19_failure_handling": "Implementation bug corrected separately; inactive gate rejected; H2 opportunity screen and forced-delivery ablation completed, rejected.",
+    "20_time": "Timestamped stages span continuation turns; no claim of a single uninterrupted five-hour run. Work concludes with the negative-evidence exit.",
+    "21_prohibitions": "No existing research overwrite, no holdout tuning, no coin-only promotion, no Kaggle submission.",
+    "22_deliverables": "All named report categories, agent/archive directories and paired evaluation evidence exist and links resolve.",
+    "23_final_A_P": "Explicit A-P table in final research report, including limitations and next-five-hour priorities.",
+    "24_themes": "State-dependent continuation, public supply, residual demand and relative effects studied; other themes ranked with evidence gaps.",
+    "25_conclusion": "No candidate promoted; route-state feasibility requirement established by negative paired evidence, further work specified."
+  },
+  "not_achieved_and_not_claimed": [
+    "Rating3000+/Leaderboard1 Agent",
+    "E4 diverse promotion tournament",
+    "E5 fresh holdout strength",
+    "new candidate live ladder evidence",
+    "exact authenticated latest submitted artifact identity",
+    "causal reconstruction of the leader's private policy"
+  ]
+}

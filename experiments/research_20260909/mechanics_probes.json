@@ -1,0 +1,274 @@
+{
+  "evidence_level": "E0_engine_mechanics_and_source_inspection",
+  "engine_version": "1.32.7",
+  "engine_source_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "engine_schema_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+  "passive_repeatability": [
+    {
+      "wall_seconds": 1.8810210999799892,
+      "stored_steps": 720,
+      "decisions_per_player": 719,
+      "first_call": [
+        0,
+        0,
+        0,
+        null
+      ],
+      "last_call": [
+        718,
+        29,
+        22,
+        null
+      ],
+      "final_day_hour": [
+        29,
+        23
+      ],
+      "resolved_seed": 20260901,
+      "all_agent_seed_hidden": true,
+      "observation_sha256": "e581b4b943dd8e26fa9d245bdec7430e72f33d44dd211837b6742da3209a0251",
+      "town": {
+        "unlocked_shops": [
+          "YARN_STORE",
+          "PET_CAFE",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "PIZZA_SHOP"
+        ]
+      },
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "wall_seconds": 2.0044866000534967,
+      "stored_steps": 720,
+      "decisions_per_player": 719,
+      "first_call": [
+        0,
+        0,
+        0,
+        null
+      ],
+      "last_call": [
+        718,
+        29,
+        22,
+        null
+      ],
+      "final_day_hour": [
+        29,
+        23
+      ],
+      "resolved_seed": 20260901,
+      "all_agent_seed_hidden": true,
+      "observation_sha256": "e581b4b943dd8e26fa9d245bdec7430e72f33d44dd211837b6742da3209a0251",
+      "town": {
+        "unlocked_shops": [
+          "YARN_STORE",
+          "PET_CAFE",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "PIZZA_SHOP"
+        ]
+      },
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    }
+  ],
+  "identical_public_trajectories": true,
+  "price_probes": {
+    "WHEAT": {
+      "base": 25,
+      "inventory_100_below": 35,
+      "inventory_100_above": 21,
+      "first_floor_above_I0": null
+    },
+    "CARROT": {
+      "base": 35,
+      "inventory_100_below": 43,
+      "inventory_100_above": 23,
+      "first_floor_above_I0": 842
+    },
+    "TOMATO": {
+      "base": 60,
+      "inventory_100_below": 72,
+      "inventory_100_above": 35,
+      "first_floor_above_I0": 529
+    },
+    "STRAWBERRY": {
+      "base": 120,
+      "inventory_100_below": 204,
+      "inventory_100_above": 1,
+      "first_floor_above_I0": 62
+    },
+    "MELON": {
+      "base": 250,
+      "inventory_100_below": 290,
+      "inventory_100_above": 150,
+      "first_floor_above_I0": 158
+    },
+    "EGG": {
+      "base": 50,
+      "inventory_100_below": 56,
+      "inventory_100_above": 42,
+      "first_floor_above_I0": null
+    },
+    "MILK": {
+      "base": 160,
+      "inventory_100_below": 247,
+      "inventory_100_above": 1,
+      "first_floor_above_I0": 76
+    },
+    "WOOL": {
+      "base": 200,
+      "inventory_100_below": 240,
+      "inventory_100_above": 1,
+      "first_floor_above_I0": 59
+    },
+    "FERTILIZER": {
+      "base": 100,
+      "inventory_100_below": 120,
+      "inventory_100_above": 80,
+      "first_floor_above_I0": 493
+    }
+  },
+  "floor_sell_probe": {
+    "committed": true,
+    "inventory_unchanged": true,
+    "money": 3001.0
+  },
+  "route_config": {
+    "yarn_first_start": 88,
+    "yarn_second_start": 153,
+    "bakery_market_maker": false,
+    "egg_batch": 10,
+    "egg_cash_reserve": 2500.0,
+    "egg_start_step": 72,
+    "egg_stop_entry_step": 716,
+    "feed_days_reserve": 2.0,
+    "investment_horizon": 2,
+    "shed_headroom": 15,
+    "minimum_expected_profit": 1.0
+  },
+  "route_summaries": {
+    "default": {
+      "planned_decisions": 719,
+      "action_sha256": "2e1667a39cbd9e9d0045423fc3cdc510b8984cb0350575abe2f930cd06365358",
+      "planned_purchases": {
+        "BUY_SEED:MELON": 11,
+        "BUY_SEED:WHEAT": 140,
+        "BUY_ANIMAL:SHEEP": 4,
+        "BUY_SEED:STRAWBERRY": 41,
+        "BUY_ANIMAL:COW": 11,
+        "BUY_SEED:CARROT": 20
+      },
+      "planned_plant_counts_by_phase": {
+        "day0_5": {
+          "MELON": 7,
+          "WHEAT": 15,
+          "STRAWBERRY": 7
+        },
+        "day6_14": {
+          "STRAWBERRY": 34,
+          "WHEAT": 20,
+          "MELON": 4,
+          "CARROT": 8
+        },
+        "day15_24": {
+          "WHEAT": 69
+        },
+        "day25_29": {
+          "WHEAT": 30,
+          "CARROT": 12
+        }
+      }
+    },
+    "yarn_first": {
+      "planned_decisions": 719,
+      "action_sha256": "eed2d8f57d0f59261786d0356b2c1844a7ade0b21db0a74560eadb9aec260278",
+      "planned_purchases": {
+        "BUY_SEED:MELON": 11,
+        "BUY_SEED:WHEAT": 132,
+        "BUY_ANIMAL:SHEEP": 10,
+        "BUY_SEED:STRAWBERRY": 32,
+        "BUY_ANIMAL:COW": 6,
+        "BUY_SEED:CARROT": 12
+      },
+      "planned_plant_counts_by_phase": {
+        "day0_5": {
+          "MELON": 7,
+          "WHEAT": 15,
+          "STRAWBERRY": 7
+        },
+        "day6_14": {
+          "STRAWBERRY": 25,
+          "WHEAT": 22,
+          "MELON": 4
+        },
+        "day15_24": {
+          "WHEAT": 72
+        },
+        "day25_29": {
+          "WHEAT": 23,
+          "CARROT": 12
+        }
+      }
+    },
+    "yarn_second": {
+      "planned_decisions": 719,
+      "action_sha256": "4c861d6d652f59ab66c5fa34a9f9a1cac923c6b9c4ea39310cda323cce4ca25f",
+      "planned_purchases": {
+        "BUY_SEED:MELON": 11,
+        "BUY_SEED:WHEAT": 129,
+        "BUY_ANIMAL:SHEEP": 10,
+        "BUY_SEED:STRAWBERRY": 36,
+        "BUY_ANIMAL:COW": 6,
+        "BUY_SEED:CARROT": 12
+      },
+      "planned_plant_counts_by_phase": {
+        "day0_5": {
+          "MELON": 7,
+          "WHEAT": 15,
+          "STRAWBERRY": 7
+        },
+        "day6_14": {
+          "STRAWBERRY": 32,
+          "WHEAT": 19,
+          "MELON": 4
+        },
+        "day15_24": {
+          "WHEAT": 70
+        },
+        "day25_29": {
+          "WHEAT": 24,
+          "CARROT": 12
+        }
+      }
+    }
+  },
+  "route_pairwise": {
+    "default:yarn_first": {
+      "first_difference": 88,
+      "different_planned_decisions": 572
+    },
+    "default:yarn_second": {
+      "first_difference": 153,
+      "different_planned_decisions": 561
+    },
+    "yarn_first:yarn_second": {
+      "first_difference": 88,
+      "different_planned_decisions": 527
+    }
+  },
+  "planned_action_limitation": "Route tables are intended actions, not executed quantities or a closed-loop strength result."
+}

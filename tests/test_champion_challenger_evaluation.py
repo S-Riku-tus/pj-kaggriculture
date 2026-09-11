@@ -99,6 +99,27 @@ def test_pre_intervention_divergence_is_invalid() -> None:
     assert audit["classification"] == "unexpected_or_pre_intervention_divergence"
 
 
+def test_route_intervention_requires_declared_trigger_and_exact_onset() -> None:
+    wait = {"farmer": ["PASS"], "hands": [], "market": []}
+    move = {"farmer": ["EAST"], "hands": [], "market": []}
+    control = _replay([wait, wait, wait])
+    treatment = _replay([wait, move, wait])
+    accepted = audit_pair(
+        control, treatment, 0, gate_requested=True, intended_action_step=1, intervention_kind="route_choice"
+    )
+    assert accepted["behavioral_isolation_valid"]
+    for triggered, onset in ((False, 1), (True, 2)):
+        rejected = audit_pair(
+            control,
+            treatment,
+            0,
+            gate_requested=triggered,
+            intended_action_step=onset,
+            intervention_kind="route_choice",
+        )
+        assert not rejected["behavioral_isolation_valid"]
+
+
 def test_safe_fallback_is_delivery_failure_not_hard_safety() -> None:
     common = {
         "runtime_failures": [],
@@ -255,14 +276,8 @@ def test_ordered_promotion_blocks_meta_when_trigger_evidence_is_insufficient() -
     rows = [_pair("a", 2, 0, 1, 1), _pair("b", 2, 0, 1, 1)]
     evaluation = build_evaluation([], rows, [], spec, {"all_passed": True})
     assert evaluation["ordered_promotion_gates"]["engine_correctness"]["status"] == GateStatus.PASS
-    assert (
-        evaluation["ordered_promotion_gates"]["trigger_causal_uplift"]["status"]
-        == GateStatus.INSUFFICIENT
-    )
-    assert (
-        evaluation["ordered_promotion_gates"]["diverse_meta_payoff_improvement"]["status"]
-        == GateStatus.BLOCKED
-    )
+    assert evaluation["ordered_promotion_gates"]["trigger_causal_uplift"]["status"] == GateStatus.INSUFFICIENT
+    assert evaluation["ordered_promotion_gates"]["diverse_meta_payoff_improvement"]["status"] == GateStatus.BLOCKED
     assert evaluation["decision"] == "PROMISING_UNPROVEN"
 
 

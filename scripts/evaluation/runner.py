@@ -68,6 +68,8 @@ def _trace_agent(module: Any, trace: dict[str, Any]):
                 module.policy_diagnostics(obs) if hasattr(module, "policy_diagnostics") else {}
             )
             diagnostics = diagnostics if isinstance(diagnostics, dict) else {}
+            if diagnostics.get("research_decision") is not None:
+                trace["research_decision"] = diagnostics["research_decision"]
             step = int(diagnostics.get("canonical_step", getattr(obs, "step", 0)) or 0)
             goal = diagnostics.get("generalized_goal")
             if goal is not None and not trace.get("generalized_goal_requested"):
@@ -212,12 +214,16 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
         "treatment",
     )
     gate_requested = bool(treatment["trace"]["generalized_goal_requested"])
+    intervention_kind = task.get("intervention_kind", "cow_to_sheep")
+    if intervention_kind == "route_choice":
+        gate_requested = bool(treatment["trace"].get("research_decision", {}).get("committed"))
     divergence = audit_pair(
         control["replay"],
         treatment["replay"],
         seat,
         gate_requested=gate_requested,
         intended_action_step=int(task["intended_action_step"]),
+        intervention_kind=intervention_kind,
     )
     control_safety = analyze_safety(
         control["replay"], seat, control["trace"], transaction_step=int(task["intended_action_step"])
@@ -229,6 +235,13 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
         transaction_step=int(task["intended_action_step"]),
     )
     incidents = classify_candidate_incidents(control_safety, treatment_safety)
+    if task.get("strict_all_step_safety"):
+        for key in ("silent_field_noop", "silent_market_noop", "partial_market_commit", "missing_hand_actions"):
+            left = int(control_safety["engine_action_audit"].get(key, 0))
+            right = int(treatment_safety["engine_action_audit"].get(key, 0))
+            if right > left:
+                incidents["hard_safety_failures"].append(f"new_all_step_{key}")
+        incidents["hard_safety_failure"] = bool(incidents["hard_safety_failures"])
     regressions = incidents["hard_safety_failures"]
     delivery_failures = incidents["treatment_delivery_failures"]
     save_replays = bool(

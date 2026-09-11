@@ -1,0 +1,88 @@
+{
+  "fetched_at": "2026-09-10T07:17:31.068068+00:00",
+  "url": "https://www.kaggle.com/api/i/competitions.CompetitionService/GetCompetition",
+  "payload": {
+    "competitionName": "kaggriculture"
+  },
+  "status": 200,
+  "data": {
+    "id": 147734,
+    "competitionName": "kaggriculture",
+    "title": "Kaggriculture",
+    "briefDescription": "Create an agent to play in this farming simulation and compete with others to maximize your income",
+    "dateEnabled": "2026-07-30T16:15:52.123Z",
+    "deadline": "2026-09-30T23:59:00Z",
+    "hasLeaderboard": true,
+    "leaderboardPercentage": 30,
+    "maxDailySubmissions": 5,
+    "numScoredSubmissions": 2,
+    "numPrizes": 10,
+    "forumId": 11548702,
+    "userRankMultiplier": 1,
+    "dateCreated": "2026-06-09T23:19:05.594587900Z",
+    "competitionHostSegmentId": 1,
+    "maxTeamSize": 5,
+    "medalsAllowed": true,
+    "teamMergerExplicitDeadline": "2026-09-23T23:59:00Z",
+    "prohibitNewEntrantsExplicitDeadline": "2026-09-23T23:59:00Z",
+    "kernelsPublishingDisabledDeadline": "2026-09-23T23:59:00Z",
+    "organizationId": 4,
+    "hasCoverImageUrl": true,
+    "hasScripts": true,
+    "totalTeams": 8474,
+    "totalCompetitors": 9138,
+    "totalSubmissions": 16057,
+    "rulesRequired": true,
+    "clonedFromCompetitionId": 142031,
+    "evaluationAlgorithm": {
+      "id": 6705,
+      "name": "kaggriculture",
+      "isMax": true,
+      "isEnvironment": true,
+      "environmentRenderType": "ENVIRONMENT_RENDER_TYPE_JSON",
+      "state": "ENVIRONMENT"
+    },
+    "categories": [
+      {
+        "id": 16151,
+        "name": "simulations",
+        "fullPath": "subject > culture and humanities > games > video games > simulations",
+        "datasetCount": 906,
+        "competitionCount": 93,
+        "scriptCount": 326,
+        "slug": "simulation-games",
+        "displayName": "Simulations"
+      },
+      {
+        "name": "custom metric",
+        "description": "This competition's metric is defined under the 'Evaluation' tab",
+        "displayName": "Custom Metric"
+      }
+    ],
+    "organization": {
+      "slug": "kaggle",
+      "name": "Kaggle",
+      "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png",
+      "profileUrl": "/organizations/kaggle"
+    },
+    "launched": true,
+    "createdByUserId": 19579895,
+    "license": {
+      "id": 30,
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "agreementRequired": false
+    },
+    "hostName": "Kaggle",
+    "scoreTruncationNumDecimals": 1,
+    "totalJoinedUsers": 18682,
+    "requiresIdentityVerification": true,
+    "submissionSizeLimitMb": 20480,
+    "reward": {
+      "id": "USD",
+      "quantity": 50000
+    },
+    "simulation": true,
+    "fileBasedSubmissions": true
+  }
+}

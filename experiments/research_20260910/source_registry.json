@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-09-10T07:27:27.553535+00:00",
+  "champion_archive": "experiments\\research_20260910\\champion_v111.tar.gz",
+  "champion_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+  "sources": [
+    {
+      "candidate_id": "mooman_e052a",
+      "source_repository": "https://github.com/mooman0222/Kaggriculture-opencode.git",
+      "source_revision": "7e76c81417b3ce853f75ac4ad465d1b98ee2eeac",
+      "source_path": "artifacts\\opponent_pool\\current_20260910\\mooman\\agents\\kaito_v56_e052a.py",
+      "source_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+      "archive": "experiments\\research_20260910\\opponents\\mooman_e052a.tar.gz",
+      "archive_sha256": "abe66ef233b136964fe47c2c03a3abaddd0719a38eaaedb7f731ccd2892c1afe",
+      "entrypoint": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+      "original_callable": "agent_entry",
+      "tier": "executable acquired; completion validation pending",
+      "ancestry": "mooman",
+      "source_scope": "full published observation-dependent Agent; no fixed replay opponent"
+    },
+    {
+      "candidate_id": "souvik_v4",
+      "source_repository": "https://github.com/Souvik6222/Kaggriculture.git",
+      "source_revision": "8a4cb626de81218c3d8f13079a6789622430a02e",
+      "source_path": "artifacts\\opponent_pool\\current_20260910\\souvik\\my\\main.py",
+      "source_sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+      "archive": "experiments\\research_20260910\\opponents\\souvik_v4.tar.gz",
+      "archive_sha256": "fb67f2fcba19ee7d60ff6bff871e37b9d1d6c62e25ad14de8ef8cb926ae94016",
+      "entrypoint": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+      "original_callable": "agent",
+      "tier": "executable acquired; completion validation pending",
+      "ancestry": "souvik",
+      "source_scope": "full published observation-dependent Agent; no fixed replay opponent"
+    },
+    {
+      "candidate_id": "ggmljs_v16",
+      "source_repository": "https://github.com/ggmljs/Kaggriculture.git",
+      "source_revision": "bf1590e2260e21f64ac57b80842874230adb0e3b",
+      "source_path": "artifacts\\opponent_pool\\current_20260910\\ggmljs\\main.py",
+      "source_sha256": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca",
+      "archive": "experiments\\research_20260910\\opponents\\ggmljs_v16.tar.gz",
+      "archive_sha256": "cd83d7060849dd116dce733eac0e57d8d970857e236d27be4fe527cf51a861ea",
+      "entrypoint": "experiments\\research_20260910\\runtime\\ggmljs_v16\\main.py",
+      "original_callable": "agent",
+      "tier": "executable acquired; completion validation pending",
+      "ancestry": "ggmljs",
+      "source_scope": "full published observation-dependent Agent; no fixed replay opponent"
+    },
+    {
+      "candidate_id": "qeinstein_moev2",
+      "source_repository": "https://github.com/qeinstein/kaggriculture.git",
+      "source_revision": "d7cc891cd04025252cb3f0b54b0fa25247ca5e04",
+      "source_path": "artifacts\\opponent_pool\\current_20260910\\qeinstein\\dist\\sub-009-moev2\\main.py",
+      "source_sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+      "archive": "experiments\\research_20260910\\opponents\\qeinstein_moev2.tar.gz",
+      "archive_sha256": "fa609b718dd4f324d7170bcec2b8f1629ed2d593fcd75e63dd34ad1f8b208131",
+      "entrypoint": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+      "original_callable": "agent",
+      "tier": "executable acquired; completion validation pending",
+      "ancestry": "qeinstein",
+      "source_scope": "full published observation-dependent Agent; no fixed replay opponent"
+    }
+  ],
+  "discovery_seeds": [
+    10091001,
+    10091002,
+    10091003,
+    10091004
+  ],
+  "development_seeds": [
+    10091011,
+    10091012,
+    10091013,
+    10091014
+  ],
+  "promotion_seeds": [
+    10091101,
+    10091102,
+    10091103,
+    10091104,
+    10091105,
+    10091106,
+    10091107,
+    10091108,
+    10091109,
+    10091110,
+    10091111,
+    10091112
+  ],
+  "fresh_holdout_seeds": [
+    10091901,
+    10091902,
+    10091903,
+    10091904,
+    10091905,
+    10091906,
+    10091907,
+    10091908,
+    10091909,
+    10091910,
+    10091911,
+    10091912
+  ],
+  "fresh_status": "UNUSED; not simulated or inspected; unlock only for frozen passing Candidate"
+}

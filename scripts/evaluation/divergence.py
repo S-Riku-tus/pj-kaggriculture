@@ -178,6 +178,7 @@ def audit_pair(
     *,
     gate_requested: bool,
     intended_action_step: int = 248,
+    intervention_kind: str = "cow_to_sheep",
 ) -> dict[str, Any]:
     focal_action = _first_action_difference(control, treatment, seat)
     opponent_action = _first_action_difference(control, treatment, 1 - seat)
@@ -221,7 +222,11 @@ def audit_pair(
     expected = bool(
         focal_action
         and first_step == intended_action_step
-        and _expected_animal_rewrite(focal_action["control"], focal_action["treatment"])
+        and (
+            _expected_animal_rewrite(focal_action["control"], focal_action["treatment"])
+            if intervention_kind == "cow_to_sheep"
+            else gate_requested and intervention_kind == "route_choice"
+        )
     )
     any_state_difference = any(value is not None for value in first.values())
     if focal_action is None:
@@ -249,6 +254,7 @@ def audit_pair(
         "alignment": "observation[t] -> action stored at steps[t+1]",
         "gate_requested": gate_requested,
         "intended_action_step": intended_action_step,
+        "intervention_kind": intervention_kind,
         # Stable channel names used by all future paired-experiment records.
         "first_self_divergence": focal_action,
         "first_opponent_response": opponent_action,

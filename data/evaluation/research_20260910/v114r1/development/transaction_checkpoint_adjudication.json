@@ -1,0 +1,103 @@
+{
+  "reason": "Route intervention at t153 does not move V111's inherited Cow-to-Sheep purchase from t248. Raw records are retained; recomputation audits actual engine-committed transaction units.",
+  "details": [
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "raw_transaction_step": 153,
+      "actual_inherited_transaction_step": 248,
+      "engine_audit": {
+        "control": {
+          "emitted_purchase_rewrite": true,
+          "purchase_units_committed": 2,
+          "emitted_pickups": 2,
+          "emitted_placements": 2,
+          "pickup_noops": 0,
+          "placement_noops": 0,
+          "complete": true
+        },
+        "treatment": {
+          "emitted_purchase_rewrite": true,
+          "purchase_units_committed": 2,
+          "emitted_pickups": 2,
+          "emitted_placements": 2,
+          "pickup_noops": 0,
+          "placement_noops": 0,
+          "complete": true
+        }
+      },
+      "raw_flag_is_checkpoint_measurement_error": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "raw_transaction_step": 153,
+      "actual_inherited_transaction_step": 248,
+      "engine_audit": {
+        "control": {
+          "emitted_purchase_rewrite": true,
+          "purchase_units_committed": 2,
+          "emitted_pickups": 2,
+          "emitted_placements": 2,
+          "pickup_noops": 0,
+          "placement_noops": 0,
+          "complete": true
+        },
+        "treatment": {
+          "emitted_purchase_rewrite": true,
+          "purchase_units_committed": 2,
+          "emitted_pickups": 2,
+          "emitted_placements": 2,
+          "pickup_noops": 0,
+          "placement_noops": 0,
+          "complete": true
+        }
+      },
+      "raw_flag_is_checkpoint_measurement_error": true
+    }
+  ],
+  "adjudicated_candidate_new_failure_pair_counts": {},
+  "arm_safety_totals": {
+    "control": {
+      "runtime_failure_records": 0,
+      "incomplete_games": 0,
+      "negative_cash_games": 0,
+      "animal_loss_total": 0,
+      "plant_to_weed": 682,
+      "spawned_weeds": 23,
+      "engine_action_audit": {
+        "silent_market_noop": 4009,
+        "pre_intervention_silent_market_noop": 56,
+        "silent_field_noop": 1737,
+        "pre_intervention_silent_field_noop": 347,
+        "partial_market_commit": 1265,
+        "pre_intervention_partial_market_commit": 64,
+        "post_intervention_silent_field_noop": 1390,
+        "post_intervention_partial_market_commit": 1201,
+        "post_intervention_silent_market_noop": 3953
+      }
+    },
+    "treatment": {
+      "runtime_failure_records": 0,
+      "incomplete_games": 0,
+      "negative_cash_games": 0,
+      "animal_loss_total": 0,
+      "plant_to_weed": 682,
+      "spawned_weeds": 23,
+      "engine_action_audit": {
+        "silent_market_noop": 4009,
+        "pre_intervention_silent_market_noop": 56,
+        "silent_field_noop": 1737,
+        "pre_intervention_silent_field_noop": 347,
+        "partial_market_commit": 1265,
+        "pre_intervention_partial_market_commit": 64,
+        "post_intervention_silent_field_noop": 1390,
+        "post_intervention_partial_market_commit": 1201,
+        "post_intervention_silent_market_noop": 3953
+      }
+    }
+  },
+  "promotion_consequence": "None: candidate remains rejected for no causal uplift/delivery or other failed gates; no threshold changed."
+}

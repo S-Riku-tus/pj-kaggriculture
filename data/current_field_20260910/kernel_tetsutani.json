@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-09-10T07:19:35.116082+00:00",
+  "url": "https://www.kaggle.com/api/i/kernels.KernelsService/GetKernel",
+  "payload": {
+    "userName": "tetsutani",
+    "kernelSlug": "read-the-town-build-the-farm-kaggriculture"
+  },
+  "status": 403,
+  "data": {
+    "error": {
+      "code": 403,
+      "message": "Permission 'kernels.get' was denied",
+      "status": "PERMISSION_DENIED"
+    }
+  }
+}

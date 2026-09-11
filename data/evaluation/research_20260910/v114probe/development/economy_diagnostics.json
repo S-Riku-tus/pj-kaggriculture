@@ -1,0 +1,1871 @@
+{
+  "summary": {
+    "control": {
+      "lead_to_loss": {
+        "day12": 0,
+        "day18": 0,
+        "day20": 0,
+        "day24": 0
+      },
+      "mean_stranded_price_proxy": 46.4375,
+      "stranded_units_by_product": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 8,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 30,
+        "FERTILIZER": 40
+      }
+    },
+    "treatment": {
+      "lead_to_loss": {
+        "day12": 0,
+        "day18": 2,
+        "day20": 2,
+        "day24": 2
+      },
+      "mean_stranded_price_proxy": 287.09375,
+      "stranded_units_by_product": {
+        "WHEAT": 186,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 8,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 40
+      }
+    }
+  },
+  "rows": [
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11308.0,
+          "day20": -10383.0,
+          "day24": -3210.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 230
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11308.0,
+          "day20": -10383.0,
+          "day24": -3210.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 230
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11308.0,
+          "day20": -10383.0,
+          "day24": -3210.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 230
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11308.0,
+          "day20": -10383.0,
+          "day24": -3210.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 230
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -10120.0,
+          "day18": -10867.0,
+          "day20": -13031.0,
+          "day24": -11437.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8959.0,
+          "day18": -19028.0,
+          "day20": -23438.0,
+          "day24": -27166.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 396
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -10120.0,
+          "day18": -10867.0,
+          "day20": -13031.0,
+          "day24": -11437.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8959.0,
+          "day18": -19028.0,
+          "day20": -23438.0,
+          "day24": -27166.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 396
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11364.0,
+          "day20": -10617.0,
+          "day24": -3701.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 224
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11364.0,
+          "day20": -10617.0,
+          "day24": -3701.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 224
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -8419.0,
+          "day18": -6997.0,
+          "day20": -6346.0,
+          "day24": 763.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -7368.0,
+          "day18": -13218.0,
+          "day20": -13692.0,
+          "day24": -13328.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 387
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -8419.0,
+          "day18": -6997.0,
+          "day20": -6346.0,
+          "day24": 763.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -7368.0,
+          "day18": -13218.0,
+          "day20": -13692.0,
+          "day24": -13328.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 387
+      }
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11364.0,
+          "day20": -10617.0,
+          "day24": -3701.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 224
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6403.0,
+          "day18": -11364.0,
+          "day20": -10617.0,
+          "day24": -3701.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 224
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -9061.0,
+          "day20": -9753.0,
+          "day24": -5325.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -9061.0,
+          "day20": -9753.0,
+          "day24": -5325.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -9061.0,
+          "day20": -9753.0,
+          "day24": -5325.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -9061.0,
+          "day20": -9753.0,
+          "day24": -5325.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -10116.0,
+          "day18": -10863.0,
+          "day20": -13027.0,
+          "day24": -11433.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8994.0,
+          "day18": -19061.0,
+          "day20": -23471.0,
+          "day24": -27199.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 396
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -10116.0,
+          "day18": -10863.0,
+          "day20": -13027.0,
+          "day24": -11433.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8994.0,
+          "day18": -19061.0,
+          "day20": -23471.0,
+          "day24": -27199.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 396
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -9805.0,
+          "day18": -12940.0,
+          "day20": -16089.0,
+          "day24": -18354.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8363.0,
+          "day18": -13649.0,
+          "day20": -15272.0,
+          "day24": -12833.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 156
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -9805.0,
+          "day18": -12940.0,
+          "day20": -16089.0,
+          "day24": -18354.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8363.0,
+          "day18": -13649.0,
+          "day20": -15272.0,
+          "day24": -12833.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 156
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -8885.0,
+          "day20": -9137.0,
+          "day24": -5920.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -8885.0,
+          "day20": -9137.0,
+          "day24": -5920.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      }
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -8885.0,
+          "day20": -9137.0,
+          "day24": -5920.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -6813.0,
+          "day18": -8885.0,
+          "day20": -9137.0,
+          "day24": -5920.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5
+        },
+        "stranded_observed_price_proxy": 62
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -5645.0,
+          "day18": 1033.0,
+          "day20": -633.0,
+          "day24": 413.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -5160.0,
+          "day18": -6115.0,
+          "day20": -8244.0,
+          "day24": -10001.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 396
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -5627.0,
+          "day18": 1690.0,
+          "day20": 977.0,
+          "day24": 1029.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -5191.0,
+          "day18": -5683.0,
+          "day20": -7750.0,
+          "day24": -18045.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 405
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -5569.0,
+          "day18": 2942.0,
+          "day20": 3543.0,
+          "day24": 6654.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -5174.0,
+          "day18": -4670.0,
+          "day20": -6451.0,
+          "day24": -12703.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 414
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -4518.0,
+          "day18": -589.0,
+          "day20": -1638.0,
+          "day24": 2969.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -4473.0,
+          "day18": -5007.0,
+          "day20": -4936.0,
+          "day24": -7667.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 414
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -4010.0,
+          "day18": 2800.0,
+          "day20": 1763.0,
+          "day24": 12398.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 15,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 165
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -4096.0,
+          "day18": -3897.0,
+          "day20": -4255.0,
+          "day24": -3184.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 423
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -4010.0,
+          "day18": 2800.0,
+          "day20": 1763.0,
+          "day24": 12398.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 15,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 165
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -4096.0,
+          "day18": -3897.0,
+          "day20": -4255.0,
+          "day24": -3184.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 423
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -5323.0,
+          "day18": 278.0,
+          "day20": -1214.0,
+          "day24": 3496.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -4997.0,
+          "day18": 3956.0,
+          "day20": 2858.0,
+          "day24": 3319.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": true,
+          "day20": true,
+          "day24": true
+        },
+        "stranded_inventory": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 192
+      }
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -5323.0,
+          "day18": 278.0,
+          "day20": -1214.0,
+          "day24": 3496.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -4997.0,
+          "day18": 3956.0,
+          "day20": 2858.0,
+          "day24": 3319.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": true,
+          "day20": true,
+          "day24": true
+        },
+        "stranded_inventory": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 192
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -9903.0,
+          "day18": -10038.0,
+          "day20": -13514.0,
+          "day24": -14305.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8904.0,
+          "day18": -13690.0,
+          "day20": -15480.0,
+          "day24": -18063.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 342
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -9903.0,
+          "day18": -10038.0,
+          "day20": -13514.0,
+          "day24": -14305.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -8904.0,
+          "day18": -13690.0,
+          "day20": -15480.0,
+          "day24": -18063.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 342
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -11782.0,
+          "day18": -9957.0,
+          "day20": -9521.0,
+          "day24": -4147.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -10631.0,
+          "day18": -18246.0,
+          "day20": -19701.0,
+          "day24": -24655.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 351
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -11782.0,
+          "day18": -9957.0,
+          "day20": -9521.0,
+          "day24": -4147.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -10631.0,
+          "day18": -18246.0,
+          "day20": -19701.0,
+          "day24": -24655.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 351
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -10700.0,
+          "day18": -11667.0,
+          "day20": -12387.0,
+          "day24": -18597.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -9562.0,
+          "day18": -7901.0,
+          "day20": -7336.0,
+          "day24": -8245.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 144
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -10700.0,
+          "day18": -11667.0,
+          "day20": -12387.0,
+          "day24": -18597.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -9562.0,
+          "day18": -7901.0,
+          "day20": -7336.0,
+          "day24": -8245.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 144
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -11386.0,
+          "day18": -9307.0,
+          "day20": -9323.0,
+          "day24": -5772.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -10183.0,
+          "day18": -16965.0,
+          "day20": -18914.0,
+          "day24": -22527.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 414
+      }
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "control": {
+        "checkpoint_margins": {
+          "day12": -11386.0,
+          "day18": -9307.0,
+          "day20": -9323.0,
+          "day24": -5772.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 0
+      },
+      "treatment": {
+        "checkpoint_margins": {
+          "day12": -10183.0,
+          "day18": -16965.0,
+          "day20": -18914.0,
+          "day24": -22527.0
+        },
+        "lead_to_loss": {
+          "day12": false,
+          "day18": false,
+          "day20": false,
+          "day24": false
+        },
+        "stranded_inventory": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0
+        },
+        "stranded_observed_price_proxy": 414
+      }
+    }
+  ],
+  "stranded_warning": "Final observed-price proxy, not attainable liquidation revenue or score."
+}

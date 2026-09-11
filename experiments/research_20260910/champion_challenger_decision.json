@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-09-11T01:41:19.841062+00:00",
+  "champion": "v111",
+  "champion_archive_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+  "decisions": {
+    "v114": {
+      "status": "REJECT",
+      "reason": "checkpoint configuration implementation bug"
+    },
+    "v114r1": {
+      "status": "REJECT",
+      "reason": "zero delivered intervention, no causal uplift"
+    },
+    "v114probe": {
+      "status": "REJECT",
+      "reason": "research-only forced delivery; safety regressions and 12 Win-to-Loss"
+    }
+  },
+  "submission_recommendation": "DO_NOT_SUBMIT",
+  "evidence": [
+    "E0",
+    "E1",
+    "E2_predictive_only",
+    "E3_negative_development"
+  ],
+  "E4": "not reached",
+  "E5": "sealed",
+  "E6": "no new candidate live evidence",
+  "report": "docs/v114_research_and_evaluation_report.md"
+}
