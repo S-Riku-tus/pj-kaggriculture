@@ -1,0 +1,17 @@
+# 第3library：配置後まで担当する2頭の契約
+
+2026-09-11。v115p_livestockの最初の6pairs取得後、下記2optionの実装・対戦前の登録。
+
+Evidence: mooman/10091012ではSheep2頭の購入、pickup、placementは全て成立した。しかしt593/636の対象SheepへのHARVESTはyield=0で不成立、t673のWheat pickupと後続FEEDも新たに不成立、最終shedにWool14が残った。self coin -8,720、opponent +988、margin -9,708。単に「買えた」ことは継続実行の成立ではない。shed容量と未換金商品の影響はこれからengineで検証し、原因と断定しない。
+
+H3b: 調達・配置に加え、対象2頭の空HARVEST回避と生成品の継続売却を管理した場合、実行不整合を除いた安全な選択肢価値があるか。libraryはV111、managed Sheep2、managed Goose2の3つ。Gooseは同じ元の2Cow購入・運搬・作業枠を用い、購入後のBUILD_PASTUREを対象carrierの2箇所だけBUILD_COOPへ変える。2Gooseは600coin、2Sheepは1000coin。動物比率のTopコピーやforecastの閾値変更ではない。
+
+開始時刻t248。標準engine、fallbackなし、raw V111にBUY_ANIMAL COW 2がちょうど1件、cash>=1500、market前shedに2頭分の空きがあること。既存のMELON売却を収入保証に含めない。後続の土地購入（対象座標はt248時点ではLOCKED）・Wheat・seed・雇用は元の順序と数量を保持する。元のdefault実行ではt249にhand5が2頭pickup、t255/260に(3,5)/(4,5)で構造物建設、t256/261に配置する。route名だけで成立とせず、この工程の実約定を全例で確認する。
+
+購入は元Cow2の1注文だけ置換。privateで新動物の在庫を確認してPICKUP/PLACEを置換し、carried inventoryと現在worker位置に結び付ける。Gooseの場合は運搬中のcarrierが行うBUILDだけCOOPにする。配置済み対象座標へのHARVESTでyield=0なら明示的PASSとし、給餌・CARE・肥料回収・移動は継承する。毎turn切り替えるselectorではなく、t248に始めた契約の継続管理である。
+
+配置後の生成品WOOL/EGGはmarket前の実在shed量から、空いているmarket slotで売る。Milkと生成品の後続SELLは実在量へcapする。Wheat/Fertilizer/seedを勝手に売らず、必要購入を削らない。V110の前turn行動記憶も実際の出力に更新する。予想売却価格や相手private、未知shopはlive入力にしない。購入後に単純な元scheduleへの復帰はしない。
+
+同じDevelopment4seeds×4sources×両seat32pairs/option。原enginefull720、prefix一致、archive固定、Safetyのraw基準維持。対戦とSafetyの結果が出るまで、これが元不整合を修復したとは主張しない。no-opを除いた操作もrequested/emitted/commit traceへ残す。相手反応、Town/RNG変化を除外せず総効果として評価する。
+
+複数相手・状態でsafe L→Wがなければselectorは作らない。E4/E5とFresh保護、独立ancestry・seed block・robust重み・提出禁止は既存登録を継承する。unmanaged Sheepはmechanism ablationとして別結果のまま保全し、救済しない。

@@ -1,0 +1,64 @@
+{
+  "frozen_at": "2026-09-12T04:24:20.290684+00:00",
+  "hypothesis": "H3c-r1 retain completed Cow continuation; evaluation-window correction only",
+  "invalid_predecessor": "v115p_retain_cow",
+  "variants": [
+    {
+      "version": "v115p_retain_cow_r1",
+      "start": 248,
+      "end": 249,
+      "archive": "experiments\\research_20260911_continuations\\v115p_retain_cow_r1.tar.gz",
+      "archive_sha256": "94ce48666493e7a71ee740f11c14965d47379208ce3dd9acf27424173a336d17",
+      "source_hashes": {
+        "NOTICE.md": "63429a456914cfc492e2a38408bc010f639de7baf8deb6f579d323e940068a0e",
+        "feature_schema.py": "8551eb6d5b1d25d8dc1e52957d62970a4274f31c2826ca6da3b85afebb4b45ff",
+        "public_v43_base.py": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+        "strategy_model.json": "5bd9f7c69e5226262c711196256ba148ccfdd24108c989251fa1f1440d46ee23",
+        "v109_base.py": "e1ac59d40f41b04dad9b673c22cc04a640646b190c67fc2158d898e1ddbaf464",
+        "v10_base.py": "b48f80d72cfe4c62f9d1232740bb8ae5585a4808bd0a5c0e22f94118e7d73c6d",
+        "v110_base.py": "3c5a8a5f443368c52ef3a914a7ed27e6204582d6ddf6d8996de9bdb76a428ddc",
+        "v11_base.py": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+        "v2_base.py": "fa5f5a07487531e3180bd33c7b8612f5414381778ec55940690dbcf07c1a1383",
+        "v3_base.py": "789f1315048010253553573ec120e985193dcae09fc3a9fcc199a9486d0381bb",
+        "v4_base.py": "8185bcfbfe6ea8fa0259dae69c59b70f27d9ac62ae1dc7fa2274fc3ef730d45d",
+        "v5_base.py": "a5e1e33ad79bb8d03847e55a5061e1f8c9dc343102ae3295dcc506091819ca87",
+        "v6_base.py": "19892316a5230bb5b58d08d35f32ba5f3b3282cd2d7c9a8904ac65cafcb6c024",
+        "v7_base.py": "94f14894b2861c570985e70508b96602cabfb3571acb3d8c63385ea5a0e69c59",
+        "v8_base.py": "ecca27be76c97d034771730e04d9a1bf1f27e62fac4bf72c4d9d62444ddd7ac5",
+        "v9_base.py": "9ff27930c9007d2f81b13f4f97a0a959c0b06901cf198cd9359703fe0e26b70b",
+        "v111_base.py": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+        "main.py": "89697fd7081325a31d51c8bb9883c2b1c699e0f42be04be73ae4f32939215a2a",
+        "option.json": "70d0478a9770817a225e9ae9d556528ad9a0ac4a992d0b9a8ac1145e11265a04"
+      },
+      "runtime": "experiments\\research_20260911_continuations\\runtime\\v115p_retain_cow_r1\\main.py"
+    }
+  ],
+  "control_archive_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+  "protocol": "docs/research_20260912_retain_cow_r1_preregistration.md",
+  "protocol_sha256": "7e9362e061753d7f04c8fc7dc4c815fc2ed89124886217dd2851b73c6f144b2c",
+  "framework_hashes": {
+    "scripts\\evaluation\\divergence.py": "ea812e997f68db8e3b8e89da03ecd7e996e3d54696ad9936e68221015125e4ef",
+    "scripts\\evaluation\\lifecycle.py": "439080f78e3a6417464477be3a8fd48e8e1fce7eab8ebc8ecbc258b31d740c94",
+    "scripts\\evaluation\\lineage.py": "797a066e94225a2524af59dd58e88b48b2814386a8383e86c00eb4410a911da3",
+    "scripts\\evaluation\\registry.py": "34995e2bf064735b33f210d914a0344405646b41c658393348efc5e6033a79d9",
+    "scripts\\evaluation\\replay.py": "572a57acb447b48ba8955417e2b46dcc8ce9a7ecdde3fbc9d02505effda63822",
+    "scripts\\evaluation\\report.py": "c2a00fa98910063aab53f172d3a5a52f4a56aa1a448fa2a06656d5a9de96cd84",
+    "scripts\\evaluation\\runner.py": "1defc90ec87d24c5d3f954e25a8b56586661907d96f0494dbeed18856dc0a06f",
+    "scripts\\evaluation\\safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+    "scripts\\evaluation\\schema.py": "8045f554e64748addc197a2a2d3dafbd354814eae06ba3d2750ac32d73c049e8",
+    "scripts\\evaluation\\statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+    "scripts\\evaluation\\__init__.py": "b6fc7ff25d2d2174a63dd64d71de3ecf97acbc529545235b6189fefc4af84e9c"
+  },
+  "allowed_seeds": [
+    10091011,
+    10091012,
+    10091013,
+    10091014
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "research_only": true,
+  "fresh_status": "SEALED"
+}

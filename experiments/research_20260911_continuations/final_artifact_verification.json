@@ -1,0 +1,100 @@
+{
+  "production": {
+    "source_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "archive_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+    "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "research_variants": [
+    {
+      "version": "v115p_livestock",
+      "archive": "experiments\\research_20260911_continuations\\v115p_livestock.tar.gz",
+      "archive_sha256": "fa608e2d3b6dcbdd5e9c5280c5b3bb52238160fc94c283fdaf0bfbf57a787d70",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    },
+    {
+      "version": "v115p_managed_sheep",
+      "archive": "experiments\\research_20260911_continuations\\v115p_managed_sheep.tar.gz",
+      "archive_sha256": "8c35ee4777c427ca420c3f6e0f2921e618e354516072272ca2c14003dbb08362",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    },
+    {
+      "version": "v115p_managed_goose",
+      "archive": "experiments\\research_20260911_continuations\\v115p_managed_goose.tar.gz",
+      "archive_sha256": "7379038f7ac984e3f3c112010a18baec6a30cb516405ec230fa16dc9d794324d",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    },
+    {
+      "version": "v115p_immediate",
+      "archive": "experiments\\research_20260911_continuations\\v115p_immediate.tar.gz",
+      "archive_sha256": "dad3808da4beaa5e1aa6d8da7bdef026408868b350b11b146b46fc6b349ff595",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    },
+    {
+      "version": "v115p_town",
+      "archive": "experiments\\research_20260911_continuations\\v115p_town.tar.gz",
+      "archive_sha256": "20438c500a78bc3b434f64e48faeae3862f0e4e7ca5593cf575414053e016ce9",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    },
+    {
+      "version": "v115p_retain_cow",
+      "archive": "experiments\\research_20260911_continuations\\v115p_retain_cow.tar.gz",
+      "archive_sha256": "4863c9f13c8a7c1ff8170badd8bec8b2e558513cea6468b2c124a0c542dc051a",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    },
+    {
+      "version": "v115p_retain_cow_r1",
+      "archive": "experiments\\research_20260911_continuations\\v115p_retain_cow_r1.tar.gz",
+      "archive_sha256": "94ce48666493e7a71ee740f11c14965d47379208ce3dd9acf27424173a336d17",
+      "archive_ok": true,
+      "runtime_members_ok": true,
+      "standalone_both_seats_720_passed": true,
+      "framework_mismatches": [
+        "scripts\\evaluation\\lifecycle.py"
+      ],
+      "evaluation_core_mismatches": [],
+      "framework_note": "lifecycle.py is a post-pair replay diagnostic; runner.py and safety.py remain frozen"
+    }
+  ]
+}

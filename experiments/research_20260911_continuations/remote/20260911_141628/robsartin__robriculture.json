@@ -1,0 +1,2239 @@
+{
+  "fetched_at": "2026-09-11T14:16:43.266730+00:00",
+  "repository": "robsartin/robriculture",
+  "commit": "7f54373b67cf41f71168f09457390f6663e3a6a1",
+  "license": {
+    "key": "cc-by-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "spdx_id": "CC-BY-4.0",
+    "url": "https://api.github.com/licenses/cc-by-4.0",
+    "node_id": "MDc6TGljZW5zZTI1"
+  },
+  "tree_status": 200,
+  "tree": {
+    "sha": "7f54373b67cf41f71168f09457390f6663e3a6a1",
+    "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/7f54373b67cf41f71168f09457390f6663e3a6a1",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "91809fb994ea1112a44c85a67295377b37e093ee",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/91809fb994ea1112a44c85a67295377b37e093ee"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7191e77a39f3d1358986849dc5ad24a9b39d0716",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/7191e77a39f3d1358986849dc5ad24a9b39d0716"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2cd60a5185edc9d8025e80dc5107f3c509517951",
+        "size": 2067,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2cd60a5185edc9d8025e80dc5107f3c509517951"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf14f848fd62521f5247565516bf2acdecca9f39",
+        "size": 1784,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/cf14f848fd62521f5247565516bf2acdecca9f39"
+      },
+      {
+        "path": "CLAUDE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fb95f155082ba67037e857982d08d66f5fe0051",
+        "size": 10538,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8fb95f155082ba67037e857982d08d66f5fe0051"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4fbec499410a6af5926c60091681c7fb017caa9",
+        "size": 18719,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b4fbec499410a6af5926c60091681c7fb017caa9"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e0ff64e7e46c279729bfdaa9ca8ad107049006fe",
+        "size": 2368,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e0ff64e7e46c279729bfdaa9ca8ad107049006fe"
+      },
+      {
+        "path": "build",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "63aa59b9312d502285b22af77935cecf05897ec7",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/63aa59b9312d502285b22af77935cecf05897ec7"
+      },
+      {
+        "path": "build/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "build/package.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67dfb5216cb71f23901bd4f8cdc2c6d3a45e902d",
+        "size": 3997,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/67dfb5216cb71f23901bd4f8cdc2c6d3a45e902d"
+      },
+      {
+        "path": "conftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11de7ffc1d062b5cc7973fb567e9474d44f9bdbb",
+        "size": 399,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/11de7ffc1d062b5cc7973fb567e9474d44f9bdbb"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "376d0daf2a242a5505b6449637b11c2d21a5a9df",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/376d0daf2a242a5505b6449637b11c2d21a5a9df"
+      },
+      {
+        "path": "docs/adr",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c2cdab1ca408ce41346e1f7e2b0ad93d9b454b6d",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/c2cdab1ca408ce41346e1f7e2b0ad93d9b454b6d"
+      },
+      {
+        "path": "docs/adr/0000-template.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2b96b2039ac0445cfd5f5f52364eef8276ee616",
+        "size": 564,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e2b96b2039ac0445cfd5f5f52364eef8276ee616"
+      },
+      {
+        "path": "docs/adr/0001-record-architecture-decisions.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f3e7195c17f7a058cad942de757fd5eff73d9d8",
+        "size": 1239,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/9f3e7195c17f7a058cad942de757fd5eff73d9d8"
+      },
+      {
+        "path": "docs/adr/0002-heuristic-planner-before-rl.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c067ab926753c7da9c0927995f764b89b767e2d0",
+        "size": 2166,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c067ab926753c7da9c0927995f764b89b767e2d0"
+      },
+      {
+        "path": "docs/adr/0003-multi-strategy-portfolio.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "869963aa9bbed644272094aa7295fbead37d96b3",
+        "size": 2144,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/869963aa9bbed644272094aa7295fbead37d96b3"
+      },
+      {
+        "path": "docs/adr/0004-python-only-agent.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07db6c184665872de2f5e73b68d4e4cc46f581c8",
+        "size": 1271,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/07db6c184665872de2f5e73b68d4e4cc46f581c8"
+      },
+      {
+        "path": "docs/adr/0005-cc-by-4.0-and-open-development.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b28f7e1f758c291b6a5b246769175c06840fc154",
+        "size": 1691,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b28f7e1f758c291b6a5b246769175c06840fc154"
+      },
+      {
+        "path": "docs/adr/0006-fail-safe-never-crash.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab33e1c0aa29aae780f73187e3deb0853a544811",
+        "size": 3304,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ab33e1c0aa29aae780f73187e3deb0853a544811"
+      },
+      {
+        "path": "docs/adr/0007-experiment-driven-development-process.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f38954a6a977bdc922e21b0aa2103d5d7a45004",
+        "size": 21924,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0f38954a6a977bdc922e21b0aa2103d5d7a45004"
+      },
+      {
+        "path": "docs/adr/0008-neuroevolution-against-a-diverse-pool.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c25d6aed65d27b726e1be119b9cdad7be8ebb844",
+        "size": 9528,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c25d6aed65d27b726e1be119b9cdad7be8ebb844"
+      },
+      {
+        "path": "docs/adr/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff1642b6e97cb47913b248b45ba1cb9b28c24380",
+        "size": 1512,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ff1642b6e97cb47913b248b45ba1cb9b28c24380"
+      },
+      {
+        "path": "docs/findings.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c08aa7f2c9d2d50e546edde857c7ee083dc4f95e",
+        "size": 16276,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c08aa7f2c9d2d50e546edde857c7ee083dc4f95e"
+      },
+      {
+        "path": "docs/superpowers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b1422da80d5cc51ceb2feabcfcb16a280d3d94e7",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/b1422da80d5cc51ceb2feabcfcb16a280d3d94e7"
+      },
+      {
+        "path": "docs/superpowers/plans",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e0073a2ac7034cc8612837e56957542c5a740068",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/e0073a2ac7034cc8612837e56957542c5a740068"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-12-meta-rancher.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6efed0e1b4365ad43003a956099161ea34dedab",
+        "size": 20578,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f6efed0e1b4365ad43003a956099161ea34dedab"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-12-neuropilot-architecture.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbeeef01178618cb4c5f9a5014c50ccd547b2e32",
+        "size": 23162,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/dbeeef01178618cb4c5f9a5014c50ccd547b2e32"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-12-readonly-benchmarks-meta-bot.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc44b66d27e5760e103d721ebadd2aa0bc3757c5",
+        "size": 26913,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/dc44b66d27e5760e103d721ebadd2aa0bc3757c5"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-13-neuroevolution-harness.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5671524796752a2e5eb1a870833e0d84f966a27",
+        "size": 20203,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a5671524796752a2e5eb1a870833e0d84f966a27"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-14-evolution-fitness-signal.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25b1ac6b1e1f11c651b1405df6e31bac9b4ef9a8",
+        "size": 50291,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/25b1ac6b1e1f11c651b1405df6e31bac9b4ef9a8"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-16-champion-designation.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24d111f4aed83cb5128081c1010f070e95ad86d0",
+        "size": 40331,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/24d111f4aed83cb5128081c1010f070e95ad86d0"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-22-job-assignment.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7a847c3a275c0e6aeec51e5be3c582a0d5a62d7",
+        "size": 63236,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/d7a847c3a275c0e6aeec51e5be3c582a0d5a62d7"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-08-30-external-measurement-pool.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c5fd92e3e473371a01431f24b91c0c5511c1d9a",
+        "size": 23597,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/9c5fd92e3e473371a01431f24b91c0c5511c1d9a"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-05-mpc-sell-hold-objective.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b45c31cb842535d4579f96242bea2da72683e478",
+        "size": 47976,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b45c31cb842535d4579f96242bea2da72683e478"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-06-rival-aware-herd.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54c35f79b410f3acd80beabbb751c81b00d1df07",
+        "size": 30534,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/54c35f79b410f3acd80beabbb751c81b00d1df07"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-06-triage-tool.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b9f32eae7db8a69523e38004c5ecd50121e1033",
+        "size": 38285,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3b9f32eae7db8a69523e38004c5ecd50121e1033"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-07-external-anchors.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ff82c956107a17b1e2b7dc48d0284f501dd4aee",
+        "size": 63310,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0ff82c956107a17b1e2b7dc48d0284f501dd4aee"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-08-external-fresh-per-game.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44709eef33bc8d4dab05061ca0acf16cd5a24275",
+        "size": 8757,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/44709eef33bc8d4dab05061ca0acf16cd5a24275"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-08-nw-pasture.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "992270913816e2f94754274192f2780118423117",
+        "size": 41840,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/992270913816e2f94754274192f2780118423117"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-09-field-pace.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ed44f4a05f7390110002858dc7f4b280553b49d",
+        "size": 41046,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2ed44f4a05f7390110002858dc7f4b280553b49d"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-09-scoreboard-trigger.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6685b01bc6c05b709be1a4e073b2265e4d94698a",
+        "size": 21950,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6685b01bc6c05b709be1a4e073b2265e4d94698a"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-10-cashflow.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba1eae411a16b36abc1d06d4809fc90a91121695",
+        "size": 14892,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ba1eae411a16b36abc1d06d4809fc90a91121695"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-10-dawn-reserve.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f43e57806afeaeb8786a6ae29311c6696a3df6b3",
+        "size": 27738,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f43e57806afeaeb8786a6ae29311c6696a3df6b3"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-10-dusk-floor.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "220e4de556ac17f34d97da9be51a5dd65d80da77",
+        "size": 23421,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/220e4de556ac17f34d97da9be51a5dd65d80da77"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-10-herd-first.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "988e8ab4e29887fd96acfeccdcc7b395ceee575c",
+        "size": 29376,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/988e8ab4e29887fd96acfeccdcc7b395ceee575c"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-10-lean-feed.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2101c4bc91b407319d30bbc7854fcbd46dd3dfdd",
+        "size": 37422,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2101c4bc91b407319d30bbc7854fcbd46dd3dfdd"
+      },
+      {
+        "path": "docs/superpowers/plans/2026-09-10-predator.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19889352d9e28b381a11deaf29992394a9deacab",
+        "size": 48064,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/19889352d9e28b381a11deaf29992394a9deacab"
+      },
+      {
+        "path": "docs/superpowers/specs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a0a37d7e86cbf9e9f594d2ba77806abbbd9b4397",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/a0a37d7e86cbf9e9f594d2ba77806abbbd9b4397"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-12-meta-benchmark-and-rancher-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "add155bef36e1fdf314b86bbefa0b3d9b097cbaf",
+        "size": 6419,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/add155bef36e1fdf314b86bbefa0b3d9b097cbaf"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-12-meta-rancher-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "847fc231ad4237d57baaeb8a3aed649210b23271",
+        "size": 5613,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/847fc231ad4237d57baaeb8a3aed649210b23271"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-12-neuropilot-architecture-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a4046ff7b1a8633ac1b3fc48dd63e8653a3a220",
+        "size": 6962,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7a4046ff7b1a8633ac1b3fc48dd63e8653a3a220"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-13-neuroevolution-harness-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95b7758c20e36385dc3433c5b04dfc7d12c544c6",
+        "size": 6596,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/95b7758c20e36385dc3433c5b04dfc7d12c544c6"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-14-evolution-fitness-signal-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17008c07fe0cb34c8fd35fe360517fe8a26dcecc",
+        "size": 11595,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/17008c07fe0cb34c8fd35fe360517fe8a26dcecc"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-16-champion-designation-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fcbecc0c1a217d594f9c4ae5f1cabf4bd0660dcd",
+        "size": 9734,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/fcbecc0c1a217d594f9c4ae5f1cabf4bd0660dcd"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-22-job-assignment-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "affd15a800bb7788873bf616bbf20b17b49717ed",
+        "size": 14739,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/affd15a800bb7788873bf616bbf20b17b49717ed"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-08-30-external-measurement-pool-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b7c66d728c4179af0f48f7a4a0318d5c15ffa31",
+        "size": 7878,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7b7c66d728c4179af0f48f7a4a0318d5c15ffa31"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-05-mpc-sell-hold-objective-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "290f963e2a53cd324fbbf82adf94f213f88aa4bb",
+        "size": 11252,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/290f963e2a53cd324fbbf82adf94f213f88aa4bb"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-06-rival-aware-herd-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2f821cbbad3d6ab5905be10f72b272872712bbe",
+        "size": 6233,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c2f821cbbad3d6ab5905be10f72b272872712bbe"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-06-triage-tool-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88dd283deb51015231d0f7e61812aee292f7780e",
+        "size": 11380,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/88dd283deb51015231d0f7e61812aee292f7780e"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-07-external-anchors-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a58ab37ad0829c5659007050b57f3817dcc7646",
+        "size": 13672,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7a58ab37ad0829c5659007050b57f3817dcc7646"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-08-nw-pasture-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73c1fd11f1a5c8ebb9193a65f5a42a884160e5d8",
+        "size": 10984,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/73c1fd11f1a5c8ebb9193a65f5a42a884160e5d8"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-09-field-pace-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff8874e20244df1b32f1aa718cc6dd91f9d50a67",
+        "size": 9676,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ff8874e20244df1b32f1aa718cc6dd91f9d50a67"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-09-scoreboard-trigger-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51bf7d66a365a88294571e075933ce9c3510b6c8",
+        "size": 6479,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/51bf7d66a365a88294571e075933ce9c3510b6c8"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-10-cashflow-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3079d60ad3068835f4c9b5a6287d692ed79f40cb",
+        "size": 3721,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3079d60ad3068835f4c9b5a6287d692ed79f40cb"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-10-dawn-reserve-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3355b8d312a887d56fd4c754ec1da295324a5d35",
+        "size": 6986,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3355b8d312a887d56fd4c754ec1da295324a5d35"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-10-dusk-floor-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71ca71027cb1ec4fde279984b1ec8f630edc831a",
+        "size": 7971,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/71ca71027cb1ec4fde279984b1ec8f630edc831a"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-10-herd-first-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6b2b94e6d6b84f197bbf18911d0826ac9204d63",
+        "size": 7555,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a6b2b94e6d6b84f197bbf18911d0826ac9204d63"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-10-lean-feed-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9858e461c88d5e7767b2b4b505c6fc2f6de5c751",
+        "size": 6462,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/9858e461c88d5e7767b2b4b505c6fc2f6de5c751"
+      },
+      {
+        "path": "docs/superpowers/specs/2026-09-10-predator-design.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6efff9ff302604d8174d47573468182f0f0da8e",
+        "size": 10067,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f6efff9ff302604d8174d47573468182f0f0da8e"
+      },
+      {
+        "path": "harness",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "80062251b5e7a974e2974e29d5622dfca12b833c",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/80062251b5e7a974e2974e29d5622dfca12b833c"
+      },
+      {
+        "path": "harness/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "harness/calibration_verdicts.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac34d3796cebad6f45b3fc67185c2f11105aa05c",
+        "size": 1789,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ac34d3796cebad6f45b3fc67185c2f11105aa05c"
+      },
+      {
+        "path": "harness/cashflow.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c18e4d4a6ce864a524b4b4a96d27b873d802164e",
+        "size": 8762,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c18e4d4a6ce864a524b4b4a96d27b873d802164e"
+      },
+      {
+        "path": "harness/ceiling_lp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d0239ad157a21785be02f642628cf7beea54d8f",
+        "size": 9697,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/1d0239ad157a21785be02f642628cf7beea54d8f"
+      },
+      {
+        "path": "harness/champion.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c5fd2a851da5677822420dfa4e27ba6f852e72a",
+        "size": 351,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6c5fd2a851da5677822420dfa4e27ba6f852e72a"
+      },
+      {
+        "path": "harness/clock_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5944e3b3264bc7024da7f6a9e4b2418211ac1d43",
+        "size": 8906,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/5944e3b3264bc7024da7f6a9e4b2418211ac1d43"
+      },
+      {
+        "path": "harness/episode_analysis.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61b174e2f9ed4f8b4063bed667ed736548177eef",
+        "size": 21757,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/61b174e2f9ed4f8b4063bed667ed736548177eef"
+      },
+      {
+        "path": "harness/evolve.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "678b2bcb2ddad9a4574c12c3b3715719695289e4",
+        "size": 21244,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/678b2bcb2ddad9a4574c12c3b3715719695289e4"
+      },
+      {
+        "path": "harness/external_agents.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e655a004ef222cd92463ffb1b63920e70d5d601",
+        "size": 19525,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0e655a004ef222cd92463ffb1b63920e70d5d601"
+      },
+      {
+        "path": "harness/external_pool.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d8956f0dd308b0539da722bcfbcd4aa38c6b87b",
+        "size": 20253,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2d8956f0dd308b0539da722bcfbcd4aa38c6b87b"
+      },
+      {
+        "path": "harness/farm_census.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bdd5ad4797eaf34f31002f6f8d334e3832051d1",
+        "size": 8023,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0bdd5ad4797eaf34f31002f6f8d334e3832051d1"
+      },
+      {
+        "path": "harness/feed_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb16812aeab7c908b8e167c5bce8d5b3916812e7",
+        "size": 13457,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/eb16812aeab7c908b8e167c5bce8d5b3916812e7"
+      },
+      {
+        "path": "harness/flip_rate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b02c60d145edadd38dfebb90dcd2e910cbe6e9dd",
+        "size": 4800,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b02c60d145edadd38dfebb90dcd2e910cbe6e9dd"
+      },
+      {
+        "path": "harness/floor_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bec8cd0d950636951d65a7bc07fc33b96b636f19",
+        "size": 9489,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/bec8cd0d950636951d65a7bc07fc33b96b636f19"
+      },
+      {
+        "path": "harness/front_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecca0d0d08d9232ec1680ca64e68034f098a2380",
+        "size": 12508,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ecca0d0d08d9232ec1680ca64e68034f098a2380"
+      },
+      {
+        "path": "harness/genome_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6a06ffc0a81ad1109379e08d98cdf1d0ca1fe5b",
+        "size": 5844,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e6a06ffc0a81ad1109379e08d98cdf1d0ca1fe5b"
+      },
+      {
+        "path": "harness/genomes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "641d863f6bf353a865ca820c007629365f5c1f46",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/641d863f6bf353a865ca820c007629365f5c1f46"
+      },
+      {
+        "path": "harness/genomes/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "harness/genomes/199-predator.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7b78046974cf016a5c8ea5ac19316522b728924",
+        "size": 22020,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b7b78046974cf016a5c8ea5ac19316522b728924"
+      },
+      {
+        "path": "harness/ghost_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3ab78d753b23836c7217acd5cc38719dc7981fa",
+        "size": 12712,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c3ab78d753b23836c7217acd5cc38719dc7981fa"
+      },
+      {
+        "path": "harness/herder_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52c5d8a27313ba13459531525ca49a87160fd5ae",
+        "size": 16218,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/52c5d8a27313ba13459531525ca49a87160fd5ae"
+      },
+      {
+        "path": "harness/ladder_correlation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73dd89985bda93adb715b0676e049e84c4e4ab28",
+        "size": 12510,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/73dd89985bda93adb715b0676e049e84c4e4ab28"
+      },
+      {
+        "path": "harness/layout_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e5bcc55c793a783e3955cac37dd49f5775800d7",
+        "size": 12631,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7e5bcc55c793a783e3955cac37dd49f5775800d7"
+      },
+      {
+        "path": "harness/market_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5dab50d63d98f0f1eb22865da8a7beeedb8afd78",
+        "size": 4873,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/5dab50d63d98f0f1eb22865da8a7beeedb8afd78"
+      },
+      {
+        "path": "harness/milk_trace.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62571c833a16efdc76684b51dbb9de9483b5f6d0",
+        "size": 28454,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/62571c833a16efdc76684b51dbb9de9483b5f6d0"
+      },
+      {
+        "path": "harness/multi_seed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7ab8deb040baf438ba33456de110013dd0bb3b0",
+        "size": 10204,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b7ab8deb040baf438ba33456de110013dd0bb3b0"
+      },
+      {
+        "path": "harness/mutation_correlation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "563ef56c27f400bbc18fbece31df3681748acb58",
+        "size": 6889,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/563ef56c27f400bbc18fbece31df3681748acb58"
+      },
+      {
+        "path": "harness/noise_calibration.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7685856b6bb78befe9ebd12580ea26ca3ee3621",
+        "size": 8619,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f7685856b6bb78befe9ebd12580ea26ca3ee3621"
+      },
+      {
+        "path": "harness/objective_check.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfb059814ff540f8e3eb455c567521af20a03b62",
+        "size": 8883,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/cfb059814ff540f8e3eb455c567521af20a03b62"
+      },
+      {
+        "path": "harness/opening_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66ba435579e7ba5030bce38a85dfaeb34b926905",
+        "size": 23797,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/66ba435579e7ba5030bce38a85dfaeb34b926905"
+      },
+      {
+        "path": "harness/order_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "787116cb84ee8fa52dcbafd53f4305987ce48363",
+        "size": 10967,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/787116cb84ee8fa52dcbafd53f4305987ce48363"
+      },
+      {
+        "path": "harness/pace_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "334f159f14aeb6dba0f66ba8f663ffd3bf47a6b9",
+        "size": 11369,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/334f159f14aeb6dba0f66ba8f663ffd3bf47a6b9"
+      },
+      {
+        "path": "harness/pasture_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "232c43b7407eddf6ca575f3d52096bb7b68e6cea",
+        "size": 13737,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/232c43b7407eddf6ca575f3d52096bb7b68e6cea"
+      },
+      {
+        "path": "harness/predator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b459aaf2210f223031b07f01ad53f4f6dcc99cf8",
+        "size": 6579,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b459aaf2210f223031b07f01ad53f4f6dcc99cf8"
+      },
+      {
+        "path": "harness/predator_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "766e2d8885c90a81086ea6873a9cf3035de64576",
+        "size": 9674,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/766e2d8885c90a81086ea6873a9cf3035de64576"
+      },
+      {
+        "path": "harness/production_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5de2bff31e19ccc1c82478954a57238865dc043f",
+        "size": 14145,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/5de2bff31e19ccc1c82478954a57238865dc043f"
+      },
+      {
+        "path": "harness/promotion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0660f61cb9d2a2fb3cc63dcb99b7f00b8cbee69",
+        "size": 21343,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f0660f61cb9d2a2fb3cc63dcb99b7f00b8cbee69"
+      },
+      {
+        "path": "harness/reserve_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74e90df048899eaec7ce4da6f65b422f7c0544f0",
+        "size": 9968,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/74e90df048899eaec7ce4da6f65b422f7c0544f0"
+      },
+      {
+        "path": "harness/rival_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77491f74d584199a30200367d9604c77f4cbfd1c",
+        "size": 21315,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/77491f74d584199a30200367d9604c77f4cbfd1c"
+      },
+      {
+        "path": "harness/rollout_objective.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59f8c9113c60d38a576cd4aeb89c40a7903e9266",
+        "size": 2508,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/59f8c9113c60d38a576cd4aeb89c40a7903e9266"
+      },
+      {
+        "path": "harness/rounds.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0762e284bbc26ae500450427ed5c2e48453e384c",
+        "size": 1332,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0762e284bbc26ae500450427ed5c2e48453e384c"
+      },
+      {
+        "path": "harness/rounds.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e01557b7368d898aa26e7731b6dcc63df6bcdd4",
+        "size": 4851,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0e01557b7368d898aa26e7731b6dcc63df6bcdd4"
+      },
+      {
+        "path": "harness/scoreboard",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "482f4293865fe61a2c6b9c45aabb42f29330e466",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/482f4293865fe61a2c6b9c45aabb42f29330e466"
+      },
+      {
+        "path": "harness/scoreboard/trigger_readings.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a042350e52dea7acf50b1c9850e733c4048b6305",
+        "size": 59714,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a042350e52dea7acf50b1c9850e733c4048b6305"
+      },
+      {
+        "path": "harness/scoreboard_probe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fbb1f1c5210dc0395d0d13d3527b2cc14725c23",
+        "size": 11321,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8fbb1f1c5210dc0395d0d13d3527b2cc14725c23"
+      },
+      {
+        "path": "harness/state_set.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "951360bdc3a211e707a9fa23520dd7a73d6506b5",
+        "size": 3211,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/951360bdc3a211e707a9fa23520dd7a73d6506b5"
+      },
+      {
+        "path": "harness/tournament.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dedfc510d255e81a7d9f57f543d24b5f3ac8412f",
+        "size": 3920,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/dedfc510d255e81a7d9f57f543d24b5f3ac8412f"
+      },
+      {
+        "path": "harness/triage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05a4956868678fb46646ed094322413e5db5f50f",
+        "size": 11136,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/05a4956868678fb46646ed094322413e5db5f50f"
+      },
+      {
+        "path": "kaggisim",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dddbd1ea781e2f4237210d925627f74a76fb32e1",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/dddbd1ea781e2f4237210d925627f74a76fb32e1"
+      },
+      {
+        "path": "kaggisim/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b80277093c458db70975c268a2a5a32120e821a1",
+        "size": 308,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b80277093c458db70975c268a2a5a32120e821a1"
+      },
+      {
+        "path": "kaggisim/actions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0fdb4141d69da7e6d4356a612f82bf678fc875d0",
+        "size": 1827,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0fdb4141d69da7e6d4356a612f82bf678fc875d0"
+      },
+      {
+        "path": "kaggisim/economy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "882fe98cac60c5266e4a24f94fa5c4e2b8f629dd",
+        "size": 7853,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/882fe98cac60c5266e4a24f94fa5c4e2b8f629dd"
+      },
+      {
+        "path": "kaggisim/forward.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "659fcd5b11775ec13aa3d26935d8ad7e94daa327",
+        "size": 4179,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/659fcd5b11775ec13aa3d26935d8ad7e94daa327"
+      },
+      {
+        "path": "kaggisim/pricing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf177981284475b941df929acfc88a1a13f8b9c7",
+        "size": 3284,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/bf177981284475b941df929acfc88a1a13f8b9c7"
+      },
+      {
+        "path": "kaggisim/state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58e10d435fab061c711fe937534612d93b8c70a9",
+        "size": 1362,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/58e10d435fab061c711fe937534612d93b8c70a9"
+      },
+      {
+        "path": "kaggisim/strategy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7c4e23157baa44375c9d20984a02af2885f3954",
+        "size": 2161,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/d7c4e23157baa44375c9d20984a02af2885f3954"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5d7230242cad1d3567668a902e94b4fcf77f0ec",
+        "size": 705,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/d5d7230242cad1d3567668a902e94b4fcf77f0ec"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "924e945ba28ba355150123300673760117fa789c",
+        "size": 1478,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/924e945ba28ba355150123300673760117fa789c"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "73b956530b6a3884d9e999f75ddb2a4a4a137703",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/73b956530b6a3884d9e999f75ddb2a4a4a137703"
+      },
+      {
+        "path": "scripts/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ce3087c81938125cf707d918da414dc1b17ff66",
+        "size": 75,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/1ce3087c81938125cf707d918da414dc1b17ff66"
+      },
+      {
+        "path": "scripts/fetch_external_agents.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e53d658d17d594f4f108fff31bf61f3f3363ad2",
+        "size": 17998,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3e53d658d17d594f4f108fff31bf61f3f3363ad2"
+      },
+      {
+        "path": "scripts/preflight.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b05921037df4cb15099b3ecb458b584b29eaa084",
+        "size": 6949,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b05921037df4cb15099b3ecb458b584b29eaa084"
+      },
+      {
+        "path": "scripts/regen_goldens.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4bcbda5cca47114e460f89f4bfeb464c7597dcbd",
+        "size": 2865,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/4bcbda5cca47114e460f89f4bfeb464c7597dcbd"
+      },
+      {
+        "path": "scripts/submit.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b739afa05499e6721ae71451b96c72a734e1985",
+        "size": 16463,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7b739afa05499e6721ae71451b96c72a734e1985"
+      },
+      {
+        "path": "strategies",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ef4e56eb250f4a4fff3d655d31b6cf562548c39a",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/ef4e56eb250f4a4fff3d655d31b6cf562548c39a"
+      },
+      {
+        "path": "strategies/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3c8ecf8bd09e47610d1a71afe8a7f9773fe3b46",
+        "size": 1059,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f3c8ecf8bd09e47610d1a71afe8a7f9773fe3b46"
+      },
+      {
+        "path": "strategies/balanced_farm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee1918f3ff18d2c8a72ccb18bd15c932e0eadcf3",
+        "size": 2633,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ee1918f3ff18d2c8a72ccb18bd15c932e0eadcf3"
+      },
+      {
+        "path": "strategies/capital_rush.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2defe4960b8bf75a1acc1e739db0a97250bd6624",
+        "size": 858,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2defe4960b8bf75a1acc1e739db0a97250bd6624"
+      },
+      {
+        "path": "strategies/catch_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03a6f758aaf3d18cebc0cddddc7c37334b031659",
+        "size": 11453,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/03a6f758aaf3d18cebc0cddddc7c37334b031659"
+      },
+      {
+        "path": "strategies/champion_genome.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab8b8de295ce8911acc57e8d51bb760b7d892d49",
+        "size": 13265,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ab8b8de295ce8911acc57e8d51bb760b7d892d49"
+      },
+      {
+        "path": "strategies/cows_from_day_8.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36c8e8bd06cceaeaef6bc61fd4bf95271e048c49",
+        "size": 1851,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/36c8e8bd06cceaeaef6bc61fd4bf95271e048c49"
+      },
+      {
+        "path": "strategies/dairy_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99990d479851fd21a6266e26b68f65db3bcf80c2",
+        "size": 9297,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/99990d479851fd21a6266e26b68f65db3bcf80c2"
+      },
+      {
+        "path": "strategies/dawn_reserve.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cf0791315811ca483c5e5135221f4b244be90ed",
+        "size": 2508,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8cf0791315811ca483c5e5135221f4b244be90ed"
+      },
+      {
+        "path": "strategies/dense_farm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e65e357beb426a36bd0c837be7f228dda20f9434",
+        "size": 4472,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e65e357beb426a36bd0c837be7f228dda20f9434"
+      },
+      {
+        "path": "strategies/dung_farm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58f0b5be8c27c70799002038efec34793468df5e",
+        "size": 12293,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/58f0b5be8c27c70799002038efec34793468df5e"
+      },
+      {
+        "path": "strategies/dusk_floor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3cd436e24a4c1f5b25f2b8690326c7ed4b52e319",
+        "size": 2525,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3cd436e24a4c1f5b25f2b8690326c7ed4b52e319"
+      },
+      {
+        "path": "strategies/fertilized_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0ba77350ad158958f7c735e78d2c6b88543cd88",
+        "size": 10399,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f0ba77350ad158958f7c735e78d2c6b88543cd88"
+      },
+      {
+        "path": "strategies/field_pace.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cdac598b0d495096d828a75c4a9f46106d545c3",
+        "size": 3620,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/9cdac598b0d495096d828a75c4a9f46106d545c3"
+      },
+      {
+        "path": "strategies/field_rival.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0aa7c1f17e5f772371e7ae24339e1e2e6f89ced4",
+        "size": 35885,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0aa7c1f17e5f772371e7ae24339e1e2e6f89ced4"
+      },
+      {
+        "path": "strategies/geese_income.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77ae263579fc88077bb92a2859828e7b85aba08f",
+        "size": 13302,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/77ae263579fc88077bb92a2859828e7b85aba08f"
+      },
+      {
+        "path": "strategies/ghost.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29d6206c02a3500aafab24d1e0929bd06539377d",
+        "size": 4372,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/29d6206c02a3500aafab24d1e0929bd06539377d"
+      },
+      {
+        "path": "strategies/greedy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "366f10a016a8c0d7ad00df7cc438413960e8b15c",
+        "size": 897,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/366f10a016a8c0d7ad00df7cc438413960e8b15c"
+      },
+      {
+        "path": "strategies/greedy_horizon.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54baee09b468b9aaa5660a295846f53019ef6d6d",
+        "size": 6683,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/54baee09b468b9aaa5660a295846f53019ef6d6d"
+      },
+      {
+        "path": "strategies/herd_first.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7340eadee9835df8780b6bd8bac7d72f66d4d9b",
+        "size": 1463,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e7340eadee9835df8780b6bd8bac7d72f66d4d9b"
+      },
+      {
+        "path": "strategies/hired_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed4f31189c0a24ff12a749a049d49e401b7dd1e2",
+        "size": 9912,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ed4f31189c0a24ff12a749a049d49e401b7dd1e2"
+      },
+      {
+        "path": "strategies/lean.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd2557f28a1797ed9048d464a31d02f4cab135a2",
+        "size": 1956,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/fd2557f28a1797ed9048d464a31d02f4cab135a2"
+      },
+      {
+        "path": "strategies/lean_feed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a6e2edbd5fb864410b034121d475c511310c4ba",
+        "size": 2277,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8a6e2edbd5fb864410b034121d475c511310c4ba"
+      },
+      {
+        "path": "strategies/livestock_hand.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85cc7f4b4d2009b5dd350f46c81f30f378d7f41d",
+        "size": 12928,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/85cc7f4b4d2009b5dd350f46c81f30f378d7f41d"
+      },
+      {
+        "path": "strategies/market_farmer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da9d0da9e1d63939191156025d9ac5cf872dfd5e",
+        "size": 21413,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/da9d0da9e1d63939191156025d9ac5cf872dfd5e"
+      },
+      {
+        "path": "strategies/market_timer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8c17c929e75c5e3ad481fa8e99d20169094e6e7",
+        "size": 870,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a8c17c929e75c5e3ad481fa8e99d20169094e6e7"
+      },
+      {
+        "path": "strategies/meta_bot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a19ea5f6a9c49f12b507cc966f1f73f621c98319",
+        "size": 24741,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a19ea5f6a9c49f12b507cc966f1f73f621c98319"
+      },
+      {
+        "path": "strategies/meta_rancher.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c43f4de601c089239dbd1a1e7dddf16c42db5c8",
+        "size": 25652,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3c43f4de601c089239dbd1a1e7dddf16c42db5c8"
+      },
+      {
+        "path": "strategies/mixed_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "541a626a2a37834461f8ec35df8cf8d221e0cb4c",
+        "size": 8192,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/541a626a2a37834461f8ec35df8cf8d221e0cb4c"
+      },
+      {
+        "path": "strategies/neuropilot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6453cbe690b7157129b9b99d0b4933ab6420c3c4",
+        "size": 47109,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6453cbe690b7157129b9b99d0b4933ab6420c3c4"
+      },
+      {
+        "path": "strategies/nw_pasture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c32d4f5538a9447d3779e676827bb6edafcc5b21",
+        "size": 3289,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c32d4f5538a9447d3779e676827bb6edafcc5b21"
+      },
+      {
+        "path": "strategies/opening_book.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ff62760fdca33563ea8849b047d7a6fbef5775d",
+        "size": 5340,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2ff62760fdca33563ea8849b047d7a6fbef5775d"
+      },
+      {
+        "path": "strategies/pasture_ahead.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "670cf8fc0cd5bb4f1cc6cc2ca83e7c955c08e5f2",
+        "size": 2959,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/670cf8fc0cd5bb4f1cc6cc2ca83e7c955c08e5f2"
+      },
+      {
+        "path": "strategies/pasture_first.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad3e3d909751f63bf834f4153ae14e3a2893767c",
+        "size": 2874,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ad3e3d909751f63bf834f4153ae14e3a2893767c"
+      },
+      {
+        "path": "strategies/planner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a5ef9c8c3aabb872a0a709b754edeec87435026",
+        "size": 887,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6a5ef9c8c3aabb872a0a709b754edeec87435026"
+      },
+      {
+        "path": "strategies/predator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "700d894330d8856054308bf0aca0b3e713efbd89",
+        "size": 8079,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/700d894330d8856054308bf0aca0b3e713efbd89"
+      },
+      {
+        "path": "strategies/ranch_adaptive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4b491b631695f943ebc70e927ccfe6e31bb3b94",
+        "size": 10269,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b4b491b631695f943ebc70e927ccfe6e31bb3b94"
+      },
+      {
+        "path": "strategies/ranch_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d604acb9bc9bc9cb264d5cd31374dad382bc5cb7",
+        "size": 14007,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/d604acb9bc9bc9cb264d5cd31374dad382bc5cb7"
+      },
+      {
+        "path": "strategies/rival_aware.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab1d9bff125b62d7e5d266741cb99599bc2675ca",
+        "size": 1466,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ab1d9bff125b62d7e5d266741cb99599bc2675ca"
+      },
+      {
+        "path": "strategies/routed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20fd2c1bf5f1cfbc1c83e33d3722e2cb63e01bb6",
+        "size": 7082,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/20fd2c1bf5f1cfbc1c83e33d3722e2cb63e01bb6"
+      },
+      {
+        "path": "strategies/sell_discipline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82338be123ba13cdfe34af2856b3c9422ad41fcd",
+        "size": 2580,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/82338be123ba13cdfe34af2856b3c9422ad41fcd"
+      },
+      {
+        "path": "strategies/smart_seller.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92ae1eef467a0e25f4d9fb5973c3997c281d139c",
+        "size": 8256,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/92ae1eef467a0e25f4d9fb5973c3997c281d139c"
+      },
+      {
+        "path": "strategies/splitbrain.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b73e32b0389fc7a095d8129a75960a5c63880bed",
+        "size": 10908,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b73e32b0389fc7a095d8129a75960a5c63880bed"
+      },
+      {
+        "path": "strategies/spoiler.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "881099ca906c2637f117ffcb22ef5d5e94d21402",
+        "size": 5363,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/881099ca906c2637f117ffcb22ef5d5e94d21402"
+      },
+      {
+        "path": "strategies/third_herder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62393702496b15ec9dc8af638a35621cdd35e207",
+        "size": 3615,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/62393702496b15ec9dc8af638a35621cdd35e207"
+      },
+      {
+        "path": "strategies/wheat_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "998e84e4e66968350cd004d88d77f53475457d01",
+        "size": 8960,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/998e84e4e66968350cd004d88d77f53475457d01"
+      },
+      {
+        "path": "strategies/wide_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a04cff30e5feb52d857458dbe19fa097b6fee04",
+        "size": 5414,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8a04cff30e5feb52d857458dbe19fa097b6fee04"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5aa0973c14d8f8cd622e1babe5cb7ea97adcfc9e",
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/trees/5aa0973c14d8f8cd622e1babe5cb7ea97adcfc9e"
+      },
+      {
+        "path": "tests/test_actions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6512e3cd5cda2d6e32b3e948a60043c38dabdd8d",
+        "size": 1703,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6512e3cd5cda2d6e32b3e948a60043c38dabdd8d"
+      },
+      {
+        "path": "tests/test_adr_integrity.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9cf90676db154448d74ec75e58ce02e878c283a",
+        "size": 9277,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a9cf90676db154448d74ec75e58ce02e878c283a"
+      },
+      {
+        "path": "tests/test_balanced_farm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa7c0a8a77412010ff88dfe42c617223470e6962",
+        "size": 3239,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/aa7c0a8a77412010ff88dfe42c617223470e6962"
+      },
+      {
+        "path": "tests/test_benchmark_flag.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6342141ff21453cfda121b7a412e5796a146021a",
+        "size": 951,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6342141ff21453cfda121b7a412e5796a146021a"
+      },
+      {
+        "path": "tests/test_calibration_verdicts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2060f00168e9c2128fd1acf29e801fa9227de81c",
+        "size": 2254,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/2060f00168e9c2128fd1acf29e801fa9227de81c"
+      },
+      {
+        "path": "tests/test_cashflow.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0541b8e90fa4f327b63e848d4071369656a06776",
+        "size": 5047,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0541b8e90fa4f327b63e848d4071369656a06776"
+      },
+      {
+        "path": "tests/test_catch_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cdaa7ac9bd7a71be99d6fe41f8a5e558350f37d8",
+        "size": 7082,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/cdaa7ac9bd7a71be99d6fe41f8a5e558350f37d8"
+      },
+      {
+        "path": "tests/test_ceiling_lp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fccc58bc1054e2621bbcbb3a2f8b83c135aab3d2",
+        "size": 3991,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/fccc58bc1054e2621bbcbb3a2f8b83c135aab3d2"
+      },
+      {
+        "path": "tests/test_champion_excludes_benchmark.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d13d243ba2abe495e4901bcf4b3d2f89ef4f3cc",
+        "size": 2128,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/5d13d243ba2abe495e4901bcf4b3d2f89ef4f3cc"
+      },
+      {
+        "path": "tests/test_champion_genome_regression.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36ed55c7d52a919235641d4c0069ef8548a9e70a",
+        "size": 26957,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/36ed55c7d52a919235641d4c0069ef8548a9e70a"
+      },
+      {
+        "path": "tests/test_clock_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a7591dd4bd7dabf8f3abea5f2f5e72e37dbd419",
+        "size": 2905,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6a7591dd4bd7dabf8f3abea5f2f5e72e37dbd419"
+      },
+      {
+        "path": "tests/test_cows_from_day_8.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90b0bd9879fb488b63ee1f9f89072c0e1de45686",
+        "size": 2200,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/90b0bd9879fb488b63ee1f9f89072c0e1de45686"
+      },
+      {
+        "path": "tests/test_dairy_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "284aa14a5aa3972b068a8448a6805a65fb1a7613",
+        "size": 6997,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/284aa14a5aa3972b068a8448a6805a65fb1a7613"
+      },
+      {
+        "path": "tests/test_dawn_reserve.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e76da7560dd0ad6a30579d9f43bbad8746d619e",
+        "size": 2925,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6e76da7560dd0ad6a30579d9f43bbad8746d619e"
+      },
+      {
+        "path": "tests/test_dense_farm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "672f3feafc5efc145f09800a5c04394f5441bc49",
+        "size": 6299,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/672f3feafc5efc145f09800a5c04394f5441bc49"
+      },
+      {
+        "path": "tests/test_dung_farm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77d7f837dd853f7a41b58b0c816fd92801da47c6",
+        "size": 10497,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/77d7f837dd853f7a41b58b0c816fd92801da47c6"
+      },
+      {
+        "path": "tests/test_dusk_floor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "845ae378d01bf037f4c38332738e4d9390319eaa",
+        "size": 2616,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/845ae378d01bf037f4c38332738e4d9390319eaa"
+      },
+      {
+        "path": "tests/test_economy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13b4244b0a656cd7e359cf44febce1d46e1ff532",
+        "size": 765,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/13b4244b0a656cd7e359cf44febce1d46e1ff532"
+      },
+      {
+        "path": "tests/test_economy_matches_sim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "152a94fa97c00f299b4273e1b5e429a5e0570cf2",
+        "size": 6545,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/152a94fa97c00f299b4273e1b5e429a5e0570cf2"
+      },
+      {
+        "path": "tests/test_episode_analysis.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df165866dc3a5beffe654b48e8a95973d5665be6",
+        "size": 26478,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/df165866dc3a5beffe654b48e8a95973d5665be6"
+      },
+      {
+        "path": "tests/test_evolve.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "600c2bd45d769ab6180d0d4f1ddae0700c65ee21",
+        "size": 29273,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/600c2bd45d769ab6180d0d4f1ddae0700c65ee21"
+      },
+      {
+        "path": "tests/test_external_pool.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "631f4e738bdd04cb91a1db9fb182038a63e3de0e",
+        "size": 28302,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/631f4e738bdd04cb91a1db9fb182038a63e3de0e"
+      },
+      {
+        "path": "tests/test_failsafe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b09ba22a06b34e2ff6ac7b7fd7250e5da2b05c50",
+        "size": 12532,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b09ba22a06b34e2ff6ac7b7fd7250e5da2b05c50"
+      },
+      {
+        "path": "tests/test_farm_census.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45415d182c62eeb044596eaaa22a7209e9270a42",
+        "size": 8478,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/45415d182c62eeb044596eaaa22a7209e9270a42"
+      },
+      {
+        "path": "tests/test_feed_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdc8cfab8b43e3e6856d4ad0dcfd2a0b197abac4",
+        "size": 7743,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/fdc8cfab8b43e3e6856d4ad0dcfd2a0b197abac4"
+      },
+      {
+        "path": "tests/test_fertilized_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0cad56323be1260b20cfd6b0b1962a2c91c25a27",
+        "size": 7548,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0cad56323be1260b20cfd6b0b1962a2c91c25a27"
+      },
+      {
+        "path": "tests/test_fetch_external_agents.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9349b21696e75de1f05707beab1190716bb125bb",
+        "size": 28996,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/9349b21696e75de1f05707beab1190716bb125bb"
+      },
+      {
+        "path": "tests/test_field_pace.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a2158b0b62b59eaa30238e734dbc752770955e4",
+        "size": 6350,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8a2158b0b62b59eaa30238e734dbc752770955e4"
+      },
+      {
+        "path": "tests/test_field_rival.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "daa48183c2b1029366330e405d8a5ef88095dd1f",
+        "size": 45336,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/daa48183c2b1029366330e405d8a5ef88095dd1f"
+      },
+      {
+        "path": "tests/test_flip_rate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23830c51153aa12cea778673567e4727fbaa8c64",
+        "size": 4395,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/23830c51153aa12cea778673567e4727fbaa8c64"
+      },
+      {
+        "path": "tests/test_floor_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17218ff4ca365de796a90cb22fc70b1a933bd9dd",
+        "size": 3026,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/17218ff4ca365de796a90cb22fc70b1a933bd9dd"
+      },
+      {
+        "path": "tests/test_forward.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2522f4d07668d17b26cbab1c46c481f05f3c854",
+        "size": 2235,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a2522f4d07668d17b26cbab1c46c481f05f3c854"
+      },
+      {
+        "path": "tests/test_front_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53a3f9edc3644233185b9eacc5e366f9c9c4775f",
+        "size": 4781,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/53a3f9edc3644233185b9eacc5e366f9c9c4775f"
+      },
+      {
+        "path": "tests/test_geese_income.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7d7793050530b5d52b4f3acb459f1e3863396d8",
+        "size": 8315,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a7d7793050530b5d52b4f3acb459f1e3863396d8"
+      },
+      {
+        "path": "tests/test_genome_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd84179b4bb962b49e32c651bfd9306f12e5dd65",
+        "size": 3873,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/cd84179b4bb962b49e32c651bfd9306f12e5dd65"
+      },
+      {
+        "path": "tests/test_ghost.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e321d31ac7d690d485a956518ecc8a65e546f01",
+        "size": 3953,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6e321d31ac7d690d485a956518ecc8a65e546f01"
+      },
+      {
+        "path": "tests/test_ghost_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39a316abedca1ee834345138e1fb3c42148c0b4e",
+        "size": 6800,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/39a316abedca1ee834345138e1fb3c42148c0b4e"
+      },
+      {
+        "path": "tests/test_greedy_horizon.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f8abfbac483b0a20f798bba4b7094a37ef6dae8",
+        "size": 2743,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3f8abfbac483b0a20f798bba4b7094a37ef6dae8"
+      },
+      {
+        "path": "tests/test_herd_first.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c894dfc923c20f738335801832df3b77cdb07de",
+        "size": 1931,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7c894dfc923c20f738335801832df3b77cdb07de"
+      },
+      {
+        "path": "tests/test_herder_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b930f9c6d851e77f9a6688bb8b97b361a7cfa446",
+        "size": 7345,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b930f9c6d851e77f9a6688bb8b97b361a7cfa446"
+      },
+      {
+        "path": "tests/test_hinge_pricing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49e1c36a791e23a417a9f077270b2c4d31a734d6",
+        "size": 3784,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/49e1c36a791e23a417a9f077270b2c4d31a734d6"
+      },
+      {
+        "path": "tests/test_hired_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d383d259c7929918a7e6909585e4f6baf959dc81",
+        "size": 7428,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/d383d259c7929918a7e6909585e4f6baf959dc81"
+      },
+      {
+        "path": "tests/test_kaggisim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e810604284ccd36690d16e6f1af830847f214097",
+        "size": 1997,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e810604284ccd36690d16e6f1af830847f214097"
+      },
+      {
+        "path": "tests/test_ladder_correlation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3076b349c400c8e0192c3fb1b8e9fedeab57e29e",
+        "size": 10270,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3076b349c400c8e0192c3fb1b8e9fedeab57e29e"
+      },
+      {
+        "path": "tests/test_layout_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e73c46770ee7b9950d34a71b93a502b847ff9cf8",
+        "size": 5835,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/e73c46770ee7b9950d34a71b93a502b847ff9cf8"
+      },
+      {
+        "path": "tests/test_lean_feed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf5b86ed00e605cb7d7b5750e016be68c322c39e",
+        "size": 2368,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/cf5b86ed00e605cb7d7b5750e016be68c322c39e"
+      },
+      {
+        "path": "tests/test_livestock_hand.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0adc422c632f6857daca75dec24ea62ebc625882",
+        "size": 8814,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0adc422c632f6857daca75dec24ea62ebc625882"
+      },
+      {
+        "path": "tests/test_market_farmer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d55d4f4536defad2b843bbc4533403c611ab9ab",
+        "size": 19400,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6d55d4f4536defad2b843bbc4533403c611ab9ab"
+      },
+      {
+        "path": "tests/test_meta_bot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4a57e3c10eb9b03b6e8f1d33444f2ad6bb6ba31",
+        "size": 14445,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a4a57e3c10eb9b03b6e8f1d33444f2ad6bb6ba31"
+      },
+      {
+        "path": "tests/test_meta_rancher.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7349410c32154121c895d3feda99dbcb1190cbb6",
+        "size": 1386,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7349410c32154121c895d3feda99dbcb1190cbb6"
+      },
+      {
+        "path": "tests/test_milk_trace.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "090909fde12f4e72af9c7c8b227afd634a82fcf9",
+        "size": 15836,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/090909fde12f4e72af9c7c8b227afd634a82fcf9"
+      },
+      {
+        "path": "tests/test_mixed_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74cd8b74873848b5b4e60c5f08167d7f06d9f883",
+        "size": 7549,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/74cd8b74873848b5b4e60c5f08167d7f06d9f883"
+      },
+      {
+        "path": "tests/test_multi_seed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c3ac3bb48750a1cc057b33b63f024d727aba37f",
+        "size": 4789,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/5c3ac3bb48750a1cc057b33b63f024d727aba37f"
+      },
+      {
+        "path": "tests/test_mutation_correlation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39e22e97bd6f62252fd137c0948be351d0da4ea1",
+        "size": 6557,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/39e22e97bd6f62252fd137c0948be351d0da4ea1"
+      },
+      {
+        "path": "tests/test_neuropilot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "427425c8add40bda19daf5a62ef287772318169f",
+        "size": 46004,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/427425c8add40bda19daf5a62ef287772318169f"
+      },
+      {
+        "path": "tests/test_no_crash.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "933e17dcd436926e8aca02ca1ba9e0c8b631e931",
+        "size": 1995,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/933e17dcd436926e8aca02ca1ba9e0c8b631e931"
+      },
+      {
+        "path": "tests/test_no_restated_demand_figures.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0b81e8089db7883a10741d7a69000c8608cce35",
+        "size": 1635,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f0b81e8089db7883a10741d7a69000c8608cce35"
+      },
+      {
+        "path": "tests/test_noise_calibration.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d52ff01bc9d167e626af5575bd8f6d624b5c0b5",
+        "size": 7078,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8d52ff01bc9d167e626af5575bd8f6d624b5c0b5"
+      },
+      {
+        "path": "tests/test_nw_pasture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ee71f1fe23bc62011420668b0ff990ebe4e34d9",
+        "size": 3489,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/5ee71f1fe23bc62011420668b0ff990ebe4e34d9"
+      },
+      {
+        "path": "tests/test_objective_check.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cc71a29886e2801e81d128914322eb512e1d0fb",
+        "size": 3216,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/8cc71a29886e2801e81d128914322eb512e1d0fb"
+      },
+      {
+        "path": "tests/test_opening_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1d11ae594cc131d0e853e9abf19cd6d689a9536",
+        "size": 14420,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a1d11ae594cc131d0e853e9abf19cd6d689a9536"
+      },
+      {
+        "path": "tests/test_opening_book.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de980acaecc1d5d9baccef3022e1366dba90923b",
+        "size": 6260,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/de980acaecc1d5d9baccef3022e1366dba90923b"
+      },
+      {
+        "path": "tests/test_order_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08131e29b8eb6df650183dfd8d5d389fd2491615",
+        "size": 5291,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/08131e29b8eb6df650183dfd8d5d389fd2491615"
+      },
+      {
+        "path": "tests/test_pace_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05c9fd22e891b1ab8712dda3f92a12abe94f7cdb",
+        "size": 6536,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/05c9fd22e891b1ab8712dda3f92a12abe94f7cdb"
+      },
+      {
+        "path": "tests/test_package.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7db7b5e6cebbcf205a36b33ca9c98fc7a45e748d",
+        "size": 863,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/7db7b5e6cebbcf205a36b33ca9c98fc7a45e748d"
+      },
+      {
+        "path": "tests/test_pasture_ahead.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1b96ce0fb991aac0996e13a9269fc4f9dc0a885",
+        "size": 3496,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/b1b96ce0fb991aac0996e13a9269fc4f9dc0a885"
+      },
+      {
+        "path": "tests/test_pasture_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c486453a2be3164a9b7a96ff3b8248308e83617b",
+        "size": 6468,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/c486453a2be3164a9b7a96ff3b8248308e83617b"
+      },
+      {
+        "path": "tests/test_pasture_first.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46ad42340e17431959b101bb96dad32fa8e2dcfd",
+        "size": 2920,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/46ad42340e17431959b101bb96dad32fa8e2dcfd"
+      },
+      {
+        "path": "tests/test_predator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68001226fe0b871a893f15af9cddfd7994733405",
+        "size": 5500,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/68001226fe0b871a893f15af9cddfd7994733405"
+      },
+      {
+        "path": "tests/test_predator_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98cf76f4b25fb4086df2901697414cf85cf38c6d",
+        "size": 5639,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/98cf76f4b25fb4086df2901697414cf85cf38c6d"
+      },
+      {
+        "path": "tests/test_predator_search.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f03f3d64ebb9a2b317209b4c733811e19293e63a",
+        "size": 5234,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f03f3d64ebb9a2b317209b4c733811e19293e63a"
+      },
+      {
+        "path": "tests/test_preflight.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "529a61d232584d713e1691f46bbbdb2622f8a874",
+        "size": 3345,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/529a61d232584d713e1691f46bbbdb2622f8a874"
+      },
+      {
+        "path": "tests/test_pricing_matches_sim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f69d04402b0a270ee290469e4c8b3e008da5b1a",
+        "size": 3590,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/3f69d04402b0a270ee290469e4c8b3e008da5b1a"
+      },
+      {
+        "path": "tests/test_production_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19282b3e30f5b5bdebfa5ce35911733d7f05b0c7",
+        "size": 13509,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/19282b3e30f5b5bdebfa5ce35911733d7f05b0c7"
+      },
+      {
+        "path": "tests/test_promotion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a36ec51e517027ecfe63d1170417cfbbb45d143c",
+        "size": 16287,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a36ec51e517027ecfe63d1170417cfbbb45d143c"
+      },
+      {
+        "path": "tests/test_ranch_adaptive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d1b49fe67cf7e9de0a50a4322097382c4c9400f",
+        "size": 6080,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/4d1b49fe67cf7e9de0a50a4322097382c4c9400f"
+      },
+      {
+        "path": "tests/test_ranch_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d0d869fd38b21c337140f45564b2ac6dca79a1a",
+        "size": 7974,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/1d0d869fd38b21c337140f45564b2ac6dca79a1a"
+      },
+      {
+        "path": "tests/test_regen_goldens.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdd7158ebe2a65d7cd40222e5e43febe1bec070a",
+        "size": 1439,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/fdd7158ebe2a65d7cd40222e5e43febe1bec070a"
+      },
+      {
+        "path": "tests/test_reserve_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc0a83e2f700a8dd5fc400ac33ca6d63473e8083",
+        "size": 3988,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/fc0a83e2f700a8dd5fc400ac33ca6d63473e8083"
+      },
+      {
+        "path": "tests/test_rival_aware.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f327d25636369842dde2c4a9866d31166c4ee625",
+        "size": 7259,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/f327d25636369842dde2c4a9866d31166c4ee625"
+      },
+      {
+        "path": "tests/test_rival_bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0006a7f40dd7cb1478dd54719868aa3c3b00dfe9",
+        "size": 11292,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/0006a7f40dd7cb1478dd54719868aa3c3b00dfe9"
+      },
+      {
+        "path": "tests/test_rollout_objective.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "789e6d4dca4c1d470ff15e5a2983fca37ff44eee",
+        "size": 5034,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/789e6d4dca4c1d470ff15e5a2983fca37ff44eee"
+      },
+      {
+        "path": "tests/test_rounds.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "963eb23c4af828c97d68a2146da285e736ac5a9c",
+        "size": 6040,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/963eb23c4af828c97d68a2146da285e736ac5a9c"
+      },
+      {
+        "path": "tests/test_routed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "906e98409171e4570ba418419ae9d6c60359a019",
+        "size": 3583,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/906e98409171e4570ba418419ae9d6c60359a019"
+      },
+      {
+        "path": "tests/test_scoreboard_probe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1eb357e1ef5dfdf361bf53e616b279febcbf23a4",
+        "size": 8015,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/1eb357e1ef5dfdf361bf53e616b279febcbf23a4"
+      },
+      {
+        "path": "tests/test_sell_discipline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a6448ab429db8d212d2d87616b9e8ad99a8a7fb",
+        "size": 4194,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/6a6448ab429db8d212d2d87616b9e8ad99a8a7fb"
+      },
+      {
+        "path": "tests/test_sim_version_matches_pin.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebab2700bb75b377b196c6ca44b2591ba9ef4f68",
+        "size": 3605,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ebab2700bb75b377b196c6ca44b2591ba9ef4f68"
+      },
+      {
+        "path": "tests/test_smart_seller.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "294bc695ae9c80f1480e4276af4f84aedfd95981",
+        "size": 4165,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/294bc695ae9c80f1480e4276af4f84aedfd95981"
+      },
+      {
+        "path": "tests/test_splitbrain.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3f6f3a71a0dfc14aa973f519e6b4bbcd07566c3",
+        "size": 10555,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/d3f6f3a71a0dfc14aa973f519e6b4bbcd07566c3"
+      },
+      {
+        "path": "tests/test_state_set.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddf4836a4f75f72cb741e33d7bdac841bba917d9",
+        "size": 4133,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/ddf4836a4f75f72cb741e33d7bdac841bba917d9"
+      },
+      {
+        "path": "tests/test_submit.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "baa6b0d5da87cb28aea021914bdd1be193f0f173",
+        "size": 21631,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/baa6b0d5da87cb28aea021914bdd1be193f0f173"
+      },
+      {
+        "path": "tests/test_succession.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1358caa9e7043c990e832ab4a7056a94615cf5d3",
+        "size": 4611,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/1358caa9e7043c990e832ab4a7056a94615cf5d3"
+      },
+      {
+        "path": "tests/test_third_herder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6cb9a0e32e69e0bd049e53a796f453e54d626ad",
+        "size": 3860,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/a6cb9a0e32e69e0bd049e53a796f453e54d626ad"
+      },
+      {
+        "path": "tests/test_triage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "884eefc45df66ffbce671eb15ef29e44d1bacf44",
+        "size": 13091,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/884eefc45df66ffbce671eb15ef29e44d1bacf44"
+      },
+      {
+        "path": "tests/test_wheat_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bbbac2d41e15db6dc932181b656156d3365e470",
+        "size": 3957,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/9bbbac2d41e15db6dc932181b656156d3365e470"
+      },
+      {
+        "path": "tests/test_wide_hands.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43d4801ea3fbd6451892dd6d0b4a3b4901268dd2",
+        "size": 4019,
+        "url": "https://api.github.com/repos/robsartin/robriculture/git/blobs/43d4801ea3fbd6451892dd6d0b4a3b4901268dd2"
+      }
+    ],
+    "truncated": false
+  },
+  "readme_status": 200,
+  "readme": "# robriculture\n\nAn agent for the [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)\nKaggle × Google simulation competition — a 1v1 turn-based farming-economy game\nwhere you maximize profit over a 30-day (720-turn) season.\n\n## Approach\n\nHeuristic economic engine + short-horizon planner first, reinforcement learning\nheld in reserve (see [ADR-0002](docs/adr/0002-heuristic-planner-before-rl.md)).\nWe develop several genuinely different strategies, let them fight in a local\ntournament, and promote the best to the ladder\n([ADR-0003](docs/adr/0003-multi-strategy-portfolio.md)).\n\n## Layout\n\n```\nkaggisim/      shared library bundled into every submission (state, economy, actions)\nstrategies/    swappable agents behind one interface (lean, greedy, planner, ...)\nharness/       local round-robin tournament — our fitness signal\nbuild/         package.py: turn one strategy into a submittable tarball\ntests/         no-crash regression guard (a crash = auto-loss)\ndocs/adr/      architecture decision records\n```\n\n## Setup\n\n```bash\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\n```\n\n## Develop\n\n```bash\n# Run the local tournament (all strategies + built-in bots)\npython -m harness.tournament --games 20\n\n# Regression tests (must stay green — a crash on the ladder is an auto-loss)\npytest -q\n```\n\n## Submit\n\n```bash\n# Build a self-contained tarball for one strategy (runs a smoke test)\npython -m build.package greedy\n\n# Submit from your machine with your own Kaggle CLI credentials\nkaggle competitions submit kaggriculture -f dist/greedy.tar.gz -m \"greedy v1\"\n```\n\nOr do both in one command with `scripts/submit.py` (defaults to the recorded\n`submit_default` from `harness/champion.json`; message defaults to `\"<strategy> <sha>\"`):\n\n```bash\npython scripts/submit.py                 # build + submit the recorded submit_default\npython scripts/submit.py dairy_hands      # a specific strategy\npython scripts/submit.py --dry-run        # build + smoke test only, no submit\n```\n\nOnly your **latest 2** submissions are active on the ladder — treat them as\nsubmit_default + challenger and promote deliberately.\n\n## License\n\nCC-BY 4.0 (see [`LICENSE`](LICENSE) and\n[ADR-0005](docs/adr/0005-cc-by-4.0-and-open-development.md)) — required for prize\neligibility. Competition data is provided separately under Apache 2.0.\n"
+}

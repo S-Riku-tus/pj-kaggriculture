@@ -1,0 +1,1361 @@
+{
+  "fetched_at": "2026-09-12T04:33:46.661029+00:00",
+  "repository": "OscarLegoupil/agriculture-agent",
+  "commit": "a5830e9acb6a66c3efc1cea4e0a91386a0ec079c",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree_status": 200,
+  "tree": {
+    "sha": "a5830e9acb6a66c3efc1cea4e0a91386a0ec079c",
+    "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/a5830e9acb6a66c3efc1cea4e0a91386a0ec079c",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8b293355bc4fa96f6e9459f5c5467047746ce8d5",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/8b293355bc4fa96f6e9459f5c5467047746ce8d5"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "84a30c5c55c5a45879b9fa4c849fd00ca4ee6580",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/84a30c5c55c5a45879b9fa4c849fd00ca4ee6580"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71ea6db29356c276cd9514c4c60880ba2caa038d",
+        "size": 380,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/71ea6db29356c276cd9514c4c60880ba2caa038d"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/experiment.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7511ccb453fc7f3418bc04426322fa78cf48b732",
+        "size": 417,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7511ccb453fc7f3418bc04426322fa78cf48b732"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/task.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec541eb71893f009d087f5bd77dd58489ff69b0e",
+        "size": 293,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/ec541eb71893f009d087f5bd77dd58489ff69b0e"
+      },
+      {
+        "path": ".github/PULL_REQUEST_TEMPLATE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "704eafcb586d68ea2091280f15d81aeebd8ddcd2",
+        "size": 330,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/704eafcb586d68ea2091280f15d81aeebd8ddcd2"
+      },
+      {
+        "path": ".github/copilot-instructions.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74e9ab43bc5e3f27b3721ca2c9b67e5c634efe63",
+        "size": 5627,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/74e9ab43bc5e3f27b3721ca2c9b67e5c634efe63"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc093edb0fa0be01da2b9c24c2562b4c23d3fc68",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/bc093edb0fa0be01da2b9c24c2562b4c23d3fc68"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94ae8046ab196a80de4b1d7ba8315f6628117cc5",
+        "size": 807,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/94ae8046ab196a80de4b1d7ba8315f6628117cc5"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1adf698f8a9bb71160788c9d0c814a529b7cc5ba",
+        "size": 1127,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/1adf698f8a9bb71160788c9d0c814a529b7cc5ba"
+      },
+      {
+        "path": ".pre-commit-config.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f1329e0c9d84e04aea352413f82e31bf9d0ed4e",
+        "size": 592,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/8f1329e0c9d84e04aea352413f82e31bf9d0ed4e"
+      },
+      {
+        "path": ".python-version",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+        "size": 5,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f56e404e2ce3216e666cfebd09bf7d957e04207a",
+        "size": 1071,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f56e404e2ce3216e666cfebd09bf7d957e04207a"
+      },
+      {
+        "path": "Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04045207604e9896389a78bad2f9b23f36e0a45a",
+        "size": 893,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/04045207604e9896389a78bad2f9b23f36e0a45a"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6151b214fea887b8f1274798a2f55efbc9dd08d",
+        "size": 9839,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d6151b214fea887b8f1274798a2f55efbc9dd08d"
+      },
+      {
+        "path": "configs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3dad687609be74a3b24f68afd0f6d3b9c0806fd2",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/3dad687609be74a3b24f68afd0f6d3b9c0806fd2"
+      },
+      {
+        "path": "configs/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "configs/routes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ad34cc4e088a52bc0d2330702c9517680b0b07e5",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/ad34cc4e088a52bc0d2330702c9517680b0b07e5"
+      },
+      {
+        "path": "configs/routes/tuned",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7ec2b8e83aa5417590be11357b1a2b16a37be7cf",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/7ec2b8e83aa5417590be11357b1a2b16a37be7cf"
+      },
+      {
+        "path": "configs/routes/tuned/v4_micro.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "915834e13486b8818f245959135c7a07ea162656",
+        "size": 880,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/915834e13486b8818f245959135c7a07ea162656"
+      },
+      {
+        "path": "configs/routes/v4_baseline.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8a78a6b02f7c1da03263ca2ca3b1c31345af7df",
+        "size": 961,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/b8a78a6b02f7c1da03263ca2ca3b1c31345af7df"
+      },
+      {
+        "path": "configs/routes/v4_early_tail.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35904560184225fe5b6288c5d3ce0df8930aa013",
+        "size": 927,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/35904560184225fe5b6288c5d3ce0df8930aa013"
+      },
+      {
+        "path": "configs/routes/v4_premium_hold.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a5c5973debe2dbf3d5f2f4de8d41585112b5db9",
+        "size": 893,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7a5c5973debe2dbf3d5f2f4de8d41585112b5db9"
+      },
+      {
+        "path": "configs/routes/v4_wheat_agg.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6674310503d67401b1c44a70435b531515e45887",
+        "size": 949,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/6674310503d67401b1c44a70435b531515e45887"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b9334c321abdcf383704207b335a8853c40c9f91",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/b9334c321abdcf383704207b335a8853c40c9f91"
+      },
+      {
+        "path": "data/interim",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+      },
+      {
+        "path": "data/interim/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/processed",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+      },
+      {
+        "path": "data/processed/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/raw",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+      },
+      {
+        "path": "data/raw/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "notebooks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f087a9543a36db4e619307ffb314f88fb77b37a2",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/f087a9543a36db4e619307ffb314f88fb77b37a2"
+      },
+      {
+        "path": "notebooks/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "notebooks/01-market-curves.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "785869d9998cb6dca64c991d9e1a197dceb78cbd",
+        "size": 7928,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/785869d9998cb6dca64c991d9e1a197dceb78cbd"
+      },
+      {
+        "path": "notebooks/02-crop-yields.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13d8b5369f69aec32aba5f806624494e6ee00d11",
+        "size": 10296,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/13d8b5369f69aec32aba5f806624494e6ee00d11"
+      },
+      {
+        "path": "notebooks/03-animal-economics.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98e1303d68f417c06721f9f74cf4a26d0be2b75d",
+        "size": 6461,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/98e1303d68f417c06721f9f74cf4a26d0be2b75d"
+      },
+      {
+        "path": "notebooks/04-town-demand.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efd065000690464ee4cf9b542e6f58aa6f8455cc",
+        "size": 6495,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/efd065000690464ee4cf9b542e6f58aa6f8455cc"
+      },
+      {
+        "path": "notebooks/05-hire-cost.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "316ea5ccdc0af40e58918c1da7ac09374ba78497",
+        "size": 4848,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/316ea5ccdc0af40e58918c1da7ac09374ba78497"
+      },
+      {
+        "path": "notebooks/06-market-forecaster.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb37ef305f132b471b8a8df231a0e92dced9c851",
+        "size": 7823,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/eb37ef305f132b471b8a8df231a0e92dced9c851"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81a480c5f996a15a263a33cc593cd64d1435b93d",
+        "size": 2343,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/81a480c5f996a15a263a33cc593cd64d1435b93d"
+      },
+      {
+        "path": "reports",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "97247d895f2a6f6956df38c0373dc38f878c0518",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/97247d895f2a6f6956df38c0373dc38f878c0518"
+      },
+      {
+        "path": "reports/baselines-elo.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "449ba0f9c5471d73e3b189904f36d007d9c75073",
+        "size": 879,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/449ba0f9c5471d73e3b189904f36d007d9c75073"
+      },
+      {
+        "path": "reports/figures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6d72d9e6a726fdf628d170e37f98c3e6be302301",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/6d72d9e6a726fdf628d170e37f98c3e6be302301"
+      },
+      {
+        "path": "reports/figures/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "reports/figures/animal-cumnet.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f44189842140cd2603dcb315c971e007acf95bc4",
+        "size": 97185,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f44189842140cd2603dcb315c971e007acf95bc4"
+      },
+      {
+        "path": "reports/figures/baselines-elo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20fc49333ed2f915b161e81216169829a1926f12",
+        "size": 40937,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/20fc49333ed2f915b161e81216169829a1926f12"
+      },
+      {
+        "path": "reports/figures/baselines-matrix.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86d76e408cd66e338d5f62d3d49a717073f012ac",
+        "size": 81795,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/86d76e408cd66e338d5f62d3d49a717073f012ac"
+      },
+      {
+        "path": "reports/figures/crop-roi.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2305db5a3c7540b2cbd6c3d00576976ac934a15",
+        "size": 35393,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e2305db5a3c7540b2cbd6c3d00576976ac934a15"
+      },
+      {
+        "path": "reports/figures/crop-yields.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb798dcc8cda8828fb9568a7051bfd44d7e3ea68",
+        "size": 207665,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/eb798dcc8cda8828fb9568a7051bfd44d7e3ea68"
+      },
+      {
+        "path": "reports/figures/forecaster-calibration.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "072a03798018fd093fffa7abbf527d0aa1560529",
+        "size": 92928,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/072a03798018fd093fffa7abbf527d0aa1560529"
+      },
+      {
+        "path": "reports/figures/forecaster-mae-per-item.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6232d247c7b7a48b9c8f9b4a375eb30c3678f4e",
+        "size": 38859,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d6232d247c7b7a48b9c8f9b4a375eb30c3678f4e"
+      },
+      {
+        "path": "reports/figures/hire-cost.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d33548849ea1787fae1edeae0d615ccd033ebb17",
+        "size": 45791,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d33548849ea1787fae1edeae0d615ccd033ebb17"
+      },
+      {
+        "path": "reports/figures/market-curves-grid.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1d9ca0c4740141370634cfcdebef5988240728c",
+        "size": 256786,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d1d9ca0c4740141370634cfcdebef5988240728c"
+      },
+      {
+        "path": "reports/figures/market-sensitivity-1T.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db51ee0ca9249a902ca96a18328193fd3e76e9db",
+        "size": 44526,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/db51ee0ca9249a902ca96a18328193fd3e76e9db"
+      },
+      {
+        "path": "reports/figures/town-demand.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7027a35487c5f4f66ce4a6eb9d8839888bf9431b",
+        "size": 44916,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7027a35487c5f4f66ce4a6eb9d8839888bf9431b"
+      },
+      {
+        "path": "reports/market-forecaster-card.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd09326ae3fc599a376feb75f81d40166442f79c",
+        "size": 6157,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/dd09326ae3fc599a376feb75f81d40166442f79c"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "db29751a05f9f247bd7735d398d137bd55be674b",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/db29751a05f9f247bd7735d398d137bd55be674b"
+      },
+      {
+        "path": "src/kaggriculture",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bcc5ae08fbdebaeec59bd23a0eb1d975a24c82a8",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/bcc5ae08fbdebaeec59bd23a0eb1d975a24c82a8"
+      },
+      {
+        "path": "src/kaggriculture/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69c39d8dcdd324c68835c831cec1b873c704a2bf",
+        "size": 52,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/69c39d8dcdd324c68835c831cec1b873c704a2bf"
+      },
+      {
+        "path": "src/kaggriculture/agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fe7435afbc9414748f47640ae492d039241f3601",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/fe7435afbc9414748f47640ae492d039241f3601"
+      },
+      {
+        "path": "src/kaggriculture/agent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bac825b7780078ae73850582d2fe6d80aabe1b6",
+        "size": 70,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7bac825b7780078ae73850582d2fe6d80aabe1b6"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a2fc573eb61c759a84ef52b85a6dd7b38c969f2",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/0a2fc573eb61c759a84ef52b85a6dd7b38c969f2"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "509032e8fc383481a2115942dd7b64b4bc012a63",
+        "size": 721,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/509032e8fc383481a2115942dd7b64b4bc012a63"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines/v0_wheat.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00a551e5689c712a447f5d80b55ea5ddd736fc11",
+        "size": 2160,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/00a551e5689c712a447f5d80b55ea5ddd736fc11"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines/v1_mixed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "294fb90fd6b66a8aab9f4013b7b56a56062f4c80",
+        "size": 3573,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/294fb90fd6b66a8aab9f4013b7b56a56062f4c80"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines/v2_animals.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1cf193c29d1c1ffddf568620c937266be88534d",
+        "size": 8091,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f1cf193c29d1c1ffddf568620c937266be88534d"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines/v3_market.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a131855c9ea1d2d542c1f1d8736ec03d60d09e45",
+        "size": 9153,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/a131855c9ea1d2d542c1f1d8736ec03d60d09e45"
+      },
+      {
+        "path": "src/kaggriculture/agent/baselines/v4_expansion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dab66d1ba4dec18897e329384f46c58574d9a184",
+        "size": 10577,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/dab66d1ba4dec18897e329384f46c58574d9a184"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a618d3cce24ec62df887cbf8cfd015bd10582107",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/a618d3cce24ec62df887cbf8cfd015bd10582107"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ee7f61928314c34d849fe09cbe0739d725be428",
+        "size": 1162,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/0ee7f61928314c34d849fe09cbe0739d725be428"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/agent_selector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ed2ab1264d89bb01282b094e1c794e08bb94c51",
+        "size": 4681,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/6ed2ab1264d89bb01282b094e1c794e08bb94c51"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/agent_v4_micro.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0d121c6171450430f9e226c3895009c7b6f238f",
+        "size": 1741,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/c0d121c6171450430f9e226c3895009c7b6f238f"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/loader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dcb14f6662036f684dda61b3c402b1c547043571",
+        "size": 4177,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/dcb14f6662036f684dda61b3c402b1c547043571"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/micro.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4961ca070156af4e7b2b0601da153bef41508f15",
+        "size": 9556,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/4961ca070156af4e7b2b0601da153bef41508f15"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/runner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf75c96184abf976f793ef22d805ed6db96acf19",
+        "size": 18897,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/bf75c96184abf976f793ef22d805ed6db96acf19"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5c8ec4f08fa29e36c66ee265daff37f3fa5cd61",
+        "size": 3936,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f5c8ec4f08fa29e36c66ee265daff37f3fa5cd61"
+      },
+      {
+        "path": "src/kaggriculture/agent/route_agent/selector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51e277fe4c6ede6411d707cc2fc7aed06e215e24",
+        "size": 6024,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/51e277fe4c6ede6411d707cc2fc7aed06e215e24"
+      },
+      {
+        "path": "src/kaggriculture/env",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26faedc1aaae279bada9fbc8dd396481bd778e4c",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/26faedc1aaae279bada9fbc8dd396481bd778e4c"
+      },
+      {
+        "path": "src/kaggriculture/env/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2174731f3139e1fd8fc73ed831583f4685367829",
+        "size": 597,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/2174731f3139e1fd8fc73ed831583f4685367829"
+      },
+      {
+        "path": "src/kaggriculture/env/actions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc85ee2b5bf7fd1664b513e5f562c7885a67e883",
+        "size": 2812,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/bc85ee2b5bf7fd1664b513e5f562c7885a67e883"
+      },
+      {
+        "path": "src/kaggriculture/env/constants.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da209132a1afc4181bc03f0610e4ee91fd087b8f",
+        "size": 5934,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/da209132a1afc4181bc03f0610e4ee91fd087b8f"
+      },
+      {
+        "path": "src/kaggriculture/env/legality.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb691096dd6a65e08edfa2675a5c75f40e3c4b08",
+        "size": 11606,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/fb691096dd6a65e08edfa2675a5c75f40e3c4b08"
+      },
+      {
+        "path": "src/kaggriculture/env/observation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43ece902bd6ef237ce8ede86ebf5a9efda8ec351",
+        "size": 5555,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/43ece902bd6ef237ce8ede86ebf5a9efda8ec351"
+      },
+      {
+        "path": "src/kaggriculture/eval",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "85b326d182e99eeb272bfdba20ede55684620afa",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/85b326d182e99eeb272bfdba20ede55684620afa"
+      },
+      {
+        "path": "src/kaggriculture/eval/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdbc22e6fdb8893138f96eab92d74fee65180642",
+        "size": 1080,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/bdbc22e6fdb8893138f96eab92d74fee65180642"
+      },
+      {
+        "path": "src/kaggriculture/eval/baselines_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4caabced13a30026ec5aed34a44adb870e63e2c4",
+        "size": 7969,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/4caabced13a30026ec5aed34a44adb870e63e2c4"
+      },
+      {
+        "path": "src/kaggriculture/eval/cli.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83298806bcf913fdbda73f5f2eb78d4bb5ef664f",
+        "size": 6568,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/83298806bcf913fdbda73f5f2eb78d4bb5ef664f"
+      },
+      {
+        "path": "src/kaggriculture/eval/logger.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f5e606e61bb68ff494459740d4d1c32231a4ca0",
+        "size": 1994,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/0f5e606e61bb68ff494459740d4d1c32231a4ca0"
+      },
+      {
+        "path": "src/kaggriculture/eval/metrics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "844d21e787dcf4a067276aabb03f995a507016d5",
+        "size": 6893,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/844d21e787dcf4a067276aabb03f995a507016d5"
+      },
+      {
+        "path": "src/kaggriculture/eval/rating.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fba60c4f97ad04897b3d1cb413ff67666bfeace9",
+        "size": 5714,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/fba60c4f97ad04897b3d1cb413ff67666bfeace9"
+      },
+      {
+        "path": "src/kaggriculture/eval/runner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab61cfbf93630a1b58b228502319a034d6dedb8c",
+        "size": 5239,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/ab61cfbf93630a1b58b228502319a034d6dedb8c"
+      },
+      {
+        "path": "src/kaggriculture/eval/stats.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af3434d0559cac56f2d4a9079748e426e891affe",
+        "size": 1314,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/af3434d0559cac56f2d4a9079748e426e891affe"
+      },
+      {
+        "path": "src/kaggriculture/eval/tracking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "395397cee314d3b671cb2eac54b2d9800cc04c51",
+        "size": 3248,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/395397cee314d3b671cb2eac54b2d9800cc04c51"
+      },
+      {
+        "path": "src/kaggriculture/eval/view.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d6862014b2d139faf971c69abc77c339b50f189",
+        "size": 3388,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/3d6862014b2d139faf971c69abc77c339b50f189"
+      },
+      {
+        "path": "src/kaggriculture/market",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a5c21f6ebbdaa6c8aa8070da81fe6ea0a3caf810",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/a5c21f6ebbdaa6c8aa8070da81fe6ea0a3caf810"
+      },
+      {
+        "path": "src/kaggriculture/market/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b55530afd6302e86654d07dffdb880aa3892cefc",
+        "size": 457,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/b55530afd6302e86654d07dffdb880aa3892cefc"
+      },
+      {
+        "path": "src/kaggriculture/market/forecaster.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a72e0d7bd56ab9a8fd4d1c475ef6588f2d6ad472",
+        "size": 7402,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/a72e0d7bd56ab9a8fd4d1c475ef6588f2d6ad472"
+      },
+      {
+        "path": "src/kaggriculture/opponent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6cd20a15eb0b021c2072113a81ddfee476a54fca",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/6cd20a15eb0b021c2072113a81ddfee476a54fca"
+      },
+      {
+        "path": "src/kaggriculture/opponent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2ebc39ddcd853b64f20995fb699faab6e04c5ca",
+        "size": 457,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d2ebc39ddcd853b64f20995fb699faab6e04c5ca"
+      },
+      {
+        "path": "src/kaggriculture/opponent/inference.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dc5160dc5f196b58161a4ffdf3fd54dccde2ee6",
+        "size": 15523,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/9dc5160dc5f196b58161a4ffdf3fd54dccde2ee6"
+      },
+      {
+        "path": "src/kaggriculture/planning",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "254cf7c38db16f078c12b6f865bf3037e55763d4",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/254cf7c38db16f078c12b6f865bf3037e55763d4"
+      },
+      {
+        "path": "src/kaggriculture/planning/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bc11d3d7f9f63dc9918acd0c4a539f40219e8bb",
+        "size": 188,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/3bc11d3d7f9f63dc9918acd0c4a539f40219e8bb"
+      },
+      {
+        "path": "src/kaggriculture/planning/allocator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f6058834c341ec7850d2fa5a75577f3f27465ca",
+        "size": 6737,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/0f6058834c341ec7850d2fa5a75577f3f27465ca"
+      },
+      {
+        "path": "src/kaggriculture/planning/animal_roi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab55175290c9b4ed2aadf1d04567c7d7a478574a",
+        "size": 5085,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/ab55175290c9b4ed2aadf1d04567c7d7a478574a"
+      },
+      {
+        "path": "src/kaggriculture/planning/crop_roi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49f4b393d287609ee3f7ae2a242f4afbafe70a89",
+        "size": 6056,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/49f4b393d287609ee3f7ae2a242f4afbafe70a89"
+      },
+      {
+        "path": "src/kaggriculture/planning/feed_budget.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ca738fbcf371494f54dbba1e641aa9579db8553",
+        "size": 3210,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/8ca738fbcf371494f54dbba1e641aa9579db8553"
+      },
+      {
+        "path": "src/kaggriculture/planning/phased_allocator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56fdb87ae753c6c587f99fe65e7fa2f658e162cf",
+        "size": 9054,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/56fdb87ae753c6c587f99fe65e7fa2f658e162cf"
+      },
+      {
+        "path": "src/kaggriculture/planning/replanner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a19359d064cc54fbadc6c3a964a1b74b74970268",
+        "size": 5166,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/a19359d064cc54fbadc6c3a964a1b74b74970268"
+      },
+      {
+        "path": "src/kaggriculture/search",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "32a927ab7818d77d7d9339cde62b8276c3cf1476",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/32a927ab7818d77d7d9339cde62b8276c3cf1476"
+      },
+      {
+        "path": "src/kaggriculture/search/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f925824ddf75157ba10a96df1d998834f4cc9299",
+        "size": 692,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f925824ddf75157ba10a96df1d998834f4cc9299"
+      },
+      {
+        "path": "src/kaggriculture/search/beam.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5942c0dc93bd3a29f78925ccd103e4097c49993",
+        "size": 4023,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d5942c0dc93bd3a29f78925ccd103e4097c49993"
+      },
+      {
+        "path": "src/kaggriculture/search/driver.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d7c24c70000980f9a476732f5bbdd08d3019c27",
+        "size": 7049,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7d7c24c70000980f9a476732f5bbdd08d3019c27"
+      },
+      {
+        "path": "src/kaggriculture/search/evaluate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "853a4f21f5797df542364bbeee4e3c40c9e25571",
+        "size": 3314,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/853a4f21f5797df542364bbeee4e3c40c9e25571"
+      },
+      {
+        "path": "submissions",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b33c5e1accbcb507d36ceadd0285c18f954b6f9",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/2b33c5e1accbcb507d36ceadd0285c18f954b6f9"
+      },
+      {
+        "path": "submissions/20260825-v4",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0c26f738ad777e08da3d3dc9f2c4461cc471ba9e",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/0c26f738ad777e08da3d3dc9f2c4461cc471ba9e"
+      },
+      {
+        "path": "submissions/20260825-v4/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e73e443738c1bf3998c6700ce3c51e85c97ff29",
+        "size": 10330,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/3e73e443738c1bf3998c6700ce3c51e85c97ff29"
+      },
+      {
+        "path": "submissions/20260902-v5",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e189e42d01a59792b849a202ceaaf08f2e6689af",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/e189e42d01a59792b849a202ceaaf08f2e6689af"
+      },
+      {
+        "path": "submissions/20260902-v5/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "438b948684323b493e48cd7f8d5933d394d51715",
+        "size": 19645,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/438b948684323b493e48cd7f8d5933d394d51715"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "243445fc52fc790dbbf08b224f28cd9810041eaa",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/243445fc52fc790dbbf08b224f28cd9810041eaa"
+      },
+      {
+        "path": "tests/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5afa12c9fba0d244586181e00c70a36951eb207d",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/5afa12c9fba0d244586181e00c70a36951eb207d"
+      },
+      {
+        "path": "tests/agent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/agent/baselines",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "777c9f9ae079ceb0fa3368b5f66326a36587fcb4",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/777c9f9ae079ceb0fa3368b5f66326a36587fcb4"
+      },
+      {
+        "path": "tests/agent/baselines/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/agent/baselines/test_v0_wheat.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15ac3e2cab6829aec8bbedba5342783823547e4d",
+        "size": 1602,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/15ac3e2cab6829aec8bbedba5342783823547e4d"
+      },
+      {
+        "path": "tests/agent/baselines/test_v1_mixed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f49196ae665367779ddf071267cbdaf63e93da90",
+        "size": 1626,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f49196ae665367779ddf071267cbdaf63e93da90"
+      },
+      {
+        "path": "tests/agent/baselines/test_v2_animals.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e2ce0509862fdfe48d69e5c2901eb625a86e373",
+        "size": 1526,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/5e2ce0509862fdfe48d69e5c2901eb625a86e373"
+      },
+      {
+        "path": "tests/agent/baselines/test_v3_market.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bfd82d199133a78c0681daa92891e8bde96fcba",
+        "size": 1549,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/5bfd82d199133a78c0681daa92891e8bde96fcba"
+      },
+      {
+        "path": "tests/agent/baselines/test_v4_expansion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e4fdd3b1edc530e2163d1e2ab3b7cfd1ffcb6a2",
+        "size": 1515,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/3e4fdd3b1edc530e2163d1e2ab3b7cfd1ffcb6a2"
+      },
+      {
+        "path": "tests/agent/route_agent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1705a500a424dc7ff3de294748015695f0c3b248",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/1705a500a424dc7ff3de294748015695f0c3b248"
+      },
+      {
+        "path": "tests/agent/route_agent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/agent/route_agent/test_loader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eddc047c1a0267d9beac15d1011f59193076d21c",
+        "size": 2734,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/eddc047c1a0267d9beac15d1011f59193076d21c"
+      },
+      {
+        "path": "tests/agent/route_agent/test_micro.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02b2667ec8effbf79146eb84cb717a456d13787b",
+        "size": 5587,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/02b2667ec8effbf79146eb84cb717a456d13787b"
+      },
+      {
+        "path": "tests/agent/route_agent/test_runner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5abac1aa1cbd97d63a93a4de42cff129a349b13d",
+        "size": 3385,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/5abac1aa1cbd97d63a93a4de42cff129a349b13d"
+      },
+      {
+        "path": "tests/agent/route_agent/test_schema.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e99f9dcf35a0b7fe64daa0d378a6971f4bd079fe",
+        "size": 2295,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e99f9dcf35a0b7fe64daa0d378a6971f4bd079fe"
+      },
+      {
+        "path": "tests/agent/route_agent/test_selector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73668b142e360100a006d767145a1b6de0add9c3",
+        "size": 5914,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/73668b142e360100a006d767145a1b6de0add9c3"
+      },
+      {
+        "path": "tests/env",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "87cae4de53b9ffd575fcdb5fb8b8901776486f6d",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/87cae4de53b9ffd575fcdb5fb8b8901776486f6d"
+      },
+      {
+        "path": "tests/env/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/env/test_legality.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c71bb88d62ae76ac5ef79ea8b5bcaacb37224eb9",
+        "size": 4064,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/c71bb88d62ae76ac5ef79ea8b5bcaacb37224eb9"
+      },
+      {
+        "path": "tests/env/test_wrappers.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad6040e1e3f6b1b8da8926b55a0e608b32afa04d",
+        "size": 3656,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/ad6040e1e3f6b1b8da8926b55a0e608b32afa04d"
+      },
+      {
+        "path": "tests/eval",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "158db3f727a5548cfcbbfb1c01a9130aea9944f4",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/158db3f727a5548cfcbbfb1c01a9130aea9944f4"
+      },
+      {
+        "path": "tests/eval/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/eval/test_cli.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ea46716ca8a03f79c981ea41419651ad9ef6c00",
+        "size": 2390,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/9ea46716ca8a03f79c981ea41419651ad9ef6c00"
+      },
+      {
+        "path": "tests/eval/test_logger.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbe67b8017ab1467e006cc825497b9626c49d258",
+        "size": 1611,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/cbe67b8017ab1467e006cc825497b9626c49d258"
+      },
+      {
+        "path": "tests/eval/test_metrics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4ca3c251b128757f66d5bfcc21a19a6c70ae55e",
+        "size": 2554,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/c4ca3c251b128757f66d5bfcc21a19a6c70ae55e"
+      },
+      {
+        "path": "tests/eval/test_rating.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a29613d49288426926cb38d8bcf109f248d277f",
+        "size": 2322,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/2a29613d49288426926cb38d8bcf109f248d277f"
+      },
+      {
+        "path": "tests/eval/test_runner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd99e1c04ce711a6c816f875b862dd59e00ae141",
+        "size": 2732,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/cd99e1c04ce711a6c816f875b862dd59e00ae141"
+      },
+      {
+        "path": "tests/eval/test_tracking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dc6b16186f2b4f9a697a7640476dfe279dcb38b",
+        "size": 1192,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/9dc6b16186f2b4f9a697a7640476dfe279dcb38b"
+      },
+      {
+        "path": "tests/eval/test_view.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d15c47b1fedc55a4f63034065420d3f28c3a47fd",
+        "size": 1196,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d15c47b1fedc55a4f63034065420d3f28c3a47fd"
+      },
+      {
+        "path": "tests/market",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b1192038314bfec054c0d11061705591c168bb02",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/b1192038314bfec054c0d11061705591c168bb02"
+      },
+      {
+        "path": "tests/market/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a60a3224b6e62331cc7785871a8ff97a9994ad8",
+        "size": 31,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7a60a3224b6e62331cc7785871a8ff97a9994ad8"
+      },
+      {
+        "path": "tests/market/test_forecaster.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d11d30cd84d04a88f09feaab2ae452a14c9806e",
+        "size": 7828,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/4d11d30cd84d04a88f09feaab2ae452a14c9806e"
+      },
+      {
+        "path": "tests/opponent",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b75959857284069f011d36dd646df1e57ea8b401",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/b75959857284069f011d36dd646df1e57ea8b401"
+      },
+      {
+        "path": "tests/opponent/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5e3501b6bff900b10bce25bac8d08f50188c4ba",
+        "size": 32,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/c5e3501b6bff900b10bce25bac8d08f50188c4ba"
+      },
+      {
+        "path": "tests/opponent/test_inference.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00dfef312c68a854c43bef0c85469aaa99de5955",
+        "size": 7205,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/00dfef312c68a854c43bef0c85469aaa99de5955"
+      },
+      {
+        "path": "tests/planning",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5952a7a6a9daca89106a8d4ce17ddb3a5993a6e2",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/5952a7a6a9daca89106a8d4ce17ddb3a5993a6e2"
+      },
+      {
+        "path": "tests/planning/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/planning/test_allocator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ccdfc587e2a5d7265b991f50a9439eb3b68f0f2f",
+        "size": 3370,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/ccdfc587e2a5d7265b991f50a9439eb3b68f0f2f"
+      },
+      {
+        "path": "tests/planning/test_animal_roi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c731cc95a2ffaa093704ab59163f265ea250018d",
+        "size": 3840,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/c731cc95a2ffaa093704ab59163f265ea250018d"
+      },
+      {
+        "path": "tests/planning/test_crop_roi.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6f2902f06b43e6bbaec35bdd0278aac937472c4",
+        "size": 5115,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/d6f2902f06b43e6bbaec35bdd0278aac937472c4"
+      },
+      {
+        "path": "tests/planning/test_feed_budget.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35092baba18ed16c15648b66e809b16b5f9da640",
+        "size": 3061,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/35092baba18ed16c15648b66e809b16b5f9da640"
+      },
+      {
+        "path": "tests/planning/test_phased_allocator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bbdec69a12ae138ac5ccd6f41c5a5e71d6cd321",
+        "size": 5739,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/5bbdec69a12ae138ac5ccd6f41c5a5e71d6cd321"
+      },
+      {
+        "path": "tests/planning/test_replanner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91fa723ffb6655e4d53cbfa44e2b4883e67cf55d",
+        "size": 4201,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/91fa723ffb6655e4d53cbfa44e2b4883e67cf55d"
+      },
+      {
+        "path": "tests/search",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5a8a84d19b0836229a5a48b81f6d94adee604fcf",
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/trees/5a8a84d19b0836229a5a48b81f6d94adee604fcf"
+      },
+      {
+        "path": "tests/search/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/search/test_beam.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c077cfa36c201caca768657afaf0859971272951",
+        "size": 1748,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/c077cfa36c201caca768657afaf0859971272951"
+      },
+      {
+        "path": "tests/search/test_evaluate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efd0e5c44846a6a9460bf04066d5992a5223d89c",
+        "size": 740,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/efd0e5c44846a6a9460bf04066d5992a5223d89c"
+      },
+      {
+        "path": "tests/search/test_tuned_artifact.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49f885b2191984fd99b94fea38cd77db5a6de679",
+        "size": 1120,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/49f885b2191984fd99b94fea38cd77db5a6de679"
+      },
+      {
+        "path": "tests/test_package.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a00815a1a34db4d55001a815f68005382c63585",
+        "size": 147,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/7a00815a1a34db4d55001a815f68005382c63585"
+      },
+      {
+        "path": "tests/test_smoke_episode.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f55fd98038ff76038a19ad97ef6f3cdd2f1883d4",
+        "size": 940,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/f55fd98038ff76038a19ad97ef6f3cdd2f1883d4"
+      },
+      {
+        "path": "tests/test_submission_v5.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27464adac7b96c16d3eae353b660305785b6e8c8",
+        "size": 1119,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/27464adac7b96c16d3eae353b660305785b6e8c8"
+      },
+      {
+        "path": "uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cde2a520ef5dafc240c6f1c6799e61a073eb4f3c",
+        "size": 552821,
+        "url": "https://api.github.com/repos/OscarLegoupil/agriculture-agent/git/blobs/cde2a520ef5dafc240c6f1c6799e61a073eb4f3c"
+      }
+    ],
+    "truncated": false
+  },
+  "readme_status": 200,
+  "readme": "# kaggriculture\n\n[![CI](https://github.com/OscarLegoupil/agriculture-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/OscarLegoupil/agriculture-agent/actions/workflows/ci.yml)\n\nAutonomous-agent work on the [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture) Kaggle simulation. Two players compete on separate farms across a 30-day, 720-turn season on a dynamic market. This is a working project, not a submission notebook: reproducible workflow from environment analysis to a competitive agent.\n\n## Progress\n\n- [x] **M1** foundations, CI, deps, smoke test\n- [x] **M2** typed env wrappers, action legality checker, 5 dynamics notebooks\n- [x] **M3** evaluation harness: parallel runner, replay logger, per-episode metrics, Bradley-Terry rating, A/B compare CLI, MLflow tracking\n- [x] **M4** rule-based baselines: five hand-crafted agents (v0-v4), each closed with a two-agent A/B, plus a round-robin Elo report\n- [x] **M5** economic planning core: per-crop and per-animal ROI tables, wheat feed budgeter, static tile allocator, dynamic re-planner\n- [x] **M6** market and opponent modeling: price forecaster ([model card](reports/market-forecaster-card.md)) and opponent inventory tracker\n- [x] **M7** advanced planner: route + micro-controller + public-state selector, tuned by offline beam search\n- [ ] **M8** submission, hardening, final writeup\n\n## The environment at a glance\n\n![Market price curves for all 9 resources](reports/figures/market-curves-grid.png)\n\nSell prices react to inventory shifts with different shapes on each side of the equilibrium `I0`. Premium goods (strawberry, melon, milk, wool) crash to the $1 floor on modest gluts. Carrot, tomato, and egg use a `hinge` shape that spikes sharply past a threshold on scarcity. Wheat is the only near-linear resource, and the only staple.\n\n<table>\n<tr>\n<td width=\"50%\">\n\n![Crop ROI at base prices](reports/figures/crop-roi.png)\n\nMelon leads `$/tile/day` at base prices, but is glut-crash prone. Strawberry gains the most from fertilizer.\n\n</td>\n<td width=\"50%\">\n\n![Town demand across 5000 seasons](reports/figures/town-demand.png)\n\nWheat and strawberry are the most reliably-demanded. Melon has near-zero shop demand. Wool distribution is bimodal because yarn stores may never spawn.\n\n</td>\n</tr>\n</table>\n\nDetails in [`notebooks/`](notebooks/): market curves, crop yields, animal economics, town demand, hire ROI.\n\n## Evaluating agents\n\nThe eval harness runs pairings in parallel with deterministic seeds and seat swapping, and reports Bradley-Terry Elo, Wilson CIs, and a sign-test p-value.\n\n```bash\nuv run kagg-compare pass starter --n 50 --config '{\"episodeSteps\": 720}'\n```\n\n```\n=== kagg-compare: pass vs starter ===\nepisodes: 100  duration: 32.1s  (0.32s/ep)\n\npass                  W:    0  L:  100  T:   0   win_rate: 0.0%   [95% CI: 0.0%-3.7%]\nstarter               W:  100  L:    0  T:   0   win_rate: 100.0% [95% CI: 96.3%-100.0%]\n\nsign test (two-sided): p = 1.58e-30\nBradley-Terry Elo (mean 1500):  starter 2100  pass 900  delta +1200\n```\n\nAdd `--replay-dir data/raw/replays` to save every episode's JSON and a `manifest.jsonl` for downstream analysis. Add `--mlflow` to log to a local MLflow store.\n\n## Baseline ladder\n\nEach baseline exercises one strategic axis and closes its commit with an A/B against its predecessor. A round-robin over all baselines plus the three built-in agents produces the internal Elo ladder:\n\n![Baseline Elo ladder](reports/figures/baselines-elo.png)\n\n- **v0** pure wheat loop, single tile.\n- **v1** wheat + carrot on two adjacent tiles.\n- **v2** adds one fed and cared goose (coop at (4, 3)), delayed until the wheat pipeline is producing to avoid ramp-up starvation.\n- **v3** market-responsive selling and fertilizer reuse. Fertilizer from the goose is applied at the start of each plant's bonus window, lifting wheat cap 4 -> 6 and carrot 3 -> 4.\n- **v4** adds a second carrot tile at (3, 3) and one hired hand ($1). Land expansion is available but not automatically triggered at this scale.\n\nFull report and win-rate matrix under [`reports/baselines-elo.md`](reports/baselines-elo.md).\n\n## Economic planning core\n\nM5 turns the dynamics notebooks into a small operations-research layer under `src/kaggriculture/planning/`:\n\n- `crop_roi(crop, watered, fertilized, price)` returns lifecycle units, days to peak, and coins per tile per day. Fertilizer cost is a caller-supplied parameter so animal-produced (free) and market-bought ($100) regimes stay explicit.\n- `animal_roi(animal, cared, product_price, feed_cost_per_day)` returns steady-state coins per day and an exact discrete break-even day, computed from a cumulative-net trace rather than the loose continuous formula in the notebook.\n- `feed_budget(roster)` projects daily wheat consumption from an `AnimalPlan` list and derives the wheat tile count required to sustain the peak.\n- `allocate(tiles, horizon_days, price_map)` enumerates every feasible animal roster and picks the (roster + wheat reserve + best fill crop) combination that maximises expected coins over the remaining horizon.\n- `DynamicReplanner` wraps the allocator with a state machine that re-plans when observed prices drift more than `threshold_pct` from the working forecast, and exposes a `replan_frequency` counter for the harness.\n\nThe v5+ agents will consume these tables rather than hard-coding tile choices.\n\n## Market and opponent modeling\n\nM6 adds two online modules used by the planner and by the M7 trading layer:\n\n- `src/kaggriculture/market/` ships a `PriceForecaster` that combines the deterministic price curve, the deterministic town consumption schedule, and an EWMA net-trade-rate estimate. Predicted prices plug straight into `DynamicReplanner`'s `price_map`. Aggregate MAE against a five-pairing pool: $0.05 at 1 step, $1.88 at 1 day, $19.3 at 5 days, versus $0.78 / $17.6 / $84.3 for the naive constant-price baseline. Full protocol and per-commodity breakdown in the [model card](reports/market-forecaster-card.md).\n- `src/kaggriculture/opponent/` ships an `OpponentInventoryTracker` that reconstructs the opponent's hidden shed from the market inventory ledger (dzjiann's bookkeeping identifier, discussion 737027). Measured MAE across the same opponent pool is exactly zero for every commodity, matching the strong identifiability claim. When a commodity's price sits at the floor the tracker widens the uncertainty interval by the maximum orders the opponent could hide.\n\n![Forecaster calibration at 1, 24 and 120 step horizons](reports/figures/forecaster-calibration.png)\n\n## Advanced planner\n\nM7 layers a portfolio of route configs under `configs/routes/`, a public-state selector, and an offline beam search under `src/kaggriculture/search/`:\n\n- A route is a YAML plan for one 720-turn episode: tile assignments, coop / pasture placement, hire schedule, land buys, market policy, and an optional embedded micro block. `RouteAgent` in `src/kaggriculture/agent/route_agent/` turns any parsed route into a Kaggle-callable `agent(obs)` and reproduces v4_expansion byte-for-byte on fixed seeds.\n- `MicroController` overlays M6 forecast and opponent-tracker signals on the route's market policy each turn. Rules are additive-only: hard-drop, forecast-salvage, and tail-salvage. In a paired 400-game A/B this overlay beats plain v4 396-4 at defaults, and 386-14 with tuned parameters (sign test p ~= 2e-95, Elo delta +576).\n- `RouteSelector` picks one of four v4 variants after day 3 from opponent tile and land signals. The picked route + a tuned micro layer beats the v4+micro baseline 378-22 on 400 games (Elo delta +494).\n- `kaggriculture.search.beam` is a small discrete-grid beam search that tunes route and micro parameters against a target opponent family. It converges on the same configuration the M7-c heuristic picks for the v4+micro family, and the beam-searched YAML at `configs/routes/tuned/v4_micro.yaml` beats plain v4+micro 189-11 on 200 games (Elo delta +494).\n\n## Current submission\n\n`submissions/20260902-v5/main.py` (agent v5) is the packaged output of M7. It bundles the route decision tree, micro tail-salvage rule, and public-state selector as a single self-contained file with no imports of the `kaggriculture` package.\n\nRuntime posture: 800 ms per-turn hard budget with a safe `PASS` fallback on overrun; per-episode state resets when the observation step index moves backwards, so re-used worker processes cannot leak state. Local smoke test against `starter` on seed 42 finishes at 9604 coins.\n\n## Quickstart\n\nPython 3.11 to 3.12, [uv](https://docs.astral.sh/uv/).\n\n```bash\ngit clone https://github.com/OscarLegoupil/agriculture-agent.git\ncd agriculture-agent\nuv sync --extra dev --extra notebooks\nuv run pytest\nmake sim   # runs a full 720-turn episode locally\n```\n\n## Repository layout\n\n```\nsrc/kaggriculture/env/       typed observation wrappers, action builders, legality checker\nsrc/kaggriculture/planning/  ROI tables, feed budget, tile allocator, dynamic re-planner\nsrc/kaggriculture/market/    price curve and online forecaster\nsrc/kaggriculture/opponent/  inventory inference from public state\nsrc/kaggriculture/agent/     shipped agent and its route + micro-controller layers\nsrc/kaggriculture/search/    offline beam search over route + micro parameters\nconfigs/routes/              route YAMLs (baseline, three v4 variants, tuned/ cache)\nsubmissions/                 dated Kaggle submission bundles (self-contained main.py)\nnotebooks/                   numbered dynamics analysis notebooks\nreports/figures/             committed figures produced by notebooks\ntests/                       pytest suite\nconfigs/                     experiment configs (YAML, populated as milestones land)\ndata/                        generated replays and metrics (gitignored, DVC-tracked)\n```\n\n## License\n\nMIT. See [LICENSE](LICENSE).\n"
+}

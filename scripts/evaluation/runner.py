@@ -217,22 +217,36 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
     intervention_kind = task.get("intervention_kind", "cow_to_sheep")
     if intervention_kind == "route_choice":
         gate_requested = bool(treatment["trace"].get("research_decision", {}).get("committed"))
+    intended_step = int(task["intended_action_step"])
+    window_valid = True
+    if task.get("activation_window") and gate_requested:
+        declared = treatment["trace"].get("research_decision", {}).get("first_action_step")
+        lo, hi = task["activation_window"]
+        window_valid = declared is not None and lo <= declared < hi
+        if window_valid:
+            intended_step = int(declared)
     divergence = audit_pair(
         control["replay"],
         treatment["replay"],
         seat,
         gate_requested=gate_requested,
-        intended_action_step=int(task["intended_action_step"]),
+        intended_action_step=intended_step,
         intervention_kind=intervention_kind,
     )
+    if not window_valid:
+        divergence["behavioral_isolation_valid"] = False
+        divergence["classification"] = "activation_outside_preregistered_window"
     control_safety = analyze_safety(
-        control["replay"], seat, control["trace"], transaction_step=int(task["intended_action_step"])
+        control["replay"], seat, control["trace"],
+        transaction_step=int(task.get("inherited_transaction_step", 248)),
+        intervention_step=int(task["intended_action_step"]),
     )
     treatment_safety = analyze_safety(
         treatment["replay"],
         seat,
         treatment["trace"],
-        transaction_step=int(task["intended_action_step"]),
+        transaction_step=int(task.get("inherited_transaction_step", 248)),
+        intervention_step=int(task["intended_action_step"]),
     )
     incidents = classify_candidate_incidents(control_safety, treatment_safety)
     if task.get("strict_all_step_safety"):
@@ -245,7 +259,7 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
     regressions = incidents["hard_safety_failures"]
     delivery_failures = incidents["treatment_delivery_failures"]
     save_replays = bool(
-        divergence["first_focal_action"] or regressions or delivery_failures
+        task.get("save_all_replays") or divergence["first_focal_action"] or regressions or delivery_failures
     )
     replay_artifacts: dict[str, str] = {}
     if save_replays:
@@ -266,6 +280,8 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
     treatment_public = _public_arm(treatment)
     pre_intervention_checkpoint = int(task["intended_action_step"])
     pair = {
+        "provenance": task.get("provenance", {}),
+        "declared_activation_window": task.get("activation_window"),
         "phase": task["phase"],
         "lineage_id": task["lineage_id"],
         "opponent_name": task["opponent_name"],

@@ -1,0 +1,333 @@
+{
+  "fetched_at": "2026-09-12T04:33:42.564773+00:00",
+  "repository": "conchocon154/kaggriculture-agent",
+  "commit": "8f4addee7a8db49678b748ac1cfd79c2f0d39518",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree_status": 200,
+  "tree": {
+    "sha": "8f4addee7a8db49678b748ac1cfd79c2f0d39518",
+    "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/8f4addee7a8db49678b748ac1cfd79c2f0d39518",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1a3e601caf46bdfff0ee22e084daa39d0e8a47fd",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/1a3e601caf46bdfff0ee22e084daa39d0e8a47fd"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b71699c46afeb31397267a78906a044a6afa30d9",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/b71699c46afeb31397267a78906a044a6afa30d9"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1d87f5ec4fce9831788f39d33f5f93b1590964d",
+        "size": 323,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/d1d87f5ec4fce9831788f39d33f5f93b1590964d"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56249fcd591193556b2b171fb2816b61d1e3cef1",
+        "size": 48,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/56249fcd591193556b2b171fb2816b61d1e3cef1"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89f191aaac5b8ad265e96fbc642bc277771a96fa",
+        "size": 1072,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/89f191aaac5b8ad265e96fbc642bc277771a96fa"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3167aacfaa72de4218905ecbba718a2522a2d879",
+        "size": 10539,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/3167aacfaa72de4218905ecbba718a2522a2d879"
+      },
+      {
+        "path": "attempts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f22a1afb15ec032d030125f23494ba0e7055d3a9",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/f22a1afb15ec032d030125f23494ba0e7055d3a9"
+      },
+      {
+        "path": "attempts/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "752605b3a533c1dce1eeb08d63099ae1a85b32f0",
+        "size": 10484,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/752605b3a533c1dce1eeb08d63099ae1a85b32f0"
+      },
+      {
+        "path": "attempts/README_v6_era.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1aaaa841a1eee3986740406ca9aab3f1e185bd5",
+        "size": 7612,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/c1aaaa841a1eee3986740406ca9aab3f1e185bd5"
+      },
+      {
+        "path": "attempts/v10_town_demand.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65d54015ff20ab2f88623102ca077661227335cd",
+        "size": 37628,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/65d54015ff20ab2f88623102ca077661227335cd"
+      },
+      {
+        "path": "attempts/v1_melon.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2918f942f1ff87bba0d26220f2df8e1ffd8a839d",
+        "size": 6077,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/2918f942f1ff87bba0d26220f2df8e1ffd8a839d"
+      },
+      {
+        "path": "attempts/v2_geese.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bf6517626d2991fad90464852ac64769f1e256a",
+        "size": 10602,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/7bf6517626d2991fad90464852ac64769f1e256a"
+      },
+      {
+        "path": "attempts/v3_diversified.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b50971aa9689576c98c84a93894fae113ee256b5",
+        "size": 7941,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/b50971aa9689576c98c84a93894fae113ee256b5"
+      },
+      {
+        "path": "attempts/v4_crops_plus_geese.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "408157bbf2be97ab5d182e1a1f5b5a730cf8ec32",
+        "size": 11419,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/408157bbf2be97ab5d182e1a1f5b5a730cf8ec32"
+      },
+      {
+        "path": "attempts/v6_melon_tuned.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c276abf4be9307167ae9c261f608d7cfc3b63e6f",
+        "size": 6096,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/c276abf4be9307167ae9c261f608d7cfc3b63e6f"
+      },
+      {
+        "path": "attempts/v7_herd_on_melon.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "814a6c4f7ee0739708b1e5970152eedca86743c4",
+        "size": 6359,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/814a6c4f7ee0739708b1e5970152eedca86743c4"
+      },
+      {
+        "path": "attempts/v8_scheduler_animals.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0be30c232ed7e7de454cb5ca1fb0a652c25a65e2",
+        "size": 20247,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/0be30c232ed7e7de454cb5ca1fb0a652c25a65e2"
+      },
+      {
+        "path": "attempts/v8_scheduler_base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f032ed2540ca9841c42ba2b6ad4a5c4490bd3273",
+        "size": 11676,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/f032ed2540ca9841c42ba2b6ad4a5c4490bd3273"
+      },
+      {
+        "path": "attempts/v8_scheduler_crops.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63770d6028b40516aa7d68ee1445aa66f45d8d8b",
+        "size": 12070,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/63770d6028b40516aa7d68ee1445aa66f45d8d8b"
+      },
+      {
+        "path": "main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a8bad26503c8703560fbb9b17b3e3eab0ed24ab",
+        "size": 33414,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/8a8bad26503c8703560fbb9b17b3e3eab0ed24ab"
+      },
+      {
+        "path": "reports",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0cf7ab40fe08d73d584d52285664446d53a16790",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/0cf7ab40fe08d73d584d52285664446d53a16790"
+      },
+      {
+        "path": "reports/figures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "58c679908de763c9f53f58e42faa53c12d5e434d",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/58c679908de763c9f53f58e42faa53c12d5e434d"
+      },
+      {
+        "path": "reports/figures/bank-over-season-dark.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7f49b451f98f9528bb64854c30f2cf20c9d3b00",
+        "size": 47929,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/b7f49b451f98f9528bb64854c30f2cf20c9d3b00"
+      },
+      {
+        "path": "reports/figures/bank-over-season-light.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4590fdbfedf95efb335e832ad48aad676edcbb54",
+        "size": 49563,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/4590fdbfedf95efb335e832ad48aad676edcbb54"
+      },
+      {
+        "path": "reports/figures/farm-board-dark.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fcff32329e4e08f97af4afaccc0e219b6529e62",
+        "size": 64382,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/5fcff32329e4e08f97af4afaccc0e219b6529e62"
+      },
+      {
+        "path": "reports/figures/farm-board-light.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "526d753a0ef46b81e21194682c6ef7fc0d922db5",
+        "size": 65562,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/526d753a0ef46b81e21194682c6ef7fc0d922db5"
+      },
+      {
+        "path": "reports/figures/market-depth-dark.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68bdc4bbf4c8ddbf6c8a85324648de66c317fc63",
+        "size": 63963,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/68bdc4bbf4c8ddbf6c8a85324648de66c317fc63"
+      },
+      {
+        "path": "reports/figures/market-depth-light.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8c32f8bf7fa90bb61138f9c31de67bc0a85e5ff",
+        "size": 66748,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/a8c32f8bf7fa90bb61138f9c31de67bc0a85e5ff"
+      },
+      {
+        "path": "reports/tables",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e68e439a2324f90b74488cae5eccb94f2e0bd911",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/e68e439a2324f90b74488cae5eccb94f2e0bd911"
+      },
+      {
+        "path": "reports/tables/bank_over_season.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d02a585df10e30a43f09112e7968e11e1ffcc357",
+        "size": 405,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/d02a585df10e30a43f09112e7968e11e1ffcc357"
+      },
+      {
+        "path": "reports/tables/market_depth.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "720b7431c04e3df136ed279fe5c7fd5b6bfc00c0",
+        "size": 12893,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/720b7431c04e3df136ed279fe5c7fd5b6bfc00c0"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "37f22a03879453df9cc4acd23910691daec6ed6e",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/37f22a03879453df9cc4acd23910691daec6ed6e"
+      },
+      {
+        "path": "scripts/ablate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd00290ba9099400f71723b670f409ef49b30eac",
+        "size": 3003,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/cd00290ba9099400f71723b670f409ef49b30eac"
+      },
+      {
+        "path": "scripts/bench.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fb587fd7bb52db4e850b9984058510cbd5c9950",
+        "size": 1595,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/8fb587fd7bb52db4e850b9984058510cbd5c9950"
+      },
+      {
+        "path": "scripts/head2head.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "466e8c5fb787a70c2d9adcd7858b69d102292ee5",
+        "size": 2372,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/466e8c5fb787a70c2d9adcd7858b69d102292ee5"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "791fc794ccd4fa6b88da21fa02803aa4f256d50c",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/791fc794ccd4fa6b88da21fa02803aa4f256d50c"
+      },
+      {
+        "path": "tests/test_agent.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42c0c718d8e541a4a3e6b4f18b3ae1ecb599b56b",
+        "size": 12774,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/42c0c718d8e541a4a3e6b4f18b3ae1ecb599b56b"
+      },
+      {
+        "path": "tests/test_animals.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e97b178ecb508ece70861c4106a90c23541eab54",
+        "size": 15080,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/e97b178ecb508ece70861c4106a90c23541eab54"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b4cfce57d62258e4abd64e34254517cc7e2dc32",
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/trees/2b4cfce57d62258e4abd64e34254517cc7e2dc32"
+      },
+      {
+        "path": "tools/render_charts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b2f280304233be1500417844dfb95f6f89b5507",
+        "size": 11873,
+        "url": "https://api.github.com/repos/conchocon154/kaggriculture-agent/git/blobs/8b2f280304233be1500417844dfb95f6f89b5507"
+      }
+    ],
+    "truncated": false
+  },
+  "readme_status": 200,
+  "readme": "# Kaggriculture agent\n\n[![CI](https://github.com/conchocon154/kaggriculture-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/conchocon154/kaggriculture-agent/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n\nAn entry for [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture),\na two-player farming sim: 30 days, 24 turns a day, most coins wins.\n\nA scheduler rather than a rulebook. Every tile that wants work is priced in\ncoins per action, every (unit, job) pair is discounted by the walk, and the\npairs are matched against that score.\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"reports/figures/farm-board-dark.png\">\n  <img alt=\"The same farm on day 4, day 12 and day 26: twenty-five melon tiles and an empty bank; then thirteen thousand coins, two more quadrants bought and pens going up; then a farm spread across three quadrants with fifty-three thousand banked\" src=\"reports/figures/farm-board-light.png\">\n</picture>\n\n<sub>One real game against the built-in starter, seed 1003 — not an illustration\nof one. Circles are the farmer and the hired hands; the black square is the\nshed, which every sale has to pass through.</sub>\n\nThe three panels are the whole strategy. **Day 4:** every tile of the starting\nquadrant is melon and the bank is down to $167, because melon is the only thing\non this board worth going all-in on. **Day 12:** the crop has landed, and the\nproceeds have bought two more quadrants. **Day 26:** the farm covers three\nquadrants and the bank is at $53,645, against the starter's $3,690.\n\nThe pale blue tiles on day 26 are pens standing empty. That is not a design;\nit is the agent's most expensive remaining habit, and it is described honestly\nfurther down.\n\n| | vs `starter`, 8 seeds | vs the previous agent, seats alternated |\n|---|---:|---|\n| previous agent (on the ladder at rank 6,505) | 34,866 | — |\n| **this one** | **80,232** | **12 wins, 0 losses** |\n\n## What the previous agent got wrong\n\nIt was a decent scheduler that had never read the price table. Integrating the\nengine's own curve gives the total a season can pay for each good:\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"reports/figures/market-depth-dark.png\">\n  <img alt=\"Cumulative revenue against units sold: melon flattens completely at about 26,700 coins after 150 units, wool flattens at 8,000 after 50, while fertilizer, egg and wheat keep climbing to the right edge of the chart\" src=\"reports/figures/market-depth-light.png\">\n</picture>\n\nMelon is the steepest line on the board and the first to stop. It flattens\ncompletely at about 150 units — after that the price is $1 and another melon is\nworth nothing at all. Wool stops even earlier, at 50. Egg, fertiliser and wheat\nnever flatten, which is the entire reason this agent keeps a flock.\n\n| units sold | 30 | 100 | 250 | 400 | price of the 400th |\n|---|---:|---:|---:|---:|---:|\n| **MELON** | 7,416 | 21,721 | 26,577 | 26,727 | $1 |\n| **EGG** | 1,371 | 4,371 | 10,559 | 16,559 | **$40** |\n| **FERTILIZER** | 2,913 | 9,010 | 18,775 | 24,040 | $20 |\n| **WHEAT** | 687 | 2,193 | 5,313 | 8,313 | $20 |\n| **TOMATO** | 1,529 | 4,318 | 8,315 | 10,453 | $9 |\n| **WOOL** | 5,503 | 7,969 | 8,119 | 8,269 | $1 |\n| **MILK** | 3,888 | 6,205 | 6,355 | 6,505 | $1 |\n| **STRAWBERRY** | 2,764 | 3,847 | 3,997 | 4,147 | $1 |\n\nMelon is the best thing on the board and it is worth about 26,000 coins for the\nentire season — shared with the opponent. An agent whose plan is melon has a\nceiling, and the old one was sitting on it. Everything past that has to come\nfrom the two curves that never crash: eggs, and the fertiliser that arrives free\nwith the bird laying them. Wool and milk are traps that look rich at 30 units.\n\nSo the season is: melon while melon is deep, then a flock funded by melon, on\nland bought with melon money.\n\nThree engine facts the old agent never used.\n\n* **`BUY_LAND`** turns 25 tiles into 100 for 7,000 coins — cheaper than three\n  geese. It never called it, and played a quarter of the game.\n* **A hand costs `fib(n)`** for the day, so the twelfth hand of the day costs\n  144 coins for twenty-four actions.\n* **End of day empties every pack into the shed anyway**, so walking back to\n  bank a single item bought nothing but steps.\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"reports/figures/bank-over-season-dark.png\">\n  <img alt=\"Bank over thirty days: flat and near zero until day ten, a nine-thousand-coin jump when the melon crop lands, then a steady climb to 63,659 against the starter's 3,690\" src=\"reports/figures/bank-over-season-light.png\">\n</picture>\n\nNine days of nothing, then the melon crop lands and pays for everything after\nit. An agent that spends those nine days looking prudent finishes with a\nprudent number.\n\n## Coins per action\n\nThe one idea the rest hangs on. Two of them, really, and both are the same\nmistake in different clothes: comparing numbers measured over different things.\n\n**Price each successive tile, not the crop.** Valuing a crop at a flat share of\nits base price says every empty tile wants the same crop, so the farm\nmonocrops and drowns its own market. `Econ` prices the *next* unit against\neverything the farm has already committed to producing — standing crops,\nplaced animals, animals still in the shed — so the tenth melon is valued at\nwhat the tenth melon will actually fetch. The farm then diversifies on its own:\nmelon until melon stops paying, then coops, then wheat. No rule says so.\n\n**Price each job by the turn it costs.** A pen's whole-season total against a\nsingle watering is not a comparison. Priced that way the farm covered itself in\npens worth thousands apiece and let every crop on it die of thirst. A planting\nis worth its cycle divided by the actions in the cycle; an animal is worth its\nseason divided by the feeding, caring and collecting it will need. Then a\nwatering can be compared with a coop.\n\n## What measurement overturned\n\nFour things I would have got wrong by reasoning alone.\n\n**More hands is worse.** Sixteen hands scored 32,800 where ten scored 55,200 on\nthe same seeds. The wage bill accelerates as `fib(n)` and the work a marginal\nhand finds is the cheap end of the board — planting wheat, digging weeds. The\nfarm runs out of jobs worth a turn long before it runs out of coins to hire\nwith.\n\n**Do not hedge against the opponent's melon.** We cannot see their shed and on\nthis ladder they are growing melon too, so pricing our supply as if we were the\nonly seller looks reckless. Measured in a mirror match where both farms flood\nthe same market, the reckless version won **10–0**, 60,046 coins to 44,385.\nMelon is a common pool that only the town drains, about one unit a day. Holding\nback does not protect the price; it hands the pool to whoever does not hold\nback.\n\n**Bank at three items, not six.** End of day banks everything anyway, so\nbanking early is only ever about selling sooner — and the shed holds a hundred\nitems, past which the overflow is discarded. Three beat six 8–4 head to head.\n\n**When the matcher refuses a job, fix the till, not the matcher.** Games were\nending with twenty-four animals in the shed — 8,700 coins that earned nothing —\nbehind fourteen empty coops. Housing a bird was priced at its lifetime rate,\nabout 27 coins an action, against feeding jobs worth several hundred, so the\nmatcher never chose it. Repricing housing at what those two turns unlock made\nit worse: 53,500 against 76,900. The turns really were better spent. The farm\nnow stops buying while four animals are waiting on a pen, and that went\n**12–0**.\n\n## Four bugs that all looked right in the source\n\nEach was found by watching a game day by day rather than by reading.\n\n* **The feed order was sized off the shed alone.** The units had just carried\n  the wheat out of it, so the farm re-bought the whole day's feed on all\n  twenty-four turns. The bank hit zero by day thirteen of every game.\n* **Livestock was bought before feed.** Nine geese became three.\n* **Empty pens were counted together.** A goose needs a coop and a cow a\n  pasture; counting them as one number bought ten cows against six empty coops.\n* **Animals waiting in the shed were not counted as supply.** Every purchase\n  looked like the first one. One game bought fifteen sheep into a wool price\n  that floors after thirty units.\n\n## Running it\n\n```bash\npython3 -m venv .venv && .venv/bin/pip install -U kaggle-environments pytest\n\n# coins against a fixed opponent — shows whether a change moved the economy\n.venv/bin/python scripts/bench.py --games 8\n\n# the measurement that decides things: wins, with seats alternated\n.venv/bin/python scripts/head2head.py main.py attempts/v8_scheduler_animals.py --games 12\n\n.venv/bin/python -m pytest tests/ -q      # 63 tests\n```\n\nSeats are alternated because the two players are not symmetric in a shared\nmarket. A four-game round robin between three variants once came out\nnon-transitive; it only resolved at eight games with alternating seats.\n\n`bench.py` is the shortlist and `head2head.py` is the verdict — and the gap\nbetween them is not academic. Every knob swept alone against `starter` looked\nlike a gain; combining the six winners gained nothing, because five of them were\nnoise on eight games. Worse, the single most valuable decision in the agent —\nflooding the melon market — is one `starter` cannot test at all, because it does\nnot grow melon.\n\n## Submitting\n\n```bash\nkaggle competitions submit kaggriculture -f main.py -m \"...\"\n```\n\nThe ladder is Elo on **wins and losses only** — the coin margin never enters it,\nand opponents are drawn from near your own rating. An earlier version of this\nagent scored *higher* against `starter` than the one that replaced it and lost\nevery head-to-head game, which is why nothing here is decided on coins alone.\n\n## What did not work\n\n[`attempts/`](attempts/) keeps the earlier versions with their numbers, and\n[`attempts/README.md`](attempts/README.md) says why each failed. The short list:\nfour attempts at an animal herd, all of which collapsed on the fact that `FEED`\ntakes wheat from the acting unit's own inventory rather than the shed; a\nfour-crop diversified farm that scores highest against `starter` and loses head\nto head; and — the expensive one — a whole round spent concluding that animals\nare dominated, measured in coins per *tile*-day on a 25-tile farm. Tiles were\nnever the scarce thing. Turns and market depth were.\n\n## Licence\n\nMIT.\n"
+}

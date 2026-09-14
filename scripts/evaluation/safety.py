@@ -168,6 +168,7 @@ def _simulate_market(
             )
         queues.append(orders[:max_orders])
     for slot in range(max((len(queue) for queue in queues), default=0)):
+        money_before_slot = [farm["money"] for farm in farms]
         states = []
         requested: list[Any] = []
         committed = [0, 0]
@@ -259,6 +260,7 @@ def _simulate_market(
                     "item": parsed.get("item"),
                     "requested": requested_units,
                     "committed": committed[player],
+                    "cash_delta": farms[player]["money"] - money_before_slot[player],
                 }
             )
     return events
@@ -286,7 +288,10 @@ def analyze_safety(
     agent_trace: dict[str, Any],
     *,
     transaction_step: int = 248,
+    intervention_step: int | None = None,
 ) -> dict[str, Any]:
+    # A route/market decision need not occur at the inherited livestock purchase.
+    intervention_step = transaction_step if intervention_step is None else intervention_step
     statuses: list[dict[str, Any]] = []
     minimum_cash = float("inf")
     animal_losses: Counter[str] = Counter()
@@ -330,12 +335,12 @@ def analyze_safety(
                 if committed == 0 and requested:
                     event_counts["silent_market_noop"] += 1
                     event_counts[
-                        f"{'pre' if step < transaction_step else 'post'}_intervention_silent_market_noop"
+                        f"{'pre' if step < intervention_step else 'post'}_intervention_silent_market_noop"
                     ] += 1
                 elif committed < requested:
                     event_counts["partial_market_commit"] += 1
                     event_counts[
-                        f"{'pre' if step < transaction_step else 'post'}_intervention_partial_market_commit"
+                        f"{'pre' if step < intervention_step else 'post'}_intervention_partial_market_commit"
                     ] += 1
                 if (
                     step == transaction_step
@@ -343,10 +348,14 @@ def analyze_safety(
                     and event.get("item") == "SHEEP"
                 ):
                     purchase_committed += committed
+                if committed < requested:
+                    event_counts[
+                        "oversized_sell" if event.get("op") == "SELL" else "failed_required_purchase"
+                    ] += 1
             else:
                 event_counts[kind] += int(event.get("count", 1) or 1)
                 event_counts[
-                    f"{'pre' if step < transaction_step else 'post'}_intervention_{kind}"
+                    f"{'pre' if step < intervention_step else 'post'}_intervention_{kind}"
                 ] += int(event.get("count", 1) or 1)
             if kind == "silent_field_noop":
                 row = event.get("action") or []
@@ -388,6 +397,8 @@ def analyze_safety(
         "engine_action_audit": dict(event_counts),
         "engine_action_examples": event_examples,
         "transaction": {
+            "purchase_audit_step": transaction_step,
+            "intervention_step": intervention_step,
             "emitted_purchase_rewrite": emitted_purchase,
             "purchase_units_committed": purchase_committed,
             "emitted_pickups": int(counts.get("cow-to-sheep-pickup", 0)),

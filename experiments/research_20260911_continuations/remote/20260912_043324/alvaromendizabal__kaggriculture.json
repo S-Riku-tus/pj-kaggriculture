@@ -1,0 +1,2232 @@
+{
+  "fetched_at": "2026-09-12T04:33:34.582122+00:00",
+  "repository": "alvaromendizabal/kaggriculture",
+  "commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree_status": 200,
+  "tree": {
+    "sha": "7194116dfc92a8663139611233b5a221dad431a4",
+    "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/7194116dfc92a8663139611233b5a221dad431a4",
+    "tree": [
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05d55d598eb171302003ae05aba59e7498648183",
+        "size": 184,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/05d55d598eb171302003ae05aba59e7498648183"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "533f434c3b6335e0f18dec49033b20ca0590e0b2",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/533f434c3b6335e0f18dec49033b20ca0590e0b2"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d73584fc8b7d9df2501b4233fb81d5439b5d8c80",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/d73584fc8b7d9df2501b4233fb81d5439b5d8c80"
+      },
+      {
+        "path": ".github/workflows/feature_evidence.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f47ad15ec6e62c3be3686cc6d2ea0da6b68b28cb",
+        "size": 1948,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f47ad15ec6e62c3be3686cc6d2ea0da6b68b28cb"
+      },
+      {
+        "path": ".github/workflows/publish_bottleneck_research.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "814ff66ed51fbc71c933391021f03dabe8f6f3b1",
+        "size": 2161,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/814ff66ed51fbc71c933391021f03dabe8f6f3b1"
+      },
+      {
+        "path": ".github/workflows/publish_staffing_audit.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91d600d812d136cffc9e3df2f43c90f519d068a5",
+        "size": 3754,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/91d600d812d136cffc9e3df2f43c90f519d068a5"
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96fa5c53c6141689ff7cc22bd572f6d4ef5c5a9a",
+        "size": 1846,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/96fa5c53c6141689ff7cc22bd572f6d4ef5c5a9a"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9f16513dd65c73e9419bfdb6993ea7b0508f379",
+        "size": 167,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d9f16513dd65c73e9419bfdb6993ea7b0508f379"
+      },
+      {
+        "path": ".python-version",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+        "size": 5,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db9555131d4893347c7eae8bc9ace2de3e9f5e86",
+        "size": 3491,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/db9555131d4893347c7eae8bc9ace2de3e9f5e86"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ec105580c48689271eb011bfcc8e10d3f647a19",
+        "size": 1074,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9ec105580c48689271eb011bfcc8e10d3f647a19"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45886b1265d95b766d9b2889aaae82b3ceaad339",
+        "size": 14581,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/45886b1265d95b766d9b2889aaae82b3ceaad339"
+      },
+      {
+        "path": "configs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ad505c05aa7b1410a14098ca9d893a5905770534",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/ad505c05aa7b1410a14098ca9d893a5905770534"
+      },
+      {
+        "path": "configs/aws.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47e8f803b9784371f306bd1f5df96b674c144770",
+        "size": 614,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/47e8f803b9784371f306bd1f5df96b674c144770"
+      },
+      {
+        "path": "configs/feature_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8d351968c89c695e738468368ca4e0a49e0aba3",
+        "size": 474,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f8d351968c89c695e738468368ca4e0a49e0aba3"
+      },
+      {
+        "path": "configs/livestock_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c5761a353b4462d45532e35d7b30b75ff5786fa",
+        "size": 668,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6c5761a353b4462d45532e35d7b30b75ff5786fa"
+      },
+      {
+        "path": "configs/market_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "533e055a4f8b337c5dd5a0279d76c85b094302e2",
+        "size": 896,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/533e055a4f8b337c5dd5a0279d76c85b094302e2"
+      },
+      {
+        "path": "configs/relationship_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "144e41b0e8d2f804e579449ef733ff49c963bb09",
+        "size": 679,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/144e41b0e8d2f804e579449ef733ff49c963bb09"
+      },
+      {
+        "path": "configs/research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76cb5ae2f880bbe622c9c2a6f7160b7cd8923d3e",
+        "size": 524,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/76cb5ae2f880bbe622c9c2a6f7160b7cd8923d3e"
+      },
+      {
+        "path": "configs/staffing_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8879e4394d184168161f1083aa748ce100ee6e9",
+        "size": 957,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d8879e4394d184168161f1083aa748ce100ee6e9"
+      },
+      {
+        "path": "configs/supply_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c70292ec08a636872a9fdf24ef8cc47a728a7d12",
+        "size": 863,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c70292ec08a636872a9fdf24ef8cc47a728a7d12"
+      },
+      {
+        "path": "configs/terminal_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0d9d8ab0e3c8dacf7fcb1de0889b66b611e4e64",
+        "size": 566,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b0d9d8ab0e3c8dacf7fcb1de0889b66b611e4e64"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a788fa323f7da664df2e0d054214904f9f9818e7",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/a788fa323f7da664df2e0d054214904f9f9818e7"
+      },
+      {
+        "path": "docs/bottleneck_findings.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4dc6c65411dfc980bee6c2a2feec0086a0ae9839",
+        "size": 3421,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4dc6c65411dfc980bee6c2a2feec0086a0ae9839"
+      },
+      {
+        "path": "docs/bottleneck_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91f5a31fc9d7e96c553605b4be4725e339235e26",
+        "size": 4697,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/91f5a31fc9d7e96c553605b4be4725e339235e26"
+      },
+      {
+        "path": "docs/domain_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c66c5c95bb5784635069852d5a9b8d4e31509705",
+        "size": 21163,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c66c5c95bb5784635069852d5a9b8d4e31509705"
+      },
+      {
+        "path": "docs/feature_coverage.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "454dc91555233f5826857e46a6b7379ef1ba3f10",
+        "size": 8312,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/454dc91555233f5826857e46a6b7379ef1ba3f10"
+      },
+      {
+        "path": "docs/feature_experiment.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cf2ec38ad9c3242c60cea01137c1c8c87e1461a",
+        "size": 4538,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8cf2ec38ad9c3242c60cea01137c1c8c87e1461a"
+      },
+      {
+        "path": "docs/feature_findings.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3df0eea98e924be4044f40a9cfc2d2ece8937e6",
+        "size": 4037,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f3df0eea98e924be4044f40a9cfc2d2ece8937e6"
+      },
+      {
+        "path": "docs/feature_next_milestone.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5f616f0ccfe71b0fa4a7e1d5b4e1a756e482a54",
+        "size": 4098,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b5f616f0ccfe71b0fa4a7e1d5b4e1a756e482a54"
+      },
+      {
+        "path": "docs/kaggle_companion.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06f103cdc2d951fa38d59a46e717f7a393858168",
+        "size": 1048,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/06f103cdc2d951fa38d59a46e717f7a393858168"
+      },
+      {
+        "path": "docs/livestock_protocol.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a61dd6d954c1be9dbdab2cbdf8cd3c8cc5b3d2ce",
+        "size": 6286,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a61dd6d954c1be9dbdab2cbdf8cd3c8cc5b3d2ce"
+      },
+      {
+        "path": "docs/livestock_recovery.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18dca306499d7003d7bbd9e611ae423813776dbf",
+        "size": 7286,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/18dca306499d7003d7bbd9e611ae423813776dbf"
+      },
+      {
+        "path": "docs/livestock_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "063433e14d33fe6543791527b7e77725ecf09fe3",
+        "size": 13053,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/063433e14d33fe6543791527b7e77725ecf09fe3"
+      },
+      {
+        "path": "docs/market_findings.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa5cd7fb1e4028c6210e12ecabed42d31c9de931",
+        "size": 7345,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/aa5cd7fb1e4028c6210e12ecabed42d31c9de931"
+      },
+      {
+        "path": "docs/market_history_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16bf4cac18ec2e6f972691c8a5756595102488f7",
+        "size": 15175,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/16bf4cac18ec2e6f972691c8a5756595102488f7"
+      },
+      {
+        "path": "docs/market_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f687aae2d294196dc93ca412367fd0348331a905",
+        "size": 5633,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f687aae2d294196dc93ca412367fd0348331a905"
+      },
+      {
+        "path": "docs/relationship_findings.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "105827a54e11acfe4cbcedef562481ec9d07de7a",
+        "size": 7722,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/105827a54e11acfe4cbcedef562481ec9d07de7a"
+      },
+      {
+        "path": "docs/relationship_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f81c6698e53332c46531fd6513a762986ab190df",
+        "size": 6319,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f81c6698e53332c46531fd6513a762986ab190df"
+      },
+      {
+        "path": "docs/research_protocol.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72e3f3dd748949a91157ded6bd8c5b4f6385856c",
+        "size": 5633,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/72e3f3dd748949a91157ded6bd8c5b4f6385856c"
+      },
+      {
+        "path": "docs/source_audit.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f5fcec4f138451dfa132c4225fc3f15a877dd9d",
+        "size": 3355,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3f5fcec4f138451dfa132c4225fc3f15a877dd9d"
+      },
+      {
+        "path": "docs/staffing_findings.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de8434362038f87267162c08c0538c709572205e",
+        "size": 5103,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/de8434362038f87267162c08c0538c709572205e"
+      },
+      {
+        "path": "docs/staffing_protocol.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58e4de1a07bb9fbf3067e7adb09e8e7d1e06ba4a",
+        "size": 8425,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/58e4de1a07bb9fbf3067e7adb09e8e7d1e06ba4a"
+      },
+      {
+        "path": "docs/supply_recovery.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc27c085ce6ebcd7ac8a40eb41ed3173b4b25976",
+        "size": 7649,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/fc27c085ce6ebcd7ac8a40eb41ed3173b4b25976"
+      },
+      {
+        "path": "docs/supply_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61bcd9372817bf76aff57681b54021b70d3b2edb",
+        "size": 19041,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/61bcd9372817bf76aff57681b54021b70d3b2edb"
+      },
+      {
+        "path": "docs/supply_status.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a2f4c90fb36f897675432314a18b5a4fab41804",
+        "size": 3942,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9a2f4c90fb36f897675432314a18b5a4fab41804"
+      },
+      {
+        "path": "docs/terminal_protocol.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12f28c1a5de52a4e5d4087972c29d41a1810e54f",
+        "size": 5930,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/12f28c1a5de52a4e5d4087972c29d41a1810e54f"
+      },
+      {
+        "path": "docs/terminal_recovery.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2937436fbcfe2ca9d24f579d7f7d06ac1a458ec5",
+        "size": 7422,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2937436fbcfe2ca9d24f579d7f7d06ac1a458ec5"
+      },
+      {
+        "path": "docs/terminal_research.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "198ed4bb127a15372f45bdceace976f5d5c18920",
+        "size": 11150,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/198ed4bb127a15372f45bdceace976f5d5c18920"
+      },
+      {
+        "path": "notebooks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7e7bb383c9d2d76f534f4d17df9865622ea25738",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/7e7bb383c9d2d76f534f4d17df9865622ea25738"
+      },
+      {
+        "path": "notebooks/00_environment.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d745879dafa86f71b5f48a2b532d7ce82bcfae9",
+        "size": 91362,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4d745879dafa86f71b5f48a2b532d7ce82bcfae9"
+      },
+      {
+        "path": "notebooks/01_data_audit.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be7e67423bc2662ae702bb95acc040f8ad730084",
+        "size": 206741,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/be7e67423bc2662ae702bb95acc040f8ad730084"
+      },
+      {
+        "path": "notebooks/02_feature_research.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65d6f2427396e32b8060ddac5a997df5ea28b52a",
+        "size": 1079132,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/65d6f2427396e32b8060ddac5a997df5ea28b52a"
+      },
+      {
+        "path": "notebooks/03_staffing_research.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ba41aff7230fb7012e709455a8c073699c9456f",
+        "size": 205285,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9ba41aff7230fb7012e709455a8c073699c9456f"
+      },
+      {
+        "path": "notebooks/04_decision_bottlenecks.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b775673f2aff12b63a71fd1e09bdf8a627de8519",
+        "size": 126242,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b775673f2aff12b63a71fd1e09bdf8a627de8519"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da61e6933bacbfd6bffeb590edb6f23d6ca9f74f",
+        "size": 658,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/da61e6933bacbfd6bffeb590edb6f23d6ca9f74f"
+      },
+      {
+        "path": "reports",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c0a35d0e3f1038fa5d9ce67a00aeb3e25ece529d",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/c0a35d0e3f1038fa5d9ce67a00aeb3e25ece529d"
+      },
+      {
+        "path": "reports/bottleneck_notebook_execution.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "458a0aba8dbcac46ab1356e8bc7bef47b983ddf8",
+        "size": 507,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/458a0aba8dbcac46ab1356e8bc7bef47b983ddf8"
+      },
+      {
+        "path": "reports/bottleneck_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a60a6eb382f148730e66cb464210359125e3a843",
+        "size": 3751,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a60a6eb382f148730e66cb464210359125e3a843"
+      },
+      {
+        "path": "reports/bottleneck_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b22a33d321301084b3e653c829f253dcddea9a9",
+        "size": 4770,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3b22a33d321301084b3e653c829f253dcddea9a9"
+      },
+      {
+        "path": "reports/bottleneck_uploads.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d62b4990cb4e924ce3c9d1ae7de3856710ff0e9",
+        "size": 696,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9d62b4990cb4e924ce3c9d1ae7de3856710ff0e9"
+      },
+      {
+        "path": "reports/cash_history_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12f9d85ecc2485f1d6664c77087b2b36ede1fb08",
+        "size": 128466,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/12f9d85ecc2485f1d6664c77087b2b36ede1fb08"
+      },
+      {
+        "path": "reports/cloud_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "403854fd65408b18ab8f69f9b06621e67fbd5b31",
+        "size": 25772,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/403854fd65408b18ab8f69f9b06621e67fbd5b31"
+      },
+      {
+        "path": "reports/feature_ablations.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b1dfb87e2fbf37e5c45bfe0be319b986fe5eeda",
+        "size": 1897,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2b1dfb87e2fbf37e5c45bfe0be319b986fe5eeda"
+      },
+      {
+        "path": "reports/feature_behavior.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a94df24180a739e80a60c193a3fc517281d8c47",
+        "size": 4286,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7a94df24180a739e80a60c193a3fc517281d8c47"
+      },
+      {
+        "path": "reports/feature_behavior_audit.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8df08e1d6b8f4e7ff8b3563aa92e53eb11f1968",
+        "size": 1817,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b8df08e1d6b8f4e7ff8b3563aa92e53eb11f1968"
+      },
+      {
+        "path": "reports/feature_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5789f8afc7b3d255554ee4b58e0487fe3fbcaa4",
+        "size": 6571,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a5789f8afc7b3d255554ee4b58e0487fe3fbcaa4"
+      },
+      {
+        "path": "reports/feature_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3215678d7e81c424692ac3521d99099376b4a475",
+        "size": 22282,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3215678d7e81c424692ac3521d99099376b4a475"
+      },
+      {
+        "path": "reports/feature_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73679cb2c83a6c6ffadcd7caf64a150d5c4fa728",
+        "size": 35744,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/73679cb2c83a6c6ffadcd7caf64a150d5c4fa728"
+      },
+      {
+        "path": "reports/foundation.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfaf1382f7eda06c011a212a3c9c08fdc53c1641",
+        "size": 13248,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/dfaf1382f7eda06c011a212a3c9c08fdc53c1641"
+      },
+      {
+        "path": "reports/history_backup.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bbf9ad8096b357add0fb653f002ff6a4935c238f",
+        "size": 528,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/bbf9ad8096b357add0fb653f002ff6a4935c238f"
+      },
+      {
+        "path": "reports/livestock_action_identities.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3de4320ac66e66b36336520b6dd5b16bf29b990f",
+        "size": 10158,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3de4320ac66e66b36336520b6dd5b16bf29b990f"
+      },
+      {
+        "path": "reports/livestock_cloud_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6f40824f6343b8f3b23d9246bb25cde351e30ec",
+        "size": 54298,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c6f40824f6343b8f3b23d9246bb25cde351e30ec"
+      },
+      {
+        "path": "reports/livestock_correlations.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96fb6cae1add02ed62209f90e05f9a5a136cf2ad",
+        "size": 149285,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/96fb6cae1add02ed62209f90e05f9a5a136cf2ad"
+      },
+      {
+        "path": "reports/livestock_effects.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aca1e6ee67e2b0ed155e3c350cedb111cd5b39f",
+        "size": 14439,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6aca1e6ee67e2b0ed155e3c350cedb111cd5b39f"
+      },
+      {
+        "path": "reports/livestock_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f0ec167ef8c63a19524fd6e65a27b1685b30f29",
+        "size": 10663,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9f0ec167ef8c63a19524fd6e65a27b1685b30f29"
+      },
+      {
+        "path": "reports/livestock_integrity.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "850697e4b7ea67233d56112a319e6bb59e55df35",
+        "size": 33996,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/850697e4b7ea67233d56112a319e6bb59e55df35"
+      },
+      {
+        "path": "reports/livestock_mechanisms.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "456e2f708094090fe8265b7395fc5628df123493",
+        "size": 514,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/456e2f708094090fe8265b7395fc5628df123493"
+      },
+      {
+        "path": "reports/livestock_notebook_execution.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d31327f33dd52903cf4006e77f9d63ae8047887a",
+        "size": 999,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d31327f33dd52903cf4006e77f9d63ae8047887a"
+      },
+      {
+        "path": "reports/livestock_preflight.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a51e504af7e90a1b14a1152a114799263fc09a01",
+        "size": 1144,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a51e504af7e90a1b14a1152a114799263fc09a01"
+      },
+      {
+        "path": "reports/livestock_products.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74e2aca2c3090099c50e6002291e423c013f2079",
+        "size": 31956,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/74e2aca2c3090099c50e6002291e423c013f2079"
+      },
+      {
+        "path": "reports/livestock_progress.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e82f3d4eda0f3601d108e416838e5e5101f6b574",
+        "size": 30908,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e82f3d4eda0f3601d108e416838e5e5101f6b574"
+      },
+      {
+        "path": "reports/livestock_recovery_probe.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ad53cf33cf7ae6a24bb9484dcc6f890fe343f79",
+        "size": 620,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6ad53cf33cf7ae6a24bb9484dcc6f890fe343f79"
+      },
+      {
+        "path": "reports/livestock_registration.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06ccebc87af5a543601e7bc760a40ac53cb7f665",
+        "size": 23051,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/06ccebc87af5a543601e7bc760a40ac53cb7f665"
+      },
+      {
+        "path": "reports/livestock_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1363f29d8cb61d73fd638f221b5e2906c853379a",
+        "size": 215053,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/1363f29d8cb61d73fd638f221b5e2906c853379a"
+      },
+      {
+        "path": "reports/livestock_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b0597d25a32331cba33799f7534874a3601f997",
+        "size": 119696,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4b0597d25a32331cba33799f7534874a3601f997"
+      },
+      {
+        "path": "reports/livestock_runtime.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "467648eb21b7ed1bb55fdfae23ccafe5fb7b3d76",
+        "size": 1084,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/467648eb21b7ed1bb55fdfae23ccafe5fb7b3d76"
+      },
+      {
+        "path": "reports/livestock_slice_progress.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efe2739b09fc20987a8a0cfef8f79fb0b93b527f",
+        "size": 237,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/efe2739b09fc20987a8a0cfef8f79fb0b93b527f"
+      },
+      {
+        "path": "reports/livestock_species.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f028177fb60ad286089b78e3ce162fdb7c8e02b2",
+        "size": 12652,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f028177fb60ad286089b78e3ce162fdb7c8e02b2"
+      },
+      {
+        "path": "reports/livestock_uploads.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f6780afa4eee34fcfe7252f72a057b6e7ce413b",
+        "size": 31012,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2f6780afa4eee34fcfe7252f72a057b6e7ce413b"
+      },
+      {
+        "path": "reports/market_behavior.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c24caf73a810baa49abed3fe910bd31e0f16bff",
+        "size": 8606,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7c24caf73a810baa49abed3fe910bd31e0f16bff"
+      },
+      {
+        "path": "reports/market_cloud_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14f6aa08ec8ae811825494e2c074e2c6864438ed",
+        "size": 19052,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/14f6aa08ec8ae811825494e2c074e2c6864438ed"
+      },
+      {
+        "path": "reports/market_correlations.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8bdb0672c0b537920046958ddc14db23a1cc8a9c",
+        "size": 57110,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8bdb0672c0b537920046958ddc14db23a1cc8a9c"
+      },
+      {
+        "path": "reports/market_effects.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f12910e809585acb5b69083087da9ac3d3ac25e",
+        "size": 2412,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/0f12910e809585acb5b69083087da9ac3d3ac25e"
+      },
+      {
+        "path": "reports/market_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4580acc0d39a9d6f73a5346804d78c9d2b373699",
+        "size": 3953,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4580acc0d39a9d6f73a5346804d78c9d2b373699"
+      },
+      {
+        "path": "reports/market_history_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0f00a8102e60c4da759678516c205e86ec9a0e8",
+        "size": 326276,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d0f00a8102e60c4da759678516c205e86ec9a0e8"
+      },
+      {
+        "path": "reports/market_hold_analysis.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7d4b6959fb6eb122be593d86bc664ecc04c41c3",
+        "size": 1019,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f7d4b6959fb6eb122be593d86bc664ecc04c41c3"
+      },
+      {
+        "path": "reports/market_hold_diagnostics.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa5180c4fa7f70486d7d37a4b297c44eb023379b",
+        "size": 12622,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/aa5180c4fa7f70486d7d37a4b297c44eb023379b"
+      },
+      {
+        "path": "reports/market_integrity.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd27acc1bce9cbce48e5af094bb8d85c088a5a1e",
+        "size": 841,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/fd27acc1bce9cbce48e5af094bb8d85c088a5a1e"
+      },
+      {
+        "path": "reports/market_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57708eeddc7c267e3b405e5cd24bd3406cb78b1b",
+        "size": 125323,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/57708eeddc7c267e3b405e5cd24bd3406cb78b1b"
+      },
+      {
+        "path": "reports/market_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afc6ad67971b94f3b4a1dfcc5a9f3b52d82cab33",
+        "size": 54019,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/afc6ad67971b94f3b4a1dfcc5a9f3b52d82cab33"
+      },
+      {
+        "path": "reports/relationship_behavior.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "784596c02ab00a57230e5fcbf58b75641c186e69",
+        "size": 11480,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/784596c02ab00a57230e5fcbf58b75641c186e69"
+      },
+      {
+        "path": "reports/relationship_cloud_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "965732f1196b45f8c135cd64b3cb7850b00326bf",
+        "size": 45153,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/965732f1196b45f8c135cd64b3cb7850b00326bf"
+      },
+      {
+        "path": "reports/relationship_correlations.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f184564a799d74eba7881df3918fae6e40f8c9d4",
+        "size": 16885,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f184564a799d74eba7881df3918fae6e40f8c9d4"
+      },
+      {
+        "path": "reports/relationship_effects.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d724e8ac0a80f4fbb2bfe6dbec0aae6929598a92",
+        "size": 3861,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d724e8ac0a80f4fbb2bfe6dbec0aae6929598a92"
+      },
+      {
+        "path": "reports/relationship_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4676331bed7718fd85421b17151a36c7271b70d1",
+        "size": 5543,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4676331bed7718fd85421b17151a36c7271b70d1"
+      },
+      {
+        "path": "reports/relationship_integrity.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0bae64c6cb09a6cdbc77f9aed7c8a083d5de4fe7",
+        "size": 842,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/0bae64c6cb09a6cdbc77f9aed7c8a083d5de4fe7"
+      },
+      {
+        "path": "reports/relationship_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "413770e8194384e3ce1424386cb8fc9adc076ff9",
+        "size": 81962,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/413770e8194384e3ce1424386cb8fc9adc076ff9"
+      },
+      {
+        "path": "reports/relationship_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f97d63e993b9260e5d2307c858ec91fb3376c16d",
+        "size": 56049,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f97d63e993b9260e5d2307c858ec91fb3376c16d"
+      },
+      {
+        "path": "reports/staffing_audit_summary.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f948740e4ffb34ca9447e9634b0966012e4db12",
+        "size": 5150,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2f948740e4ffb34ca9447e9634b0966012e4db12"
+      },
+      {
+        "path": "reports/staffing_feature_coverage.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6fdace438f74a14e5ba71d176d7a434de7e46a09",
+        "size": 6551,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6fdace438f74a14e5ba71d176d7a434de7e46a09"
+      },
+      {
+        "path": "reports/staffing_notebook_execution.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5af28e7c4a2529d2e96301ca7041bfabb266d6a",
+        "size": 948,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f5af28e7c4a2529d2e96301ca7041bfabb266d6a"
+      },
+      {
+        "path": "reports/staffing_observed_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3fca53fb25ca7ba905adef0d633dc66fc0af2138",
+        "size": 1375,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3fca53fb25ca7ba905adef0d633dc66fc0af2138"
+      },
+      {
+        "path": "reports/supply_action_identities.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f5d4cf69abae88b4b57bf486bbf6bf3f3021787",
+        "size": 10062,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/1f5d4cf69abae88b4b57bf486bbf6bf3f3021787"
+      },
+      {
+        "path": "reports/supply_bound_diagnostics.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69fe4954b5ea66982bc9314649473a12e221e3ab",
+        "size": 26854,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/69fe4954b5ea66982bc9314649473a12e221e3ab"
+      },
+      {
+        "path": "reports/supply_cloud_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4000559ef52e4ce6600e60f68f14e602e149aa4",
+        "size": 44531,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c4000559ef52e4ce6600e60f68f14e602e149aa4"
+      },
+      {
+        "path": "reports/supply_correlations.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "898d414e771c6704103348ef252876c19b21982e",
+        "size": 157834,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/898d414e771c6704103348ef252876c19b21982e"
+      },
+      {
+        "path": "reports/supply_effects.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71720f31dd5f5e5d727dde50cd051d71fdb5b56f",
+        "size": 6961,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/71720f31dd5f5e5d727dde50cd051d71fdb5b56f"
+      },
+      {
+        "path": "reports/supply_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0cb35cb97f6be02b9a00be93c69a63f605f20e53",
+        "size": 5285,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/0cb35cb97f6be02b9a00be93c69a63f605f20e53"
+      },
+      {
+        "path": "reports/supply_integrity.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fce47a6ab2b441ce938eb68c8662bf382e2dd6d1",
+        "size": 884,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/fce47a6ab2b441ce938eb68c8662bf382e2dd6d1"
+      },
+      {
+        "path": "reports/supply_notebook_execution.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "547ba1e6c64380077da118c9034cb52dce5306d3",
+        "size": 1324,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/547ba1e6c64380077da118c9034cb52dce5306d3"
+      },
+      {
+        "path": "reports/supply_progress.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9cd2c7365acbc35a571a512aa75d5d11f1e6f58",
+        "size": 29666,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b9cd2c7365acbc35a571a512aa75d5d11f1e6f58"
+      },
+      {
+        "path": "reports/supply_registration.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0221a86a050407183545b8fb0d924639c6f5f016",
+        "size": 21795,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/0221a86a050407183545b8fb0d924639c6f5f016"
+      },
+      {
+        "path": "reports/supply_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "224d53cb6817761207ff730d723b1e8521aa8102",
+        "size": 179535,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/224d53cb6817761207ff730d723b1e8521aa8102"
+      },
+      {
+        "path": "reports/supply_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03b5c30432ddc7b7ad6d3cc46713fc6138263215",
+        "size": 94130,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/03b5c30432ddc7b7ad6d3cc46713fc6138263215"
+      },
+      {
+        "path": "reports/supply_uploads.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "128d3cdfaf08cbc3024fd23b15cd915453ff8a6e",
+        "size": 28546,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/128d3cdfaf08cbc3024fd23b15cd915453ff8a6e"
+      },
+      {
+        "path": "reports/terminal_action_identities.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c25163e22794b61cbf8e6b93fd2fbd6b673027a2",
+        "size": 7870,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c25163e22794b61cbf8e6b93fd2fbd6b673027a2"
+      },
+      {
+        "path": "reports/terminal_cloud_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9a5ced57cdac2fa7ed0be1da8d802496e82213b",
+        "size": 41214,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a9a5ced57cdac2fa7ed0be1da8d802496e82213b"
+      },
+      {
+        "path": "reports/terminal_correlations.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dd22583a444300b76999a7acf0f4f13aac12099",
+        "size": 157101,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3dd22583a444300b76999a7acf0f4f13aac12099"
+      },
+      {
+        "path": "reports/terminal_diagnostics.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95738f294fa11def857cbf4cb92ec5473373079e",
+        "size": 31312,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/95738f294fa11def857cbf4cb92ec5473373079e"
+      },
+      {
+        "path": "reports/terminal_effects.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a86d96f5284ff4e4d986029c5702db39ea94254",
+        "size": 13901,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4a86d96f5284ff4e4d986029c5702db39ea94254"
+      },
+      {
+        "path": "reports/terminal_games.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbf7bb4d0cf62118a4d049f423d9b5a2aa23c771",
+        "size": 9358,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/dbf7bb4d0cf62118a4d049f423d9b5a2aa23c771"
+      },
+      {
+        "path": "reports/terminal_integrity.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31b1d5cdf9255780df3949367b616ed0e50a62b3",
+        "size": 25578,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/31b1d5cdf9255780df3949367b616ed0e50a62b3"
+      },
+      {
+        "path": "reports/terminal_notebook_execution.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14a9e0ba0e0d6967e2a2c6a8ae2ef5cab3b50c96",
+        "size": 912,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/14a9e0ba0e0d6967e2a2c6a8ae2ef5cab3b50c96"
+      },
+      {
+        "path": "reports/terminal_preflight.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e26b2b39869d845ef38cd5b040fb49b768874e3c",
+        "size": 1496,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e26b2b39869d845ef38cd5b040fb49b768874e3c"
+      },
+      {
+        "path": "reports/terminal_preflight_audit.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "126c469e06627d7dc5691aacd86a2f67b40ee759",
+        "size": 413,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/126c469e06627d7dc5691aacd86a2f67b40ee759"
+      },
+      {
+        "path": "reports/terminal_preflight_prefix.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a0841c2283b5d716bae8b91dc6b5d753120276d",
+        "size": 131,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6a0841c2283b5d716bae8b91dc6b5d753120276d"
+      },
+      {
+        "path": "reports/terminal_progress.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8aedc8eb45703ec1e06e7e0ccc88207315d4cc74",
+        "size": 29876,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8aedc8eb45703ec1e06e7e0ccc88207315d4cc74"
+      },
+      {
+        "path": "reports/terminal_recovery.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc75c1a6404935b2019941baa3a121d90d627f21",
+        "size": 713,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/cc75c1a6404935b2019941baa3a121d90d627f21"
+      },
+      {
+        "path": "reports/terminal_registration.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c73980b1d855d4055a3028033613555c7015f45",
+        "size": 19377,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6c73980b1d855d4055a3028033613555c7015f45"
+      },
+      {
+        "path": "reports/terminal_registry.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5800a8b8646be69cd4d70e1b01f70af1cc44eef0",
+        "size": 224952,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/5800a8b8646be69cd4d70e1b01f70af1cc44eef0"
+      },
+      {
+        "path": "reports/terminal_research.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b98580101f59f367530e2e5823f85026c04601f",
+        "size": 118120,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9b98580101f59f367530e2e5823f85026c04601f"
+      },
+      {
+        "path": "reports/terminal_uploads.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d6f03ed5549533ffe65e0edd4aa31aff46dd653",
+        "size": 23083,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4d6f03ed5549533ffe65e0edd4aa31aff46dd653"
+      },
+      {
+        "path": "reports/trajectories.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d5aefbd458c38c0bf10506a569368fe76926c7f",
+        "size": 7714,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/5d5aefbd458c38c0bf10506a569368fe76926c7f"
+      },
+      {
+        "path": "reports/upstream_engine_verification.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7824308e46e5ec901918e461ee8d19d715ab743e",
+        "size": 615,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7824308e46e5ec901918e461ee8d19d715ab743e"
+      },
+      {
+        "path": "reports/workforce_scope_audit.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec1cc80d88c8689321574def3949164c5288fbd9",
+        "size": 3068,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/ec1cc80d88c8689321574def3949164c5288fbd9"
+      },
+      {
+        "path": "reports/workspace_state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21d94954d2c129b4902dc9ae924b9180de6e6ea3",
+        "size": 1445,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/21d94954d2c129b4902dc9ae924b9180de6e6ea3"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e7e454a91761b89c034bff945eb3190475bcb408",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/e7e454a91761b89c034bff945eb3190475bcb408"
+      },
+      {
+        "path": "scripts/analyze_cash_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7fd5d3b48d52ff1e711d6c583d660b22ab2801c5",
+        "size": 6276,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7fd5d3b48d52ff1e711d6c583d660b22ab2801c5"
+      },
+      {
+        "path": "scripts/analyze_market_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0367f085313cf1675900f1e4bb164a9bbbdbd53",
+        "size": 11215,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d0367f085313cf1675900f1e4bb164a9bbbdbd53"
+      },
+      {
+        "path": "scripts/analyze_market_holds.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc4b89fd903f8e874c60923d7007ca2452390a40",
+        "size": 5117,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/fc4b89fd903f8e874c60923d7007ca2452390a40"
+      },
+      {
+        "path": "scripts/audit_feature_behavior.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "354586de57b78aa75090cd8cc63301e797ffc566",
+        "size": 5643,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/354586de57b78aa75090cd8cc63301e797ffc566"
+      },
+      {
+        "path": "scripts/audit_livestock_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06a3ec8cae317705c617fe7ab40024952d99926c",
+        "size": 7431,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/06a3ec8cae317705c617fe7ab40024952d99926c"
+      },
+      {
+        "path": "scripts/audit_market_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d068b28ef3845c9b45ef493e42c01d00cbe1ecb3",
+        "size": 8364,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d068b28ef3845c9b45ef493e42c01d00cbe1ecb3"
+      },
+      {
+        "path": "scripts/audit_relationship_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92a0e384d9648b1c14788b11395b08606d90cde9",
+        "size": 8192,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/92a0e384d9648b1c14788b11395b08606d90cde9"
+      },
+      {
+        "path": "scripts/audit_staffing_runtime.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "faa377424ab8c4fadcaa4c83993e2579f5a15e1a",
+        "size": 13793,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/faa377424ab8c4fadcaa4c83993e2579f5a15e1a"
+      },
+      {
+        "path": "scripts/audit_supply_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0927bdd0c2c937aebb991e399a8f3306194095ac",
+        "size": 15476,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/0927bdd0c2c937aebb991e399a8f3306194095ac"
+      },
+      {
+        "path": "scripts/audit_terminal_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d5dc2dd080983a71b8d070de46bbea664c49798",
+        "size": 7521,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8d5dc2dd080983a71b8d070de46bbea664c49798"
+      },
+      {
+        "path": "scripts/audit_workforce_scope.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dc0af591ca297e03b8ed027b1cbe0c13d20996c",
+        "size": 5267,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3dc0af591ca297e03b8ed027b1cbe0c13d20996c"
+      },
+      {
+        "path": "scripts/aws_setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4259e4a1687582c71ab2df0fe2a0534e991e322f",
+        "size": 6826,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4259e4a1687582c71ab2df0fe2a0534e991e322f"
+      },
+      {
+        "path": "scripts/build_bottleneck_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b107b61d40cd08eb7ac27b56d9df4e042247b602",
+        "size": 9560,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b107b61d40cd08eb7ac27b56d9df4e042247b602"
+      },
+      {
+        "path": "scripts/build_livestock_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2be44723f17b1b1928adeba649e5ecdce76a23a3",
+        "size": 11400,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2be44723f17b1b1928adeba649e5ecdce76a23a3"
+      },
+      {
+        "path": "scripts/build_market_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "493aa3d17df1cb72118d31d9ea9e3a596b43d60f",
+        "size": 7820,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/493aa3d17df1cb72118d31d9ea9e3a596b43d60f"
+      },
+      {
+        "path": "scripts/build_research_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59296a1c35a8b52e696c707a660aed7e3d23ddf7",
+        "size": 10662,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/59296a1c35a8b52e696c707a660aed7e3d23ddf7"
+      },
+      {
+        "path": "scripts/build_staffing_audit_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "641c5597e0e39ead8eca54d30ba8ead4f51c9d1c",
+        "size": 10994,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/641c5597e0e39ead8eca54d30ba8ead4f51c9d1c"
+      },
+      {
+        "path": "scripts/build_supply_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e1443563d1395b645d33cf848524f7c381793a1",
+        "size": 9873,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6e1443563d1395b645d33cf848524f7c381793a1"
+      },
+      {
+        "path": "scripts/build_terminal_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7c433e108bf377ee7bbffa402160ac9b3a2c9a6",
+        "size": 8281,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b7c433e108bf377ee7bbffa402160ac9b3a2c9a6"
+      },
+      {
+        "path": "scripts/diagnose_livestock_loops.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "194912c18cfde2f6557e152d363aa687e4316af7",
+        "size": 5516,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/194912c18cfde2f6557e152d363aa687e4316af7"
+      },
+      {
+        "path": "scripts/diagnose_terminal.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c658f9e3f4e222359d2138c4b18552de25333b18",
+        "size": 7180,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c658f9e3f4e222359d2138c4b18552de25333b18"
+      },
+      {
+        "path": "scripts/ensure_notebook_kernel.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d57c10e5a9a120e1bc3e7e5c3174320d03edca3",
+        "size": 11374,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/5d57c10e5a9a120e1bc3e7e5c3174320d03edca3"
+      },
+      {
+        "path": "scripts/execute_notebooks.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b9c7ea57e616b5b8ad052fe410d256972fa9518",
+        "size": 1935,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/5b9c7ea57e616b5b8ad052fe410d256972fa9518"
+      },
+      {
+        "path": "scripts/inspect_supply_progress.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53dad626b511839e3fd74884c0da029d92ee52ac",
+        "size": 2367,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/53dad626b511839e3fd74884c0da029d92ee52ac"
+      },
+      {
+        "path": "scripts/livestock_plots.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b635be2d37d272b7e629ed35370eda988432f60f",
+        "size": 3821,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b635be2d37d272b7e629ed35370eda988432f60f"
+      },
+      {
+        "path": "scripts/manage_livestock_audit_archive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec7c3ecb60c9711e55fb1c56e1a8ac020c328146",
+        "size": 3105,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/ec7c3ecb60c9711e55fb1c56e1a8ac020c328146"
+      },
+      {
+        "path": "scripts/notebook_provenance.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b6994f7d5f4a4f22b55f020e99c2ac12008896c",
+        "size": 5832,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4b6994f7d5f4a4f22b55f020e99c2ac12008896c"
+      },
+      {
+        "path": "scripts/prepare_terminal_game.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "008349c706ce8d10c0ce9d2963cd2fa7ae45439d",
+        "size": 2435,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/008349c706ce8d10c0ce9d2963cd2fa7ae45439d"
+      },
+      {
+        "path": "scripts/profile_livestock_features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86a231709c1b4a416ab0b8d492fbd4d691d8aec3",
+        "size": 3258,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/86a231709c1b4a416ab0b8d492fbd4d691d8aec3"
+      },
+      {
+        "path": "scripts/research_bottlenecks.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ececc2d4350d2fbb6ba8390cf7f78b4bf2796366",
+        "size": 8546,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/ececc2d4350d2fbb6ba8390cf7f78b4bf2796366"
+      },
+      {
+        "path": "scripts/restore_livestock_checkpoints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f690147a48341275e6ffa0c79ed99a8046095b4d",
+        "size": 2746,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f690147a48341275e6ffa0c79ed99a8046095b4d"
+      },
+      {
+        "path": "scripts/restore_supply_checkpoints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ee909c8900577d60b6f7f69053f64849bce5757",
+        "size": 2746,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4ee909c8900577d60b6f7f69053f64849bce5757"
+      },
+      {
+        "path": "scripts/run_feature_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "958fec6db785615990eb2532b3f2e93c05c38ea7",
+        "size": 1420,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/958fec6db785615990eb2532b3f2e93c05c38ea7"
+      },
+      {
+        "path": "scripts/run_foundation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15fa464f16187bfdbd19503e6eaa3b88c7a11714",
+        "size": 1112,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/15fa464f16187bfdbd19503e6eaa3b88c7a11714"
+      },
+      {
+        "path": "scripts/run_livestock_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c2e7c9b49706a73cdedb32834d4b1b05b402f80",
+        "size": 6076,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/1c2e7c9b49706a73cdedb32834d4b1b05b402f80"
+      },
+      {
+        "path": "scripts/run_livestock_slice.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc58e841cad1fefc2457dea91b290bde6e709ee6",
+        "size": 3360,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/cc58e841cad1fefc2457dea91b290bde6e709ee6"
+      },
+      {
+        "path": "scripts/run_market_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20d2f4f2ec66156bc6bd5ab04549b62eb9adb621",
+        "size": 1589,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/20d2f4f2ec66156bc6bd5ab04549b62eb9adb621"
+      },
+      {
+        "path": "scripts/run_relationship_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2928e42136e70343298cc20146b48c5d776f2112",
+        "size": 1607,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2928e42136e70343298cc20146b48c5d776f2112"
+      },
+      {
+        "path": "scripts/run_staffing_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5f93c6171d5162c4f1d37b2c2b6e263aa100590",
+        "size": 9477,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f5f93c6171d5162c4f1d37b2c2b6e263aa100590"
+      },
+      {
+        "path": "scripts/run_supply_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3494eb4a60ca5782cdd1027b66c6b36c75244c46",
+        "size": 6064,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3494eb4a60ca5782cdd1027b66c6b36c75244c46"
+      },
+      {
+        "path": "scripts/run_terminal_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36f4f09347f69037a395590b70c8555e99fc707a",
+        "size": 7156,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/36f4f09347f69037a395590b70c8555e99fc707a"
+      },
+      {
+        "path": "scripts/run_terminal_slice.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98b49864d8a6cdd7ea7b50ce134c999bd3e0befd",
+        "size": 2835,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/98b49864d8a6cdd7ea7b50ce134c999bd3e0befd"
+      },
+      {
+        "path": "scripts/summarize_livestock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57489e827c88fe918b6f69876a3cf31b11b38c35",
+        "size": 7645,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/57489e827c88fe918b6f69876a3cf31b11b38c35"
+      },
+      {
+        "path": "scripts/supply_plots.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9722442e075e1ec501ba817b92897eb531bc9199",
+        "size": 2130,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9722442e075e1ec501ba817b92897eb531bc9199"
+      },
+      {
+        "path": "scripts/terminal_plots.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "851ee7d92e314689da6c8db7674d4e6a42559159",
+        "size": 3477,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/851ee7d92e314689da6c8db7674d4e6a42559159"
+      },
+      {
+        "path": "scripts/verify_bottleneck_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c70dff5e4c1cc7995899506685b43c31cbab357e",
+        "size": 2931,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c70dff5e4c1cc7995899506685b43c31cbab357e"
+      },
+      {
+        "path": "scripts/verify_livestock_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43ed8f7b260b70139fd7942c57ec93637328cd2e",
+        "size": 4155,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/43ed8f7b260b70139fd7942c57ec93637328cd2e"
+      },
+      {
+        "path": "scripts/verify_livestock_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "221716eb4fdcc9478c5092cf12a83ff3486950be",
+        "size": 10856,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/221716eb4fdcc9478c5092cf12a83ff3486950be"
+      },
+      {
+        "path": "scripts/verify_livestock_storage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d517adcb59290bd4cc170237bc687a996777700",
+        "size": 5313,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/0d517adcb59290bd4cc170237bc687a996777700"
+      },
+      {
+        "path": "scripts/verify_market_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3de34fce91d5be3e4339c7423a2f1c3d532f78b9",
+        "size": 5715,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3de34fce91d5be3e4339c7423a2f1c3d532f78b9"
+      },
+      {
+        "path": "scripts/verify_market_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26e71ab6e1066860b0c3c283700181658d2b358e",
+        "size": 10303,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/26e71ab6e1066860b0c3c283700181658d2b358e"
+      },
+      {
+        "path": "scripts/verify_research_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5747c626fc4927e0643e7734b082ea1b300a23a",
+        "size": 13650,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f5747c626fc4927e0643e7734b082ea1b300a23a"
+      },
+      {
+        "path": "scripts/verify_staffing_audit.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfc9dd7a194a397c00a147978059bc81a4cc0637",
+        "size": 6405,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/dfc9dd7a194a397c00a147978059bc81a4cc0637"
+      },
+      {
+        "path": "scripts/verify_supply_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a67e68d19675bd04283ecdd46891e62940873b71",
+        "size": 3856,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a67e68d19675bd04283ecdd46891e62940873b71"
+      },
+      {
+        "path": "scripts/verify_supply_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef5b72a5c974e27371d1a92a2fc6b2ed2db1192d",
+        "size": 10169,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/ef5b72a5c974e27371d1a92a2fc6b2ed2db1192d"
+      },
+      {
+        "path": "scripts/verify_supply_storage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efc2ea1a60752be1668675b2bd5209849f0946e8",
+        "size": 4371,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/efc2ea1a60752be1668675b2bd5209849f0946e8"
+      },
+      {
+        "path": "scripts/verify_terminal_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1c70801a7e1f8ff704de617f851eebdff620f18",
+        "size": 3708,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e1c70801a7e1f8ff704de617f851eebdff620f18"
+      },
+      {
+        "path": "scripts/verify_terminal_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49fc2b37ce681a2a30ac5f5a436fde3edb306e64",
+        "size": 8386,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/49fc2b37ce681a2a30ac5f5a436fde3edb306e64"
+      },
+      {
+        "path": "scripts/verify_terminal_storage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9128ad0d9ff69d8adc59c2120adb2a6a84139282",
+        "size": 7029,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9128ad0d9ff69d8adc59c2120adb2a6a84139282"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7a2fbb4616ba691ae0135f80115a7a943f50c7de",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/7a2fbb4616ba691ae0135f80115a7a943f50c7de"
+      },
+      {
+        "path": "src/kaggriculture_livestock",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "accc3f34ae2abe8593ad0730268c8fd55003aeaa",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/accc3f34ae2abe8593ad0730268c8fd55003aeaa"
+      },
+      {
+        "path": "src/kaggriculture_livestock/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d322be1f2bcac79486fb7b390f4931c1a32625c5",
+        "size": 88,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d322be1f2bcac79486fb7b390f4931c1a32625c5"
+      },
+      {
+        "path": "src/kaggriculture_livestock/audit.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e24a0a9aa3cbdee4641d96e0b126ba807168d0df",
+        "size": 7426,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e24a0a9aa3cbdee4641d96e0b126ba807168d0df"
+      },
+      {
+        "path": "src/kaggriculture_livestock/experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c56a27dc54d4572a806f60c5738980199d1de149",
+        "size": 20838,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c56a27dc54d4572a806f60c5738980199d1de149"
+      },
+      {
+        "path": "src/kaggriculture_livestock/features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a05c457e3b9773922be63afd0bee18b8c74d5a1",
+        "size": 13678,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6a05c457e3b9773922be63afd0bee18b8c74d5a1"
+      },
+      {
+        "path": "src/kaggriculture_livestock/policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a8b191d332f5a21d58c5f9c7c10277ee534801f",
+        "size": 14998,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/6a8b191d332f5a21d58c5f9c7c10277ee534801f"
+      },
+      {
+        "path": "src/kaggriculture_research",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c920c48878c59bdfecb9fbd492e0ebb7d71d70e8",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/c920c48878c59bdfecb9fbd492e0ebb7d71d70e8"
+      },
+      {
+        "path": "src/kaggriculture_research/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45147f540f5b63cf231b1b8a21196dfc5a88861f",
+        "size": 72,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/45147f540f5b63cf231b1b8a21196dfc5a88861f"
+      },
+      {
+        "path": "src/kaggriculture_research/artifacts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ae142f04c7035b9f612c74a43b9cc7009490df2",
+        "size": 2025,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8ae142f04c7035b9f612c74a43b9cc7009490df2"
+      },
+      {
+        "path": "src/kaggriculture_research/audit.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b196fe7f03262c080a31f388c4eeaaf1b4b7e1e9",
+        "size": 6297,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/b196fe7f03262c080a31f388c4eeaaf1b4b7e1e9"
+      },
+      {
+        "path": "src/kaggriculture_research/cash_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c35c5f75f55cb3e5ad56fbd0826b30f734da565c",
+        "size": 10876,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c35c5f75f55cb3e5ad56fbd0826b30f734da565c"
+      },
+      {
+        "path": "src/kaggriculture_research/crop_policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c94f761dfbc806abf4ffe6fdf2e0e0da36f6800d",
+        "size": 12883,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c94f761dfbc806abf4ffe6fdf2e0e0da36f6800d"
+      },
+      {
+        "path": "src/kaggriculture_research/environment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f6dee4c0e6dc3b71d3446165cbc7ece3571ffa3",
+        "size": 2865,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8f6dee4c0e6dc3b71d3446165cbc7ece3571ffa3"
+      },
+      {
+        "path": "src/kaggriculture_research/experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37049c5f632fca096cf54c4c3d887e2eb20a9df7",
+        "size": 11548,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/37049c5f632fca096cf54c4c3d887e2eb20a9df7"
+      },
+      {
+        "path": "src/kaggriculture_research/features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bdbf128d3caedad7b08a018008b3f55b7d07ee7",
+        "size": 8835,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9bdbf128d3caedad7b08a018008b3f55b7d07ee7"
+      },
+      {
+        "path": "src/kaggriculture_research/gates.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "835a165225d553ac22cbce1ebe73dd5523129db3",
+        "size": 652,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/835a165225d553ac22cbce1ebe73dd5523129db3"
+      },
+      {
+        "path": "src/kaggriculture_research/market_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c2e5341ceae91ec5473fe6289a9cb5aa43ce2c7",
+        "size": 19711,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3c2e5341ceae91ec5473fe6289a9cb5aa43ce2c7"
+      },
+      {
+        "path": "src/kaggriculture_research/market_features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ee1bc85fbe1ffd5048f21a9bbf5b8214635ab59",
+        "size": 9225,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/5ee1bc85fbe1ffd5048f21a9bbf5b8214635ab59"
+      },
+      {
+        "path": "src/kaggriculture_research/market_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16572adff8c1231b7b05edb4e10c349c9e4515c9",
+        "size": 15294,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/16572adff8c1231b7b05edb4e10c349c9e4515c9"
+      },
+      {
+        "path": "src/kaggriculture_research/market_policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "451b4415f6d49d378e5f30e5c060b232707cc700",
+        "size": 7278,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/451b4415f6d49d378e5f30e5c060b232707cc700"
+      },
+      {
+        "path": "src/kaggriculture_research/progress.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ffb4e89332bdaf2a68864e20c6c1f5c6e96b3330",
+        "size": 1675,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/ffb4e89332bdaf2a68864e20c6c1f5c6e96b3330"
+      },
+      {
+        "path": "src/kaggriculture_research/relationship_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b1c9b0b9ca65fb5eb2b712643b78ea3c28fbc86",
+        "size": 18745,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7b1c9b0b9ca65fb5eb2b712643b78ea3c28fbc86"
+      },
+      {
+        "path": "src/kaggriculture_research/relationship_features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f792fdfe95e5cc26a5122a0f439398a0c3f09c15",
+        "size": 18988,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f792fdfe95e5cc26a5122a0f439398a0c3f09c15"
+      },
+      {
+        "path": "src/kaggriculture_research/relationship_policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9100eb7291e29b5e662b96749fa91c2335b9574c",
+        "size": 6068,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9100eb7291e29b5e662b96749fa91c2335b9574c"
+      },
+      {
+        "path": "src/kaggriculture_research/rollouts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c17470e0239a19007211041db545a204ca3eb08",
+        "size": 4254,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9c17470e0239a19007211041db545a204ca3eb08"
+      },
+      {
+        "path": "src/kaggriculture_research/supply_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9901a46526e1eada368ffaa5a2ae098b318621e",
+        "size": 22903,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/d9901a46526e1eada368ffaa5a2ae098b318621e"
+      },
+      {
+        "path": "src/kaggriculture_research/supply_policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "277947366b1b06f617081f6720b1efc8d35aa407",
+        "size": 5061,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/277947366b1b06f617081f6720b1efc8d35aa407"
+      },
+      {
+        "path": "src/kaggriculture_research/visuals.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "288311303ff17f667e7bd7cf90a330606d42c4ca",
+        "size": 2022,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/288311303ff17f667e7bd7cf90a330606d42c4ca"
+      },
+      {
+        "path": "src/kaggriculture_runtime",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e1e29d606c7a8cd18158270beeae3d3fa2c94c98",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/e1e29d606c7a8cd18158270beeae3d3fa2c94c98"
+      },
+      {
+        "path": "src/kaggriculture_runtime/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0da5b5840efbf3993b0064e849d937bce688d43",
+        "size": 80,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a0da5b5840efbf3993b0064e849d937bce688d43"
+      },
+      {
+        "path": "src/kaggriculture_runtime/bottlenecks.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "582b31731b93d7461e4c93405631cfb140cc7294",
+        "size": 5857,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/582b31731b93d7461e4c93405631cfb140cc7294"
+      },
+      {
+        "path": "src/kaggriculture_runtime/routing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56faf0988a8d29d39f66a76abea8fd5399dd9118",
+        "size": 3016,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/56faf0988a8d29d39f66a76abea8fd5399dd9118"
+      },
+      {
+        "path": "src/kaggriculture_staffing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fdc1775de99ef891611d0f3b7b4856bd21294fe2",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/fdc1775de99ef891611d0f3b7b4856bd21294fe2"
+      },
+      {
+        "path": "src/kaggriculture_staffing/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1455179d9fbfbfea655fa093c71bf085fdd656e5",
+        "size": 53,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/1455179d9fbfbfea655fa093c71bf085fdd656e5"
+      },
+      {
+        "path": "src/kaggriculture_staffing/durability.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c06d33e9a72928e2d845bac46d2f2111304d9070",
+        "size": 1422,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c06d33e9a72928e2d845bac46d2f2111304d9070"
+      },
+      {
+        "path": "src/kaggriculture_staffing/experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15c4d28454df1bf7ce278da083539c81750ef4d4",
+        "size": 22823,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/15c4d28454df1bf7ce278da083539c81750ef4d4"
+      },
+      {
+        "path": "src/kaggriculture_staffing/features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b800a5cc26ae9feae52ff60f8eec1adc6761655",
+        "size": 6856,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2b800a5cc26ae9feae52ff60f8eec1adc6761655"
+      },
+      {
+        "path": "src/kaggriculture_staffing/policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cca9beb616d0a0d4089e3293abc3f29d1aa451bb",
+        "size": 3301,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/cca9beb616d0a0d4089e3293abc3f29d1aa451bb"
+      },
+      {
+        "path": "src/kaggriculture_terminal",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "654b0b225624aaaf820f73b65cee05a0ebcd85cd",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/654b0b225624aaaf820f73b65cee05a0ebcd85cd"
+      },
+      {
+        "path": "src/kaggriculture_terminal/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ea95734d40b560a813b07fbe5772eaec55e4c9c",
+        "size": 90,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7ea95734d40b560a813b07fbe5772eaec55e4c9c"
+      },
+      {
+        "path": "src/kaggriculture_terminal/experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24f850ac2151f91a8bab87b09365e7b1790c9aba",
+        "size": 22459,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/24f850ac2151f91a8bab87b09365e7b1790c9aba"
+      },
+      {
+        "path": "src/kaggriculture_terminal/feed_policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd180956abf626b772ba761fb37a3fc3a749c225",
+        "size": 15226,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/cd180956abf626b772ba761fb37a3fc3a749c225"
+      },
+      {
+        "path": "src/kaggriculture_terminal/policy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ba998d5434d9f1cbe687af266ea361e11f3a667",
+        "size": 2222,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3ba998d5434d9f1cbe687af266ea361e11f3a667"
+      },
+      {
+        "path": "src/kaggriculture_terminal/routing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e45cc36a905b60feb01d61d040b7f2242039dd8b",
+        "size": 11160,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e45cc36a905b60feb01d61d040b7f2242039dd8b"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "174298b7bc4c233bcbea4919566dd7783fc219cc",
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/trees/174298b7bc4c233bcbea4919566dd7783fc219cc"
+      },
+      {
+        "path": "tests/test_bottleneck_notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ee5cf34f44f9b2dec1d3512fc064497061f3e48",
+        "size": 4474,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2ee5cf34f44f9b2dec1d3512fc064497061f3e48"
+      },
+      {
+        "path": "tests/test_bottleneck_report.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65460e58ec23acd99c85953e604eeb1c1f36a4ea",
+        "size": 2065,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/65460e58ec23acd99c85953e604eeb1c1f36a4ea"
+      },
+      {
+        "path": "tests/test_bottlenecks.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ad31376cd0433e7d5587ac0829fd1092be3642d",
+        "size": 3853,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/2ad31376cd0433e7d5587ac0829fd1092be3642d"
+      },
+      {
+        "path": "tests/test_cash_supply.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e2c19f75eec053c53d02907e81aa921d5dc47c8",
+        "size": 7438,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9e2c19f75eec053c53d02907e81aa921d5dc47c8"
+      },
+      {
+        "path": "tests/test_crop_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5133b5af892e2a1ee3d7146000ffd42125ef64da",
+        "size": 5005,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/5133b5af892e2a1ee3d7146000ffd42125ef64da"
+      },
+      {
+        "path": "tests/test_foundation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "facbbd13764d278110600f29f418cbe8884d57da",
+        "size": 5556,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/facbbd13764d278110600f29f418cbe8884d57da"
+      },
+      {
+        "path": "tests/test_livestock_diagnostics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f9ca10ad2a03ed7b3f3140f577d9a9543824c8f",
+        "size": 2651,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/7f9ca10ad2a03ed7b3f3140f577d9a9543824c8f"
+      },
+      {
+        "path": "tests/test_livestock_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31b44c6505fc407a6c0f08c40d1d7e910bdc2620",
+        "size": 6411,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/31b44c6505fc407a6c0f08c40d1d7e910bdc2620"
+      },
+      {
+        "path": "tests/test_livestock_features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f300dc34ab506cddf851f1cbf906858d58d06229",
+        "size": 7011,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f300dc34ab506cddf851f1cbf906858d58d06229"
+      },
+      {
+        "path": "tests/test_market_history.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f68eed3077e3aa22885bcdb41b3d8533708694d6",
+        "size": 12070,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f68eed3077e3aa22885bcdb41b3d8533708694d6"
+      },
+      {
+        "path": "tests/test_market_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c5d044d35f919699af4576d4fe3f6b97f87f653",
+        "size": 13771,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8c5d044d35f919699af4576d4fe3f6b97f87f653"
+      },
+      {
+        "path": "tests/test_notebook_kernel.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f9877930cc2ad55f623abc83993f882d54a67ed",
+        "size": 2805,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/8f9877930cc2ad55f623abc83993f882d54a67ed"
+      },
+      {
+        "path": "tests/test_notebook_provenance.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c53432927174dea8adae86c37383e986cc30255d",
+        "size": 5767,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c53432927174dea8adae86c37383e986cc30255d"
+      },
+      {
+        "path": "tests/test_relationship_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a553aa8bd2995980318f259f40ca1b62e825e4e6",
+        "size": 12574,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/a553aa8bd2995980318f259f40ca1b62e825e4e6"
+      },
+      {
+        "path": "tests/test_runtime_assignment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9870fbb1f3fc464c64127b1b458cd89049849b9",
+        "size": 2877,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f9870fbb1f3fc464c64127b1b458cd89049849b9"
+      },
+      {
+        "path": "tests/test_staffing_clock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f57137b69e01376c19d6f494746908261032ca2",
+        "size": 1619,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3f57137b69e01376c19d6f494746908261032ca2"
+      },
+      {
+        "path": "tests/test_staffing_durable_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6655033b2505d46ca7c62c647a5f231319a7812",
+        "size": 2487,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/c6655033b2505d46ca7c62c647a5f231319a7812"
+      },
+      {
+        "path": "tests/test_staffing_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8140804871f16fb9028748b121e93b4b03fdc42",
+        "size": 4387,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e8140804871f16fb9028748b121e93b4b03fdc42"
+      },
+      {
+        "path": "tests/test_staffing_publication.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea0f6242def253902654d625e180f78ad048db9c",
+        "size": 1571,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/ea0f6242def253902654d625e180f78ad048db9c"
+      },
+      {
+        "path": "tests/test_staffing_research.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b3e9d5cc7d0e3fffaefbebd63427ba4ce33f363",
+        "size": 4424,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/3b3e9d5cc7d0e3fffaefbebd63427ba4ce33f363"
+      },
+      {
+        "path": "tests/test_supply_experiment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e465bf431fdf870bd9d463738d8845e84bc9ab39",
+        "size": 5261,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/e465bf431fdf870bd9d463738d8845e84bc9ab39"
+      },
+      {
+        "path": "tests/test_supply_storage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f66bee51ef4d64dd94d939e826877d31b1cafee6",
+        "size": 1638,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/f66bee51ef4d64dd94d939e826877d31b1cafee6"
+      },
+      {
+        "path": "tests/test_terminal.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f824332a1bf74684f8d8342e5674253e6d6146e",
+        "size": 5190,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/9f824332a1bf74684f8d8342e5674253e6d6146e"
+      },
+      {
+        "path": "tests/test_workforce_scope.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc89cdd0a7b07e971293d67e6762bc04717bdabb",
+        "size": 1541,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/cc89cdd0a7b07e971293d67e6762bc04717bdabb"
+      },
+      {
+        "path": "uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c80e332f229fe37bc6b6d28051fd706cd24c920",
+        "size": 279315,
+        "url": "https://api.github.com/repos/alvaromendizabal/kaggriculture/git/blobs/4c80e332f229fe37bc6b6d28051fd706cd24c920"
+      }
+    ],
+    "truncated": false
+  },
+  "readme_status": 200,
+  "readme": "# Kaggriculture\n\n**Autonomous farming agents with domain-informed state features, economic planning,\npaired simulation evaluation, and reproducible AWS experiments.**\n\nThis project studies sequential decisions in a competitive farming economy: allocating labor,\ngrowing crops, managing livestock, expanding land, and selling into a shared nonlinear market.\nThe central question is which observation-safe representations improve decisions and win rates.\n\n<!-- staffing-audit-current -->\n**Latest checkpoint: Study 7 staffing runtime audit.** Seven of eight pilot games were accepted; the eighth exceeded the real AWS latency gate. The new [executed notebook](notebooks/03_staffing_research.ipynb) and [measured findings](docs/staffing_findings.md) preserve partial results, 53-feature coverage, exact snapshot parity, and a 9.17–18.49x component-runtime improvement. No complete eight-game score or optimized-policy promotion is claimed. Feature research remains open.\n\n**Prior completed phase: terminal service and liquidation feature research.** Six policy\nstudies contain 368 development games. Study 6 adds 79 descriptors and 48 registered\ncomparisons. Its supported bank has 1,579 provisional features; the project union\nis 1,621, including 42 earlier cash bounds whose assumptions do not support own\nwheat purchases. Feature research remains open.\n\nThe [latest study](docs/terminal_research.md) found that the final-day liquidation\npackage won all 16 development games and added 747.875 coins per game over baseline.\nRemoving terminal feeding alone added 426.125 coins without improving pooled match\nscore. The package used one worker: its result does not establish a multiworker\nassignment benefit. Four seed clusters and two fixed related references cannot\nestimate Kaggle rank. See the [remaining coverage gaps](docs/feature_coverage.md)\nand [restartable workflow](docs/terminal_recovery.md).\n\n## Review the work\n\n1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)\n2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)\n3. [02 · Feature-research studies](notebooks/02_feature_research.ipynb)\n4. [Latest research: terminal service and liquidation](docs/terminal_research.md)\n5. [Feature coverage and completion ledger](docs/feature_coverage.md)\n6. [Domain mechanisms and modern-method research](docs/domain_research.md)\n7. [Market-policy findings: delivery helps coins, holding hurts](docs/market_findings.md)\n8. [Research protocol](docs/research_protocol.md)\n\nThe [first study](docs/feature_findings.md) motivated storage and stronger-opponent research.\nThe [second design](docs/relationship_research.md) tests those relationships explicitly.\nEarlier collection of fully capped crops helped in this development setting; storage\nprotection alone eliminated waste but reduced match score. The capital rule never activated,\nso its utility remains untested. The [third study](docs/market_research.md) found a positive\ndelivery coin effect (+2,359.42 averaged over holding settings), but its two wins were\nconcentrated in one seed. Fixed market holding reduced coins in every seed cluster.\nNo new competitive agent is promoted; these are component tests, not proof that all\ndescriptors improve decisions. Study 4's history/cash arms scored 0.625 pooled\nversus 0.375 for immediate banking, but the extra wins came entirely from turning\neight mirror-match ties into narrow wins. Match score against the other opponent\ndid not improve. All 16 cash/history pairs had identical full action sequences.\n\nThe notebooks consume saved results. The [machine-readable study](reports/terminal_research.json),\n[1,579-feature registry](reports/terminal_registry.csv), and [independent trace audit](reports/terminal_integrity.json)\nidentify exactly what was measured. All 48 games passed independent replay with\nzero mismatches, including 8,688 full vectors and 69,024 private transitions.\nNotebook 02 preserves all 28 prior code-cell sources and adds four terminal cells.\nThe terminal execution receipt is recorded only after genuine kernel execution;\nthe archived livestock and supply receipts remain unchanged. Earlier notebook lineage remains checked through the\n[declared provenance adapter](scripts/notebook_provenance.py). All prior experiment\nand feature sources remain unchanged. Current checks run through\n[GitHub Actions](https://github.com/alvaromendizabal/kaggriculture/actions).\n\nThe new [history replay](reports/market_history_research.json) checked 34,512 callback\nvectors: 178 of 333 descriptors varied, 155 were constant, and 12 groups were exact\nnonconstant duplicates. All 241,584 supported stock bounds contained the evaluator-only\ntruth. History captured possible stored supply in 1,524 product/callback observations\nwith no visible ready yield, but melon bounds were frequently loose after floor-price\nsales. No policy benefit was claimed from that replay alone. The 64-game fourth\nstudy jointly evaluates those history candidates and the cash extension in notebook 02.\n\n## Problem and metric\n\n[Kaggriculture](https://www.kaggle.com/competitions/kaggriculture) is a two-player simulation,\nwith a nominal 30-day, 720-state season. Final bank balance determines each game's winner;\nunsold inventory does not count. Official ranking depends on wins/losses/ties, and the\ncompetition describes a final Bradley–Terry tournament. Coin margin is a supporting diagnostic.\n\nThe pinned official engine runs **719 action rounds and records 720 states**, including the\ninitial state. We use its exact default horizon rather than modifying it to fit the prose guide.\nLocal performance against an official starter or passive agent does not estimate leaderboard rank.\n\n## Reproduce the earlier milestones\n\nPython 3.12 and [uv](https://docs.astral.sh/uv/) are required.\n\n```bash\nuv sync --frozen\nPYTHONPATH=src uv run python scripts/run_foundation.py\nPYTHONPATH=src uv run python scripts/run_feature_research.py\nPYTHONPATH=src uv run python scripts/audit_feature_behavior.py\nPYTHONPATH=src uv run python scripts/run_relationship_research.py\nPYTHONPATH=src uv run python scripts/audit_relationship_evidence.py\nuv run python scripts/build_research_notebook.py\nPYTHONPATH=src uv run python scripts/run_market_research.py\nPYTHONPATH=src uv run python scripts/audit_market_evidence.py\nPYTHONPATH=src uv run python scripts/analyze_market_holds.py\nPYTHONPATH=src uv run python scripts/analyze_market_history.py\nPYTHONPATH=src uv run python scripts/verify_market_history.py\nPYTHONPATH=src uv run python scripts/build_market_notebook.py\nuv run pytest -q\nuv run ruff check .\nuv run ruff format --check .\nPYTHONPATH=src uv run python scripts/execute_notebooks.py\n```\n\nThese commands run full development seasons, reuse matching verified episode checkpoints,\nrecompute the observation audit, and execute the canonical notebooks. Episode configuration,\nengine files, runner code, feature code, and semantic episode hashes are recorded. Corrupted\ncheckpoints raise an error; different lineage gets a separate experiment key. Full study 2\nuses 64 games; its private trace audit recomputes all 11,584 sampled feature vectors. Raw\ntrajectories are intentionally absent from GitHub; rerun the studies or restore matching\nauthorized checkpoints. `scripts/verify_research_report.py` checks published evidence without\nrerunning 192 games, including preserved notebook-source lineage when a later section is added.\nStudy 3's independent\naudit recomputes 8,688 × 933 feature values and checks all 34,512 candidate callbacks.\nA fresh local notebook\nexecution changes execution metadata and must not replace the recorded publication artifact\nwithout updating its execution evidence.\n\nStudy 4 uses the [source-locked recovery runbook](docs/supply_recovery.md), including\nauthorized S3 manifests, at most eight new games per batch, independent cached\naudits, remote-byte verification and genuine notebook-execution receipts.\nStudy 5 has its own [livestock recovery runbook](docs/livestock_recovery.md), with\nunchanged registered source, an exercised S3 restore, one-game operational slices,\nexplicit reporting adapters and a verified archive of all 64 independent audits.\nStudy 6's [terminal recovery runbook](docs/terminal_recovery.md) separates one-game\nlocal preparation from explicit checkpoint upload when service interruptions occur.\nIt reuses every valid completed game and independently audits all 48 trajectories.\n\n## AWS workspace\n\n| Setting | Configuration |\n|---|---|\n| Region | `us-west-2` |\n| Space | `kaggriculture-dev` |\n| Compute | `ml.m5.xlarge` · 4 vCPU · 16 GiB |\n| Persistent volume | 30 GiB |\n| Idle shutdown | 60 minutes |\n| Storage | Private, encrypted, versioned S3 bucket in `configs/aws.json` |\n\nThe observed on-demand compute price was $0.23/hour on September 9, 2026, before storage and\nrequest charges. Setup work has a 20-minute process timeout. Future experiment budgets must be\nscoped before launch; a timeout or idle shutdown is not an account-wide spending cap.\nThe third workflow completed in 940.77 seconds, including 106 passing tests and notebook\nexecution. All 76 expected output artifacts were downloaded and SHA-verified. Compute was\nconfirmed stopped; persistent storage remains and can still incur charges. The full Git\nhistory through PR3 is also [backed up and verified](reports/history_backup.json).\nStudy 4 used local CPU simulation, with no new SageMaker compute. Its 64 episode\nexecution times sum to 748.000 seconds; this excludes transfers, screening,\nauditing and CI. The app was again confirmed stopped on September 10, 2026.\nStudy 5 also used local CPU with no new SageMaker compute. Its 64 registered game\ntimes sum to 722.27 seconds. The [persistence receipt](reports/livestock_cloud_verification.json)\nchecks all 82 required S3 objects by downloaded bytes, checksum, version and encryption.\nStudy 6 also uses local CPU and no new SageMaker compute. Its 48 registered game\ntimes sum to 651.718 seconds. All 61 required S3 objects have been downloaded and\nverified, including a private feature matrix and a deterministic archive of all\n48 independent audits. The\n[terminal persistence receipt](reports/terminal_cloud_verification.json) records\nthe actual downloaded objects, hashes, versions and encryption.\n\n## Feature research is the completion gate\n\nThe initial feature vector describes crop state, livestock state, labor and land, inventory and\nstorage, nonlinear sale curves, visible town demand, remaining time, and the public opponent.\nIt contains **candidates**, not empirically selected features. Constant or duplicate columns in\nsimple reference rollouts indicate missing state coverage; they are not automatically discarded.\n\nThe first action-feature experiment evaluates 13 templates for crop lifecycle value, watering\nurgency, labor allocation and terminal banking in one fixed scheduler. All remain provisional.\nSee [paired results](reports/feature_ablations.csv) and the [research summary](reports/feature_research.json).\nStudy 2 adds 374 state/history descriptors and a complete three-factor experiment. All 618\ndescriptors were screened for availability, finite values, variation and dependence; none\nwere promoted or rejected for a final model. There are 246 constant descriptors in these\ncrop-only trajectories, 23 nonconstant exact-duplicate groups and 202 highly correlated pairs.\nThese are coverage/redundancy flags, not evidence that the corresponding domain is useless.\nStudy 3 adds 315 descriptors and tests delivery/timing on six fresh seeds. Its 933-column\nbank has 361 constants, 56 duplicate groups and 670 highly correlated pairs; all remain\nprovisional. The holding analysis found same-turn rival sales in 174/343 deferred-product\nevents, motivating legal-history supply uncertainty rather than assuming visible ripe\ncrops represent all rival stock. Joint routes, livestock, fertilizer, capital-stress\nregimes, adaptive crop mix and diverse opponents remain open in the [coverage ledger](docs/feature_coverage.md).\nEvery major family needs information-availability checks, controlled additions and removals,\nseed-paired uncertainty, and performance against diverse opponents.\n\nStudy 4 jointly screened all 1,308 candidates: 754 varying, 554 constant, 74 exact\nduplicate groups and 1,866 highly correlated pairs. None is selected or rejected\nfor a final model. Cash constraints reduced accumulated excess melon-stock bounds\nby 13.19%, but did not reduce empty-stock false alarms or change decisions beyond\nhistory. All 78 livestock state/feed-care descriptors remained constant: a\nhigh-priority coverage gap, not evidence that livestock is unimportant.\n\nStudy 5 activates 70 of those 78 animal descriptors. Its 1,500-column supported\nbank has 1,205 varying features, 295 constants, 157 duplicate groups and 1,775\nhigh-correlation pairs. Of 234 new resource descriptors, 192 vary. All remain\nprovisional. The study exposes a real feeding/care interaction, fertilizer margin\ngains and remaining final-day feed waste. Joint routing, alternative herd/crop\nmixes, capital stress, land and stronger unrelated opponents remain open.\n\nStudy 6 jointly screens 1,579 supported candidates: 1,248 varying and 331 constant.\nOf 79 new descriptors, 67 vary. Terminal feeding falls to zero, and the liquidation\npackage leaves zero carried/shed product inventory in all 16 games. This does not\nmean every crop was harvested. Multiworker assignment benefit remains untested\nbecause the package did not rehire on the final day. No descriptor is promoted\nto a final model from these descriptive screens or package-level comparisons.\n\nRead [the source audit](docs/source_audit.md) for mechanics that affect the design. The full\nstandards are in [AGENTS.md](AGENTS.md). Final optimization remains blocked by the research gate.\n\n## Sources\n\n- [Competition overview and evaluation](https://www.kaggle.com/competitions/kaggriculture/overview)\n- [Competition rules](https://www.kaggle.com/competitions/kaggriculture/rules)\n- [Official simulator source](https://github.com/Kaggle/kaggle-environments/tree/master/kaggle_environments/envs/kaggriculture)\n- [Pinned package release](https://pypi.org/project/kaggle-environments/1.32.7/)\n\nOnly public simulator dependencies are installed. Competition data-kit files are not redistributed.\nPublic strategic-code sharing must also be associated with the competition as described in rule 3.6.b.\nThe [public companion discussion](https://www.kaggle.com/competitions/kaggriculture/discussion/740550)\nwas posted with the repository owner's authorization.\n"
+}
