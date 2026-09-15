@@ -1,0 +1,91 @@
+{
+  "role": "diagnostic_ablation_only",
+  "promotion_eligible": false,
+  "parent_source": "v116_mooman_complete",
+  "parent_policy_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+  "edit_diff": {
+    "method": "AST-located line-preserving removal",
+    "removed": [
+      {
+        "kind": "Assign",
+        "line_start": 2606,
+        "line_end": 2606
+      },
+      {
+        "kind": "Assign",
+        "line_start": 2607,
+        "line_end": 2607
+      },
+      {
+        "kind": "Assign",
+        "line_start": 2608,
+        "line_end": 2608
+      },
+      {
+        "kind": "Assign",
+        "line_start": 2612,
+        "line_end": 2612
+      },
+      {
+        "kind": "Assign",
+        "line_start": 2613,
+        "line_end": 2613
+      },
+      {
+        "kind": "FunctionDef",
+        "line_start": 2616,
+        "line_end": 2649
+      },
+      {
+        "kind": "FunctionDef",
+        "line_start": 2652,
+        "line_end": 2662
+      },
+      {
+        "kind": "call",
+        "symbol": "_tape_observe",
+        "line_start": 2671,
+        "line_end": 2671
+      },
+      {
+        "kind": "if",
+        "symbol": "_tape_state",
+        "line_start": 2684,
+        "line_end": 2685
+      }
+    ]
+  },
+  "source": "candidates/D1_e052a_no_opponent_tape/policy.py",
+  "source_sha256": "e465bdcce3cc6560abafcdc916f06843b111e79c2c625dcdd74db47ec7f7279b",
+  "package": "D1_e052a_no_opponent_tape.tar.gz",
+  "package_sha256": "5f4203c9974a3cf4ca1b26a1ea7fda0cd8a5fb4728a42605babab9df9dd49f4d",
+  "entrypoint": "main.agent -> policy.agent_entry",
+  "callable_selection": "explicit main.agent",
+  "runtime_isolation": [
+    "kaggriculture"
+  ],
+  "license": "outer MIT; embedded PSR transitive license unverified; research-only",
+  "feature_audit": {
+    "candidate": "D1_e052a_no_opponent_tape",
+    "parsed": true,
+    "top_level_imports": [
+      "ResidualConfig",
+      "base64",
+      "build_route_value_hybrid",
+      "json",
+      "safe_action",
+      "sys",
+      "types",
+      "zlib"
+    ],
+    "forbidden_symbol_references": [],
+    "forbidden_identity_literals": [],
+    "seed_or_episode_like_integer_constants": [],
+    "opponent_private_access": false,
+    "future_rng_or_unpublished_shop_access": false,
+    "fixed_known_opponent_position_or_sell_table": false,
+    "allowed_public_opponent_farm_use": false,
+    "passed": true,
+    "scope_note": "D1 keeps v116's non-tape layers for diagnostic comparability."
+  }
+}

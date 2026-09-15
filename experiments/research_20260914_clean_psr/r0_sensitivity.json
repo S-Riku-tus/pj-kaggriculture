@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-14T15:19:07.864758+00:00",
+  "frozen_reference": "R0_v116_frozen_reference",
+  "all": {
+    "contexts": 32,
+    "treatment_wdl": {
+      "wins": 20,
+      "draws": 8,
+      "losses": 4
+    },
+    "paired_win_score_delta": 0.375,
+    "loss_to_win": 10,
+    "win_to_loss": 0
+  },
+  "exclude_mooman_self": {
+    "contexts": 24,
+    "treatment_wdl": {
+      "wins": 20,
+      "draws": 0,
+      "losses": 4
+    },
+    "paired_win_score_delta": 0.4166666666666667,
+    "loss_to_win": 10,
+    "win_to_loss": 0
+  },
+  "exclude_tape2_sources": {
+    "contexts": 16,
+    "treatment_wdl": {
+      "wins": 14,
+      "draws": 0,
+      "losses": 2
+    },
+    "paired_win_score_delta": 0.25,
+    "loss_to_win": 4,
+    "win_to_loss": 0
+  },
+  "exclude_psr_kaito_near_lineage": {
+    "contexts": 8,
+    "treatment_wdl": {
+      "wins": 6,
+      "draws": 0,
+      "losses": 2
+    },
+    "paired_win_score_delta": 0.5,
+    "loss_to_win": 4,
+    "win_to_loss": 0
+  },
+  "interpretation": "source exclusions are sensitivity analyses, not deployable selectors"
+}

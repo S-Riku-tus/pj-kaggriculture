@@ -1,0 +1,212 @@
+{
+  "experiment_id": "research_20260915_router_mechanism",
+  "started_at_utc": "2026-09-15T01:11:58.003248+00:00",
+  "started_at_jst": "2026-09-15T10:11:58.003248+09:00",
+  "deadline_utc": "2026-09-15T06:11:58.003248+00:00",
+  "deadline_jst": "2026-09-15T15:11:58.003248+09:00",
+  "repository": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture",
+  "git_branch": "main",
+  "git_head": "851e970d81db084a712097928a71feb9c0e2b09a",
+  "git_status_short": [
+    " M scripts/evaluation/divergence.py",
+    " M scripts/evaluation/runner.py",
+    "?? agents/v116_mooman_complete/",
+    "?? data/evaluation/research_20260914_lowcash/",
+    "?? docs/next_research_strategy_20260914.md",
+    "?? docs/research_20260914_clean_psr_preregistration.md",
+    "?? docs/research_20260914_clean_psr_report.md",
+    "?? docs/research_20260914_preregistration.md",
+    "?? docs/research_20260914_report.md",
+    "?? docs/research_20260915_router_mechanism_preregistration.md",
+    "?? experiments/research_20260914_clean_psr/",
+    "?? experiments/research_20260914_lowcash/",
+    "?? experiments/research_20260914_next_strategy/",
+    "?? experiments/research_20260915_router_mechanism/",
+    "?? scripts/acquire_clean_psr_source.py",
+    "?? scripts/audit_clean_psr_prerun.py",
+    "?? scripts/audit_v116_tape_gate.py",
+    "?? scripts/finalize_clean_psr_prerun.py",
+    "?? scripts/finalize_clean_psr_research.py",
+    "?? scripts/finalize_research_20260914.py",
+    "?? scripts/prepare_clean_psr_candidates.py",
+    "?? scripts/reassess_research_20260914.py",
+    "?? scripts/reconcile_clean_psr_duplicates.py",
+    "?? scripts/research_20260914.py",
+    "?? scripts/research_20260915_router_mechanism.py",
+    "?? scripts/run_clean_psr_research.py",
+    "?? scripts/verify_clean_psr_final.py"
+  ],
+  "working_tree_policy": "preserve all pre-existing tracked/untracked changes",
+  "initial_process_audit": {
+    "method": "elevated Get-CimInstance",
+    "matching_python_or_kaggle_processes": []
+  },
+  "input_sha256": {
+    "AGENTS.md": "e1a80501a7b02a212eaac9370ada4129a64e0ee6cb3cbc790f3d77d22863fe22",
+    "README.md": "3081e52baf8eb2da5d861acc63a3636ce29425f6bdb79a67036ba234ac4ade00",
+    "docs/research_20260914_clean_psr_report.md": "4e1eaa4066d9b783f5fd02bd8e4add221c94510c91f0b1908d24491684963229",
+    "experiments/research_20260914_clean_psr/final_decision.json": "98d6134d689bf320083b0f8c47a8096d243d7411399acda62080818cf0157ac2",
+    "experiments/research_20260914_clean_psr/primary_discovery_gate.json": "4de6ca847dcda4e6fb701e5cb18f162de02e6c8e86eac2c280f980144a1c8a57",
+    "experiments/research_20260914_clean_psr/performance_attribution.json": "0c36c5fe1f49b0e855ad054b098e14a6ade154f813d977f5b29968c06c329de9",
+    "experiments/research_20260914_clean_psr/safety_first_event_map.json": "edd5c31a87cf3a8916e4766042ee1be586256578975c0ef15127b5f105eff057",
+    "experiments/research_20260914_clean_psr/source_acquisition.json": "afc66c8ef633d1e4f377e4278b6f53ae6e3b12a5a839625b4d44dbafff5f3702",
+    "experiments/research_20260914_clean_psr/candidate_integrity.json": "2e1b61a611953b68e7ccd0828d024edd39e97500af1f09f427b88a4fd59f2cc6",
+    "experiments/research_20260914_clean_psr/source_layer_map.json": "92befcc830ace1702078e64587dd36f37c17c046a621c69230635cab4bde566e",
+    "experiments/research_20260914_clean_psr/tape_confounding_audit.json": "eab17f19dacc68aaf6926975a5d52f4c3e27ccc52ca7766eeafe47d8c0d61a52",
+    "experiments/research_20260914_clean_psr/independent_source_audit_pre_results.json": "893df5afa99e6371e3767d100ae3c3a39256a4aaa96be5ca87b2c2c36305c966",
+    "experiments/research_20260914_clean_psr/independent_screen/selection.json": "898e79fa5c3e0d084df216e64a13d5e25760970160cbd0d1c051c7a83ee96211",
+    "experiments/research_20260914_clean_psr/seed_ledger.json": "3c5e7cff307958b370df9e6da620071b8900a0e1e2ce6b43019e58d173c4527e",
+    "docs/research_20260914_report.md": "dccaf21c12eaefd91956eab6e03879196eb72ce961bd1223d7040dc0809f4cea",
+    "docs/research_20260912_continuation_report.md": "3ece085f847d8202420e0d8901ec7a66dee18e1124324439a5363ca09dd7efa1",
+    "scripts/evaluation/runner.py": "9dae962678f3dc1f5fcb04c0f38a4501ab600a3e3b2a722fcef91357475068ff",
+    "scripts/evaluation/safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+    "scripts/evaluation/statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+    "scripts/evaluation/divergence.py": "e1cce5ac792d97d132d6aa36dabd83417f527205722f0c4bd0ad77f47a41f7b9",
+    "scripts/evaluation/lifecycle.py": "09c2971aff347bb615a08f0d43bc38de45e8fcfbaa8c43d4b44c3dc2efcca2c7",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/main.py": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+    "experiments/research_20260914_clean_psr/extracted_source/current_v3_main_exact.py": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+    ".venv/Lib/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    ".venv/Lib/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "agents/v111/main.py": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/freeze.json": "018c57a1f72b7b0cd7c391d5a305fe55fea9dd1011e357bd6c70582fc7b1e7c0",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/freeze.json": "bd28fa54f9f8da900d411b77e86d1e1656788b002e222938a8e2abde6d241865",
+    "experiments/research_20260914_clean_psr/candidates/R0_v116_frozen_reference/freeze.json": "222298aed4c4e59a5d312a5e3412449de399c5a7247ec140212d4a324dc5540c"
+  },
+  "fixed_hashes": {
+    "V111": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "P1": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+    "D1": "e465bdcce3cc6560abafcdc916f06843b111e79c2c625dcdd74db47ec7f7279b",
+    "R0": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+    "engine": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+  },
+  "reused_artifact_verification": "experiments/research_20260915_router_mechanism/reused_artifact_verification.json",
+  "old_experiment": {
+    "id": "research_20260914_clean_psr",
+    "status": "COMPLETE",
+    "decision": "REJECT_SAFETY",
+    "rerun": false
+  },
+  "production_champion": {
+    "version": "V111",
+    "status": "FIXED_RETAIN",
+    "source_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660"
+  },
+  "phase": "FINALIZED",
+  "status": "COMPLETE",
+  "external_mutations": {
+    "submission": false,
+    "kernel_push": false,
+    "slot_change": false
+  },
+  "updated_at": "2026-09-15T03:44:30.729904+00:00",
+  "evaluation_pid": null,
+  "new_game_contexts": {
+    "aa": 6,
+    "smoke": 12,
+    "spent_ablation": 96,
+    "P1_D1_R0": 0,
+    "development": 0
+  },
+  "candidate_hashes": {
+    "A0_psr_route_locked": {
+      "frozen_at": "2026-09-15T01:15:40.025538+00:00",
+      "candidate": "A0_psr_route_locked",
+      "role": "research-only router ablation",
+      "promotion_eligible": false,
+      "parent": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/main.py",
+      "parent_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+      "source": "experiments/research_20260915_router_mechanism/candidates/A0_psr_route_locked/main.py",
+      "source_sha256": "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c",
+      "package": "experiments/research_20260915_router_mechanism/A0_psr_route_locked.tar.gz",
+      "package_sha256": "aff375eec2d89bcd3332051a97dec378663c03592712e1830d6a0042f4f636da",
+      "entrypoint": "main.agent",
+      "diff": {
+        "method": "single AST-located If condition edit inside top-level agent",
+        "agent_lines_before": [
+          685,
+          703
+        ],
+        "agent_lines_after": [
+          685,
+          704
+        ],
+        "changed_assignment": "state[1] = _choose(t//144,_features(observation))",
+        "mode": "A0_psr_route_locked"
+      },
+      "compatibility_sha256": "86d634373c01739c6085c9bb549db5f21549515ed4c881f00244b68b961388c7",
+      "license_cap": "UNVERIFIED_TRANSITIVE_ROUTE_DATA_RESEARCH_ONLY"
+    },
+    "A1_psr_no_day6_switch": {
+      "frozen_at": "2026-09-15T01:15:40.119647+00:00",
+      "candidate": "A1_psr_no_day6_switch",
+      "role": "research-only router ablation",
+      "promotion_eligible": false,
+      "parent": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/main.py",
+      "parent_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+      "source": "experiments/research_20260915_router_mechanism/candidates/A1_psr_no_day6_switch/main.py",
+      "source_sha256": "230cf01577755d7f11aa8e3fe7c00d3c0485c10b1a0d3b41204f656c6ac4d2f5",
+      "package": "experiments/research_20260915_router_mechanism/A1_psr_no_day6_switch.tar.gz",
+      "package_sha256": "460c9ef6c1fd8a5292c4dc8ce91f0e07b618c6d922c4bc700c9ff769f1442eae",
+      "entrypoint": "main.agent",
+      "diff": {
+        "method": "single AST-located If condition edit inside top-level agent",
+        "agent_lines_before": [
+          685,
+          703
+        ],
+        "agent_lines_after": [
+          685,
+          704
+        ],
+        "changed_assignment": "state[1] = _choose(t//144,_features(observation))",
+        "mode": "A1_psr_no_day6_switch"
+      },
+      "compatibility_sha256": "86d634373c01739c6085c9bb549db5f21549515ed4c881f00244b68b961388c7",
+      "license_cap": "UNVERIFIED_TRANSITIVE_ROUTE_DATA_RESEARCH_ONLY"
+    },
+    "A2_psr_no_day24_switch": {
+      "frozen_at": "2026-09-15T01:15:40.201657+00:00",
+      "candidate": "A2_psr_no_day24_switch",
+      "role": "research-only router ablation",
+      "promotion_eligible": false,
+      "parent": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/main.py",
+      "parent_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+      "source": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/main.py",
+      "source_sha256": "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0",
+      "package": "experiments/research_20260915_router_mechanism/A2_psr_no_day24_switch.tar.gz",
+      "package_sha256": "10fa9d8e9f43389c68035d36ef02ef9d22a9cf49e1bd8cb78b1eaf5d4564365d",
+      "entrypoint": "main.agent",
+      "diff": {
+        "method": "single AST-located If condition edit inside top-level agent",
+        "agent_lines_before": [
+          685,
+          703
+        ],
+        "agent_lines_after": [
+          685,
+          704
+        ],
+        "changed_assignment": "state[1] = _choose(t//144,_features(observation))",
+        "mode": "A2_psr_no_day24_switch"
+      },
+      "compatibility_sha256": "86d634373c01739c6085c9bb549db5f21549515ed4c881f00244b68b961388c7",
+      "license_cap": "UNVERIFIED_TRANSITIVE_ROUTE_DATA_RESEARCH_ONLY"
+    }
+  },
+  "C1_gate": {
+    "passed": false,
+    "reason": "router value in one source only; no complete V111-owned suffix/contract"
+  },
+  "C1_created": false,
+  "C2_created": false,
+  "final_decision": "REJECT_NO_UPLIFT",
+  "finished_at_utc": "2026-09-15T03:50:10.995826+00:00",
+  "finished_at_jst": "2026-09-15T12:50:10.995826+09:00",
+  "deadline_met": true,
+  "final_process_audit": {
+    "checked_immediately_before_seal": true,
+    "matching_python_or_kaggle_processes": [],
+    "note": "Elevated Get-CimInstance returned no matching process; the short-lived seal process exits after writing artifacts."
+  }
+}

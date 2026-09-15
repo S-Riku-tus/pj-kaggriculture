@@ -1,0 +1,202 @@
+{
+  "created_at": "2026-09-15T01:12:13.699436+00:00",
+  "P1": {
+    "page_license": "Apache-2.0",
+    "route_data_transitive_provenance_license": "UNVERIFIED",
+    "status": "RESEARCH_ONLY",
+    "basis": "experiments/research_20260914_clean_psr/source_acquisition.json"
+  },
+  "R0_D1": {
+    "outer_license": "MIT",
+    "embedded_PSR_transitive_license": "UNVERIFIED",
+    "status": "RESEARCH_ONLY"
+  },
+  "V111": {
+    "source": "agents/v111/main.py",
+    "sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "status": "PRODUCTION_CHAMPION_FIXED"
+  },
+  "public_notebook_refresh": {
+    "checked_at": "2026-09-15T01:14:07.660765+00:00",
+    "method": "one read-only public kernels/pull GET",
+    "http_status": 200,
+    "notebook_sha256": "f66c0937857d03358961e12f06c3ee2fddfa07708a517869d5f2dd04732c6c83",
+    "same_as_prior_version3_notebook_sha256": true,
+    "provenance_json_text_reference": true,
+    "provenance_artifact_in_acquired_files": false,
+    "metadata_dataset_sources": [],
+    "metadata_kernel_sources": [],
+    "transitive_route_data_provenance_license": "UNVERIFIED",
+    "further_refreshes_authorized": false
+  },
+  "independent_prior_selection": {
+    "created_at": "2026-09-14T15:35:21.684229+00:00",
+    "primary_results_available_at_selection": false,
+    "selection_rule_sha256": "893df5afa99e6371e3767d100ae3c3a39256a4aaa96be5ca87b2c2c36305c966",
+    "screen_results": [
+      {
+        "source": "deepeshumrao_head",
+        "ancestry": "github_deepeshumrao",
+        "priority": 2,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 164263.25,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      },
+      {
+        "source": "lonespear_head",
+        "ancestry": "github_lonespear",
+        "priority": 3,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 50880.0,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      },
+      {
+        "source": "robriculture_lean_feed",
+        "ancestry": "robriculture_hand_job",
+        "priority": 1,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 80815.625,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      }
+    ],
+    "selected": [],
+    "selected_ancestries": [],
+    "diversity_status": "INSUFFICIENT",
+    "final_status_cap": "PROMISING_UNPROVEN",
+    "robriculture_anchor_is_not_strong_third_ancestry": false
+  },
+  "independent_source_refresh": {
+    "created_at": "2026-09-15T03:44:30.644888+00:00",
+    "timing": "No C1 was created and no C1 source result exists; audit cannot be conditioned on C1 performance.",
+    "prior_audit": {
+      "path": "experiments/research_20260914_clean_psr/independent_source_audit_pre_results.json",
+      "sha256": "893df5afa99e6371e3767d100ae3c3a39256a4aaa96be5ca87b2c2c36305c966"
+    },
+    "prior_selection": {
+      "path": "experiments/research_20260914_clean_psr/independent_screen/selection.json",
+      "sha256": "898e79fa5c3e0d084df216e64a13d5e25760970160cbd0d1c051c7a83ee96211"
+    },
+    "remote_head_checks": [
+      {
+        "source": "deepeshumrao",
+        "revision": "65724ce530af8e8ea0410d5b7f0e2a997ca676cb",
+        "same_as_prior": true
+      },
+      {
+        "source": "lonespear",
+        "revision": "774b26093ccf4246525517d48420349b841b6e50",
+        "same_as_prior": true
+      },
+      {
+        "source": "robriculture",
+        "revision": "2077b023525e622c0fc4a947083fcf339c21086e",
+        "same_as_prior": false
+      }
+    ],
+    "reused_without_rerun": [
+      {
+        "source": "deepeshumrao_head",
+        "ancestry": "github_deepeshumrao",
+        "priority": 2,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 164263.25,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      },
+      {
+        "source": "lonespear_head",
+        "ancestry": "github_lonespear",
+        "priority": 3,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 50880.0,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      },
+      {
+        "source": "robriculture_lean_feed",
+        "ancestry": "robriculture_hand_job",
+        "priority": 1,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 80815.625,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      }
+    ],
+    "new_revision_static_audit": {
+      "source": "robriculture_head_2077b023",
+      "repository": "https://github.com/robsartin/robriculture.git",
+      "revision": "2077b023525e622c0fc4a947083fcf339c21086e",
+      "acquired_at": "2026-09-15T03:44:30.644888+00:00",
+      "acquisition_path": "experiments/research_20260915_router_mechanism/acquisition/robriculture_head_2077b023",
+      "license": "CC-BY-4.0",
+      "license_sha256": "67599a8520912ed7633669cc9ce8d5335a30a80b6ba44301b43b7618e7c11f35",
+      "declared_champion": "ten_melon",
+      "champion_record_sha256": "a737cd5dc8b7516e3329fd2ac0718dd03183a953be687148a33fb9e2948afe64",
+      "native_callable": "TenMelonStrategy.act",
+      "native_import_ok": true,
+      "entry_source": "experiments/research_20260915_router_mechanism/acquisition/robriculture_head_2077b023/strategies/ten_melon.py",
+      "entry_source_sha256": "b36db2bf8fb19f3b506559a5eb215ddba185c4445c02f8a52139c430b9c0a77b",
+      "dependencies": "repository kaggisim and strategies package; standalone package not built in this stopped stage",
+      "ancestry": "robriculture hand/job economy; no PSR/Kaito named import found in static scan",
+      "baseline_screen": "NOT_RUN_GATE_STOPPED",
+      "qualification_0_25_to_0_75": "UNKNOWN",
+      "counts_as_verified_third_ancestry": false
+    },
+    "selected": [],
+    "selection_status": "NOT_REACHED_C1_GATE_FAILED",
+    "prior_weak_anchors_do_not_establish_third_ancestry": true,
+    "performance_games_started": 0,
+    "prior_rule": {
+      "qualifying_v111_win_score_inclusive": [
+        0.25,
+        0.75
+      ],
+      "maximum_selected": 2,
+      "first_filter": "license, revision, native import, full720 both-seat completion, independent ancestry",
+      "tie_break_order": [
+        "different ancestry",
+        "different opening",
+        "different crop/animal portfolio",
+        "different market-order timing",
+        "preassigned diversity_priority ascending",
+        "source id lexicographic"
+      ],
+      "forbidden": "P1 or D1 performance, compatibility, or favorable contexts"
+    }
+  },
+  "P1_route_data_transitive_provenance": "UNVERIFIED",
+  "deployment_conclusion": "No PSR route/blob/tree/action expression may enter a production candidate; no C1 was created."
+}

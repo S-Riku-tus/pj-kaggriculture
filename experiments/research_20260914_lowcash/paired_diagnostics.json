@@ -1,0 +1,5232 @@
+{
+  "created_at": "2026-09-14T13:25:45.879779+00:00",
+  "pairs": [
+    {
+      "key": [
+        "mooman_e052a",
+        10091011,
+        1
+      ],
+      "transition": "loss->draw",
+      "delta": {
+        "self": -64668.0,
+        "opponent": -67843.0,
+        "margin": 3175.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 899.0,
+            "opponent": 209.0,
+            "lead": 690.0
+          },
+          "treatment": {
+            "self": 5.0,
+            "opponent": 5.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7676.0,
+            "opponent": 14079.0,
+            "lead": -6403.0
+          },
+          "treatment": {
+            "self": 10799.0,
+            "opponent": 10799.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 17644.0,
+            "opponent": 27995.0,
+            "lead": -10351.0
+          },
+          "treatment": {
+            "self": 15941.0,
+            "opponent": 15941.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 37470.0,
+            "opponent": 48778.0,
+            "lead": -11308.0
+          },
+          "treatment": {
+            "self": 23615.0,
+            "opponent": 23615.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 84590.0,
+            "opponent": 87800.0,
+            "lead": -3210.0
+          },
+          "treatment": {
+            "self": 28050.0,
+            "opponent": 28050.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 108614.0,
+            "opponent": 109581.0,
+            "lead": -967.0
+          },
+          "treatment": {
+            "self": 29941.0,
+            "opponent": 29941.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 122702.0,
+            "opponent": 125877.0,
+            "lead": -3175.0
+          },
+          "treatment": {
+            "self": 58034.0,
+            "opponent": 58034.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091011,
+        0
+      ],
+      "transition": "loss->draw",
+      "delta": {
+        "self": -64668.0,
+        "opponent": -67843.0,
+        "margin": 3175.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 899.0,
+            "opponent": 209.0,
+            "lead": 690.0
+          },
+          "treatment": {
+            "self": 5.0,
+            "opponent": 5.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7676.0,
+            "opponent": 14079.0,
+            "lead": -6403.0
+          },
+          "treatment": {
+            "self": 10799.0,
+            "opponent": 10799.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 17644.0,
+            "opponent": 27995.0,
+            "lead": -10351.0
+          },
+          "treatment": {
+            "self": 15941.0,
+            "opponent": 15941.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 37470.0,
+            "opponent": 48778.0,
+            "lead": -11308.0
+          },
+          "treatment": {
+            "self": 23615.0,
+            "opponent": 23615.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 84590.0,
+            "opponent": 87800.0,
+            "lead": -3210.0
+          },
+          "treatment": {
+            "self": 28050.0,
+            "opponent": 28050.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 108614.0,
+            "opponent": 109581.0,
+            "lead": -967.0
+          },
+          "treatment": {
+            "self": 29941.0,
+            "opponent": 29941.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 122702.0,
+            "opponent": 125877.0,
+            "lead": -3175.0
+          },
+          "treatment": {
+            "self": 58034.0,
+            "opponent": 58034.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091012,
+        1
+      ],
+      "transition": "loss->draw",
+      "delta": {
+        "self": -29966.0,
+        "opponent": -39187.0,
+        "margin": 9221.0
+      },
+      "hard_safety": [
+        "new_crop_to_weed"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1871.0,
+            "opponent": 432.0,
+            "lead": 1439.0
+          },
+          "treatment": {
+            "self": 615.0,
+            "opponent": 615.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5789.0,
+            "opponent": 15909.0,
+            "lead": -10120.0
+          },
+          "treatment": {
+            "self": 12605.0,
+            "opponent": 12605.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10920.0,
+            "opponent": 26742.0,
+            "lead": -15822.0
+          },
+          "treatment": {
+            "self": 19814.0,
+            "opponent": 19814.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 33241.0,
+            "opponent": 44108.0,
+            "lead": -10867.0
+          },
+          "treatment": {
+            "self": 32439.0,
+            "opponent": 32439.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 73154.0,
+            "opponent": 84591.0,
+            "lead": -11437.0
+          },
+          "treatment": {
+            "self": 60425.0,
+            "opponent": 60425.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 90222.0,
+            "opponent": 101647.0,
+            "lead": -11425.0
+          },
+          "treatment": {
+            "self": 68578.0,
+            "opponent": 68578.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 108507.0,
+            "opponent": 117728.0,
+            "lead": -9221.0
+          },
+          "treatment": {
+            "self": 78541.0,
+            "opponent": 78541.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091012,
+        0
+      ],
+      "transition": "loss->draw",
+      "delta": {
+        "self": -29966.0,
+        "opponent": -39187.0,
+        "margin": 9221.0
+      },
+      "hard_safety": [
+        "new_crop_to_weed"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1871.0,
+            "opponent": 432.0,
+            "lead": 1439.0
+          },
+          "treatment": {
+            "self": 615.0,
+            "opponent": 615.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5789.0,
+            "opponent": 15909.0,
+            "lead": -10120.0
+          },
+          "treatment": {
+            "self": 12605.0,
+            "opponent": 12605.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10920.0,
+            "opponent": 26742.0,
+            "lead": -15822.0
+          },
+          "treatment": {
+            "self": 19814.0,
+            "opponent": 19814.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 33241.0,
+            "opponent": 44108.0,
+            "lead": -10867.0
+          },
+          "treatment": {
+            "self": 32439.0,
+            "opponent": 32439.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 73154.0,
+            "opponent": 84591.0,
+            "lead": -11437.0
+          },
+          "treatment": {
+            "self": 60425.0,
+            "opponent": 60425.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 90222.0,
+            "opponent": 101647.0,
+            "lead": -11425.0
+          },
+          "treatment": {
+            "self": 68578.0,
+            "opponent": 68578.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 108507.0,
+            "opponent": 117728.0,
+            "lead": -9221.0
+          },
+          "treatment": {
+            "self": 78541.0,
+            "opponent": 78541.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091013,
+        0
+      ],
+      "transition": "win->draw",
+      "delta": {
+        "self": -38066.0,
+        "opponent": -28575.0,
+        "margin": -9491.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1779.0,
+            "opponent": 6.0,
+            "lead": 1773.0
+          },
+          "treatment": {
+            "self": 451.0,
+            "opponent": 451.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5816.0,
+            "opponent": 14235.0,
+            "lead": -8419.0
+          },
+          "treatment": {
+            "self": 11238.0,
+            "opponent": 11238.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11398.0,
+            "opponent": 24173.0,
+            "lead": -12775.0
+          },
+          "treatment": {
+            "self": 22580.0,
+            "opponent": 22580.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 32582.0,
+            "opponent": 39579.0,
+            "lead": -6997.0
+          },
+          "treatment": {
+            "self": 36803.0,
+            "opponent": 36803.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 66516.0,
+            "opponent": 65753.0,
+            "lead": 763.0
+          },
+          "treatment": {
+            "self": 50231.0,
+            "opponent": 50231.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 83042.0,
+            "opponent": 78963.0,
+            "lead": 4079.0
+          },
+          "treatment": {
+            "self": 54411.0,
+            "opponent": 54411.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 103138.0,
+            "opponent": 93647.0,
+            "lead": 9491.0
+          },
+          "treatment": {
+            "self": 65072.0,
+            "opponent": 65072.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091013,
+        1
+      ],
+      "transition": "win->draw",
+      "delta": {
+        "self": -38066.0,
+        "opponent": -28575.0,
+        "margin": -9491.0
+      },
+      "hard_safety": [
+        "new_spawned_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1779.0,
+            "opponent": 6.0,
+            "lead": 1773.0
+          },
+          "treatment": {
+            "self": 451.0,
+            "opponent": 451.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5816.0,
+            "opponent": 14235.0,
+            "lead": -8419.0
+          },
+          "treatment": {
+            "self": 11238.0,
+            "opponent": 11238.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11398.0,
+            "opponent": 24173.0,
+            "lead": -12775.0
+          },
+          "treatment": {
+            "self": 22580.0,
+            "opponent": 22580.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 32582.0,
+            "opponent": 39579.0,
+            "lead": -6997.0
+          },
+          "treatment": {
+            "self": 36803.0,
+            "opponent": 36803.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 66516.0,
+            "opponent": 65753.0,
+            "lead": 763.0
+          },
+          "treatment": {
+            "self": 50231.0,
+            "opponent": 50231.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 83042.0,
+            "opponent": 78963.0,
+            "lead": 4079.0
+          },
+          "treatment": {
+            "self": 54411.0,
+            "opponent": 54411.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 103138.0,
+            "opponent": 93647.0,
+            "lead": 9491.0
+          },
+          "treatment": {
+            "self": 65072.0,
+            "opponent": 65072.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091014,
+        1
+      ],
+      "transition": "loss->draw",
+      "delta": {
+        "self": -13710.0,
+        "opponent": -17556.0,
+        "margin": 3846.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_market_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 899.0,
+            "opponent": 209.0,
+            "lead": 690.0
+          },
+          "treatment": {
+            "self": 223.0,
+            "opponent": 223.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7676.0,
+            "opponent": 14079.0,
+            "lead": -6403.0
+          },
+          "treatment": {
+            "self": 12389.0,
+            "opponent": 12389.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 17639.0,
+            "opponent": 28002.0,
+            "lead": -10363.0
+          },
+          "treatment": {
+            "self": 26916.0,
+            "opponent": 26916.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 37461.0,
+            "opponent": 48825.0,
+            "lead": -11364.0
+          },
+          "treatment": {
+            "self": 51056.0,
+            "opponent": 51056.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 83056.0,
+            "opponent": 86757.0,
+            "lead": -3701.0
+          },
+          "treatment": {
+            "self": 81114.0,
+            "opponent": 81114.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 104960.0,
+            "opponent": 106895.0,
+            "lead": -1935.0
+          },
+          "treatment": {
+            "self": 93107.0,
+            "opponent": 93107.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 118982.0,
+            "opponent": 122828.0,
+            "lead": -3846.0
+          },
+          "treatment": {
+            "self": 105272.0,
+            "opponent": 105272.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "mooman_e052a",
+        10091014,
+        0
+      ],
+      "transition": "loss->draw",
+      "delta": {
+        "self": -13710.0,
+        "opponent": -17556.0,
+        "margin": 3846.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_market_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 899.0,
+            "opponent": 209.0,
+            "lead": 690.0
+          },
+          "treatment": {
+            "self": 223.0,
+            "opponent": 223.0,
+            "lead": 0.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7676.0,
+            "opponent": 14079.0,
+            "lead": -6403.0
+          },
+          "treatment": {
+            "self": 12389.0,
+            "opponent": 12389.0,
+            "lead": 0.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 17639.0,
+            "opponent": 28002.0,
+            "lead": -10363.0
+          },
+          "treatment": {
+            "self": 26916.0,
+            "opponent": 26916.0,
+            "lead": 0.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 37461.0,
+            "opponent": 48825.0,
+            "lead": -11364.0
+          },
+          "treatment": {
+            "self": 51056.0,
+            "opponent": 51056.0,
+            "lead": 0.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 83056.0,
+            "opponent": 86757.0,
+            "lead": -3701.0
+          },
+          "treatment": {
+            "self": 81114.0,
+            "opponent": 81114.0,
+            "lead": 0.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 104960.0,
+            "opponent": 106895.0,
+            "lead": -1935.0
+          },
+          "treatment": {
+            "self": 93107.0,
+            "opponent": 93107.0,
+            "lead": 0.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 118982.0,
+            "opponent": 122828.0,
+            "lead": -3846.0
+          },
+          "treatment": {
+            "self": 105272.0,
+            "opponent": 105272.0,
+            "lead": 0.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 1,
+      "opponent_response_lag": {
+        "from_own_action": 1,
+        "from_first_public_signal": 0
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091011,
+        0
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": -29575.0,
+        "opponent": -39236.0,
+        "margin": 9661.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 945.0,
+            "opponent": 439.0,
+            "lead": 506.0
+          },
+          "treatment": {
+            "self": 11.0,
+            "opponent": 544.0,
+            "lead": -533.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7768.0,
+            "opponent": 14581.0,
+            "lead": -6813.0
+          },
+          "treatment": {
+            "self": 10878.0,
+            "opponent": 12058.0,
+            "lead": -1180.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 16931.0,
+            "opponent": 24263.0,
+            "lead": -7332.0
+          },
+          "treatment": {
+            "self": 18533.0,
+            "opponent": 17484.0,
+            "lead": 1049.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 34781.0,
+            "opponent": 43842.0,
+            "lead": -9061.0
+          },
+          "treatment": {
+            "self": 28534.0,
+            "opponent": 27654.0,
+            "lead": 880.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 66402.0,
+            "opponent": 71727.0,
+            "lead": -5325.0
+          },
+          "treatment": {
+            "self": 35072.0,
+            "opponent": 33317.0,
+            "lead": 1755.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 76092.0,
+            "opponent": 82125.0,
+            "lead": -6033.0
+          },
+          "treatment": {
+            "self": 37629.0,
+            "opponent": 36567.0,
+            "lead": 1062.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 88307.0,
+            "opponent": 93567.0,
+            "lead": -5260.0
+          },
+          "treatment": {
+            "self": 58732.0,
+            "opponent": 54331.0,
+            "lead": 4401.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 151,
+      "opponent_response_lag": {
+        "from_own_action": 151,
+        "from_first_public_signal": 150
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091011,
+        1
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": -29575.0,
+        "opponent": -39236.0,
+        "margin": 9661.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 945.0,
+            "opponent": 439.0,
+            "lead": 506.0
+          },
+          "treatment": {
+            "self": 11.0,
+            "opponent": 544.0,
+            "lead": -533.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7768.0,
+            "opponent": 14581.0,
+            "lead": -6813.0
+          },
+          "treatment": {
+            "self": 10878.0,
+            "opponent": 12058.0,
+            "lead": -1180.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 16931.0,
+            "opponent": 24263.0,
+            "lead": -7332.0
+          },
+          "treatment": {
+            "self": 18533.0,
+            "opponent": 17484.0,
+            "lead": 1049.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 34781.0,
+            "opponent": 43842.0,
+            "lead": -9061.0
+          },
+          "treatment": {
+            "self": 28534.0,
+            "opponent": 27654.0,
+            "lead": 880.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 66402.0,
+            "opponent": 71727.0,
+            "lead": -5325.0
+          },
+          "treatment": {
+            "self": 35072.0,
+            "opponent": 33317.0,
+            "lead": 1755.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 76092.0,
+            "opponent": 82125.0,
+            "lead": -6033.0
+          },
+          "treatment": {
+            "self": 37629.0,
+            "opponent": 36567.0,
+            "lead": 1062.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 88307.0,
+            "opponent": 93567.0,
+            "lead": -5260.0
+          },
+          "treatment": {
+            "self": 58732.0,
+            "opponent": 54331.0,
+            "lead": 4401.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 151,
+      "opponent_response_lag": {
+        "from_own_action": 151,
+        "from_first_public_signal": 150
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091012,
+        1
+      ],
+      "transition": "loss->loss",
+      "delta": {
+        "self": -29972.0,
+        "opponent": -39184.0,
+        "margin": 9212.0
+      },
+      "hard_safety": [
+        "new_crop_to_weed"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1872.0,
+            "opponent": 429.0,
+            "lead": 1443.0
+          },
+          "treatment": {
+            "self": 610.0,
+            "opponent": 615.0,
+            "lead": -5.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5790.0,
+            "opponent": 15906.0,
+            "lead": -10116.0
+          },
+          "treatment": {
+            "self": 12600.0,
+            "opponent": 12605.0,
+            "lead": -5.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10921.0,
+            "opponent": 26739.0,
+            "lead": -15818.0
+          },
+          "treatment": {
+            "self": 19809.0,
+            "opponent": 19814.0,
+            "lead": -5.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 33242.0,
+            "opponent": 44105.0,
+            "lead": -10863.0
+          },
+          "treatment": {
+            "self": 32434.0,
+            "opponent": 32439.0,
+            "lead": -5.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 73155.0,
+            "opponent": 84588.0,
+            "lead": -11433.0
+          },
+          "treatment": {
+            "self": 60420.0,
+            "opponent": 60425.0,
+            "lead": -5.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 90223.0,
+            "opponent": 101644.0,
+            "lead": -11421.0
+          },
+          "treatment": {
+            "self": 68573.0,
+            "opponent": 68578.0,
+            "lead": -5.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 108508.0,
+            "opponent": 117725.0,
+            "lead": -9217.0
+          },
+          "treatment": {
+            "self": 78536.0,
+            "opponent": 78541.0,
+            "lead": -5.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 151,
+      "opponent_response_lag": {
+        "from_own_action": 151,
+        "from_first_public_signal": 150
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091012,
+        0
+      ],
+      "transition": "loss->loss",
+      "delta": {
+        "self": -29972.0,
+        "opponent": -39184.0,
+        "margin": 9212.0
+      },
+      "hard_safety": [
+        "new_crop_to_weed"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1872.0,
+            "opponent": 429.0,
+            "lead": 1443.0
+          },
+          "treatment": {
+            "self": 610.0,
+            "opponent": 615.0,
+            "lead": -5.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5790.0,
+            "opponent": 15906.0,
+            "lead": -10116.0
+          },
+          "treatment": {
+            "self": 12600.0,
+            "opponent": 12605.0,
+            "lead": -5.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10921.0,
+            "opponent": 26739.0,
+            "lead": -15818.0
+          },
+          "treatment": {
+            "self": 19809.0,
+            "opponent": 19814.0,
+            "lead": -5.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 33242.0,
+            "opponent": 44105.0,
+            "lead": -10863.0
+          },
+          "treatment": {
+            "self": 32434.0,
+            "opponent": 32439.0,
+            "lead": -5.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 73155.0,
+            "opponent": 84588.0,
+            "lead": -11433.0
+          },
+          "treatment": {
+            "self": 60420.0,
+            "opponent": 60425.0,
+            "lead": -5.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 90223.0,
+            "opponent": 101644.0,
+            "lead": -11421.0
+          },
+          "treatment": {
+            "self": 68573.0,
+            "opponent": 68578.0,
+            "lead": -5.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 108508.0,
+            "opponent": 117725.0,
+            "lead": -9217.0
+          },
+          "treatment": {
+            "self": 78536.0,
+            "opponent": 78541.0,
+            "lead": -5.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 151,
+      "opponent_response_lag": {
+        "from_own_action": 151,
+        "from_first_public_signal": 150
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091013,
+        0
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": 37464.0,
+        "opponent": -447.0,
+        "margin": 37911.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1865.0,
+            "opponent": 464.0,
+            "lead": 1401.0
+          },
+          "treatment": {
+            "self": 454.0,
+            "opponent": 520.0,
+            "lead": -66.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5821.0,
+            "opponent": 15626.0,
+            "lead": -9805.0
+          },
+          "treatment": {
+            "self": 11308.0,
+            "opponent": 12016.0,
+            "lead": -708.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11532.0,
+            "opponent": 26012.0,
+            "lead": -14480.0
+          },
+          "treatment": {
+            "self": 22461.0,
+            "opponent": 19464.0,
+            "lead": 2997.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 28137.0,
+            "opponent": 41077.0,
+            "lead": -12940.0
+          },
+          "treatment": {
+            "self": 38718.0,
+            "opponent": 36458.0,
+            "lead": 2260.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 36605.0,
+            "opponent": 54959.0,
+            "lead": -18354.0
+          },
+          "treatment": {
+            "self": 59757.0,
+            "opponent": 51752.0,
+            "lead": 8005.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 43315.0,
+            "opponent": 64497.0,
+            "lead": -21182.0
+          },
+          "treatment": {
+            "self": 76548.0,
+            "opponent": 65251.0,
+            "lead": 11297.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 54941.0,
+            "opponent": 78802.0,
+            "lead": -23861.0
+          },
+          "treatment": {
+            "self": 92405.0,
+            "opponent": 78355.0,
+            "lead": 14050.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 226,
+      "opponent_response_lag": {
+        "from_own_action": 226,
+        "from_first_public_signal": 225
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091013,
+        1
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": 37464.0,
+        "opponent": -447.0,
+        "margin": 37911.0
+      },
+      "hard_safety": [
+        "new_spawned_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1865.0,
+            "opponent": 464.0,
+            "lead": 1401.0
+          },
+          "treatment": {
+            "self": 454.0,
+            "opponent": 520.0,
+            "lead": -66.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5821.0,
+            "opponent": 15626.0,
+            "lead": -9805.0
+          },
+          "treatment": {
+            "self": 11308.0,
+            "opponent": 12016.0,
+            "lead": -708.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11532.0,
+            "opponent": 26012.0,
+            "lead": -14480.0
+          },
+          "treatment": {
+            "self": 22461.0,
+            "opponent": 19464.0,
+            "lead": 2997.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 28137.0,
+            "opponent": 41077.0,
+            "lead": -12940.0
+          },
+          "treatment": {
+            "self": 38718.0,
+            "opponent": 36458.0,
+            "lead": 2260.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 36605.0,
+            "opponent": 54959.0,
+            "lead": -18354.0
+          },
+          "treatment": {
+            "self": 59757.0,
+            "opponent": 51752.0,
+            "lead": 8005.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 43315.0,
+            "opponent": 64497.0,
+            "lead": -21182.0
+          },
+          "treatment": {
+            "self": 76548.0,
+            "opponent": 65251.0,
+            "lead": 11297.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 54941.0,
+            "opponent": 78802.0,
+            "lead": -23861.0
+          },
+          "treatment": {
+            "self": 92405.0,
+            "opponent": 78355.0,
+            "lead": 14050.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 226,
+      "opponent_response_lag": {
+        "from_own_action": 226,
+        "from_first_public_signal": 225
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091014,
+        0
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": 21197.0,
+        "opponent": 2606.0,
+        "margin": 18591.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_market_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 945.0,
+            "opponent": 439.0,
+            "lead": 506.0
+          },
+          "treatment": {
+            "self": 221.0,
+            "opponent": 597.0,
+            "lead": -376.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7768.0,
+            "opponent": 14581.0,
+            "lead": -6813.0
+          },
+          "treatment": {
+            "self": 12088.0,
+            "opponent": 13209.0,
+            "lead": -1121.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 16621.0,
+            "opponent": 23620.0,
+            "lead": -6999.0
+          },
+          "treatment": {
+            "self": 24921.0,
+            "opponent": 22974.0,
+            "lead": 1947.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 32334.0,
+            "opponent": 41219.0,
+            "lead": -8885.0
+          },
+          "treatment": {
+            "self": 41634.0,
+            "opponent": 38682.0,
+            "lead": 2952.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 47569.0,
+            "opponent": 53489.0,
+            "lead": -5920.0
+          },
+          "treatment": {
+            "self": 59125.0,
+            "opponent": 50693.0,
+            "lead": 8432.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 50149.0,
+            "opponent": 57644.0,
+            "lead": -7495.0
+          },
+          "treatment": {
+            "self": 62252.0,
+            "opponent": 54256.0,
+            "lead": 7996.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 57848.0,
+            "opponent": 67221.0,
+            "lead": -9373.0
+          },
+          "treatment": {
+            "self": 79045.0,
+            "opponent": 69827.0,
+            "lead": 9218.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 625,
+      "opponent_response_lag": {
+        "from_own_action": 625,
+        "from_first_public_signal": 624
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "souvik_v4",
+        10091014,
+        1
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": 21197.0,
+        "opponent": 2606.0,
+        "margin": 18591.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_market_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 945.0,
+            "opponent": 439.0,
+            "lead": 506.0
+          },
+          "treatment": {
+            "self": 221.0,
+            "opponent": 597.0,
+            "lead": -376.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7768.0,
+            "opponent": 14581.0,
+            "lead": -6813.0
+          },
+          "treatment": {
+            "self": 12088.0,
+            "opponent": 13209.0,
+            "lead": -1121.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 16621.0,
+            "opponent": 23620.0,
+            "lead": -6999.0
+          },
+          "treatment": {
+            "self": 24921.0,
+            "opponent": 22974.0,
+            "lead": 1947.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 32334.0,
+            "opponent": 41219.0,
+            "lead": -8885.0
+          },
+          "treatment": {
+            "self": 41634.0,
+            "opponent": 38682.0,
+            "lead": 2952.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 47569.0,
+            "opponent": 53489.0,
+            "lead": -5920.0
+          },
+          "treatment": {
+            "self": 59125.0,
+            "opponent": 50693.0,
+            "lead": 8432.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 50149.0,
+            "opponent": 57644.0,
+            "lead": -7495.0
+          },
+          "treatment": {
+            "self": 62252.0,
+            "opponent": 54256.0,
+            "lead": 7996.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 57848.0,
+            "opponent": 67221.0,
+            "lead": -9373.0
+          },
+          "treatment": {
+            "self": 79045.0,
+            "opponent": 69827.0,
+            "lead": 9218.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 625,
+      "opponent_response_lag": {
+        "from_own_action": 625,
+        "from_first_public_signal": 624
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091011,
+        0
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": -10989.0,
+        "opponent": -24219.0,
+        "margin": 13230.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1788.0,
+            "opponent": 1443.0,
+            "lead": 345.0
+          },
+          "treatment": {
+            "self": 21.0,
+            "opponent": 686.0,
+            "lead": -665.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 6808.0,
+            "opponent": 12453.0,
+            "lead": -5645.0
+          },
+          "treatment": {
+            "self": 13247.0,
+            "opponent": 8651.0,
+            "lead": 4596.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 12936.0,
+            "opponent": 20490.0,
+            "lead": -7554.0
+          },
+          "treatment": {
+            "self": 20825.0,
+            "opponent": 13049.0,
+            "lead": 7776.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 31558.0,
+            "opponent": 30525.0,
+            "lead": 1033.0
+          },
+          "treatment": {
+            "self": 29868.0,
+            "opponent": 19000.0,
+            "lead": 10868.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 42797.0,
+            "opponent": 42384.0,
+            "lead": 413.0
+          },
+          "treatment": {
+            "self": 38821.0,
+            "opponent": 24761.0,
+            "lead": 14060.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 50531.0,
+            "opponent": 48928.0,
+            "lead": 1603.0
+          },
+          "treatment": {
+            "self": 42396.0,
+            "opponent": 28042.0,
+            "lead": 14354.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 65978.0,
+            "opponent": 57469.0,
+            "lead": 8509.0
+          },
+          "treatment": {
+            "self": 54989.0,
+            "opponent": 33250.0,
+            "lead": 21739.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 206,
+      "opponent_response_lag": {
+        "from_own_action": 206,
+        "from_first_public_signal": 205
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091011,
+        1
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": 11341.0,
+        "opponent": -13269.0,
+        "margin": 24610.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1787.0,
+            "opponent": 1434.0,
+            "lead": 353.0
+          },
+          "treatment": {
+            "self": 21.0,
+            "opponent": 686.0,
+            "lead": -665.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 6802.0,
+            "opponent": 12429.0,
+            "lead": -5627.0
+          },
+          "treatment": {
+            "self": 13247.0,
+            "opponent": 8651.0,
+            "lead": 4596.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11841.0,
+            "opponent": 19242.0,
+            "lead": -7401.0
+          },
+          "treatment": {
+            "self": 20825.0,
+            "opponent": 13049.0,
+            "lead": 7776.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 31172.0,
+            "opponent": 29482.0,
+            "lead": 1690.0
+          },
+          "treatment": {
+            "self": 30540.0,
+            "opponent": 19386.0,
+            "lead": 11154.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 43264.0,
+            "opponent": 42235.0,
+            "lead": 1029.0
+          },
+          "treatment": {
+            "self": 45568.0,
+            "opponent": 31608.0,
+            "lead": 13960.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 49915.0,
+            "opponent": 47711.0,
+            "lead": 2204.0
+          },
+          "treatment": {
+            "self": 48885.0,
+            "opponent": 35336.0,
+            "lead": 13549.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 61024.0,
+            "opponent": 54401.0,
+            "lead": 6623.0
+          },
+          "treatment": {
+            "self": 72365.0,
+            "opponent": 41132.0,
+            "lead": 31233.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 252,
+      "opponent_response_lag": {
+        "from_own_action": 252,
+        "from_first_public_signal": 251
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091012,
+        1
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": 30610.0,
+        "opponent": 16360.0,
+        "margin": 14250.0
+      },
+      "hard_safety": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1808.0,
+            "opponent": 952.0,
+            "lead": 856.0
+          },
+          "treatment": {
+            "self": 534.0,
+            "opponent": 751.0,
+            "lead": -217.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 6807.0,
+            "opponent": 11325.0,
+            "lead": -4518.0
+          },
+          "treatment": {
+            "self": 14022.0,
+            "opponent": 8254.0,
+            "lead": 5768.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10784.0,
+            "opponent": 16314.0,
+            "lead": -5530.0
+          },
+          "treatment": {
+            "self": 19936.0,
+            "opponent": 12049.0,
+            "lead": 7887.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 22898.0,
+            "opponent": 23487.0,
+            "lead": -589.0
+          },
+          "treatment": {
+            "self": 31623.0,
+            "opponent": 17059.0,
+            "lead": 14564.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 38194.0,
+            "opponent": 35225.0,
+            "lead": 2969.0
+          },
+          "treatment": {
+            "self": 62528.0,
+            "opponent": 43373.0,
+            "lead": 19155.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 42149.0,
+            "opponent": 37587.0,
+            "lead": 4562.0
+          },
+          "treatment": {
+            "self": 71510.0,
+            "opponent": 51823.0,
+            "lead": 19687.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 52504.0,
+            "opponent": 41660.0,
+            "lead": 10844.0
+          },
+          "treatment": {
+            "self": 83114.0,
+            "opponent": 58020.0,
+            "lead": 25094.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 120,
+      "opponent_response_lag": {
+        "from_own_action": 120,
+        "from_first_public_signal": 119
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091012,
+        0
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": -1172.0,
+        "opponent": -12761.0,
+        "margin": 11589.0
+      },
+      "hard_safety": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1808.0,
+            "opponent": 1412.0,
+            "lead": 396.0
+          },
+          "treatment": {
+            "self": 534.0,
+            "opponent": 751.0,
+            "lead": -217.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 6807.0,
+            "opponent": 12376.0,
+            "lead": -5569.0
+          },
+          "treatment": {
+            "self": 14022.0,
+            "opponent": 8254.0,
+            "lead": 5768.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11957.0,
+            "opponent": 19185.0,
+            "lead": -7228.0
+          },
+          "treatment": {
+            "self": 19936.0,
+            "opponent": 12049.0,
+            "lead": 7887.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 33176.0,
+            "opponent": 30234.0,
+            "lead": 2942.0
+          },
+          "treatment": {
+            "self": 31623.0,
+            "opponent": 17059.0,
+            "lead": 14564.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 61879.0,
+            "opponent": 55225.0,
+            "lead": 6654.0
+          },
+          "treatment": {
+            "self": 62528.0,
+            "opponent": 43373.0,
+            "lead": 19155.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 71448.0,
+            "opponent": 62265.0,
+            "lead": 9183.0
+          },
+          "treatment": {
+            "self": 71510.0,
+            "opponent": 51823.0,
+            "lead": 19687.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 84286.0,
+            "opponent": 70781.0,
+            "lead": 13505.0
+          },
+          "treatment": {
+            "self": 83114.0,
+            "opponent": 58020.0,
+            "lead": 25094.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 120,
+      "opponent_response_lag": {
+        "from_own_action": 120,
+        "from_first_public_signal": 119
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091013,
+        0
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": -15881.0,
+        "opponent": -30358.0,
+        "margin": 14477.0
+      },
+      "hard_safety": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 2474.0,
+            "opponent": 885.0,
+            "lead": 1589.0
+          },
+          "treatment": {
+            "self": 147.0,
+            "opponent": 1551.0,
+            "lead": -1404.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7294.0,
+            "opponent": 11304.0,
+            "lead": -4010.0
+          },
+          "treatment": {
+            "self": 15320.0,
+            "opponent": 9872.0,
+            "lead": 5448.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 13352.0,
+            "opponent": 18617.0,
+            "lead": -5265.0
+          },
+          "treatment": {
+            "self": 26657.0,
+            "opponent": 18326.0,
+            "lead": 8331.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 30050.0,
+            "opponent": 27250.0,
+            "lead": 2800.0
+          },
+          "treatment": {
+            "self": 43714.0,
+            "opponent": 25927.0,
+            "lead": 17787.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 67908.0,
+            "opponent": 55510.0,
+            "lead": 12398.0
+          },
+          "treatment": {
+            "self": 57212.0,
+            "opponent": 35162.0,
+            "lead": 22050.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 78036.0,
+            "opponent": 65154.0,
+            "lead": 12882.0
+          },
+          "treatment": {
+            "self": 69177.0,
+            "opponent": 40756.0,
+            "lead": 28421.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 96732.0,
+            "opponent": 78733.0,
+            "lead": 17999.0
+          },
+          "treatment": {
+            "self": 80851.0,
+            "opponent": 48375.0,
+            "lead": 32476.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 120,
+      "opponent_response_lag": {
+        "from_own_action": 120,
+        "from_first_public_signal": 119
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091013,
+        1
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": -15881.0,
+        "opponent": -30358.0,
+        "margin": 14477.0
+      },
+      "hard_safety": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 2474.0,
+            "opponent": 885.0,
+            "lead": 1589.0
+          },
+          "treatment": {
+            "self": 147.0,
+            "opponent": 1551.0,
+            "lead": -1404.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 7294.0,
+            "opponent": 11304.0,
+            "lead": -4010.0
+          },
+          "treatment": {
+            "self": 15320.0,
+            "opponent": 9872.0,
+            "lead": 5448.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 13352.0,
+            "opponent": 18617.0,
+            "lead": -5265.0
+          },
+          "treatment": {
+            "self": 26657.0,
+            "opponent": 18326.0,
+            "lead": 8331.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 30050.0,
+            "opponent": 27250.0,
+            "lead": 2800.0
+          },
+          "treatment": {
+            "self": 43714.0,
+            "opponent": 25927.0,
+            "lead": 17787.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 67908.0,
+            "opponent": 55510.0,
+            "lead": 12398.0
+          },
+          "treatment": {
+            "self": 57212.0,
+            "opponent": 35162.0,
+            "lead": 22050.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 78036.0,
+            "opponent": 65154.0,
+            "lead": 12882.0
+          },
+          "treatment": {
+            "self": 69177.0,
+            "opponent": 40756.0,
+            "lead": 28421.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 96732.0,
+            "opponent": 78733.0,
+            "lead": 17999.0
+          },
+          "treatment": {
+            "self": 80851.0,
+            "opponent": 48375.0,
+            "lead": 32476.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 120,
+      "opponent_response_lag": {
+        "from_own_action": 120,
+        "from_first_public_signal": 119
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091014,
+        1
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": 43061.0,
+        "opponent": 25402.0,
+        "margin": 17659.0
+      },
+      "hard_safety": [],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1808.0,
+            "opponent": 1235.0,
+            "lead": 573.0
+          },
+          "treatment": {
+            "self": 410.0,
+            "opponent": 1824.0,
+            "lead": -1414.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 6811.0,
+            "opponent": 12134.0,
+            "lead": -5323.0
+          },
+          "treatment": {
+            "self": 14469.0,
+            "opponent": 9685.0,
+            "lead": 4784.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11769.0,
+            "opponent": 18575.0,
+            "lead": -6806.0
+          },
+          "treatment": {
+            "self": 28071.0,
+            "opponent": 11284.0,
+            "lead": 16787.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 28230.0,
+            "opponent": 27952.0,
+            "lead": 278.0
+          },
+          "treatment": {
+            "self": 46952.0,
+            "opponent": 27232.0,
+            "lead": 19720.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 45258.0,
+            "opponent": 41762.0,
+            "lead": 3496.0
+          },
+          "treatment": {
+            "self": 71068.0,
+            "opponent": 49212.0,
+            "lead": 21856.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 50105.0,
+            "opponent": 45682.0,
+            "lead": 4423.0
+          },
+          "treatment": {
+            "self": 90242.0,
+            "opponent": 62937.0,
+            "lead": 27305.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 61454.0,
+            "opponent": 51460.0,
+            "lead": 9994.0
+          },
+          "treatment": {
+            "self": 104515.0,
+            "opponent": 76862.0,
+            "lead": 27653.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 120,
+      "opponent_response_lag": {
+        "from_own_action": 120,
+        "from_first_public_signal": 119
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "ggmljs_v16",
+        10091014,
+        0
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": 43061.0,
+        "opponent": 25402.0,
+        "margin": 17659.0
+      },
+      "hard_safety": [],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1808.0,
+            "opponent": 1235.0,
+            "lead": 573.0
+          },
+          "treatment": {
+            "self": 410.0,
+            "opponent": 1824.0,
+            "lead": -1414.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 6811.0,
+            "opponent": 12134.0,
+            "lead": -5323.0
+          },
+          "treatment": {
+            "self": 14469.0,
+            "opponent": 9685.0,
+            "lead": 4784.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 11769.0,
+            "opponent": 18575.0,
+            "lead": -6806.0
+          },
+          "treatment": {
+            "self": 28071.0,
+            "opponent": 11284.0,
+            "lead": 16787.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 28230.0,
+            "opponent": 27952.0,
+            "lead": 278.0
+          },
+          "treatment": {
+            "self": 46952.0,
+            "opponent": 27232.0,
+            "lead": 19720.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 45258.0,
+            "opponent": 41762.0,
+            "lead": 3496.0
+          },
+          "treatment": {
+            "self": 71068.0,
+            "opponent": 49212.0,
+            "lead": 21856.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 50105.0,
+            "opponent": 45682.0,
+            "lead": 4423.0
+          },
+          "treatment": {
+            "self": 90242.0,
+            "opponent": 62937.0,
+            "lead": 27305.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 61454.0,
+            "opponent": 51460.0,
+            "lead": 9994.0
+          },
+          "treatment": {
+            "self": 104515.0,
+            "opponent": 76862.0,
+            "lead": 27653.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 120,
+      "opponent_response_lag": {
+        "from_own_action": 120,
+        "from_first_public_signal": 119
+      },
+      "market_step": 1,
+      "price_step": 1,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091011,
+        0
+      ],
+      "transition": "loss->loss",
+      "delta": {
+        "self": 8712.0,
+        "opponent": -5305.0,
+        "margin": 14017.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1862.0,
+            "opponent": 1326.0,
+            "lead": 536.0
+          },
+          "treatment": {
+            "self": 16.0,
+            "opponent": 1417.0,
+            "lead": -1401.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5756.0,
+            "opponent": 15659.0,
+            "lead": -9903.0
+          },
+          "treatment": {
+            "self": 11006.0,
+            "opponent": 13259.0,
+            "lead": -2253.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 9152.0,
+            "opponent": 20979.0,
+            "lead": -11827.0
+          },
+          "treatment": {
+            "self": 17154.0,
+            "opponent": 17535.0,
+            "lead": -381.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 20469.0,
+            "opponent": 30507.0,
+            "lead": -10038.0
+          },
+          "treatment": {
+            "self": 26076.0,
+            "opponent": 25214.0,
+            "lead": 862.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 32515.0,
+            "opponent": 46820.0,
+            "lead": -14305.0
+          },
+          "treatment": {
+            "self": 35473.0,
+            "opponent": 35020.0,
+            "lead": 453.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 35494.0,
+            "opponent": 50760.0,
+            "lead": -15266.0
+          },
+          "treatment": {
+            "self": 37649.0,
+            "opponent": 37086.0,
+            "lead": 563.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 45166.0,
+            "opponent": 61330.0,
+            "lead": -16164.0
+          },
+          "treatment": {
+            "self": 53878.0,
+            "opponent": 56025.0,
+            "lead": -2147.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091011,
+        1
+      ],
+      "transition": "loss->loss",
+      "delta": {
+        "self": 8712.0,
+        "opponent": -5305.0,
+        "margin": 14017.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1862.0,
+            "opponent": 1326.0,
+            "lead": 536.0
+          },
+          "treatment": {
+            "self": 16.0,
+            "opponent": 1417.0,
+            "lead": -1401.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5756.0,
+            "opponent": 15659.0,
+            "lead": -9903.0
+          },
+          "treatment": {
+            "self": 11006.0,
+            "opponent": 13259.0,
+            "lead": -2253.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 9152.0,
+            "opponent": 20979.0,
+            "lead": -11827.0
+          },
+          "treatment": {
+            "self": 17154.0,
+            "opponent": 17535.0,
+            "lead": -381.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 20469.0,
+            "opponent": 30507.0,
+            "lead": -10038.0
+          },
+          "treatment": {
+            "self": 26076.0,
+            "opponent": 25214.0,
+            "lead": 862.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 32515.0,
+            "opponent": 46820.0,
+            "lead": -14305.0
+          },
+          "treatment": {
+            "self": 35473.0,
+            "opponent": 35020.0,
+            "lead": 453.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 35494.0,
+            "opponent": 50760.0,
+            "lead": -15266.0
+          },
+          "treatment": {
+            "self": 37649.0,
+            "opponent": 37086.0,
+            "lead": 563.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 45166.0,
+            "opponent": 61330.0,
+            "lead": -16164.0
+          },
+          "treatment": {
+            "self": 53878.0,
+            "opponent": 56025.0,
+            "lead": -2147.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091012,
+        1
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": -38940.0,
+        "opponent": -40305.0,
+        "margin": 1365.0
+      },
+      "hard_safety": [
+        "new_crop_to_weed"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1776.0,
+            "opponent": 1745.0,
+            "lead": 31.0
+          },
+          "treatment": {
+            "self": 523.0,
+            "opponent": 1395.0,
+            "lead": -872.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5728.0,
+            "opponent": 17510.0,
+            "lead": -11782.0
+          },
+          "treatment": {
+            "self": 12769.0,
+            "opponent": 13222.0,
+            "lead": -453.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10876.0,
+            "opponent": 25679.0,
+            "lead": -14803.0
+          },
+          "treatment": {
+            "self": 20299.0,
+            "opponent": 19376.0,
+            "lead": 923.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 34217.0,
+            "opponent": 44174.0,
+            "lead": -9957.0
+          },
+          "treatment": {
+            "self": 33285.0,
+            "opponent": 30773.0,
+            "lead": 2512.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 74916.0,
+            "opponent": 79063.0,
+            "lead": -4147.0
+          },
+          "treatment": {
+            "self": 59073.0,
+            "opponent": 57694.0,
+            "lead": 1379.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 93673.0,
+            "opponent": 98516.0,
+            "lead": -4843.0
+          },
+          "treatment": {
+            "self": 64817.0,
+            "opponent": 63569.0,
+            "lead": 1248.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 113062.0,
+            "opponent": 111678.0,
+            "lead": 1384.0
+          },
+          "treatment": {
+            "self": 74122.0,
+            "opponent": 71373.0,
+            "lead": 2749.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091012,
+        0
+      ],
+      "transition": "win->win",
+      "delta": {
+        "self": -38940.0,
+        "opponent": -40305.0,
+        "margin": 1365.0
+      },
+      "hard_safety": [
+        "new_crop_to_weed"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1776.0,
+            "opponent": 1745.0,
+            "lead": 31.0
+          },
+          "treatment": {
+            "self": 523.0,
+            "opponent": 1395.0,
+            "lead": -872.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5728.0,
+            "opponent": 17510.0,
+            "lead": -11782.0
+          },
+          "treatment": {
+            "self": 12769.0,
+            "opponent": 13222.0,
+            "lead": -453.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10876.0,
+            "opponent": 25679.0,
+            "lead": -14803.0
+          },
+          "treatment": {
+            "self": 20299.0,
+            "opponent": 19376.0,
+            "lead": 923.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 34217.0,
+            "opponent": 44174.0,
+            "lead": -9957.0
+          },
+          "treatment": {
+            "self": 33285.0,
+            "opponent": 30773.0,
+            "lead": 2512.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 74916.0,
+            "opponent": 79063.0,
+            "lead": -4147.0
+          },
+          "treatment": {
+            "self": 59073.0,
+            "opponent": 57694.0,
+            "lead": 1379.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 93673.0,
+            "opponent": 98516.0,
+            "lead": -4843.0
+          },
+          "treatment": {
+            "self": 64817.0,
+            "opponent": 63569.0,
+            "lead": 1248.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 113062.0,
+            "opponent": 111678.0,
+            "lead": 1384.0
+          },
+          "treatment": {
+            "self": 74122.0,
+            "opponent": 71373.0,
+            "lead": 2749.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091013,
+        0
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": 53286.0,
+        "opponent": -25987.0,
+        "margin": 79273.0
+      },
+      "hard_safety": [
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1789.0,
+            "opponent": 1243.0,
+            "lead": 546.0
+          },
+          "treatment": {
+            "self": 380.0,
+            "opponent": 1892.0,
+            "lead": -1512.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5793.0,
+            "opponent": 16493.0,
+            "lead": -10700.0
+          },
+          "treatment": {
+            "self": 11773.0,
+            "opponent": 12545.0,
+            "lead": -772.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 8832.0,
+            "opponent": 22408.0,
+            "lead": -13576.0
+          },
+          "treatment": {
+            "self": 24220.0,
+            "opponent": 21888.0,
+            "lead": 2332.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 13423.0,
+            "opponent": 25090.0,
+            "lead": -11667.0
+          },
+          "treatment": {
+            "self": 44579.0,
+            "opponent": 38942.0,
+            "lead": 5637.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 13301.0,
+            "opponent": 31898.0,
+            "lead": -18597.0
+          },
+          "treatment": {
+            "self": 69137.0,
+            "opponent": 66192.0,
+            "lead": 2945.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 15243.0,
+            "opponent": 33760.0,
+            "lead": -18517.0
+          },
+          "treatment": {
+            "self": 80009.0,
+            "opponent": 73246.0,
+            "lead": 6763.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 40812.0,
+            "opponent": 108788.0,
+            "lead": -67976.0
+          },
+          "treatment": {
+            "self": 94098.0,
+            "opponent": 82801.0,
+            "lead": 11297.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091013,
+        1
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": 53286.0,
+        "opponent": -25987.0,
+        "margin": 79273.0
+      },
+      "hard_safety": [
+        "new_spawned_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1789.0,
+            "opponent": 1243.0,
+            "lead": 546.0
+          },
+          "treatment": {
+            "self": 380.0,
+            "opponent": 1892.0,
+            "lead": -1512.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5793.0,
+            "opponent": 16493.0,
+            "lead": -10700.0
+          },
+          "treatment": {
+            "self": 11773.0,
+            "opponent": 12545.0,
+            "lead": -772.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 8832.0,
+            "opponent": 22408.0,
+            "lead": -13576.0
+          },
+          "treatment": {
+            "self": 24220.0,
+            "opponent": 21888.0,
+            "lead": 2332.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 13423.0,
+            "opponent": 25090.0,
+            "lead": -11667.0
+          },
+          "treatment": {
+            "self": 44579.0,
+            "opponent": 38942.0,
+            "lead": 5637.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 13301.0,
+            "opponent": 31898.0,
+            "lead": -18597.0
+          },
+          "treatment": {
+            "self": 69137.0,
+            "opponent": 66192.0,
+            "lead": 2945.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 15243.0,
+            "opponent": 33760.0,
+            "lead": -18517.0
+          },
+          "treatment": {
+            "self": 80009.0,
+            "opponent": 73246.0,
+            "lead": 6763.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 40812.0,
+            "opponent": 108788.0,
+            "lead": -67976.0
+          },
+          "treatment": {
+            "self": 94098.0,
+            "opponent": 82801.0,
+            "lead": 11297.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091014,
+        0
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": -37695.0,
+        "opponent": -40999.0,
+        "margin": 3304.0
+      },
+      "hard_safety": [],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1777.0,
+            "opponent": 1563.0,
+            "lead": 214.0
+          },
+          "treatment": {
+            "self": 141.0,
+            "opponent": 1851.0,
+            "lead": -1710.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5733.0,
+            "opponent": 17119.0,
+            "lead": -11386.0
+          },
+          "treatment": {
+            "self": 12213.0,
+            "opponent": 13632.0,
+            "lead": -1419.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10820.0,
+            "opponent": 25045.0,
+            "lead": -14225.0
+          },
+          "treatment": {
+            "self": 25168.0,
+            "opponent": 23428.0,
+            "lead": 1740.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 34478.0,
+            "opponent": 43785.0,
+            "lead": -9307.0
+          },
+          "treatment": {
+            "self": 42604.0,
+            "opponent": 35975.0,
+            "lead": 6629.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 78333.0,
+            "opponent": 84105.0,
+            "lead": -5772.0
+          },
+          "treatment": {
+            "self": 51891.0,
+            "opponent": 51933.0,
+            "lead": -42.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 91214.0,
+            "opponent": 98361.0,
+            "lead": -7147.0
+          },
+          "treatment": {
+            "self": 54251.0,
+            "opponent": 52624.0,
+            "lead": 1627.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 106320.0,
+            "opponent": 109389.0,
+            "lead": -3069.0
+          },
+          "treatment": {
+            "self": 68625.0,
+            "opponent": 68390.0,
+            "lead": 235.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    },
+    {
+      "key": [
+        "qeinstein_moev2",
+        10091014,
+        1
+      ],
+      "transition": "loss->win",
+      "delta": {
+        "self": -37695.0,
+        "opponent": -40999.0,
+        "margin": 3304.0
+      },
+      "hard_safety": [],
+      "checkpoints": {
+        "248": {
+          "control": {
+            "self": 1777.0,
+            "opponent": 1563.0,
+            "lead": 214.0
+          },
+          "treatment": {
+            "self": 141.0,
+            "opponent": 1851.0,
+            "lead": -1710.0
+          }
+        },
+        "288": {
+          "control": {
+            "self": 5733.0,
+            "opponent": 17119.0,
+            "lead": -11386.0
+          },
+          "treatment": {
+            "self": 12213.0,
+            "opponent": 13632.0,
+            "lead": -1419.0
+          }
+        },
+        "360": {
+          "control": {
+            "self": 10820.0,
+            "opponent": 25045.0,
+            "lead": -14225.0
+          },
+          "treatment": {
+            "self": 25168.0,
+            "opponent": 23428.0,
+            "lead": 1740.0
+          }
+        },
+        "432": {
+          "control": {
+            "self": 34478.0,
+            "opponent": 43785.0,
+            "lead": -9307.0
+          },
+          "treatment": {
+            "self": 42604.0,
+            "opponent": 35975.0,
+            "lead": 6629.0
+          }
+        },
+        "576": {
+          "control": {
+            "self": 78333.0,
+            "opponent": 84105.0,
+            "lead": -5772.0
+          },
+          "treatment": {
+            "self": 51891.0,
+            "opponent": 51933.0,
+            "lead": -42.0
+          }
+        },
+        "672": {
+          "control": {
+            "self": 91214.0,
+            "opponent": 98361.0,
+            "lead": -7147.0
+          },
+          "treatment": {
+            "self": 54251.0,
+            "opponent": 52624.0,
+            "lead": 1627.0
+          }
+        },
+        "719": {
+          "control": {
+            "self": 106320.0,
+            "opponent": 109389.0,
+            "lead": -3069.0
+          },
+          "treatment": {
+            "self": 68625.0,
+            "opponent": 68390.0,
+            "lead": 235.0
+          }
+        }
+      },
+      "first_action": {
+        "step": 0,
+        "day": 0,
+        "hour": 0,
+        "control": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        "treatment": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      },
+      "first_public_observation_divergence_step": 1,
+      "first_opponent_response_step": 23,
+      "opponent_response_lag": {
+        "from_own_action": 23,
+        "from_first_public_signal": 22
+      },
+      "market_step": 1,
+      "price_step": 3,
+      "town_step": 72
+    }
+  ]
+}

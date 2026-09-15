@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-14T15:32:26.030136+00:00",
+  "candidate": "P1_psr_clean",
+  "phase": "aa",
+  "contexts": 2,
+  "completed_720": 2,
+  "runtime_or_delivery_failures": 0,
+  "raw_safety_contexts": 0,
+  "raw_safety_reasons": {},
+  "transitions": {
+    "win->win": 2
+  },
+  "control_wdl": {
+    "win": 2
+  },
+  "treatment_wdl": {
+    "win": 2
+  },
+  "paired_win_score_delta": 0.0,
+  "aa": [
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "public_arm_equal": true,
+      "all_semantic_states_actions_equal": true,
+      "control_replay_sha256": "95dd4e5d83487c0501f137fc974ad6558f9145be97948820bd96e3f7111af1f0",
+      "repeat_replay_sha256": "e0afe29ba6eeb7bbe059e35a2b56c1f243fc468606f16f3cdebc7757c9bbe261"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "public_arm_equal": true,
+      "all_semantic_states_actions_equal": true,
+      "control_replay_sha256": "e8f85533554586d5b8fe5f26f9aebe939307e3ad7257f07f3877ac5f0aff7560",
+      "repeat_replay_sha256": "271caad8b7d40214577a388679a0caa9e24f22e928066c874b934b48a0962792"
+    }
+  ],
+  "passed": true
+}

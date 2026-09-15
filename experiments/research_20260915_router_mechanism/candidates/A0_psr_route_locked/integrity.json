@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-09-15T01:15:40.025538+00:00",
+  "candidate": "A0_psr_route_locked",
+  "role": "research-only router ablation",
+  "promotion_eligible": false,
+  "parent": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/main.py",
+  "parent_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+  "source": "experiments/research_20260915_router_mechanism/candidates/A0_psr_route_locked/main.py",
+  "source_sha256": "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c",
+  "package": "experiments/research_20260915_router_mechanism/A0_psr_route_locked.tar.gz",
+  "package_sha256": "aff375eec2d89bcd3332051a97dec378663c03592712e1830d6a0042f4f636da",
+  "entrypoint": "main.agent",
+  "diff": {
+    "method": "single AST-located If condition edit inside top-level agent",
+    "agent_lines_before": [
+      685,
+      703
+    ],
+    "agent_lines_after": [
+      685,
+      704
+    ],
+    "changed_assignment": "state[1] = _choose(t//144,_features(observation))",
+    "mode": "A0_psr_route_locked"
+  },
+  "compatibility_sha256": "86d634373c01739c6085c9bb549db5f21549515ed4c881f00244b68b961388c7",
+  "license_cap": "UNVERIFIED_TRANSITIVE_ROUTE_DATA_RESEARCH_ONLY",
+  "external_imports": [
+    "base64",
+    "json",
+    "sys",
+    "zlib"
+  ],
+  "reset": "_SESSIONS resets per player when t==0 or step decreases",
+  "forbidden_runtime_identity_seed_private_future_tables": false,
+  "contains_parent_own_route_blob": true,
+  "deployable": false
+}

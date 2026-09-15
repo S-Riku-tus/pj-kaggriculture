@@ -3,11 +3,14 @@
 from __future__ import annotations
 
 import gzip
+import hashlib
 import importlib.util
 import inspect
 import json
 import os
+import sys
 import tarfile
+import time
 import uuid
 from collections.abc import Callable
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -36,12 +39,21 @@ def extract_archive(archive: Path, target: Path) -> None:
         raise FileNotFoundError(f"archive did not contain main.py: {archive}")
 
 
-def _import_module(path: Path, role: str):
+def _import_module(path: Path, role: str, *, isolate_packages: tuple[str, ...] = ()):
     name = f"_kaggriculture_eval_{role}_{os.getpid()}_{uuid.uuid4().hex}"
     spec = importlib.util.spec_from_file_location(name, path)
     if spec is None or spec.loader is None:
         raise ImportError(f"cannot import agent module: {path}")
     module = importlib.util.module_from_spec(spec)
+    # Clear packages left by an earlier game before importing this role. Keep
+    # packages installed by the current module available during env.run: some
+    # standalone agents use dynamic imports from their installed namespace.
+    isolated = [
+        key for key in list(sys.modules)
+        if any(key == prefix or key.startswith(prefix + ".") for prefix in isolate_packages)
+    ]
+    for key in isolated:
+        del sys.modules[key]
     spec.loader.exec_module(module)
     if hasattr(module, "reset_runtime_state"):
         module.reset_runtime_state()
@@ -123,9 +135,10 @@ def _run_game(
     seat: int,
     episode_steps: int,
     role: str,
+    isolate_packages: tuple[str, ...] = (),
 ) -> dict[str, Any]:
-    module = _import_module(agent_main, role)
-    opponent = _import_module(opponent_main, f"opponent_{role}")
+    module = _import_module(agent_main, role, isolate_packages=isolate_packages)
+    opponent = _import_module(opponent_main, f"opponent_{role}", isolate_packages=isolate_packages)
     trace: dict[str, Any] = {
         "generalized_goal_requested": False,
         "generalized_goal": None,
@@ -195,6 +208,10 @@ def _public_arm(game: dict[str, Any]) -> dict[str, Any]:
 
 
 def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
+    started = time.perf_counter()
+    for filename, expected_digest in task.get("required_file_hashes", {}).items():
+        if hashlib.sha256(Path(filename).read_bytes()).hexdigest() != expected_digest:
+            raise ValueError(f"Frozen input changed: {filename}")
     seed = int(task["seed"])
     seat = int(task["seat"])
     control = _run_game(
@@ -204,6 +221,7 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
         seat,
         int(task["episode_steps"]),
         "control",
+        tuple(task.get("isolate_packages", ())),
     )
     treatment = _run_game(
         Path(task["treatment_main"]),
@@ -212,11 +230,14 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
         seat,
         int(task["episode_steps"]),
         "treatment",
+        tuple(task.get("isolate_packages", ())),
     )
     gate_requested = bool(treatment["trace"]["generalized_goal_requested"])
     intervention_kind = task.get("intervention_kind", "cow_to_sheep")
     if intervention_kind == "route_choice":
         gate_requested = bool(treatment["trace"].get("research_decision", {}).get("committed"))
+    elif intervention_kind == "complete_policy":
+        gate_requested = True
     intended_step = int(task["intended_action_step"])
     window_valid = True
     if task.get("activation_window") and gate_requested:
@@ -329,6 +350,8 @@ def run_pair_task(task: dict[str, Any]) -> dict[str, Any]:
             ),
         },
         "replay_artifacts": replay_artifacts,
+        "execution_seconds": time.perf_counter() - started,
+        "worker_pid": os.getpid(),
     }
     return pair
 

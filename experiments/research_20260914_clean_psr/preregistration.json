@@ -1,0 +1,125 @@
+{
+  "experiment_id": "research_20260914_clean_psr",
+  "frozen_before_first_new_game": true,
+  "created_at": "2026-09-14T15:12:00+00:00",
+  "production_champion": "V111",
+  "primary_candidate": "P1_psr_clean",
+  "diagnostic_candidate": "D1_e052a_no_opponent_tape",
+  "frozen_reference": "R0_v116_frozen_reference",
+  "candidate_hashes": {
+    "V111": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "D1": "e465bdcce3cc6560abafcdc916f06843b111e79c2c625dcdd74db47ec7f7279b",
+    "P1": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434"
+  },
+  "environment": {
+    "engine_version": "1.32.7",
+    "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "evaluation_core_sha256": {
+      "runner.py": "9dae962678f3dc1f5fcb04c0f38a4501ab600a3e3b2a722fcef91357475068ff",
+      "safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+      "statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+      "divergence.py": "e1cce5ac792d97d132d6aa36dabd83417f527205722f0c4bd0ad77f47a41f7b9",
+      "lifecycle.py": "09c2971aff347bb615a08f0d43bc38de45e8fcfbaa8c43d4b44c3dc2efcca2c7"
+    },
+    "note": "all hashes are revalidated by the run manifest before execution"
+  },
+  "hypotheses": {
+    "primary": [
+      "P1 retains part of the complete-policy value observed against qeinstein without known-opponent tape",
+      "running one policy from step 0 improves route/state coherence relative to midgame delegation",
+      "P1 reduces raw Safety failures versus R0, but zero failures is not assumed"
+    ],
+    "diagnostic": "D1 remains closer to R0 against qeinstein while the improvement contracts against tape2-matched souvik"
+  },
+  "execution_order": [
+    "package/import/reset/isolation unit tests",
+    "V111, D1, P1 independent-load A/A",
+    "independent-source V111-only screen on spent seeds, selection frozen without P1 outcomes",
+    "qeinstein and souvik seed 10091011 both-seat smoke",
+    "D1 and P1 full paired spent panel"
+  ],
+  "smoke": {
+    "sources": ["qeinstein_moev2", "souvik_v4"],
+    "seeds": [10091011],
+    "seats": [0, 1],
+    "required_states": 720,
+    "usual_decisions": 719
+  },
+  "spent_panel": {
+    "sources": ["mooman_e052a", "souvik_v4", "qeinstein_moev2", "ggmljs_v16"],
+    "seeds": [10091011, 10091012, 10091013, 10091014],
+    "seats": [0, 1],
+    "contexts_per_candidate": 32,
+    "block": "source plus seed; both seats are one block case, never two independent examples"
+  },
+  "raw_safety_contract": {
+    "comparison": "pre-registered classify_candidate_incidents hard-safety reasons, with strict all-step engine-action additions; absolute engine audits also reported",
+    "required": "zero reasons in all 32 contexts",
+    "reasons": [
+      "runtime error, timeout, incomplete, negative cash, delivery failure",
+      "new crop-to-weed, spawned weed, animal loss",
+      "new all-step silent field noop, silent market noop, partial market commit, missing hand actions"
+    ],
+    "no_relaxation": true
+  },
+  "primary_discovery_gate": {
+    "runtime_delivery_failures": 0,
+    "raw_safety_contexts": 0,
+    "paired_win_score_delta": "strictly positive",
+    "loss_to_win": "at least 2 independent source-seed blocks and at least 2 opponent sources",
+    "win_to_loss": 0,
+    "win_to_draw": "reported as worsening and must be zero under source-wise non-degradation",
+    "each_source_win_score_delta": "nonnegative",
+    "sensitivities": {
+      "exclude_self": "nonnegative",
+      "exclude_tape2_sources": "nonnegative",
+      "exclude_psr_kaito_near_lineage": "nonnegative"
+    },
+    "weighting": {
+      "equal_source": "positive",
+      "equal_ancestry": "positive",
+      "nine_scenarios": "positive worst delta",
+      "scenarios": "equal source plus, for each of four sources, weight 1.2 and weight 0.8 with all other weights 1.0; normalized weighted mean"
+    },
+    "whole_source_seed_block_bootstrap": {
+      "replicates": 100000,
+      "rng_seed": 20260914,
+      "ci": 0.95,
+      "lower_bound": "strictly above zero"
+    },
+    "forbidden_feature_static_and_runtime_audit": "pass"
+  },
+  "ancestry_groups": {
+    "psr_kaito_near": ["mooman_e052a", "souvik_v4", "ggmljs_v16"],
+    "qeinstein_independent": ["qeinstein_moev2"]
+  },
+  "p2_rule": {
+    "maximum_repairs": 1,
+    "authorized_only_if": "P1 retains possible primary efficacy but fails raw Safety",
+    "definition_timing": "before examining win/loss for repair choice; first-event contract only",
+    "requirements": [
+      "concrete failed action/resource/tile/unit/same-day work",
+      "source/seed/opponent independent",
+      "unique replacement and priority before execution",
+      "log original/replacement/reason/downstream position and inventory",
+      "schedule consistency or explicit recovery after position changes"
+    ],
+    "repeat_search": false
+  },
+  "independent_source_selection": "independent_source_audit_pre_results.json",
+  "development_confirmation": {
+    "authorized_only_if_all_discovery_gates_pass": true,
+    "seeds": [10091421, 10091422, 10091423, 10091424, 10091425, 10091426, 10091427, 10091428, 10091429, 10091430, 10091431, 10091432, 10091433, 10091434, 10091435, 10091436],
+    "register_all_blocks_at_once": true,
+    "both_seats": true,
+    "episode_steps": 720,
+    "completion_gate": "the unweakened E4 conditions in the Japanese preregistration document"
+  },
+  "sealed": {
+    "promotion": [10091101, 10091112],
+    "fresh": [10091901, 10091912]
+  },
+  "license_cap": "P1 remains research-only and cannot yield a numeric production agent while transitive route-data provenance/license is unverified",
+  "stop_rule": "Any discovery-gate failure prevents new Development seeds; no threshold, selector, source, or repair search is permitted"
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-14T15:39:22.042837+00:00",
+  "scope": "P1_psr_clean smoke only",
+  "cause": "two concurrent resume invocations both observed an initially empty JSONL",
+  "original_rows": 8,
+  "unique_keys": 4,
+  "canonical_rows": 4,
+  "comparison_exclusions": [
+    "execution_seconds",
+    "worker_pid"
+  ],
+  "all_duplicates_semantically_identical": true,
+  "original_sha256": "ac46c5621fb07fe56a0750fb19f98637b07034e4c135d9ffcdf2137686d54bd1",
+  "preserved_original": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/pairs/smoke.concurrent_duplicate_preserved.jsonl",
+  "preserved_original_sha256": "ac46c5621fb07fe56a0750fb19f98637b07034e4c135d9ffcdf2137686d54bd1",
+  "canonical_sha256": "1fbaf208686dd12e09af2f800e48d4d2d266e9716dd2bbcbc2162dad8a6f63a6",
+  "groups": [
+    {
+      "key": [
+        "P1_psr_clean",
+        "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+        "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+        "qeinstein_moev2",
+        10091011,
+        0
+      ],
+      "copies": 2,
+      "same_except_execution_seconds_and_worker_pid": true,
+      "retained_worker_pid": 10160,
+      "discarded_worker_pid": 30484
+    },
+    {
+      "key": [
+        "P1_psr_clean",
+        "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+        "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+        "qeinstein_moev2",
+        10091011,
+        1
+      ],
+      "copies": 2,
+      "same_except_execution_seconds_and_worker_pid": true,
+      "retained_worker_pid": 30900,
+      "discarded_worker_pid": 37064
+    },
+    {
+      "key": [
+        "P1_psr_clean",
+        "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+        "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+        "souvik_v4",
+        10091011,
+        0
+      ],
+      "copies": 2,
+      "same_except_execution_seconds_and_worker_pid": true,
+      "retained_worker_pid": 424,
+      "discarded_worker_pid": 6352
+    },
+    {
+      "key": [
+        "P1_psr_clean",
+        "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+        "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+        "souvik_v4",
+        10091011,
+        1
+      ],
+      "copies": 2,
+      "same_except_execution_seconds_and_worker_pid": true,
+      "retained_worker_pid": 23232,
+      "discarded_worker_pid": 3396
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-15T03:19:37.149345+00:00",
+  "candidate": "A2_psr_no_day24_switch",
+  "phase": "smoke",
+  "contexts": 4,
+  "completed_720": 4,
+  "runtime_or_delivery_failures": 0,
+  "raw_safety_contexts": 4,
+  "raw_safety_reasons": {
+    "new_animal_loss": 4,
+    "new_crop_to_weed": 4,
+    "new_all_step_silent_market_noop": 2,
+    "new_all_step_partial_market_commit": 2
+  },
+  "transitions": {
+    "loss->win": 4
+  },
+  "control_wdl": {
+    "loss": 4
+  },
+  "treatment_wdl": {
+    "win": 4
+  },
+  "paired_win_score_delta": 1.0
+}

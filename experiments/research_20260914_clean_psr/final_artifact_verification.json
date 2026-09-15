@@ -1,0 +1,450 @@
+{
+  "created_at": "2026-09-14T16:19:33.922827+00:00",
+  "expected_hashes": {
+    "engine": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+  },
+  "actual_hashes": {
+    "engine": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+  },
+  "engine_configuration_hashes_ok": true,
+  "candidate_rows": {
+    "R0_v116_frozen_reference": {
+      "rows": 32,
+      "unique_keys": 32,
+      "all_completed_720": true
+    },
+    "D1_e052a_no_opponent_tape": {
+      "rows": 32,
+      "unique_keys": 32,
+      "all_completed_720": true
+    },
+    "P1_psr_clean": {
+      "rows": 32,
+      "unique_keys": 32,
+      "all_completed_720": true
+    }
+  },
+  "replay_count": 192,
+  "replay_sha256": {
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091011_seat_0/control.json.gz": "dc7d6888a9efec34989cc4fcc52a4779aa11e3400bd21acdb2fb14977757c05f",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091011_seat_0/treatment.json.gz": "8f1be05378a921070cd345b9bbf43aebf2f189503896a6fa1306fba640983a8e",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091011_seat_1/control.json.gz": "4a41266d9e444349c5774adeefef3bc1efbfb9a571e1c605568992892407823d",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091011_seat_1/treatment.json.gz": "8172de03b787a8784c3e2928bfca84489620cfe6ea66f850a5a8fc75bbecad53",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091012_seat_0/control.json.gz": "434edd4b9bd7f071ededcd6eefed448670f94fcd1a1ff89f9d556802862aad0c",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091012_seat_0/treatment.json.gz": "7e2fee0bf68da059361f4452d8518c5d6a5916728aaf881b0dacc8851154822e",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091012_seat_1/control.json.gz": "2c7bb4bf284f7a0b73a5a0c36cfec549bef1a337ff09cfbb50e8b5dba72e7ce2",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091012_seat_1/treatment.json.gz": "482ae305cf57784e3d06e150161900d3b8d937ebb41ee6f68ae96e18c3070566",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091013_seat_0/control.json.gz": "e5529d47393cf3f71a168d172f7646819c79a5dba42fc5f3b25d2a598935dcd0",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091013_seat_0/treatment.json.gz": "63478ff01482786c4c38a205f7ce4e58676f53915af5669aa6af3a4578af7491",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091013_seat_1/control.json.gz": "07c05b56b5ff4569f06f2785842502eb640bcaf91982ac814a1bf413114ed471",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091013_seat_1/treatment.json.gz": "a2b2a9e63674d87b916b10884138be5af093ed5246b636a538ec7b276e5a9670",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091014_seat_0/control.json.gz": "8345b7e3f96f931386b8a1f3d0139ab20f7634ca16f27f37164af335ffc3c908",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091014_seat_0/treatment.json.gz": "c930439144787fbbe9ad414b48b320a9528be1526c6d375abf9412fcdfe1a62f",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091014_seat_1/control.json.gz": "8025339449cf4fc3d08e9666cef9688f853500233fb430843c514aeb8b6a28af",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/ggmljs_v16/seed_10091014_seat_1/treatment.json.gz": "9d00506916afc14aafbb8ca8722603c1bf67a7d4a9d9c139efb9fecf76efa748",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091011_seat_0/control.json.gz": "6549c8449e0ec5143fee5b2488735093e93d92104e866bf834afd7c54d3b06e2",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091011_seat_0/treatment.json.gz": "250d5280b0fcf21e67ceb2232f2d752777529a8e5cd9cc0d7ce28ea534872983",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091011_seat_1/control.json.gz": "5747b2bb13f890e1fc1db381170e0a34184a0a5541b6208601eeff09f43cecde",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091011_seat_1/treatment.json.gz": "477c38c3da74378ce488e6eb2e05b6a6c3f91dc34a36f51a7a7a32d08e0b01ea",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091012_seat_0/control.json.gz": "11dd847cacc46a4be8f3c4558cb2859d0b7ce5d769e8eb32c327b501353ce393",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091012_seat_0/treatment.json.gz": "ac28af017cbe2af11b4579a98bd076d4f39bbacbf4f8f98d4885ee319586a6f1",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091012_seat_1/control.json.gz": "fc069f93676d4d9bee5ab96025d2100d1dadb492cd1de392850128876f5f1f33",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091012_seat_1/treatment.json.gz": "40a8aeee95cd6786b43577027286ffd38e4bd7e6096316e1705d3e5ee9d20fe7",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091013_seat_0/control.json.gz": "77c238ee04694fa96529ffb69bd2ecb2ee0426ef11f1d12c478f2ba27326f088",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091013_seat_0/treatment.json.gz": "e4828608e33b1e171136607a8ae497bc8bff9d80a0f443fd5536d121f27002e8",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091013_seat_1/control.json.gz": "1609fbf8b5d92ef0cfc4c26d2309c8e794d583fd7e7744f975a3a47024fd4a8a",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091013_seat_1/treatment.json.gz": "e8bc083d97db61bddd1a05cf6324d594db614a2ade1bb6baec7c849a8dde30cd",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091014_seat_0/control.json.gz": "2ffa292ce71ad45de3da4c1a270866e77feff9ec064a6f9d9a50ec261e3ecbc4",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091014_seat_0/treatment.json.gz": "f6515c96b178accfe8dff84c5ebf6161c30f545dc722ee259b99a79ea47723e0",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091014_seat_1/control.json.gz": "28ae8d5e9268aaee40a98a4034c40ec2ba67bebb04c600a9a6b4e872aff48d35",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/mooman_e052a/seed_10091014_seat_1/treatment.json.gz": "fd5b9f3cbdeb1a2aebbdd2a610e3602d0c89e0571a7fde93f9994a59880895cc",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091011_seat_0/control.json.gz": "5e9b172f7e6e27cdd602638a80ca933713f36dcd722b4fffc9533b6e474c3c3a",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091011_seat_0/treatment.json.gz": "94f01b29adde929741066c7933b703bde150e1f648497051ca63897753e8111a",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091011_seat_1/control.json.gz": "50c726eef4cecf89393364a18d4fd6fe4838078546e361e764c2810af65d9855",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091011_seat_1/treatment.json.gz": "4a8377d588873fa7a8a6bb106322dc894edd24451426b86f27fb98bb61d35629",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091012_seat_0/control.json.gz": "8123083bb72c0ea17e916350ad53d1461e9879de76198d88627bfc244597e9df",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091012_seat_0/treatment.json.gz": "332409f8574d4c2bd8f5a935aab8a40e241bce36c027eaeb4781aaf0a78e1d69",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091012_seat_1/control.json.gz": "a36048e5baaf198332b85179d3483d934c9d7b4c54105a38ba1e5721cce500af",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091012_seat_1/treatment.json.gz": "a8ea1d31af8c6f5edf59ef23d72fdd924d99b53a711606253ed3a19b07e98f61",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091013_seat_0/control.json.gz": "8209e501075625ba8d506d2deec534ea599402d778d8892a6f2a91f2cf02e28d",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091013_seat_0/treatment.json.gz": "38d08688dac5c35ea53a5758b63d50d6be0c6108447b2ef2d4ba9eed77ebec3c",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091013_seat_1/control.json.gz": "59734d14a4acb89babb40e2a7efe02637eeed33b1a78f3716cd605e16ae4c437",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091013_seat_1/treatment.json.gz": "340567970313dfacf69ca1b18fe3c11ab9ca9829875af014914fce4bba6310a5",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091014_seat_0/control.json.gz": "9fb93763d127a918775d787a0c9d5365d67889b3f9ad3bef9b7f6a0abbc0c628",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091014_seat_0/treatment.json.gz": "19ba24f68dec01003fff2e503abe649b9bfb888c2a3b6d05789f71d87fcaac2e",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091014_seat_1/control.json.gz": "47b4d311fc33a2f575edb1b43ac0404c205a9bcfe5eab0f5bae16830b53bca57",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/qeinstein_moev2/seed_10091014_seat_1/treatment.json.gz": "48751dbaeb85e6cb4c1e4fdf5a86c920d0ec15737337663cf75154e0d98f164e",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091011_seat_0/control.json.gz": "e1fe32bdd2554f3ec9ff5510eeecb55d7f859f1cbb19bbd7e5af46dc8b53b0e7",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091011_seat_0/treatment.json.gz": "730b144a4fba1a6ca71011136cc7762671d598b918b0ea80fb37d02d1dc4c48c",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091011_seat_1/control.json.gz": "0c3fb95d078a36764a702306731886e8848b916033e50940c4734a5165ad3f18",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091011_seat_1/treatment.json.gz": "966c24f4d39471da382fd42e8d48484ca48008befb4ad2280acbce1d4389f7cf",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091012_seat_0/control.json.gz": "84029f725ea68480df14e5bf12f6c67a8e300447133a404be81bbdc43d9bdec9",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091012_seat_0/treatment.json.gz": "55c83ddc69abfd91714e9c8d4556d491037f0c1ab99203daa6041318a7fe8f17",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091012_seat_1/control.json.gz": "46e4b75852d3ae289a852044f7cbd18314bb705b6a3831d0588ac3c1e721d6cc",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091012_seat_1/treatment.json.gz": "fd8d4ab8c146fe0652a45f4b6b4825594812d55a7e0481392a91685edbf92e12",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091013_seat_0/control.json.gz": "4b0710b104d63c6381c563ba36f40f046ce47532f1762fe923c2a340997a2b65",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091013_seat_0/treatment.json.gz": "58fbe4410bd3dc3ca5f23ffd207feb12853eda4861c36cb614d8ea40ebe06394",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091013_seat_1/control.json.gz": "adad5e2ae83c0ee50e5b78e51947308a25a71bb92fe7bb57704cfeb661239c8d",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091013_seat_1/treatment.json.gz": "0b37670e22a94f1a1362c7ec20f827d183ed21ce1b83043619a6e008798165e0",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091014_seat_0/control.json.gz": "641a8590c3adea9f2814c4e92935ac3909167947eb78006126716ba092d60d7a",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091014_seat_0/treatment.json.gz": "66bd39488923f8dd65c8731d0c950200d65ca35d5e710c164af0d80c60f537fe",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091014_seat_1/control.json.gz": "1f106d88827e16995c5acbcfb5f9dff893587fd3ae679f379567c76749104227",
+    "data/evaluation/research_20260914_lowcash/discovery/replays/discovery/souvik_v4/seed_10091014_seat_1/treatment.json.gz": "765515b6b9c3e888c2b6f25e722a0c3adc2258346e6277bbe8b4d03afdd91a24",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091011_seat_0/control.json.gz": "e77c4644dd290997825c162bb29edb8fc87a14fa953ed3ea6663cb500ec5c84e",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091011_seat_0/treatment.json.gz": "6bc19010a51f9590aad415e00ae8e8610a1ae00ec164ad5e4f90c2c895aeeee5",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091011_seat_1/control.json.gz": "fb745ce80d2af24dd579744271e1bb2eb2f073b7134688aa77169c7ca1e3f52f",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091011_seat_1/treatment.json.gz": "f1899ca87bd49a3f2ebc85bd79c2a81ab7b15caeedc3016c7beb5cce94a3b420",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091012_seat_0/control.json.gz": "10ec70b77e34e153fa0ed832c8669995c41fa79b1254b09d6eb505b1bd86a856",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091012_seat_0/treatment.json.gz": "0b164ceccb59f63494a9f29f57f96e8a28afa3e9eb1c6bd1d8e01f0616b8ad6d",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091012_seat_1/control.json.gz": "852ff188f4c04bf01a718d496d7d625708066aa321f659581ec23c1d048acada",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091012_seat_1/treatment.json.gz": "d35cfebfe4e3d9f79bb455d08dce9f63464a96ce907de4ff2938b041a8bab407",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091013_seat_0/control.json.gz": "ecb05063a8ae5d7970bf05cd1eed0c42deeb4eb1f0836180de931cef6187b552",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091013_seat_0/treatment.json.gz": "6ff4f5e27c617706f5c8c2f63095bed187f644a4c217b614d0766d744e30bf84",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091013_seat_1/control.json.gz": "9360800374a357943a4c10c5918b1adf8e5f1787d81ec2e717359d6313d0efae",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091013_seat_1/treatment.json.gz": "678f4fabd464e542d23a8651dc91d8605ea707810955405b708c0e316a8aa28a",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091014_seat_0/control.json.gz": "3e9ae836be247fb8e7b4a2c438e72053c57ce9ddbe0c387703ff5aadac9e5851",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091014_seat_0/treatment.json.gz": "4e082361b6811213cffd1ae75e4f0a457b262fcdf4551df89993d240541dec42",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091014_seat_1/control.json.gz": "cf2031f7168d511b57235fe70977fffd57ddb9cf9e29352b8b8788cbf3a022c4",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/ggmljs_v16/seed_10091014_seat_1/treatment.json.gz": "ca113f82d4ce9c574d53e68645c9b99dfd7c6c8dc24ca10e11ac1482c09497b8",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091011_seat_0/control.json.gz": "475834b2d1e25c8460521840ac1cf562a6d2796675cdfc930e5bbc00d521b397",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091011_seat_0/treatment.json.gz": "734faee3a0cab66350af77a7191c794ab0b10fe5cf1e183d7a04d9aeb1e16a1f",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091011_seat_1/control.json.gz": "3d2539f0fed438e19e415d1d1a86a6bb012fb69c062147953024c213d470883c",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091011_seat_1/treatment.json.gz": "2d04e028ba6dabe0548c8bfaa1484bf8c4ca2ef4ce6d4561837b40eda83648ee",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091012_seat_0/control.json.gz": "cdc6c73ecaba652a1a305f35d635dfc0e8248a04762d42b4a99543b7f7ecdb44",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091012_seat_0/treatment.json.gz": "455e6f1999fd493eee580dec3e1825bc7c27daaaf5f2d1b53aae6b9e043a44a6",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091012_seat_1/control.json.gz": "8243dbc4d2db6d233adea714ac40d3015801140246fdb1ebe34e785e5a4fd4b8",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091012_seat_1/treatment.json.gz": "b9fb473f47b787d73f8678980a9b8e98fdabb0f5712120b209e36da46b38e0eb",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091013_seat_0/control.json.gz": "593ea6fdd5ef067f6441bdc147c3c20bc78c4a21acc043eb9567b6a8bfd8c6ce",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091013_seat_0/treatment.json.gz": "e757e61b590832fec96fb08b13ce40824ac19a00ace35f7d7e6d09c4b9966e13",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091013_seat_1/control.json.gz": "3f511984ea0a3d669dcbfe1b3158bcd1a90aae5b0d42dfc2a228690b3de6c4e6",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091013_seat_1/treatment.json.gz": "ff5172319b0ba77f69e5c341cd77c8cf33700f9afde0c57d77458d79d2a60637",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091014_seat_0/control.json.gz": "528df4bd01b31c60793d0c0c20da465aa6deec1988c1a894f869c17b1669120e",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091014_seat_0/treatment.json.gz": "da7e899878f1df2b7adda3b9bb62cdf5bdbf7622ab6313a9a7eff29a057def8c",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091014_seat_1/control.json.gz": "5e44f9af87dd60d3ab18cfaa5a3804dcfe45ef7d7f52e5eb6dfc59cab093d9f4",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/mooman_e052a/seed_10091014_seat_1/treatment.json.gz": "f6daf716cc2c5e27593a1ccd49f92160c107a10532083734130884d2a1e1f97f",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_0/control.json.gz": "37b9ff8bc8d5c678a974d50a148ef4ad11307dfb7c18f8aa68df3c3aa7d074d6",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_0/treatment.json.gz": "03aeaebfa5389ac0d1382bf67a8988d5022b9b9040eb2bf6d8674666fd747ecb",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_1/control.json.gz": "40f9b5b59bce1d7c5168f730a384258f8950ab688e5a7454b1388d20f6608dac",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_1/treatment.json.gz": "eda8f6bedf370422ebda1fef074f60dc819cb485dc7a55106e92d984b36f5c82",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_0/control.json.gz": "9b5aadd5d390e609bfbba44be1f3c4d3c4dab4b41e062bfce29117a2878ef2b3",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_0/treatment.json.gz": "9aded012f0f3d3c3a5d75724f4d4142a2b95c156b4039bee0857f0da622183b9",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_1/control.json.gz": "97ff2d105895cffdb123e39c1597ed16a197dcb5363cd97338959345c499e9c0",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_1/treatment.json.gz": "5c8d2c05154f901a2265c42e3bd0bb8c660a9810d84e800ac0da48be89c2f714",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_0/control.json.gz": "96cd63b723ca306b04461f118c374a81b7e19914feedd86f1c40a7b7ce738a4e",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_0/treatment.json.gz": "e61b4d0ebef2f0575241fb5d52bf2597c547573e9edbe1c7fa4522acd3bf55d0",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_1/control.json.gz": "4b8e82c81291eadaea2ba95f0a24f6a8ce28bc7fc7f62fb1def63f6a58216a72",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_1/treatment.json.gz": "26df0a5154c46018720bcf6064cc243fe01c9c9655667fc1c17f625c5a047499",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_0/control.json.gz": "0599b6362ea3f9b902b59f276f5d0250a587ddcc65f1a0449c19a8f59183a407",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_0/treatment.json.gz": "66f92b6d3c4505369c0ef515bb6cde3af5556bf6ade7223ab10dacf7c946e704",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_1/control.json.gz": "81ba816b790c097eb9964c4010f311058ee78433120082fddd4122b3bec57212",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_1/treatment.json.gz": "afb116e250cdff05bad2205f2095826218b7d32d57eea4f2802b2467156b80d4",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091011_seat_0/control.json.gz": "161ec42f13a7db40696e1becfc8e504de7081f254a8386f1f72d1a4c581db87a",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091011_seat_0/treatment.json.gz": "7285556a442ac64aab04f839108f3cabd5d89feb05670e2484537f21a0423df9",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091011_seat_1/control.json.gz": "94a9abf6851075419527323780a3169d4cf81951b4abc381ca829a4be92e1334",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091011_seat_1/treatment.json.gz": "d081dfd2cb32fbf1954fe776533e8e7783a52236e866baa6cb4f0b472ac2a5f0",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091012_seat_0/control.json.gz": "3e8597523d9c62cfd70c26928343a51155168aede68f0f804c7eac4af57e6260",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091012_seat_0/treatment.json.gz": "f234497458fb2548703b1bbbb61318b8799d7afebaffffcc58019373fa8cebe4",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091012_seat_1/control.json.gz": "f4f330d37c7f6e4b4cea3e3a96683f8895658908349c2fad67a5e78b2a3fb2d9",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091012_seat_1/treatment.json.gz": "1492181afc0ac6dbde3a4c519382aefad03dfa8631d019fb8d3cffb8ce32b310",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091013_seat_0/control.json.gz": "b90d49bb54ad046b347e426b448e43a2f969d6c5d8d6f109f96218a83f3ad4a5",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091013_seat_0/treatment.json.gz": "5e9b446aa80da4d43cc010bf62309ad13e58e036194d14807c73e87d8bb44321",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091013_seat_1/control.json.gz": "9d4b12fe9a06b60ad07e01dd07cc7718b3b64f6314b947e402f5a45983de33ba",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091013_seat_1/treatment.json.gz": "52da8b815feeaf0dff062afc7227ec1369700eb43bd3d0172c99a13ff553b4fc",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091014_seat_0/control.json.gz": "93c8b4ff7a04b53b4e4a77a6e9b44faf901c47a2432f6fc407c10e2b357eedbe",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091014_seat_0/treatment.json.gz": "5738caef93d323b0fcf080a8dced864f75014c7cfa9b7631f24e3de292c46b8d",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091014_seat_1/control.json.gz": "cfe0b0877053e84eb23d8ce39c5ff7e7cdca243f1cd67eadefed13ed0aba189c",
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/replays/spent/spent/souvik_v4/seed_10091014_seat_1/treatment.json.gz": "18d7c69cccca876c1d24d827a1f5832a784a7b012042583030882a943cd53f60",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091011_seat_0/control.json.gz": "49f516754113cfb6ca4b287aa198c54e7653d4cc0023f82fabd18c4a3c50b1af",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091011_seat_0/treatment.json.gz": "4a82d784cc32476baba390e5953b97a6a30678066c1d7ee2b38dbb5b4d1c5583",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091011_seat_1/control.json.gz": "dae5c1923bb72c2535d05a89ac25bd8f001b863c46e8a1387e40f4d6983a2a0e",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091011_seat_1/treatment.json.gz": "4ab1099ac13ceb6e4b85f9e9cc922aed1fd32cbcde34ae4d8d033a9f202404ee",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091012_seat_0/control.json.gz": "f86b4659dfcd2ea9b146951a6c9949c1d301226014160ab020895371b747ce3d",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091012_seat_0/treatment.json.gz": "d374458195926f501a1904a51bd90b862d44b791c7d0aa199c500c2d73583e83",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091012_seat_1/control.json.gz": "019f9f97b0875331c824aaaf7335766fcfd21170cb9ebb3ed553690d7b29c3a3",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091012_seat_1/treatment.json.gz": "1a10ea1689b97bad37307d6691d57d7d818bf038ff597d94523f43cb6247a42c",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091013_seat_0/control.json.gz": "76663f21d85477304c835336a11743ef79240ca2c97b36aa82d43643fb6f5f32",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091013_seat_0/treatment.json.gz": "790e55cc4fb116b8cffbe6a2fea713e57dafd5c26ce692a5adac5b640980f35b",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091013_seat_1/control.json.gz": "2fac3806b9a68cd358b34351527551b3628f5fa3d09c97d39deac7df83717992",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091013_seat_1/treatment.json.gz": "dee08a32a2cabb39fe85adcff2525c60d40000b2339ae7e87255ef843c06c56b",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091014_seat_0/control.json.gz": "0a9de4618b855bed9203caf4779798d6dedae1c3308504c1e2cdb2c1eba77f83",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091014_seat_0/treatment.json.gz": "e9469c54efd0104c74e7d5024bdaed94ba56c9def3e4db97036cbfdc2d6823bb",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091014_seat_1/control.json.gz": "3647d93987adb8f65f2ef7f0d1b09912eddbe5c3b0a258aaf277b663c9e884d8",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/ggmljs_v16/seed_10091014_seat_1/treatment.json.gz": "865549679e5909b38682c3b1f5aff555aa25ab228b600f4f8dfd6ca893771577",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091011_seat_0/control.json.gz": "7b6ed306d6a9f7aac9a8dd0b5181bfa01672ee86860567907323d9200bdd06d3",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091011_seat_0/treatment.json.gz": "ee7a2d7b0c0200bf150017e88f775805330a11added8bb02f1411e81873d8b70",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091011_seat_1/control.json.gz": "5ad936fb740c3ad60047552747713a7eff7dd47ef7950a2f35f8212b0ef9be33",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091011_seat_1/treatment.json.gz": "9aff9ed30989491bfa6705ebe5dbb50260c4cb28dcdfd053a585c2dbf924eb05",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091012_seat_0/control.json.gz": "8d0a81f38520aa86c86a6b3951e840c64b8a7de5bae89acaae007c36ed29bde1",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091012_seat_0/treatment.json.gz": "153ee60c29c5468bd66b9bf646e18b8fab990cdaa19660bfb6223c3914340acf",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091012_seat_1/control.json.gz": "72706fd16b6ef4937be8ed805f58c24cd5071a768f9159a26e6c8bfaa13eed73",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091012_seat_1/treatment.json.gz": "fe711e2c06702ef8635659d1f6f1ee0eb97b9687fa09763cfddd8a2c57c243b2",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091013_seat_0/control.json.gz": "dc433463103f7c1603e94b3e45989445244e46cb3e995e7d8a7556caf89a4ea6",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091013_seat_0/treatment.json.gz": "4c00690880c4b2739efe5afe5f5391b3427a7db0eb153895e43d387d42e30594",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091013_seat_1/control.json.gz": "43d52b24e5c16b3337de7bbdd7d5a10c1c01859654f8c1f88da57946795e33dc",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091013_seat_1/treatment.json.gz": "be1299303f6390a2964e9d36bb4e91eaf466241465c9faaa77db90911ef08026",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091014_seat_0/control.json.gz": "878ceb1ec9192a2b86d11125718dc89d616ecd70ddf8d3bfefec2b5dfe13dd55",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091014_seat_0/treatment.json.gz": "0839c72e85f7f7529c486f7bddbe997a15ec41505b0fa86aea1789463f11e24b",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091014_seat_1/control.json.gz": "7fb24e4b92e78961dae3dd0517eb34b12b897aa4495b5b57e2322ae840912eef",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/mooman_e052a/seed_10091014_seat_1/treatment.json.gz": "9ac0155e79550da401785671ddc161d5425199c7417450bbaefdda6b1b40047d",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_0/control.json.gz": "2478b067a0b5652fc80e3b37b4c6a8a61d04f97c4e1cf80cf6cb84b004df378c",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_0/treatment.json.gz": "94d142877592ff28abf185532f5b164165d9b59319ae751c10275fafb8616b69",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_1/control.json.gz": "9188e50211f748d338f486899ba2718ed5267f64fd8b54978beefbf40e33d5b3",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091011_seat_1/treatment.json.gz": "b79ff18202a181126d6c6ddad26fcc5984f3479e8eb1eb6181034dce8d6de12e",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_0/control.json.gz": "0f422a5aa7628ed841f4531b0e90017a39eacabd026c4f52bbfaa8fa369d09a8",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_0/treatment.json.gz": "1c8f5049aa92f71a51d72b1eaca6882ef16b2772ec8acb8cf6ae1420bea8f759",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_1/control.json.gz": "17b04c1040827833f3720ec2be49eda98c08495fba9c4af808769343a8237839",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091012_seat_1/treatment.json.gz": "f3bb7635643587cd2196835d4ae6cf856fb093b94fb380d37251b81a64511a33",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_0/control.json.gz": "6f365c4dd84815ba8ca132e0757a86223503d1b8e5e31227cc0f77cf61868129",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_0/treatment.json.gz": "26f04b0299aefd5ac0377007076215d18079d6d575b48aca5dbfa19224257442",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_1/control.json.gz": "aed1414fc126c9c8b38ddac14568a22713d509c35a2b285a625a209c4beec450",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091013_seat_1/treatment.json.gz": "926c5ed4a94447deff365ea2ea500eac2e23d61209d99557f802b64b76098f44",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_0/control.json.gz": "0009d4e378355763023882a2689eee80902fa2850b145901b2798d40da61fcba",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_0/treatment.json.gz": "62dfe196e030e4bfd20a17d550c9b8b294629abc134ad2a3269f33d53269d353",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_1/control.json.gz": "30a62efbc01672e70fd6a8a339c21db68c9875541cbdeac364684231e17d2261",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/qeinstein_moev2/seed_10091014_seat_1/treatment.json.gz": "46599776961159da024602c3678d787aec47306fee2c68cccb8f54d695678652",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091011_seat_0/control.json.gz": "f67d5abb2a67a1bbcc300ebf43b6ca414c1ccfa4b65f4ba63e37b835d788b3a5",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091011_seat_0/treatment.json.gz": "899bdf6ba185af8c69a92a414134d0bf7386031a8283e501c9c37a7426605f88",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091011_seat_1/control.json.gz": "cd3e2294271cffa5a1eb5ac9a5c1ae7c95d3f381b5ed1efd5025b14097ea5d36",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091011_seat_1/treatment.json.gz": "27ce91cd98674d9f6ff14f448afc1c2575312c4a16f73c27e92ce8fdf6705ed1",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091012_seat_0/control.json.gz": "29597da77a724fd19ccdda2846bb807ff51bec17599ebf222bddc433f7218555",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091012_seat_0/treatment.json.gz": "bc6970e1660aa6e95832ec45963a5c6fc960d2978085167e64f0a57291d08b8b",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091012_seat_1/control.json.gz": "dbbeaeee222716a9ea766d2d05697bbbc69cd9e12947148505eed849324fb5e8",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091012_seat_1/treatment.json.gz": "35b9466cf8796cd4ef0e69a1fecdde05812ec47a4b48fb662208091a9dafdf1e",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091013_seat_0/control.json.gz": "489432065f20a52d2198583414c908b19f3fea93731b543850b813be596e9eb8",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091013_seat_0/treatment.json.gz": "4812a1e15eaed2284298286c1ccc8fdce8747afac28653318f501f709b1bec08",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091013_seat_1/control.json.gz": "c06b10930645a94b6d21383454b5eb6720d5fc25856a564c5520d8a593f02353",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091013_seat_1/treatment.json.gz": "77582131356e5903b5d7b24b1de128a165f151523576f6b2b1c63510a2f5d020",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091014_seat_0/control.json.gz": "e08ea5aac777a2d6206db8362f679191f7c6aec18e157dd9a3bc8acb76c57697",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091014_seat_0/treatment.json.gz": "acfb22a75fc1155d269e4d484cc742eb673dacd47e374c4c5ed1d593ca7ce5fe",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091014_seat_1/control.json.gz": "5429ca9c4275a7e8d9112323450ccc788bc7b738948fea9c04561aa448132ebb",
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/replays/spent/spent/souvik_v4/seed_10091014_seat_1/treatment.json.gz": "1cd2aba2fafef52c3db99f487e6ecd5a6bcd77a7339572827c458a7a52ba28fc"
+  },
+  "aa": {
+    "V111": {
+      "created_at": "2026-09-14T15:30:09.137972+00:00",
+      "candidate": "V111",
+      "phase": "aa",
+      "contexts": 2,
+      "completed_720": 2,
+      "runtime_or_delivery_failures": 0,
+      "raw_safety_contexts": 0,
+      "raw_safety_reasons": {},
+      "transitions": {
+        "loss->loss": 2
+      },
+      "control_wdl": {
+        "loss": 2
+      },
+      "treatment_wdl": {
+        "loss": 2
+      },
+      "paired_win_score_delta": 0.0,
+      "aa": [
+        {
+          "source": "qeinstein_moev2",
+          "seed": 10091011,
+          "seat": 1,
+          "public_arm_equal": true,
+          "all_semantic_states_actions_equal": true,
+          "control_replay_sha256": "2d283a0fce16cf7af75c1fa5d5a989b5771048b21503e01a368d1ed5b4c227cb",
+          "repeat_replay_sha256": "4b1a9a198c11976226442dea017c55d3f5e7d424b2c932ed48ea129d02f79f4e"
+        },
+        {
+          "source": "qeinstein_moev2",
+          "seed": 10091011,
+          "seat": 0,
+          "public_arm_equal": true,
+          "all_semantic_states_actions_equal": true,
+          "control_replay_sha256": "6f2ef59b428d1f9ce4b2b1f13895070f180705d31162544e30a6cf9b26490b54",
+          "repeat_replay_sha256": "c605fd8a5e335f9802363eef1154351ab9ec568852ec98a6d1bd3eea267f19b4"
+        }
+      ],
+      "passed": true
+    },
+    "D1_e052a_no_opponent_tape": {
+      "created_at": "2026-09-14T15:31:47.575568+00:00",
+      "candidate": "D1_e052a_no_opponent_tape",
+      "phase": "aa",
+      "contexts": 2,
+      "completed_720": 2,
+      "runtime_or_delivery_failures": 0,
+      "raw_safety_contexts": 0,
+      "raw_safety_reasons": {},
+      "transitions": {
+        "loss->loss": 2
+      },
+      "control_wdl": {
+        "loss": 2
+      },
+      "treatment_wdl": {
+        "loss": 2
+      },
+      "paired_win_score_delta": 0.0,
+      "aa": [
+        {
+          "source": "qeinstein_moev2",
+          "seed": 10091011,
+          "seat": 0,
+          "public_arm_equal": true,
+          "all_semantic_states_actions_equal": true,
+          "control_replay_sha256": "8f2facc6330982290707fb3eae5df5db6bf2f6db8b4dc4b20d8c9f6eddf54238",
+          "repeat_replay_sha256": "5098f8322e5aa48b0088de327eba2d76cb1a71cd2488c0896580117c86a2e067"
+        },
+        {
+          "source": "qeinstein_moev2",
+          "seed": 10091011,
+          "seat": 1,
+          "public_arm_equal": true,
+          "all_semantic_states_actions_equal": true,
+          "control_replay_sha256": "88290748a74a47f2351af207393bb5ac78795ca4b48a064ea3495c39f6e0974a",
+          "repeat_replay_sha256": "0feb096bdba12ae65e95e9bb32a2ca35a4c3b06c2e5e8d8c7806edae6d57f6f8"
+        }
+      ],
+      "passed": true
+    },
+    "P1_psr_clean": {
+      "created_at": "2026-09-14T15:32:26.030136+00:00",
+      "candidate": "P1_psr_clean",
+      "phase": "aa",
+      "contexts": 2,
+      "completed_720": 2,
+      "runtime_or_delivery_failures": 0,
+      "raw_safety_contexts": 0,
+      "raw_safety_reasons": {},
+      "transitions": {
+        "win->win": 2
+      },
+      "control_wdl": {
+        "win": 2
+      },
+      "treatment_wdl": {
+        "win": 2
+      },
+      "paired_win_score_delta": 0.0,
+      "aa": [
+        {
+          "source": "qeinstein_moev2",
+          "seed": 10091011,
+          "seat": 1,
+          "public_arm_equal": true,
+          "all_semantic_states_actions_equal": true,
+          "control_replay_sha256": "95dd4e5d83487c0501f137fc974ad6558f9145be97948820bd96e3f7111af1f0",
+          "repeat_replay_sha256": "e0afe29ba6eeb7bbe059e35a2b56c1f243fc468606f16f3cdebc7757c9bbe261"
+        },
+        {
+          "source": "qeinstein_moev2",
+          "seed": 10091011,
+          "seat": 0,
+          "public_arm_equal": true,
+          "all_semantic_states_actions_equal": true,
+          "control_replay_sha256": "e8f85533554586d5b8fe5f26f9aebe939307e3ad7257f07f3877ac5f0aff7560",
+          "repeat_replay_sha256": "271caad8b7d40214577a388679a0caa9e24f22e928066c874b934b48a0962792"
+        }
+      ],
+      "passed": true
+    }
+  },
+  "control_reproduction": {
+    "all_public_results_equal": true,
+    "all_semantic_720_equal": true
+  },
+  "duplicate_reconciliation": {
+    "created_at": "2026-09-14T15:39:22.042837+00:00",
+    "scope": "P1_psr_clean smoke only",
+    "cause": "two concurrent resume invocations both observed an initially empty JSONL",
+    "original_rows": 8,
+    "unique_keys": 4,
+    "canonical_rows": 4,
+    "comparison_exclusions": [
+      "execution_seconds",
+      "worker_pid"
+    ],
+    "all_duplicates_semantically_identical": true,
+    "original_sha256": "ac46c5621fb07fe56a0750fb19f98637b07034e4c135d9ffcdf2137686d54bd1",
+    "preserved_original": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/pairs/smoke.concurrent_duplicate_preserved.jsonl",
+    "preserved_original_sha256": "ac46c5621fb07fe56a0750fb19f98637b07034e4c135d9ffcdf2137686d54bd1",
+    "canonical_sha256": "1fbaf208686dd12e09af2f800e48d4d2d266e9716dd2bbcbc2162dad8a6f63a6",
+    "groups": [
+      {
+        "key": [
+          "P1_psr_clean",
+          "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+          "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+          "qeinstein_moev2",
+          10091011,
+          0
+        ],
+        "copies": 2,
+        "same_except_execution_seconds_and_worker_pid": true,
+        "retained_worker_pid": 10160,
+        "discarded_worker_pid": 30484
+      },
+      {
+        "key": [
+          "P1_psr_clean",
+          "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+          "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+          "qeinstein_moev2",
+          10091011,
+          1
+        ],
+        "copies": 2,
+        "same_except_execution_seconds_and_worker_pid": true,
+        "retained_worker_pid": 30900,
+        "discarded_worker_pid": 37064
+      },
+      {
+        "key": [
+          "P1_psr_clean",
+          "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+          "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+          "souvik_v4",
+          10091011,
+          0
+        ],
+        "copies": 2,
+        "same_except_execution_seconds_and_worker_pid": true,
+        "retained_worker_pid": 424,
+        "discarded_worker_pid": 6352
+      },
+      {
+        "key": [
+          "P1_psr_clean",
+          "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+          "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+          "souvik_v4",
+          10091011,
+          1
+        ],
+        "copies": 2,
+        "same_except_execution_seconds_and_worker_pid": true,
+        "retained_worker_pid": 23232,
+        "discarded_worker_pid": 3396
+      }
+    ]
+  },
+  "reserved_seeds_all_unused": true,
+  "evaluation_runner_processes_at_end": [],
+  "submission": "NOT_PERFORMED",
+  "fresh": "SEALED_UNOPENED",
+  "promotion": "SEALED_UNOPENED",
+  "final_artifact_manifest_excluded": "avoids a circular self-reference",
+  "post_run_validation": {
+    "py_compile_all_new_and_frozen_returncode": 0,
+    "research_scripts_ruff_returncode": 0,
+    "frozen_external_ruff_returncode": 1,
+    "frozen_external_ruff_findings": 22,
+    "frozen_external_source_exactness_preserved": true,
+    "pytest_returncode": 0,
+    "pytest_tail": "...................                                                      [100%]\n",
+    "process_end_check": {
+      "checked_at": "2026-09-15T01:22:29.0779572+09:00",
+      "method": "elevated read-only Get-CimInstance Win32_Process; name matches python|kaggle",
+      "matching_processes": [],
+      "evaluation_or_kaggle_processes_remaining": 0,
+      "status": "PASS"
+    }
+  }
+}

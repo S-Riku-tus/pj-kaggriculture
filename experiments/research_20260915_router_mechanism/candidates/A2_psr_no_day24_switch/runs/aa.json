@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-15T03:37:53.520214+00:00",
+  "candidate": "A2_psr_no_day24_switch",
+  "phase": "aa",
+  "command": ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A2_psr_no_day24_switch --phase aa",
+  "plan": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/plans/aa.json",
+  "progress": {
+    "updated_at": "2026-09-15T03:18:51.562879+00:00",
+    "completed_new": 2,
+    "total_new": 2,
+    "reused": 0,
+    "last_pair_key": [
+      "A2_psr_no_day24_switch",
+      "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0",
+      "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+      "qeinstein_moev2",
+      10091011,
+      1
+    ],
+    "elapsed_seconds": 45.730707799999436
+  },
+  "summary": {
+    "created_at": "2026-09-15T03:18:51.856441+00:00",
+    "candidate": "A2_psr_no_day24_switch",
+    "phase": "aa",
+    "contexts": 2,
+    "completed_720": 2,
+    "runtime_or_delivery_failures": 0,
+    "raw_safety_contexts": 0,
+    "raw_safety_reasons": {},
+    "transitions": {
+      "win->win": 2
+    },
+    "control_wdl": {
+      "win": 2
+    },
+    "treatment_wdl": {
+      "win": 2
+    },
+    "paired_win_score_delta": 0.0,
+    "aa": [
+      {
+        "source": "qeinstein_moev2",
+        "seed": 10091011,
+        "seat": 0,
+        "public_arm_equal": true,
+        "all_semantic_states_actions_equal": true,
+        "control_replay_sha256": "8dc84e0e330bcc5e573a3aad75c0fc76c31d6914b4a64763d43801635b8e0dc0",
+        "repeat_replay_sha256": "13560bcfed476c57c45401bda59135bc6b42416002daca30396ea2b599d2e306"
+      },
+      {
+        "source": "qeinstein_moev2",
+        "seed": 10091011,
+        "seat": 1,
+        "public_arm_equal": true,
+        "all_semantic_states_actions_equal": true,
+        "control_replay_sha256": "e7366d7b04cc1dfdb0ed2daf8f1475e977726b942e09f98b601d50bec57efa0c",
+        "repeat_replay_sha256": "58c52f057a7d44972eb2ccbe84e5abd9c1b741b9c786558de386e9a597ef34b9"
+      }
+    ],
+    "passed": true
+  },
+  "pair_integrity_passed": true
+}

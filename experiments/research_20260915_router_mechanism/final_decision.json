@@ -1,0 +1,158 @@
+{
+  "created_at": "2026-09-15T03:44:30.726902+00:00",
+  "status": "REJECT_NO_UPLIFT",
+  "scope": "No qualifying V111-transferable uplift; research-only P1-derived ablations are not promotion candidates.",
+  "production_champion": "V111",
+  "router_specific_uplift": {
+    "win_score": 0.0625,
+    "blocks": 1,
+    "sources": 1,
+    "ancestries": 1,
+    "gate_passed": false
+  },
+  "fixed_route0_plus_initial_footprint": {
+    "win_score_vs_V111": 0.3125,
+    "P1_total_uplift": 0.375,
+    "fraction_explained": 0.8333333333333334,
+    "initial_footprint_alone": "UNKNOWN_NOT_ISOLATED"
+  },
+  "identity_proxy": "NO_KNOWN_SOURCE_IDENTITY_PROXY_ESTABLISHED_ON_SPENT_PANEL",
+  "C1_created": false,
+  "C2_created": false,
+  "deploy_candidate_raw_safety_zero": "NOT_APPLICABLE_NO_DEPLOY_CANDIDATE",
+  "deploy_candidate_win_to_loss_zero": "NOT_APPLICABLE_NO_DEPLOY_CANDIDATE",
+  "research_ablation_safety": {
+    "A0_psr_route_locked": {
+      "raw_failure_contexts": 32,
+      "raw_reason_context_counts": {
+        "new_animal_loss": 32,
+        "new_crop_to_weed": 32,
+        "new_all_step_silent_market_noop": 8,
+        "new_all_step_partial_market_commit": 8,
+        "new_all_step_silent_field_noop": 7
+      },
+      "absolute_event_totals": {
+        "control": {
+          "animal_loss": 0,
+          "crop_to_weed": 682,
+          "spawned_weed": 23
+        },
+        "treatment": {
+          "animal_loss": 64,
+          "crop_to_weed": 994,
+          "spawned_weed": 4
+        }
+      },
+      "runtime_or_delivery_failures": 0,
+      "minimum_treatment_cash": 2.0,
+      "all_completed_720": true
+    },
+    "A1_psr_no_day6_switch": {
+      "raw_failure_contexts": 32,
+      "raw_reason_context_counts": {
+        "new_animal_loss": 32,
+        "new_crop_to_weed": 32,
+        "new_all_step_silent_market_noop": 8,
+        "new_all_step_partial_market_commit": 8,
+        "new_all_step_silent_field_noop": 7
+      },
+      "absolute_event_totals": {
+        "control": {
+          "animal_loss": 0,
+          "crop_to_weed": 682,
+          "spawned_weed": 23
+        },
+        "treatment": {
+          "animal_loss": 64,
+          "crop_to_weed": 922,
+          "spawned_weed": 4
+        }
+      },
+      "runtime_or_delivery_failures": 0,
+      "minimum_treatment_cash": 2.0,
+      "all_completed_720": true
+    },
+    "A2_psr_no_day24_switch": {
+      "raw_failure_contexts": 32,
+      "raw_reason_context_counts": {
+        "new_animal_loss": 32,
+        "new_crop_to_weed": 32,
+        "new_all_step_silent_market_noop": 8,
+        "new_all_step_partial_market_commit": 8,
+        "new_all_step_silent_field_noop": 7
+      },
+      "absolute_event_totals": {
+        "control": {
+          "animal_loss": 0,
+          "crop_to_weed": 682,
+          "spawned_weed": 23
+        },
+        "treatment": {
+          "animal_loss": 64,
+          "crop_to_weed": 994,
+          "spawned_weed": 4
+        }
+      },
+      "runtime_or_delivery_failures": 0,
+      "minimum_treatment_cash": 2.0,
+      "all_completed_720": true
+    }
+  },
+  "diagnostic_generalization": {
+    "source_seed_blocks": 16,
+    "sources": 4,
+    "verified_ancestries": 2
+  },
+  "deployment_generalization": {
+    "source_seed_blocks": 0,
+    "sources": 0,
+    "verified_ancestries": 0
+  },
+  "independent_source": {
+    "selected": [],
+    "new_revision_games": 0,
+    "verified_third_ancestry": false
+  },
+  "numeric_agent_created": false,
+  "numeric_label": null,
+  "seed_ledger": "experiments/research_20260915_router_mechanism/seed_ledger.json",
+  "sealed_ranges": {
+    "promotion": {
+      "range": [
+        10091101,
+        10091112
+      ],
+      "structured_used": [],
+      "status": "UNUSED_SEALED"
+    },
+    "fresh": {
+      "range": [
+        10091901,
+        10091912
+      ],
+      "structured_used": [],
+      "status": "UNUSED_SEALED"
+    },
+    "prior_development": {
+      "range": [
+        10091421,
+        10091436
+      ],
+      "structured_used": [],
+      "status": "UNUSED_SEALED"
+    },
+    "proposed_development": {
+      "range": [
+        10091521,
+        10091536
+      ],
+      "structured_used": [],
+      "status": "UNUSED_NOT_OPENED"
+    }
+  },
+  "external_mutations": {
+    "kaggle_submission": false,
+    "kernel_push": false,
+    "submission_slot_change": false
+  }
+}

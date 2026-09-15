@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-14T15:31:47.575568+00:00",
+  "candidate": "D1_e052a_no_opponent_tape",
+  "phase": "aa",
+  "contexts": 2,
+  "completed_720": 2,
+  "runtime_or_delivery_failures": 0,
+  "raw_safety_contexts": 0,
+  "raw_safety_reasons": {},
+  "transitions": {
+    "loss->loss": 2
+  },
+  "control_wdl": {
+    "loss": 2
+  },
+  "treatment_wdl": {
+    "loss": 2
+  },
+  "paired_win_score_delta": 0.0,
+  "aa": [
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "public_arm_equal": true,
+      "all_semantic_states_actions_equal": true,
+      "control_replay_sha256": "8f2facc6330982290707fb3eae5df5db6bf2f6db8b4dc4b20d8c9f6eddf54238",
+      "repeat_replay_sha256": "5098f8322e5aa48b0088de327eba2d76cb1a71cd2488c0896580117c86a2e067"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "public_arm_equal": true,
+      "all_semantic_states_actions_equal": true,
+      "control_replay_sha256": "88290748a74a47f2351af207393bb5ac78795ca4b48a064ea3495c39f6e0974a",
+      "repeat_replay_sha256": "0feb096bdba12ae65e95e9bb32a2ca35a4c3b06c2e5e8d8c7806edae6d57f6f8"
+    }
+  ],
+  "passed": true
+}

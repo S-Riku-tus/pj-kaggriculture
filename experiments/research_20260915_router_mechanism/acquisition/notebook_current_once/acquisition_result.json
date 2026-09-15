@@ -1,0 +1,271 @@
+{
+  "fetched_at": "2026-09-15T01:13:42.283704+00:00",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+  "http_status": 200,
+  "content_type": "application/json",
+  "bytes": 178959,
+  "sha256": "1b01e747471b4fa5d5736ccce6ddd138f6627752e3ba1b709472241721f596fa",
+  "complete_json": true,
+  "extracted": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 78906,
+      "sha256": "f66c0937857d03358961e12f06c3ee2fddfa07708a517869d5f2dd04732c6c83"
+    },
+    {
+      "json_path": "$.blob.source",
+      "path": "payload_2.ipynb",
+      "bytes": 78906,
+      "sha256": "f66c0937857d03358961e12f06c3ee2fddfa07708a517869d5f2dd04732c6c83"
+    }
+  ],
+  "top_level_keys": [
+    "blob",
+    "metadata"
+  ],
+  "string_inventory": [
+    {
+      "path": "$.metadata.languageNullable",
+      "characters": 6,
+      "sha256_utf8": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.kernelTypeNullable",
+      "characters": 8,
+      "sha256_utf8": "b53bcf919f24746d72094b8b86c0325cf40723d3d63240705db51a27b261bc96",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.dockerImageNullable",
+      "characters": 99,
+      "sha256_utf8": "dbf5fe52704bd0b1e3e0faaf9a35478bae77d760a720ea475713868ebd6775fb",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.machineShapeNullable",
+      "characters": 4,
+      "sha256_utf8": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.ref",
+      "characters": 63,
+      "sha256_utf8": "63452a8291d2d8fdb9030415e1f2292ce909523a3bef527191f1e8e431aa4ee2",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.title",
+      "characters": 50,
+      "sha256_utf8": "7c8aa43fd8e34fefb0ca8c857df02e105ad46521f527b3624c077792913f275b",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.author",
+      "characters": 16,
+      "sha256_utf8": "b932e51dca0582001e537b568d49192f0e8614e2361dc59d312c8eb52fdd684a",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.slug",
+      "characters": 47,
+      "sha256_utf8": "4e0a4b308b3b436db5086d4269ffa44f93535591d7fe156bfff0f5b9655e94fa",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.lastRunTime",
+      "characters": 28,
+      "sha256_utf8": "4280755fb8cf90971563ace8ace287fa46807e01cc4a60ab106c519df5218ed8",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.language",
+      "characters": 6,
+      "sha256_utf8": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.kernelType",
+      "characters": 8,
+      "sha256_utf8": "b53bcf919f24746d72094b8b86c0325cf40723d3d63240705db51a27b261bc96",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.competitionDataSources[0]",
+      "characters": 13,
+      "sha256_utf8": "3423cbd4765bccfd8864715170ab806da02508427624c5da35d87e4de87ca3ff",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.dockerImage",
+      "characters": 99,
+      "sha256_utf8": "dbf5fe52704bd0b1e3e0faaf9a35478bae77d760a720ea475713868ebd6775fb",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.metadata.machineShape",
+      "characters": 4,
+      "sha256_utf8": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.sourceNullable",
+      "characters": 78906,
+      "sha256_utf8": "f66c0937857d03358961e12f06c3ee2fddfa07708a517869d5f2dd04732c6c83",
+      "markers": {
+        "ipynb": true,
+        "agent": true,
+        "main_py": true,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.languageNullable",
+      "characters": 6,
+      "sha256_utf8": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.kernelTypeNullable",
+      "characters": 8,
+      "sha256_utf8": "b53bcf919f24746d72094b8b86c0325cf40723d3d63240705db51a27b261bc96",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.slugNullable",
+      "characters": 47,
+      "sha256_utf8": "4e0a4b308b3b436db5086d4269ffa44f93535591d7fe156bfff0f5b9655e94fa",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.source",
+      "characters": 78906,
+      "sha256_utf8": "f66c0937857d03358961e12f06c3ee2fddfa07708a517869d5f2dd04732c6c83",
+      "markers": {
+        "ipynb": true,
+        "agent": true,
+        "main_py": true,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.language",
+      "characters": 6,
+      "sha256_utf8": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.kernelType",
+      "characters": 8,
+      "sha256_utf8": "b53bcf919f24746d72094b8b86c0325cf40723d3d63240705db51a27b261bc96",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    },
+    {
+      "path": "$.blob.slug",
+      "characters": 47,
+      "sha256_utf8": "4e0a4b308b3b436db5086d4269ffa44f93535591d7fe156bfff0f5b9655e94fa",
+      "markers": {
+        "ipynb": false,
+        "agent": false,
+        "main_py": false,
+        "apache": false
+      }
+    }
+  ]
+}

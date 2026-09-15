@@ -1,0 +1,64 @@
+{
+  "frozen_at": "2026-09-15T01:12:13.686398+00:00",
+  "frozen_before_first_new_game": true,
+  "preregistration_document": "docs/research_20260915_router_mechanism_preregistration.md",
+  "preregistration_document_sha256": "92169704d303974a83a0577761c550f27a36f5d73fef9c69a4bbad3ecd119eff",
+  "raw_user_prompt_exact_bytes": "UNAVAILABLE_TO_LOCAL_PROCESS",
+  "prompt_contract_sha256": "92169704d303974a83a0577761c550f27a36f5d73fef9c69a4bbad3ecd119eff",
+  "primary_contrasts": [
+    "P1_full-A0",
+    "P1_full-A1",
+    "P1_full-A2"
+  ],
+  "router_value_gate": {
+    "full_better_than_legal_A0_blocks_min": 1,
+    "same_direction_sources_min": 2,
+    "no_added_win_to_loss": true,
+    "no_new_safety_class": true
+  },
+  "c1_gate": [
+    "mechanism observed in at least two sources",
+    "not identity proxy",
+    "V111-owned state-compatible complete suffix or per-step contract",
+    "procurement through sale and rejoin fully specified",
+    "no PSR expression copied",
+    "one mechanism family only"
+  ],
+  "seed_policy": {
+    "spent": [
+      10091011,
+      10091012,
+      10091013,
+      10091014
+    ],
+    "promotion_sealed": [
+      10091101,
+      10091112
+    ],
+    "fresh_sealed": [
+      10091901,
+      10091912
+    ],
+    "prior_development_sealed": [
+      10091421,
+      10091436
+    ],
+    "conditional_development": [
+      10091521,
+      10091536
+    ]
+  },
+  "prohibitions": [
+    "Kaggle submit",
+    "kernel push",
+    "submission slot change",
+    "P1 repair",
+    "threshold search",
+    "opponent forecast",
+    "identity selector"
+  ],
+  "environment": {
+    "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+  }
+}

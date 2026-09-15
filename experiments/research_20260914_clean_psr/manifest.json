@@ -1,0 +1,119 @@
+{
+  "experiment_id": "research_20260914_clean_psr",
+  "created_at_jst": "2026-09-14T23:11:03.9483569+09:00",
+  "created_at_utc": "2026-09-14T14:11:03.9483569+00:00",
+  "deadline_jst": "2026-09-15T04:11:03.9483569+09:00",
+  "deadline_utc": "2026-09-14T19:11:03.9483569+00:00",
+  "repository": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture",
+  "git_head": "851e970d81db084a712097928a71feb9c0e2b09a",
+  "git_branch": "main",
+  "initial_git_status_short": [
+    " M scripts/evaluation/divergence.py",
+    " M scripts/evaluation/runner.py",
+    "?? agents/v116_mooman_complete/",
+    "?? data/evaluation/research_20260914_lowcash/",
+    "?? docs/codex_next_research_prompt_20260914.md",
+    "?? docs/cursor_next_research_prompt_20260914.md",
+    "?? docs/next_research_strategy_20260914.md",
+    "?? docs/research_20260914_preregistration.md",
+    "?? docs/research_20260914_report.md",
+    "?? experiments/research_20260914_lowcash/",
+    "?? experiments/research_20260914_next_strategy/",
+    "?? scripts/audit_v116_tape_gate.py",
+    "?? scripts/finalize_research_20260914.py",
+    "?? scripts/reassess_research_20260914.py",
+    "?? scripts/research_20260914.py"
+  ],
+  "initial_process_audit": {
+    "first_query": "sandbox access denied",
+    "successful_query_at_jst": "2026-09-14T23:17:00+09:00",
+    "relevant_processes": [
+      {
+        "pid": 30320,
+        "name": "python.exe",
+        "command_line": "C:\\Users\\shiba\\AppData\\Local\\Programs\\Python\\Python312\\python.exe c:\\Users\\shiba\\.vscode\\extensions\\ms-python.flake8-2026.6.0\\bundled\\tool\\lsp_server.py",
+        "classification": "editor language server; not an evaluation or Kaggle job"
+      },
+      {
+        "pid": 33440,
+        "name": "python.exe",
+        "command_line": "C:\\Users\\shiba\\AppData\\Local\\Programs\\Python\\Python312\\python.exe c:\\Users\\shiba\\.vscode\\extensions\\ms-python.black-formatter-2026.6.0\\bundled\\tool\\lsp_server.py",
+        "classification": "editor language server; not an evaluation or Kaggle job"
+      }
+    ],
+    "evaluation_or_kaggle_jobs": []
+  },
+  "production_champion": {
+    "version": "V111",
+    "status": "FIXED_RETAIN",
+    "source_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "archive_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e"
+  },
+  "frozen_environment": {
+    "engine_version": "1.32.7",
+    "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+  },
+  "initial_related_file_sha256": {
+    "AGENTS.md": "e1a80501a7b02a212eaac9370ada4129a64e0ee6cb3cbc790f3d77d22863fe22",
+    "README.md": "3081e52baf8eb2da5d861acc63a3636ce29425f6bdb79a67036ba234ac4ade00",
+    "docs/research_20260914_report.md": "dccaf21c12eaefd91956eab6e03879196eb72ce961bd1223d7040dc0809f4cea",
+    "docs/research_20260914_preregistration.md": "f92aded480ef042c7a26af67c52f74070fb91d33820ee4de9d3fe23fc6c1b102",
+    "experiments/research_20260914_lowcash/final_decision.json": "addde4c02eda000a7d7ec0a965e3a2544fa90db614996e1e39394dee861c9d19",
+    "experiments/research_20260914_next_strategy/opponent_tape_audit.json": "d7bd4d63e5d43b70b9582d8030c522545e7419c5f2d9fdb22f09e1f3a53aa206",
+    "scripts/audit_v116_tape_gate.py": "acad540d6f2f74269ddb3bb92f7a138f3b7521ec310608c90ac7bc40616bff29",
+    "artifacts/opponent_pool/current_20260910/mooman/agents/kaito_v56_e052a.py": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+    "experiments/research_20260910/source_registry.json": "460c57f8779cfef41b01db72d7c56272a2080fb0e1a5daa659781aedccbfd874",
+    "docs/research_20260912_continuation_report.md": "3ece085f847d8202420e0d8901ec7a66dee18e1124324439a5363ca09dd7efa1",
+    "scripts/evaluation/runner.py": "9dae962678f3dc1f5fcb04c0f38a4501ab600a3e3b2a722fcef91357475068ff",
+    "scripts/evaluation/safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+    "scripts/evaluation/statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+    "scripts/evaluation/divergence.py": "e1cce5ac792d97d132d6aa36dabd83417f527205722f0c4bd0ad77f47a41f7b9",
+    "scripts/evaluation/lifecycle.py": "09c2971aff347bb615a08f0d43bc38de45e8fcfbaa8c43d4b44c3dc2efcca2c7"
+  },
+  "constraints": {
+    "kaggle_submission": false,
+    "kernel_push": false,
+    "submission_slot_change": false,
+    "promotion_seeds": "SEALED_10091101_10091112",
+    "fresh_seeds": "SEALED_10091901_10091912",
+    "prior_lowcash_pairs": "COMPLETE_REUSE_ONLY_NO_RERUN",
+    "working_tree_preservation": "preserve all pre-existing tracked and untracked changes"
+  },
+  "phase": "P1_psr_clean:spent",
+  "status": "COMPLETE",
+  "updated_at": "2026-09-14T15:58:52.892766+00:00",
+  "evaluation_pid": null,
+  "current_phase": "FINALIZED",
+  "finalized_at": "2026-09-14T16:19:33.249990+00:00",
+  "final_decision": "REJECT_SAFETY",
+  "relevant_processes_at_end": [],
+  "evaluation_runner_processes_at_end": [],
+  "git_status_short_at_end": [
+    " M scripts/evaluation/divergence.py",
+    " M scripts/evaluation/runner.py",
+    "?? agents/v116_mooman_complete/",
+    "?? data/evaluation/research_20260914_lowcash/",
+    "?? docs/codex_next_research_prompt_20260914.md",
+    "?? docs/cursor_next_research_prompt_20260914.md",
+    "?? docs/next_research_strategy_20260914.md",
+    "?? docs/research_20260914_clean_psr_preregistration.md",
+    "?? docs/research_20260914_clean_psr_report.md",
+    "?? docs/research_20260914_preregistration.md",
+    "?? docs/research_20260914_report.md",
+    "?? experiments/research_20260914_clean_psr/",
+    "?? experiments/research_20260914_lowcash/",
+    "?? experiments/research_20260914_next_strategy/",
+    "?? scripts/acquire_clean_psr_source.py",
+    "?? scripts/audit_clean_psr_prerun.py",
+    "?? scripts/audit_v116_tape_gate.py",
+    "?? scripts/finalize_clean_psr_prerun.py",
+    "?? scripts/finalize_clean_psr_research.py",
+    "?? scripts/finalize_research_20260914.py",
+    "?? scripts/prepare_clean_psr_candidates.py",
+    "?? scripts/reassess_research_20260914.py",
+    "?? scripts/reconcile_clean_psr_duplicates.py",
+    "?? scripts/research_20260914.py",
+    "?? scripts/run_clean_psr_research.py"
+  ]
+}

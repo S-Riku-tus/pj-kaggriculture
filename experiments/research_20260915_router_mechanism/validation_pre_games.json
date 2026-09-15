@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-15T01:15:41.240351+00:00",
+  "passed": true,
+  "engine_version": "1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "configuration_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+  "checks": [
+    {
+      "candidate": "A0_psr_route_locked",
+      "source_sha256": "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c",
+      "imports_isolated": true,
+      "seats": [
+        {
+          "seat": 0,
+          "reset_equal": true,
+          "independent_equal": true,
+          "schema_ok": true
+        },
+        {
+          "seat": 1,
+          "reset_equal": true,
+          "independent_equal": true,
+          "schema_ok": true
+        }
+      ]
+    },
+    {
+      "candidate": "A1_psr_no_day6_switch",
+      "source_sha256": "230cf01577755d7f11aa8e3fe7c00d3c0485c10b1a0d3b41204f656c6ac4d2f5",
+      "imports_isolated": true,
+      "seats": [
+        {
+          "seat": 0,
+          "reset_equal": true,
+          "independent_equal": true,
+          "schema_ok": true
+        },
+        {
+          "seat": 1,
+          "reset_equal": true,
+          "independent_equal": true,
+          "schema_ok": true
+        }
+      ]
+    },
+    {
+      "candidate": "A2_psr_no_day24_switch",
+      "source_sha256": "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0",
+      "imports_isolated": true,
+      "seats": [
+        {
+          "seat": 0,
+          "reset_equal": true,
+          "independent_equal": true,
+          "schema_ok": true
+        },
+        {
+          "seat": 1,
+          "reset_equal": true,
+          "independent_equal": true,
+          "schema_ok": true
+        }
+      ]
+    }
+  ]
+}

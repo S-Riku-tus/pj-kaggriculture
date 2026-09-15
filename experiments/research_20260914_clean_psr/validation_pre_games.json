@@ -1,0 +1,199 @@
+{
+  "created_at": "2026-09-14T15:29:27.115350+00:00",
+  "passed": true,
+  "engine_version": "1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "configuration_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+  "evaluation_core_sha256": {
+    "scripts/evaluation/__init__.py": "b6fc7ff25d2d2174a63dd64d71de3ecf97acbc529545235b6189fefc4af84e9c",
+    "scripts/evaluation/divergence.py": "e1cce5ac792d97d132d6aa36dabd83417f527205722f0c4bd0ad77f47a41f7b9",
+    "scripts/evaluation/lifecycle.py": "09c2971aff347bb615a08f0d43bc38de45e8fcfbaa8c43d4b44c3dc2efcca2c7",
+    "scripts/evaluation/lineage.py": "797a066e94225a2524af59dd58e88b48b2814386a8383e86c00eb4410a911da3",
+    "scripts/evaluation/registry.py": "34995e2bf064735b33f210d914a0344405646b41c658393348efc5e6033a79d9",
+    "scripts/evaluation/replay.py": "572a57acb447b48ba8955417e2b46dcc8ce9a7ecdde3fbc9d02505effda63822",
+    "scripts/evaluation/report.py": "c2a00fa98910063aab53f172d3a5a52f4a56aa1a448fa2a06656d5a9de96cd84",
+    "scripts/evaluation/runner.py": "9dae962678f3dc1f5fcb04c0f38a4501ab600a3e3b2a722fcef91357475068ff",
+    "scripts/evaluation/safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+    "scripts/evaluation/schema.py": "8045f554e64748addc197a2a2d3dafbd354814eae06ba3d2750ac32d73c049e8",
+    "scripts/evaluation/statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61"
+  },
+  "evaluation_core_composite_sha256": "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+  "candidates": [
+    {
+      "candidate": "V111",
+      "source_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+      "explicit_callable": "agent",
+      "callable_is_last_public_entrypoint": true,
+      "both_seats": true,
+      "step0_reset_repeatable": true,
+      "independent_imports_equal": true,
+      "module_objects_distinct": true,
+      "step0_actions": [
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              7
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "D1_e052a_no_opponent_tape",
+      "source_sha256": "e465bdcce3cc6560abafcdc916f06843b111e79c2c625dcdd74db47ec7f7279b",
+      "explicit_callable": "agent",
+      "callable_is_last_public_entrypoint": true,
+      "both_seats": true,
+      "step0_reset_repeatable": true,
+      "independent_imports_equal": true,
+      "module_objects_distinct": true,
+      "step0_actions": [
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "P1_psr_clean",
+      "source_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+      "explicit_callable": "agent",
+      "callable_is_last_public_entrypoint": true,
+      "both_seats": true,
+      "step0_reset_repeatable": true,
+      "independent_imports_equal": true,
+      "module_objects_distinct": true,
+      "step0_actions": [
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              13
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "independent_sources": [
+    {
+      "source": "deepeshumrao_head",
+      "entrypoint_sha256": "7885b9b9c571c2d90224b4b629d44896aeb3680100058356e4b404219fd187e6",
+      "native_import": true,
+      "callable": true
+    },
+    {
+      "source": "lonespear_head",
+      "entrypoint_sha256": "3981830b9181db4685afe2b61f182edb13ff5a19d344a70b16a6bc5aedf2a026",
+      "native_import": true,
+      "callable": true
+    },
+    {
+      "source": "robriculture_lean_feed",
+      "entrypoint_sha256": "52a943bb917f84b5f08e7beb081c7a9105ed4c92f551408a6eb861e50f542812",
+      "native_import": true,
+      "callable": true
+    }
+  ]
+}

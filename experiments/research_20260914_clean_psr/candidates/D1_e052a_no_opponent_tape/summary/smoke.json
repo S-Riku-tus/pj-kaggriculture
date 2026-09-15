@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-14T15:36:42.300572+00:00",
+  "candidate": "D1_e052a_no_opponent_tape",
+  "phase": "smoke",
+  "contexts": 4,
+  "completed_720": 4,
+  "runtime_or_delivery_failures": 0,
+  "raw_safety_contexts": 4,
+  "raw_safety_reasons": {
+    "new_all_step_silent_field_noop": 4,
+    "new_all_step_silent_market_noop": 2,
+    "new_all_step_partial_market_commit": 2
+  },
+  "transitions": {
+    "loss->win": 2,
+    "loss->loss": 2
+  },
+  "control_wdl": {
+    "loss": 4
+  },
+  "treatment_wdl": {
+    "win": 2,
+    "loss": 2
+  },
+  "paired_win_score_delta": 0.5
+}

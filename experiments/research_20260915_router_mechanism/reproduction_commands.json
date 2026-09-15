@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-15T03:44:30.725903+00:00",
+  "environment": "repository .venv; current working directory is repository root",
+  "analysis": ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py analyze",
+  "prepare": ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py prepare",
+  "validate": ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py validate",
+  "candidate_phases": [
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A0_psr_route_locked --phase aa",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A0_psr_route_locked --phase smoke",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A0_psr_route_locked --phase spent",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A1_psr_no_day6_switch --phase aa",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A1_psr_no_day6_switch --phase smoke",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A1_psr_no_day6_switch --phase spent",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A2_psr_no_day24_switch --phase aa",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A2_psr_no_day24_switch --phase smoke",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A2_psr_no_day24_switch --phase spent"
+  ],
+  "resume": [
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A0_psr_route_locked --phase spent",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A1_psr_no_day6_switch --phase spent",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A2_psr_no_day24_switch --phase spent"
+  ],
+  "resume_rule": "Only the identical frozen candidate/source/package/evaluator hashes may reuse the JSONL; completed pair keys are skipped.",
+  "finalize_build": ".\\.venv\\Scripts\\python.exe scripts\\finalize_research_20260915_router_mechanism.py build",
+  "finalize_validate": ".\\.venv\\Scripts\\python.exe scripts\\finalize_research_20260915_router_mechanism.py validate",
+  "finalize_seal": ".\\.venv\\Scripts\\python.exe scripts\\finalize_research_20260915_router_mechanism.py seal",
+  "forbidden": [
+    "Kaggle submission",
+    "kernel push",
+    "slot change",
+    "opening sealed seed ranges"
+  ]
+}

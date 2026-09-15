@@ -1,0 +1,347 @@
+{
+  "created_at": "2026-09-15T03:49:58.351511+00:00",
+  "passed": true,
+  "results": [
+    {
+      "name": "py_compile_own_python",
+      "command": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\python.exe -m py_compile C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\research_20260915_router_mechanism.py C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\finalize_research_20260915_router_mechanism.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "name": "ruff_own_python",
+      "command": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\python.exe -m ruff check C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\research_20260915_router_mechanism.py C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\finalize_research_20260915_router_mechanism.py",
+      "exit_code": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "name": "evaluation_core_tests",
+      "command": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\python.exe -m pytest -q tests/test_champion_challenger_evaluation.py tests/test_official_environment.py tests/test_agent_v111.py",
+      "exit_code": 0,
+      "stdout": "................                                                         [100%]\n",
+      "stderr": "",
+      "passed": true
+    }
+  ],
+  "external_exact_source_style": "EXCLUDED_UNMODIFIED",
+  "evaluation_core_modified_by_this_study": false,
+  "candidate_import_reset_isolation": {
+    "created_at": "2026-09-15T01:15:41.240351+00:00",
+    "passed": true,
+    "engine_version": "1.32.7",
+    "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "checks": [
+      {
+        "candidate": "A0_psr_route_locked",
+        "source_sha256": "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c",
+        "imports_isolated": true,
+        "seats": [
+          {
+            "seat": 0,
+            "reset_equal": true,
+            "independent_equal": true,
+            "schema_ok": true
+          },
+          {
+            "seat": 1,
+            "reset_equal": true,
+            "independent_equal": true,
+            "schema_ok": true
+          }
+        ]
+      },
+      {
+        "candidate": "A1_psr_no_day6_switch",
+        "source_sha256": "230cf01577755d7f11aa8e3fe7c00d3c0485c10b1a0d3b41204f656c6ac4d2f5",
+        "imports_isolated": true,
+        "seats": [
+          {
+            "seat": 0,
+            "reset_equal": true,
+            "independent_equal": true,
+            "schema_ok": true
+          },
+          {
+            "seat": 1,
+            "reset_equal": true,
+            "independent_equal": true,
+            "schema_ok": true
+          }
+        ]
+      },
+      {
+        "candidate": "A2_psr_no_day24_switch",
+        "source_sha256": "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0",
+        "imports_isolated": true,
+        "seats": [
+          {
+            "seat": 0,
+            "reset_equal": true,
+            "independent_equal": true,
+            "schema_ok": true
+          },
+          {
+            "seat": 1,
+            "reset_equal": true,
+            "independent_equal": true,
+            "schema_ok": true
+          }
+        ]
+      }
+    ]
+  },
+  "pair_integrity": {
+    "created_at": "2026-09-15T03:37:53.629091+00:00",
+    "passed": true,
+    "candidates": [
+      {
+        "candidate": "A0_psr_route_locked",
+        "passed": true,
+        "phases": {
+          "aa": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A0_psr_route_locked/pairs/aa.jsonl",
+            "sha256": "dfe501ea47d9a3b5fcfa4e2ddc1ed54caedbb99f4323fd6c9f08558ff4b5cd46",
+            "rows": 2,
+            "expected_rows": 2,
+            "unique_context_keys": 2,
+            "candidate_source_sha256": [
+              "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c"
+            ],
+            "candidate_package_sha256": [
+              "aff375eec2d89bcd3332051a97dec378663c03592712e1830d6a0042f4f636da"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          },
+          "smoke": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A0_psr_route_locked/pairs/smoke.jsonl",
+            "sha256": "26fd4cd436d4b6d12135d3a7431cfb648e566972cb253408dc889549ffcd3f70",
+            "rows": 4,
+            "expected_rows": 4,
+            "unique_context_keys": 4,
+            "candidate_source_sha256": [
+              "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c"
+            ],
+            "candidate_package_sha256": [
+              "aff375eec2d89bcd3332051a97dec378663c03592712e1830d6a0042f4f636da"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          },
+          "spent": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A0_psr_route_locked/pairs/spent.jsonl",
+            "sha256": "0bcbf538c2686a6a4d8b66cd3965b66be4f128b019bedb3fd89121a2fffe9243",
+            "rows": 32,
+            "expected_rows": 32,
+            "unique_context_keys": 32,
+            "candidate_source_sha256": [
+              "cb8a899ab37b6e66f9df36d517edf2aa9510380443f55fccf996d5199317c24c"
+            ],
+            "candidate_package_sha256": [
+              "aff375eec2d89bcd3332051a97dec378663c03592712e1830d6a0042f4f636da"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          }
+        }
+      },
+      {
+        "candidate": "A1_psr_no_day6_switch",
+        "passed": true,
+        "phases": {
+          "aa": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A1_psr_no_day6_switch/pairs/aa.jsonl",
+            "sha256": "d8bc81252d6f8fb56f7634729d121a9117d6969dc019aaedb3c0f272e6b8ebc7",
+            "rows": 2,
+            "expected_rows": 2,
+            "unique_context_keys": 2,
+            "candidate_source_sha256": [
+              "230cf01577755d7f11aa8e3fe7c00d3c0485c10b1a0d3b41204f656c6ac4d2f5"
+            ],
+            "candidate_package_sha256": [
+              "460c9ef6c1fd8a5292c4dc8ce91f0e07b618c6d922c4bc700c9ff769f1442eae"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          },
+          "smoke": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A1_psr_no_day6_switch/pairs/smoke.jsonl",
+            "sha256": "e59f3cda4f5e679c3d916aa8dd94b882993f2727b466bb4409df7a22f159d9e7",
+            "rows": 4,
+            "expected_rows": 4,
+            "unique_context_keys": 4,
+            "candidate_source_sha256": [
+              "230cf01577755d7f11aa8e3fe7c00d3c0485c10b1a0d3b41204f656c6ac4d2f5"
+            ],
+            "candidate_package_sha256": [
+              "460c9ef6c1fd8a5292c4dc8ce91f0e07b618c6d922c4bc700c9ff769f1442eae"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          },
+          "spent": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A1_psr_no_day6_switch/pairs/spent.jsonl",
+            "sha256": "78bd963c5c18fd2969c0e60dc04775f42f6e2d7c9459615149ba6e11273fbfdf",
+            "rows": 32,
+            "expected_rows": 32,
+            "unique_context_keys": 32,
+            "candidate_source_sha256": [
+              "230cf01577755d7f11aa8e3fe7c00d3c0485c10b1a0d3b41204f656c6ac4d2f5"
+            ],
+            "candidate_package_sha256": [
+              "460c9ef6c1fd8a5292c4dc8ce91f0e07b618c6d922c4bc700c9ff769f1442eae"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          }
+        }
+      },
+      {
+        "candidate": "A2_psr_no_day24_switch",
+        "passed": true,
+        "phases": {
+          "aa": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/pairs/aa.jsonl",
+            "sha256": "4ea8b3bf6e6ab7d5ad8061667bcd816b6ee5e5a2422bb5f22951a6a6983f9162",
+            "rows": 2,
+            "expected_rows": 2,
+            "unique_context_keys": 2,
+            "candidate_source_sha256": [
+              "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0"
+            ],
+            "candidate_package_sha256": [
+              "10fa9d8e9f43389c68035d36ef02ef9d22a9cf49e1bd8cb78b1eaf5d4564365d"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          },
+          "smoke": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/pairs/smoke.jsonl",
+            "sha256": "6a111f0f7380569cf42adf4510e10eb9a16f1e301b3fe055517b620ec1e9d084",
+            "rows": 4,
+            "expected_rows": 4,
+            "unique_context_keys": 4,
+            "candidate_source_sha256": [
+              "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0"
+            ],
+            "candidate_package_sha256": [
+              "10fa9d8e9f43389c68035d36ef02ef9d22a9cf49e1bd8cb78b1eaf5d4564365d"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          },
+          "spent": {
+            "path": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/pairs/spent.jsonl",
+            "sha256": "ba2876084ad28c0e7cd2c24a23c7afec0474d25592b419ae56ef734c17bb74cc",
+            "rows": 32,
+            "expected_rows": 32,
+            "unique_context_keys": 32,
+            "candidate_source_sha256": [
+              "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0"
+            ],
+            "candidate_package_sha256": [
+              "10fa9d8e9f43389c68035d36ef02ef9d22a9cf49e1bd8cb78b1eaf5d4564365d"
+            ],
+            "evaluation_core_sha256": [
+              "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a"
+            ],
+            "engine_sha256": [
+              "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+            ],
+            "configuration_sha256": [
+              "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+            ],
+            "all_replays_present": true,
+            "no_partial_jsonl": true,
+            "passed": true
+          }
+        }
+      }
+    ]
+  }
+}

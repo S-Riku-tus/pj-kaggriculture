@@ -1,0 +1,197 @@
+{
+  "created_at": "2026-09-14T16:19:32.265795+00:00",
+  "experiment": "research_20260914_clean_psr",
+  "decision": "REJECT_SAFETY",
+  "production_champion": {
+    "version": "V111",
+    "status": "RETAIN"
+  },
+  "primary_candidate": {
+    "id": "P1_psr_clean",
+    "status": "REJECT",
+    "numeric_agent_created": false,
+    "archive_status": "research-only",
+    "reasons": [
+      "raw Safety failures in 32/32 spent contexts",
+      "two V111 wins regressed to losses",
+      "no qualifying independent source; only two verified ancestry groups",
+      "transitive route-data provenance/license unverified"
+    ]
+  },
+  "diagnostic_candidate": {
+    "id": "D1_e052a_no_opponent_tape",
+    "promotion_eligible": false,
+    "status": "diagnostic only"
+  },
+  "headline": {
+    "contexts": 32,
+    "source_seed_blocks": 16,
+    "seed_values": [
+      10091011,
+      10091012,
+      10091013,
+      10091014
+    ],
+    "control": {
+      "wins": 12,
+      "draws": 0,
+      "losses": 20,
+      "win_score": 0.375
+    },
+    "candidate": {
+      "wins": 24,
+      "draws": 0,
+      "losses": 8,
+      "win_score": 0.75
+    },
+    "delta_win_score": 0.375,
+    "transitions": {
+      "loss->loss": 6,
+      "loss->win": 14,
+      "win->loss": 2,
+      "win->win": 10
+    },
+    "mean_delta_self_coin": -3269.3125,
+    "mean_delta_opponent_coin": -22373.03125,
+    "mean_delta_margin": 19103.71875
+  },
+  "safety": {
+    "raw_failure_contexts": 32,
+    "raw_reason_context_counts": {
+      "new_animal_loss": 32,
+      "new_crop_to_weed": 32,
+      "new_all_step_silent_market_noop": 8,
+      "new_all_step_partial_market_commit": 8,
+      "new_all_step_silent_field_noop": 7
+    },
+    "absolute_event_totals": {
+      "control": {
+        "animal_loss": 0,
+        "crop_to_weed": 682,
+        "spawned_weed": 23
+      },
+      "treatment": {
+        "animal_loss": 64,
+        "crop_to_weed": 922,
+        "spawned_weed": 4
+      }
+    },
+    "runtime_or_delivery_failures": 0,
+    "minimum_treatment_cash": 2.0,
+    "all_completed_720": true
+  },
+  "primary_discovery_gate": {
+    "checks": {
+      "runtime_delivery_zero": true,
+      "raw_safety_zero": false,
+      "positive_delta": true,
+      "loss_to_win_two_blocks": true,
+      "loss_to_win_two_sources": true,
+      "win_to_loss_zero": false,
+      "win_to_draw_zero": true,
+      "each_source_nonnegative": true,
+      "exclusions_nonnegative": true,
+      "equal_source_positive": true,
+      "equal_ancestry_positive": true,
+      "nine_scenario_worst_positive": true,
+      "bootstrap_lower_positive": true,
+      "forbidden_feature_audit": true
+    },
+    "passed": false
+  },
+  "p2": {
+    "created_at": "2026-09-14T16:19:24.653408+00:00",
+    "created": false,
+    "authorized": false,
+    "reasons": [
+      "P1 has two W->L regressions, so it does not retain all primary efficacy conditions",
+      "first events span animal escape/required FEED omission and crop water/lifespan/harvest contracts",
+      "market and field no-op classes also occur; no single unique repair covers the failures"
+    ],
+    "repair_searches": 0,
+    "outcome_based_repair_selection": false
+  },
+  "development_confirmation": "NOT_OPENED",
+  "verified_ancestry_groups": 2,
+  "independent_source_selection": {
+    "created_at": "2026-09-14T15:35:21.684229+00:00",
+    "primary_results_available_at_selection": false,
+    "selection_rule_sha256": "893df5afa99e6371e3767d100ae3c3a39256a4aaa96be5ca87b2c2c36305c966",
+    "screen_results": [
+      {
+        "source": "deepeshumrao_head",
+        "ancestry": "github_deepeshumrao",
+        "priority": 2,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 164263.25,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      },
+      {
+        "source": "lonespear_head",
+        "ancestry": "github_lonespear",
+        "priority": 3,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 50880.0,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      },
+      {
+        "source": "robriculture_lean_feed",
+        "ancestry": "robriculture_hand_job",
+        "priority": 1,
+        "contexts": 8,
+        "wdl": {
+          "win": 8
+        },
+        "v111_win_score": 1.0,
+        "mean_margin": 80815.625,
+        "completed_720": true,
+        "native_runtime_ok": true,
+        "qualifies_25_75": false
+      }
+    ],
+    "selected": [],
+    "selected_ancestries": [],
+    "diversity_status": "INSUFFICIENT",
+    "final_status_cap": "PROMISING_UNPROVEN",
+    "robriculture_anchor_is_not_strong_third_ancestry": false
+  },
+  "submission": "NOT_PERFORMED",
+  "kernel_push": "NOT_PERFORMED",
+  "submission_slot_change": "NOT_PERFORMED",
+  "promotion_seeds": {
+    "range": [
+      10091101,
+      10091112
+    ],
+    "used": [],
+    "status": "UNUSED"
+  },
+  "fresh_seeds": {
+    "range": [
+      10091901,
+      10091912
+    ],
+    "used": [],
+    "status": "UNUSED"
+  },
+  "new_development_seeds": {
+    "range": [
+      10091421,
+      10091436
+    ],
+    "used": [],
+    "status": "UNUSED"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-09-15T01:12:13.686398+00:00",
+  "old_experiment_status": "REJECT_SAFETY",
+  "old_experiment_complete": true,
+  "files": [
+    {
+      "path": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/pairs/spent.jsonl",
+      "sha256": "b80cf1046f237e01de997781f5dadb13c32c971fde10733329408604832e6bb5",
+      "exists": true
+    },
+    {
+      "path": "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/pairs/spent.jsonl",
+      "sha256": "3f2e73d07faadc29fef0e76833749668480d35040f692d6d4b3a8cb8be5be2ff",
+      "exists": true
+    },
+    {
+      "path": "experiments/research_20260914_clean_psr/final_decision.json",
+      "sha256": "98d6134d689bf320083b0f8c47a8096d243d7411399acda62080818cf0157ac2",
+      "exists": true
+    },
+    {
+      "path": "experiments/research_20260914_clean_psr/candidate_integrity.json",
+      "sha256": "2e1b61a611953b68e7ccd0828d024edd39e97500af1f09f427b88a4fd59f2cc6",
+      "exists": true
+    }
+  ],
+  "pairs": {
+    "P1": {
+      "rows": 32,
+      "unique_keys": 32,
+      "all_720": true
+    },
+    "D1": {
+      "rows": 32,
+      "unique_keys": 32,
+      "all_720": true
+    }
+  },
+  "replays_checked": 128,
+  "replay_hash_mismatches": [],
+  "passed": true
+}

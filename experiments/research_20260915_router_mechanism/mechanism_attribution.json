@@ -1,0 +1,196 @@
+{
+  "created_at": "2026-09-15T03:27:43.118563+00:00",
+  "contrasts": {
+    "A0_psr_route_locked": {
+      "P1_full_minus_ablation_context_win_score": 0.0625,
+      "P1_full_minus_ablation_block_scores": {
+        "ggmljs_v16:10091011": 0.0,
+        "ggmljs_v16:10091012": 0.0,
+        "ggmljs_v16:10091013": 0.0,
+        "ggmljs_v16:10091014": 0.0,
+        "mooman_e052a:10091011": 0.0,
+        "mooman_e052a:10091012": 0.0,
+        "mooman_e052a:10091013": 0.0,
+        "mooman_e052a:10091014": 0.0,
+        "qeinstein_moev2:10091011": 0.0,
+        "qeinstein_moev2:10091012": 0.0,
+        "qeinstein_moev2:10091013": 1.0,
+        "qeinstein_moev2:10091014": 0.0,
+        "souvik_v4:10091011": 0.0,
+        "souvik_v4:10091012": 0.0,
+        "souvik_v4:10091013": 0.0,
+        "souvik_v4:10091014": 0.0
+      },
+      "positive_blocks": 1,
+      "negative_blocks": 0,
+      "same_direction_positive_sources": 1,
+      "source_delta": {
+        "mooman_e052a": 0.0,
+        "souvik_v4": 0.0,
+        "ggmljs_v16": 0.0,
+        "qeinstein_moev2": 0.25
+      },
+      "P1_win_to_loss": 2,
+      "ablation_win_to_loss": 2,
+      "P1_new_safety_classes_vs_V111": [
+        "new_all_step_partial_market_commit",
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_animal_loss",
+        "new_crop_to_weed"
+      ],
+      "ablation_new_safety_classes_vs_V111": [
+        "new_all_step_partial_market_commit",
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_animal_loss",
+        "new_crop_to_weed"
+      ]
+    },
+    "A1_psr_no_day6_switch": {
+      "P1_full_minus_ablation_context_win_score": 0.0625,
+      "P1_full_minus_ablation_block_scores": {
+        "ggmljs_v16:10091011": 0.0,
+        "ggmljs_v16:10091012": 0.0,
+        "ggmljs_v16:10091013": 0.0,
+        "ggmljs_v16:10091014": 0.0,
+        "mooman_e052a:10091011": 0.0,
+        "mooman_e052a:10091012": 0.0,
+        "mooman_e052a:10091013": 0.0,
+        "mooman_e052a:10091014": 0.0,
+        "qeinstein_moev2:10091011": 0.0,
+        "qeinstein_moev2:10091012": 0.0,
+        "qeinstein_moev2:10091013": 1.0,
+        "qeinstein_moev2:10091014": 0.0,
+        "souvik_v4:10091011": 0.0,
+        "souvik_v4:10091012": 0.0,
+        "souvik_v4:10091013": 0.0,
+        "souvik_v4:10091014": 0.0
+      },
+      "positive_blocks": 1,
+      "negative_blocks": 0,
+      "same_direction_positive_sources": 1,
+      "source_delta": {
+        "mooman_e052a": 0.0,
+        "souvik_v4": 0.0,
+        "ggmljs_v16": 0.0,
+        "qeinstein_moev2": 0.25
+      },
+      "P1_win_to_loss": 2,
+      "ablation_win_to_loss": 2,
+      "P1_new_safety_classes_vs_V111": [
+        "new_all_step_partial_market_commit",
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_animal_loss",
+        "new_crop_to_weed"
+      ],
+      "ablation_new_safety_classes_vs_V111": [
+        "new_all_step_partial_market_commit",
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_animal_loss",
+        "new_crop_to_weed"
+      ]
+    },
+    "A2_psr_no_day24_switch": {
+      "P1_full_minus_ablation_context_win_score": 0.0,
+      "P1_full_minus_ablation_block_scores": {
+        "ggmljs_v16:10091011": 0.0,
+        "ggmljs_v16:10091012": 0.0,
+        "ggmljs_v16:10091013": 0.0,
+        "ggmljs_v16:10091014": 0.0,
+        "mooman_e052a:10091011": 0.0,
+        "mooman_e052a:10091012": 0.0,
+        "mooman_e052a:10091013": 0.0,
+        "mooman_e052a:10091014": 0.0,
+        "qeinstein_moev2:10091011": 0.0,
+        "qeinstein_moev2:10091012": 0.0,
+        "qeinstein_moev2:10091013": 0.0,
+        "qeinstein_moev2:10091014": 0.0,
+        "souvik_v4:10091011": 0.0,
+        "souvik_v4:10091012": 0.0,
+        "souvik_v4:10091013": 0.0,
+        "souvik_v4:10091014": 0.0
+      },
+      "positive_blocks": 0,
+      "negative_blocks": 0,
+      "same_direction_positive_sources": 0,
+      "source_delta": {
+        "mooman_e052a": 0.0,
+        "souvik_v4": 0.0,
+        "ggmljs_v16": 0.0,
+        "qeinstein_moev2": 0.0
+      },
+      "P1_win_to_loss": 2,
+      "ablation_win_to_loss": 2,
+      "P1_new_safety_classes_vs_V111": [
+        "new_all_step_partial_market_commit",
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_animal_loss",
+        "new_crop_to_weed"
+      ],
+      "ablation_new_safety_classes_vs_V111": [
+        "new_all_step_partial_market_commit",
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_animal_loss",
+        "new_crop_to_weed"
+      ]
+    }
+  },
+  "router_value_gate": false,
+  "c1_gate": {
+    "router_or_common_public_mechanism_two_sources": false,
+    "not_identity_proxy": true,
+    "v111_owned_complete_suffix_or_unique_contract": false,
+    "procurement_to_sale_and_rejoin_complete": false,
+    "no_psr_expression_needed": false,
+    "one_family": true
+  },
+  "c1_authorized": false,
+  "Evidence": [
+    "P1/A0/A1/A2 paired outcomes on the trained spent panel",
+    "first public market/price divergence precedes observed opponent response",
+    "daily self/opponent coin and portfolio trajectories",
+    "engine-committed lifecycle/order audits"
+  ],
+  "Inference": [
+    "part of the margin is consistent with public-market and Town mediated opponent closed-loop response",
+    "fixed route0 may explain total-policy uplift when A0 is noninferior"
+  ],
+  "Unknown": [
+    "single-action causal effect",
+    "counterfactual opponent response holding RNG/Town fixed",
+    "generalization beyond spent sources/seeds",
+    "transitive route-data provenance/license"
+  ],
+  "causal_limit": "Opponent coin change is a total-policy closed-loop association, not an identified effect of one market action.",
+  "decision": "REJECT_NO_UPLIFT",
+  "router_specific": {
+    "P1_full_minus_A0_context_win_score": 0.0625,
+    "positive_source_seed_blocks": 1,
+    "sources": [
+      "qeinstein_moev2"
+    ],
+    "block": [
+      "qeinstein_moev2",
+      10091013
+    ],
+    "gate_requires_sources": 2,
+    "gate_passed": false
+  },
+  "fixed_route_and_initial_footprint": {
+    "V111_to_A0_context_win_score": 0.3125,
+    "fraction_of_P1_total_uplift": 0.8333333333333334,
+    "interpretation": "fixed route0 plus initial footprint explains at least this much; footprint alone was not isolated"
+  },
+  "day6_switch_increment": 0.0625,
+  "day24_switch_increment": 0.0,
+  "candidate_summaries": {
+    "A0_psr_route_locked": "experiments/research_20260915_router_mechanism/candidates/A0_psr_route_locked/summary/complete.json",
+    "A1_psr_no_day6_switch": "experiments/research_20260915_router_mechanism/candidates/A1_psr_no_day6_switch/summary/complete.json",
+    "A2_psr_no_day24_switch": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/summary/complete.json"
+  }
+}

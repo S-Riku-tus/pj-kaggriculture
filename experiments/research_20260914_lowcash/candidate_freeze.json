@@ -1,0 +1,205 @@
+{
+  "created_at": "2026-09-14T12:50:54.643044+00:00",
+  "version": "v116_mooman_complete",
+  "hypothesis": "unmodified complete-policy comparison from initial state",
+  "identity": {
+    "source": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "archive": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+    "engine": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "engine_version": "1.32.7",
+    "engine_json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "evaluation_core": {
+      "divergence.py": "e1cce5ac792d97d132d6aa36dabd83417f527205722f0c4bd0ad77f47a41f7b9",
+      "lifecycle.py": "09c2971aff347bb615a08f0d43bc38de45e8fcfbaa8c43d4b44c3dc2efcca2c7",
+      "lineage.py": "797a066e94225a2524af59dd58e88b48b2814386a8383e86c00eb4410a911da3",
+      "registry.py": "34995e2bf064735b33f210d914a0344405646b41c658393348efc5e6033a79d9",
+      "replay.py": "572a57acb447b48ba8955417e2b46dcc8ce9a7ecdde3fbc9d02505effda63822",
+      "report.py": "c2a00fa98910063aab53f172d3a5a52f4a56aa1a448fa2a06656d5a9de96cd84",
+      "runner.py": "37e053f421f48ba3488b8ab5d37b85ad24e2476571d25ba7dd7f9ae6c41a25a9",
+      "safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+      "schema.py": "8045f554e64748addc197a2a2d3dafbd354814eae06ba3d2750ac32d73c049e8",
+      "statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+      "__init__.py": "b6fc7ff25d2d2174a63dd64d71de3ecf97acbc529545235b6189fefc4af84e9c"
+    }
+  },
+  "source": {
+    "candidate_id": "mooman_e052a",
+    "source_repository": "https://github.com/mooman0222/Kaggriculture-opencode.git",
+    "source_revision": "7e76c81417b3ce853f75ac4ad465d1b98ee2eeac",
+    "source_path": "artifacts\\opponent_pool\\current_20260910\\mooman\\agents\\kaito_v56_e052a.py",
+    "source_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+    "archive": "experiments\\research_20260910\\opponents\\mooman_e052a.tar.gz",
+    "archive_sha256": "abe66ef233b136964fe47c2c03a3abaddd0719a38eaaedb7f731ccd2892c1afe",
+    "entrypoint": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+    "original_callable": "agent_entry",
+    "tier": "executable acquired; completion validation pending",
+    "ancestry": "mooman",
+    "source_scope": "full published observation-dependent Agent; no fixed replay opponent"
+  },
+  "runtimes": {
+    "control": {
+      "archive": "experiments\\research_20260910\\champion_v111.tar.gz",
+      "archive_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+      "main": "experiments\\research_20260914_lowcash\\runtime\\control\\main.py",
+      "member_hashes": {
+        "main.py": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+        "NOTICE.md": "63429a456914cfc492e2a38408bc010f639de7baf8deb6f579d323e940068a0e",
+        "feature_schema.py": "8551eb6d5b1d25d8dc1e52957d62970a4274f31c2826ca6da3b85afebb4b45ff",
+        "public_v43_base.py": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+        "strategy_model.json": "5bd9f7c69e5226262c711196256ba148ccfdd24108c989251fa1f1440d46ee23",
+        "v109_base.py": "e1ac59d40f41b04dad9b673c22cc04a640646b190c67fc2158d898e1ddbaf464",
+        "v10_base.py": "b48f80d72cfe4c62f9d1232740bb8ae5585a4808bd0a5c0e22f94118e7d73c6d",
+        "v110_base.py": "3c5a8a5f443368c52ef3a914a7ed27e6204582d6ddf6d8996de9bdb76a428ddc",
+        "v11_base.py": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+        "v2_base.py": "fa5f5a07487531e3180bd33c7b8612f5414381778ec55940690dbcf07c1a1383",
+        "v3_base.py": "789f1315048010253553573ec120e985193dcae09fc3a9fcc199a9486d0381bb",
+        "v4_base.py": "8185bcfbfe6ea8fa0259dae69c59b70f27d9ac62ae1dc7fa2274fc3ef730d45d",
+        "v5_base.py": "a5e1e33ad79bb8d03847e55a5061e1f8c9dc343102ae3295dcc506091819ca87",
+        "v6_base.py": "19892316a5230bb5b58d08d35f32ba5f3b3282cd2d7c9a8904ac65cafcb6c024",
+        "v7_base.py": "94f14894b2861c570985e70508b96602cabfb3571acb3d8c63385ea5a0e69c59",
+        "v8_base.py": "ecca27be76c97d034771730e04d9a1bf1f27e62fac4bf72c4d9d62444ddd7ac5",
+        "v9_base.py": "9ff27930c9007d2f81b13f4f97a0a959c0b06901cf198cd9359703fe0e26b70b"
+      }
+    },
+    "v116_mooman_complete": {
+      "archive": "experiments\\research_20260914_lowcash\\v116_mooman_complete.tar.gz",
+      "archive_sha256": "32d246b6ead176827b0b7691055c5f5d984adf791cce14455ab096390fbcf165",
+      "main": "experiments\\research_20260914_lowcash\\runtime\\v116_mooman_complete\\main.py",
+      "member_hashes": {
+        "LICENSE": "5d5ea86bc939388171a37eb68bce368e6557ffb5dbd514fc303dab83a1c43aea",
+        "RESEARCH_STATUS.json": "834c40433111d3b3b3a6960d7f34378bda4716f5581891c352ea6373e3a2c7a9",
+        "main.py": "ea338090d389c5980e84d7eeea15565454e7e99ee5b4244a4e0bd631c60d03e7",
+        "policy.py": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d"
+      }
+    },
+    "mooman_e052a": {
+      "archive": "experiments\\research_20260910\\opponents\\mooman_e052a.tar.gz",
+      "archive_sha256": "abe66ef233b136964fe47c2c03a3abaddd0719a38eaaedb7f731ccd2892c1afe",
+      "main": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+      "member_hashes": {
+        "LICENSE": "5d5ea86bc939388171a37eb68bce368e6557ffb5dbd514fc303dab83a1c43aea",
+        "main.py": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+        "policy.py": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d"
+      }
+    },
+    "souvik_v4": {
+      "archive": "experiments\\research_20260910\\opponents\\souvik_v4.tar.gz",
+      "archive_sha256": "fb67f2fcba19ee7d60ff6bff871e37b9d1d6c62e25ad14de8ef8cb926ae94016",
+      "main": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+      "member_hashes": {
+        "main.py": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b"
+      }
+    },
+    "ggmljs_v16": {
+      "archive": "experiments\\research_20260910\\opponents\\ggmljs_v16.tar.gz",
+      "archive_sha256": "cd83d7060849dd116dce733eac0e57d8d970857e236d27be4fe527cf51a861ea",
+      "main": "experiments\\research_20260910\\runtime\\ggmljs_v16\\main.py",
+      "member_hashes": {
+        "LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+        "THIRD_PARTY_NOTICES.md": "684368587b38e934d5130f0ba016ddef32386a1fcfe08b2fa8f683cdf657bb76",
+        "main.py": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca"
+      }
+    },
+    "qeinstein_moev2": {
+      "archive": "experiments\\research_20260910\\opponents\\qeinstein_moev2.tar.gz",
+      "archive_sha256": "fa609b718dd4f324d7170bcec2b8f1629ed2d593fcd75e63dd34ad1f8b208131",
+      "main": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+      "member_hashes": {
+        "main.py": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c"
+      }
+    }
+  },
+  "required_file_hashes": {
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\docs\\research_20260914_preregistration.md": "f92aded480ef042c7a26af67c52f74070fb91d33820ee4de9d3fe23fc6c1b102",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\divergence.py": "e1cce5ac792d97d132d6aa36dabd83417f527205722f0c4bd0ad77f47a41f7b9",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\lifecycle.py": "09c2971aff347bb615a08f0d43bc38de45e8fcfbaa8c43d4b44c3dc2efcca2c7",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\lineage.py": "797a066e94225a2524af59dd58e88b48b2814386a8383e86c00eb4410a911da3",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\registry.py": "34995e2bf064735b33f210d914a0344405646b41c658393348efc5e6033a79d9",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\replay.py": "572a57acb447b48ba8955417e2b46dcc8ce9a7ecdde3fbc9d02505effda63822",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\report.py": "c2a00fa98910063aab53f172d3a5a52f4a56aa1a448fa2a06656d5a9de96cd84",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\runner.py": "9dae962678f3dc1f5fcb04c0f38a4501ab600a3e3b2a722fcef91357475068ff",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\safety.py": "b466f64d035038a992163f5b3250098c5147cf8a000d3743e3dcaac7560ea667",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\schema.py": "8045f554e64748addc197a2a2d3dafbd354814eae06ba3d2750ac32d73c049e8",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\statistics.py": "f66db35690ef4d391d5df540772fa20ee21524069d3363096f80fd65c0465c61",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\evaluation\\__init__.py": "b6fc7ff25d2d2174a63dd64d71de3ecf97acbc529545235b6189fefc4af84e9c",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\main.py": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\NOTICE.md": "63429a456914cfc492e2a38408bc010f639de7baf8deb6f579d323e940068a0e",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\feature_schema.py": "8551eb6d5b1d25d8dc1e52957d62970a4274f31c2826ca6da3b85afebb4b45ff",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\public_v43_base.py": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\strategy_model.json": "5bd9f7c69e5226262c711196256ba148ccfdd24108c989251fa1f1440d46ee23",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v109_base.py": "e1ac59d40f41b04dad9b673c22cc04a640646b190c67fc2158d898e1ddbaf464",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v10_base.py": "b48f80d72cfe4c62f9d1232740bb8ae5585a4808bd0a5c0e22f94118e7d73c6d",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v110_base.py": "3c5a8a5f443368c52ef3a914a7ed27e6204582d6ddf6d8996de9bdb76a428ddc",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v11_base.py": "cb871a560573332c466c061ffb40348d7470d6f3b40d84d9f0a278c4df1895f8",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v2_base.py": "fa5f5a07487531e3180bd33c7b8612f5414381778ec55940690dbcf07c1a1383",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v3_base.py": "789f1315048010253553573ec120e985193dcae09fc3a9fcc199a9486d0381bb",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v4_base.py": "8185bcfbfe6ea8fa0259dae69c59b70f27d9ac62ae1dc7fa2274fc3ef730d45d",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v5_base.py": "a5e1e33ad79bb8d03847e55a5061e1f8c9dc343102ae3295dcc506091819ca87",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v6_base.py": "19892316a5230bb5b58d08d35f32ba5f3b3282cd2d7c9a8904ac65cafcb6c024",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v7_base.py": "94f14894b2861c570985e70508b96602cabfb3571acb3d8c63385ea5a0e69c59",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v8_base.py": "ecca27be76c97d034771730e04d9a1bf1f27e62fac4bf72c4d9d62444ddd7ac5",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\control\\v9_base.py": "9ff27930c9007d2f81b13f4f97a0a959c0b06901cf198cd9359703fe0e26b70b",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\champion_v111.tar.gz": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\v116_mooman_complete\\LICENSE": "5d5ea86bc939388171a37eb68bce368e6557ffb5dbd514fc303dab83a1c43aea",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\v116_mooman_complete\\RESEARCH_STATUS.json": "834c40433111d3b3b3a6960d7f34378bda4716f5581891c352ea6373e3a2c7a9",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\v116_mooman_complete\\main.py": "ea338090d389c5980e84d7eeea15565454e7e99ee5b4244a4e0bd631c60d03e7",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\runtime\\v116_mooman_complete\\policy.py": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_lowcash\\v116_mooman_complete.tar.gz": "32d246b6ead176827b0b7691055c5f5d984adf791cce14455ab096390fbcf165",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\mooman_e052a\\LICENSE": "5d5ea86bc939388171a37eb68bce368e6557ffb5dbd514fc303dab83a1c43aea",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\mooman_e052a\\main.py": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\mooman_e052a\\policy.py": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\opponents\\mooman_e052a.tar.gz": "abe66ef233b136964fe47c2c03a3abaddd0719a38eaaedb7f731ccd2892c1afe",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\souvik_v4\\main.py": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\opponents\\souvik_v4.tar.gz": "fb67f2fcba19ee7d60ff6bff871e37b9d1d6c62e25ad14de8ef8cb926ae94016",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\ggmljs_v16\\LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\ggmljs_v16\\THIRD_PARTY_NOTICES.md": "684368587b38e934d5130f0ba016ddef32386a1fcfe08b2fa8f683cdf657bb76",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\ggmljs_v16\\main.py": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\opponents\\ggmljs_v16.tar.gz": "cd83d7060849dd116dce733eac0e57d8d970857e236d27be4fe527cf51a861ea",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+    "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260910\\opponents\\qeinstein_moev2.tar.gz": "fa609b718dd4f324d7170bcec2b8f1629ed2d593fcd75e63dd34ad1f8b208131"
+  },
+  "source_ids": [
+    "mooman_e052a",
+    "souvik_v4",
+    "ggmljs_v16",
+    "qeinstein_moev2"
+  ],
+  "discovery_seeds": [
+    10091011,
+    10091012,
+    10091013,
+    10091014
+  ],
+  "confirmation_seed_candidates": [
+    10091421,
+    10091422,
+    10091423,
+    10091424,
+    10091425,
+    10091426,
+    10091427,
+    10091428,
+    10091429,
+    10091430,
+    10091431,
+    10091432,
+    10091433,
+    10091434,
+    10091435,
+    10091436
+  ],
+  "isolate_packages": [
+    "kaggriculture"
+  ],
+  "fresh": "SEALED",
+  "submission": "DO_NOT_SUBMIT",
+  "pre_evaluation_amendments": [
+    {
+      "created_at": "2026-09-14T12:52:51.795106+00:00",
+      "reason": "qeinstein dynamically imports kaggriculture.* during play; keep current-game namespace until env.run ends",
+      "result_rows_before_amendment": 0
+    }
+  ]
+}

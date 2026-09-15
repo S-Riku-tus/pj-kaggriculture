@@ -1,0 +1,636 @@
+{
+  "created_at": "2026-09-14T15:09:28.809691+00:00",
+  "purpose": "independent recomputation from the 32 already-spent treatment replays",
+  "replay_scope": {
+    "contexts": 32,
+    "new_games": 0,
+    "spent": true
+  },
+  "source_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+  "prior_audit_sha256": "d7bd4d63e5d43b70b9582d8030c522545e7419c5f2d9fdb22f09e1f3a53aa206",
+  "prior_audit_gate_counts_match": true,
+  "by_source": {
+    "ggmljs_v16": {
+      "contexts": 8,
+      "tape": 0,
+      "tape2": 0,
+      "loss_to_win": 0,
+      "loss_to_win_raw_unsafe": 0,
+      "loss_to_win_raw_safe": 0
+    },
+    "mooman_e052a": {
+      "contexts": 8,
+      "tape": 0,
+      "tape2": 8,
+      "loss_to_win": 0,
+      "loss_to_win_raw_unsafe": 0,
+      "loss_to_win_raw_safe": 0
+    },
+    "qeinstein_moev2": {
+      "contexts": 8,
+      "tape": 0,
+      "tape2": 0,
+      "loss_to_win": 4,
+      "loss_to_win_raw_unsafe": 2,
+      "loss_to_win_raw_safe": 2
+    },
+    "souvik_v4": {
+      "contexts": 8,
+      "tape": 0,
+      "tape2": 8,
+      "loss_to_win": 6,
+      "loss_to_win_raw_unsafe": 6,
+      "loss_to_win_raw_safe": 0
+    }
+  },
+  "contexts": [
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_animal_loss",
+        "new_crop_to_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [],
+      "raw_safe": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [],
+      "raw_safe": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_crop_to_weed"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_crop_to_weed"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "win",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "win",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_spawned_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_market_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "draw",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_market_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "loss",
+      "treatment_result": "loss",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "loss",
+      "treatment_result": "loss",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_crop_to_weed"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "win",
+      "treatment_result": "win",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_crop_to_weed"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_spawned_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [],
+      "raw_safe": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [],
+      "raw_safe": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop",
+        "new_all_step_silent_market_noop",
+        "new_all_step_partial_market_commit"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "loss",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_crop_to_weed"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "loss",
+      "loss_to_win": false,
+      "raw_safety_reasons": [
+        "new_crop_to_weed"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_spawned_weed",
+        "new_all_step_silent_field_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_all_step_silent_market_noop"
+      ],
+      "raw_safe": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "control_result": "loss",
+      "treatment_result": "win",
+      "loss_to_win": true,
+      "raw_safety_reasons": [
+        "new_all_step_silent_market_noop"
+      ],
+      "raw_safe": false
+    }
+  ],
+  "causal_limit": "temporal co-occurrence and ablation targets; does not identify a single-action causal effect"
+}

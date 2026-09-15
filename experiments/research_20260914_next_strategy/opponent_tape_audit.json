@@ -1,0 +1,497 @@
+{
+  "created_at": "2026-09-14T14:00:47.775375+00:00",
+  "purpose": "Post-completion audit of whether v116_mooman_complete's hard-coded opponent-route tape gate fired in the spent 32-context discovery panel.",
+  "source": "artifacts\\opponent_pool\\current_20260910\\mooman\\agents\\kaito_v56_e052a.py",
+  "source_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+  "replay_scope": {
+    "contexts": 32,
+    "seeds": [
+      10091011,
+      10091012,
+      10091013,
+      10091014
+    ],
+    "both_seats": true,
+    "outcomes_already_spent": true
+  },
+  "gate_definition": {
+    "position_steps": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "minimum_position_hits": 7,
+    "tape2_requires_n13_gate": true,
+    "n13_interval_inclusive": [
+      10,
+      16
+    ],
+    "future_sell_horizon": 4,
+    "source_lines": {
+      "position_and_future_sell_tables": [
+        2606,
+        2613
+      ],
+      "observer": [
+        2616,
+        2649
+      ],
+      "future_prediction": [
+        2652,
+        2662
+      ]
+    }
+  },
+  "by_opponent": {
+    "ggmljs_v16": {
+      "contexts": 8,
+      "tape_signature_gate_matches": 0,
+      "tape2_signature_gate_matches": 0,
+      "tape2_exact_10_of_10": 0,
+      "candidate_delta_win_score": 0.0,
+      "loss_to_win": 0,
+      "candidate_wdl": [
+        8,
+        0,
+        0
+      ]
+    },
+    "mooman_e052a": {
+      "contexts": 8,
+      "tape_signature_gate_matches": 0,
+      "tape2_signature_gate_matches": 8,
+      "tape2_exact_10_of_10": 8,
+      "candidate_delta_win_score": 0.25,
+      "loss_to_win": 0,
+      "candidate_wdl": [
+        0,
+        8,
+        0
+      ]
+    },
+    "qeinstein_moev2": {
+      "contexts": 8,
+      "tape_signature_gate_matches": 0,
+      "tape2_signature_gate_matches": 0,
+      "tape2_exact_10_of_10": 0,
+      "candidate_delta_win_score": 0.5,
+      "loss_to_win": 4,
+      "candidate_wdl": [
+        6,
+        0,
+        2
+      ]
+    },
+    "souvik_v4": {
+      "contexts": 8,
+      "tape_signature_gate_matches": 0,
+      "tape2_signature_gate_matches": 8,
+      "tape2_exact_10_of_10": 8,
+      "candidate_delta_win_score": 0.75,
+      "loss_to_win": 6,
+      "candidate_wdl": [
+        6,
+        0,
+        2
+      ]
+    }
+  },
+  "contexts": [
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091011_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091011_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091012_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091012_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091013_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091013_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091014_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 0,
+      "step1_wheat_inventory": 9981,
+      "inferred_other_demand": 6,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\ggmljs_v16\\seed_10091014_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091011_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091011_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091012_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091012_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091013_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091013_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091014_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\mooman_e052a\\seed_10091014_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091011_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091011_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091012_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091012_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091013_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091013_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091014_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 7,
+      "step1_wheat_inventory": 9933,
+      "inferred_other_demand": 54,
+      "n13_gate": false,
+      "selected_mode": "other",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\qeinstein_moev2\\seed_10091014_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091011_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091011_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091012_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091012_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091013_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091013_seat_1\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091014_seat_0\\treatment.json.gz"
+    },
+    {
+      "opponent": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "tape_position_hits": 0,
+      "tape2_position_hits": 10,
+      "step1_wheat_inventory": 9973,
+      "inferred_other_demand": 14,
+      "n13_gate": true,
+      "selected_mode": "tape2",
+      "replay": "data\\evaluation\\research_20260914_lowcash\\discovery\\replays\\discovery\\souvik_v4\\seed_10091014_seat_1\\treatment.json.gz"
+    }
+  ],
+  "interpretation": [
+    "The tape2 gate fires in every mooman_e052a and souvik_v4 context and never fires for ggmljs_v16 or qeinstein_moev2.",
+    "The mooman_e052a block is also a self-match. The souvik_v4 uplift is therefore confounded with exact known-route recognition and its hard-coded future sell schedule.",
+    "The qeinstein_moev2 uplift remains independent of this tape2 gate, but the only raw-Safety-clean L-to-W result is both seats of one seed block."
+  ]
+}

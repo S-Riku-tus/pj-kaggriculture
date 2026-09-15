@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-14T16:19:24.620775+00:00",
+  "P1_static": {
+    "candidate": "P1_psr_clean",
+    "parsed": true,
+    "top_level_imports": [
+      "base64",
+      "json",
+      "sys",
+      "zlib"
+    ],
+    "forbidden_symbol_references": [],
+    "forbidden_identity_literals": [],
+    "seed_or_episode_like_integer_constants": [],
+    "opponent_private_access": false,
+    "future_rng_or_unpublished_shop_access": false,
+    "fixed_known_opponent_position_or_sell_table": false,
+    "allowed_public_opponent_farm_use": true,
+    "passed": true,
+    "scope_note": "P1 uses current public own/rival farm, town, market and own private state at block boundaries; embedded _TAPES are the candidate's own fixed routes, not opponent signatures."
+  },
+  "D1_static": {
+    "candidate": "D1_e052a_no_opponent_tape",
+    "parsed": true,
+    "top_level_imports": [
+      "ResidualConfig",
+      "base64",
+      "build_route_value_hybrid",
+      "json",
+      "safe_action",
+      "sys",
+      "types",
+      "zlib"
+    ],
+    "forbidden_symbol_references": [],
+    "forbidden_identity_literals": [],
+    "seed_or_episode_like_integer_constants": [],
+    "opponent_private_access": false,
+    "future_rng_or_unpublished_shop_access": false,
+    "fixed_known_opponent_position_or_sell_table": false,
+    "allowed_public_opponent_farm_use": false,
+    "passed": true,
+    "scope_note": "D1 keeps v116's non-tape layers for diagnostic comparability."
+  },
+  "runtime": {
+    "observation_top_level_keys": [
+      "day",
+      "farms",
+      "hour",
+      "market",
+      "player",
+      "private",
+      "remainingOverageTime",
+      "town"
+    ],
+    "forbidden_identity_keys_present": [],
+    "agent_exceptions": 0,
+    "fallback_steps": 0,
+    "isolation": "fresh package load per game; kaggriculture module isolated; step-0 reset tested"
+  },
+  "passed": true,
+  "scope_limit": "Runtime observation contains public state and own private state only; static audit establishes that P1 has no opponent identity/seed/tape lookup path."
+}

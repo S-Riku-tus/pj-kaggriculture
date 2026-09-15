@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-14T13:28:00+00:00",
+  "python_compile": {
+    "command": ".venv/Scripts/python.exe -m py_compile scripts/research_20260914.py scripts/evaluation/runner.py scripts/evaluation/divergence.py",
+    "passed": true
+  },
+  "tests": {
+    "command": ".venv/Scripts/pytest.exe -q tests/test_continuations_20260911.py",
+    "passed": true,
+    "count": 9
+  },
+  "diff_check": {
+    "command": "git diff --check",
+    "passed": true
+  },
+  "ruff": {
+    "command": ".venv/Scripts/ruff.exe check scripts/research_20260914.py scripts/finalize_research_20260914.py scripts/evaluation/runner.py scripts/evaluation/divergence.py",
+    "passed": false,
+    "scope": "new orchestration/finalization scripts",
+    "reason": "72 style findings, primarily line length; no syntax or test failure. Files were not reformatted after execution because the discovery phase plan freezes the executed driver SHA256. Evaluation core is checked separately."
+  },
+  "evaluation_core_ruff": {
+    "command": ".venv/Scripts/ruff.exe check scripts/evaluation/runner.py scripts/evaluation/divergence.py",
+    "passed": true
+  }
+}

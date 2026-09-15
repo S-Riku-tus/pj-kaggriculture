@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-15T03:27:43.110354+00:00",
+  "mechanisms": [
+    {
+      "rank": 1,
+      "name": "fixed route0 total policy and initial WHEAT footprint",
+      "changes": [
+        "own private inventory",
+        "market WHEAT inventory/price",
+        "complete own portfolio"
+      ],
+      "commonality": "P1-specific complete route; D1 shares some market footprint but not the exact policy",
+      "evidence": "A0 paired result and step1 public divergence",
+      "inference": "closed-loop opponent response may mediate later margin",
+      "unknown": "single action causal effect",
+      "v111_implementation": "no repository-owned equivalent complete suffix established",
+      "completeness": "complete only inside research-only P1 tape",
+      "risks": [
+        "license derivative",
+        "Safety",
+        "fixed-route expression"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "day6 Town-demand route selection",
+      "changes": [
+        "route block144:288"
+      ],
+      "commonality": "P1 router only",
+      "evidence": "P1-A1 contrast",
+      "inference": "Town scarcity adaptation",
+      "unknown": "source-independent transfer",
+      "v111_implementation": "not yet state-compatible",
+      "completeness": "PSR route block only",
+      "risks": [
+        "identity proxy",
+        "license derivative",
+        "Safety"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "day24 CARROT-price route selection",
+      "changes": [
+        "route block576:719"
+      ],
+      "commonality": "P1 router only",
+      "evidence": "P1-A2 contrast",
+      "inference": "late market response",
+      "unknown": "realizable safe revenue",
+      "v111_implementation": "no complete rejoin contract",
+      "completeness": "PSR route block only",
+      "risks": [
+        "terminal inventory",
+        "license derivative",
+        "Safety"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "generic current-state contract validation",
+      "changes": [
+        "preflight",
+        "per-step legality",
+        "maintenance invariants"
+      ],
+      "commonality": "general contract; V111 already has repository-owned execution",
+      "evidence": "P1 multi-family no-op/lifecycle failures show need",
+      "inference": "could improve robustness",
+      "unknown": "positive win value in two sources",
+      "v111_implementation": "possible but no qualifying positive mechanism isolated",
+      "completeness": "can be defined but would be Safety repair, excluded by this study",
+      "risks": [
+        "scope drift",
+        "no uplift"
+      ]
+    }
+  ],
+  "router_value_gate": false,
+  "identity_proxy_decision": "NO_KNOWN_SOURCE_PROXY_ESTABLISHED_ON_SPENT_PANEL",
+  "fixed_parameters": "source boundaries only; no threshold or outcome search",
+  "measured_conclusion": {
+    "fixed_route0_plus_initial_footprint": {
+      "delta_vs_V111": 0.3125,
+      "P1_fraction": 0.8333333333333334,
+      "rank": 1
+    },
+    "day6_Town_router": {
+      "delta_P1_minus_A1": 0.0625,
+      "positive_blocks": 1,
+      "positive_sources": 1,
+      "rank": 2,
+      "transfer_gate": false
+    },
+    "day24_CARROT_price_router": {
+      "delta_P1_minus_A2": 0.0,
+      "rank": 3,
+      "transfer_gate": false
+    },
+    "generic_execution_contract": {
+      "positive_mechanism_isolated": false,
+      "rank": 4,
+      "excluded_as_P1_safety_repair": true
+    }
+  }
+}

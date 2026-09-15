@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-14T14:22:10.428268+00:00",
+  "notebook_url": "https://www.kaggle.com/code/thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+  "api_url": "https://www.kaggle.com/api/v1/kernels/pull/thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+  "fetched_at": "2026-09-14T14:18:05.838673+00:00",
+  "http_status": 200,
+  "raw_response": "acquisition/notebook/kernels_pull_response.json",
+  "raw_response_sha256": "5fbcca124746f1b2d39f0b4298c9bb039330dc1c95a669338f20a4149514bdfb",
+  "notebook": "acquisition/notebook/payload_1.ipynb",
+  "notebook_sha256": "f66c0937857d03358961e12f06c3ee2fddfa07708a517869d5f2dd04732c6c83",
+  "notebook_version": 3,
+  "last_run_time": "2026-09-11T14:18:05.710089Z",
+  "title": "Kaggriculture: 93.8% Win Rate Public State Router ",
+  "author": "Thomas Tschinkel",
+  "public": true,
+  "license": {
+    "spdx": "Apache-2.0",
+    "basis": "Kaggle notebook page license panel, independently observed on 2026-09-14",
+    "page_url": "https://www.kaggle.com/code/thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "transitive_route_data": "UNVERIFIED: notebook text refers to provenance.json, but the acquired notebook has no such file/input"
+  },
+  "extraction": {
+    "cell_id": "cell_write_main",
+    "cell_source_sha256": "c703efac84ac394e08cacdd8a3be5ab5d35bed70f9e4f16fc0460d98a72a67fa",
+    "magic_removed": "%%writefile main.py\\n"
+  },
+  "current_main": "extracted_source/current_v3_main_exact.py",
+  "current_main_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+  "native_callable": "agent",
+  "dependency_files": [],
+  "runtime_imports": [
+    "base64",
+    "json",
+    "sys",
+    "zlib"
+  ],
+  "standalone_complete": true,
+  "fallback_not_used_for_P1": true,
+  "embedded_fallback": {
+    "container_source": "artifacts\\opponent_pool\\current_20260910\\mooman\\agents\\kaito_v56_e052a.py",
+    "container_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+    "ast_assignment": "_PSR_SOURCE",
+    "decoded_path": "extracted_source/embedded_psr_exact.py",
+    "decoded_sha256": "bda0140471e954e56a38de93a03b2986498ae2c6b433656f17546e67bd4df49b",
+    "same_as_current_v3": false
+  }
+}

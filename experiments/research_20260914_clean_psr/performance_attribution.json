@@ -1,0 +1,1246 @@
+{
+  "created_at": "2026-09-14T16:16:50.148084+00:00",
+  "r0_to_d1": {
+    "left": "R0_v116_frozen_reference",
+    "right": "D1_e052a_no_opponent_tape",
+    "note": "Minimal known-opponent position gate and future SELL-table ablation.",
+    "overall_delta_win_score": -0.03125,
+    "by_source": {
+      "mooman_e052a": {
+        "delta_win_score": -0.125,
+        "result_transitions": {
+          "draw->loss": 4,
+          "draw->draw": 2,
+          "draw->win": 2
+        },
+        "action_diverged_contexts": 6
+      },
+      "souvik_v4": {
+        "delta_win_score": 0.0,
+        "result_transitions": {
+          "win->win": 6,
+          "loss->loss": 2
+        },
+        "action_diverged_contexts": 6
+      },
+      "ggmljs_v16": {
+        "delta_win_score": 0.0,
+        "result_transitions": {
+          "win->win": 8
+        },
+        "action_diverged_contexts": 0
+      },
+      "qeinstein_moev2": {
+        "delta_win_score": 0.0,
+        "result_transitions": {
+          "loss->loss": 2,
+          "win->win": 6
+        },
+        "action_diverged_contexts": 0
+      }
+    },
+    "pairs": [
+      {
+        "key": [
+          "ggmljs_v16",
+          10091011,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091011,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091012,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091012,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091013,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091013,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091014,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091014,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091011,
+          0
+        ],
+        "result_transition": "draw->loss",
+        "delta_win_score": -0.5,
+        "delta_self_coin": -209.0,
+        "delta_opponent_coin": 239.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091011,
+          1
+        ],
+        "result_transition": "draw->loss",
+        "delta_win_score": -0.5,
+        "delta_self_coin": -209.0,
+        "delta_opponent_coin": 239.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091012,
+          0
+        ],
+        "result_transition": "draw->draw",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091012,
+          1
+        ],
+        "result_transition": "draw->draw",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091013,
+          0
+        ],
+        "result_transition": "draw->loss",
+        "delta_win_score": -0.5,
+        "delta_self_coin": -7.0,
+        "delta_opponent_coin": 63.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091013,
+          1
+        ],
+        "result_transition": "draw->loss",
+        "delta_win_score": -0.5,
+        "delta_self_coin": -7.0,
+        "delta_opponent_coin": 63.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091014,
+          0
+        ],
+        "result_transition": "draw->win",
+        "delta_win_score": 0.5,
+        "delta_self_coin": 121.0,
+        "delta_opponent_coin": -252.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091014,
+          1
+        ],
+        "result_transition": "draw->win",
+        "delta_win_score": 0.5,
+        "delta_self_coin": 121.0,
+        "delta_opponent_coin": -252.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091011,
+          0
+        ],
+        "result_transition": "loss->loss",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091011,
+          1
+        ],
+        "result_transition": "loss->loss",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091012,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091012,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091013,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091013,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091014,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091014,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091011,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 228.0,
+        "delta_opponent_coin": -208.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091011,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 228.0,
+        "delta_opponent_coin": -208.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091012,
+          0
+        ],
+        "result_transition": "loss->loss",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091012,
+          1
+        ],
+        "result_transition": "loss->loss",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 0.0,
+        "delta_opponent_coin": 0.0,
+        "first_action_divergence_step": null
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091013,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -517.0,
+        "delta_opponent_coin": 478.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091013,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -517.0,
+        "delta_opponent_coin": 478.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091014,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -219.0,
+        "delta_opponent_coin": 205.0,
+        "first_action_divergence_step": 385
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091014,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -219.0,
+        "delta_opponent_coin": 205.0,
+        "first_action_divergence_step": 385
+      }
+    ]
+  },
+  "d1_to_p1": {
+    "left": "D1_e052a_no_opponent_tape",
+    "right": "P1_psr_clean",
+    "note": "Multiple layers change; this is not a single-component effect.",
+    "overall_delta_win_score": 0.03125,
+    "by_source": {
+      "mooman_e052a": {
+        "delta_win_score": -0.125,
+        "result_transitions": {
+          "loss->win": 2,
+          "draw->loss": 2,
+          "loss->loss": 2,
+          "win->loss": 2
+        },
+        "action_diverged_contexts": 8
+      },
+      "souvik_v4": {
+        "delta_win_score": 0.25,
+        "result_transitions": {
+          "win->win": 6,
+          "loss->win": 2
+        },
+        "action_diverged_contexts": 8
+      },
+      "ggmljs_v16": {
+        "delta_win_score": 0.0,
+        "result_transitions": {
+          "win->win": 8
+        },
+        "action_diverged_contexts": 8
+      },
+      "qeinstein_moev2": {
+        "delta_win_score": 0.0,
+        "result_transitions": {
+          "loss->win": 2,
+          "win->win": 4,
+          "win->loss": 2
+        },
+        "action_diverged_contexts": 8
+      }
+    },
+    "pairs": [
+      {
+        "key": [
+          "ggmljs_v16",
+          10091011,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 26696.0,
+        "delta_opponent_coin": 9668.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091011,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 9320.0,
+        "delta_opponent_coin": 1786.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091012,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 1560.0,
+        "delta_opponent_coin": -232.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091012,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 1560.0,
+        "delta_opponent_coin": -232.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091013,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -5268.0,
+        "delta_opponent_coin": 2539.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091013,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -5268.0,
+        "delta_opponent_coin": 2539.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091014,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 4001.0,
+        "delta_opponent_coin": 7809.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091014,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 4001.0,
+        "delta_opponent_coin": 7809.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091011,
+          0
+        ],
+        "result_transition": "loss->win",
+        "delta_win_score": 1.0,
+        "delta_self_coin": 1745.0,
+        "delta_opponent_coin": -2761.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091011,
+          1
+        ],
+        "result_transition": "loss->win",
+        "delta_win_score": 1.0,
+        "delta_self_coin": 1745.0,
+        "delta_opponent_coin": -2761.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091012,
+          0
+        ],
+        "result_transition": "draw->loss",
+        "delta_win_score": -0.5,
+        "delta_self_coin": 7062.0,
+        "delta_opponent_coin": 11252.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091012,
+          1
+        ],
+        "result_transition": "draw->loss",
+        "delta_win_score": -0.5,
+        "delta_self_coin": 7062.0,
+        "delta_opponent_coin": 11252.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091013,
+          0
+        ],
+        "result_transition": "loss->loss",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 24774.0,
+        "delta_opponent_coin": 25417.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091013,
+          1
+        ],
+        "result_transition": "loss->loss",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 24774.0,
+        "delta_opponent_coin": 25417.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091014,
+          0
+        ],
+        "result_transition": "win->loss",
+        "delta_win_score": -1.0,
+        "delta_self_coin": -37010.0,
+        "delta_opponent_coin": -30951.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091014,
+          1
+        ],
+        "result_transition": "win->loss",
+        "delta_win_score": -1.0,
+        "delta_self_coin": -37010.0,
+        "delta_opponent_coin": -30951.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091011,
+          0
+        ],
+        "result_transition": "loss->win",
+        "delta_win_score": 1.0,
+        "delta_self_coin": 19025.0,
+        "delta_opponent_coin": 10095.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091011,
+          1
+        ],
+        "result_transition": "loss->win",
+        "delta_win_score": 1.0,
+        "delta_self_coin": 19025.0,
+        "delta_opponent_coin": 10095.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091012,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 6396.0,
+        "delta_opponent_coin": 2413.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091012,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 6396.0,
+        "delta_opponent_coin": 2413.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091013,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -26447.0,
+        "delta_opponent_coin": -16896.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091013,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": -26447.0,
+        "delta_opponent_coin": -16896.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091014,
+          0
+        ],
+        "result_transition": "win->loss",
+        "delta_win_score": -1.0,
+        "delta_self_coin": 149.0,
+        "delta_opponent_coin": 3814.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091014,
+          1
+        ],
+        "result_transition": "win->loss",
+        "delta_win_score": -1.0,
+        "delta_self_coin": 149.0,
+        "delta_opponent_coin": 3814.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091011,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 27269.0,
+        "delta_opponent_coin": 4603.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091011,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 27269.0,
+        "delta_opponent_coin": 4603.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091012,
+          0
+        ],
+        "result_transition": "loss->win",
+        "delta_win_score": 1.0,
+        "delta_self_coin": 4612.0,
+        "delta_opponent_coin": -5732.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091012,
+          1
+        ],
+        "result_transition": "loss->win",
+        "delta_win_score": 1.0,
+        "delta_self_coin": 4612.0,
+        "delta_opponent_coin": -5732.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091013,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 3915.0,
+        "delta_opponent_coin": -12713.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091013,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 3915.0,
+        "delta_opponent_coin": -12713.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091014,
+          0
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 18361.0,
+        "delta_opponent_coin": 1041.0,
+        "first_action_divergence_step": 1
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091014,
+          1
+        ],
+        "result_transition": "win->win",
+        "delta_win_score": 0.0,
+        "delta_self_coin": 18361.0,
+        "delta_opponent_coin": 1041.0,
+        "first_action_divergence_step": 1
+      }
+    ]
+  },
+  "safe_route_offline_oracle": {
+    "scope": "sample-in offline upper bound over raw-safe routes only",
+    "not_a_deployable_selector": true,
+    "contexts_with_any_safe_route": 4,
+    "mean_gain_treating_no_safe_route_as_zero": 0.0625,
+    "rows": [
+      {
+        "key": [
+          "ggmljs_v16",
+          10091011,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091011,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091012,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091012,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091013,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091013,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091014,
+          0
+        ],
+        "safe_routes": [
+          {
+            "candidate": "R0_v116_frozen_reference",
+            "score": 1.0,
+            "result": "win"
+          },
+          {
+            "candidate": "D1_e052a_no_opponent_tape",
+            "score": 1.0,
+            "result": "win"
+          }
+        ],
+        "selected": {
+          "candidate": "R0_v116_frozen_reference",
+          "score": 1.0,
+          "result": "win"
+        },
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "ggmljs_v16",
+          10091014,
+          1
+        ],
+        "safe_routes": [
+          {
+            "candidate": "R0_v116_frozen_reference",
+            "score": 1.0,
+            "result": "win"
+          },
+          {
+            "candidate": "D1_e052a_no_opponent_tape",
+            "score": 1.0,
+            "result": "win"
+          }
+        ],
+        "selected": {
+          "candidate": "R0_v116_frozen_reference",
+          "score": 1.0,
+          "result": "win"
+        },
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091011,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091011,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091012,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091012,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091013,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091013,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091014,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "mooman_e052a",
+          10091014,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091011,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091011,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091012,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091012,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091013,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091013,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091014,
+          0
+        ],
+        "safe_routes": [
+          {
+            "candidate": "R0_v116_frozen_reference",
+            "score": 1.0,
+            "result": "win"
+          },
+          {
+            "candidate": "D1_e052a_no_opponent_tape",
+            "score": 1.0,
+            "result": "win"
+          }
+        ],
+        "selected": {
+          "candidate": "R0_v116_frozen_reference",
+          "score": 1.0,
+          "result": "win"
+        },
+        "gain_over_v111": 1.0
+      },
+      {
+        "key": [
+          "qeinstein_moev2",
+          10091014,
+          1
+        ],
+        "safe_routes": [
+          {
+            "candidate": "R0_v116_frozen_reference",
+            "score": 1.0,
+            "result": "win"
+          },
+          {
+            "candidate": "D1_e052a_no_opponent_tape",
+            "score": 1.0,
+            "result": "win"
+          }
+        ],
+        "selected": {
+          "candidate": "R0_v116_frozen_reference",
+          "score": 1.0,
+          "result": "win"
+        },
+        "gain_over_v111": 1.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091011,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091011,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091012,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091012,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091013,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091013,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091014,
+          0
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      },
+      {
+        "key": [
+          "souvik_v4",
+          10091014,
+          1
+        ],
+        "safe_routes": [],
+        "selected": null,
+        "gain_over_v111": 0.0
+      }
+    ]
+  },
+  "causal_limit": "Temporal order and coin mediation do not identify a single-action causal effect."
+}

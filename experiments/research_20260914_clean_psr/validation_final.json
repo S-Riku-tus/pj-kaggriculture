@@ -1,0 +1,317 @@
+{
+  "created_at": "2026-09-14T16:25:48.946054+00:00",
+  "passed": true,
+  "checks": {
+    "py_compile_all_new_and_frozen": true,
+    "research_scripts_ruff": true,
+    "frozen_external_ruff_executed": true,
+    "frozen_sources_unmodified": true,
+    "candidate_packages_match": true,
+    "evaluation_core_tests": true,
+    "preflight_import_reset_isolation": true,
+    "aa_all": true,
+    "spent_pairs_complete_unique": true,
+    "control_reproduction": true,
+    "duplicate_preserved_and_identical": true,
+    "reserved_seeds_unused": true,
+    "no_process_remaining": true,
+    "artifact_manifest_hashes": true,
+    "final_decision": true
+  },
+  "py_compile": {
+    "command": [
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\python.exe",
+      "-m",
+      "py_compile",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\acquire_clean_psr_source.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\prepare_clean_psr_candidates.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\audit_clean_psr_prerun.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\finalize_clean_psr_prerun.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\run_clean_psr_research.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\reconcile_clean_psr_duplicates.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\finalize_clean_psr_research.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\verify_clean_psr_final.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\main.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_clean_psr\\candidates\\P1_psr_clean\\main.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "research_scripts_ruff": {
+    "command": [
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\ruff.exe",
+      "check",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\acquire_clean_psr_source.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\prepare_clean_psr_candidates.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\audit_clean_psr_prerun.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\finalize_clean_psr_prerun.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\run_clean_psr_research.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\reconcile_clean_psr_duplicates.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\finalize_clean_psr_research.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\scripts\\verify_clean_psr_final.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  "frozen_external_source_ruff": {
+    "command": [
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\ruff.exe",
+      "check",
+      "--output-format",
+      "concise",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\main.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py",
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\research_20260914_clean_psr\\candidates\\P1_psr_clean\\main.py"
+    ],
+    "returncode": 1,
+    "stdout": "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\main.py:1:1: I001 [*] Import block is un-sorted or un-formatted\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:7:1: I001 [*] Import block is un-sorted or un-formatted\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:15:1: UP034 [*] Avoid extraneous parentheses\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1631:1: UP034 [*] Avoid extraneous parentheses\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1787:1: E402 Module level import not at top of file\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1788:1: E402 Module level import not at top of file\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1789:1: E402 Module level import not at top of file\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1791:121: E501 Line too long (395 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1812:1: UP034 [*] Avoid extraneous parentheses\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1966:121: E501 Line too long (589 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1972:1: UP034 [*] Avoid extraneous parentheses\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2127:1: UP034 [*] Avoid extraneous parentheses\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2279:121: E501 Line too long (12060 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2317:5: F811 Redefinition of unused `agent` from line 1795: `agent` redefined here\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2413:121: E501 Line too long (123 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2577:121: E501 Line too long (125 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2679:20: UP038 Use `X | Y` in `isinstance` call instead of `(X, Y)`\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2723:121: E501 Line too long (128 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2800:19: UP034 [*] Avoid extraneous parentheses\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2933:121: E501 Line too long (45592 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2966:121: E501 Line too long (132 > 120)\nexperiments\\research_20260914_clean_psr\\candidates\\P1_psr_clean\\main.py:643:24: B905 [*] `zip()` without an explicit `strict=` parameter\nFound 22 errors.\n[*] 9 fixable with the `--fix` option (1 hidden fix can be enabled with the `--unsafe-fixes` option).\n",
+    "stderr": "",
+    "finding_count": 22,
+    "findings": [
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\main.py:1:1: I001 [*] Import block is un-sorted or un-formatted",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:7:1: I001 [*] Import block is un-sorted or un-formatted",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:15:1: UP034 [*] Avoid extraneous parentheses",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1631:1: UP034 [*] Avoid extraneous parentheses",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1787:1: E402 Module level import not at top of file",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1788:1: E402 Module level import not at top of file",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1789:1: E402 Module level import not at top of file",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1791:121: E501 Line too long (395 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1812:1: UP034 [*] Avoid extraneous parentheses",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1966:121: E501 Line too long (589 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:1972:1: UP034 [*] Avoid extraneous parentheses",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2127:1: UP034 [*] Avoid extraneous parentheses",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2279:121: E501 Line too long (12060 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2317:5: F811 Redefinition of unused `agent` from line 1795: `agent` redefined here",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2413:121: E501 Line too long (123 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2577:121: E501 Line too long (125 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2679:20: UP038 Use `X | Y` in `isinstance` call instead of `(X, Y)`",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2723:121: E501 Line too long (128 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2800:19: UP034 [*] Avoid extraneous parentheses",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2933:121: E501 Line too long (45592 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\D1_e052a_no_opponent_tape\\policy.py:2966:121: E501 Line too long (132 > 120)",
+      "experiments\\research_20260914_clean_psr\\candidates\\P1_psr_clean\\main.py:643:24: B905 [*] `zip()` without an explicit `strict=` parameter"
+    ],
+    "disposition": "Not auto-fixed: D1 is a minimal line-preserving ablation and P1 is an exact acquired source; editing either would invalidate candidate hashes. Findings are style/static-modernization only, while py_compile/import/A-A/runtime evaluation passed."
+  },
+  "evaluation_core_pytest": {
+    "command": [
+      "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\pytest.exe",
+      "-q",
+      "tests/test_champion_challenger_evaluation.py",
+      "tests/test_continuations_20260911.py"
+    ],
+    "returncode": 0,
+    "stdout": "...................                                                      [100%]\n",
+    "stderr": ""
+  },
+  "source_hashes": {
+    "D1": {
+      "expected": "e465bdcce3cc6560abafcdc916f06843b111e79c2c625dcdd74db47ec7f7279b",
+      "actual": "e465bdcce3cc6560abafcdc916f06843b111e79c2c625dcdd74db47ec7f7279b"
+    },
+    "P1": {
+      "expected": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+      "actual": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434"
+    }
+  },
+  "package_hashes": {
+    "D1": {
+      "expected": "5f4203c9974a3cf4ca1b26a1ea7fda0cd8a5fb4728a42605babab9df9dd49f4d",
+      "actual": "5f4203c9974a3cf4ca1b26a1ea7fda0cd8a5fb4728a42605babab9df9dd49f4d"
+    },
+    "P1": {
+      "expected": "9e48f29463fd386f93157854aa8777b28d9e584ee4c648bf8a7c21caed508334",
+      "actual": "9e48f29463fd386f93157854aa8777b28d9e584ee4c648bf8a7c21caed508334"
+    }
+  },
+  "pair_checks": {
+    "D1_e052a_no_opponent_tape": {
+      "rows": 32,
+      "unique_full_pair_keys": 32,
+      "all_completed_720": true
+    },
+    "P1_psr_clean": {
+      "rows": 32,
+      "unique_full_pair_keys": 32,
+      "all_completed_720": true
+    }
+  },
+  "aa": {
+    "V111": true,
+    "D1_e052a_no_opponent_tape": true,
+    "P1_psr_clean": true
+  },
+  "manifest_entries": {
+    "docs/research_20260914_clean_psr_preregistration.md": {
+      "exists": true,
+      "expected": "274e1b93601438c83ebe6636d904e7d8ba403705d377e908fe743b8c5908b515",
+      "actual": "274e1b93601438c83ebe6636d904e7d8ba403705d377e908fe743b8c5908b515",
+      "ok": true
+    },
+    "docs/research_20260914_clean_psr_report.md": {
+      "exists": true,
+      "expected": "4e1eaa4066d9b783f5fd02bd8e4add221c94510c91f0b1908d24491684963229",
+      "actual": "4e1eaa4066d9b783f5fd02bd8e4add221c94510c91f0b1908d24491684963229",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/manifest.json": {
+      "exists": true,
+      "expected": "e0f218c852358ab0431664b8253c52b603cb427cc2540fed62b2634170d75fc9",
+      "actual": "e0f218c852358ab0431664b8253c52b603cb427cc2540fed62b2634170d75fc9",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/source_acquisition.json": {
+      "exists": true,
+      "expected": "afc66c8ef633d1e4f377e4278b6f53ae6e3b12a5a839625b4d44dbafff5f3702",
+      "actual": "afc66c8ef633d1e4f377e4278b6f53ae6e3b12a5a839625b4d44dbafff5f3702",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/source_layer_map.json": {
+      "exists": true,
+      "expected": "92befcc830ace1702078e64587dd36f37c17c046a621c69230635cab4bde566e",
+      "actual": "92befcc830ace1702078e64587dd36f37c17c046a621c69230635cab4bde566e",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/tape_confounding_audit.json": {
+      "exists": true,
+      "expected": "eab17f19dacc68aaf6926975a5d52f4c3e27ccc52ca7766eeafe47d8c0d61a52",
+      "actual": "eab17f19dacc68aaf6926975a5d52f4c3e27ccc52ca7766eeafe47d8c0d61a52",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/safety_first_event_map.json": {
+      "exists": true,
+      "expected": "edd5c31a87cf3a8916e4766042ee1be586256578975c0ef15127b5f105eff057",
+      "actual": "edd5c31a87cf3a8916e4766042ee1be586256578975c0ef15127b5f105eff057",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/candidate_integrity.json": {
+      "exists": true,
+      "expected": "2e1b61a611953b68e7ccd0828d024edd39e97500af1f09f427b88a4fd59f2cc6",
+      "actual": "2e1b61a611953b68e7ccd0828d024edd39e97500af1f09f427b88a4fd59f2cc6",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/performance_attribution.json": {
+      "exists": true,
+      "expected": "0c36c5fe1f49b0e855ad054b098e14a6ade154f813d977f5b29968c06c329de9",
+      "actual": "0c36c5fe1f49b0e855ad054b098e14a6ade154f813d977f5b29968c06c329de9",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/seed_ledger.json": {
+      "exists": true,
+      "expected": "3c5e7cff307958b370df9e6da620071b8900a0e1e2ce6b43019e58d173c4527e",
+      "actual": "3c5e7cff307958b370df9e6da620071b8900a0e1e2ce6b43019e58d173c4527e",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/final_decision.json": {
+      "exists": true,
+      "expected": "98d6134d689bf320083b0f8c47a8096d243d7411399acda62080818cf0157ac2",
+      "actual": "98d6134d689bf320083b0f8c47a8096d243d7411399acda62080818cf0157ac2",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/final_artifact_verification.json": {
+      "exists": true,
+      "expected": "33e6e7c1765fc427d70767f696f0768de116a4681ade16985aa661ad9337f48a",
+      "actual": "33e6e7c1765fc427d70767f696f0768de116a4681ade16985aa661ad9337f48a",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/control_reproduction.json": {
+      "exists": true,
+      "expected": "cebdb13286a8694f0ddc308b288e078bc76d93ab37aaba3e4248b90875d73bd7",
+      "actual": "cebdb13286a8694f0ddc308b288e078bc76d93ab37aaba3e4248b90875d73bd7",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/forbidden_feature_audit.json": {
+      "exists": true,
+      "expected": "178e0b2f868ce38582a441ceac77846f58ec19542515bc0537d6c3d5510d21ca",
+      "actual": "178e0b2f868ce38582a441ceac77846f58ec19542515bc0537d6c3d5510d21ca",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/primary_discovery_gate.json": {
+      "exists": true,
+      "expected": "4de6ca847dcda4e6fb701e5cb18f162de02e6c8e86eac2c280f980144a1c8a57",
+      "actual": "4de6ca847dcda4e6fb701e5cb18f162de02e6c8e86eac2c280f980144a1c8a57",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/p2_decision.json": {
+      "exists": true,
+      "expected": "6f6436ba3ee35f9b431009d229cc841d7744600bddb362cebc277abeff21489c",
+      "actual": "6f6436ba3ee35f9b431009d229cc841d7744600bddb362cebc277abeff21489c",
+      "ok": true
+    },
+    "scripts/acquire_clean_psr_source.py": {
+      "exists": true,
+      "expected": "b78b55df361a9bb79c8c30566713b8a372c6dc1538bfe85ad9cf6c388a38d86b",
+      "actual": "b78b55df361a9bb79c8c30566713b8a372c6dc1538bfe85ad9cf6c388a38d86b",
+      "ok": true
+    },
+    "scripts/prepare_clean_psr_candidates.py": {
+      "exists": true,
+      "expected": "f11f7457714ed88bef5411e35dd4b8ecb26074476430a0f878397bd88f234583",
+      "actual": "f11f7457714ed88bef5411e35dd4b8ecb26074476430a0f878397bd88f234583",
+      "ok": true
+    },
+    "scripts/audit_clean_psr_prerun.py": {
+      "exists": true,
+      "expected": "0799c00d04bfb7bddc46ae8ceec4250256d7bffb2037d723344bc6c6890b30b9",
+      "actual": "0799c00d04bfb7bddc46ae8ceec4250256d7bffb2037d723344bc6c6890b30b9",
+      "ok": true
+    },
+    "scripts/finalize_clean_psr_prerun.py": {
+      "exists": true,
+      "expected": "99d40de7c70c1c6c40302ece351f09f23a5f5832cc218186047b8c94344f2e6d",
+      "actual": "99d40de7c70c1c6c40302ece351f09f23a5f5832cc218186047b8c94344f2e6d",
+      "ok": true
+    },
+    "scripts/run_clean_psr_research.py": {
+      "exists": true,
+      "expected": "8aba263101ee23251b2911a3d58a1b87553978e8b8061070964fcbe975b8dfc8",
+      "actual": "8aba263101ee23251b2911a3d58a1b87553978e8b8061070964fcbe975b8dfc8",
+      "ok": true
+    },
+    "scripts/reconcile_clean_psr_duplicates.py": {
+      "exists": true,
+      "expected": "f17759663907acbaf8f3f9d0cfa4caa3239d4b04a2aa262ed8d040274a96d995",
+      "actual": "f17759663907acbaf8f3f9d0cfa4caa3239d4b04a2aa262ed8d040274a96d995",
+      "ok": true
+    },
+    "scripts/finalize_clean_psr_research.py": {
+      "exists": true,
+      "expected": "5db9a334ce1ebf0168f7437108b5e41901ed1b2d4191612983c9bddea90b4c54",
+      "actual": "5db9a334ce1ebf0168f7437108b5e41901ed1b2d4191612983c9bddea90b4c54",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/candidates/R0_v116_frozen_reference/summary/complete.json": {
+      "exists": true,
+      "expected": "138ba632ac19fdfd2e3bb2a1a2cb91f1b4e9e917c34816e5ef87b393ddc2eb5f",
+      "actual": "138ba632ac19fdfd2e3bb2a1a2cb91f1b4e9e917c34816e5ef87b393ddc2eb5f",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/candidates/D1_e052a_no_opponent_tape/summary/complete.json": {
+      "exists": true,
+      "expected": "1f3021d87cbc16872c2fbeba9d56aaac10a4171bc40e06fd3cb03b01bd4ef921",
+      "actual": "1f3021d87cbc16872c2fbeba9d56aaac10a4171bc40e06fd3cb03b01bd4ef921",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/summary/complete.json": {
+      "exists": true,
+      "expected": "f9276c6b19b95248c3eddd2be900197c71325b2556ec1e631a0251827985cee2",
+      "actual": "f9276c6b19b95248c3eddd2be900197c71325b2556ec1e631a0251827985cee2",
+      "ok": true
+    },
+    "scripts/verify_clean_psr_final.py": {
+      "exists": true,
+      "expected": "c876eb1d8d8a6c8b4f9a381daaf6d9ca276ae148f0f142d066727b8764f1103c",
+      "actual": "c876eb1d8d8a6c8b4f9a381daaf6d9ca276ae148f0f142d066727b8764f1103c",
+      "ok": true
+    },
+    "experiments/research_20260914_clean_psr/process_end_check.json": {
+      "exists": true,
+      "expected": "56ab618a99dabdf87515897cdb9877e7c8e03564b386b1fbd9fd648ff7df39c4",
+      "actual": "56ab618a99dabdf87515897cdb9877e7c8e03564b386b1fbd9fd648ff7df39c4",
+      "ok": true
+    }
+  }
+}

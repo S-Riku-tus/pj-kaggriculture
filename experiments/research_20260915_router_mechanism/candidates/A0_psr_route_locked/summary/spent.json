@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-09-15T03:07:09.837437+00:00",
+  "candidate": "A0_psr_route_locked",
+  "phase": "spent",
+  "contexts": 32,
+  "completed_720": 32,
+  "runtime_or_delivery_failures": 0,
+  "raw_safety_contexts": 32,
+  "raw_safety_reasons": {
+    "new_animal_loss": 32,
+    "new_crop_to_weed": 32,
+    "new_all_step_silent_market_noop": 8,
+    "new_all_step_partial_market_commit": 8,
+    "new_all_step_silent_field_noop": 7
+  },
+  "transitions": {
+    "loss->win": 12,
+    "loss->loss": 8,
+    "win->loss": 2,
+    "win->win": 10
+  },
+  "control_wdl": {
+    "loss": 20,
+    "win": 12
+  },
+  "treatment_wdl": {
+    "win": 22,
+    "loss": 10
+  },
+  "paired_win_score_delta": 0.3125
+}

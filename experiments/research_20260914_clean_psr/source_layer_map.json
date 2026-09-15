@@ -1,0 +1,364 @@
+{
+  "created_at": "2026-09-14T15:19:07.859382+00:00",
+  "source": "experiments\\research_20260914_lowcash\\runtime\\v116_mooman_complete\\policy.py",
+  "source_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d",
+  "method": "offline replay-observation re-execution with return-value wrappers; seat-1 public step reconstructed from turn index because serialized observation omitted it",
+  "layers": [
+    {
+      "order": 1,
+      "name": "v56/backbone + sweep/opening/E030",
+      "entry": "_pre_orak_agent"
+    },
+    {
+      "order": 2,
+      "name": "self-route phantom horizon",
+      "entry": "_orak_front_run"
+    },
+    {
+      "order": 3,
+      "name": "known-opponent tape/future SELL",
+      "entry": "_tape_observe/_tape_preds",
+      "prohibited": true
+    },
+    {
+      "order": 4,
+      "name": "opening churn guard",
+      "entry": "_open_guard"
+    },
+    {
+      "order": 5,
+      "name": "embedded PSR hybrid from step216",
+      "entry": "_psr_act"
+    },
+    {
+      "order": 6,
+      "name": "feed/carrot/eager/sells-first",
+      "entry": "_feed_g/_carrot_swap/_carrot_seeds/_eager_sell/_sells_first"
+    }
+  ],
+  "traces": [
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091011_1.json.gz",
+      "sidecar_sha256": "1d315340a29865a608633a3d82561e985ffebdcee8ff14a58fbf30df811f793d"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091011_0.json.gz",
+      "sidecar_sha256": "b944d4c9ba107bc7dcf7c591de502273ea6e47eae2e62c1aa95d1f8ec843fdc6"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091012_1.json.gz",
+      "sidecar_sha256": "b25af7858bdb40e3aaddf85d52c57c1cfd9cc16a87f06671a1260be91a116116"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091012_0.json.gz",
+      "sidecar_sha256": "fb54cc0529192cdbe57894128990a60886fb6d395f9887822f0915b40fea652e"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091013_0.json.gz",
+      "sidecar_sha256": "b892bd0c12103ebc6bcb672a2680342855b13c41a33e0d0ed2d3d7b122fb8557"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091013_1.json.gz",
+      "sidecar_sha256": "3a9a05ce6149fd21e16c1144605c02558a1c2c959ca0ea1f87993e27b0feb177"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091014_1.json.gz",
+      "sidecar_sha256": "ffaf8240bd3b36ab08ea9a43a2e35bd0bb56889238dd817478eca93db94bd988"
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\mooman_e052a_10091014_0.json.gz",
+      "sidecar_sha256": "f147ce668eb7d140b68f03e6bed75b5ff53e7e357a3b8e816bbc632eaffb984b"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091011_0.json.gz",
+      "sidecar_sha256": "10c3eb458015648984cda8f7ee9116fc6affcffc69228fd11b7744c7405d3ad9"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091011_1.json.gz",
+      "sidecar_sha256": "ce62b65565facc850462514be7438ddea72dd7330390da2594616d68676afcd9"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091012_1.json.gz",
+      "sidecar_sha256": "b2ea8370ff46db29090e590c1dc44eeb7942ce5646e164dc3edc640485f99ca6"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091012_0.json.gz",
+      "sidecar_sha256": "a908d0bcce287bb7ae394fdd7ae9b4d3350741b11e5ef78fee46a6967608c032"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091013_0.json.gz",
+      "sidecar_sha256": "d8969368303af7cbb8b60d726300126bcaa077284a390c5355ac8e4838ebc1e5"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091013_1.json.gz",
+      "sidecar_sha256": "8f158c4b1309165ff4fe79e1dad7544c49c01d4aa6b4739c9313ce10f9e85e0d"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091014_0.json.gz",
+      "sidecar_sha256": "8aec61936f9e96f408d967f4d0fb88b58eec073c29344add4898690db5efaaa1"
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\souvik_v4_10091014_1.json.gz",
+      "sidecar_sha256": "149e18cbc3c861b6f07d7d20537f278cc8490f07b9b3d8d67b0a14565166b8e9"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091011_0.json.gz",
+      "sidecar_sha256": "b5e315a5163d42c64637b0042e0aa7224ab2168b1172370dbd67510aac521965"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091011_1.json.gz",
+      "sidecar_sha256": "f7837363084f9d8e668891489626d685133424c46af1944e6ece8484ba905a64"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091012_1.json.gz",
+      "sidecar_sha256": "599609e637e36edc186df4403e47843eea82626ec484c51e818cc26c362b7dbb"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091012_0.json.gz",
+      "sidecar_sha256": "d0512d3c049dfb701e9ea55ac7dd937c6c6f585f296533e12161582fd9ddd8e7"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091013_0.json.gz",
+      "sidecar_sha256": "efeedd1a4114d96000c4385c1c07f58d086dc83e6cc4e115d78c75577373c791"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091013_1.json.gz",
+      "sidecar_sha256": "2ee66a28d8b6421ad0e18def0d8096296a24f1bf8431d2b39ea49b21002005db"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091014_1.json.gz",
+      "sidecar_sha256": "5680fe893578ae7ef6584893a877b027187cfaf78108308ea54b91c5369f3c74"
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\ggmljs_v16_10091014_0.json.gz",
+      "sidecar_sha256": "16e84aed64a8aedd23768022ad26f93cd1d3e94bd2f1988b97b9b788b1a79f70"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091011_0.json.gz",
+      "sidecar_sha256": "67f78e714a40910fc6807bab131fd96b735252df8145de63e551350b78455c37"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091011_1.json.gz",
+      "sidecar_sha256": "4c348dcd277c7927289733ccb262e9de8556d0b13545d9c952d3bb528fd22457"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091012_1.json.gz",
+      "sidecar_sha256": "f33babfb73cbff3eabccaa34f844e1fde3211a006009922372a4776010c6b4cd"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091012_0.json.gz",
+      "sidecar_sha256": "a511823fcc8a78b9ad78b353768914f9a265380303d9b08e50f00ae6e1376d34"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091013_0.json.gz",
+      "sidecar_sha256": "2f93d6fac01b398c6dfe04b69cc7e88cb9b73fea58efdc0dabf927225f2a113b"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091013_1.json.gz",
+      "sidecar_sha256": "bf9f87998fe8f566bd37ec2584830aa2e1cd755714d7f26cebd124aa2937aa64"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 0,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091014_0.json.gz",
+      "sidecar_sha256": "0ffa597adf831fff2786d28ff3e482791df4d5f420999e70a6036f8ad36e1e63"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "steps": 719,
+      "action_mismatch_count": 0,
+      "observation_step_reconstructed_count": 719,
+      "sidecar": "experiments\\research_20260914_clean_psr\\sidecar\\v116\\qeinstein_moev2_10091014_1.json.gz",
+      "sidecar_sha256": "47ce77f60dd9a07ff8412bbce9190c06c87e93416fa97e21ad9ac6acc1996811"
+    }
+  ],
+  "all_final_actions_reproduced": true,
+  "contexts": 32,
+  "decisions": 23008
+}

@@ -1,0 +1,20 @@
+{
+  "phase": "aa_control",
+  "source_ids": [
+    "qeinstein_moev2"
+  ],
+  "seeds": [
+    10091011
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "candidate_freeze_sha256": "8834f9d1bd56e49c8792cee6ec6f020cf2fc0a8dcda4ab3460eecb678c87964f",
+  "driver_sha256": "ae289578985d1145f5dc5bb9d46df42b6a3270b809ab1b285943dfcec6f643cf",
+  "configuration": "frozen standard defaults + episodeSteps=720 + requested seed",
+  "isolate_packages": [
+    "kaggriculture"
+  ],
+  "arm_mode": "aa"
+}

@@ -1,0 +1,956 @@
+{
+  "created_at": "2026-09-15T03:49:00.999418+00:00",
+  "explicit_identity_seed_private_future_tape_match": false,
+  "traversed_feature_categories": {
+    "Town": 50,
+    "price": 32
+  },
+  "source_to_route_sequence": {
+    "ggmljs_v16": {
+      "0/1/0/0/0": 2,
+      "0/1/0/0/3": 2,
+      "0/2/0/0/3": 2,
+      "0/4/0/0/3": 2
+    },
+    "mooman_e052a": {
+      "0/1/0/0/0": 2,
+      "0/1/0/0/3": 2,
+      "0/4/0/0/0": 4
+    },
+    "qeinstein_moev2": {
+      "0/1/0/0/0": 2,
+      "0/1/0/0/3": 2,
+      "0/4/0/0/0": 4
+    },
+    "souvik_v4": {
+      "0/1/0/0/0": 2,
+      "0/1/0/0/3": 2,
+      "0/4/0/0/0": 4
+    }
+  },
+  "route_sequence_to_source": {
+    "0/1/0/0/0": {
+      "ggmljs_v16": 2,
+      "mooman_e052a": 2,
+      "qeinstein_moev2": 2,
+      "souvik_v4": 2
+    },
+    "0/1/0/0/3": {
+      "ggmljs_v16": 2,
+      "mooman_e052a": 2,
+      "qeinstein_moev2": 2,
+      "souvik_v4": 2
+    },
+    "0/2/0/0/3": {
+      "ggmljs_v16": 2
+    },
+    "0/4/0/0/3": {
+      "ggmljs_v16": 2
+    },
+    "0/4/0/0/0": {
+      "mooman_e052a": 4,
+      "qeinstein_moev2": 4,
+      "souvik_v4": 4
+    }
+  },
+  "route_sequence_majority_source_accuracy": 0.375,
+  "route_sequence_uniquely_identifies_source": {
+    "0/1/0/0/0": false,
+    "0/1/0/0/3": false,
+    "0/2/0/0/3": true,
+    "0/4/0/0/3": true,
+    "0/4/0/0/0": false
+  },
+  "nearby_perturbation": [
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 59.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 59.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 9.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 9.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 17.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 17.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 43.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 43.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 17.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 17.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 14.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 14.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 22.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 22.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 89.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 89.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 17.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 17.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 14.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 14.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 22.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 22.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 43.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 43.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 16.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_demand_MILK",
+      "category": "Town",
+      "distance": 0.0,
+      "stable_under_plus_minus_1pct_scale": false
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 16.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 14.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 14.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 22.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 144,
+      "feature": "town_shop_count_YARN_STORE",
+      "category": "Town",
+      "distance": 1.0,
+      "stable_under_plus_minus_1pct_scale": true
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "step": 576,
+      "feature": "price_CARROT",
+      "category": "price",
+      "distance": 22.0,
+      "stable_under_plus_minus_1pct_scale": true
+    }
+  ],
+  "economics": {
+    "town_shop_count_YARN_STORE": "current public Town composition; discrete and economically related to wool demand",
+    "town_demand_MILK": "current public Town milk demand; monotone demand count",
+    "price_CARROT": "current public market price; monotone scarcity/glut signal"
+  },
+  "leave_one_source": {
+    "ggmljs_v16": {
+      "remaining_route_sequences": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/4/0/0/0"
+      ],
+      "held_out_sequences_seen_in_remaining": [
+        "0/1/0/0/0",
+        "0/1/0/0/3"
+      ]
+    },
+    "mooman_e052a": {
+      "remaining_route_sequences": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/2/0/0/3",
+        "0/4/0/0/0",
+        "0/4/0/0/3"
+      ],
+      "held_out_sequences_seen_in_remaining": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/4/0/0/0"
+      ]
+    },
+    "qeinstein_moev2": {
+      "remaining_route_sequences": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/2/0/0/3",
+        "0/4/0/0/0",
+        "0/4/0/0/3"
+      ],
+      "held_out_sequences_seen_in_remaining": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/4/0/0/0"
+      ]
+    },
+    "souvik_v4": {
+      "remaining_route_sequences": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/2/0/0/3",
+        "0/4/0/0/0",
+        "0/4/0/0/3"
+      ],
+      "held_out_sequences_seen_in_remaining": [
+        "0/1/0/0/0",
+        "0/1/0/0/3",
+        "0/4/0/0/0"
+      ]
+    }
+  },
+  "decision": "NO_KNOWN_SOURCE_IDENTITY_PROXY_ESTABLISHED_ON_SPENT_PANEL",
+  "conservative_rule": "Any near-unique source signature selecting a fixed future route is research-only even when inputs are public.",
+  "identity_boundary_passed": true,
+  "deploy_transfer_allowed": false,
+  "deploy_transfer_blockers": [
+    "router uplift appears in only one source-seed block and one source",
+    "the exact route/tree expression has unverified transitive provenance and is research-only",
+    "no V111-owned complete state-compatible suffix or unique execution contract was established"
+  ],
+  "localized_caution": "Two route sequences occur only for ggmljs in this panel, but overall majority-source accuracy is 0.375 and the only outcome gain is on the shared qeinstein route sequence. This is not evidence of a useful identity selector; exact routing remains research-only."
+}

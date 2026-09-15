@@ -1,0 +1,663 @@
+{
+  "created_at": "2026-09-14T16:19:24.002082+00:00",
+  "old_replay_reuse_eligible": false,
+  "reuse_decision": "NOT_REUSED; V111 control was independently rerun",
+  "metadata_hash_match": {
+    "engine": true,
+    "configuration": true,
+    "control": true,
+    "evaluation_core_components": {
+      "runner.py": false,
+      "safety.py": true,
+      "statistics.py": true,
+      "divergence.py": true,
+      "lifecycle.py": true
+    },
+    "evaluation_core_all_match": false
+  },
+  "note": "The old freeze's evaluator identity and required-file section disagree on runner.py; the conservative path was independent control execution.",
+  "comparisons": [
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "mooman_e052a",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "souvik_v4",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "ggmljs_v16",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "D1_e052a_no_opponent_tape",
+      "key": [
+        "qeinstein_moev2",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "mooman_e052a",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "souvik_v4",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "ggmljs_v16",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091011,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091011,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091012,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091012,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091013,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091013,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091014,
+        0
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    },
+    {
+      "candidate_run": "P1_psr_clean",
+      "key": [
+        "qeinstein_moev2",
+        10091014,
+        1
+      ],
+      "public_result_equal": true,
+      "semantic_720_equal_excluding_remainingOverageTime": true
+    }
+  ],
+  "all_public_results_equal": true,
+  "all_semantic_720_equal": true
+}

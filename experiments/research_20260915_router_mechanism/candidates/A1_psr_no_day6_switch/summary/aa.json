@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-15T03:08:15.202555+00:00",
+  "candidate": "A1_psr_no_day6_switch",
+  "phase": "aa",
+  "contexts": 2,
+  "completed_720": 2,
+  "runtime_or_delivery_failures": 0,
+  "raw_safety_contexts": 0,
+  "raw_safety_reasons": {},
+  "transitions": {
+    "win->win": 2
+  },
+  "control_wdl": {
+    "win": 2
+  },
+  "treatment_wdl": {
+    "win": 2
+  },
+  "paired_win_score_delta": 0.0,
+  "aa": [
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "public_arm_equal": true,
+      "all_semantic_states_actions_equal": true,
+      "control_replay_sha256": "2fbd28f6e1ba6b4f8b460c9e5c74c7e29730ba441a60bb01e44f39feee433f95",
+      "repeat_replay_sha256": "427ce39517b134c611ffc73cedb1ff788f4314d9970e5dc1794de841d23e49ba"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "public_arm_equal": true,
+      "all_semantic_states_actions_equal": true,
+      "control_replay_sha256": "e8dd8b4258c38a3efea3df3dc2c4b579e74e56a0a653f0550fc313baf9d3a624",
+      "repeat_replay_sha256": "0c44f36ec956431a19bdc32fb0c1f361b9e0945a6cefceb8dd4e67b040bae84b"
+    }
+  ],
+  "passed": true
+}

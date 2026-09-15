@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-15T03:37:53.561163+00:00",
+  "candidate": "A2_psr_no_day24_switch",
+  "phase": "smoke",
+  "command": ".\\.venv\\Scripts\\python.exe scripts\\research_20260915_router_mechanism.py run --candidate A2_psr_no_day24_switch --phase smoke",
+  "plan": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/plans/smoke.json",
+  "progress": {
+    "updated_at": "2026-09-15T03:19:36.887625+00:00",
+    "completed_new": 4,
+    "total_new": 4,
+    "reused": 0,
+    "last_pair_key": [
+      "A2_psr_no_day24_switch",
+      "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0",
+      "48bfd45a69e0bbb02adb6e424de3a0b9a2ccce2b95a83e06fa3ab197a624ca3a",
+      "qeinstein_moev2",
+      10091011,
+      1
+    ],
+    "elapsed_seconds": 34.19752340000014
+  },
+  "summary": {
+    "created_at": "2026-09-15T03:19:37.149345+00:00",
+    "candidate": "A2_psr_no_day24_switch",
+    "phase": "smoke",
+    "contexts": 4,
+    "completed_720": 4,
+    "runtime_or_delivery_failures": 0,
+    "raw_safety_contexts": 4,
+    "raw_safety_reasons": {
+      "new_animal_loss": 4,
+      "new_crop_to_weed": 4,
+      "new_all_step_silent_market_noop": 2,
+      "new_all_step_partial_market_commit": 2
+    },
+    "transitions": {
+      "loss->win": 4
+    },
+    "control_wdl": {
+      "loss": 4
+    },
+    "treatment_wdl": {
+      "win": 4
+    },
+    "paired_win_score_delta": 1.0
+  },
+  "pair_integrity_passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "runtime_delivery_zero": true,
+    "raw_safety_zero": false,
+    "positive_delta": true,
+    "loss_to_win_two_blocks": true,
+    "loss_to_win_two_sources": true,
+    "win_to_loss_zero": false,
+    "win_to_draw_zero": true,
+    "each_source_nonnegative": true,
+    "exclusions_nonnegative": true,
+    "equal_source_positive": true,
+    "equal_ancestry_positive": true,
+    "nine_scenario_worst_positive": true,
+    "bootstrap_lower_positive": true,
+    "forbidden_feature_audit": true
+  },
+  "passed": false
+}

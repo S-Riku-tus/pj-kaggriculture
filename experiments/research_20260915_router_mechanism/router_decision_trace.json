@@ -1,0 +1,2579 @@
+{
+  "created_at": "2026-09-15T03:49:00.994416+00:00",
+  "scope": "32 existing P1 replays; zero new games",
+  "contexts": [
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 0,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 113,
+              "threshold": 54.0,
+              "signed_distance": 59.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seat": 1,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 113,
+              "threshold": 54.0,
+              "signed_distance": 59.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 0,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 45,
+              "threshold": 54.0,
+              "signed_distance": -9.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seat": 1,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 45,
+              "threshold": 54.0,
+              "signed_distance": -9.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 0,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 2,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 3
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 54,
+              "threshold": 54.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seat": 1,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 2,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 3
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 54,
+              "threshold": 54.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 0,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 37,
+              "threshold": 54.0,
+              "signed_distance": -17.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seat": 1,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 37,
+              "threshold": 54.0,
+              "signed_distance": -17.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 97,
+              "threshold": 54.0,
+              "signed_distance": 43.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 97,
+              "threshold": 54.0,
+              "signed_distance": 43.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 0,
+      "transition": "loss->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 37,
+              "threshold": 54.0,
+              "signed_distance": -17.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seat": 1,
+      "transition": "loss->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 37,
+              "threshold": 54.0,
+              "signed_distance": -17.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 0,
+      "transition": "win->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 68,
+              "threshold": 54.0,
+              "signed_distance": 14.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seat": 1,
+      "transition": "win->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 68,
+              "threshold": 54.0,
+              "signed_distance": 14.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 0,
+      "transition": "loss->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 76,
+              "threshold": 54.0,
+              "signed_distance": 22.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seat": 1,
+      "transition": "loss->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 76,
+              "threshold": 54.0,
+              "signed_distance": 22.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 143,
+              "threshold": 54.0,
+              "signed_distance": 89.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 143,
+              "threshold": 54.0,
+              "signed_distance": 89.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 0,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 37,
+              "threshold": 54.0,
+              "signed_distance": -17.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seat": 1,
+      "transition": "win->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 37,
+              "threshold": 54.0,
+              "signed_distance": -17.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 68,
+              "threshold": 54.0,
+              "signed_distance": 14.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 68,
+              "threshold": 54.0,
+              "signed_distance": 14.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 0,
+      "transition": "loss->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 76,
+              "threshold": 54.0,
+              "signed_distance": 22.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seat": 1,
+      "transition": "loss->loss",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 76,
+              "threshold": 54.0,
+              "signed_distance": 22.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 97,
+              "threshold": 54.0,
+              "signed_distance": 43.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 97,
+              "threshold": 54.0,
+              "signed_distance": 43.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 38,
+              "threshold": 54.0,
+              "signed_distance": -16.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 1,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 1
+            },
+            {
+              "node": 1,
+              "feature_index": 35,
+              "feature": "town_demand_MILK",
+              "category": "Town",
+              "value": 0,
+              "threshold": 0.0,
+              "signed_distance": 0.0,
+              "branch": "left",
+              "next_node": 2
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 3,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 38,
+              "threshold": 54.0,
+              "signed_distance": -16.0,
+              "branch": "left",
+              "next_node": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 68,
+              "threshold": 54.0,
+              "signed_distance": 14.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 68,
+              "threshold": 54.0,
+              "signed_distance": 14.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 0,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 76,
+              "threshold": 54.0,
+              "signed_distance": 22.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seat": 1,
+      "transition": "loss->win",
+      "decisions": [
+        {
+          "block": 0,
+          "step": 0,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 1,
+          "step": 144,
+          "route_index": 4,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 28,
+              "feature": "town_shop_count_YARN_STORE",
+              "category": "Town",
+              "value": 1,
+              "threshold": 0.0,
+              "signed_distance": 1.0,
+              "branch": "right",
+              "next_node": 4
+            }
+          ]
+        },
+        {
+          "block": 2,
+          "step": 288,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 3,
+          "step": 432,
+          "route_index": 0,
+          "nodes": []
+        },
+        {
+          "block": 4,
+          "step": 576,
+          "route_index": 0,
+          "nodes": [
+            {
+              "node": 0,
+              "feature_index": 4,
+              "feature": "price_CARROT",
+              "category": "price",
+              "value": 76,
+              "threshold": 54.0,
+              "signed_distance": 22.0,
+              "branch": "right",
+              "next_node": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "feature_index_inventory": {
+    "0": {
+      "name": "own_money",
+      "category": "own_private"
+    },
+    "1": {
+      "name": "rival_money",
+      "category": "rival_public"
+    },
+    "2": {
+      "name": "money_margin",
+      "category": "own_public+rival_public"
+    },
+    "3": {
+      "name": "price_WHEAT",
+      "category": "price"
+    },
+    "4": {
+      "name": "price_CARROT",
+      "category": "price"
+    },
+    "5": {
+      "name": "price_TOMATO",
+      "category": "price"
+    },
+    "6": {
+      "name": "price_STRAWBERRY",
+      "category": "price"
+    },
+    "7": {
+      "name": "price_MELON",
+      "category": "price"
+    },
+    "8": {
+      "name": "price_EGG",
+      "category": "price"
+    },
+    "9": {
+      "name": "price_MILK",
+      "category": "price"
+    },
+    "10": {
+      "name": "price_WOOL",
+      "category": "price"
+    },
+    "11": {
+      "name": "price_FERTILIZER",
+      "category": "price"
+    },
+    "12": {
+      "name": "market_inventory_delta_WHEAT",
+      "category": "market"
+    },
+    "13": {
+      "name": "market_inventory_delta_CARROT",
+      "category": "market"
+    },
+    "14": {
+      "name": "market_inventory_delta_TOMATO",
+      "category": "market"
+    },
+    "15": {
+      "name": "market_inventory_delta_STRAWBERRY",
+      "category": "market"
+    },
+    "16": {
+      "name": "market_inventory_delta_MELON",
+      "category": "market"
+    },
+    "17": {
+      "name": "market_inventory_delta_EGG",
+      "category": "market"
+    },
+    "18": {
+      "name": "market_inventory_delta_MILK",
+      "category": "market"
+    },
+    "19": {
+      "name": "market_inventory_delta_WOOL",
+      "category": "market"
+    },
+    "20": {
+      "name": "market_inventory_delta_FERTILIZER",
+      "category": "market"
+    },
+    "21": {
+      "name": "town_shop_count_BAKERY",
+      "category": "Town"
+    },
+    "22": {
+      "name": "town_shop_count_BRUNCH_SPOT",
+      "category": "Town"
+    },
+    "23": {
+      "name": "town_shop_count_FARMERS_MARKET",
+      "category": "Town"
+    },
+    "24": {
+      "name": "town_shop_count_ICE_CREAM_SHOP",
+      "category": "Town"
+    },
+    "25": {
+      "name": "town_shop_count_PET_CAFE",
+      "category": "Town"
+    },
+    "26": {
+      "name": "town_shop_count_PIZZA_SHOP",
+      "category": "Town"
+    },
+    "27": {
+      "name": "town_shop_count_SMOOTHIE_SHOP",
+      "category": "Town"
+    },
+    "28": {
+      "name": "town_shop_count_YARN_STORE",
+      "category": "Town"
+    },
+    "29": {
+      "name": "town_demand_WHEAT",
+      "category": "Town"
+    },
+    "30": {
+      "name": "town_demand_CARROT",
+      "category": "Town"
+    },
+    "31": {
+      "name": "town_demand_TOMATO",
+      "category": "Town"
+    },
+    "32": {
+      "name": "town_demand_STRAWBERRY",
+      "category": "Town"
+    },
+    "33": {
+      "name": "town_demand_MELON",
+      "category": "Town"
+    },
+    "34": {
+      "name": "town_demand_EGG",
+      "category": "Town"
+    },
+    "35": {
+      "name": "town_demand_MILK",
+      "category": "Town"
+    },
+    "36": {
+      "name": "town_demand_WOOL",
+      "category": "Town"
+    },
+    "37": {
+      "name": "town_demand_FERTILIZER",
+      "category": "Town"
+    },
+    "38": {
+      "name": "own_public_count_WHEAT",
+      "category": "own_public"
+    },
+    "39": {
+      "name": "own_public_count_CARROT",
+      "category": "own_public"
+    },
+    "40": {
+      "name": "own_public_count_TOMATO",
+      "category": "own_public"
+    },
+    "41": {
+      "name": "own_public_count_STRAWBERRY",
+      "category": "own_public"
+    },
+    "42": {
+      "name": "own_public_count_MELON",
+      "category": "own_public"
+    },
+    "43": {
+      "name": "own_public_count_GOOSE",
+      "category": "own_public"
+    },
+    "44": {
+      "name": "own_public_count_COW",
+      "category": "own_public"
+    },
+    "45": {
+      "name": "own_public_count_SHEEP",
+      "category": "own_public"
+    },
+    "46": {
+      "name": "own_public_yield_WHEAT",
+      "category": "own_public"
+    },
+    "47": {
+      "name": "own_public_yield_CARROT",
+      "category": "own_public"
+    },
+    "48": {
+      "name": "own_public_yield_TOMATO",
+      "category": "own_public"
+    },
+    "49": {
+      "name": "own_public_yield_STRAWBERRY",
+      "category": "own_public"
+    },
+    "50": {
+      "name": "own_public_yield_MELON",
+      "category": "own_public"
+    },
+    "51": {
+      "name": "own_public_yield_EGG",
+      "category": "own_public"
+    },
+    "52": {
+      "name": "own_public_yield_MILK",
+      "category": "own_public"
+    },
+    "53": {
+      "name": "own_public_yield_WOOL",
+      "category": "own_public"
+    },
+    "54": {
+      "name": "own_public_yield_FERTILIZER",
+      "category": "own_public"
+    },
+    "55": {
+      "name": "own_public_weeds",
+      "category": "own_public"
+    },
+    "56": {
+      "name": "own_public_empty",
+      "category": "own_public"
+    },
+    "57": {
+      "name": "own_public_unlocked_quadrants",
+      "category": "own_public"
+    },
+    "58": {
+      "name": "rival_public_count_WHEAT",
+      "category": "rival_public"
+    },
+    "59": {
+      "name": "rival_public_count_CARROT",
+      "category": "rival_public"
+    },
+    "60": {
+      "name": "rival_public_count_TOMATO",
+      "category": "rival_public"
+    },
+    "61": {
+      "name": "rival_public_count_STRAWBERRY",
+      "category": "rival_public"
+    },
+    "62": {
+      "name": "rival_public_count_MELON",
+      "category": "rival_public"
+    },
+    "63": {
+      "name": "rival_public_count_GOOSE",
+      "category": "rival_public"
+    },
+    "64": {
+      "name": "rival_public_count_COW",
+      "category": "rival_public"
+    },
+    "65": {
+      "name": "rival_public_count_SHEEP",
+      "category": "rival_public"
+    },
+    "66": {
+      "name": "rival_public_yield_WHEAT",
+      "category": "rival_public"
+    },
+    "67": {
+      "name": "rival_public_yield_CARROT",
+      "category": "rival_public"
+    },
+    "68": {
+      "name": "rival_public_yield_TOMATO",
+      "category": "rival_public"
+    },
+    "69": {
+      "name": "rival_public_yield_STRAWBERRY",
+      "category": "rival_public"
+    },
+    "70": {
+      "name": "rival_public_yield_MELON",
+      "category": "rival_public"
+    },
+    "71": {
+      "name": "rival_public_yield_EGG",
+      "category": "rival_public"
+    },
+    "72": {
+      "name": "rival_public_yield_MILK",
+      "category": "rival_public"
+    },
+    "73": {
+      "name": "rival_public_yield_WOOL",
+      "category": "rival_public"
+    },
+    "74": {
+      "name": "rival_public_yield_FERTILIZER",
+      "category": "rival_public"
+    },
+    "75": {
+      "name": "rival_public_weeds",
+      "category": "rival_public"
+    },
+    "76": {
+      "name": "rival_public_empty",
+      "category": "rival_public"
+    },
+    "77": {
+      "name": "rival_public_unlocked_quadrants",
+      "category": "rival_public"
+    },
+    "78": {
+      "name": "own_private_shed_WHEAT",
+      "category": "own_private"
+    },
+    "79": {
+      "name": "own_private_shed_CARROT",
+      "category": "own_private"
+    },
+    "80": {
+      "name": "own_private_shed_TOMATO",
+      "category": "own_private"
+    },
+    "81": {
+      "name": "own_private_shed_STRAWBERRY",
+      "category": "own_private"
+    },
+    "82": {
+      "name": "own_private_shed_MELON",
+      "category": "own_private"
+    },
+    "83": {
+      "name": "own_private_shed_EGG",
+      "category": "own_private"
+    },
+    "84": {
+      "name": "own_private_shed_MILK",
+      "category": "own_private"
+    },
+    "85": {
+      "name": "own_private_shed_WOOL",
+      "category": "own_private"
+    },
+    "86": {
+      "name": "own_private_shed_FERTILIZER",
+      "category": "own_private"
+    },
+    "87": {
+      "name": "own_private_shed_GOOSE",
+      "category": "own_private"
+    },
+    "88": {
+      "name": "own_private_shed_COW",
+      "category": "own_private"
+    },
+    "89": {
+      "name": "own_private_shed_SHEEP",
+      "category": "own_private"
+    },
+    "90": {
+      "name": "own_private_seed_WHEAT",
+      "category": "own_private"
+    },
+    "91": {
+      "name": "own_private_seed_CARROT",
+      "category": "own_private"
+    },
+    "92": {
+      "name": "own_private_seed_TOMATO",
+      "category": "own_private"
+    },
+    "93": {
+      "name": "own_private_seed_STRAWBERRY",
+      "category": "own_private"
+    },
+    "94": {
+      "name": "own_private_seed_MELON",
+      "category": "own_private"
+    },
+    "95": {
+      "name": "own_farmer_x",
+      "category": "own_public"
+    },
+    "96": {
+      "name": "own_farmer_y",
+      "category": "own_public"
+    }
+  },
+  "decoded_tape_copied": false
+}

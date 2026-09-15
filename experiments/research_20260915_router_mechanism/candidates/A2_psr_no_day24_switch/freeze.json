@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-09-15T01:15:40.201657+00:00",
+  "candidate": "A2_psr_no_day24_switch",
+  "role": "research-only router ablation",
+  "promotion_eligible": false,
+  "parent": "experiments/research_20260914_clean_psr/candidates/P1_psr_clean/main.py",
+  "parent_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+  "source": "experiments/research_20260915_router_mechanism/candidates/A2_psr_no_day24_switch/main.py",
+  "source_sha256": "0ea6eb35800b1830c079594a7e15e6826f4bfbbe399d98e62d777245c48e18c0",
+  "package": "experiments/research_20260915_router_mechanism/A2_psr_no_day24_switch.tar.gz",
+  "package_sha256": "10fa9d8e9f43389c68035d36ef02ef9d22a9cf49e1bd8cb78b1eaf5d4564365d",
+  "entrypoint": "main.agent",
+  "diff": {
+    "method": "single AST-located If condition edit inside top-level agent",
+    "agent_lines_before": [
+      685,
+      703
+    ],
+    "agent_lines_after": [
+      685,
+      704
+    ],
+    "changed_assignment": "state[1] = _choose(t//144,_features(observation))",
+    "mode": "A2_psr_no_day24_switch"
+  },
+  "compatibility_sha256": "86d634373c01739c6085c9bb549db5f21549515ed4c881f00244b68b961388c7",
+  "license_cap": "UNVERIFIED_TRANSITIVE_ROUTE_DATA_RESEARCH_ONLY"
+}

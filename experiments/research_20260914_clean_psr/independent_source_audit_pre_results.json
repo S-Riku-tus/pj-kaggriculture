@@ -1,0 +1,92 @@
+{
+  "created_before_primary_results": true,
+  "created_at": "2026-09-14T15:12:00+00:00",
+  "selection_may_use_primary_results": false,
+  "screen_control": {
+    "id": "V111",
+    "source": "agents/v111/main.py",
+    "sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660"
+  },
+  "screen_contexts": {
+    "seeds": [10091011, 10091012, 10091013, 10091014],
+    "seats": [0, 1],
+    "episode_steps": 720,
+    "note": "already-spent Development seeds; baseline-only screen"
+  },
+  "eligible_screen_sources": [
+    {
+      "id": "deepeshumrao_head",
+      "repository": "https://github.com/deepeshumrao/kaggriculture-agent.git",
+      "revision": "65724ce530af8e8ea0410d5b7f0e2a997ca676cb",
+      "entrypoint": "artifacts/opponent_pool/candidates/deepeshumrao_kaggriculture_agent/deliverables/kaggriculture_submission.py",
+      "entrypoint_sha256": "7885b9b9c571c2d90224b4b629d44896aeb3680100058356e4b404219fd187e6",
+      "license": "MIT",
+      "native_callable": "agent",
+      "ancestry": "github_deepeshumrao; no PSR/Kaito import or copied route dependency found",
+      "diversity_priority": 2,
+      "static_style": "compact public-state crop/animal policy; distinct from route replay"
+    },
+    {
+      "id": "lonespear_head",
+      "repository": "https://github.com/lonespear/kaggriculture.git",
+      "revision": "774b26093ccf4246525517d48420349b841b6e50",
+      "entrypoint": "artifacts/opponent_pool/candidates/lonespear_kaggriculture/main.py",
+      "entrypoint_sha256": "3981830b9181db4685afe2b61f182edb13ff5a19d344a70b16a6bc5aedf2a026",
+      "license": "MIT",
+      "native_callable": "agent",
+      "dependencies": "stdlib with optional numpy/scipy assignment path; native import required at screen",
+      "ancestry": "github_lonespear; prior addendum registry identifies independent closed-loop source",
+      "diversity_priority": 3,
+      "static_style": "closed-loop workload/animal/endgame policy with market scheduling"
+    },
+    {
+      "id": "robriculture_lean_feed",
+      "repository": "https://github.com/robsartin/robriculture",
+      "revision": "7f54373b67cf41f71168f09457390f6663e3a6a1",
+      "entrypoint": "experiments/research_20260911_continuations/runtime/robriculture_lean_feed/main.py",
+      "entrypoint_sha256": "52a943bb917f84b5f08e7beb081c7a9105ed4c92f551408a6eb861e50f542812",
+      "archive": "experiments/research_20260911_continuations/opponents/robriculture_lean_feed.tar.gz",
+      "archive_sha256": "857dbedf0c68ad09b57ad3db9864ba7e768197f38152176bd5373579db29401e",
+      "license": "CC-BY-4.0",
+      "native_callable": "native_entrypoint.agent through frozen adapter",
+      "runtime_isolation": ["kaggisim", "strategies"],
+      "ancestry": "robriculture hand/job economy; no PSR/Kaito dependency in frozen registry",
+      "diversity_priority": 1,
+      "static_style": "hand/job allocator and lean feed economy; independent regression anchor",
+      "anchor_limit": "Prior 2-seed result was V111 0/0/4; alone it is not a strong third ancestry"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "id": "alpeshkumar9_head_and_allocator",
+      "reason": "no repository root license file; code must not be treated as license-verified"
+    },
+    {
+      "id": "gzmcr_head_and_extracted_routes",
+      "reason": "root/transitive license unresolved"
+    },
+    {
+      "id": "cok_zhangziliang_head",
+      "reason": "license known but ancestry is github_cok_public_route_derived; not independent of PSR/Kaito route family"
+    },
+    {
+      "id": "seyamalam_head",
+      "reason": "license known but documented public_v18-derived ancestry; near-lineage sensitivity only"
+    }
+  ],
+  "selection_rule": {
+    "qualifying_v111_win_score_inclusive": [0.25, 0.75],
+    "maximum_selected": 2,
+    "first_filter": "license, revision, native import, full720 both-seat completion, independent ancestry",
+    "tie_break_order": [
+      "different ancestry",
+      "different opening",
+      "different crop/animal portfolio",
+      "different market-order timing",
+      "preassigned diversity_priority ascending",
+      "source id lexicographic"
+    ],
+    "forbidden": "P1 or D1 performance, compatibility, or favorable contexts"
+  },
+  "qualification_cap": "If no eligible 25%-75% source is verified, final status cannot exceed PROMISING_UNPROVEN"
+}

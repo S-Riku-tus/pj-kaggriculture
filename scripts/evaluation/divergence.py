@@ -228,6 +228,10 @@ def audit_pair(
             else gate_requested and intervention_kind == "route_choice"
         )
     )
+    if intervention_kind == "complete_policy":
+        # Complete policies start at the initial observation. A shared opening
+        # may delay their first action difference; it is not a failed gate.
+        expected = focal_action is not None
     any_state_difference = any(value is not None for value in first.values())
     if focal_action is None:
         behavioral_valid = not any_state_difference
@@ -242,7 +246,9 @@ def audit_pair(
             default=10**9,
         )
         behavioral_valid = (
-            expected and earliest_state >= intended_action_step + 1 and response_order_valid
+            expected
+            and earliest_state >= (first_step if intervention_kind == "complete_policy" else intended_action_step) + 1
+            and response_order_valid
         )
         if behavioral_valid and opponent_action is not None:
             classification = "intended_intervention_then_closed_loop_opponent_response"

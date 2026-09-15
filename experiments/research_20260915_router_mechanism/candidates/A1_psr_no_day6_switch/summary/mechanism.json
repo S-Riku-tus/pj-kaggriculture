@@ -1,0 +1,340 @@
+{
+  "status": "COMPLETE",
+  "overall": {
+    "pairs": 32,
+    "independent_seeds": 4,
+    "baseline": {
+      "wins": 12,
+      "draws": 0,
+      "losses": 20,
+      "win_rate": 0.375,
+      "win_score": 0.375
+    },
+    "candidate": {
+      "wins": 22,
+      "draws": 0,
+      "losses": 10,
+      "win_rate": 0.6875,
+      "win_score": 0.6875
+    },
+    "delta_win_rate": 0.3125,
+    "delta_win_score": 0.3125,
+    "loss_to_win": 12,
+    "win_to_loss": 2,
+    "discordant_net": 10,
+    "score_improved": 12,
+    "score_worsened": 2,
+    "both_draw": 0,
+    "mean_delta_self_coin": -4992.625,
+    "mean_delta_opponent_coin": -19254.96875,
+    "mean_delta_margin": 14262.34375,
+    "trigger_requests": 32,
+    "incremental_treatments": 32,
+    "wdl": {
+      "win": 22,
+      "loss": 10
+    },
+    "margin": {
+      "mean": 8477.75,
+      "p10": -13338.0,
+      "min": -14910.0,
+      "max": 38827.0
+    },
+    "transitions": {
+      "loss->win": 12,
+      "loss->loss": 8,
+      "win->loss": 2,
+      "win->win": 10
+    },
+    "source_seed_blocks": 16
+  },
+  "by_source": {
+    "mooman_e052a": {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "candidate": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "delta_win_rate": 0.0,
+      "delta_win_score": 0.0,
+      "loss_to_win": 2,
+      "win_to_loss": 2,
+      "discordant_net": 0,
+      "score_improved": 2,
+      "score_worsened": 2,
+      "both_draw": 0,
+      "mean_delta_self_coin": -39688.25,
+      "mean_delta_opponent_coin": -34225.5,
+      "mean_delta_margin": -5462.75,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "wdl": {
+        "win": 2,
+        "loss": 6
+      },
+      "margin": {
+        "mean": -7150.5,
+        "p10": -14910.0,
+        "min": -14910.0,
+        "max": 3952.0
+      },
+      "transitions": {
+        "loss->win": 2,
+        "loss->loss": 4,
+        "win->loss": 2
+      },
+      "source_seed_blocks": 4
+    },
+    "souvik_v4": {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "win_rate": 0.0,
+        "win_score": 0.0
+      },
+      "candidate": {
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "win_rate": 1.0,
+        "win_score": 1.0
+      },
+      "delta_win_rate": 1.0,
+      "delta_win_score": 1.0,
+      "loss_to_win": 8,
+      "win_to_loss": 0,
+      "discordant_net": 8,
+      "score_improved": 8,
+      "score_worsened": 0,
+      "both_draw": 0,
+      "mean_delta_self_coin": 7383.75,
+      "mean_delta_opponent_coin": -21182.25,
+      "mean_delta_margin": 28566.0,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "wdl": {
+        "win": 8
+      },
+      "margin": {
+        "mean": 16638.25,
+        "p10": 10262.0,
+        "min": 10262.0,
+        "max": 27397.0
+      },
+      "transitions": {
+        "loss->win": 8
+      },
+      "source_seed_blocks": 4
+    },
+    "ggmljs_v16": {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "win_rate": 1.0,
+        "win_score": 1.0
+      },
+      "candidate": {
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "win_rate": 1.0,
+        "win_score": 1.0
+      },
+      "delta_win_rate": 0.0,
+      "delta_win_score": 0.0,
+      "loss_to_win": 0,
+      "win_to_loss": 0,
+      "discordant_net": 0,
+      "score_improved": 0,
+      "score_worsened": 0,
+      "both_draw": 0,
+      "mean_delta_self_coin": 13924.0,
+      "mean_delta_opponent_coin": 314.625,
+      "mean_delta_margin": 13609.375,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "wdl": {
+        "win": 8
+      },
+      "margin": {
+        "mean": 25542.75,
+        "p10": 6383.0,
+        "min": 6383.0,
+        "max": 38827.0
+      },
+      "transitions": {
+        "win->win": 8
+      },
+      "source_seed_blocks": 4
+    },
+    "qeinstein_moev2": {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "candidate": {
+        "wins": 4,
+        "draws": 0,
+        "losses": 4,
+        "win_rate": 0.5,
+        "win_score": 0.5
+      },
+      "delta_win_rate": 0.25,
+      "delta_win_score": 0.25,
+      "loss_to_win": 2,
+      "win_to_loss": 0,
+      "discordant_net": 2,
+      "score_improved": 2,
+      "score_worsened": 0,
+      "both_draw": 0,
+      "mean_delta_self_coin": -1590.0,
+      "mean_delta_opponent_coin": -21926.75,
+      "mean_delta_margin": 20336.75,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "wdl": {
+        "win": 4,
+        "loss": 4
+      },
+      "margin": {
+        "mean": -1119.5,
+        "p10": -11904.0,
+        "min": -11904.0,
+        "max": 6666.0
+      },
+      "transitions": {
+        "loss->win": 2,
+        "win->win": 2,
+        "loss->loss": 4
+      },
+      "source_seed_blocks": 4
+    }
+  },
+  "by_ancestry": {
+    "psr_kaito_near": {
+      "pairs": 24,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 10,
+        "draws": 0,
+        "losses": 14,
+        "win_rate": 0.4166666666666667,
+        "win_score": 0.4166666666666667
+      },
+      "candidate": {
+        "wins": 18,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.75,
+        "win_score": 0.75
+      },
+      "delta_win_rate": 0.3333333333333333,
+      "delta_win_score": 0.3333333333333333,
+      "loss_to_win": 10,
+      "win_to_loss": 2,
+      "discordant_net": 8,
+      "score_improved": 10,
+      "score_worsened": 2,
+      "both_draw": 0,
+      "mean_delta_self_coin": -6126.833333333333,
+      "mean_delta_opponent_coin": -18364.375,
+      "mean_delta_margin": 12237.541666666666,
+      "trigger_requests": 24,
+      "incremental_treatments": 24,
+      "wdl": {
+        "win": 18,
+        "loss": 6
+      },
+      "margin": {
+        "mean": 11676.833333333334,
+        "p10": -13338.0,
+        "min": -14910.0,
+        "max": 38827.0
+      },
+      "transitions": {
+        "loss->win": 10,
+        "loss->loss": 4,
+        "win->loss": 2,
+        "win->win": 8
+      },
+      "source_seed_blocks": 12
+    },
+    "independent_qeinstein": {
+      "pairs": 8,
+      "independent_seeds": 4,
+      "baseline": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "win_rate": 0.25,
+        "win_score": 0.25
+      },
+      "candidate": {
+        "wins": 4,
+        "draws": 0,
+        "losses": 4,
+        "win_rate": 0.5,
+        "win_score": 0.5
+      },
+      "delta_win_rate": 0.25,
+      "delta_win_score": 0.25,
+      "loss_to_win": 2,
+      "win_to_loss": 0,
+      "discordant_net": 2,
+      "score_improved": 2,
+      "score_worsened": 0,
+      "both_draw": 0,
+      "mean_delta_self_coin": -1590.0,
+      "mean_delta_opponent_coin": -21926.75,
+      "mean_delta_margin": 20336.75,
+      "trigger_requests": 8,
+      "incremental_treatments": 8,
+      "wdl": {
+        "win": 4,
+        "loss": 4
+      },
+      "margin": {
+        "mean": -1119.5,
+        "p10": -11904.0,
+        "min": -11904.0,
+        "max": 6666.0
+      },
+      "transitions": {
+        "loss->win": 2,
+        "win->win": 2,
+        "loss->loss": 4
+      },
+      "source_seed_blocks": 4
+    }
+  },
+  "raw_safety_contexts": 32,
+  "raw_safety_classes": {
+    "new_animal_loss": 32,
+    "new_crop_to_weed": 32,
+    "new_all_step_silent_market_noop": 8,
+    "new_all_step_partial_market_commit": 8,
+    "new_all_step_silent_field_noop": 7
+  }
+}

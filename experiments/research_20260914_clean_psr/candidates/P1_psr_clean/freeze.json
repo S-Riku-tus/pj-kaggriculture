@@ -1,0 +1,62 @@
+{
+  "role": "primary",
+  "promotion_eligible": "conditional on efficacy, safety, diversity, and license; current transitive-license cap applies",
+  "parent_source": "current Kaggle notebook Version 3 main.py cell",
+  "extraction_diff": "exact UTF-8 cell source after removing only the %%writefile main.py magic line",
+  "source": "candidates/P1_psr_clean/main.py",
+  "source_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+  "package": "P1_psr_clean.tar.gz",
+  "package_sha256": "9e48f29463fd386f93157854aa8777b28d9e584ee4c648bf8a7c21caed508334",
+  "entrypoint": "agent",
+  "callable_selection": "explicit main.agent; final top-level policy callable",
+  "runtime_isolation": [
+    "kaggriculture"
+  ],
+  "license": {
+    "spdx": "Apache-2.0",
+    "basis": "Kaggle notebook page license panel, independently observed on 2026-09-14",
+    "page_url": "https://www.kaggle.com/code/thomastschinkel/kaggriculture-93-8-win-rate-public-state-router",
+    "transitive_route_data": "UNVERIFIED: notebook text refers to provenance.json, but the acquired notebook has no such file/input"
+  },
+  "feature_audit": {
+    "candidate": "P1_psr_clean",
+    "parsed": true,
+    "top_level_imports": [
+      "base64",
+      "json",
+      "sys",
+      "zlib"
+    ],
+    "forbidden_symbol_references": [],
+    "forbidden_identity_literals": [],
+    "seed_or_episode_like_integer_constants": [],
+    "opponent_private_access": false,
+    "future_rng_or_unpublished_shop_access": false,
+    "fixed_known_opponent_position_or_sell_table": false,
+    "allowed_public_opponent_farm_use": true,
+    "passed": true,
+    "scope_note": "P1 uses current public own/rival farm, town, market and own private state at block boundaries; embedded _TAPES are the candidate's own fixed routes, not opponent signatures."
+  },
+  "decoded_payload_inventory": {
+    "tape_count": 5,
+    "tape_lengths": [
+      719,
+      719,
+      719,
+      719,
+      719
+    ],
+    "tree_block_count": 5,
+    "callable": "agent"
+  },
+  "outer_layers_absent": [
+    "v56 opening",
+    "E030",
+    "opponent tape/oracle",
+    "step216 hybrid",
+    "feed",
+    "carrot",
+    "eager",
+    "sells-first"
+  ]
+}
