@@ -1,5 +1,7 @@
 # 次にCodexへ送る研究実行プロンプト
 
+> **失効通知（2026-09-16 JST）**: このTomato案は、その後の中盤land/capacity・V111資金状態・過去のcrop/expansion失敗の再監査により主仮説から外した。実行には使わず、改訂版 [`codex_next_prompt_20260916_v111_midgame_capacity.md`](codex_next_prompt_20260916_v111_midgame_capacity.md) を使用すること。本fileは判断履歴の保全目的で残す。
+
 対象repository:
 
 `C:\Users\shiba\Kaggle\pj-kaggriculture`
