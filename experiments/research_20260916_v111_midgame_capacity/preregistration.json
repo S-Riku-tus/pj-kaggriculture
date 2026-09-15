@@ -1,0 +1,69 @@
+{
+  "experiment_id": "research_20260916_v111_midgame_capacity",
+  "frozen_at_utc": "2026-09-15T22:12:12.2952552+00:00",
+  "frozen_at_jst": "2026-09-16T07:12:12.2952552+09:00",
+  "frozen_before_new_games": true,
+  "frozen_before_candidate_results": true,
+  "primary_question": "Can one V111-owned existing spend family be resequenced to fund third land plus a complete activation-to-realized-sale contract without breaking maintenance?",
+  "control_contexts": {
+    "sources": ["ggmljs_v16", "mooman_e052a", "qeinstein_moev2", "souvik_v4"],
+    "seeds": [10091011, 10091012, 10091013, 10091014],
+    "seats": [0, 1],
+    "expected_contexts": 32,
+    "new_games_before_gate": 0
+  },
+  "top_corpus": {
+    "selection": "saved Top 5 active submissions, first six EpisodeService rows each",
+    "target_seats": 30,
+    "unique_replays": 26,
+    "refresh": "SKIPPED_OPTIONAL_READ_ONLY_REFRESH",
+    "mix_with_old_corpus": false
+  },
+  "cashflow_window": {"start_step": 144, "end": "third_unlock_plus_48"},
+  "activation_window_relative": [-96, 96],
+  "land_cost": 2000,
+  "activation_contract": {
+    "asset": "WHEAT",
+    "tiles": 1,
+    "seed_cost": 10,
+    "hire_reserve": 1,
+    "structure_cost": 0,
+    "animal_cost": 0,
+    "activation_reserve": 11,
+    "shadow_threshold": 2011,
+    "required_chain": ["BUY_LAND", "verify_SW_unlock", "move", "PLANT_WHEAT", "same_day_WATER", "HARVEST", "carry_or_drop", "committed_SELL", "state_based_rejoin"]
+  },
+  "spend_families": [
+    "BUY_ANIMAL:COW",
+    "BUY_SEED:STRAWBERRY",
+    "BUY_SEED:WHEAT",
+    "BUY_SEED:MELON",
+    "BUY_PRODUCT:WHEAT",
+    "HIRE"
+  ],
+  "candidate_gate": {
+    "same_family_sources_min": 2,
+    "same_family_source_seed_blocks_min": 4,
+    "minimum_advance_decisions": 24,
+    "productive_action_within_decisions": 24,
+    "all_eight_prompt_conditions_required": true
+  },
+  "seed_policy": {
+    "spent": [10091011, 10091012, 10091013, 10091014],
+    "promotion_sealed": [10091101, 10091112],
+    "fresh_sealed": [10091901, 10091912],
+    "prior_development_sealed": [10091421, 10091436],
+    "conditional_development": [10091521, 10091536]
+  },
+  "prohibitions": [
+    "Tomato or Carrot hypothesis implementation",
+    "PSR repair or route transfer",
+    "standalone BUY_LAND intervention",
+    "opponent/source/seed identity feature",
+    "future/private state",
+    "threshold or outcome optimization",
+    "Kaggle submission",
+    "kernel push",
+    "submission slot change"
+  ]
+}

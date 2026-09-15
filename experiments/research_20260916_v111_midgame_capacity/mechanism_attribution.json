@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-15T22:47:51.780448+00:00",
+  "candidate_run": false,
+  "nodes": [
+    {
+      "id": "cash_shortage",
+      "status": "Evidence",
+      "claim": "V111 factual cash is below land+activation threshold during the Top median unlock region."
+    },
+    {
+      "id": "specific_spend_family",
+      "status": "Evidence",
+      "claim": "BUY_ANIMAL:COW has the largest frozen arithmetic release across blocks."
+    },
+    {
+      "id": "earlier_land",
+      "status": "Inference",
+      "claim": "Shadow balance can pay earlier; engine outcome was not rerun."
+    },
+    {
+      "id": "productive_action",
+      "status": "Unknown",
+      "claim": "Resource-distance lower bound is not a maintenance-preserving schedule."
+    },
+    {
+      "id": "incremental_harvest",
+      "status": "Unknown",
+      "claim": "No counterfactual crop lifecycle was executed."
+    },
+    {
+      "id": "realized_sale",
+      "status": "Unknown",
+      "claim": "Fungible inventory prevents attributing baseline sales to new land."
+    },
+    {
+      "id": "opponent_coin",
+      "status": "Unknown",
+      "claim": "No candidate closed-loop replay exists."
+    },
+    {
+      "id": "margin",
+      "status": "Unknown",
+      "claim": "No paired candidate evaluation exists."
+    }
+  ],
+  "edges": [
+    {
+      "from": "cash_shortage",
+      "to": "specific_spend_family",
+      "status": "Evidence",
+      "basis": "order-level committed costs and factual cash"
+    },
+    {
+      "from": "specific_spend_family",
+      "to": "earlier_land",
+      "status": "Inference",
+      "basis": "arithmetic upper bound only"
+    },
+    {
+      "from": "earlier_land",
+      "to": "productive_action",
+      "status": "Unknown"
+    },
+    {
+      "from": "productive_action",
+      "to": "incremental_harvest",
+      "status": "Unknown"
+    },
+    {
+      "from": "incremental_harvest",
+      "to": "realized_sale",
+      "status": "Unknown"
+    },
+    {
+      "from": "realized_sale",
+      "to": "opponent_coin",
+      "status": "Unknown"
+    },
+    {
+      "from": "opponent_coin",
+      "to": "margin",
+      "status": "Unknown"
+    }
+  ],
+  "causal_limit": "Earlier land, opponent coin and margin are not identified effects of BUY_LAND or one crop/action."
+}

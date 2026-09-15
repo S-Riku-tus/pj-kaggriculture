@@ -1,0 +1,65 @@
+{
+  "frozen_before_candidate_results": true,
+  "screened_at": "2026-09-15T22:25:50.871459+00:00",
+  "candidate_created": false,
+  "prior_screen": "experiments/research_20260915_router_mechanism/independent_source_screen.json",
+  "prior_screen_sha256": "d9201cd68e27b641156bd7ba8603ef55d61ee3b842e8e20dfece9ac5c6ed608f",
+  "independent_gold_pool_files": [
+    {
+      "path": "experiments/independent_gold_pool/candidate_sources.json",
+      "sha256": "998ca63a2fe43f1e42b04923645f9a83af8a2326a2325d06d95431c8cc52ff33"
+    },
+    {
+      "path": "experiments/independent_gold_pool/consolidated_gold_family_registry.json",
+      "sha256": "369cac61da2afd8ba0689aac80f4438b44384a1f59c58ce3856c423db8cc0717"
+    },
+    {
+      "path": "experiments/independent_gold_pool/consolidated_gold_family_registry_expanded_public_20260902.json",
+      "sha256": "63b474a81c495424fd1af20a7e6cdb4675bd50c5bd69b8116c444f5b6619e91f"
+    },
+    {
+      "path": "experiments/independent_gold_pool/consolidated_gold_family_registry_public_history_20260902.json",
+      "sha256": "9ef812ac7446ed06d99fc6188286854da38ace4e0b014dac64ef2a02cf1e813b"
+    },
+    {
+      "path": "experiments/independent_gold_pool/family_panel_manifest.json",
+      "sha256": "9798d18a9db66cb0f172f648487a85680c5f87e432c3459f585e3ec84a8ec35d"
+    },
+    {
+      "path": "experiments/independent_gold_pool/public_candidate_addendum_sources.json",
+      "sha256": "f7e59149cabd56fb846361e5f63a36e8a39313983e18db328861431ecd8d8fc9"
+    },
+    {
+      "path": "experiments/independent_gold_pool/public_external_github_candidate_sources.json",
+      "sha256": "6384cbbaddd04ffe52e89fd695a4977649a89ff51e5c1d504456dd5d659622bb"
+    },
+    {
+      "path": "experiments/independent_gold_pool/public_gold_addendum_panel_manifest.json",
+      "sha256": "31946fa8c9eba1794d8fb432b53483a76789b4496f429db3af4dd3777f22db00"
+    },
+    {
+      "path": "experiments/independent_gold_pool/public_history_candidate_sources.json",
+      "sha256": "26a72514c860deae34bf3327852d8971a84027b4efb12d31d0517d33923edf71"
+    },
+    {
+      "path": "experiments/independent_gold_pool/public_kaggle_acquisition_queue_20260902.json",
+      "sha256": "0638334a5f41edd1007cf0627548c6f3d11ef390a644a564f91bfe08631cc7ef"
+    },
+    {
+      "path": "experiments/independent_gold_pool/public_pure_route_candidate_sources.json",
+      "sha256": "3917f68ea0c7bba353c706fd07e43c615cbef5eb8c04211787cffffd61d63818"
+    }
+  ],
+  "candidate_directories": [
+    "artifacts/opponent_pool/candidates/alpeshkumar9_kaggriculture",
+    "artifacts/opponent_pool/candidates/cok_zhangziliang_kaggriculture",
+    "artifacts/opponent_pool/candidates/deepeshumrao_kaggriculture_agent",
+    "artifacts/opponent_pool/candidates/gzmcr_kaggriculture",
+    "artifacts/opponent_pool/candidates/lonespear_kaggriculture",
+    "artifacts/opponent_pool/candidates/seyamalam_kaggriculture"
+  ],
+  "selection": [],
+  "new_baseline_games": 0,
+  "reason": "Selection is conditional on a C1 passing the replay-only implementation gate; hashes already screened previously will not be rerun.",
+  "verified_third_ancestry": false
+}

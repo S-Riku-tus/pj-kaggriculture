@@ -1,0 +1,690 @@
+{
+  "evidence_level": "E1_CROSS_CORPUS",
+  "causal_effect": false,
+  "overall": {
+    "n": 30,
+    "unlock_state_step": {
+      "n": 30,
+      "mean": 210.1,
+      "median": 209.0,
+      "p10": 198.0,
+      "p90": 222.2,
+      "min": 197.0,
+      "max": 226.0
+    },
+    "lag_to_first_entry": {
+      "n": 30,
+      "mean": 1.5,
+      "median": 2.0,
+      "p10": 0.0,
+      "p90": 2.0,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "lag_to_first_productive_action": {
+      "n": 30,
+      "mean": 2.1666666666666665,
+      "median": 2.5,
+      "p10": 1.0,
+      "p90": 3.0,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "lag_to_first_harvest_whole_farm": {
+      "n": 30,
+      "mean": 9.166666666666666,
+      "median": 8.0,
+      "p10": 0.0,
+      "p90": 18.0,
+      "min": 0.0,
+      "max": 22.0
+    },
+    "lag_to_first_committed_sell_whole_farm": {
+      "n": 30,
+      "mean": 4.466666666666667,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 18.0,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+  },
+  "wins": {
+    "n": 22,
+    "unlock_state_step": {
+      "n": 22,
+      "mean": 210.13636363636363,
+      "median": 208.5,
+      "p10": 198.0,
+      "p90": 223.8,
+      "min": 197.0,
+      "max": 226.0
+    },
+    "lag_to_first_entry": {
+      "n": 22,
+      "mean": 1.3636363636363635,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 2.0,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "lag_to_first_productive_action": {
+      "n": 22,
+      "mean": 2.090909090909091,
+      "median": 2.0,
+      "p10": 1.0,
+      "p90": 3.0,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "lag_to_first_harvest_whole_farm": {
+      "n": 22,
+      "mean": 9.727272727272727,
+      "median": 8.0,
+      "p10": 0.10000000000000009,
+      "p90": 18.0,
+      "min": 0.0,
+      "max": 22.0
+    },
+    "lag_to_first_committed_sell_whole_farm": {
+      "n": 22,
+      "mean": 3.5,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 16.800000000000026,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+  },
+  "losses": {
+    "n": 8,
+    "unlock_state_step": {
+      "n": 8,
+      "mean": 210.0,
+      "median": 210.0,
+      "p10": 198.0,
+      "p90": 222.0,
+      "min": 198.0,
+      "max": 222.0
+    },
+    "lag_to_first_entry": {
+      "n": 8,
+      "mean": 1.875,
+      "median": 2.0,
+      "p10": 1.0,
+      "p90": 2.3,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "lag_to_first_productive_action": {
+      "n": 8,
+      "mean": 2.375,
+      "median": 3.0,
+      "p10": 1.0,
+      "p90": 3.0,
+      "min": 1.0,
+      "max": 3.0
+    },
+    "lag_to_first_harvest_whole_farm": {
+      "n": 8,
+      "mean": 7.625,
+      "median": 9.0,
+      "p10": 2.1,
+      "p90": 11.0,
+      "min": 0.0,
+      "max": 11.0
+    },
+    "lag_to_first_committed_sell_whole_farm": {
+      "n": 8,
+      "mean": 7.125,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 18.0,
+      "min": 0.0,
+      "max": 18.0
+    },
+    "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+  },
+  "by_rank": {
+    "1": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 221.0,
+        "median": 221.0,
+        "p10": 220.0,
+        "p90": 222.0,
+        "min": 220.0,
+        "max": 222.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "p10": 2.0,
+        "p90": 2.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 3.0,
+        "median": 3.0,
+        "p10": 3.0,
+        "p90": 3.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 9.0,
+        "median": 9.0,
+        "p10": 0.0,
+        "p90": 18.0,
+        "min": 0.0,
+        "max": 18.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 0.16666666666666666,
+        "median": 0.0,
+        "p10": 0.0,
+        "p90": 0.5,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "2": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 198.0,
+        "median": 198.0,
+        "p10": 198.0,
+        "p90": 198.0,
+        "min": 198.0,
+        "max": 198.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 1.1666666666666667,
+        "median": 1.0,
+        "p10": 1.0,
+        "p90": 1.5,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 1.1666666666666667,
+        "median": 1.0,
+        "p10": 1.0,
+        "p90": 1.5,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 6.666666666666667,
+        "median": 6.0,
+        "p10": 5.0,
+        "p90": 9.0,
+        "min": 5.0,
+        "max": 11.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 18.0,
+        "median": 18.0,
+        "p10": 18.0,
+        "p90": 18.0,
+        "min": 18.0,
+        "max": 18.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "3": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 211.83333333333334,
+        "median": 211.5,
+        "p10": 198.0,
+        "p90": 226.0,
+        "min": 198.0,
+        "max": 226.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 1.5,
+        "median": 1.5,
+        "p10": 1.0,
+        "p90": 2.0,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 8.333333333333334,
+        "median": 7.5,
+        "p10": 1.5,
+        "p90": 16.0,
+        "min": 1.0,
+        "max": 17.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 2.5,
+        "median": 2.0,
+        "p10": 1.5,
+        "p90": 4.0,
+        "min": 1.0,
+        "max": 6.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "4": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 198.33333333333334,
+        "median": 198.0,
+        "p10": 197.5,
+        "p90": 199.5,
+        "min": 197.0,
+        "max": 200.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "p10": 0.0,
+        "p90": 4.0,
+        "min": 0.0,
+        "max": 5.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 2.1666666666666665,
+        "median": 2.5,
+        "p10": 0.0,
+        "p90": 4.0,
+        "min": 0.0,
+        "max": 5.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 11.5,
+        "median": 9.5,
+        "p10": 3.5,
+        "p90": 21.5,
+        "min": 3.0,
+        "max": 22.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 0.6666666666666666,
+        "median": 0.5,
+        "p10": 0.0,
+        "p90": 1.5,
+        "min": 0.0,
+        "max": 2.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "5": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 221.33333333333334,
+        "median": 222.0,
+        "p10": 220.0,
+        "p90": 222.0,
+        "min": 218.0,
+        "max": 222.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 1.6666666666666667,
+        "median": 2.0,
+        "p10": 1.0,
+        "p90": 2.0,
+        "min": 0.0,
+        "max": 2.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 3.0,
+        "median": 3.0,
+        "p10": 3.0,
+        "p90": 3.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 10.333333333333334,
+        "median": 11.0,
+        "p10": 5.5,
+        "p90": 14.5,
+        "min": 0.0,
+        "max": 18.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 1.0,
+        "median": 1.0,
+        "p10": 1.0,
+        "p90": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    }
+  },
+  "by_submission": {
+    "56216119": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 221.0,
+        "median": 221.0,
+        "p10": 220.0,
+        "p90": 222.0,
+        "min": 220.0,
+        "max": 222.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "p10": 2.0,
+        "p90": 2.0,
+        "min": 2.0,
+        "max": 2.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 3.0,
+        "median": 3.0,
+        "p10": 3.0,
+        "p90": 3.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 9.0,
+        "median": 9.0,
+        "p10": 0.0,
+        "p90": 18.0,
+        "min": 0.0,
+        "max": 18.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 0.16666666666666666,
+        "median": 0.0,
+        "p10": 0.0,
+        "p90": 0.5,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "56232364": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 198.0,
+        "median": 198.0,
+        "p10": 198.0,
+        "p90": 198.0,
+        "min": 198.0,
+        "max": 198.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 1.1666666666666667,
+        "median": 1.0,
+        "p10": 1.0,
+        "p90": 1.5,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 1.1666666666666667,
+        "median": 1.0,
+        "p10": 1.0,
+        "p90": 1.5,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 6.666666666666667,
+        "median": 6.0,
+        "p10": 5.0,
+        "p90": 9.0,
+        "min": 5.0,
+        "max": 11.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 18.0,
+        "median": 18.0,
+        "p10": 18.0,
+        "p90": 18.0,
+        "min": 18.0,
+        "max": 18.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "56233892": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 211.83333333333334,
+        "median": 211.5,
+        "p10": 198.0,
+        "p90": 226.0,
+        "min": 198.0,
+        "max": 226.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "p10": 0.0,
+        "p90": 1.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 1.5,
+        "median": 1.5,
+        "p10": 1.0,
+        "p90": 2.0,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 8.333333333333334,
+        "median": 7.5,
+        "p10": 1.5,
+        "p90": 16.0,
+        "min": 1.0,
+        "max": 17.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 2.5,
+        "median": 2.0,
+        "p10": 1.5,
+        "p90": 4.0,
+        "min": 1.0,
+        "max": 6.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "56244297": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 221.33333333333334,
+        "median": 222.0,
+        "p10": 220.0,
+        "p90": 222.0,
+        "min": 218.0,
+        "max": 222.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 1.6666666666666667,
+        "median": 2.0,
+        "p10": 1.0,
+        "p90": 2.0,
+        "min": 0.0,
+        "max": 2.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 3.0,
+        "median": 3.0,
+        "p10": 3.0,
+        "p90": 3.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 10.333333333333334,
+        "median": 11.0,
+        "p10": 5.5,
+        "p90": 14.5,
+        "min": 0.0,
+        "max": 18.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 1.0,
+        "median": 1.0,
+        "p10": 1.0,
+        "p90": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    },
+    "56251379": {
+      "n": 6,
+      "unlock_state_step": {
+        "n": 6,
+        "mean": 198.33333333333334,
+        "median": 198.0,
+        "p10": 197.5,
+        "p90": 199.5,
+        "min": 197.0,
+        "max": 200.0
+      },
+      "lag_to_first_entry": {
+        "n": 6,
+        "mean": 2.0,
+        "median": 2.0,
+        "p10": 0.0,
+        "p90": 4.0,
+        "min": 0.0,
+        "max": 5.0
+      },
+      "lag_to_first_productive_action": {
+        "n": 6,
+        "mean": 2.1666666666666665,
+        "median": 2.5,
+        "p10": 0.0,
+        "p90": 4.0,
+        "min": 0.0,
+        "max": 5.0
+      },
+      "lag_to_first_harvest_whole_farm": {
+        "n": 6,
+        "mean": 11.5,
+        "median": 9.5,
+        "p10": 3.5,
+        "p90": 21.5,
+        "min": 3.0,
+        "max": 22.0
+      },
+      "lag_to_first_committed_sell_whole_farm": {
+        "n": 6,
+        "mean": 0.6666666666666666,
+        "median": 0.5,
+        "p10": 0.0,
+        "p90": 1.5,
+        "min": 0.0,
+        "max": 2.0
+      },
+      "scope_warning": "Harvest/sale are whole-farm events; fungible inventory prevents attribution to the newly unlocked quadrant."
+    }
+  },
+  "limitations": [
+    "Target seat only.",
+    "Public replay is factual action/public state, not source code, private future state, or an exact route to copy.",
+    "Selected opponent mix is not a paired treatment effect."
+  ],
+  "historical_V111": {
+    "n": 32,
+    "unlock_state_step": {
+      "n": 32,
+      "mean": 256.25,
+      "median": 253.0,
+      "p10": 253.0,
+      "p90": 266.0,
+      "min": 253.0,
+      "max": 266.0
+    },
+    "lag_to_first_productive_action": {
+      "n": 32,
+      "mean": 1.75,
+      "median": 2.0,
+      "p10": 1.0,
+      "p90": 2.0,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "lag_to_first_harvest_whole_farm": {
+      "n": 32,
+      "mean": 4.75,
+      "median": 4.0,
+      "p10": 4.0,
+      "p90": 7.0,
+      "min": 4.0,
+      "max": 7.0
+    },
+    "lag_to_first_committed_sell_whole_farm": {
+      "n": 32,
+      "mean": 8.0,
+      "median": 4.0,
+      "p10": 4.0,
+      "p90": 20.0,
+      "min": 4.0,
+      "max": 20.0
+    }
+  },
+  "interpretation": "Cross-corpus timing association only, not a candidate effect."
+}

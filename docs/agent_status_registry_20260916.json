@@ -1,0 +1,95 @@
+{
+  "snapshot_date_jst": "2026-09-16",
+  "repository": {
+    "branch": "main",
+    "head": "21e91ece0039ed6bd74add48e0c2e46f8ba385ef",
+    "origin_main_matched_at_audit": true
+  },
+  "production_champion": {
+    "version": "V111",
+    "source_sha256": "699c73f75ec786e9bddcfabb6476fc64c07939f22abe3ed00691a5bef6f72660",
+    "archive_sha256": "85ba0176b1774ca1bc45f77601210d847e4bb8c01b550181c3c87bd3f6a1c85e",
+    "status": "PRODUCTION_CHAMPION"
+  },
+  "remote": {
+    "active_submission_id": 56089444,
+    "package_identity": "UNVERIFIED",
+    "local_action_agreement": "5725/5752 over the latest eight saved public replays",
+    "exact_episode_matches": 0
+  },
+  "agents": [
+    {
+      "version": "V111",
+      "lineage": "repository_owned",
+      "status": "PRODUCTION_CHAMPION",
+      "known_submission_ids": [55909167, 55912910],
+      "live_summary": "ratings 1688.6 and 1730.7 in saved reports"
+    },
+    {
+      "version": "V112",
+      "lineage": "external_exact_kaito_v27_apache_2_0",
+      "status": "VERIFIED_EXTERNAL_LIVE_CALIBRATION_CANDIDATE",
+      "main_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+      "upstream_public_score": 3090.1,
+      "local_live_rating_verified": false
+    },
+    {
+      "version": "V113",
+      "lineage": "V111",
+      "status": "LIVE_VIABLE_CAUSAL_UNRESOLVED",
+      "submission_id": 55933145,
+      "live_rating_approx": 1675,
+      "formal_promotion_verdict": "REJECTED_SAFETY"
+    },
+    {
+      "version": "V114/V114r1",
+      "lineage": "V111",
+      "status": "REJECTED_RESEARCH_ONLY",
+      "reason": "runtime bug in V114; zero delivery in V114r1; forced delivery unsafe and 0W/32L"
+    },
+    {
+      "version": "V115p variants",
+      "lineage": "V111",
+      "status": "REJECTED_RESEARCH_ONLY",
+      "reason": "no valid hard-safe Loss-to-Win across sale/livestock continuations"
+    },
+    {
+      "version": "v116_mooman_complete",
+      "lineage": "external_mooman_complete",
+      "status": "REJECTED_RESEARCH_ONLY",
+      "paired_result": "V111 12/0/20 versus candidate 20/8/4; L->W 10; W->L 0",
+      "reason": "raw Safety failed in 28/32 contexts"
+    },
+    {
+      "version": "P1_clean_PSR",
+      "lineage": "external_public_state_router_research",
+      "status": "REJECT_SAFETY_AND_PROVENANCE",
+      "paired_result": "24/0/8; delta win-score +0.375; W->L 2",
+      "reason": "raw Safety failed in 32/32 and transitive route-data provenance/license is unverified"
+    }
+  ],
+  "latest_research": {
+    "experiment": "research_20260916_v111_midgame_capacity",
+    "status": "REJECT_NO_FEASIBLE_CONTRACT",
+    "best_shadow_family": "BUY_ANIMAL:COW",
+    "capital_only_qualifying_contexts": 32,
+    "capital_only_qualifying_source_seed_blocks": 16,
+    "capital_only_qualifying_sources": 4,
+    "shadow_advance_decisions_median": 91,
+    "complete_maintenance_to_sale_contracts": 0,
+    "new_games": 0
+  },
+  "next_action": {
+    "numeric_version": "V117",
+    "target_status": "LIVE_TRIAL_CANDIDATE",
+    "production_champion_during_trial": "V111",
+    "primary_intervention": "midgame_land_cash_reserve_live_trial",
+    "fallback_live_calibration": "V112 exact artifact after identity and hash reverification"
+  },
+  "status_policy": [
+    "RESEARCH_ARTIFACT",
+    "LIVE_TRIAL_CANDIDATE",
+    "LIVE_TRIAL_SUBMITTED",
+    "PRODUCTION_CHAMPION"
+  ]
+}

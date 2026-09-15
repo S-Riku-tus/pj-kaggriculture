@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-15T22:47:51.752777+00:00",
+  "observed": {
+    "BUY_ANIMAL:COW": {
+      "new_cows_placed_before_land": 232,
+      "COW_maintenance:CARE": 856,
+      "COW_maintenance:COLLECT_FERTILIZER": 616,
+      "COW:PICKUP": 174,
+      "COW_maintenance:FEED": 848,
+      "COW:PLACE": 232,
+      "committed_cost": 110400
+    },
+    "HIRE": {
+      "committed_cost": 35376
+    },
+    "BUY_SEED:WHEAT": {
+      "committed_cost": 4880
+    },
+    "BUY_SEED:STRAWBERRY": {
+      "committed_cost": 88000
+    },
+    "BUY_LAND": {
+      "committed_cost": 96000
+    },
+    "BUY_PRODUCT:WHEAT": {
+      "committed_cost": 47296
+    },
+    "BUY_SEED:MELON": {
+      "committed_cost": 10240
+    },
+    "BUY_SEED:CARROT": {
+      "committed_cost": 3840
+    },
+    "observed_whole_farm_output": {
+      "HARVEST:WOOL": 5318,
+      "HARVEST:WHEAT": 12892,
+      "HARVEST:MELON": 2112,
+      "HARVEST:STRAWBERRY": 9664,
+      "HARVEST:MILK": 7478,
+      "HARVEST:CARROT": 1560
+    },
+    "BUY_ANIMAL:SHEEP": {
+      "committed_cost": 26000
+    }
+  },
+  "classification": {
+    "BUY_ANIMAL:COW": "deferrable irreversible investment until placement; placement/feed/care/milk debt retained",
+    "BUY_SEED:STRAWBERRY": "existing production continuation when consumed within 24 decisions, otherwise deferrable inventory",
+    "BUY_SEED:WHEAT": "existing production or urgent feed continuation depending on state",
+    "BUY_SEED:MELON": "existing production continuation",
+    "BUY_PRODUCT:WHEAT": "urgent maintenance when required for same-day FEED",
+    "HIRE": "urgent when assigned to maintenance/harvest/carry; otherwise capacity investment"
+  },
+  "limits": "Observed whole-farm harvest cannot identify output of each purchase lot. Lost future output remains Unknown."
+}

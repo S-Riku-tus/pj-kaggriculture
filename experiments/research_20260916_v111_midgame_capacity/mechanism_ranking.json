@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-15T22:47:51.780448+00:00",
+  "mechanisms": [
+    {
+      "rank": 1,
+      "name": "third_land_capital_and_activation_commitment",
+      "changes": [
+        "BUY_ANIMAL:COW",
+        "BUY_LAND",
+        "WHEAT activation"
+      ],
+      "V111_existing_part": "same spend family and WHEAT route assets",
+      "resources": "land 2000 + activation reserve 11 + state-specific maintenance reserve",
+      "completeness": "capital arithmetic observed; maintenance-preserving worker schedule, sale attribution, catch-up and rejoin not proven",
+      "negative_experiment_difference": "bounded diagnosis, but no bounded executor was established",
+      "identity_risk": "low",
+      "safety_risk": "high until task debt/rejoin is solved",
+      "license_risk": "low if V111-only",
+      "Evidence": {
+        "contexts": 32,
+        "qualifying_contexts_capital_only": 32,
+        "qualifying_source_seed_blocks_capital_only": 16,
+        "qualifying_sources_capital_only": 4,
+        "blocks": [
+          "ggmljs_v16:10091011",
+          "ggmljs_v16:10091012",
+          "ggmljs_v16:10091013",
+          "ggmljs_v16:10091014",
+          "mooman_e052a:10091011",
+          "mooman_e052a:10091012",
+          "mooman_e052a:10091013",
+          "mooman_e052a:10091014",
+          "qeinstein_moev2:10091011",
+          "qeinstein_moev2:10091012",
+          "qeinstein_moev2:10091013",
+          "qeinstein_moev2:10091014",
+          "souvik_v4:10091011",
+          "souvik_v4:10091012",
+          "souvik_v4:10091013",
+          "souvik_v4:10091014"
+        ],
+        "sources": [
+          "ggmljs_v16",
+          "mooman_e052a",
+          "qeinstein_moev2",
+          "souvik_v4"
+        ],
+        "advance_decisions": {
+          "n": 32,
+          "mean": 94.75,
+          "median": 91.0,
+          "p10": 91.0,
+          "p90": 106.0,
+          "min": 91.0,
+          "max": 106.0
+        },
+        "complete_maintenance_to_sale_contracts": 0
+      },
+      "Inference": "Deferring the family can expose cash earlier in some blocks.",
+      "Unknown": "realized revenue and opponent closed-loop effect."
+    },
+    {
+      "rank": 2,
+      "name": "post_unlock_activation_only",
+      "changes": [
+        "post-unlock idle lag"
+      ],
+      "completeness": "not selected",
+      "Evidence": {
+        "lag_summary": {
+          "n": 32,
+          "mean": 1.75,
+          "median": 2.0,
+          "p10": 1.0,
+          "p90": 2.0,
+          "min": 1.0,
+          "max": 2.0
+        },
+        "delay_ge_24_contexts": 0
+      },
+      "Inference": "only useful if a substantial factual lag exists",
+      "Unknown": "paired uplift"
+    },
+    {
+      "rank": 3,
+      "name": "remote_market_order_parity",
+      "strategy_candidate": false,
+      "Evidence": "5725/5752 action agreement and 27 order-only differences",
+      "Unknown": "exact package identity and full closed-loop effect",
+      "status": "UNVERIFIED_HYGIENE_ONLY"
+    },
+    {
+      "rank": 4,
+      "name": "demand_backed_tomato_option",
+      "status": "DEFERRED_NOT_IMPLEMENTED",
+      "reason": "Tomato begins after the main step 216–264 capacity gap, loses the Top win/loss correlation check, and prior crop diversification was negative."
+    }
+  ],
+  "implementation_gate": {
+    "1_same_family_two_sources_four_blocks": true,
+    "2_advance_24_and_productive_within_24": false,
+    "3_unique_state_machine_procurement_to_sale": false,
+    "4_state_compatible_suffix_or_general_executor": false,
+    "5_resequence_only_existing_family": true,
+    "6_all_resource_and_maintenance_preflight": false,
+    "7_bounded_vs_v109_fallback": false,
+    "8_no_P1_Top_dependency": true,
+    "all_pass": false
+  },
+  "C1_authorized": false
+}

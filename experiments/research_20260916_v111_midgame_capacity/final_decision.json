@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-09-15T22:52:23.942923+00:00",
+  "status": "REJECT_NO_FEASIBLE_CONTRACT",
+  "production_champion": "V111",
+  "reason": "Capital-only shadow support did not establish a maintenance-preserving 24-decision activation schedule, procurement-to-sale state machine, catch-up, or explicit state-based rejoin; implementation gates 2, 3, 4, 6 and 7 failed before any new game.",
+  "best_shadow_family": "BUY_ANIMAL:COW",
+  "capital_only_shadow": {
+    "contexts": 32,
+    "qualifying_contexts_capital_only": 32,
+    "qualifying_source_seed_blocks_capital_only": 16,
+    "qualifying_sources_capital_only": 4,
+    "blocks": [
+      "ggmljs_v16:10091011",
+      "ggmljs_v16:10091012",
+      "ggmljs_v16:10091013",
+      "ggmljs_v16:10091014",
+      "mooman_e052a:10091011",
+      "mooman_e052a:10091012",
+      "mooman_e052a:10091013",
+      "mooman_e052a:10091014",
+      "qeinstein_moev2:10091011",
+      "qeinstein_moev2:10091012",
+      "qeinstein_moev2:10091013",
+      "qeinstein_moev2:10091014",
+      "souvik_v4:10091011",
+      "souvik_v4:10091012",
+      "souvik_v4:10091013",
+      "souvik_v4:10091014"
+    ],
+    "sources": [
+      "ggmljs_v16",
+      "mooman_e052a",
+      "qeinstein_moev2",
+      "souvik_v4"
+    ],
+    "advance_decisions": {
+      "n": 32,
+      "mean": 94.75,
+      "median": 91.0,
+      "p10": 91.0,
+      "p90": 106.0,
+      "min": 91.0,
+      "max": 106.0
+    },
+    "complete_maintenance_to_sale_contracts": 0
+  },
+  "implementation_gate": {
+    "1_same_family_two_sources_four_blocks": true,
+    "2_advance_24_and_productive_within_24": false,
+    "3_unique_state_machine_procurement_to_sale": false,
+    "4_state_compatible_suffix_or_general_executor": false,
+    "5_resequence_only_existing_family": true,
+    "6_all_resource_and_maintenance_preflight": false,
+    "7_bounded_vs_v109_fallback": false,
+    "8_no_P1_Top_dependency": true,
+    "all_pass": false
+  },
+  "C1_created": false,
+  "paired_games": 0,
+  "development_games": 0,
+  "numeric_agent_created": false,
+  "numeric_label": null,
+  "remote_package_identity": "UNVERIFIED",
+  "tomato_executed": false,
+  "seed_use": {
+    "spent_new_games": 0,
+    "conditional_development": [],
+    "promotion": [],
+    "fresh": [],
+    "prior_development": []
+  },
+  "external_mutations": {
+    "kaggle_submission": false,
+    "kernel_push": false,
+    "submission_slot_change": false
+  },
+  "validation": {
+    "py_compile": "PASS",
+    "ruff": "PASS",
+    "evaluation_tests": {
+      "passed": 22,
+      "failed": 0
+    }
+  },
+  "final_process_audit": {
+    "method": "elevated Get-CimInstance",
+    "matching_python_or_kaggle_processes": []
+  }
+}

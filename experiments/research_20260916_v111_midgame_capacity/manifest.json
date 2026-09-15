@@ -1,0 +1,44 @@
+{
+  "experiment_id": "research_20260916_v111_midgame_capacity",
+  "started_at_utc": "2026-09-15T22:12:12.295255+00:00",
+  "started_at_jst": "2026-09-16T07:12:12.295255+09:00",
+  "deadline_utc": "2026-09-16T03:12:12.295255+00:00",
+  "deadline_jst": "2026-09-16T12:12:12.295255+09:00",
+  "repository": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture",
+  "git_branch": "main",
+  "git_head": "21e91ece0039ed6bd74add48e0c2e46f8ba385ef",
+  "git_status_short_at_start": [],
+  "git_status_observation": "clean; only global ignore access warning was emitted",
+  "working_tree_policy": "Preserve pre-existing changes and user files; no unrelated restore.",
+  "initial_process_audit": {
+    "method": "elevated Get-CimInstance",
+    "matching_python_or_kaggle_processes": []
+  },
+  "prompt_sha256": "804ba1eff7f77c00e38ea60b8a5d18ee17632cf2084d61cec9ae985d6cbb7dbb",
+  "preregistration_document_sha256": "b39067519602e15b45fb3f9eedbd4739fb34dc3fa28e66dc657c0a07e90e1653",
+  "machine_plan_sha256": "8d5ac76e1206265d149778e93db774219265b7648b2df19a861b68571f92ec10",
+  "input_artifact_verification": "experiments/research_20260916_v111_midgame_capacity/input_artifact_verification.json",
+  "seed_ledger": "experiments/research_20260916_v111_midgame_capacity/seed_ledger.json",
+  "production_champion": "V111",
+  "phase": "COMPLETE",
+  "status": "COMPLETE",
+  "external_mutations": {
+    "kaggle_submission": false,
+    "kernel_push": false,
+    "submission_slot_change": false
+  },
+  "C1_created": false,
+  "candidate_gate": {
+    "1_same_family_two_sources_four_blocks": true,
+    "2_advance_24_and_productive_within_24": false,
+    "3_unique_state_machine_procurement_to_sale": false,
+    "4_state_compatible_suffix_or_general_executor": false,
+    "5_resequence_only_existing_family": true,
+    "6_all_resource_and_maintenance_preflight": false,
+    "7_bounded_vs_v109_fallback": false,
+    "8_no_P1_Top_dependency": true,
+    "all_pass": false
+  },
+  "decision": "REJECT_NO_FEASIBLE_CONTRACT",
+  "completed_at": "2026-09-15T22:52:23.951044+00:00"
+}

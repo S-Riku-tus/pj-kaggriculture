@@ -1,0 +1,23 @@
+{
+  "audited_at": "2026-09-15T22:25:50.860221+00:00",
+  "active_submission": 56089444,
+  "identity": "UNVERIFIED",
+  "source_artifacts": {
+    "data/analysis/research_20260916_next_strategy/current_submission_fidelity.json": "1b630e1630cb2ce2caf6c9558a651a02e42d4c70841f8f1be1de76e5e6808ac7",
+    "data/analysis/research_20260916_next_strategy/remote_market_order_audit.json": "11369fce7ce46efa99ba4350c8bf7ada395fafd84ad89b59f47d3fb78e50d19d"
+  },
+  "stored_findings": {
+    "matching_actions": "5725/5752",
+    "exact_episode_matches": 0,
+    "mismatches": 27,
+    "mismatch_kind": "same market multiset, different order",
+    "one_step_self_cash_effect_sum": 12,
+    "one_step_opponent_cash_effect_sum": -29
+  },
+  "closed_loop_effect": "UNKNOWN",
+  "exact_archive_hash_verified": false,
+  "raw_input_hashes": {
+    "fidelity_payload": "c7bcf6d14658f8ef495503fba412be8e491a451565d372b3798d617139233424",
+    "market_order_payload": "95a32afb9018e63a5de9d84fdc3f2fdb575fa5cd9f30a33088f918380c872416"
+  }
+}
