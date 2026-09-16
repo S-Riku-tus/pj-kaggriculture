@@ -1,0 +1,59 @@
+{
+  "frozen_before_candidate_wdl": true,
+  "hard_gate": {
+    "source_license_package_manifest": "PASS required",
+    "forbidden_feature_or_identity_proxy": 0,
+    "runtime_timeout_incomplete_negative_cash_malformed_missing_hands": 0,
+    "candidate_new_nonterminal_animal_escape": 0,
+    "candidate_new_required_maintenance_or_water_death": 0,
+    "broken_partial_transaction": 0,
+    "post_commit_land_activation_debt_rejoin_failure": 0,
+    "non_trigger_fidelity": "exact V111 action and semantic state"
+  },
+  "confirmation_loss_budget": {
+    "minimum_delta_win_score": -0.0625,
+    "max_w_to_l_block_excess_over_l_to_w": 1,
+    "minimum_each_source_delta_win_score": -0.25,
+    "minimum_commit_sources": 2,
+    "minimum_commit_source_seed_blocks": 4,
+    "fallback_required_mediator": "same-turn land+COW and later duplicate-land removal in multiple blocks"
+  },
+  "not_required": [
+    "bootstrap 95% lower bound > 0",
+    "all-source non-regression",
+    "W-to-L zero",
+    "three ancestries",
+    "Fresh"
+  ],
+  "pass_label": "EXPLORATORY_E6_REQUIRED",
+  "production_promotion_allowed": false,
+  "production_champion": "V111",
+  "result": {
+    "evaluated_at": "2026-09-16T01:42:20.925720+00:00",
+    "hard_gate_passed": true,
+    "loss_budget_passed": true,
+    "passed": true,
+    "delta_win_score": 0.0,
+    "block_transitions": {
+      "L->L": 10,
+      "W->W": 6
+    },
+    "by_source_delta": {
+      "ggmljs_v16": 0.0,
+      "mooman_e052a": 0.0,
+      "qeinstein_moev2": 0.0,
+      "souvik_v4": 0.0
+    },
+    "commit_sources": [
+      "ggmljs_v16",
+      "mooman_e052a",
+      "qeinstein_moev2",
+      "souvik_v4"
+    ],
+    "commit_source_seed_blocks": 6,
+    "same_turn_land_and_cow_contexts": 12,
+    "duplicate_land_removed_contexts": 12,
+    "classification_if_passed": "EXPLORATORY_E6_REQUIRED",
+    "production_promotion_forbidden": true
+  }
+}

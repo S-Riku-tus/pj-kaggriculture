@@ -1,0 +1,1501 @@
+{
+  "created_at": "2026-09-16T02:03:06.772455+00:00",
+  "scope": "All required V117 source, documentation, local experiment payload, replays, scripts, and exact archive.",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "size": 347,
+      "sha256": "4e5d5e4e28d176eb50221f21d6d15942d1a1a0c5eb1cb0a4384d2d8fc2a71e7c",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/CHANGELOG.md",
+      "size": 555,
+      "sha256": "9c480e8285618c2525945c6a115b7390b8f2489f66c9817c9d669e686d3d85e7",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/NOTICE.md",
+      "size": 644,
+      "sha256": "3954ce23c869287eb11449e6cc5607bb246860b86f4cc9170e2173bc267f6c6d",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/README.md",
+      "size": 1257,
+      "sha256": "edbb2cfe66c34c91b39cdd6eb0130efd5d64d5271600cb471a88fef8e7e4d947",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/RESEARCH_STATUS.json",
+      "size": 760,
+      "sha256": "46dd96742f40af95ab6f1cbc40130fb486db7cc842f27adff0b3ef66aa2d06d4",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/__init__.py",
+      "size": 44,
+      "sha256": "6e5717208be4363b6ddb6543b0989426b6a10678663282c30b9e31e9be1be120",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/__pycache__/main.cpython-312.pyc",
+      "size": 29851,
+      "sha256": "6d12964f9b3dac636ac6cf26eeb18de9679b3bc171c1cf4e3a10a5d592615abf",
+      "git_ignored": true,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/main.py",
+      "size": 20660,
+      "sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/metadata.json",
+      "size": 305,
+      "sha256": "6c5fa71b00bd2c08aaf4bd2a461488114eb2f9386f21e8a4b4dc920dabd17476",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "agents/v117/submission_manifest.json",
+      "size": 1117,
+      "sha256": "68aea734119c233eb718c269c584ba6be4b1a6c4f7f1195ce3d479e34f802030",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "artifacts/submissions/v117.tar.gz",
+      "size": 119759,
+      "sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+      "git_ignored": true,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "docs/agent_status_registry_20260916.json",
+      "size": 4386,
+      "sha256": "53f5f6db0c516363c2e47c8efe7b93f7b8dd5fa20841ab8334225bcf892e7b38",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "docs/research_20260916_v117_live_trial_preregistration.md",
+      "size": 5524,
+      "sha256": "a2d278ffdab51b1b50e190cca8a1d8ff037761ae818b3225d5da9df9c62924d1",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "docs/research_20260916_v117_live_trial_report.md",
+      "size": 13452,
+      "sha256": "075b74a3fae6951355acd99418b34b199ee01224fcdd283ebd8722d985b69c2d",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/aa_results.json",
+      "size": 8308,
+      "sha256": "e64bf49b441201279d41c2e8f55ed2ae1c439a1854917a599275209b7b9df8a3",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/candidate_contract.json",
+      "size": 2006,
+      "sha256": "066aa2957dd1c2bb34dda6589c48056b44a9644a7fff0df84f0a72b2db3b1d08",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/candidate_integrity.json",
+      "size": 546,
+      "sha256": "b86325f90513c1e0c008a38d49e35f1fc7058b4c2b958a7faab1ab302f9f9f10",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/fallback_decision.json",
+      "size": 667,
+      "sha256": "4175a9ec8636a23020c006e8499a9ec0ab831b3852f3dc831896304a173f2989",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/final_decision.json",
+      "size": 2628,
+      "sha256": "bd101226cb1cf382b006256acc2443c8f596968ece7586d67a2ee71a2d61789e",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/initial_audit.json",
+      "size": 7865,
+      "sha256": "325918b29fab294c493b7699f8bbe4f6365ffa5121a9814dc52d7af9208d8fd0",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/input_artifact_verification.json",
+      "size": 7581,
+      "sha256": "d799b52d67b66078c506d4f05044f96b770a43552abec5a602e1864f6f97fa64",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/live_observation.json",
+      "size": 307,
+      "sha256": "e59bebd17418bf02ed2ae33f1775b904111de9d679dc63ba72a795ff02601b89",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/manifest.json",
+      "size": 3192,
+      "sha256": "73163293ad73ee3dc5dd5ae1633c15b8d5614ce8f966995362f4702d93c79d04",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/mechanism_attribution.json",
+      "size": 39509,
+      "sha256": "5a4c7bd7de56566d038e833a6efd15d240eb301cc147bbf722b4350700ff8e1d",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/mechanism_details.json",
+      "size": 628186,
+      "sha256": "f04bdeaee49c6d2ffdcc4a60f3ec149066962d128d3c4444ea159fe9333e0b29",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/package_manifest.json",
+      "size": 1050,
+      "sha256": "f76dd4053eb8c439d30faf263d05a88ee6ef46f7496ffe007f7aadc4f0514a2b",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/package_runtime_validation.json",
+      "size": 2050,
+      "sha256": "209eae41ad6b68b693af8718674559b4b14e471a395b163bf755406f55e9f8df",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/package_verification.json",
+      "size": 2391,
+      "sha256": "e475d62130b4aa241296ac2f5993a6ce74d9cf06459aaded5589a8ddcb3d017e",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/pairs.jsonl",
+      "size": 778315,
+      "sha256": "b8e8bcc074618751a3113770d49179cd75c5e11dc885ddc1119fcb67921b50d2",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/plans/aa_v111.json",
+      "size": 657,
+      "sha256": "2cef55fe835a75eaf1745813615e415d2b8ab2de87322c0796d49a0fa4751779",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/plans/aa_v117.json",
+      "size": 657,
+      "sha256": "607bd0b9ebe380674c1928d201f5cdbff2778c604bad9644169ba061f41b39a2",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/plans/confirmation.json",
+      "size": 765,
+      "sha256": "c91c0d943df0317f56360a502f5fe1706e9188b174fc72b350a96b7c94afaf63",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/plans/old_spent.json",
+      "size": 762,
+      "sha256": "169f849baa6c15dc77a2de1ec16dead2f900780e9e442abc277238dc3a853e4b",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/plans/smoke_commit.json",
+      "size": 680,
+      "sha256": "b2209b4227479a1a3ec16df721c5ebf1d1634827cb834f9cc333492561ea4790",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/plans/smoke_nontrigger.json",
+      "size": 663,
+      "sha256": "ee286a522599256a8e00b6ec81d4b317b2299ee767a71994ea359187db6a90e6",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/process_audit.json",
+      "size": 282,
+      "sha256": "00dfc5fd1591521827d5b4abd3428ae083271bfe7a594e92ad23ba0226118f83",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/progress/aa_v111.json",
+      "size": 425,
+      "sha256": "57abc5b04974c0794514c733b2b1422af7eda2a3b78bb003eb1b069c93bd4057",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/progress/aa_v117.json",
+      "size": 424,
+      "sha256": "785599a6c2f9b771700f7ae0e4e87c96853fbd16634fb3e3eff36e5276ef98e9",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/progress/confirmation.json",
+      "size": 432,
+      "sha256": "00ea92ce5c329b426768c39f74bbc5a3490936d4a6509aa1ce7460fb9265fa94",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/progress/old_spent.json",
+      "size": 429,
+      "sha256": "a29ed16c5f03eb227e67ed5cd06b5f745932d6e00c96afffa93e7c2007ca6871",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/progress/smoke_commit.json",
+      "size": 429,
+      "sha256": "0bb972730bac541aa3b3f754b5ddfb89d6c0d545ec57a6d246fe304270280e82",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/progress/smoke_nontrigger.json",
+      "size": 430,
+      "sha256": "a59921c262d577e79c8f583a61198c7d58c5e1c0510304757f8c5362a3c89e9a",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/remote_identity_and_slots.json",
+      "size": 1330,
+      "sha256": "4336b28c7459ca7a1138574b1f448e71890b240457d1d3664576041494183e94",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v111/qeinstein_moev2/seed_10091011_seat_0/control.json.gz",
+      "size": 586608,
+      "sha256": "b2cb287736d7be94a89ee0a3ab834fd7cc55f320b1eefd9f771888da8df3051f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v111/qeinstein_moev2/seed_10091011_seat_0/treatment.json.gz",
+      "size": 586610,
+      "sha256": "b70174f64fb13955303237089f55ead3f11255d029a14b0c93dd9f9fa5ab6a14",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v111/qeinstein_moev2/seed_10091011_seat_1/control.json.gz",
+      "size": 587522,
+      "sha256": "dda8d5e95d2ba123725c72dd621a3abb9c63d57ba5dd7c159275401019bd493a",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v111/qeinstein_moev2/seed_10091011_seat_1/treatment.json.gz",
+      "size": 587523,
+      "sha256": "1660805f4100d67faee2de385f3edc782d6632e7082d7b5ddb991a5bd76ec6d4",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v117/qeinstein_moev2/seed_10091011_seat_0/control.json.gz",
+      "size": 586631,
+      "sha256": "810440429acc28f5811584d0b11f0d1bc6ed3c995148bf5b710178ad259036ce",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v117/qeinstein_moev2/seed_10091011_seat_0/treatment.json.gz",
+      "size": 586633,
+      "sha256": "f7880f899861603021e30bb229042897b876347aec073f0c2ab7b2bb70f948e6",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v117/qeinstein_moev2/seed_10091011_seat_1/control.json.gz",
+      "size": 587560,
+      "sha256": "b49966ca4ad5bdb55c4ed656977274a5ce3748dc7b5a24f65e036827c5d3e4dd",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/aa_v117/qeinstein_moev2/seed_10091011_seat_1/treatment.json.gz",
+      "size": 587562,
+      "sha256": "6f9d09e3b5e2013ecf615827a7fdbe3b11bf564d275a9f7b25d868f4fa2463dc",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091521_seat_0/control.json.gz",
+      "size": 579202,
+      "sha256": "c932597e6763339aa62e1ee176bb8ac04b2ada80d515e291bc2ca9faa8c8f32f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091521_seat_0/treatment.json.gz",
+      "size": 579189,
+      "sha256": "9aacf06e7d69bd5b4aaf52c0afeba6daffafa49e2687ee2e22e4da18ac64ca0c",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091521_seat_1/control.json.gz",
+      "size": 581689,
+      "sha256": "8e928690ad08866bf081b7c726cd78731d2d43f5cfc87797db0b5f6426ce2d0d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091521_seat_1/treatment.json.gz",
+      "size": 581691,
+      "sha256": "64315890c2576e75117cc6301499cde3d6107aa6c50c11f90016ebb9fb758630",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091522_seat_0/control.json.gz",
+      "size": 566421,
+      "sha256": "9895a2869cfeaa93baf344309a4885d78806e51d64323b0daaeaabd2a0ae00af",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091522_seat_0/treatment.json.gz",
+      "size": 566423,
+      "sha256": "6b0a97f975b9492dba1388cbe72934e728bf8124d7bbaa5e2504630341b70084",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091522_seat_1/control.json.gz",
+      "size": 568585,
+      "sha256": "6ffb51f4c3e9bf94e8e07b80f8309f54424d111029f611a5f7e18ea91cf24313",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091522_seat_1/treatment.json.gz",
+      "size": 568587,
+      "sha256": "f5be46599f1199a6815a1a9973a3031f954f8e898e95e1607061bceb76aa5c1b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091523_seat_0/control.json.gz",
+      "size": 580443,
+      "sha256": "5d073c41f1a82cd7fcbb5d4aa25ba1607059d2db9c6cecd214381200d3d06c28",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091523_seat_0/treatment.json.gz",
+      "size": 580428,
+      "sha256": "7146b7a51bfaef2e21bd6e3fd7ccb618166b47aab74c629a47369a7ee43028a5",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091523_seat_1/control.json.gz",
+      "size": 582857,
+      "sha256": "4d0166418136ab7e6b3cd4be6b3ad95a649ee36d6b80573a3a695bf25e5dfc84",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091523_seat_1/treatment.json.gz",
+      "size": 582858,
+      "sha256": "505b17519b9dba391af6696cbc43c75b30728a861ef341cb5845c99ee4d32970",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091524_seat_0/control.json.gz",
+      "size": 581393,
+      "sha256": "ead2c5697f53d8c3ccad3afb5d966db7a392629ec69c09a37f059a241a31b24c",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091524_seat_0/treatment.json.gz",
+      "size": 581379,
+      "sha256": "2ac48901c46044aa0b9bb1cb8f4e0df75113e22a4f7da90c35253143f2b05705",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091524_seat_1/control.json.gz",
+      "size": 583050,
+      "sha256": "d5b2fdcf7c74b09c2ef44d4865a9f5f67304f9fcb6c5203362972c9c2ccc8114",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/ggmljs_v16/seed_10091524_seat_1/treatment.json.gz",
+      "size": 583048,
+      "sha256": "5c7e9c81f6a4b240981651ee26a6fe07b1885a0a88a4b0702401cff766a3968b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091521_seat_0/control.json.gz",
+      "size": 594536,
+      "sha256": "4781033f0559b5d5ec9727ac5d9cf0765747b4437f28ba097717c25a98744faa",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091521_seat_0/treatment.json.gz",
+      "size": 594562,
+      "sha256": "07924ba348ce884924a6005a852181f5d54be84eafc41e4ac785acb8bac2af4f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091521_seat_1/control.json.gz",
+      "size": 594763,
+      "sha256": "a2bee7fb102bd0ca4f9ff96b25cc1dc2eefd2fc981449b0268427545ccbf8408",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091521_seat_1/treatment.json.gz",
+      "size": 594794,
+      "sha256": "436781d1938b791bf1f9d8b3b1085c0a0ac7781780d9905e46b5f0fc182c4600",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091522_seat_0/control.json.gz",
+      "size": 574385,
+      "sha256": "1922dfa90abe041d69653c1118edcc516948a4876cffb0d5360c076bfbea0b1c",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091522_seat_0/treatment.json.gz",
+      "size": 574387,
+      "sha256": "efef6bc2cb2b6267934a3208691ae4f8cb1ba90e79cfafeffc8c448c43efa3f1",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091522_seat_1/control.json.gz",
+      "size": 576631,
+      "sha256": "91a57fe57b1c5e3c3e90fa479dfc32448f3f4be6e950eef5e4a86d53f03cf135",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091522_seat_1/treatment.json.gz",
+      "size": 576634,
+      "sha256": "902ae06954ac9042aa533977e6d777e173fbe3c11c87c1e5cfdd39d2a1e0a103",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091523_seat_0/control.json.gz",
+      "size": 595606,
+      "sha256": "9afbe9ff84187f125dc419aa374850a6046a080d2ce96433da6f4759472a0df0",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091523_seat_0/treatment.json.gz",
+      "size": 595607,
+      "sha256": "ad50ec25409baa3d91d6a79986c040f4a4c2aab71d0f400c8d14590eeb99baa7",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091523_seat_1/control.json.gz",
+      "size": 595738,
+      "sha256": "58672c1b3423e11db96cf6bb3c2992031a15be8acf905a936df85eac6f55208b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091523_seat_1/treatment.json.gz",
+      "size": 595739,
+      "sha256": "57558cf86a0457cc3b69bf4bad3c106dd9fee9e7438a0b4f95877d2aa16dc07f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091524_seat_0/control.json.gz",
+      "size": 574499,
+      "sha256": "9206116b76aa24bf29af53a13abbe26f07757252ea72c8c493fd4398de66d64b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091524_seat_0/treatment.json.gz",
+      "size": 574502,
+      "sha256": "88cf54873f19d3705081b7188ff7981d420e4f78705dbd6a9a850fa0239e29cb",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091524_seat_1/control.json.gz",
+      "size": 576644,
+      "sha256": "4aca5e6e55f25d8c5d81c983746c69618c7a415d6cfc41280dd4810fbf3b8a91",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/mooman_e052a/seed_10091524_seat_1/treatment.json.gz",
+      "size": 576645,
+      "sha256": "2c4039aff5e705bded1d027f6e88d6c6adc070006118382f5bee58f98463bea1",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091521_seat_0/control.json.gz",
+      "size": 587469,
+      "sha256": "f780489a3dc439b673283b6c63091bd1e81eba76ab021cca2f704980726b5f61",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091521_seat_0/treatment.json.gz",
+      "size": 587486,
+      "sha256": "24f43b49679b8a9d94d664d2aafe086ea78ac734134938e56bb36b9290637a0d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091521_seat_1/control.json.gz",
+      "size": 588400,
+      "sha256": "2714b3e80437497b5502289274df23b20f082a48827d25b5162d8c4f7e25280a",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091521_seat_1/treatment.json.gz",
+      "size": 588433,
+      "sha256": "8f68b9e0f28988923ef6ecd96a57fd67edd9c2a536d6ba56995685aa8a28142b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091522_seat_0/control.json.gz",
+      "size": 572877,
+      "sha256": "9919a8be58341979082497a92b90f348ad34596328cfc992c27e2c819048390a",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091522_seat_0/treatment.json.gz",
+      "size": 572878,
+      "sha256": "98d13db689d92004509656dacd5991ae4658057c543b5ba063b3c6bdf4eb448d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091522_seat_1/control.json.gz",
+      "size": 574691,
+      "sha256": "695acd9f654098d953d6944ca7285fa1aa678c0bcfc7308cd7f4b20ba02a542b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091522_seat_1/treatment.json.gz",
+      "size": 574692,
+      "sha256": "0e8a035e9bd1a2ee9e4219ab1b64e7bde1f1c21333a911ff5207d17d782b026e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091523_seat_0/control.json.gz",
+      "size": 575299,
+      "sha256": "1b2ee0f1fa2ad273573fa4dfb84ddc143f23dcf13032e409b628134ef32c1cf7",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091523_seat_0/treatment.json.gz",
+      "size": 575301,
+      "sha256": "6cd638de50032e23d11d0a1809039adcaf8db756f81adbe44d7bb596a9331bd5",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091523_seat_1/control.json.gz",
+      "size": 575809,
+      "sha256": "29d268a7e5be2a45c4fd340388aa6758bc985a1b8d1a5234770fe528549ec4c6",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091523_seat_1/treatment.json.gz",
+      "size": 575811,
+      "sha256": "c065b145229c282d72c282fda87c087a6782f977b35582847dc212a4752f8b94",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091524_seat_0/control.json.gz",
+      "size": 573149,
+      "sha256": "59f399db52913d5f862f007266baacb338558a3471663ef9c5c52c181d0519d8",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091524_seat_0/treatment.json.gz",
+      "size": 573151,
+      "sha256": "75943c5595d01a35a50ebdc02b423023f904239c114335210f9dd56a967bfb93",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091524_seat_1/control.json.gz",
+      "size": 574933,
+      "sha256": "9ec9e87f7699438376399d6d9572447695989fb22cd8b455df11581b0c5fe0f9",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/qeinstein_moev2/seed_10091524_seat_1/treatment.json.gz",
+      "size": 574935,
+      "sha256": "52a9489a29933ee7aace9c533e7fa5f45ff138b3e3d15d0264e143cb2b8fcf3b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091521_seat_0/control.json.gz",
+      "size": 594494,
+      "sha256": "ffff3ed6beac969d752939458d8243ccb944b9309d8fb74529770a851087941b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091521_seat_0/treatment.json.gz",
+      "size": 594520,
+      "sha256": "20ea2eee58250f3365ac88c9f65bb376a208071e3ef6537bb304cefc6beafd3d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091521_seat_1/control.json.gz",
+      "size": 594640,
+      "sha256": "85f19a8d8c617a900abad256201b1b194608ba816c57840dfc571f370c74befe",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091521_seat_1/treatment.json.gz",
+      "size": 594670,
+      "sha256": "452ab81dd3b1a194fe55dd0b80678a7f3c849adad99d8119c76e5115446fb8c7",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091522_seat_0/control.json.gz",
+      "size": 568378,
+      "sha256": "c5f0d2973c841e37b9c9daabd896356b592d5b3a625a42429058261024f91051",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091522_seat_0/treatment.json.gz",
+      "size": 568379,
+      "sha256": "6c1e872e8d4cbaac8f1eef9dc1e7c7eaa567147717f1f96b9b60519c3a50313e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091522_seat_1/control.json.gz",
+      "size": 569587,
+      "sha256": "3f401c693f910ab6c04a4b4c1b98bfe2cf3eb68de0f0121bd8dc06b744773c39",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091522_seat_1/treatment.json.gz",
+      "size": 569589,
+      "sha256": "3bba3ae8f4667d180fd3dbfdcca5dd3aec3db650d74a39e63937a85e476f33a5",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091523_seat_0/control.json.gz",
+      "size": 595576,
+      "sha256": "a1cc60dd3c911261cac89f3be53d7f4b180b7d3fc51f1040b44d0b4b2eff9d7e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091523_seat_0/treatment.json.gz",
+      "size": 595579,
+      "sha256": "42c8bb197874776fb97995e206960e048e1d304086a90f5a5b11cc0987efb33c",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091523_seat_1/control.json.gz",
+      "size": 595725,
+      "sha256": "8b4e7f8f3fedf6613475f2f2304643fbb939f98860f2432f11cda14654749caf",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091523_seat_1/treatment.json.gz",
+      "size": 595728,
+      "sha256": "490195d03cf914cdadcee805b9d4d213fa142668a88bc37786c1b5ed0d6ad458",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091524_seat_0/control.json.gz",
+      "size": 568416,
+      "sha256": "d5efacf0be099a3a0055ec951c4a2a31c980978880f4158b09be03092e9fc9b5",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091524_seat_0/treatment.json.gz",
+      "size": 568419,
+      "sha256": "c0a3a538243aa574ff033b843dedc80e0cec38466117a92c100a0bcac21b8ec4",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091524_seat_1/control.json.gz",
+      "size": 569636,
+      "sha256": "95be915b838e2ce7d02cf4a8436b07d6ebd5f2e7390e31f8cb8cb0706aa11ceb",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/confirmation/souvik_v4/seed_10091524_seat_1/treatment.json.gz",
+      "size": 569637,
+      "sha256": "85003fb4fc3150bc264aace7bbfa9e1fa89a3b89635b29423495efec7b543494",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091011_seat_0/control.json.gz",
+      "size": 575854,
+      "sha256": "c37f5e9c088b0d61d30cc4a7342f98db3e2c380bfeb1f1f96afa094964acb4be",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091011_seat_0/treatment.json.gz",
+      "size": 575847,
+      "sha256": "44074bf38cfd1ab5584471b9bc5c441ce30c9f6aac8c1f393f163c1a5f822613",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091011_seat_1/control.json.gz",
+      "size": 583365,
+      "sha256": "762328e06785944d3c4d024832f50fb17f346166e0ec8ecd0e7fb02be2889937",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091011_seat_1/treatment.json.gz",
+      "size": 583367,
+      "sha256": "91cb7a538160a71979ec2dd912ec6ab788b2b81e166bc2eaba1b98b5f2034624",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091012_seat_0/control.json.gz",
+      "size": 576819,
+      "sha256": "85169f51fba7efd252dc9dd2af1c9f4cd6008fae1774a42534cf2d207fe1ee5d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091012_seat_0/treatment.json.gz",
+      "size": 576808,
+      "sha256": "3b000e6597a2aaba9c502825d9398a808b5a89bb50b2d7f45676b27b3c7b31fe",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091012_seat_1/control.json.gz",
+      "size": 578306,
+      "sha256": "3966cb277b6a7c26839dc944370cea22c8c91c838e5d6e763f983e82190526b0",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091012_seat_1/treatment.json.gz",
+      "size": 578312,
+      "sha256": "e5a08b2e8c77ec68c0673be16ab2f2a18dcbf5e76adbb237fda3de67f3b4fe9d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091013_seat_0/control.json.gz",
+      "size": 576525,
+      "sha256": "0ea5ae91c8768d9e7dae7bb2466ec1e18a27fb62db5c7e604527c0d6c6f1045c",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091013_seat_0/treatment.json.gz",
+      "size": 576529,
+      "sha256": "2edb539d3c518a1f3a21394941fe608c3c46ef6a5485bd54e058fb44efb5ff35",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091013_seat_1/control.json.gz",
+      "size": 578867,
+      "sha256": "cc7c07bf790e2d4e41e19b6abf9233d5d34b873be3737920c4d4175cee48a679",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091013_seat_1/treatment.json.gz",
+      "size": 578868,
+      "sha256": "40ea302acfa655782ef7620366848782123acb48f3c5d851cb49e3dc68d6e81f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091014_seat_0/control.json.gz",
+      "size": 580389,
+      "sha256": "3d3e480579f0d99194fc00c30b1a640781a8753debcb3a30293306a6b0fb4768",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091014_seat_0/treatment.json.gz",
+      "size": 580375,
+      "sha256": "2f136a447f877db3db274f53df0a3a3c4a07990997726279c8aac86cb04f68a7",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091014_seat_1/control.json.gz",
+      "size": 582652,
+      "sha256": "913f9843376f8923d88af86c6cf24c1573fa9920676ef9ea39ee8e1aeac7cce2",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/ggmljs_v16/seed_10091014_seat_1/treatment.json.gz",
+      "size": 582650,
+      "sha256": "75eee8f5119111f2ece30b448d05954d5ce325395df533835d6083c106e83d55",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091011_seat_0/control.json.gz",
+      "size": 572241,
+      "sha256": "446bc981699feb60fecaf34a91c4315dddbe6ab0625d2531fb1fd5780e40f227",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091011_seat_0/treatment.json.gz",
+      "size": 572242,
+      "sha256": "082ce728fbf9866ec35703016ca5b5a6c679b4bb6476ca1994bccdaf373e2e3b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091011_seat_1/control.json.gz",
+      "size": 573835,
+      "sha256": "3a3b119a49d70c7ca0a5fbd3abc3b9d64f409cdaaa4c7378abd51fa7695618cf",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091011_seat_1/treatment.json.gz",
+      "size": 573836,
+      "sha256": "16f1c894d4e16c1abfbf8d866a21930ccdb291e26448aa43a51ede8f4bcc5b48",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091012_seat_0/control.json.gz",
+      "size": 595007,
+      "sha256": "7186040c0d45a5b9e8e6e131fd88ffca4983806d9309383e838dd966aee84faf",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091012_seat_0/treatment.json.gz",
+      "size": 595033,
+      "sha256": "0df084d7b137effd5152f5ddeb8669bb502e5103e8654d0614d9f3ccceb6ed07",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091012_seat_1/control.json.gz",
+      "size": 595440,
+      "sha256": "eb5ee9d28cbb42dfd3c28d15aaeba0a9eec2bd967850ff3eafd9c164e68198d0",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091012_seat_1/treatment.json.gz",
+      "size": 595468,
+      "sha256": "d0a739ded3bb80aa3f4562d4e2d7ccdc711d2db01856d6fe5c3f404e9fbba6d0",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091013_seat_0/control.json.gz",
+      "size": 597854,
+      "sha256": "6b71efc40efa6150ecef9bc4dbff9204569e6069f184d86511dfda879d294314",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091013_seat_0/treatment.json.gz",
+      "size": 597788,
+      "sha256": "0212410c359f0a811518ee1b727d5be6fcb1862e3e6953c3e7150a89be7a37fd",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091013_seat_1/control.json.gz",
+      "size": 599644,
+      "sha256": "2ed4549aff27df9a5f07d9a14183ae1fa4a8014a70e123f5d8854df8145b8788",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091013_seat_1/treatment.json.gz",
+      "size": 599488,
+      "sha256": "87093ba498d9bb5ffbebbd74b74d200525d8aef3f3caed197a15657ac86d022e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091014_seat_0/control.json.gz",
+      "size": 571884,
+      "sha256": "d304f8aa8736dc0a4b51c129f067c80d217e076f14c28cb5663539b08e4298c5",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091014_seat_0/treatment.json.gz",
+      "size": 571885,
+      "sha256": "387796be7929b8c08164ae68fb7d30bc85a6023b75835e5ed478351f994c13ba",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091014_seat_1/control.json.gz",
+      "size": 573734,
+      "sha256": "b3ffd660cf4fae6d7ac924ffa337779b72be7f59c9b9a3ae472427b875124dff",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/mooman_e052a/seed_10091014_seat_1/treatment.json.gz",
+      "size": 573736,
+      "sha256": "2907b3f8f892e5a348d3963c7051722a7e6fb4aa02532a23b3a125a70dccc8ec",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091011_seat_0/control.json.gz",
+      "size": 586609,
+      "sha256": "28061667b268a3951d036cbbd319b45738365375b87f7aefc7bc6481bbf46d5d",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091011_seat_0/treatment.json.gz",
+      "size": 586633,
+      "sha256": "0737c94e77f62bdb49b462fe20c8a2e266a345b250a568a38a58950406281a7c",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091011_seat_1/control.json.gz",
+      "size": 587521,
+      "sha256": "f451d52f9f90b868091c72866d1c8b00cc6736f79124c5c89d8cc7d66cece8f3",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091011_seat_1/treatment.json.gz",
+      "size": 587562,
+      "sha256": "438e1ca18c630a9615aebeeacb95be5decef94a3fbde579d1df10488133cfbaf",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091012_seat_0/control.json.gz",
+      "size": 587342,
+      "sha256": "309be1787f14cd73a3ece3d577a87fbc8a9e52a55ec72ab5eed10e6fab4a38c6",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091012_seat_0/treatment.json.gz",
+      "size": 587360,
+      "sha256": "7bff886da8d52f0a9954014ed5a0a935a8a59aa9a4ec55adac049923317a7c90",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091012_seat_1/control.json.gz",
+      "size": 588383,
+      "sha256": "f264207b5b91219981715b6dd1970bd208d254bd287c972b4a45fc81e33218c4",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091012_seat_1/treatment.json.gz",
+      "size": 588414,
+      "sha256": "aa64c0f40b092d81e4207e4dbcf4c8c6de2c7cadc6a03553b5ef4c8571ac218f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091013_seat_0/control.json.gz",
+      "size": 575344,
+      "sha256": "9aca6cb8cc760b71e2475addaebf2387585bf7fd44b8dd26638ab5e68940b546",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091013_seat_0/treatment.json.gz",
+      "size": 575378,
+      "sha256": "eacf33630bcb32b4688cf7b8eac40d0867b4858c0a55469ea586b2670f98c943",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091013_seat_1/control.json.gz",
+      "size": 576188,
+      "sha256": "b0afe548aa2a03675b079950e04c972b409f48553a25d7657f80e262e634ea99",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091013_seat_1/treatment.json.gz",
+      "size": 576231,
+      "sha256": "1e16810672865757f3c43c8f861ba5892823305013016b73414fe8bb0ea60577",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091014_seat_0/control.json.gz",
+      "size": 587047,
+      "sha256": "a3959eb789676faf1f758e06ad9dac0302c745e52b118d1f561b1afe28041157",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091014_seat_0/treatment.json.gz",
+      "size": 587066,
+      "sha256": "b1f0f932e080d1dd4fda12681117609febed71834f521ccb940d2004b7ad73c9",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091014_seat_1/control.json.gz",
+      "size": 587850,
+      "sha256": "a72901399d2ec803bad7630b78cfc278259c495f94cab72fdf344c33cf0fc702",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/qeinstein_moev2/seed_10091014_seat_1/treatment.json.gz",
+      "size": 587881,
+      "sha256": "65a5f16b3f574fdfa06422f1d385f491a292e3a47a25144abd71ede1aa5539b7",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091011_seat_0/control.json.gz",
+      "size": 568456,
+      "sha256": "dedd29fa90e9426a03f515297a03f6f54a1535e6f4ab534ccd2cad2fe855fd33",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091011_seat_0/treatment.json.gz",
+      "size": 568458,
+      "sha256": "fbb9c7894761d8f72dba39ef077f28b172e633c6d5c8f9cf5295bbf22b772bd9",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091011_seat_1/control.json.gz",
+      "size": 570202,
+      "sha256": "d0a80abb0838fd245d32d928ff2e43a3573b438831c8b220b0b0eecfe83e7268",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091011_seat_1/treatment.json.gz",
+      "size": 570205,
+      "sha256": "6109e7d2e322e7a7617769a60f891e4869b813466a6b6dc9472ebd7fcc5ffdab",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091012_seat_0/control.json.gz",
+      "size": 594987,
+      "sha256": "467c4f8804ffb5102a91f43d2d63653bd1f6c98bad41db1e8de806aff11d6786",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091012_seat_0/treatment.json.gz",
+      "size": 595012,
+      "sha256": "98bd54b87b2763609c48683e475bd868b4e70c81865f1aacae3e90ec4d1c259b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091012_seat_1/control.json.gz",
+      "size": 595439,
+      "sha256": "d80d988e734a99b3121bb9bb0ebd6704352a171e9f75535e752c2359c6e5865e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091012_seat_1/treatment.json.gz",
+      "size": 595473,
+      "sha256": "b120f416a32c601ac305623f7376a52b67746bdd01c01b40c2404c79c2507c9f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091013_seat_0/control.json.gz",
+      "size": 594915,
+      "sha256": "c1394f8d84982261908711377b99a01e44b7cab811a6ca8b76038db8a582d9be",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091013_seat_0/treatment.json.gz",
+      "size": 594944,
+      "sha256": "9019e25c388dd9e6051881278c78489132ffc203913445a414b58f31a62e44ca",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091013_seat_1/control.json.gz",
+      "size": 595240,
+      "sha256": "85fbd6b539fc5808225f446d4f6808110b73a485bf2c4bcfb18fef9e9aa9fd57",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091013_seat_1/treatment.json.gz",
+      "size": 595267,
+      "sha256": "f407e878537f21aea04b7356837c8681157afd6deb2fb51ecabce2919f60bac1",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091014_seat_0/control.json.gz",
+      "size": 567533,
+      "sha256": "fdfe265a698f832931c677b73482b68a9b2197ddf18d6b0acc3310ade8cdc62e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091014_seat_0/treatment.json.gz",
+      "size": 567535,
+      "sha256": "83bcb23664b96d1c624fc7d6bc504c7f830687b9ffac73e0b08d266aa387d3ee",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091014_seat_1/control.json.gz",
+      "size": 569242,
+      "sha256": "ea829460e915120b098222d738e8f1dc85d2c582f233f2860aaaa99f9b862f23",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/old_spent/souvik_v4/seed_10091014_seat_1/treatment.json.gz",
+      "size": 569243,
+      "sha256": "afd760866ca9fc0672b6d993b68104c72ae4ffe924e68b3bba7d80a35e6dd8b5",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/qeinstein_moev2/seed_10091012_seat_0/control.json.gz",
+      "size": 587342,
+      "sha256": "3fc416b272343a4e6a22691300141525287427f91d1c9c3115c95823a474eb86",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/qeinstein_moev2/seed_10091012_seat_0/treatment.json.gz",
+      "size": 587358,
+      "sha256": "38bcc0aa90371d9f6fdfd0282b5977cb9f29a3b6ede06377db1894ad5e4f2c30",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/qeinstein_moev2/seed_10091012_seat_1/control.json.gz",
+      "size": 588382,
+      "sha256": "272dec166d97b65d19b083de7448a897f8488bdad41f4ebbc3f5f56075945aab",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/qeinstein_moev2/seed_10091012_seat_1/treatment.json.gz",
+      "size": 588413,
+      "sha256": "3f26b2cdac1c9d44dd3e1431f3e744e806d0bfdf46af3bbdcad5f34c3d83a84b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/souvik_v4/seed_10091012_seat_0/control.json.gz",
+      "size": 594987,
+      "sha256": "eb741c12032cd474de9731f82d6177c14ab4e7296de7b6de694fd2617479343a",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/souvik_v4/seed_10091012_seat_0/treatment.json.gz",
+      "size": 595012,
+      "sha256": "03ef90ed615864cdc0ae33b0cec9d620463a379a2da434efb49fb31379e7bc8b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/souvik_v4/seed_10091012_seat_1/control.json.gz",
+      "size": 595440,
+      "sha256": "291252f5ebd8f2d7647f40b6cab3cf0404c24317aed8f54b3cf2be4d6d7c4cd8",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_commit/souvik_v4/seed_10091012_seat_1/treatment.json.gz",
+      "size": 595472,
+      "sha256": "d577cd600e7b4b8df0e3f9b43116281f729c391d5544a78fbc8055ba41ccfc7f",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_nontrigger/mooman_e052a/seed_10091011_seat_0/control.json.gz",
+      "size": 572240,
+      "sha256": "f2f214dd6a2ba731e3d54ee1851570da8ade1dcdc3d4185d821871e718ff578e",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_nontrigger/mooman_e052a/seed_10091011_seat_0/treatment.json.gz",
+      "size": 572243,
+      "sha256": "5ec3be058079a1d021f5fe31b368a3bab1e5b186f3714e46348c5c56f8cf37be",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_nontrigger/mooman_e052a/seed_10091011_seat_1/control.json.gz",
+      "size": 573835,
+      "sha256": "b174b67dc86c67a531fdba07a6e949ceb1f9c841ce7e126b488a8694a5d4ad5b",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/replays/smoke_nontrigger/mooman_e052a/seed_10091011_seat_1/treatment.json.gz",
+      "size": 573837,
+      "sha256": "943fed594b5602d7382de72f99530af9e2f9eb0896e0c0311db6fdd02fb580cf",
+      "git_ignored": false,
+      "git_lfs_filter": "lfs"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/reproduction_commands.json",
+      "size": 1839,
+      "sha256": "eac218d97ad621bd623d615b948cb00ed5b80ebad665b0b26aa4cfca72b76b1e",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/runs.jsonl",
+      "size": 2020,
+      "sha256": "2409ec9195eb3cca5bfd2f0b9017ab2ff6a124eb20b9f3b2066da0fd0a56b384",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/safety_and_delivery.json",
+      "size": 3689,
+      "sha256": "79f3c88bf08a57f8d4b1b655b540f5584d7480347d1b68228d992292ed6f534f",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/seed_ledger.json",
+      "size": 4421524,
+      "sha256": "7b883fe376a67416c93fba2543a987b184c077744f5f0ebedc346bf0d1ef4fbd",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/smoke_results.json",
+      "size": 11682,
+      "sha256": "47cd5f8056028b99ebd9551fa5b54b34ec35a4ee6cf882f9bdf8296a25b2c0d0",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/source_and_license_inventory.json",
+      "size": 1813,
+      "sha256": "6ca44cd62afe3c269385f3a7445983863e06a0f9c9f11a44182e030bfc602f53",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/submission_decision.json",
+      "size": 1894,
+      "sha256": "2e0c2804fa38acbc8bc7863aa78f3f23f088288b868a6c16c5c8e21997099fc5",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary.json",
+      "size": 81277,
+      "sha256": "572a84128b86ab9a98ff40a9acd2dd3b52f18a872982a591c1579a8ba5008ecc",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary/aa_v111.json",
+      "size": 2939,
+      "sha256": "2896836155f793978b39be233596f39258fa2d73773f55c0341e6999b213605e",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary/aa_v117.json",
+      "size": 4698,
+      "sha256": "950ef8b267d869e3dc069cd40765513084627274c4c3c5ce27b3e2eac1529d1c",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary/confirmation.json",
+      "size": 21006,
+      "sha256": "c3b1522404381bdf6a93ac3367bb2bf50ab6062882a8b89ce60357aa4c7a02d6",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary/old_spent.json",
+      "size": 29555,
+      "sha256": "7cce614ad41efbcfdaf4d7bb838e11a72c0c32ea872d3aa349ba301aad6a392d",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary/smoke_commit.json",
+      "size": 7826,
+      "sha256": "4407da47e0e33db752e6c0292cbaf2c14af2c3c73eb9bab45e248195b33b3a1d",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/summary/smoke_nontrigger.json",
+      "size": 2921,
+      "sha256": "e4e2aabedb3a13a703294cba69e23549410c8368b31edf5e878ff440fadf946a",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/trial_gate.json",
+      "size": 1926,
+      "sha256": "c4349091e7eb9543945ce69f7276c43153fb7a2fd33960cd9dab9788cc827219",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "experiments/research_20260916_v117_live_trial/v112_fallback_audit.json",
+      "size": 810,
+      "sha256": "6740c3ad5ba26c6c7fcd974461f25ccfa1fa6323a97317040dd071d26d02193b",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "scripts/analyze_20260916_v117_live_trial.py",
+      "size": 20227,
+      "sha256": "06288ca77323354b8a0ddc06380321ece83c273baf686bc3cf742d9b12136b89",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "scripts/finalize_20260916_v117_live_trial.py",
+      "size": 8905,
+      "sha256": "349b4d0a73d3524a2f5e8288933bd2e9a094ddad416f4ca3083a852ae236862f",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "scripts/package_submission.py",
+      "size": 6630,
+      "sha256": "94a907c7ab51af512e89a83c28551a49375d82582b08276162a7d703ef23cc41",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "scripts/research_20260916_v117_live_trial.py",
+      "size": 40123,
+      "sha256": "91405aa568cfd6c8dca9513a38f46c7d20ccb1ab8259a0b7b1d10a2dfed3854b",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    },
+    {
+      "path": "scripts/validate_v117_package_runtime.py",
+      "size": 6632,
+      "sha256": "665d0248ba78566c89428dc0a179fdfb6f2620fda4e615610d83dbfa4bff95f0",
+      "git_ignored": false,
+      "git_lfs_filter": "unspecified"
+    }
+  ],
+  "entry_count": 212,
+  "total_bytes": 92553583,
+  "control_artifacts_excluded_from_self_hashing": [
+    "experiments/research_20260916_v117_live_trial/final_artifact_manifest.json",
+    "experiments/research_20260916_v117_live_trial/final_artifact_verification.json"
+  ],
+  "github_save_policy": {
+    "replay_lfs_pattern": "experiments/research_20260916_v117_live_trial/replays/**/*.json.gz",
+    "archive_ignored": true,
+    "archive_preservation": "release asset or explicit force-add; reproducible from command and expected hash"
+  }
+}

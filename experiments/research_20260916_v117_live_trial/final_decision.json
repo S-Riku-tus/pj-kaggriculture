@@ -1,0 +1,73 @@
+{
+  "decided_at_utc": "2026-09-16T01:52:21Z",
+  "candidate": "V117",
+  "version": "117.0.0",
+  "decision": "LIVE_TRIAL_CANDIDATE_NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
+  "status_dimensions": {
+    "RESEARCH_ARTIFACT": true,
+    "LIVE_TRIAL_CANDIDATE": true,
+    "LIVE_TRIAL_SUBMITTED": false,
+    "PRODUCTION_CHAMPION": false
+  },
+  "contract": "midgame_land_cash_reserve_live_trial",
+  "implementation_selected_before_wdl": "late_land_order_resequence",
+  "source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+  "archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+  "trial_gate": {
+    "hard_gate_passed": true,
+    "loss_budget_passed": true,
+    "classification": "EXPLORATORY_E6_REQUIRED",
+    "production_promotion_allowed": false
+  },
+  "old_spent": {
+    "role": "engineering panel only",
+    "contexts": 32,
+    "control": {"W": 12, "D": 0, "L": 20, "win_score": 0.375},
+    "candidate": {"W": 12, "D": 0, "L": 20, "win_score": 0.375},
+    "delta_win_score": 0.0,
+    "candidate_new_hard_safety_failures": 0
+  },
+  "confirmation": {
+    "role": "live-trial qualification only",
+    "contexts": 32,
+    "control": {"W": 12, "D": 0, "L": 20, "win_score": 0.375},
+    "candidate": {"W": 12, "D": 0, "L": 20, "win_score": 0.375},
+    "delta_win_score": 0.0,
+    "source_seed_block_transitions": {"L_to_L": 10, "W_to_W": 6, "W_to_L": 0, "L_to_W": 0},
+    "each_source_delta_win_score": 0.0,
+    "commit_contexts": 12,
+    "commit_source_seed_blocks": 6,
+    "commit_sources": 4,
+    "candidate_new_hard_safety_failures": 0,
+    "nontrigger_exact_contexts": 20
+  },
+  "mechanism": {
+    "land_advance_decisions_median": 4,
+    "same_turn_land_and_cow_contexts_confirmation": 12,
+    "duplicate_land_removed_contexts_confirmation": 12,
+    "cow_debt": "not created by fallback; original Cow2 order preserved",
+    "candidate_new_milk_fertilizer_proxy_delta": 0,
+    "candidate_new_t672_t719_stock_delta": 0,
+    "rejoin_failures": 0
+  },
+  "submission": {
+    "attempted": false,
+    "submission_id": null,
+    "reason": "Current slot replacement safety is unverified and explicit user approval is required.",
+    "slot_changed": false,
+    "kernel_push": false
+  },
+  "v112_fallback": {
+    "invoked": false,
+    "exact_main_hash_verified": true,
+    "license": "Apache-2.0",
+    "submitted": false
+  },
+  "production_champion": "V111",
+  "forbidden_work_not_performed": [
+    "Tomato/Carrot/Goose/Sheep or terminal-sale addition",
+    "PSR/P1/v116 route, threshold, blob, tree, or action-sequence transplant",
+    "v116/P1 submission",
+    "kernel push"
+  ]
+}

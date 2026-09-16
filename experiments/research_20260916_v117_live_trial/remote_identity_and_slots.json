@@ -1,0 +1,42 @@
+{
+  "captured_at_utc": "2026-09-16T01:09:25.9497745Z",
+  "read_only_queries_only": true,
+  "kaggle_cli_query": {
+    "command": ".venv\\Scripts\\kaggle.exe competitions submissions kaggriculture",
+    "result": "AUTHENTICATION_REQUIRED",
+    "current_slot_list_verified": false
+  },
+  "known_submissions": [
+    {
+      "submission_id": 55909167,
+      "agent": "V111",
+      "saved_rating": 1688.6,
+      "active_state": "UNKNOWN"
+    },
+    {
+      "submission_id": 55912910,
+      "agent": "V111",
+      "saved_rating": 1730.7,
+      "active_state": "UNKNOWN"
+    },
+    {
+      "submission_id": 55933145,
+      "agent": "V113",
+      "saved_rating": 1675,
+      "saved_public_episodes": {"W": 44, "D": 0, "L": 14},
+      "active_state": "UNKNOWN"
+    },
+    {
+      "submission_id": 56089444,
+      "agent": "UNKNOWN_NEAR_V109_V110_V111_V113",
+      "active_state": "KNOWN_ACTIVE_AT_PRIOR_AUDIT",
+      "exact_package_identity": "UNVERIFIED",
+      "similarity_note": "99.53% near local V109/V110/V111/V113 is not a package-hash proof"
+    }
+  ],
+  "slot_replacement_safety": "UNVERIFIED",
+  "upload_without_user_approval": false,
+  "reason": "Current remote slots could not be listed with authenticated CLI; an upload cannot be proven non-replacing.",
+  "remote_mutation_performed": false,
+  "kernel_push_performed": false
+}

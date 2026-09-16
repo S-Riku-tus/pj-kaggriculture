@@ -1,0 +1,57 @@
+{
+  "frozen_before_candidate_wdl": true,
+  "candidate": "V117",
+  "parent": "V111",
+  "contract_name": "midgame_land_cash_reserve_live_trial",
+  "selected_implementation": "late_land_order_resequence",
+  "candidate_source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+  "runtime_inputs": [
+    "current own/private state",
+    "current and past public observation retained by V111",
+    "configuration",
+    "V111 current proposed action"
+  ],
+  "trigger": {
+    "standard_configuration": true,
+    "own_unlocked_quadrants": 2,
+    "v111_current_sell": "SELL MELON positive quantity before Cow order",
+    "v111_current_cow_order": ["BUY_ANIMAL", "COW", 2],
+    "v111_current_buy_land_absent": true,
+    "no_fixed_step": true
+  },
+  "preflight": {
+    "hands_shape": true,
+    "market_slot_capacity": true,
+    "same_turn_shed_projection": true,
+    "sequential_own_order_cash_simulation": true,
+    "land_cost": 2000,
+    "cow_cost": 800,
+    "maintenance_reserve": "current unfed animals minus owned Wheat, valued at current public Wheat price",
+    "inherited_v111_cash_reserve": 500,
+    "shed_capacity": true
+  },
+  "commit": "append BUY_LAND immediately after the original Cow2 order",
+  "preserved": [
+    "original SELL MELON",
+    "original BUY_ANIMAL COW 2",
+    "all farmer and hand actions",
+    "Cow pickup/place/pasture/feed continuation",
+    "all unrelated market orders"
+  ],
+  "post_commit": {
+    "require_land_state_confirmation": true,
+    "require_two_cow_ownership_increase": true,
+    "remove_first_later_duplicate_buy_land_after_unlock": true,
+    "rejoin_state_based": true,
+    "silent_cancel_after_commit": false
+  },
+  "forbidden": [
+    "source/seed/opponent/name/episode/submission identity",
+    "replay step lookup table",
+    "future RNG/shop/price",
+    "opponent private state",
+    "P1/v116/Top route or action expression",
+    "Tomato/Carrot/Goose/Sheep/terminal-sale addition",
+    "generic PASS sanitizer or broad rule fallback"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": "V117",
+  "status": "LIVE_TRIAL_CANDIDATE_NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
+  "lifecycle_status": {
+    "RESEARCH_ARTIFACT": true,
+    "LIVE_TRIAL_CANDIDATE": true,
+    "LIVE_TRIAL_SUBMITTED": false,
+    "PRODUCTION_CHAMPION": false
+  },
+  "submission_status": "NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
+  "production_champion": "V111",
+  "promotion_allowed": false,
+  "contract": "midgame_land_cash_reserve_live_trial",
+  "implementation": "late_land_order_resequence",
+  "parent": "V111",
+  "source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+  "archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+  "trial_gate_passed": true,
+  "classification": "EXPLORATORY_E6_REQUIRED"
+}

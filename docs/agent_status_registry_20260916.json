@@ -2,8 +2,9 @@
   "snapshot_date_jst": "2026-09-16",
   "repository": {
     "branch": "main",
-    "head": "21e91ece0039ed6bd74add48e0c2e46f8ba385ef",
-    "origin_main_matched_at_audit": true
+    "head": "ab349ef5dd815ed54a314ef0591bca28502be134",
+    "origin_main_matched_at_audit": false,
+    "note": "V117 experiment started from this local HEAD; no origin mutation or remote push was performed."
   },
   "production_champion": {
     "version": "V111",
@@ -42,6 +43,18 @@
       "formal_promotion_verdict": "REJECTED_SAFETY"
     },
     {
+      "version": "V117",
+      "lineage": "V111_only",
+      "status": "LIVE_TRIAL_CANDIDATE_NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
+      "main_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+      "archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+      "implementation": "late_land_order_resequence",
+      "trial_gate_passed": true,
+      "classification": "EXPLORATORY_E6_REQUIRED",
+      "submitted": false,
+      "production_champion": false
+    },
+    {
       "version": "V114/V114r1",
       "lineage": "V111",
       "status": "REJECTED_RESEARCH_ONLY",
@@ -69,22 +82,25 @@
     }
   ],
   "latest_research": {
-    "experiment": "research_20260916_v111_midgame_capacity",
-    "status": "REJECT_NO_FEASIBLE_CONTRACT",
-    "best_shadow_family": "BUY_ANIMAL:COW",
-    "capital_only_qualifying_contexts": 32,
-    "capital_only_qualifying_source_seed_blocks": 16,
-    "capital_only_qualifying_sources": 4,
-    "shadow_advance_decisions_median": 91,
-    "complete_maintenance_to_sale_contracts": 0,
-    "new_games": 0
+    "experiment": "research_20260916_v117_live_trial",
+    "status": "LIVE_TRIAL_CANDIDATE_NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
+    "implementation": "late_land_order_resequence",
+    "old_spent": "12W/0D/20L for both V111 and V117; delta 0.000; hard Safety 0/32",
+    "confirmation": "12W/0D/20L for both V111 and V117; delta 0.000; hard Safety 0/32",
+    "confirmation_commit_contexts": 12,
+    "confirmation_commit_source_seed_blocks": 6,
+    "confirmation_commit_sources": 4,
+    "land_advance_decisions_median": 4,
+    "production_promotion_evidence": false
   },
   "next_action": {
     "numeric_version": "V117",
-    "target_status": "LIVE_TRIAL_CANDIDATE",
+    "target_status": "LIVE_TRIAL_CANDIDATE_NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
     "production_champion_during_trial": "V111",
     "primary_intervention": "midgame_land_cash_reserve_live_trial",
-    "fallback_live_calibration": "V112 exact artifact after identity and hash reverification"
+    "selected_implementation": "late_land_order_resequence",
+    "pending_action": "Obtain one explicit user approval before any upload because current slot replacement safety is unverified.",
+    "fallback_live_calibration": "V112 exact artifact not invoked because V117 passed Trial Gate"
   },
   "status_policy": [
     "RESEARCH_ARTIFACT",

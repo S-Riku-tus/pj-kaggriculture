@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import ast
+import gzip
 import hashlib
 import io
 import json
@@ -112,7 +113,8 @@ def main() -> None:
             names = archive.namelist()
     else:
         archive_format = "tar.gz"
-        with tarfile.open(output, "w:gz") as archive:
+        tar_buffer = io.BytesIO()
+        with tarfile.open(fileobj=tar_buffer, mode="w") as archive:
             for target in expected_names:
                 content = contents[target]
                 info = tarfile.TarInfo(target)
@@ -120,6 +122,9 @@ def main() -> None:
                 info.mtime = 0
                 info.mode = 0o644
                 archive.addfile(info, io.BytesIO(content))
+        with output.open("wb") as raw_output:
+            with gzip.GzipFile(filename="", mode="wb", fileobj=raw_output, mtime=0) as compressed:
+                compressed.write(tar_buffer.getvalue())
         with tarfile.open(output, "r:gz") as archive:
             names = archive.getnames()
     if names != expected_names:

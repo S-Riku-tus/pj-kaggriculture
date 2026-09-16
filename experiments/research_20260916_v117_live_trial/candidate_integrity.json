@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-16T01:09:12.037678+00:00",
+  "passed": true,
+  "candidate": "V117",
+  "parent": "V111 only",
+  "source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+  "forbidden_identity_proxy": false,
+  "forbidden_route_or_policy_copy": false,
+  "forbidden_feature_scan_terms": [
+    "seed lookup",
+    "source lookup",
+    "opponent identity",
+    "submission id",
+    "future RNG"
+  ],
+  "implementation_frozen": "late_land_order_resequence",
+  "selection_frozen_before_wdl": true
+}

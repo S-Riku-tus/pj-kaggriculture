@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-16T01:09:12.023810+00:00",
+  "candidate": {
+    "version": "V117",
+    "parent": "V111 only",
+    "source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+    "source_ownership": "repository-owned wrapper and repository-owned V111 runtime",
+    "notice": "agents/v117/NOTICE.md",
+    "license_audit": "No external P1/v116/Top route, blob, threshold, tree, or action sequence copied."
+  },
+  "v112_external_fallback": {
+    "main_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+    "expected_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+    "license": "Apache-2.0",
+    "notice": "agents/v112/NOTICE.md"
+  },
+  "opponents": [
+    {
+      "source": "mooman_e052a",
+      "path": "experiments/research_20260910/runtime/mooman_e052a/main.py",
+      "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+      "role": "frozen executable evaluation source"
+    },
+    {
+      "source": "souvik_v4",
+      "path": "experiments/research_20260910/runtime/souvik_v4/main.py",
+      "sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+      "role": "frozen executable evaluation source"
+    },
+    {
+      "source": "ggmljs_v16",
+      "path": "experiments/research_20260910/runtime/ggmljs_v16/main.py",
+      "sha256": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca",
+      "role": "frozen executable evaluation source"
+    },
+    {
+      "source": "qeinstein_moev2",
+      "path": "experiments/research_20260910/runtime/qeinstein_moev2/main.py",
+      "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+      "role": "frozen executable evaluation source"
+    }
+  ]
+}

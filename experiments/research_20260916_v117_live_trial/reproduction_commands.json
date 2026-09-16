@@ -1,0 +1,20 @@
+{
+  "working_directory": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture",
+  "exact_package_build": ".\\.venv\\Scripts\\python.exe scripts\\package_submission.py --agent agents\\v117 --output artifacts\\submissions\\v117.tar.gz",
+  "expected_archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+  "package_runtime_validation": ".\\.venv\\Scripts\\python.exe scripts\\validate_v117_package_runtime.py",
+  "same_hash_resume": [
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py run aa_v111 --workers 4",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py run aa_v117 --workers 4",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py run smoke_nontrigger --workers 4",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py run smoke_commit --workers 4",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py run old_spent --workers 4",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py run confirmation --workers 4",
+    ".\\.venv\\Scripts\\python.exe scripts\\research_20260916_v117_live_trial.py summarize",
+    ".\\.venv\\Scripts\\python.exe scripts\\analyze_20260916_v117_live_trial.py"
+  ],
+  "proposed_upload_not_executed": ".\\.venv\\Scripts\\kaggle.exe competitions submit -c kaggriculture -f artifacts\\submissions\\v117.tar.gz -m \"V117 late-land-order-resequence exploratory E6; V111 remains production Champion\"",
+  "upload_precondition": "One explicit user approval after reviewing slot 56089444/unknown current slots, archive hash, and local result.",
+  "monitor_template_after_submission": ".\\.venv\\Scripts\\python.exe .\\scripts\\fetch_submission_logs.py --submission-id <SUBMISSION_ID>",
+  "kernel_push": "FORBIDDEN"
+}

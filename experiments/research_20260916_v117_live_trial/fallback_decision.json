@@ -1,0 +1,11 @@
+{
+  "frozen_before_candidate_wdl": true,
+  "primary": "midgame_land_cash_reserve_live_trial with FIFO Cow debt",
+  "primary_selected": false,
+  "primary_static_preflight": "INFEASIBLE",
+  "reason": "The prior audit found zero complete maintenance-to-sale contracts. Deferring Cow purchases invalidates V111 pickup/place/feed/care/fertilizer work, and no bounded V111-only catch-up/rejoin executor can close that debt without replacing the field policy.",
+  "fallback": "late_land_order_resequence",
+  "fallback_selected": true,
+  "fallback_scope": "small ordering/identity live trial; never counted as Primary mechanism success",
+  "outcome_used_for_choice": false
+}

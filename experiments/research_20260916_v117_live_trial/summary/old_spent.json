@@ -1,0 +1,1173 @@
+{
+  "created_at": "2026-09-16T01:41:57.800393+00:00",
+  "phase": "old_spent",
+  "contexts": 32,
+  "control": {
+    "W": 12,
+    "D": 0,
+    "L": 20,
+    "win_score": 0.375,
+    "margin_mean": -5784.59375,
+    "margin_median": -3510.5,
+    "margin_p10": -23091.3
+  },
+  "treatment": {
+    "W": 12,
+    "D": 0,
+    "L": 20,
+    "win_score": 0.375,
+    "margin_mean": -5784.59375,
+    "margin_median": -3510.5,
+    "margin_p10": -23091.3
+  },
+  "delta_win_score": 0.0,
+  "transitions": {
+    "L->L": 20,
+    "W->W": 12
+  },
+  "source_seed_block_transitions": {
+    "L->L": 10,
+    "W->W": 6
+  },
+  "source_seed_blocks": [
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091011,
+      "seats": 2,
+      "control_win_score": 1.0,
+      "treatment_win_score": 1.0,
+      "delta_win_score": 0.0,
+      "transition": "W->W",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091012,
+      "seats": 2,
+      "control_win_score": 1.0,
+      "treatment_win_score": 1.0,
+      "delta_win_score": 0.0,
+      "transition": "W->W",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091013,
+      "seats": 2,
+      "control_win_score": 1.0,
+      "treatment_win_score": 1.0,
+      "delta_win_score": 0.0,
+      "transition": "W->W",
+      "commit_seats": 0,
+      "rejoin_seats": 0,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "ggmljs_v16",
+      "seed": 10091014,
+      "seats": 2,
+      "control_win_score": 1.0,
+      "treatment_win_score": 1.0,
+      "delta_win_score": 0.0,
+      "transition": "W->W",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 0,
+      "rejoin_seats": 0,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091012,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091013,
+      "seats": 2,
+      "control_win_score": 1.0,
+      "treatment_win_score": 1.0,
+      "delta_win_score": 0.0,
+      "transition": "W->W",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "mooman_e052a",
+      "seed": 10091014,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 0,
+      "rejoin_seats": 0,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091011,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091012,
+      "seats": 2,
+      "control_win_score": 1.0,
+      "treatment_win_score": 1.0,
+      "delta_win_score": 0.0,
+      "transition": "W->W",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091013,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "qeinstein_moev2",
+      "seed": 10091014,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091011,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 0,
+      "rejoin_seats": 0,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091012,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091013,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 2,
+      "rejoin_seats": 2,
+      "contract_failure_seats": 0
+    },
+    {
+      "source": "souvik_v4",
+      "seed": 10091014,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 0,
+      "rejoin_seats": 0,
+      "contract_failure_seats": 0
+    }
+  ],
+  "by_source": {
+    "ggmljs_v16": {
+      "contexts": 8,
+      "control": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "win_score": 1.0,
+        "margin_mean": 11933.375,
+        "margin_median": 10419.0,
+        "margin_p10": 7943.2
+      },
+      "treatment": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "win_score": 1.0,
+        "margin_mean": 11933.375,
+        "margin_median": 10419.0,
+        "margin_p10": 7943.2
+      },
+      "delta_win_score": 0.0
+    },
+    "mooman_e052a": {
+      "contexts": 8,
+      "control": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -1687.75,
+        "margin_median": -3510.5,
+        "margin_p10": -9221.0
+      },
+      "treatment": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -1687.75,
+        "margin_median": -3510.5,
+        "margin_p10": -9221.0
+      },
+      "delta_win_score": 0.0
+    },
+    "qeinstein_moev2": {
+      "contexts": 8,
+      "control": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -21456.25,
+        "margin_median": -9616.5,
+        "margin_p10": -67976.0
+      },
+      "treatment": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -21456.25,
+        "margin_median": -9616.5,
+        "margin_p10": -67976.0
+      },
+      "delta_win_score": 0.0
+    },
+    "souvik_v4": {
+      "contexts": 8,
+      "control": {
+        "W": 0,
+        "D": 0,
+        "L": 8,
+        "win_score": 0.0,
+        "margin_mean": -11927.75,
+        "margin_median": -9295.0,
+        "margin_p10": -23861.0
+      },
+      "treatment": {
+        "W": 0,
+        "D": 0,
+        "L": 8,
+        "win_score": 0.0,
+        "margin_mean": -11927.75,
+        "margin_median": -9295.0,
+        "margin_p10": -23861.0
+      },
+      "delta_win_score": 0.0
+    }
+  },
+  "by_ancestry": {
+    "ggmljs_v16": {
+      "contexts": 8,
+      "control": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "win_score": 1.0,
+        "margin_mean": 11933.375,
+        "margin_median": 10419.0,
+        "margin_p10": 7943.2
+      },
+      "treatment": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "win_score": 1.0,
+        "margin_mean": 11933.375,
+        "margin_median": 10419.0,
+        "margin_p10": 7943.2
+      },
+      "delta_win_score": 0.0
+    },
+    "mooman_e052a": {
+      "contexts": 8,
+      "control": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -1687.75,
+        "margin_median": -3510.5,
+        "margin_p10": -9221.0
+      },
+      "treatment": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -1687.75,
+        "margin_median": -3510.5,
+        "margin_p10": -9221.0
+      },
+      "delta_win_score": 0.0
+    },
+    "qeinstein_moev2": {
+      "contexts": 8,
+      "control": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -21456.25,
+        "margin_median": -9616.5,
+        "margin_p10": -67976.0
+      },
+      "treatment": {
+        "W": 2,
+        "D": 0,
+        "L": 6,
+        "win_score": 0.25,
+        "margin_mean": -21456.25,
+        "margin_median": -9616.5,
+        "margin_p10": -67976.0
+      },
+      "delta_win_score": 0.0
+    },
+    "souvik_v4": {
+      "contexts": 8,
+      "control": {
+        "W": 0,
+        "D": 0,
+        "L": 8,
+        "win_score": 0.0,
+        "margin_mean": -11927.75,
+        "margin_median": -9295.0,
+        "margin_p10": -23861.0
+      },
+      "treatment": {
+        "W": 0,
+        "D": 0,
+        "L": 8,
+        "win_score": 0.0,
+        "margin_mean": -11927.75,
+        "margin_median": -9295.0,
+        "margin_p10": -23861.0
+      },
+      "delta_win_score": 0.0
+    }
+  },
+  "delivery_funnel": {
+    "trigger_requests": 22,
+    "commit_contexts": 22,
+    "commit_sources": [
+      "ggmljs_v16",
+      "mooman_e052a",
+      "qeinstein_moev2",
+      "souvik_v4"
+    ],
+    "commit_source_seed_blocks": 11,
+    "safe_cancels": {},
+    "partial_or_contract_failure_contexts": 0,
+    "rejoin_contexts": 22
+  },
+  "mechanism": {
+    "same_turn_land_and_cow_contexts": 22,
+    "duplicate_land_removed_contexts": 22,
+    "land_advance_decisions": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "land_advance_median": 4.0,
+    "first_productive_actions": [
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      },
+      {
+        "step": 255,
+        "unit_index": 5,
+        "action": [
+          "BUILD_PASTURE"
+        ],
+        "quadrant": "SW"
+      }
+    ],
+    "preflight": [
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1871.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 629.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1871.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 629.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1779.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 537.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 11,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 5,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1779.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 537.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 11,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 5,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1872.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 630.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1872.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 630.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1865.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 623.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 15,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 9,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1865.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 623.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 15,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 9,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1788.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 546.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 18,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 12,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1787.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 545.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 18,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 12,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1808.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 566.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1808.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 566.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 17,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 11,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1808.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 566.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 17,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 11,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1808.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 566.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 17,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 11,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1862.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 620.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 15,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 9,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1862.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 620.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 15,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 9,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1776.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 534.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 13,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 7,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1776.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 534.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 13,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 7,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1789.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 547.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1789.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 547.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 14,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 8,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1777.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 535.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 13,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 7,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      },
+      {
+        "melon_order_index": 0,
+        "cow_order_index": 1,
+        "melon_quantity": 6,
+        "cash_before": 1777.0,
+        "projected_sale_income": 1558,
+        "projected_cash_after_land_and_cows": 535.0,
+        "maintenance_reserve": {
+          "urgent_unfed_animals": 8,
+          "owned_wheat": 13,
+          "wheat_shortfall": 0,
+          "coin": 0
+        },
+        "activation_reserve": 0,
+        "inherited_cash_reserve": 500,
+        "market_orders_before": 2,
+        "market_orders_after": 3,
+        "projected_shed_after": 7,
+        "shed_capacity": 100,
+        "unlocked_before": [
+          "NE",
+          "NW"
+        ]
+      }
+    ],
+    "cow_pickups": 44,
+    "cow_places": 44,
+    "feed_actions_after_commit": 6072
+  },
+  "nontrigger_fidelity": {
+    "contexts": 10,
+    "exact_semantic_replays": 10,
+    "all_exact": true,
+    "comparison_excludes_only_remainingOverageTime": true
+  },
+  "runtime_and_safety": {
+    "completed_720_contexts": 32,
+    "agent_exception_contexts": 0,
+    "candidate_new_hard_failure_contexts": 0,
+    "candidate_new_hard_failures": [],
+    "contract_failures": []
+  }
+}

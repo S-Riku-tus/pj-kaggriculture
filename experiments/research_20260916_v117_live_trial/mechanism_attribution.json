@@ -1,0 +1,1407 @@
+{
+  "created_at": "2026-09-16T01:42:20.922437+00:00",
+  "implementation": "late_land_order_resequence",
+  "primary_success_count": 0,
+  "phases": {
+    "aa_v111": {
+      "same_turn_land_and_cow_contexts": 0,
+      "duplicate_land_removed_contexts": 0,
+      "land_advance_decisions": [],
+      "land_advance_median": null,
+      "first_productive_actions": [],
+      "preflight": [],
+      "cow_pickups": 0,
+      "cow_places": 0,
+      "feed_actions_after_commit": 0
+    },
+    "aa_v117": {
+      "same_turn_land_and_cow_contexts": 0,
+      "duplicate_land_removed_contexts": 2,
+      "land_advance_decisions": [
+        0,
+        0
+      ],
+      "land_advance_median": 0.0,
+      "first_productive_actions": [
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        }
+      ],
+      "preflight": [
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1862.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 620.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 15,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 9,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1862.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 620.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 15,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 9,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        }
+      ],
+      "cow_pickups": 4,
+      "cow_places": 4,
+      "feed_actions_after_commit": 552
+    },
+    "smoke_nontrigger": {
+      "same_turn_land_and_cow_contexts": 0,
+      "duplicate_land_removed_contexts": 0,
+      "land_advance_decisions": [],
+      "land_advance_median": null,
+      "first_productive_actions": [],
+      "preflight": [],
+      "cow_pickups": 0,
+      "cow_places": 0,
+      "feed_actions_after_commit": 0
+    },
+    "smoke_commit": {
+      "same_turn_land_and_cow_contexts": 4,
+      "duplicate_land_removed_contexts": 4,
+      "land_advance_decisions": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "land_advance_median": 4.0,
+      "first_productive_actions": [
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        }
+      ],
+      "preflight": [
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1872.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 630.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1872.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 630.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1776.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 534.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1776.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 534.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        }
+      ],
+      "cow_pickups": 8,
+      "cow_places": 8,
+      "feed_actions_after_commit": 1104
+    },
+    "old_spent": {
+      "same_turn_land_and_cow_contexts": 22,
+      "duplicate_land_removed_contexts": 22,
+      "land_advance_decisions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "land_advance_median": 4.0,
+      "first_productive_actions": [
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        }
+      ],
+      "preflight": [
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1871.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 629.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1871.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 629.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1779.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 537.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 11,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 5,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1779.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 537.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 11,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 5,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1872.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 630.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1872.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 630.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1865.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 623.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 15,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 9,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1865.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 623.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 15,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 9,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1788.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 546.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 18,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 12,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1787.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 545.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 18,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 12,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1862.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 620.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 15,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 9,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1862.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 620.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 15,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 9,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1776.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 534.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1776.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 534.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1789.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 547.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1789.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 547.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1777.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 535.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1777.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 535.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        }
+      ],
+      "cow_pickups": 44,
+      "cow_places": 44,
+      "feed_actions_after_commit": 6072
+    },
+    "confirmation": {
+      "same_turn_land_and_cow_contexts": 12,
+      "duplicate_land_removed_contexts": 12,
+      "land_advance_decisions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "land_advance_median": 4.0,
+      "first_productive_actions": [
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        },
+        {
+          "step": 255,
+          "unit_index": 5,
+          "action": [
+            "BUILD_PASTURE"
+          ],
+          "quadrant": "SW"
+        }
+      ],
+      "preflight": [
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1874.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 632.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1874.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 632.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1876.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 634.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1876.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 634.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 14,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 8,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1808.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 566.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 17,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 11,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 2457.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 1215.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 18,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 12,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 2457.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 1215.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 18,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 12,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1777.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 535.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        },
+        {
+          "melon_order_index": 0,
+          "cow_order_index": 1,
+          "melon_quantity": 6,
+          "cash_before": 1777.0,
+          "projected_sale_income": 1558,
+          "projected_cash_after_land_and_cows": 535.0,
+          "maintenance_reserve": {
+            "urgent_unfed_animals": 8,
+            "owned_wheat": 13,
+            "wheat_shortfall": 0,
+            "coin": 0
+          },
+          "activation_reserve": 0,
+          "inherited_cash_reserve": 500,
+          "market_orders_before": 2,
+          "market_orders_after": 3,
+          "projected_shed_after": 7,
+          "shed_capacity": 100,
+          "unlocked_before": [
+            "NE",
+            "NW"
+          ]
+        }
+      ],
+      "cow_pickups": 24,
+      "cow_places": 24,
+      "feed_actions_after_commit": 3312
+    }
+  },
+  "causal_limit": "Opponent coin or action changes after the public intervention are closed-loop responses, not a single-action causal attribution.",
+  "fungible_inventory_limit": "Fallback preserves V111 field activity; shed-level sale proceeds cannot be uniquely attributed to one new-land tile."
+}

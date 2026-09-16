@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-16T01:41:32.080362+00:00",
+  "phase": "smoke_nontrigger",
+  "contexts": 2,
+  "control": {
+    "W": 0,
+    "D": 0,
+    "L": 2,
+    "win_score": 0.0,
+    "margin_mean": -3175.0,
+    "margin_median": -3175.0,
+    "margin_p10": -3175.0
+  },
+  "treatment": {
+    "W": 0,
+    "D": 0,
+    "L": 2,
+    "win_score": 0.0,
+    "margin_mean": -3175.0,
+    "margin_median": -3175.0,
+    "margin_p10": -3175.0
+  },
+  "delta_win_score": 0.0,
+  "transitions": {
+    "L->L": 2
+  },
+  "source_seed_block_transitions": {
+    "L->L": 1
+  },
+  "source_seed_blocks": [
+    {
+      "source": "mooman_e052a",
+      "seed": 10091011,
+      "seats": 2,
+      "control_win_score": 0.0,
+      "treatment_win_score": 0.0,
+      "delta_win_score": 0.0,
+      "transition": "L->L",
+      "commit_seats": 0,
+      "rejoin_seats": 0,
+      "contract_failure_seats": 0
+    }
+  ],
+  "by_source": {
+    "mooman_e052a": {
+      "contexts": 2,
+      "control": {
+        "W": 0,
+        "D": 0,
+        "L": 2,
+        "win_score": 0.0,
+        "margin_mean": -3175.0,
+        "margin_median": -3175.0,
+        "margin_p10": -3175.0
+      },
+      "treatment": {
+        "W": 0,
+        "D": 0,
+        "L": 2,
+        "win_score": 0.0,
+        "margin_mean": -3175.0,
+        "margin_median": -3175.0,
+        "margin_p10": -3175.0
+      },
+      "delta_win_score": 0.0
+    }
+  },
+  "by_ancestry": {
+    "mooman_e052a": {
+      "contexts": 2,
+      "control": {
+        "W": 0,
+        "D": 0,
+        "L": 2,
+        "win_score": 0.0,
+        "margin_mean": -3175.0,
+        "margin_median": -3175.0,
+        "margin_p10": -3175.0
+      },
+      "treatment": {
+        "W": 0,
+        "D": 0,
+        "L": 2,
+        "win_score": 0.0,
+        "margin_mean": -3175.0,
+        "margin_median": -3175.0,
+        "margin_p10": -3175.0
+      },
+      "delta_win_score": 0.0
+    }
+  },
+  "delivery_funnel": {
+    "trigger_requests": 0,
+    "commit_contexts": 0,
+    "commit_sources": [],
+    "commit_source_seed_blocks": 0,
+    "safe_cancels": {},
+    "partial_or_contract_failure_contexts": 0,
+    "rejoin_contexts": 0
+  },
+  "mechanism": {
+    "same_turn_land_and_cow_contexts": 0,
+    "duplicate_land_removed_contexts": 0,
+    "land_advance_decisions": [],
+    "land_advance_median": null,
+    "first_productive_actions": [],
+    "preflight": [],
+    "cow_pickups": 0,
+    "cow_places": 0,
+    "feed_actions_after_commit": 0
+  },
+  "nontrigger_fidelity": {
+    "contexts": 2,
+    "exact_semantic_replays": 2,
+    "all_exact": true,
+    "comparison_excludes_only_remainingOverageTime": true
+  },
+  "runtime_and_safety": {
+    "completed_720_contexts": 2,
+    "agent_exception_contexts": 0,
+    "candidate_new_hard_failure_contexts": 0,
+    "candidate_new_hard_failures": [],
+    "contract_failures": []
+  }
+}

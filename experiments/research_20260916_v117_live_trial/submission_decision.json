@@ -1,0 +1,37 @@
+{
+  "decided_at_utc": "2026-09-16T01:52:21Z",
+  "candidate": "V117",
+  "trial_gate_passed": true,
+  "decision": "LIVE_TRIAL_CANDIDATE_NOT_SUBMITTED_SLOT_APPROVAL_REQUIRED",
+  "upload_attempts": 0,
+  "submission_id": null,
+  "archive": "artifacts/submissions/v117.tar.gz",
+  "archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+  "source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8",
+  "local_evidence": {
+    "old_spent": "V111 12W/0D/20L; V117 12W/0D/20L; delta 0.000; candidate-new hard Safety 0/32",
+    "confirmation": "V111 12W/0D/20L; V117 12W/0D/20L; delta 0.000; candidate-new hard Safety 0/32",
+    "confirmation_transitions": {"L_to_W": 0, "W_to_L": 0, "D_to_W": 0, "W_to_D": 0, "L_to_D": 0, "D_to_L": 0},
+    "confirmation_commit_sources": 4,
+    "confirmation_commit_source_seed_blocks": 6,
+    "fallback_same_turn_land_cow_contexts": 12,
+    "fallback_duplicate_land_removal_contexts": 12
+  },
+  "remote_slot_audit": {
+    "latest_known_active_submission_id": 56089444,
+    "exact_package_identity": "UNVERIFIED",
+    "current_slot_list": "UNAVAILABLE_CLI_AUTHENTICATION_REQUIRED",
+    "replacement_safety": "UNVERIFIED"
+  },
+  "replacement_proposal_if_user_approves": {
+    "target": "Any automatic replacement caused by one V117 exploratory upload, potentially including the prior-known active slot 56089444",
+    "upload_limit": 1,
+    "submission_message": "V117 late-land-order-resequence exploratory E6; V111 remains production Champion",
+    "kernel_push": false,
+    "activation_or_replacement_requires_this_one_explicit_approval": true
+  },
+  "reason_not_submitted": "Slot replacement cannot be ruled out without an authenticated current slot listing; user approval is required before command execution.",
+  "slot_change_performed": false,
+  "kernel_push_performed": false,
+  "production_champion": "V111"
+}

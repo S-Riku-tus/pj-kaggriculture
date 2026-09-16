@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-09-16T01:42:20.920439+00:00",
+  "raw_safety": {
+    "aa_v111": {
+      "completed_720_contexts": 2,
+      "agent_exception_contexts": 0,
+      "candidate_new_hard_failure_contexts": 0,
+      "candidate_new_hard_failures": [],
+      "contract_failures": []
+    },
+    "aa_v117": {
+      "completed_720_contexts": 2,
+      "agent_exception_contexts": 0,
+      "candidate_new_hard_failure_contexts": 0,
+      "candidate_new_hard_failures": [],
+      "contract_failures": []
+    },
+    "smoke_nontrigger": {
+      "completed_720_contexts": 2,
+      "agent_exception_contexts": 0,
+      "candidate_new_hard_failure_contexts": 0,
+      "candidate_new_hard_failures": [],
+      "contract_failures": []
+    },
+    "smoke_commit": {
+      "completed_720_contexts": 4,
+      "agent_exception_contexts": 0,
+      "candidate_new_hard_failure_contexts": 0,
+      "candidate_new_hard_failures": [],
+      "contract_failures": []
+    },
+    "old_spent": {
+      "completed_720_contexts": 32,
+      "agent_exception_contexts": 0,
+      "candidate_new_hard_failure_contexts": 0,
+      "candidate_new_hard_failures": [],
+      "contract_failures": []
+    },
+    "confirmation": {
+      "completed_720_contexts": 32,
+      "agent_exception_contexts": 0,
+      "candidate_new_hard_failure_contexts": 0,
+      "candidate_new_hard_failures": [],
+      "contract_failures": []
+    }
+  },
+  "candidate_new_safety": {
+    "aa_v111": 0,
+    "aa_v117": 0,
+    "smoke_nontrigger": 0,
+    "smoke_commit": 0,
+    "old_spent": 0,
+    "confirmation": 0
+  },
+  "delivery": {
+    "aa_v111": {
+      "trigger_requests": 0,
+      "commit_contexts": 0,
+      "commit_sources": [],
+      "commit_source_seed_blocks": 0,
+      "safe_cancels": {},
+      "partial_or_contract_failure_contexts": 0,
+      "rejoin_contexts": 0
+    },
+    "aa_v117": {
+      "trigger_requests": 2,
+      "commit_contexts": 2,
+      "commit_sources": [
+        "qeinstein_moev2"
+      ],
+      "commit_source_seed_blocks": 1,
+      "safe_cancels": {},
+      "partial_or_contract_failure_contexts": 0,
+      "rejoin_contexts": 2
+    },
+    "smoke_nontrigger": {
+      "trigger_requests": 0,
+      "commit_contexts": 0,
+      "commit_sources": [],
+      "commit_source_seed_blocks": 0,
+      "safe_cancels": {},
+      "partial_or_contract_failure_contexts": 0,
+      "rejoin_contexts": 0
+    },
+    "smoke_commit": {
+      "trigger_requests": 4,
+      "commit_contexts": 4,
+      "commit_sources": [
+        "qeinstein_moev2",
+        "souvik_v4"
+      ],
+      "commit_source_seed_blocks": 2,
+      "safe_cancels": {},
+      "partial_or_contract_failure_contexts": 0,
+      "rejoin_contexts": 4
+    },
+    "old_spent": {
+      "trigger_requests": 22,
+      "commit_contexts": 22,
+      "commit_sources": [
+        "ggmljs_v16",
+        "mooman_e052a",
+        "qeinstein_moev2",
+        "souvik_v4"
+      ],
+      "commit_source_seed_blocks": 11,
+      "safe_cancels": {},
+      "partial_or_contract_failure_contexts": 0,
+      "rejoin_contexts": 22
+    },
+    "confirmation": {
+      "trigger_requests": 12,
+      "commit_contexts": 12,
+      "commit_sources": [
+        "ggmljs_v16",
+        "mooman_e052a",
+        "qeinstein_moev2",
+        "souvik_v4"
+      ],
+      "commit_source_seed_blocks": 6,
+      "safe_cancels": {},
+      "partial_or_contract_failure_contexts": 0,
+      "rejoin_contexts": 12
+    }
+  },
+  "candidate_new_lifecycle_limit": "Generic lifecycle audit is retained in every pair. Candidate-new counts are paired; terminal intentional decay is not relabeled as water death."
+}

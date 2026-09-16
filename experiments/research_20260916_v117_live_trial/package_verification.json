@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-16T01:10:15.423158+00:00",
+  "passed": true,
+  "imports": [
+    {
+      "agent": "V111",
+      "both_seats": true,
+      "step0_repeatable": true,
+      "independent_load_equal": true,
+      "distinct_module_objects": true
+    },
+    {
+      "agent": "V117",
+      "both_seats": true,
+      "step0_repeatable": true,
+      "independent_load_equal": true,
+      "distinct_module_objects": true
+    }
+  ],
+  "package_isolation": true,
+  "fresh_process": {
+    "passed": true,
+    "stderr": ""
+  },
+  "stdlib_only_candidate_wrapper": true,
+  "final_archive_runtime_validation": "package_runtime_validation.json",
+  "final_archive_runtime_validation_passed": true,
+  "qualification_to_final_identity": {
+    "qualification_archive_sha256": "3f77d4860a773852a77b2e0c1ae4f023bcf08f91e6590ad6eb303e6243a8e76b",
+    "final_archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+    "source_sha256_unchanged": true,
+    "entry_names_and_contents_unchanged": true,
+    "reason_outer_hash_changed": "The pre-gate packager used a non-deterministic gzip header timestamp. The post-gate archive was rebuilt from unchanged entries with mtime=0 and reproduced byte-for-byte twice.",
+    "canonical_entry_content_sha256": "f907d9343d0940ff4e839a8cae771cff9c19f2c99b9fb325676dab3b64a7231c"
+  },
+  "manifest": {
+    "created_at": "2026-09-16T01:10:15.419725+00:00",
+    "archive": "artifacts/submissions/v117.tar.gz",
+    "archive_sha256": "8f2c7e8446ce1295fe519cf9f29b87b01a0816863b952d94f1db80ed1432dbfa",
+    "qualification_archive_sha256": "3f77d4860a773852a77b2e0c1ae4f023bcf08f91e6590ad6eb303e6243a8e76b",
+    "canonical_entry_content_sha256": "f907d9343d0940ff4e839a8cae771cff9c19f2c99b9fb325676dab3b64a7231c",
+    "size": 119759,
+    "entries": [
+      "main.py",
+      "NOTICE.md",
+      "feature_schema.py",
+      "public_v43_base.py",
+      "strategy_model.json",
+      "v109_base.py",
+      "v10_base.py",
+      "v110_base.py",
+      "v111_base.py",
+      "v11_base.py",
+      "v2_base.py",
+      "v3_base.py",
+      "v4_base.py",
+      "v5_base.py",
+      "v6_base.py",
+      "v7_base.py",
+      "v8_base.py",
+      "v9_base.py"
+    ],
+    "root_main": true,
+    "entrypoint": "main.py:agent",
+    "source_sha256": "2772e5fa31476db3dc4f015d4a8cf11bf7c48d75ab617a9bd782bb4c7aa696a8"
+  }
+}
