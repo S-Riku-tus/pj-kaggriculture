@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-17T15:16:30.387788+09:00",
+  "agent": "agents\\v112\\main.py",
+  "opponent": "agents\\v117\\main.py",
+  "configuration": {
+    "pairs": 4,
+    "seed": 2026091705,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 8,
+    "wins": 2,
+    "ties": 0,
+    "win_rate": 0.25,
+    "mean_our_reward": 76533.125,
+    "mean_opponent_reward": 83825.375,
+    "mean_margin": -7292.25,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091705,
+      "seat": 0,
+      "ours": 53825.0,
+      "theirs": 53446.0,
+      "margin": 379.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091705,
+      "seat": 1,
+      "ours": 53825.0,
+      "theirs": 53446.0,
+      "margin": 379.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091706,
+      "seat": 0,
+      "ours": 82837.0,
+      "theirs": 92939.0,
+      "margin": -10102.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091706,
+      "seat": 1,
+      "ours": 82342.0,
+      "theirs": 90013.0,
+      "margin": -7671.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091707,
+      "seat": 0,
+      "ours": 99264.0,
+      "theirs": 113998.0,
+      "margin": -14734.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091707,
+      "seat": 1,
+      "ours": 99264.0,
+      "theirs": 113998.0,
+      "margin": -14734.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091708,
+      "seat": 0,
+      "ours": 70637.0,
+      "theirs": 76051.0,
+      "margin": -5414.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091708,
+      "seat": 1,
+      "ours": 70271.0,
+      "theirs": 76712.0,
+      "margin": -6441.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

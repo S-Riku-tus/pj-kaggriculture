@@ -1,0 +1,30 @@
+{
+  "version": "V118",
+  "status": "LICENSE_CLEAN_FALLBACK_NOT_PROMOTED",
+  "parent": "V117",
+  "production_champion": "V111",
+  "promotion_allowed": false,
+  "submission_status": "NOT_SUBMITTED",
+  "contract": "state_safe_recovery_and_late_price_rotation",
+  "runtime_features": [
+    "certain-noop weed recovery",
+    "late observable-price carrot rotation"
+  ],
+  "evaluation": {
+    "opponent": "V117",
+    "games": 4,
+    "wins": 1,
+    "draws": 2,
+    "losses": 1,
+    "mean_margin": 12.25,
+    "decision": "retain as fallback; no material measured uplift"
+  },
+  "forbidden_features": [
+    "seed",
+    "opponent identity",
+    "submission or episode id",
+    "replay signature",
+    "future state",
+    "opponent private state"
+  ]
+}

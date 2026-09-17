@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-17T15:27:38.400644+09:00",
+  "agent": "artifacts\\opponent_pool\\current_20260910\\mooman\\agents\\kaito_v56.py",
+  "opponent": "agents\\v117\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091711,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 2,
+    "ties": 0,
+    "win_rate": 0.5,
+    "mean_our_reward": 93094.0,
+    "mean_opponent_reward": 97021.0,
+    "mean_margin": -3927.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091711,
+      "seat": 0,
+      "ours": 90845.0,
+      "theirs": 108419.0,
+      "margin": -17574.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091711,
+      "seat": 1,
+      "ours": 90845.0,
+      "theirs": 108419.0,
+      "margin": -17574.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091712,
+      "seat": 0,
+      "ours": 95343.0,
+      "theirs": 85623.0,
+      "margin": 9720.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091712,
+      "seat": 1,
+      "ours": 95343.0,
+      "theirs": 85623.0,
+      "margin": 9720.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

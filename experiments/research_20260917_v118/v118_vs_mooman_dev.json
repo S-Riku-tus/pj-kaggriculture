@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-17T15:41:40.819137+09:00",
+  "agent": "agents\\v118\\main.py",
+  "opponent": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+  "configuration": {
+    "pairs": 1,
+    "seed": 2026091709,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 2,
+    "wins": 0,
+    "ties": 0,
+    "win_rate": 0.0,
+    "mean_our_reward": 136786.0,
+    "mean_opponent_reward": 139245.0,
+    "mean_margin": -2459.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091709,
+      "seat": 0,
+      "ours": 136786.0,
+      "theirs": 139245.0,
+      "margin": -2459.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091709,
+      "seat": 1,
+      "ours": 136786.0,
+      "theirs": 139245.0,
+      "margin": -2459.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

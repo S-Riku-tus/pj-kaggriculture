@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-17T16:05:00+09:00",
+  "live_submissions": {
+    "56267292": {"reported_rating": 1228.3, "games": 54, "wins": 33, "draws": 1, "losses": 20},
+    "56267296": {"reported_rating": 1207.4, "games": 52, "wins": 29, "draws": 1, "losses": 22},
+    "combined": {
+      "games": 106,
+      "wins": 62,
+      "draws": 2,
+      "losses": 42,
+      "win_score": 0.5943396226415094,
+      "mean_margin": 6395.858490566037
+    },
+    "opponent_rating_bands": {
+      "below_1150": {"games": 44, "wins": 38, "draws": 2, "losses": 4},
+      "1150_to_1250": {"games": 37, "wins": 22, "draws": 0, "losses": 15},
+      "1250_plus": {"games": 25, "wins": 2, "draws": 0, "losses": 23}
+    }
+  },
+  "candidate_funnel": {
+    "V112_current_source_panel": {"games": 8, "wins": 0, "draws": 0, "losses": 8, "mean_margin": -34470.625},
+    "V117_current_source_panel": {"games": 8, "wins": 2, "draws": 0, "losses": 6, "mean_margin": -1360.875},
+    "V118_vs_V117": {"games": 4, "wins": 1, "draws": 2, "losses": 1, "mean_margin": 12.25},
+    "V119_development": {"games": 12, "wins": 12, "draws": 0, "losses": 0, "mean_margin": 13687.666666666666},
+    "V119_holdout": {"games": 8, "wins": 6, "draws": 0, "losses": 2, "mean_margin": 7774.375}
+  },
+  "selected": "V119",
+  "selection_basis": "largest current-opponent uplift with successful unused-seed confirmation",
+  "submission_performed": false,
+  "rating_3000_guaranteed": false,
+  "blocking_caveat": "transitive provenance of the embedded public route tapes remains unverified"
+}

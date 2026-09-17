@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-17T16:03:14.639992+09:00",
+  "agent": "agents\\v119\\main.py",
+  "opponent": "agents\\v117\\main.py",
+  "configuration": {
+    "pairs": 1,
+    "seed": 2026091741,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 2,
+    "wins": 2,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 75330.5,
+    "mean_opponent_reward": 60152.0,
+    "mean_margin": 15178.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091741,
+      "seat": 0,
+      "ours": 72542.0,
+      "theirs": 59554.0,
+      "margin": 12988.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091741,
+      "seat": 1,
+      "ours": 78119.0,
+      "theirs": 60750.0,
+      "margin": 17369.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

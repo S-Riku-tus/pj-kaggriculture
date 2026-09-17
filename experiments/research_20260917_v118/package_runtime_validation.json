@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "archive": "artifacts/submissions/v119.tar.gz",
+  "archive_sha256": "9b0c3de15f89819939aeb45287591a158ef330b552d49231756ee77dd33be7cd",
+  "entries": [
+    "main.py",
+    "LICENSE",
+    "NOTICE.md",
+    "psr_base.py"
+  ],
+  "policy_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+  "expected_policy_sha256": "91772fda544e2d5768afff819e2de75ecb7a12db8acb40a48ee9edcf76aca434",
+  "games": [
+    {
+      "seat": 0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "ours": 72542.0,
+      "theirs": 59554.0,
+      "margin": 12988.0
+    },
+    {
+      "seat": 1,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "ours": 78119.0,
+      "theirs": 60750.0,
+      "margin": 17369.0
+    }
+  ]
+}

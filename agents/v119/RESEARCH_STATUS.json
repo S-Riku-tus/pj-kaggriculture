@@ -1,0 +1,25 @@
+{
+  "version": "V119",
+  "status": "RESEARCH_CANDIDATE_PROVENANCE_REVIEW_REQUIRED",
+  "behavior": "exact public-state-router v3 delegation",
+  "promotion_allowed": false,
+  "submission_status": "NOT_SUBMITTED",
+  "runtime_or_delivery_failures": 0,
+  "artifact": {
+    "path": "artifacts/submissions/v119.tar.gz",
+    "sha256": "9b0c3de15f89819939aeb45287591a158ef330b552d49231756ee77dd33be7cd",
+    "package_runtime_validation": "PASS_BOTH_SEATS_720_STEPS"
+  },
+  "known_evaluation": {
+    "new_development_games": 12,
+    "new_development_wins": 12,
+    "holdout_games": 8,
+    "holdout_wins": 6,
+    "holdout_losses": 2
+  },
+  "limitations": [
+    "embedded route-data provenance file absent from public notebook export",
+    "previous safety gate rejected the policy for animal-loss and crop-to-weed event counts",
+    "rating 3000 is a target, not a guarantee"
+  ]
+}
