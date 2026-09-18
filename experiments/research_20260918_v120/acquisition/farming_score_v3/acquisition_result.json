@@ -1,0 +1,37 @@
+{
+  "fetched_at_utc": "2026-09-18T00:47:07.498445+00:00",
+  "kernel": "lynnsakurai/farming-score-v3-replay-revised",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/lynnsakurai/farming-score-v3-replay-revised",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 66371,
+  "response_sha256": "3d7a9140fc1925d71beedc95991821f93c9491963fcccba3a0cb6014cd65e032",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 31761,
+      "sha256": "00b8c8297a0d384a79981e85f91e82d9008a10f44413a88517bb5aca06d8dc1f",
+      "main": {
+        "main_cells": 0,
+        "cell_ids": []
+      },
+      "decoded_sources": [
+        {
+          "source_path": "cell[1].string[0]",
+          "path": "decoded_main_1.py",
+          "bytes": 32456,
+          "sha256": "d36ae976ad4a6316e6c1a27a5d04e9cc8e30300f21bdd31e749127c67a9311c4"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "lynnsakurai/farming-score-v3-replay-revised",
+    "title": "Farming Score V3: Replay Revised",
+    "author": "Arlene",
+    "slug": "farming-score-v3-replay-revised",
+    "lastRunTime": "2026-09-15T00:47:05.0472169Z"
+  }
+}

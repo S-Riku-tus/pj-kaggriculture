@@ -1,0 +1,37 @@
+{
+  "fetched_at_utc": "2026-09-18T00:47:07.920760+00:00",
+  "kernel": "reyhanksatria/adaptive-route-agent-v2",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/reyhanksatria/adaptive-route-agent-v2",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 402994,
+  "response_sha256": "be1d6096120ed9a590838c86db2df56ee17e2dffbaf78dd15774b43e07de6da6",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 200030,
+      "sha256": "70187bb00445505d64b68c272c7c8e05514afd8aa7801418f73c13d8f63717a3",
+      "main": {
+        "main_cells": 0,
+        "cell_ids": []
+      },
+      "decoded_sources": [
+        {
+          "source_path": "cell[0].string[0].tar",
+          "path": "decoded_main_1.py",
+          "bytes": 7573,
+          "sha256": "23b0d0c93bcf3dfecaabfecd950ec4ab3b4c46000c0c481bddcf0a63ce019f02"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "reyhanksatria/adaptive-route-agent-v2",
+    "title": "Adaptive Route Agent V2",
+    "author": "Reyhan Ksatria",
+    "slug": "adaptive-route-agent-v2",
+    "lastRunTime": "2026-09-15T00:47:05.0144117Z"
+  }
+}

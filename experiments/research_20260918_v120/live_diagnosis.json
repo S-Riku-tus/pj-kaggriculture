@@ -1,0 +1,1480 @@
+{
+  "format": "kaggriculture-v119-live-diagnosis-v1",
+  "source": "experiments/research_20260918_v120/live_forensics.json",
+  "overall": {
+    "episodes": 148,
+    "wins": 73,
+    "losses": 69,
+    "draws": 6,
+    "win_score": 0.5135135135135135,
+    "mean_reward": 95822.68243243243,
+    "mean_margin": 7056.216216216216,
+    "median_margin": 0.0,
+    "p10_margin": -12609.199999999999,
+    "mean_opponent_rating": 1412.6564844235827
+  },
+  "rating_bands": {
+    "0_1250": {
+      "episodes": 17,
+      "wins": 15,
+      "losses": 2,
+      "draws": 0,
+      "win_score": 0.8823529411764706,
+      "mean_reward": 103890.76470588235,
+      "mean_margin": 41239.117647058825,
+      "median_margin": 31465.0,
+      "p10_margin": 9154.0,
+      "mean_opponent_rating": 744.9967676828915
+    },
+    "1250_1400": {
+      "episodes": 10,
+      "wins": 8,
+      "losses": 2,
+      "draws": 0,
+      "win_score": 0.8,
+      "mean_reward": 112252.5,
+      "mean_margin": 30208.7,
+      "median_margin": 14527.5,
+      "p10_margin": -5225.8,
+      "mean_opponent_rating": 1363.9326136551733
+    },
+    "1400_1500": {
+      "episodes": 66,
+      "wins": 37,
+      "losses": 24,
+      "draws": 5,
+      "win_score": 0.5984848484848485,
+      "mean_reward": 99817.15151515152,
+      "mean_margin": 5842.666666666667,
+      "median_margin": 1013.5,
+      "p10_margin": -11009.5,
+      "mean_opponent_rating": 1453.637962401834
+    },
+    "1500_1600": {
+      "episodes": 40,
+      "wins": 11,
+      "losses": 28,
+      "draws": 1,
+      "win_score": 0.2875,
+      "mean_reward": 87301.625,
+      "mean_margin": -5476.1,
+      "median_margin": -3349.0,
+      "p10_margin": -19969.9,
+      "mean_opponent_rating": 1538.2475234148872
+    },
+    "1600_1700": {
+      "episodes": 10,
+      "wins": 0,
+      "losses": 10,
+      "draws": 0,
+      "win_score": 0.0,
+      "mean_reward": 80396.1,
+      "mean_margin": -10681.1,
+      "median_margin": -10139.0,
+      "p10_margin": -15416.6,
+      "mean_opponent_rating": 1644.0085027096306
+    },
+    "1700_10000": {
+      "episodes": 5,
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "win_score": 0.4,
+      "mean_reward": 81826.2,
+      "mean_margin": -3718.6,
+      "median_margin": -3222.0,
+      "p10_margin": -8927.4,
+      "mean_opponent_rating": 1771.7594050633004
+    }
+  },
+  "router": {
+    "day_6": {
+      "choices": {
+        "1": 31,
+        "2": 79,
+        "4": 38
+      },
+      "outcomes": {
+        "1": {
+          "episodes": 31,
+          "wins": 15,
+          "losses": 15,
+          "draws": 1,
+          "win_score": 0.5,
+          "mean_reward": 81414.48387096774,
+          "mean_margin": 5831.225806451613,
+          "median_margin": 0.0,
+          "p10_margin": -8382.0,
+          "mean_opponent_rating": 1373.450485123336
+        },
+        "2": {
+          "episodes": 79,
+          "wins": 41,
+          "losses": 35,
+          "draws": 3,
+          "win_score": 0.5379746835443038,
+          "mean_reward": 98830.53164556962,
+          "mean_margin": 7225.2531645569625,
+          "median_margin": 852.0,
+          "p10_margin": -14674.8,
+          "mean_opponent_rating": 1381.8085009316826
+        },
+        "4": {
+          "episodes": 38,
+          "wins": 17,
+          "losses": 19,
+          "draws": 2,
+          "win_score": 0.47368421052631576,
+          "mean_reward": 101323.57894736843,
+          "mean_margin": 7704.131578947368,
+          "median_margin": -0.5,
+          "p10_margin": -8237.5,
+          "mean_opponent_rating": 1508.7716600595763
+        }
+      }
+    },
+    "day_24": {
+      "choices": {
+        "0": 52,
+        "3": 96
+      },
+      "outcomes": {
+        "0": {
+          "episodes": 52,
+          "wins": 21,
+          "losses": 29,
+          "draws": 2,
+          "win_score": 0.4230769230769231,
+          "mean_reward": 86016.42307692308,
+          "mean_margin": 5819.615384615385,
+          "median_margin": -758.0,
+          "p10_margin": -16656.399999999998,
+          "mean_opponent_rating": 1329.7097651319846
+        },
+        "3": {
+          "episodes": 96,
+          "wins": 52,
+          "losses": 40,
+          "draws": 4,
+          "win_score": 0.5625,
+          "mean_reward": 101134.40625,
+          "mean_margin": 7726.041666666667,
+          "median_margin": 732.5,
+          "p10_margin": -11539.0,
+          "mean_opponent_rating": 1457.5859573731984
+        }
+      }
+    }
+  },
+  "checkpoint_gaps_by_result": {
+    "win": {
+      "24": {
+        "money": -48.054794520547944,
+        "productive": 0.7397260273972602,
+        "inventory_value": 7.493150684931507
+      },
+      "96": {
+        "money": -199.46575342465752,
+        "productive": 1.9726027397260273,
+        "inventory_value": 101.72602739726027
+      },
+      "168": {
+        "money": 13.082191780821917,
+        "productive": 5.095890410958904,
+        "inventory_value": -140.0958904109589
+      },
+      "240": {
+        "money": 175.73972602739727,
+        "productive": 4.917808219178082,
+        "inventory_value": -26.19178082191781
+      },
+      "288": {
+        "money": 3835.301369863014,
+        "productive": 5.36986301369863,
+        "inventory_value": 574.2465753424658
+      },
+      "360": {
+        "money": 6186.876712328767,
+        "productive": 5.5479452054794525,
+        "inventory_value": 319.1095890410959
+      },
+      "480": {
+        "money": 13042.27397260274,
+        "productive": 5.0,
+        "inventory_value": 474.3424657534247
+      },
+      "576": {
+        "money": 17581.630136986303,
+        "productive": 5.260273972602739,
+        "inventory_value": 582.3424657534247
+      },
+      "648": {
+        "money": 19719.328767123287,
+        "productive": 7.109589041095891,
+        "inventory_value": 14.26027397260274
+      },
+      "696": {
+        "money": 23497.342465753423,
+        "productive": 10.698630136986301,
+        "inventory_value": -2185.5479452054797
+      },
+      "719": {
+        "money": 23423.27397260274,
+        "productive": 0.547945205479452,
+        "inventory_value": -222.73972602739727
+      }
+    },
+    "loss": {
+      "24": {
+        "money": -3.7971014492753623,
+        "productive": 0.14492753623188406,
+        "inventory_value": -1.3043478260869565
+      },
+      "96": {
+        "money": -103.98550724637681,
+        "productive": -0.2028985507246377,
+        "inventory_value": 84.79710144927536
+      },
+      "168": {
+        "money": -177.8695652173913,
+        "productive": -0.5652173913043478,
+        "inventory_value": 69.1304347826087
+      },
+      "240": {
+        "money": -470.40579710144925,
+        "productive": -1.3333333333333333,
+        "inventory_value": 42.14492753623188
+      },
+      "288": {
+        "money": -462.536231884058,
+        "productive": -1.2028985507246377,
+        "inventory_value": 177.0144927536232
+      },
+      "360": {
+        "money": -923.5942028985507,
+        "productive": -1.1594202898550725,
+        "inventory_value": -293.3333333333333
+      },
+      "480": {
+        "money": -2547.68115942029,
+        "productive": -2.9420289855072466,
+        "inventory_value": -4.6231884057971016
+      },
+      "576": {
+        "money": -3955.1739130434785,
+        "productive": -1.4782608695652173,
+        "inventory_value": -364.4492753623188
+      },
+      "648": {
+        "money": -6388.521739130435,
+        "productive": -1.1884057971014492,
+        "inventory_value": -521.3623188405797
+      },
+      "696": {
+        "money": -5701.623188405797,
+        "productive": 5.086956521739131,
+        "inventory_value": -3722.2028985507245
+      },
+      "719": {
+        "money": -9646.072463768116,
+        "productive": -3.579710144927536,
+        "inventory_value": 49.15942028985507
+      }
+    },
+    "draw": {
+      "24": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "96": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "168": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "240": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "288": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "360": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "480": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "576": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "648": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "696": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      },
+      "719": {
+        "money": 0.0,
+        "productive": 0.0,
+        "inventory_value": 0.0
+      }
+    }
+  },
+  "repeated_opponent_openings": {
+    "8d1581ebb81f920f": {
+      "performance": {
+        "episodes": 43,
+        "wins": 6,
+        "losses": 37,
+        "draws": 0,
+        "win_score": 0.13953488372093023,
+        "mean_reward": 89358.32558139534,
+        "mean_margin": -7897.7441860465115,
+        "median_margin": -6950.0,
+        "p10_margin": -16701.2,
+        "mean_opponent_rating": 1550.4461435870753
+      },
+      "action_consensus": {
+        "episodes": 43,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "76290494753c5188",
+            "episodes": 2
+          },
+          {
+            "hash": "863cb404a2647de7",
+            "episodes": 1
+          },
+          {
+            "hash": "e94566a910365292",
+            "episodes": 1
+          },
+          {
+            "hash": "85091a2d58e3bede",
+            "episodes": 1
+          },
+          {
+            "hash": "e731b71c00903a7f",
+            "episodes": 1
+          },
+          {
+            "hash": "c740bb9bfadef161",
+            "episodes": 1
+          },
+          {
+            "hash": "d199a4c33297d814",
+            "episodes": 1
+          },
+          {
+            "hash": "4f5263c8c1aaffde",
+            "episodes": 1
+          },
+          {
+            "hash": "ef3942dd6dca8f41",
+            "episodes": 1
+          },
+          {
+            "hash": "4e200a697586b3d7",
+            "episodes": 1
+          },
+          {
+            "hash": "f3ac0747267ab07c",
+            "episodes": 1
+          },
+          {
+            "hash": "76124fb57fbccaae",
+            "episodes": 1
+          },
+          {
+            "hash": "f0fb9a5ccc7e59a8",
+            "episodes": 1
+          },
+          {
+            "hash": "266ca3ab87a59ba4",
+            "episodes": 1
+          },
+          {
+            "hash": "19591644ade5f1eb",
+            "episodes": 1
+          },
+          {
+            "hash": "92fc39bf737fb63c",
+            "episodes": 1
+          },
+          {
+            "hash": "e22d7cb97c75ba77",
+            "episodes": 1
+          },
+          {
+            "hash": "c6d0e714789fbe6e",
+            "episodes": 1
+          },
+          {
+            "hash": "3fe8c902f2955196",
+            "episodes": 1
+          },
+          {
+            "hash": "523e19a8d593425c",
+            "episodes": 1
+          },
+          {
+            "hash": "00d0650b973c854d",
+            "episodes": 1
+          },
+          {
+            "hash": "cf1d6593c85dcdb7",
+            "episodes": 1
+          },
+          {
+            "hash": "69c7ff7e80d0b8cb",
+            "episodes": 1
+          },
+          {
+            "hash": "647ed63c132a2909",
+            "episodes": 1
+          },
+          {
+            "hash": "00a5a6184372c265",
+            "episodes": 1
+          },
+          {
+            "hash": "970ed9f2e3e2ef27",
+            "episodes": 1
+          },
+          {
+            "hash": "7e088ce901209604",
+            "episodes": 1
+          },
+          {
+            "hash": "65f85158276b9a74",
+            "episodes": 1
+          },
+          {
+            "hash": "c2e4c0d2e76a457f",
+            "episodes": 1
+          },
+          {
+            "hash": "cac942285ad4f79a",
+            "episodes": 1
+          },
+          {
+            "hash": "7294826aa3ac039f",
+            "episodes": 1
+          },
+          {
+            "hash": "89a0af84514aab8d",
+            "episodes": 1
+          },
+          {
+            "hash": "dea35670229d5dfd",
+            "episodes": 1
+          },
+          {
+            "hash": "75239286b59b54e2",
+            "episodes": 1
+          },
+          {
+            "hash": "07610189b79a6c29",
+            "episodes": 1
+          },
+          {
+            "hash": "fb92a7da4f6f7b42",
+            "episodes": 1
+          },
+          {
+            "hash": "65c86a4e0541b7b0",
+            "episodes": 1
+          },
+          {
+            "hash": "7382e682066f9ce7",
+            "episodes": 1
+          },
+          {
+            "hash": "f958a514823787ef",
+            "episodes": 1
+          },
+          {
+            "hash": "846b1918fa7db0ad",
+            "episodes": 1
+          },
+          {
+            "hash": "28ede8917215db61",
+            "episodes": 1
+          },
+          {
+            "hash": "9bc64ba1d67ef272",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.593733850129199,
+        "steps_with_unanimous_action": 74,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 23,
+            "largest_sequence_cluster": 8,
+            "mean_modal_step_support": 0.9565568475452196,
+            "minimum_modal_step_support": 0.5116279069767442
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 34,
+            "largest_sequence_cluster": 3,
+            "mean_modal_step_support": 0.6468023255813954,
+            "minimum_modal_step_support": 0.18604651162790697
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 38,
+            "largest_sequence_cluster": 3,
+            "mean_modal_step_support": 0.6724806201550387,
+            "minimum_modal_step_support": 0.13953488372093023
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 40,
+            "largest_sequence_cluster": 3,
+            "mean_modal_step_support": 0.38824289405684753,
+            "minimum_modal_step_support": 0.09302325581395349
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 42,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 0.30606602699625957,
+            "minimum_modal_step_support": 0.09302325581395349
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56304665": 1,
+        "56304339": 1,
+        "56303299": 1,
+        "56302569": 1,
+        "56272733": 1,
+        "56293283": 1,
+        "56299920": 1,
+        "56281973": 1,
+        "56302050": 1,
+        "56174381": 1,
+        "56300158": 1,
+        "56300982": 1,
+        "56100320": 1,
+        "56300907": 1,
+        "56221370": 1,
+        "56147874": 1,
+        "56299766": 1,
+        "56299458": 1,
+        "56120050": 1,
+        "56277755": 2,
+        "56277317": 1,
+        "56225994": 1,
+        "56301355": 1,
+        "56302757": 1,
+        "56104675": 1,
+        "56167138": 1,
+        "56103425": 1,
+        "56163884": 1,
+        "56165044": 1,
+        "56113416": 1,
+        "56212008": 1,
+        "56261911": 1,
+        "56278763": 1,
+        "56247697": 1,
+        "56198398": 1,
+        "56299903": 1,
+        "56293218": 1,
+        "56276385": 1,
+        "56098072": 2,
+        "56124281": 1,
+        "56297858": 1
+      }
+    },
+    "17f1c181f1ca6965": {
+      "performance": {
+        "episodes": 59,
+        "wins": 35,
+        "losses": 18,
+        "draws": 6,
+        "win_score": 0.6440677966101694,
+        "mean_reward": 97944.83050847458,
+        "mean_margin": 6214.779661016949,
+        "median_margin": 2974.0,
+        "p10_margin": -6741.199999999999,
+        "mean_opponent_rating": 1423.9602805486077
+      },
+      "action_consensus": {
+        "episodes": 59,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "7bf52109f586b390",
+            "episodes": 4
+          },
+          {
+            "hash": "15f0ed56464d4949",
+            "episodes": 3
+          },
+          {
+            "hash": "8963a3cf7288a38e",
+            "episodes": 2
+          },
+          {
+            "hash": "fdfc33b59f3558c5",
+            "episodes": 2
+          },
+          {
+            "hash": "20604eaca24247e2",
+            "episodes": 2
+          },
+          {
+            "hash": "cd04ee208db02e74",
+            "episodes": 2
+          },
+          {
+            "hash": "2b04babc0a8ea642",
+            "episodes": 2
+          },
+          {
+            "hash": "cedd60613dff7f89",
+            "episodes": 1
+          },
+          {
+            "hash": "7c1df1c98a4e010e",
+            "episodes": 1
+          },
+          {
+            "hash": "bc1f473844e22aef",
+            "episodes": 1
+          },
+          {
+            "hash": "63e8e4ca25d28ac5",
+            "episodes": 1
+          },
+          {
+            "hash": "6df4b44431aa9fd2",
+            "episodes": 1
+          },
+          {
+            "hash": "0422874737805310",
+            "episodes": 1
+          },
+          {
+            "hash": "44f9b6218aad938f",
+            "episodes": 1
+          },
+          {
+            "hash": "55c9d18745493fa8",
+            "episodes": 1
+          },
+          {
+            "hash": "a126c0231d061df4",
+            "episodes": 1
+          },
+          {
+            "hash": "3c6141495d21324e",
+            "episodes": 1
+          },
+          {
+            "hash": "84c06386d40e5b6f",
+            "episodes": 1
+          },
+          {
+            "hash": "b84e75a23cf1bd69",
+            "episodes": 1
+          },
+          {
+            "hash": "934ffd9290e7439f",
+            "episodes": 1
+          },
+          {
+            "hash": "40509c09317ebb63",
+            "episodes": 1
+          },
+          {
+            "hash": "3e20a1d677655a6a",
+            "episodes": 1
+          },
+          {
+            "hash": "091612cba2dc7652",
+            "episodes": 1
+          },
+          {
+            "hash": "d1f98d40c00b9846",
+            "episodes": 1
+          },
+          {
+            "hash": "0e51720802a482da",
+            "episodes": 1
+          },
+          {
+            "hash": "f10a11d3bbd54a01",
+            "episodes": 1
+          },
+          {
+            "hash": "a3140c9529d1ac77",
+            "episodes": 1
+          },
+          {
+            "hash": "a636b5145ed4ce16",
+            "episodes": 1
+          },
+          {
+            "hash": "d2a4af5da4f94c33",
+            "episodes": 1
+          },
+          {
+            "hash": "afecf227a652cfc2",
+            "episodes": 1
+          },
+          {
+            "hash": "23e95a2072b7ebef",
+            "episodes": 1
+          },
+          {
+            "hash": "e27e446ec11f87cc",
+            "episodes": 1
+          },
+          {
+            "hash": "de4cec700e4bda5b",
+            "episodes": 1
+          },
+          {
+            "hash": "c70d5b3154cb29a2",
+            "episodes": 1
+          },
+          {
+            "hash": "85b61ebdd7eae033",
+            "episodes": 1
+          },
+          {
+            "hash": "0a94bfa9ffc6d6cb",
+            "episodes": 1
+          },
+          {
+            "hash": "cc91ac4f6afed2ac",
+            "episodes": 1
+          },
+          {
+            "hash": "d6f14569d4355ce8",
+            "episodes": 1
+          },
+          {
+            "hash": "6511d8d15eb16df6",
+            "episodes": 1
+          },
+          {
+            "hash": "eb1d4d16974367c0",
+            "episodes": 1
+          },
+          {
+            "hash": "af5bbe240140074c",
+            "episodes": 1
+          },
+          {
+            "hash": "eb2c87393787b277",
+            "episodes": 1
+          },
+          {
+            "hash": "9f5eddc91fef2731",
+            "episodes": 1
+          },
+          {
+            "hash": "520e66cfaf240df5",
+            "episodes": 1
+          },
+          {
+            "hash": "514fb41d29329ed4",
+            "episodes": 1
+          },
+          {
+            "hash": "0f83df118360a4f5",
+            "episodes": 1
+          },
+          {
+            "hash": "048830663215dbf3",
+            "episodes": 1
+          },
+          {
+            "hash": "a1a29aa7672e01b0",
+            "episodes": 1
+          },
+          {
+            "hash": "8a61eb0ac98d4072",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.653060263653484,
+        "steps_with_unanimous_action": 39,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 18,
+            "largest_sequence_cluster": 23,
+            "mean_modal_step_support": 0.8708804143126178,
+            "minimum_modal_step_support": 0.4067796610169492
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 32,
+            "largest_sequence_cluster": 10,
+            "mean_modal_step_support": 0.6734934086629002,
+            "minimum_modal_step_support": 0.2542372881355932
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 32,
+            "largest_sequence_cluster": 13,
+            "mean_modal_step_support": 0.653954802259887,
+            "minimum_modal_step_support": 0.23728813559322035
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 38,
+            "largest_sequence_cluster": 13,
+            "mean_modal_step_support": 0.6244114877589454,
+            "minimum_modal_step_support": 0.22033898305084745
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 38,
+            "largest_sequence_cluster": 6,
+            "mean_modal_step_support": 0.4449448856228517,
+            "minimum_modal_step_support": 0.11864406779661017
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56058882": 1,
+        "56128245": 1,
+        "56065115": 2,
+        "56089927": 1,
+        "56081206": 1,
+        "56067217": 1,
+        "56270905": 1,
+        "56052258": 1,
+        "56079237": 1,
+        "56047642": 1,
+        "56101578": 1,
+        "56123473": 1,
+        "56093063": 1,
+        "56096841": 1,
+        "56260472": 1,
+        "56098881": 1,
+        "56121785": 1,
+        "56099887": 1,
+        "56246771": 1,
+        "56051111": 1,
+        "56083699": 1,
+        "56088550": 1,
+        "56166925": 2,
+        "56052394": 1,
+        "56079729": 1,
+        "56164316": 1,
+        "56087530": 1,
+        "56104223": 1,
+        "56298336": 1,
+        "56273217": 1,
+        "56121253": 1,
+        "56224357": 1,
+        "56068305": 1,
+        "56212836": 1,
+        "56063597": 1,
+        "56090939": 1,
+        "56129474": 1,
+        "56079445": 1,
+        "56075306": 1,
+        "56060783": 1,
+        "56195164": 1,
+        "56098655": 1,
+        "56098747": 1,
+        "56117921": 1,
+        "56280763": 1,
+        "56094644": 1,
+        "56128629": 1,
+        "56052684": 1,
+        "56101009": 1,
+        "56102758": 1,
+        "56141763": 1,
+        "56148392": 1,
+        "56270340": 1,
+        "56111449": 1,
+        "56006875": 1,
+        "56055494": 1,
+        "56298330": 1
+      }
+    },
+    "bcb898d962d2c527": {
+      "performance": {
+        "episodes": 3,
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "win_score": 1.0,
+        "mean_reward": 100363.33333333333,
+        "mean_margin": 12638.0,
+        "median_margin": 10444.0,
+        "p10_margin": 9176.0,
+        "mean_opponent_rating": 1385.9987575950076
+      },
+      "action_consensus": {
+        "episodes": 3,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "c5a12268b41d2afa",
+            "episodes": 1
+          },
+          {
+            "hash": "4ecb0a7f90d8843e",
+            "episodes": 1
+          },
+          {
+            "hash": "4d8a7b6985cf6c0f",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.9111111111111111,
+        "steps_with_unanimous_action": 546,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 3,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9722222222222222,
+            "minimum_modal_step_support": 0.3333333333333333
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 3,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.8703703703703703,
+            "minimum_modal_step_support": 0.3333333333333333
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 3,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9351851851851852,
+            "minimum_modal_step_support": 0.6666666666666666
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 3,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9074074074074074,
+            "minimum_modal_step_support": 0.3333333333333333
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 3,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.8694638694638694,
+            "minimum_modal_step_support": 0.3333333333333333
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56081894": 1,
+        "56042493": 1,
+        "56045575": 1
+      }
+    },
+    "5f962983b75f61ed": {
+      "performance": {
+        "episodes": 2,
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "win_score": 0.5,
+        "mean_reward": 78730.0,
+        "mean_margin": -970.0,
+        "median_margin": -970.0,
+        "p10_margin": -1774.0,
+        "mean_opponent_rating": 1454.2513232852416
+      },
+      "action_consensus": {
+        "episodes": 2,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "7b1717741d5c5580",
+            "episodes": 1
+          },
+          {
+            "hash": "b0006e6adf295f60",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.8854166666666666,
+        "steps_with_unanimous_action": 555,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.96875,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.75,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9444444444444444,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.7657342657342657,
+            "minimum_modal_step_support": 0.5
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56098088": 2
+      }
+    },
+    "05a227ac77fcdaff": {
+      "performance": {
+        "episodes": 2,
+        "wins": 0,
+        "losses": 2,
+        "draws": 0,
+        "win_score": 0.0,
+        "mean_reward": 67352.0,
+        "mean_margin": -8138.5,
+        "median_margin": -8138.5,
+        "p10_margin": -8928.5,
+        "mean_opponent_rating": 1630.8726828021645
+      },
+      "action_consensus": {
+        "episodes": 2,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "98e7d7803338d0d9",
+            "episodes": 1
+          },
+          {
+            "hash": "6949d4a0205331f2",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.7,
+        "steps_with_unanimous_action": 288,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9930555555555556,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5069444444444444,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5,
+            "minimum_modal_step_support": 0.5
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56162910": 2
+      }
+    },
+    "df7c267020bd7b92": {
+      "performance": {
+        "episodes": 2,
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "win_score": 0.5,
+        "mean_reward": 75116.5,
+        "mean_margin": -869.5,
+        "median_margin": -869.5,
+        "p10_margin": -1776.3,
+        "mean_opponent_rating": 1574.3231033960765
+      },
+      "action_consensus": {
+        "episodes": 2,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "d61f4247b2c342fd",
+            "episodes": 1
+          },
+          {
+            "hash": "77103b90e06852ee",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.5993055555555555,
+        "steps_with_unanimous_action": 143,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9131944444444444,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5798611111111112,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.5034965034965035,
+            "minimum_modal_step_support": 0.5
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56132544": 1,
+        "56109316": 1
+      }
+    },
+    "c741f50a7d4a6744": {
+      "performance": {
+        "episodes": 2,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "win_score": 1.0,
+        "mean_reward": 108438.0,
+        "mean_margin": 21402.0,
+        "median_margin": 21402.0,
+        "p10_margin": 16890.0,
+        "mean_opponent_rating": 1028.830702549344
+      },
+      "action_consensus": {
+        "episodes": 2,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "0cd3e3ec88e5ebc7",
+            "episodes": 1
+          },
+          {
+            "hash": "e024425c8d87b4a3",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.9798611111111111,
+        "steps_with_unanimous_action": 691,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9861111111111112,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9826388888888888,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9756944444444444,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9545454545454546,
+            "minimum_modal_step_support": 0.5
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "55698252": 1,
+        "55651083": 1
+      }
+    },
+    "be5452f6c6ffc91c": {
+      "performance": {
+        "episodes": 2,
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "win_score": 0.5,
+        "mean_reward": 115491.5,
+        "mean_margin": 5087.5,
+        "median_margin": 5087.5,
+        "p10_margin": 239.89999999999998,
+        "mean_opponent_rating": 1480.556043721922
+      },
+      "action_consensus": {
+        "episodes": 2,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "7d6c3b2da99fdcac",
+            "episodes": 2
+          }
+        ],
+        "mean_modal_step_support": 1.0,
+        "steps_with_unanimous_action": 720,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56110484": 1,
+        "56098550": 1
+      }
+    },
+    "c16b2a746b0feea2": {
+      "performance": {
+        "episodes": 2,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "win_score": 1.0,
+        "mean_reward": 83673.0,
+        "mean_margin": 32569.5,
+        "median_margin": 32569.5,
+        "p10_margin": 31685.9,
+        "mean_opponent_rating": 833.6982773292365
+      },
+      "action_consensus": {
+        "episodes": 2,
+        "horizon": 720,
+        "full_sequence_clusters": [
+          {
+            "hash": "6cc2ecce5217d881",
+            "episodes": 1
+          },
+          {
+            "hash": "2465247cca45b82b",
+            "episodes": 1
+          }
+        ],
+        "mean_modal_step_support": 0.9652777777777778,
+        "steps_with_unanimous_action": 670,
+        "blocks": [
+          {
+            "start": 0,
+            "end": 144,
+            "unique_sequences": 1,
+            "largest_sequence_cluster": 2,
+            "mean_modal_step_support": 1.0,
+            "minimum_modal_step_support": 1.0
+          },
+          {
+            "start": 144,
+            "end": 288,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9930555555555556,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 288,
+            "end": 432,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9791666666666666,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 432,
+            "end": 576,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.9409722222222222,
+            "minimum_modal_step_support": 0.5
+          },
+          {
+            "start": 576,
+            "end": 719,
+            "unique_sequences": 2,
+            "largest_sequence_cluster": 1,
+            "mean_modal_step_support": 0.916083916083916,
+            "minimum_modal_step_support": 0.5
+          }
+        ]
+      },
+      "opponent_submission_ids": {
+        "56233202": 1,
+        "55347451": 1
+      }
+    }
+  },
+  "diagnosis": {
+    "primary_target_opening": "8d1581ebb81f920f",
+    "analysis_only_features": [
+      "submission IDs",
+      "team names",
+      "ratings",
+      "replay hashes",
+      "future outcomes"
+    ],
+    "causal_limit": "Associations require prospective paired-game validation before promotion."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-18T09:48:04.374037+09:00",
+  "agent": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+  "opponent": "agents\\v119\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091801,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 1,
+    "ties": 2,
+    "win_rate": 0.25,
+    "mean_our_reward": 71290.5,
+    "mean_opponent_reward": 71290.5,
+    "mean_margin": 0.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091801,
+      "seat": 0,
+      "ours": 73004.0,
+      "theirs": 73004.0,
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094804_+0900_smart_farm_vs_v119\\seed_2026091801_seat_0.json"
+    },
+    {
+      "seed": 2026091801,
+      "seat": 1,
+      "ours": 73004.0,
+      "theirs": 73004.0,
+      "margin": 0.0,
+      "win": false,
+      "tie": true,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094804_+0900_smart_farm_vs_v119\\seed_2026091801_seat_1.json"
+    },
+    {
+      "seed": 2026091802,
+      "seat": 0,
+      "ours": 69920.0,
+      "theirs": 69234.0,
+      "margin": 686.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094804_+0900_smart_farm_vs_v119\\seed_2026091802_seat_0.json"
+    },
+    {
+      "seed": 2026091802,
+      "seat": 1,
+      "ours": 69234.0,
+      "theirs": 69920.0,
+      "margin": -686.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094804_+0900_smart_farm_vs_v119\\seed_2026091802_seat_1.json"
+    }
+  ]
+}

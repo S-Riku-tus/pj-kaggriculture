@@ -1,0 +1,31 @@
+{
+  "version": "V120",
+  "status": "LOCAL_CANDIDATE_LIVE_VALIDATION_REQUIRED",
+  "behavior": "turn-by-turn nearest-state imitation of successful public live-replay decisions",
+  "promotion_allowed": true,
+  "submission_status": "NOT_SUBMITTED",
+  "runtime_or_delivery_failures_in_formal_panel": 0,
+  "artifact": {
+    "path": "artifacts/submissions/v120.tar.gz",
+    "sha256": "399125245a037340cc1b2ad19fb7a41f79ad562a82eed70765208a5802687164",
+    "package_runtime_validation": "PASS_BOTH_SEATS_720_STEPS"
+  },
+  "known_evaluation": {
+    "formal_games": 48,
+    "wins": 46,
+    "losses": 2,
+    "draws": 0,
+    "v119_games": 20,
+    "v119_wins": 18,
+    "older_source_panel_games": 16,
+    "older_source_panel_wins": 16,
+    "current_public_candidate_games": 12,
+    "current_public_candidate_wins": 12
+  },
+  "limitations": [
+    "training examples were selected from source-policy wins against V119",
+    "the dominant source policy itself is not locally executable for a direct paired match",
+    "the current public field can change after this artifact is built",
+    "rating 3000 is a target, not a guarantee"
+  ]
+}

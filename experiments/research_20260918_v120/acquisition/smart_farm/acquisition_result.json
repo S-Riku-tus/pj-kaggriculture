@@ -1,0 +1,37 @@
+{
+  "fetched_at_utc": "2026-09-18T00:47:05.767596+00:00",
+  "kernel": "flexonafft/kaggriculture-smart-farm-strategy-lab",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/flexonafft/kaggriculture-smart-farm-strategy-lab",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 176399,
+  "response_sha256": "ca0a3cb0af224054eb53ba198452eb6b1def98db01063310011f4fdb212b3f7a",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 75632,
+      "sha256": "3ad5bbae3ab7d7cebf6d8b9e031944897df5dc8aca9755ebcc7a009ade30d1ee",
+      "main": {
+        "main_cells": 0,
+        "cell_ids": []
+      },
+      "decoded_sources": [
+        {
+          "source_path": "cell[1].string[0]",
+          "path": "decoded_main_1.py",
+          "bytes": 69292,
+          "sha256": "c89d3dd2e9cbdb97f95f2d51bbe2de687d64329069443da7c2ea788ce47fdb5c"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "flexonafft/kaggriculture-smart-farm-strategy-lab",
+    "title": "Kaggriculture | Smart Farm Strategy Lab",
+    "author": "Igor Zharov",
+    "slug": "kaggriculture-smart-farm-strategy-lab",
+    "lastRunTime": "2026-09-15T00:47:03.196704Z"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "format": "v120-case-policy-v1",
+  "description": "Successful public-replay decisions from the dominant live opening cohort.",
+  "runtime_excludes": [
+    "episode ids",
+    "submission ids",
+    "ratings",
+    "rewards and outcomes",
+    "future observations"
+  ],
+  "selection_rule": "same step; same unit count when available; nearest current-state feature vector",
+  "provenance": [
+    {
+      "episode_id": "110067832",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110067832.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110055872",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110055872.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110040870",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110040870.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110036035",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110036035.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110030644",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110030644.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110028473",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110028473.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110025266",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110025266.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110024203",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110024203.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110023120",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110023120.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110022050",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110022050.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110015616",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110015616.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110013246",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110013246.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110012365",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110012365.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110006984",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110006984.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110003880",
+      "replay_path": "data/replays/v119_submission_56298336/episode_110003880.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109995227",
+      "replay_path": "data/replays/v119_submission_56298336/episode_109995227.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "109991869",
+      "replay_path": "data/replays/v119_submission_56298336/episode_109991869.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "109990796",
+      "replay_path": "data/replays/v119_submission_56298336/episode_109990796.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "109981055",
+      "replay_path": "data/replays/v119_submission_56298336/episode_109981055.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109979933",
+      "replay_path": "data/replays/v119_submission_56298336/episode_109979933.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109978870",
+      "replay_path": "data/replays/v119_submission_56298336/episode_109978870.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110057473",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110057473.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110043165",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110043165.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110031772",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110031772.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110027488",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110027488.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110023193",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110023193.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110019969",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110019969.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110016737",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110016737.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110012426",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110012426.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "110008126",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110008126.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "110007049",
+      "replay_path": "data/replays/v119_submission_56298330/episode_110007049.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109999468",
+      "replay_path": "data/replays/v119_submission_56298330/episode_109999468.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109994104",
+      "replay_path": "data/replays/v119_submission_56298330/episode_109994104.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109988780",
+      "replay_path": "data/replays/v119_submission_56298330/episode_109988780.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109985466",
+      "replay_path": "data/replays/v119_submission_56298330/episode_109985466.json",
+      "teacher_seat": 1
+    },
+    {
+      "episode_id": "109982241",
+      "replay_path": "data/replays/v119_submission_56298330/episode_109982241.json",
+      "teacher_seat": 0
+    },
+    {
+      "episode_id": "109975830",
+      "replay_path": "data/replays/v119_submission_56298330/episode_109975830.json",
+      "teacher_seat": 0
+    }
+  ],
+  "validation_report": "experiments/research_20260918_v120/imitation_validation.json",
+  "model_sha256": "6edfa5508ced9dc791dee91c3319357f5951c02164cf385502e056f833988000"
+}

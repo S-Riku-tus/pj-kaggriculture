@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-18T09:49:29.617891+09:00",
+  "agent": "experiments\\research_20260918_v120\\acquisition\\shape_tetsutani\\decoded_main_1.py",
+  "opponent": "agents\\v119\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091831,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 0,
+    "ties": 0,
+    "win_rate": 0.0,
+    "mean_our_reward": 90670.5,
+    "mean_opponent_reward": 105443.5,
+    "mean_margin": -14773.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091831,
+      "seat": 0,
+      "ours": 85689.0,
+      "theirs": 87981.0,
+      "margin": -2292.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094929_+0900_shape_tetsutani_vs_v119\\seed_2026091831_seat_0.json"
+    },
+    {
+      "seed": 2026091831,
+      "seat": 1,
+      "ours": 85689.0,
+      "theirs": 87981.0,
+      "margin": -2292.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094929_+0900_shape_tetsutani_vs_v119\\seed_2026091831_seat_1.json"
+    },
+    {
+      "seed": 2026091832,
+      "seat": 0,
+      "ours": 95652.0,
+      "theirs": 122906.0,
+      "margin": -27254.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094929_+0900_shape_tetsutani_vs_v119\\seed_2026091832_seat_0.json"
+    },
+    {
+      "seed": 2026091832,
+      "seat": 1,
+      "ours": 95652.0,
+      "theirs": 122906.0,
+      "margin": -27254.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_094929_+0900_shape_tetsutani_vs_v119\\seed_2026091832_seat_1.json"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-18T10:10:22.346449+09:00",
+  "agent": "agents\\v120\\main.py",
+  "opponent": "experiments\\research_20260910\\runtime\\ggmljs_v16\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091830,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 119199.5,
+    "mean_opponent_reward": 101215.5,
+    "mean_margin": 17984.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091830,
+      "seat": 0,
+      "ours": 94109.0,
+      "theirs": 70656.0,
+      "margin": 23453.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091830,
+      "seat": 1,
+      "ours": 94109.0,
+      "theirs": 70656.0,
+      "margin": 23453.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091831,
+      "seat": 0,
+      "ours": 145373.0,
+      "theirs": 131551.0,
+      "margin": 13822.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091831,
+      "seat": 1,
+      "ours": 143207.0,
+      "theirs": 131999.0,
+      "margin": 11208.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

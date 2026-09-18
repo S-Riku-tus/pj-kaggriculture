@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-18T10:05:38.767234+09:00",
+  "agent": "agents\\v120\\main.py",
+  "opponent": "agents\\v119\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091804,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 83949.5,
+    "mean_opponent_reward": 77067.0,
+    "mean_margin": 6882.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091804,
+      "seat": 0,
+      "ours": 77901.0,
+      "theirs": 68376.0,
+      "margin": 9525.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_100538_+0900_v120_vs_v119\\seed_2026091804_seat_0.json"
+    },
+    {
+      "seed": 2026091804,
+      "seat": 1,
+      "ours": 77901.0,
+      "theirs": 68376.0,
+      "margin": 9525.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_100538_+0900_v120_vs_v119\\seed_2026091804_seat_1.json"
+    },
+    {
+      "seed": 2026091805,
+      "seat": 0,
+      "ours": 89998.0,
+      "theirs": 85758.0,
+      "margin": 4240.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_100538_+0900_v120_vs_v119\\seed_2026091805_seat_0.json"
+    },
+    {
+      "seed": 2026091805,
+      "seat": 1,
+      "ours": 89998.0,
+      "theirs": 85758.0,
+      "margin": 4240.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_100538_+0900_v120_vs_v119\\seed_2026091805_seat_1.json"
+    }
+  ]
+}
