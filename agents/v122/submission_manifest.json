@@ -1,0 +1,11 @@
+{
+  "files": [
+    {"source": "main.py", "target": "main.py"},
+    {"source": "../v121/main.py", "target": "v121_sparse.py"},
+    {"source": "../v120/main.py", "target": "v120_base.py"},
+    {"source": "../v121_market/main.py", "target": "market_overlay.py"},
+    {"source": "../v121/model.json.gz", "target": "model.json.gz"},
+    {"source": "../v121/model_metadata.json", "target": "model_metadata.json"},
+    {"source": "NOTICE.md", "target": "NOTICE.md"}
+  ]
+}

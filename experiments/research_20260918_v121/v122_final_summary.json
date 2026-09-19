@@ -1,0 +1,67 @@
+{
+  "decision": "PROMOTE_V122_FOR_LIVE_VALIDATION",
+  "rating_target": 3000,
+  "rating_claim": "target_only_not_guaranteed",
+  "design": {
+    "opening": "v120 exact policy through step 287",
+    "continuation": "90 winning continuations; beam 8; gates 288, 360, 432, 480, 576, 648",
+    "route_packages": ["balanced", "milk", "wool", "conditional_tomato"],
+    "enabled_overlays": ["weed_repair", "dead_sell_removal", "terminal_liquidation"],
+    "rejected_overlay": "unconditional_sell_reordering"
+  },
+  "live_v120_forensics": {
+    "submissions": [56317532, 56317528],
+    "games": 153,
+    "wins": 87,
+    "losses": 66,
+    "mean_margin": 7421,
+    "opportunity_counts": {
+      "multi_sell_turns": 24721,
+      "duplicate_sell_turns": 4823,
+      "zero_quantity_sells": 3865,
+      "weed_collisions": 66,
+      "terminal_nonempty_seats": 18,
+      "terminal_leftover_units": 318
+    }
+  },
+  "paired_v120_panel": {
+    "games": 20,
+    "wins": 13,
+    "losses": 7,
+    "mean_margin": 3590.4,
+    "result": "same win count as sparse-only; no sell-ranking independent regression"
+  },
+  "independent_panel": {
+    "games": 28,
+    "v120_wins": 28,
+    "v122_wins": 28,
+    "v120_mean_margin": 8619.92857142857,
+    "v122_mean_margin": 9631.857142857143,
+    "mean_margin_delta": 1011.9285714285738,
+    "lineages": {
+      "ggmljs_v16": {"wins": 4, "mean_margin": 20307.0, "delta_vs_v120": 2323.0},
+      "mooman_e052a": {"wins": 4, "mean_margin": 6417.5, "delta_vs_v120": 986.5},
+      "qeinstein_moev2": {"wins": 4, "mean_margin": 5992.5, "delta_vs_v120": -43.0},
+      "souvik_v4": {"wins": 4, "mean_margin": 8202.0, "delta_vs_v120": 529.0},
+      "smart_farm": {"wins": 4, "mean_margin": 2586.5, "delta_vs_v120": -596.5},
+      "farming_score_v3": {"wins": 4, "mean_margin": 16006.5, "delta_vs_v120": 1160.0},
+      "shape_tetsutani": {"wins": 4, "mean_margin": 7911.0, "delta_vs_v120": 2724.5}
+    }
+  },
+  "rejection_evidence": {
+    "sell_ranking_combo": {
+      "independent_wins": 26,
+      "independent_games": 28,
+      "smart_farm_seed_2026091870_margin": -108,
+      "control_margin": 33,
+      "win_to_loss": 2
+    },
+    "decision": "disable unconditional sell ranking; retain as clone-gated research challenger"
+  },
+  "package_validation": {
+    "all_done": true,
+    "source_and_extracted_package_rewards_identical": true,
+    "artifact": "artifacts/submissions/v122.tar.gz",
+    "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+  }
+}

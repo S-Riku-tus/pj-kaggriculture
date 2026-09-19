@@ -1,0 +1,218 @@
+{
+  "overall": {
+    "games": 162,
+    "wins": 95,
+    "losses": 65,
+    "draws": 2,
+    "win_rate": 0.5864197530864198,
+    "mean_margin": 5996.253086419753
+  },
+  "by_submission": {
+    "56330890": {
+      "games": 82,
+      "wins": 47,
+      "losses": 34,
+      "draws": 1,
+      "win_rate": 0.573170731707317,
+      "mean_margin": 6328.329268292683
+    },
+    "56330893": {
+      "games": 80,
+      "wins": 48,
+      "losses": 31,
+      "draws": 1,
+      "win_rate": 0.6,
+      "mean_margin": 5655.875
+    }
+  },
+  "recent_20_by_submission": {
+    "56330890": {
+      "games": 20,
+      "wins": 9,
+      "losses": 10,
+      "draws": 1,
+      "win_rate": 0.45,
+      "mean_margin": 2539.15
+    },
+    "56330893": {
+      "games": 20,
+      "wins": 11,
+      "losses": 8,
+      "draws": 1,
+      "win_rate": 0.55,
+      "mean_margin": 3103.5
+    }
+  },
+  "rating_1600_plus": {
+    "games": 102,
+    "wins": 52,
+    "losses": 50,
+    "draws": 0,
+    "win_rate": 0.5098039215686274,
+    "mean_margin": 721.2058823529412
+  },
+  "rating_1600_plus_by_route_day12": {
+    "BALANCED": {
+      "games": 63,
+      "wins": 28,
+      "losses": 35,
+      "draws": 0,
+      "win_rate": 0.4444444444444444,
+      "mean_margin": -1556.3809523809523
+    },
+    "MILK": {
+      "games": 20,
+      "wins": 12,
+      "losses": 8,
+      "draws": 0,
+      "win_rate": 0.6,
+      "mean_margin": 6068.3
+    },
+    "WOOL": {
+      "games": 19,
+      "wins": 12,
+      "losses": 7,
+      "draws": 0,
+      "win_rate": 0.631578947368421,
+      "mean_margin": 2644.684210526316
+    }
+  },
+  "all_by_route_day12": {
+    "BALANCED": {
+      "games": 110,
+      "wins": 63,
+      "losses": 45,
+      "draws": 2,
+      "win_rate": 0.5727272727272728,
+      "mean_margin": 7154.090909090909
+    },
+    "MILK": {
+      "games": 25,
+      "wins": 17,
+      "losses": 8,
+      "draws": 0,
+      "win_rate": 0.68,
+      "mean_margin": 5832.72
+    },
+    "WOOL": {
+      "games": 27,
+      "wins": 15,
+      "losses": 12,
+      "draws": 0,
+      "win_rate": 0.5555555555555556,
+      "mean_margin": 1430.5555555555557
+    }
+  },
+  "route_changes_day12_to_day24": {
+    "BALANCED->BALANCED": 110,
+    "MILK->MILK": 25,
+    "WOOL->WOOL": 27
+  },
+  "margin_trajectory_by_result": {
+    "W": {
+      "day_0": 0.0,
+      "day_3": 8.8,
+      "day_6": 166.82105263157894,
+      "day_9": 183.78947368421052,
+      "day_12": 1871.2421052631578,
+      "day_15": 2743.021052631579,
+      "day_18": 5014.9157894736845,
+      "day_20": 5221.8105263157895,
+      "day_21": 5645.0842105263155,
+      "day_24": 6988.221052631579,
+      "day_27": 9359.652631578947,
+      "day_29": 12049.726315789474
+    },
+    "L": {
+      "day_0": 0.0,
+      "day_3": -6.492307692307692,
+      "day_6": 16.215384615384615,
+      "day_9": 30.43076923076923,
+      "day_12": -164.16923076923078,
+      "day_15": -638.4,
+      "day_18": -1146.5692307692307,
+      "day_20": -2334.246153846154,
+      "day_21": -2494.4461538461537,
+      "day_24": -3355.892307692308,
+      "day_27": -5050.692307692308,
+      "day_29": -6643.0
+    },
+    "D": {
+      "day_0": 0.0,
+      "day_3": 0.0,
+      "day_6": 0.0,
+      "day_9": 0.0,
+      "day_12": 0.0,
+      "day_15": 0.0,
+      "day_18": 0.0,
+      "day_20": 0.0,
+      "day_21": 0.0,
+      "day_24": 0.0,
+      "day_27": 0.0,
+      "day_29": 0.0
+    }
+  },
+  "continuation_switching_by_result": {
+    "W": {
+      "games": 95,
+      "mean_selected_sources": 3.6526315789473682,
+      "mean_daily_switches": 3.8842105263157896
+    },
+    "L": {
+      "games": 65,
+      "mean_selected_sources": 3.523076923076923,
+      "mean_daily_switches": 3.523076923076923
+    },
+    "D": {
+      "games": 2,
+      "mean_selected_sources": 3.0,
+      "mean_daily_switches": 2.0
+    }
+  },
+  "same_sell_turn_fraction_bins": {
+    "0.50_0.70": {
+      "games": 17,
+      "wins": 8,
+      "losses": 9,
+      "draws": 0,
+      "win_rate": 0.47058823529411764,
+      "mean_margin": -4819.882352941177
+    },
+    "ge_0.70": {
+      "games": 106,
+      "wins": 56,
+      "losses": 48,
+      "draws": 2,
+      "win_rate": 0.5283018867924528,
+      "mean_margin": 1271.9811320754718
+    },
+    "lt_0.50": {
+      "games": 39,
+      "wins": 31,
+      "losses": 8,
+      "draws": 0,
+      "win_rate": 0.7948717948717948,
+      "mean_margin": 23551.30769230769
+    }
+  },
+  "exact_opening_h100": {
+    "games": 10,
+    "wins": 0,
+    "losses": 8,
+    "draws": 2,
+    "win_rate": 0.0,
+    "mean_margin": -4465.0
+  },
+  "exact_opening_h100_episode_ids": [
+    "110462734",
+    "110445389",
+    "110491317",
+    "110517530",
+    "110468131",
+    "110445392",
+    "110619570",
+    "110523370",
+    "110481138",
+    "110494153"
+  ]
+}

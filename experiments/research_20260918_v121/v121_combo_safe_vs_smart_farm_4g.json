@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-18T21:55:23.501809+09:00",
+  "agent": "agents\\v121_combo_safe\\main.py",
+  "opponent": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091870,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 101381.0,
+    "mean_opponent_reward": 98794.5,
+    "mean_margin": 2586.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091870,
+      "seat": 0,
+      "ours": 100030.0,
+      "theirs": 99946.0,
+      "margin": 84.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091870,
+      "seat": 1,
+      "ours": 100030.0,
+      "theirs": 99946.0,
+      "margin": 84.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091871,
+      "seat": 0,
+      "ours": 102732.0,
+      "theirs": 97643.0,
+      "margin": 5089.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091871,
+      "seat": 1,
+      "ours": 102732.0,
+      "theirs": 97643.0,
+      "margin": 5089.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

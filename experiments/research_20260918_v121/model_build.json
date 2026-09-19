@@ -1,0 +1,31 @@
+{
+  "format": "v121-sparse-continuation-v1",
+  "minimum_opponent_rating": 1500.0,
+  "target_opening_hash": "8d1581ebb81f920f",
+  "opening_policy": "v120 unchanged through step 287",
+  "selected_winning_continuations": 90,
+  "teacher_origins": {
+    "winning_opponent": 51,
+    "v120": 39
+  },
+  "route_counts": {
+    "0:0": 47,
+    "0:1": 8,
+    "1:0": 9,
+    "1:1": 4,
+    "2:0": 22
+  },
+  "beam_size": 8,
+  "gate_steps": [
+    288,
+    360,
+    432,
+    480,
+    576,
+    648
+  ],
+  "training_examples": 49446,
+  "uncompressed_bytes": 69068269,
+  "compressed_bytes": 2992350,
+  "compressed_sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831"
+}

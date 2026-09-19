@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-19T10:40:41.770536+09:00",
+  "agent": "agents\\v123\\main.py",
+  "opponent": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091850,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 112160.0,
+    "mean_opponent_reward": 106044.0,
+    "mean_margin": 6116.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091850,
+      "seat": 0,
+      "ours": 102726.0,
+      "theirs": 93382.0,
+      "margin": 9344.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091850,
+      "seat": 1,
+      "ours": 102726.0,
+      "theirs": 93382.0,
+      "margin": 9344.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091851,
+      "seat": 0,
+      "ours": 121594.0,
+      "theirs": 118706.0,
+      "margin": 2888.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091851,
+      "seat": 1,
+      "ours": 121594.0,
+      "theirs": 118706.0,
+      "margin": 2888.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

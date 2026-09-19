@@ -9,6 +9,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 from statistics import mean
+from typing import Any
 
 from kaggle_environments import make
 
@@ -63,7 +64,7 @@ def display_path(path: Path) -> str:
 
 
 def run_one(
-    agent_path: Path,
+    agent_entry: Any,
     opponent: str,
     seed: int,
     our_seat: int,
@@ -72,7 +73,7 @@ def run_one(
 ) -> dict[str, object]:
     configuration = {"episodeSteps": episode_steps, "seed": seed}
     env = make("kaggriculture", configuration=configuration, debug=True)
-    agents = [str(agent_path), opponent] if our_seat == 0 else [opponent, str(agent_path)]
+    agents = [agent_entry, opponent] if our_seat == 0 else [opponent, agent_entry]
     env.run(agents)
     final = env.steps[-1]
     rewards = [float(state.reward or 0) for state in final]
@@ -98,6 +99,11 @@ def run_one(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--agent", type=Path, default=DEFAULT_AGENT, help="versioned agent directory or main.py")
+    parser.add_argument(
+        "--import-agent",
+        action="store_true",
+        help="import the focal Python agent instead of executing it as raw source",
+    )
     parser.add_argument("--opponent", default="starter", help="built-in name or agent main.py path")
     parser.add_argument(
         "--import-opponent",
@@ -112,6 +118,7 @@ def main() -> None:
     args = parser.parse_args()
 
     agent_path = resolve_agent(args.agent)
+    agent_entry = import_agent(agent_path) if args.import_agent else str(agent_path)
     opponent = resolve_opponent(args.opponent)
     opponent_name = slug(opponent)
     if args.import_opponent:
@@ -128,7 +135,7 @@ def main() -> None:
     for offset in range(args.pairs):
         for seat in (0, 1):
             replay_path = replay_dir / f"seed_{args.seed + offset}_seat_{seat}.json" if args.save_replays else None
-            results.append(run_one(agent_path, opponent, args.seed + offset, seat, args.episode_steps, replay_path))
+            results.append(run_one(agent_entry, opponent, args.seed + offset, seat, args.episode_steps, replay_path))
 
     summary = {
         "games": len(results),

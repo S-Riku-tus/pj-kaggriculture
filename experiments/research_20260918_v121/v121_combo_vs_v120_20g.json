@@ -1,0 +1,302 @@
+{
+  "created_at": "2026-09-18T21:42:43.407987+09:00",
+  "agent": "agents\\v121_combo\\main.py",
+  "opponent": "agents\\v120\\main.py",
+  "configuration": {
+    "pairs": 10,
+    "seed": 2026091801,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 20,
+    "wins": 13,
+    "ties": 0,
+    "win_rate": 0.65,
+    "mean_our_reward": 87054.85,
+    "mean_opponent_reward": 83094.1,
+    "mean_margin": 3960.75,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091801,
+      "seat": 0,
+      "ours": 76671.0,
+      "theirs": 77232.0,
+      "margin": -561.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091801_seat_0.json"
+    },
+    {
+      "seed": 2026091801,
+      "seat": 1,
+      "ours": 76671.0,
+      "theirs": 77232.0,
+      "margin": -561.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091801_seat_1.json"
+    },
+    {
+      "seed": 2026091802,
+      "seat": 0,
+      "ours": 68999.0,
+      "theirs": 73013.0,
+      "margin": -4014.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091802_seat_0.json"
+    },
+    {
+      "seed": 2026091802,
+      "seat": 1,
+      "ours": 66324.0,
+      "theirs": 69168.0,
+      "margin": -2844.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091802_seat_1.json"
+    },
+    {
+      "seed": 2026091803,
+      "seat": 0,
+      "ours": 92588.0,
+      "theirs": 76050.0,
+      "margin": 16538.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091803_seat_0.json"
+    },
+    {
+      "seed": 2026091803,
+      "seat": 1,
+      "ours": 92588.0,
+      "theirs": 76050.0,
+      "margin": 16538.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091803_seat_1.json"
+    },
+    {
+      "seed": 2026091804,
+      "seat": 0,
+      "ours": 78393.0,
+      "theirs": 67639.0,
+      "margin": 10754.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091804_seat_0.json"
+    },
+    {
+      "seed": 2026091804,
+      "seat": 1,
+      "ours": 78393.0,
+      "theirs": 67639.0,
+      "margin": 10754.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091804_seat_1.json"
+    },
+    {
+      "seed": 2026091805,
+      "seat": 0,
+      "ours": 99510.0,
+      "theirs": 103101.0,
+      "margin": -3591.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091805_seat_0.json"
+    },
+    {
+      "seed": 2026091805,
+      "seat": 1,
+      "ours": 99510.0,
+      "theirs": 103101.0,
+      "margin": -3591.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091805_seat_1.json"
+    },
+    {
+      "seed": 2026091806,
+      "seat": 0,
+      "ours": 96283.0,
+      "theirs": 95382.0,
+      "margin": 901.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091806_seat_0.json"
+    },
+    {
+      "seed": 2026091806,
+      "seat": 1,
+      "ours": 96283.0,
+      "theirs": 95382.0,
+      "margin": 901.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091806_seat_1.json"
+    },
+    {
+      "seed": 2026091807,
+      "seat": 0,
+      "ours": 78925.0,
+      "theirs": 79370.0,
+      "margin": -445.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091807_seat_0.json"
+    },
+    {
+      "seed": 2026091807,
+      "seat": 1,
+      "ours": 79091.0,
+      "theirs": 77961.0,
+      "margin": 1130.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091807_seat_1.json"
+    },
+    {
+      "seed": 2026091808,
+      "seat": 0,
+      "ours": 124624.0,
+      "theirs": 121830.0,
+      "margin": 2794.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091808_seat_0.json"
+    },
+    {
+      "seed": 2026091808,
+      "seat": 1,
+      "ours": 124624.0,
+      "theirs": 121830.0,
+      "margin": 2794.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091808_seat_1.json"
+    },
+    {
+      "seed": 2026091809,
+      "seat": 0,
+      "ours": 63676.0,
+      "theirs": 60928.0,
+      "margin": 2748.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091809_seat_0.json"
+    },
+    {
+      "seed": 2026091809,
+      "seat": 1,
+      "ours": 63676.0,
+      "theirs": 60928.0,
+      "margin": 2748.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091809_seat_1.json"
+    },
+    {
+      "seed": 2026091810,
+      "seat": 0,
+      "ours": 92134.0,
+      "theirs": 79023.0,
+      "margin": 13111.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091810_seat_0.json"
+    },
+    {
+      "seed": 2026091810,
+      "seat": 1,
+      "ours": 92134.0,
+      "theirs": 79023.0,
+      "margin": 13111.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": "data\\replays\\20260918_214243_+0900_v121_combo_vs_v120\\seed_2026091810_seat_1.json"
+    }
+  ]
+}
