@@ -1,0 +1,82 @@
+{
+  "format": "v124-current-meta-build-v1",
+  "live_games": 130,
+  "minimum_opponent_rating": 1600.0,
+  "maximum_day12_portfolio_distance": 5,
+  "selected_continuations": 44,
+  "teacher_origins": {
+    "v123": 15,
+    "winning_opponent": 29
+  },
+  "rating_bands": {
+    "1600": 22,
+    "1650": 17,
+    "1700": 4,
+    "1800": 1
+  },
+  "route_counts": {
+    "0:0": 22,
+    "2:0": 13,
+    "0:1": 4,
+    "1:0": 5
+  },
+  "policy_model_bytes": 1720997,
+  "policy_model_sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+  "sale_samples": 1121,
+  "sale_holdout": {
+    "STRAWBERRY": [
+      {
+        "train_submission": "56346060",
+        "test_submission": "56346090",
+        "rows": 155,
+        "selected": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      {
+        "train_submission": "56346090",
+        "test_submission": "56346060",
+        "rows": 148,
+        "selected": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    ],
+    "MILK": [
+      {
+        "train_submission": "56346060",
+        "test_submission": "56346090",
+        "rows": 203,
+        "selected": 1,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      {
+        "train_submission": "56346090",
+        "test_submission": "56346060",
+        "rows": 204,
+        "selected": 3,
+        "precision": 0.3333333333333333,
+        "recall": 0.04
+      }
+    ],
+    "WOOL": [
+      {
+        "train_submission": "56346060",
+        "test_submission": "56346090",
+        "rows": 187,
+        "selected": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      {
+        "train_submission": "56346090",
+        "test_submission": "56346060",
+        "rows": 224,
+        "selected": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    ]
+  }
+}

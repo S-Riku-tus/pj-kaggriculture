@@ -1,0 +1,302 @@
+{
+  "created_at": "2026-09-19T19:58:31.403839+09:00",
+  "agent": "experiments\\research_20260919_v124\\v124_ablation.py",
+  "opponent": "agents\\v123\\main.py",
+  "configuration": {
+    "pairs": 10,
+    "seed": 2026091971,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 20,
+    "wins": 14,
+    "ties": 0,
+    "win_rate": 0.7,
+    "mean_our_reward": 105355.1,
+    "mean_opponent_reward": 104819.6,
+    "mean_margin": 535.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091971,
+      "seat": 0,
+      "ours": 71984.0,
+      "theirs": 72856.0,
+      "margin": -872.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091971,
+      "seat": 1,
+      "ours": 71984.0,
+      "theirs": 72856.0,
+      "margin": -872.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091972,
+      "seat": 0,
+      "ours": 120362.0,
+      "theirs": 120145.0,
+      "margin": 217.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091972,
+      "seat": 1,
+      "ours": 120362.0,
+      "theirs": 120145.0,
+      "margin": 217.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091973,
+      "seat": 0,
+      "ours": 70152.0,
+      "theirs": 70091.0,
+      "margin": 61.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091973,
+      "seat": 1,
+      "ours": 70152.0,
+      "theirs": 70091.0,
+      "margin": 61.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091974,
+      "seat": 0,
+      "ours": 145302.0,
+      "theirs": 146045.0,
+      "margin": -743.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091974,
+      "seat": 1,
+      "ours": 145302.0,
+      "theirs": 146045.0,
+      "margin": -743.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091975,
+      "seat": 0,
+      "ours": 81894.0,
+      "theirs": 81318.0,
+      "margin": 576.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091975,
+      "seat": 1,
+      "ours": 81894.0,
+      "theirs": 81318.0,
+      "margin": 576.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091976,
+      "seat": 0,
+      "ours": 125702.0,
+      "theirs": 122008.0,
+      "margin": 3694.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091976,
+      "seat": 1,
+      "ours": 125702.0,
+      "theirs": 122008.0,
+      "margin": 3694.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091977,
+      "seat": 0,
+      "ours": 107467.0,
+      "theirs": 102976.0,
+      "margin": 4491.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091977,
+      "seat": 1,
+      "ours": 107467.0,
+      "theirs": 102976.0,
+      "margin": 4491.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091978,
+      "seat": 0,
+      "ours": 105937.0,
+      "theirs": 104676.0,
+      "margin": 1261.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091978,
+      "seat": 1,
+      "ours": 105937.0,
+      "theirs": 104676.0,
+      "margin": 1261.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091979,
+      "seat": 0,
+      "ours": 121174.0,
+      "theirs": 120839.0,
+      "margin": 335.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091979,
+      "seat": 1,
+      "ours": 121174.0,
+      "theirs": 120839.0,
+      "margin": 335.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091980,
+      "seat": 0,
+      "ours": 103577.0,
+      "theirs": 107242.0,
+      "margin": -3665.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091980,
+      "seat": 1,
+      "ours": 103577.0,
+      "theirs": 107242.0,
+      "margin": -3665.0,
+      "win": false,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

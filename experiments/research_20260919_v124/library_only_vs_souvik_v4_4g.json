@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-19T20:08:04.146684+09:00",
+  "agent": "experiments\\research_20260919_v124\\v124_ablation.py",
+  "opponent": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091860,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 74716.25,
+    "mean_opponent_reward": 66173.25,
+    "mean_margin": 8543.0,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091860,
+      "seat": 0,
+      "ours": 74166.0,
+      "theirs": 71045.0,
+      "margin": 3121.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091860,
+      "seat": 1,
+      "ours": 49491.0,
+      "theirs": 42290.0,
+      "margin": 7201.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091861,
+      "seat": 0,
+      "ours": 87604.0,
+      "theirs": 75679.0,
+      "margin": 11925.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091861,
+      "seat": 1,
+      "ours": 87604.0,
+      "theirs": 75679.0,
+      "margin": 11925.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-19T19:51:10.920271+09:00",
+  "agent": "experiments\\research_20260919_v124\\v124_ablation.py",
+  "opponent": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091840,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 128300.0,
+    "mean_opponent_reward": 122773.5,
+    "mean_margin": 5526.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091840,
+      "seat": 0,
+      "ours": 140381.0,
+      "theirs": 135601.0,
+      "margin": 4780.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091840,
+      "seat": 1,
+      "ours": 140381.0,
+      "theirs": 135601.0,
+      "margin": 4780.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091841,
+      "seat": 0,
+      "ours": 116219.0,
+      "theirs": 109946.0,
+      "margin": 6273.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091841,
+      "seat": 1,
+      "ours": 116219.0,
+      "theirs": 109946.0,
+      "margin": 6273.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

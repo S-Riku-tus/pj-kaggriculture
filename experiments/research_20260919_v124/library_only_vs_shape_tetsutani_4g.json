@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-19T20:06:54.776481+09:00",
+  "agent": "experiments\\research_20260919_v124\\v124_ablation.py",
+  "opponent": "experiments\\research_20260918_v120\\acquisition\\shape_tetsutani\\decoded_main_1.py",
+  "configuration": {
+    "pairs": 2,
+    "seed": 2026091890,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 4,
+    "wins": 4,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 80440.0,
+    "mean_opponent_reward": 73925.5,
+    "mean_margin": 6514.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026091890,
+      "seat": 0,
+      "ours": 66728.0,
+      "theirs": 59693.0,
+      "margin": 7035.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091890,
+      "seat": 1,
+      "ours": 66728.0,
+      "theirs": 59693.0,
+      "margin": 7035.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091891,
+      "seat": 0,
+      "ours": 94152.0,
+      "theirs": 88158.0,
+      "margin": 5994.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026091891,
+      "seat": 1,
+      "ours": 94152.0,
+      "theirs": 88158.0,
+      "margin": 5994.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

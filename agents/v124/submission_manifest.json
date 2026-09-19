@@ -1,0 +1,13 @@
+{
+  "files": [
+    {"source": "main.py", "target": "main.py"},
+    {"source": "../v123/main.py", "target": "v123_base.py"},
+    {"source": "../v121/main.py", "target": "v121_sparse.py"},
+    {"source": "../v120/main.py", "target": "v120_base.py"},
+    {"source": "../v121_market/main.py", "target": "market_overlay.py"},
+    {"source": "policy_model.json.gz", "target": "policy_model.json.gz"},
+    {"source": "opponent_sell_model.json", "target": "opponent_sell_model.json"},
+    {"source": "model_metadata.json", "target": "model_metadata.json"},
+    {"source": "NOTICE.md", "target": "NOTICE.md"}
+  ]
+}
