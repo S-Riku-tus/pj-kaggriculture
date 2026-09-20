@@ -1,0 +1,39 @@
+{
+  "decision": "NO_STRENGTH_IMPROVEMENT_PROMOTED",
+  "recommended_archive": "artifacts/submissions/v126_control_candidate.tar.gz",
+  "recommended_archive_role": "submission-ready V125-equivalent control; not a stronger V126",
+  "recommended_archive_sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+  "report": {
+    "path": "experiments/research_20260920_v126/REPORT_JA.md",
+    "sha256": "13e8f2ef3d7319efe8a1f81420e48a72c2e38d2b559758251cf47a61483a2aa7"
+  },
+  "rejected_archives": {
+    "execution": {
+      "path": "artifacts/submissions/v126_e_rejected.tar.gz",
+      "sha256": "55adcb64db79706a5568308a487660f2911b8f0c8829519cbf9ebcdac2cf9102"
+    },
+    "service": {
+      "path": "artifacts/submissions/v126_service_rejected.tar.gz",
+      "sha256": "b7ccfd426ea3d240f22c7dc0b8b487044583d3dd64955087850aacacfc7ebaa3"
+    },
+    "fertilizer": {
+      "path": "artifacts/submissions/v126_fertilizer_rejected.tar.gz",
+      "sha256": "613a60811d597c48d3692d3897a2408c922b6f98790f4303b57bd253798b78d5"
+    },
+    "joint": {
+      "path": "artifacts/submissions/v126_joint_rejected.tar.gz",
+      "sha256": "72d56d69b5bf4be2525c614247f66fe033b0fdf2a9404c6a537c11adebf9d27a"
+    }
+  },
+  "commits": {
+    "v125_live_identity": "5998419545d9f64fef643f3b958f18d3faa384b1",
+    "execution_experiments": "567cc87fcecad8f2638045c5cd6268d08e4d6688",
+    "service_fertilizer_comparison": "6ae26df744597b2962cc8dfc1a66c07512ceba95"
+  },
+  "verification": {
+    "package_runtime": "PASS; 720 states, source action mismatches 0",
+    "python_tests": "PASS; 21 tests",
+    "ruff": "PASS",
+    "kaggle_submission_performed": false
+  }
+}
