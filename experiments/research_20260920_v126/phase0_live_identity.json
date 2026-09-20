@@ -1,0 +1,213 @@
+{
+  "format": "kaggriculture-v125-live-identity-v1",
+  "evidence": "recorded-observation action fidelity; not remote archive byte authentication",
+  "remote_archive_sha256": "UNAVAILABLE",
+  "conclusion_rule": "Zero mismatches establishes behavioral identity on audited observations only. The local archive SHA256 must not be claimed as a remote byte hash.",
+  "git": {
+    "head": "fadd7e89bfe6612ecbe2020fb724bb9064014987",
+    "v124_source_commit": "dd928e2590687461a03c1af59d37e3e597c25416",
+    "v125_exec_source_commit": "fadd7e89bfe6612ecbe2020fb724bb9064014987"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "kaggle_environments": "1.32.7"
+  },
+  "runtime": {
+    "entrypoint": "main.py::agent",
+    "call_chain": [
+      "v125_exec.main.agent",
+      "v124_base.agent",
+      "v121_market.agent via v124",
+      "v125_exec.main.repair_action"
+    ],
+    "always_on_repairs": [
+      "start-of-turn seed PLANT cap",
+      "shed-overflow DROP bounding"
+    ],
+    "inherited_v124_flags": {
+      "ENABLE_CURRENT_META_LIBRARY": true,
+      "ENABLE_SEGMENT_ROUTER": false,
+      "ENABLE_SELL_FORECAST": false,
+      "ENABLE_CLONE_PREEMPTION": false
+    }
+  },
+  "fixed_files": [
+    {
+      "path": "artifacts\\submissions\\v125_exec_candidate.tar.gz",
+      "bytes": 1716692,
+      "sha256": "b900d0fd98f1e19a8fd0276d5a406bff63006e68d874670464a36d7e34628cd5"
+    },
+    {
+      "path": "agents\\v125_exec\\main.py",
+      "bytes": 6491,
+      "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+    },
+    {
+      "path": "agents\\v124\\main.py",
+      "bytes": 19414,
+      "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+    },
+    {
+      "path": "agents\\v124\\policy_model.json.gz",
+      "bytes": 1720997,
+      "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+    },
+    {
+      "path": "agents\\v124\\opponent_sell_model.json",
+      "bytes": 12249,
+      "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+    },
+    {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+    },
+    {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.json",
+      "bytes": 6002,
+      "sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+    }
+  ],
+  "archive_members": [
+    {
+      "name": "NOTICE.md",
+      "bytes": 338,
+      "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+    },
+    {
+      "name": "main.py",
+      "bytes": 6491,
+      "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+    },
+    {
+      "name": "market_overlay.py",
+      "bytes": 13888,
+      "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+    },
+    {
+      "name": "model_metadata.json",
+      "bytes": 9595,
+      "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+    },
+    {
+      "name": "opponent_sell_model.json",
+      "bytes": 12249,
+      "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+    },
+    {
+      "name": "policy_model.json.gz",
+      "bytes": 1720997,
+      "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+    },
+    {
+      "name": "v120_base.py",
+      "bytes": 10546,
+      "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+    },
+    {
+      "name": "v121_sparse.py",
+      "bytes": 9937,
+      "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+    },
+    {
+      "name": "v123_base.py",
+      "bytes": 14490,
+      "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+    },
+    {
+      "name": "v124_base.py",
+      "bytes": 19414,
+      "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+    }
+  ],
+  "episode_inventory": {
+    "56384917": {
+      "episodes": 67,
+      "public": 66,
+      "validation": 1,
+      "first_create_time": "2026-09-20T07:30:10.277918500Z",
+      "last_create_time": "2026-09-20T12:09:48.233986600Z"
+    },
+    "56384919": {
+      "episodes": 65,
+      "public": 64,
+      "validation": 1,
+      "first_create_time": "2026-09-20T07:30:20.399979200Z",
+      "last_create_time": "2026-09-20T11:45:49.926775900Z"
+    }
+  },
+  "fidelity_scope": "validation",
+  "fidelity_summary": {
+    "56384917": {
+      "contexts": 2,
+      "decisions": 1438,
+      "exact_matches": 1438,
+      "mismatches": 0
+    },
+    "56384919": {
+      "contexts": 2,
+      "decisions": 1438,
+      "exact_matches": 1438,
+      "mismatches": 0
+    }
+  },
+  "fidelity_contexts": [
+    {
+      "submission_id": 56384917,
+      "episode_id": 111138981,
+      "episode_type": "EPISODE_TYPE_VALIDATION",
+      "seat": 0,
+      "decisions": 719,
+      "exact_matches": 719,
+      "mismatches": 0,
+      "first_examples": [],
+      "recorded_action_sha256": "e1ae899e590697803d3a715af1df843acf370a023b61a055690d9b1947908f23",
+      "local_action_sha256": "e1ae899e590697803d3a715af1df843acf370a023b61a055690d9b1947908f23",
+      "replay_sha256": "d413ffc9628f554dd2a93932deced28bcdc81e8f7395682ef198c39f418995a2",
+      "configuration_sha256": "1a9006518ccbe403a70e107bb041cc2489e38da637ae0e3872500010963c46f3"
+    },
+    {
+      "submission_id": 56384917,
+      "episode_id": 111138981,
+      "episode_type": "EPISODE_TYPE_VALIDATION",
+      "seat": 1,
+      "decisions": 719,
+      "exact_matches": 719,
+      "mismatches": 0,
+      "first_examples": [],
+      "recorded_action_sha256": "71d8bf6aa2e49991fb247f0d3b40284593b952ce4aa38ad42e3b20f9f9376f94",
+      "local_action_sha256": "71d8bf6aa2e49991fb247f0d3b40284593b952ce4aa38ad42e3b20f9f9376f94",
+      "replay_sha256": "d413ffc9628f554dd2a93932deced28bcdc81e8f7395682ef198c39f418995a2",
+      "configuration_sha256": "1a9006518ccbe403a70e107bb041cc2489e38da637ae0e3872500010963c46f3"
+    },
+    {
+      "submission_id": 56384919,
+      "episode_id": 111138983,
+      "episode_type": "EPISODE_TYPE_VALIDATION",
+      "seat": 0,
+      "decisions": 719,
+      "exact_matches": 719,
+      "mismatches": 0,
+      "first_examples": [],
+      "recorded_action_sha256": "e1ae899e590697803d3a715af1df843acf370a023b61a055690d9b1947908f23",
+      "local_action_sha256": "e1ae899e590697803d3a715af1df843acf370a023b61a055690d9b1947908f23",
+      "replay_sha256": "7c067639b067f63909d643aa9cd536ae7e7eff444b1aedcd8144c7a8018698bb",
+      "configuration_sha256": "1a9006518ccbe403a70e107bb041cc2489e38da637ae0e3872500010963c46f3"
+    },
+    {
+      "submission_id": 56384919,
+      "episode_id": 111138983,
+      "episode_type": "EPISODE_TYPE_VALIDATION",
+      "seat": 1,
+      "decisions": 719,
+      "exact_matches": 719,
+      "mismatches": 0,
+      "first_examples": [],
+      "recorded_action_sha256": "71d8bf6aa2e49991fb247f0d3b40284593b952ce4aa38ad42e3b20f9f9376f94",
+      "local_action_sha256": "71d8bf6aa2e49991fb247f0d3b40284593b952ce4aa38ad42e3b20f9f9376f94",
+      "replay_sha256": "7c067639b067f63909d643aa9cd536ae7e7eff444b1aedcd8144c7a8018698bb",
+      "configuration_sha256": "1a9006518ccbe403a70e107bb041cc2489e38da637ae0e3872500010963c46f3"
+    }
+  ]
+}
