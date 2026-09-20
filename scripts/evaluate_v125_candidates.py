@@ -40,6 +40,8 @@ OPPONENTS = {
 }
 DEFAULT_SEEDS = (2026092101,)
 EMPTY_ACTION = {"farmer": ["PASS"], "hands": [], "market": []}
+CONTROL_ARM = "v124_frozen"
+CONTRIBUTION_CHAIN = ["v124_frozen", "v125_exec_only", "v125_base_plan", "v125_adaptive"]
 
 
 def _sha256(path: Path) -> str:
@@ -85,6 +87,10 @@ def _action_metrics(replay: dict[str, Any], focal_seat: int) -> dict[str, Any]:
     atomic_cancellations = 0
     effective = 0
     total_unit_actions = 0
+    successful_feed = 0
+    failed_feed = 0
+    successful_care = 0
+    animal_exits = 0
 
     steps = replay["steps"]
     for turn in range(min(719, len(steps) - 1)):
@@ -104,6 +110,11 @@ def _action_metrics(replay: dict[str, Any], focal_seat: int) -> dict[str, Any]:
             operations[operation] += 1
             total_unit_actions += 1
             effective += int(bool(event.get("effect")))
+            if operation == "FEED":
+                successful_feed += int(bool(event.get("effect")))
+                failed_feed += int(not bool(event.get("effect")))
+            elif operation == "CARE":
+                successful_care += int(bool(event.get("effect")))
             atomic_cancellations += int(event.get("reason") == "atomic_seed_shortage")
             for item, quantity in (event.get("harvest") or {}).items():
                 harvest[str(item)] += int(quantity)
@@ -113,6 +124,15 @@ def _action_metrics(replay: dict[str, Any], focal_seat: int) -> dict[str, Any]:
                 fertilizer_uses[str(event["fertilized"])] += 1
             for item, quantity in (event.get("overflow") or {}).items():
                 discarded[str(item)] += int(quantity)
+
+        before_tiles = previous[0]["observation"]["farms"][focal_seat]["tiles"]
+        after_tiles = following[0]["observation"]["farms"][focal_seat]["tiles"]
+        for y, row in enumerate(before_tiles):
+            for x, raw in enumerate(row):
+                if not isinstance(raw, dict) or "animal" not in raw:
+                    continue
+                after = after_tiles[y][x]
+                animal_exits += int(not (isinstance(after, dict) and "animal" in after))
 
         market_inventory = copy.deepcopy(previous[0]["observation"]["market"]["inventory"])
         market_events = audit.market(farms, privates, actions, market_inventory)
@@ -138,9 +158,17 @@ def _action_metrics(replay: dict[str, Any], focal_seat: int) -> dict[str, Any]:
 
     floor_total = sum(floor_sales.values())
     sold_total = sum(sales.values())
+    final_private = replay["steps"][-1][focal_seat]["observation"]["private"]
+    final_shed = final_private.get("shed") or {}
+    unplaced_animals = sum(int(final_shed.get(item, 0)) for item in ("GOOSE", "COW", "SHEEP"))
     return {
         "unit_actions": total_unit_actions,
         "effective_unit_actions": effective,
+        "successful_feed": successful_feed,
+        "failed_feed": failed_feed,
+        "successful_care": successful_care,
+        "animal_exits": animal_exits,
+        "unplaced_animals": unplaced_animals,
         "passes": operations["PASS"],
         "atomic_plant_cancellations": atomic_cancellations,
         "harvest": dict(harvest),
@@ -317,6 +345,11 @@ def _flat_result(row: dict[str, Any]) -> dict[str, Any]:
         "sold_units": metrics["sold_units"],
         "floor_sale_share": round(metrics["floor_sale_share"], 6),
         "atomic_plant_cancellations": metrics["atomic_plant_cancellations"],
+        "successful_feed": metrics["successful_feed"],
+        "failed_feed": metrics["failed_feed"],
+        "successful_care": metrics["successful_care"],
+        "animal_exits": metrics["animal_exits"],
+        "unplaced_animals": metrics["unplaced_animals"],
         "fertilize_wheat": metrics["fertilizer_uses"].get("WHEAT", 0),
         "elapsed_seconds": round(row["elapsed_seconds"], 4),
         "prediction_terminal_cash": row["prediction_terminal_cash"],
@@ -342,7 +375,14 @@ def _summaries(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "mean_margin": mean(margins),
                 "median_margin": median(margins),
                 "lower_margin": min(margins),
+                "mean_loss_margin": mean([value for value in margins if value < 0]) if any(
+                    value < 0 for value in margins
+                ) else 0.0,
                 "mean_cash": mean(float(row["our_cash"]) for row in selected),
+                "mean_successful_feed": mean(float(row["successful_feed"]) for row in selected),
+                "mean_successful_care": mean(float(row["successful_care"]) for row in selected),
+                "mean_animal_exits": mean(float(row["animal_exits"]) for row in selected),
+                "mean_unplaced_animals": mean(float(row["unplaced_animals"]) for row in selected),
                 "mean_discarded": mean(float(row["discarded_units"]) for row in selected),
                 "mean_floor_share": mean(float(row["floor_sale_share"]) for row in selected),
                 "mean_elapsed_seconds": mean(float(row["elapsed_seconds"]) for row in selected),
@@ -352,7 +392,7 @@ def _summaries(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def _contributions(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    chain = ["v124_frozen", "v125_exec_only", "v125_base_plan", "v125_adaptive"]
+    chain = CONTRIBUTION_CHAIN
     by_key = {(row["arm"], row["opponent_family"], row["seed"], row["seat"]): row for row in rows}
     output: list[dict[str, Any]] = []
     for left, right in zip(chain[:-1], chain[1:], strict=True):
@@ -504,16 +544,20 @@ def main() -> None:
                 + "\n"
             )
 
-    paired = {(row["opponent_family"], row["seed"], row["seat"]): row for row in flat if row["arm"] == "v124_frozen"}
+    paired = {
+        (row["opponent_family"], row["seed"], row["seat"]): row
+        for row in flat
+        if row["arm"] == CONTROL_ARM
+    }
     deltas = []
     for row in flat:
-        if row["arm"] == "v124_frozen":
+        if row["arm"] == CONTROL_ARM:
             continue
         control = paired[(row["opponent_family"], row["seed"], row["seat"])]
-        deltas.append({**row, "margin_delta_vs_v124": row["margin"] - control["margin"]})
+        deltas.append({**row, "margin_delta_vs_control": row["margin"] - control["margin"]})
     representatives = {
-        "largest_improvement": max(deltas, key=lambda row: row["margin_delta_vs_v124"]),
-        "largest_worsening": min(deltas, key=lambda row: row["margin_delta_vs_v124"]),
+        "largest_improvement": max(deltas, key=lambda row: row["margin_delta_vs_control"]),
+        "largest_worsening": min(deltas, key=lambda row: row["margin_delta_vs_control"]),
     }
     (output / "representative_games.json").write_text(
         json.dumps(representatives, ensure_ascii=False, indent=2), encoding="utf-8"

@@ -1,0 +1,198 @@
+{
+  "classification": "development panel; reacting public proxy opponents; not final holdout",
+  "games": 64,
+  "seeds": [
+    2026092201,
+    2026092202
+  ],
+  "shop_sequences_identical_across_arms": false,
+  "aggregate": {
+    "control": {
+      "games": 16,
+      "wins": 16,
+      "mean_margin": 6201.8125,
+      "lower_margin": 1580.0,
+      "mean_loss_margin": 0.0,
+      "mean_feed": 343.375,
+      "mean_care": 384.9375,
+      "mean_animal_exits": 0.0,
+      "mean_unplaced_animals": 0.0,
+      "mean_wheat_fertilize": 10.25,
+      "mean_discarded": 7.0
+    },
+    "service": {
+      "games": 16,
+      "wins": 10,
+      "mean_margin": -2538.5,
+      "lower_margin": -23824.0,
+      "mean_loss_margin": -15026.833333333334,
+      "mean_feed": 260.75,
+      "mean_care": 236.875,
+      "mean_animal_exits": 4.25,
+      "mean_unplaced_animals": 0.125,
+      "mean_wheat_fertilize": 22.8125,
+      "mean_discarded": 55.75
+    },
+    "fertilizer": {
+      "games": 16,
+      "wins": 14,
+      "mean_margin": 4038.4375,
+      "lower_margin": -2122.0,
+      "mean_loss_margin": -2122.0,
+      "mean_feed": 342.0,
+      "mean_care": 384.4375,
+      "mean_animal_exits": 0.375,
+      "mean_unplaced_animals": 0.0,
+      "mean_wheat_fertilize": 14.0,
+      "mean_discarded": 51.0625
+    },
+    "joint": {
+      "games": 16,
+      "wins": 10,
+      "mean_margin": -2970.75,
+      "lower_margin": -23783.0,
+      "mean_loss_margin": -15449.0,
+      "mean_feed": 260.3125,
+      "mean_care": 236.3125,
+      "mean_animal_exits": 4.1875,
+      "mean_unplaced_animals": 0.125,
+      "mean_wheat_fertilize": 24.0625,
+      "mean_discarded": 65.625
+    }
+  },
+  "direct_vs_control": [
+    {
+      "arm": "service",
+      "paired_games": 16,
+      "wins": 10,
+      "loss_to_win": 0,
+      "win_to_loss": 6,
+      "mean_margin_delta": -8740.3125,
+      "median_margin_delta": -2951.5,
+      "lower_margin_delta": -25708.0,
+      "upper_margin_delta": -675.0,
+      "by_opponent": {
+        "mooman_e052a": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -10616.0,
+          "win_to_loss": 2
+        },
+        "qeinstein_moev2": {
+          "games": 4,
+          "wins": 4,
+          "mean_margin_delta": -1359.5,
+          "win_to_loss": 0
+        },
+        "smart_farm": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -12975.0,
+          "win_to_loss": 2
+        },
+        "souvik_v4": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -10010.75,
+          "win_to_loss": 2
+        }
+      }
+    },
+    {
+      "arm": "fertilizer",
+      "paired_games": 16,
+      "wins": 14,
+      "loss_to_win": 0,
+      "win_to_loss": 2,
+      "mean_margin_delta": -2163.375,
+      "median_margin_delta": -957.5,
+      "lower_margin_delta": -6170.0,
+      "upper_margin_delta": -190.0,
+      "by_opponent": {
+        "mooman_e052a": {
+          "games": 4,
+          "wins": 4,
+          "mean_margin_delta": -1890.5,
+          "win_to_loss": 0
+        },
+        "qeinstein_moev2": {
+          "games": 4,
+          "wins": 4,
+          "mean_margin_delta": -445.75,
+          "win_to_loss": 0
+        },
+        "smart_farm": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -2303.5,
+          "win_to_loss": 2
+        },
+        "souvik_v4": {
+          "games": 4,
+          "wins": 4,
+          "mean_margin_delta": -4013.75,
+          "win_to_loss": 0
+        }
+      }
+    },
+    {
+      "arm": "joint",
+      "paired_games": 16,
+      "wins": 10,
+      "loss_to_win": 0,
+      "win_to_loss": 6,
+      "mean_margin_delta": -9172.5625,
+      "median_margin_delta": -3314.5,
+      "lower_margin_delta": -25670.0,
+      "upper_margin_delta": -650.0,
+      "by_opponent": {
+        "mooman_e052a": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -10513.5,
+          "win_to_loss": 2
+        },
+        "qeinstein_moev2": {
+          "games": 4,
+          "wins": 4,
+          "mean_margin_delta": -2310.25,
+          "win_to_loss": 0
+        },
+        "smart_farm": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -12984.5,
+          "win_to_loss": 2
+        },
+        "souvik_v4": {
+          "games": 4,
+          "wins": 2,
+          "mean_margin_delta": -10882.0,
+          "win_to_loss": 2
+        }
+      }
+    }
+  ],
+  "trigger_totals": {
+    "control": {
+      "hire_spawn_mismatch": 490,
+      "hire_spawn_verified": 350
+    },
+    "service": {
+      "hire_spawn_mismatch": 507,
+      "service_suppressed": 2683,
+      "hire_spawn_verified": 366
+    },
+    "fertilizer": {
+      "hire_spawn_mismatch": 483,
+      "hire_spawn_verified": 349,
+      "fertilizer_policy_changed": 530
+    },
+    "joint": {
+      "hire_spawn_mismatch": 504,
+      "service_suppressed": 2704,
+      "hire_spawn_verified": 364,
+      "fertilizer_policy_changed": 437
+    }
+  }
+}

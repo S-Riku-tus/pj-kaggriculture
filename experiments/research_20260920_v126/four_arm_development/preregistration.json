@@ -1,0 +1,50 @@
+{
+  "format": "v125-paired-evaluation-v1",
+  "created_at": "2026-09-20T23:53:20.979764+09:00",
+  "git_commit": "fadd7e89bfe6612ecbe2020fb724bb9064014987",
+  "arms": {
+    "control": "agents\\v126_exec\\main.py",
+    "service": "agents\\v126_service\\main.py",
+    "fertilizer": "agents\\v126_fertilizer\\main.py",
+    "joint": "agents\\v126_joint\\main.py"
+  },
+  "opponents": {
+    "mooman_e052a": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+    "qeinstein_moev2": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+    "smart_farm": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+    "souvik_v4": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py"
+  },
+  "seeds": [
+    2026092201,
+    2026092202
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "file_sha256": {
+    "agents\\v126_exec\\main.py": "c5d3f29e152bfb6c7ffb5799d0e525ebd3d3d9747fdb9743ac44caccab33fbb9",
+    "agents\\v126_service\\main.py": "84c822735342ef5af4c3983b649a5ad0b3d379083485da80cad1678cf387f4a4",
+    "agents\\v126_fertilizer\\main.py": "b2de90ceb6a2ba0e894034a0e1764e0e10495a8318f4c161e74b51a77b9f28bd",
+    "agents\\v126_joint\\main.py": "e07d183f707cf512c1194a2a30343f1fe2b40d9604215289be455b9c8685a982",
+    "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+    "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+    "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+    "experiments\\research_20260910\\runtime\\souvik_v4\\main.py": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b"
+  },
+  "primary_metric": "win rate by opponent family",
+  "secondary_metrics": [
+    "margin",
+    "lower margin",
+    "discarded units",
+    "floor-price sale share",
+    "atomic plant cancellations",
+    "wheat fertilizer uses",
+    "runtime"
+  ],
+  "limitations": [
+    "public proxy opponents are not authenticated current Top1/2/3 binaries",
+    "one or two adjacent seeds do not justify an independence-based narrow confidence interval",
+    "these seeds are fresh for this V125 implementation but this run is development evidence, not final holdout"
+  ]
+}

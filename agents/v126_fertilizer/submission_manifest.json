@@ -1,0 +1,17 @@
+{
+  "files": [
+    {"source": "main.py", "target": "main.py"},
+    {"source": "../v126_exec/main.py", "target": "v126_exec_base.py"},
+    {"source": "../v126_exec/opening_routes.json.gz", "target": "opening_routes.json.gz"},
+    {"source": "../v125_exec/main.py", "target": "v125_exec_base.py"},
+    {"source": "../v124/main.py", "target": "v124_base.py"},
+    {"source": "../v123/main.py", "target": "v123_base.py"},
+    {"source": "../v121/main.py", "target": "v121_sparse.py"},
+    {"source": "../v120/main.py", "target": "v120_base.py"},
+    {"source": "../v121_market/main.py", "target": "market_overlay.py"},
+    {"source": "../v124/policy_model.json.gz", "target": "policy_model.json.gz"},
+    {"source": "../v124/opponent_sell_model.json", "target": "opponent_sell_model.json"},
+    {"source": "../v124/model_metadata.json", "target": "model_metadata.json"},
+    {"source": "../v124/NOTICE.md", "target": "NOTICE.md"}
+  ]
+}
