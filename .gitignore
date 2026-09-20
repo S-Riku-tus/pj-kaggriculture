@@ -4,6 +4,7 @@
 __pycache__/
 .pytest_cache/
 .ruff_cache/
+.tmp/
 *.py[cod]
 
 # Generated submission archives; keep the directory itself.
@@ -27,3 +28,8 @@ data/summaries/*
 !data/summaries/.gitkeep
 data/training/*
 !data/training/.gitkeep
+
+# Large reproducible V126 evaluation traces; keep compact summaries tracked.
+experiments/research_20260920_v126/known_case_replays/
+experiments/research_20260920_v126/four_arm_development/replays/
+experiments/research_20260920_v126/four_arm_development/decision_log.jsonl

@@ -1,0 +1,3629 @@
+{
+  "format": "v126-known-case-closed-loop-v1",
+  "classification": "fixed recorded opponent; execution regression only",
+  "baseline_new_case_actions_exact": true,
+  "results": [
+    {
+      "episode_id": 111196878,
+      "source_replay": "data\\replays\\v125_submission_56384917\\episode_111196878.json",
+      "arm": "v125_live",
+      "seat": 1,
+      "seed": 714080367,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 55479.0,
+      "opponent_cash": 97057.0,
+      "margin": -41578.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "events": {
+        "failed_pickup": 7,
+        "failed_place": 26,
+        "failed_feed": 142,
+        "successful_feed": 202,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ]
+      ],
+      "diagnostics": {},
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v125_live\\episode_111196878_seat_1.json.gz"
+    },
+    {
+      "episode_id": 111196878,
+      "source_replay": "data\\replays\\v125_submission_56384917\\episode_111196878.json",
+      "arm": "v126_exec",
+      "seat": 1,
+      "seed": 714080367,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 55479.0,
+      "opponent_cash": 97057.0,
+      "margin": -41578.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "events": {
+        "failed_pickup": 7,
+        "failed_place": 26,
+        "failed_feed": 142,
+        "successful_feed": 202,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "BAKERY",
+          "BAKERY",
+          "BRUNCH_SPOT",
+          "PET_CAFE",
+          "FARMERS_MARKET"
+        ]
+      ],
+      "diagnostics": {
+        "version": "v126_exec",
+        "step": 718,
+        "day": 29,
+        "flags": {
+          "execution_jobs": true,
+          "execution_transactions": false,
+          "animal_purchase_guard": false,
+          "general_job_recovery": false,
+          "service_policy": false,
+          "fertilizer_policy": false
+        },
+        "trigger_counts": {
+          "hire_spawn_mismatch": 32,
+          "hire_spawn_verified": 23
+        },
+        "active_jobs": {},
+        "transaction_source_latch": null,
+        "expected_new_hands": [],
+        "recent_events": [
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 9
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 6
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 7
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 3
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 10
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 9
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v126_exec\\episode_111196878_seat_1.json.gz"
+    },
+    {
+      "episode_id": 111203616,
+      "source_replay": "data\\replays\\v125_submission_56384917\\episode_111203616.json",
+      "arm": "v125_live",
+      "seat": 1,
+      "seed": 1746459572,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 64243.0,
+      "opponent_cash": 92649.0,
+      "margin": -28406.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "events": {
+        "failed_pickup": 6,
+        "failed_place": 26,
+        "failed_feed": 133,
+        "successful_feed": 205,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ]
+      ],
+      "diagnostics": {},
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v125_live\\episode_111203616_seat_1.json.gz"
+    },
+    {
+      "episode_id": 111203616,
+      "source_replay": "data\\replays\\v125_submission_56384917\\episode_111203616.json",
+      "arm": "v126_exec",
+      "seat": 1,
+      "seed": 1746459572,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 64243.0,
+      "opponent_cash": 92649.0,
+      "margin": -28406.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "events": {
+        "failed_pickup": 6,
+        "failed_place": 26,
+        "failed_feed": 133,
+        "successful_feed": 205,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "PIZZA_SHOP",
+          "BRUNCH_SPOT"
+        ]
+      ],
+      "diagnostics": {
+        "version": "v126_exec",
+        "step": 718,
+        "day": 29,
+        "flags": {
+          "execution_jobs": true,
+          "execution_transactions": false,
+          "animal_purchase_guard": false,
+          "general_job_recovery": false,
+          "service_policy": false,
+          "fertilizer_policy": false
+        },
+        "trigger_counts": {
+          "hire_spawn_mismatch": 36,
+          "hire_spawn_verified": 24
+        },
+        "active_jobs": {},
+        "transaction_source_latch": null,
+        "expected_new_hands": [],
+        "recent_events": [
+          {
+            "event": "hire_spawn_verified",
+            "count": 2
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 6
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 7
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 3
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 10
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 9
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v126_exec\\episode_111203616_seat_1.json.gz"
+    },
+    {
+      "episode_id": 110824511,
+      "source_replay": "data\\submissions\\v124_submission_56357320\\episodes\\110824511\\replay\\episode_110824511.json",
+      "arm": "v125_live",
+      "seat": 0,
+      "seed": 1973268528,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 55183.0,
+      "opponent_cash": 104695.0,
+      "margin": -49512.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 4
+      },
+      "events": {
+        "failed_pickup": 8,
+        "failed_place": 25,
+        "failed_feed": 133,
+        "successful_feed": 200,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ]
+      ],
+      "diagnostics": {},
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v125_live\\episode_110824511_seat_0.json.gz"
+    },
+    {
+      "episode_id": 110824511,
+      "source_replay": "data\\submissions\\v124_submission_56357320\\episodes\\110824511\\replay\\episode_110824511.json",
+      "arm": "v126_exec",
+      "seat": 0,
+      "seed": 1973268528,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 55183.0,
+      "opponent_cash": 104695.0,
+      "margin": -49512.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 4
+      },
+      "events": {
+        "failed_pickup": 8,
+        "failed_place": 25,
+        "failed_feed": 133,
+        "successful_feed": 200,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "YARN_STORE",
+          "YARN_STORE",
+          "FARMERS_MARKET",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP",
+          "PET_CAFE",
+          "SMOOTHIE_SHOP"
+        ]
+      ],
+      "diagnostics": {
+        "version": "v126_exec",
+        "step": 718,
+        "day": 29,
+        "flags": {
+          "execution_jobs": true,
+          "execution_transactions": false,
+          "animal_purchase_guard": false,
+          "general_job_recovery": false,
+          "service_policy": false,
+          "fertilizer_policy": false
+        },
+        "trigger_counts": {
+          "hire_spawn_mismatch": 33,
+          "hire_spawn_verified": 27
+        },
+        "active_jobs": {},
+        "transaction_source_latch": null,
+        "expected_new_hands": [],
+        "recent_events": [
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 6
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 7
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 3
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 10
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 9
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v126_exec\\episode_110824511_seat_0.json.gz"
+    },
+    {
+      "episode_id": 111007532,
+      "source_replay": "data\\submissions\\v124_submission_56360233\\episodes\\111007532\\replay\\episode_111007532.json",
+      "arm": "v125_live",
+      "seat": 0,
+      "seed": 447501870,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 71703.0,
+      "opponent_cash": 118673.0,
+      "margin": -46970.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "events": {
+        "failed_pickup": 10,
+        "failed_place": 27,
+        "failed_feed": 133,
+        "successful_feed": 202,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ]
+      ],
+      "diagnostics": {},
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v125_live\\episode_111007532_seat_0.json.gz"
+    },
+    {
+      "episode_id": 111007532,
+      "source_replay": "data\\submissions\\v124_submission_56360233\\episodes\\111007532\\replay\\episode_111007532.json",
+      "arm": "v126_exec",
+      "seat": 0,
+      "seed": 447501870,
+      "recorded_action_differences": 0,
+      "action_difference_examples": [],
+      "our_cash": 71703.0,
+      "opponent_cash": 118673.0,
+      "margin": -46970.0,
+      "win": false,
+      "final_shed_animals": {
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "events": {
+        "failed_pickup": 10,
+        "failed_place": 27,
+        "failed_feed": 133,
+        "successful_feed": 202,
+        "animal_exits": 4
+      },
+      "shop_sequence": [
+        [],
+        [],
+        [],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ],
+        [
+          "YARN_STORE",
+          "PET_CAFE",
+          "ICE_CREAM_SHOP",
+          "FARMERS_MARKET",
+          "YARN_STORE",
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "ICE_CREAM_SHOP"
+        ]
+      ],
+      "diagnostics": {
+        "version": "v126_exec",
+        "step": 718,
+        "day": 29,
+        "flags": {
+          "execution_jobs": true,
+          "execution_transactions": false,
+          "animal_purchase_guard": false,
+          "general_job_recovery": false,
+          "service_policy": false,
+          "fertilizer_policy": false
+        },
+        "trigger_counts": {
+          "hire_spawn_mismatch": 33,
+          "hire_spawn_verified": 26
+        },
+        "active_jobs": {},
+        "transaction_source_latch": null,
+        "expected_new_hands": [],
+        "recent_events": [
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 6
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 7
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 3
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 10
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 1
+          },
+          {
+            "event": "hire_spawn_verified",
+            "count": 9
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "event": "hire_spawn_mismatch",
+            "expected": [
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "replay": "experiments\\research_20260920_v126\\known_case_replays\\v126_exec\\episode_111007532_seat_0.json.gz"
+    }
+  ]
+}

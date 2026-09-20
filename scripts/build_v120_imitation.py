@@ -29,6 +29,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--metadata", type=Path, default=DEFAULT_METADATA)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     parser.add_argument("--target-hash", default=TARGET_HASH)
+    parser.add_argument(
+        "--include-source-id",
+        action="store_true",
+        help="append an opaque, per-teacher route id to each row",
+    )
     return parser.parse_args()
 
 
@@ -84,7 +89,7 @@ def main() -> int:
 
     steps: list[list[list[Any]]] = [[] for _ in range(719)]
     provenance: list[dict[str, Any]] = []
-    for row in train_rows:
+    for source_index, row in enumerate(train_rows):
         replay_path = replay_path_for(row)
         replay = read_json(replay_path)
         teacher_seat = 1 - int(row["seat"])
@@ -103,16 +108,21 @@ def main() -> int:
             # state t+1. Pairing equal indices delays the entire route by one
             # hour and is catastrophic for the opening hire/build sequence.
             action = normalized_action(replay_steps[step + 1][teacher_seat].get("action"))
-            steps[step].append(
-                [
-                    policy.unit_count(observation),
-                    policy.feature_vector(observation),
-                    action,
-                ]
-            )
+            runtime_row = [
+                policy.unit_count(observation),
+                policy.feature_vector(observation),
+                action,
+            ]
+            if args.include_source_id:
+                runtime_row.append(source_index)
+            steps[step].append(runtime_row)
 
     runtime_model = {
-        "format": "v120-case-policy-v1",
+        "format": (
+            "v126-opening-route-source-v1"
+            if args.include_source_id
+            else "v120-case-policy-v1"
+        ),
         "feature_length": policy.FEATURE_LENGTH,
         "target_opening_hash": args.target_hash,
         "steps": steps,
@@ -177,6 +187,7 @@ def main() -> int:
             "future observations",
         ],
         "selection_rule": "same step; same unit count when available; nearest current-state feature vector",
+        "opaque_source_ids": bool(args.include_source_id),
         "provenance": provenance,
         "validation_report": args.report.resolve().relative_to(ROOT).as_posix(),
         "model_sha256": validation["compressed_sha256"],

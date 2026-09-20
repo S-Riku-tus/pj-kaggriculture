@@ -1,0 +1,61 @@
+{
+  "classification": "development fixed-opponent execution regressions; not strength holdout",
+  "episodes": [111196878, 111203616],
+  "baseline": {
+    "margins": [-41578, -28406],
+    "animal_exits": [4, 4],
+    "recorded_action_differences": [0, 0]
+  },
+  "rejected_candidates": [
+    {
+      "name": "broad_actor_local_jobs",
+      "margins": [-65082, -60102],
+      "animal_exits": [4, 2],
+      "recorded_action_differences": [479, 499],
+      "reason": "generic recovery changed hundreds of route decisions and reduced both margins"
+    },
+    {
+      "name": "narrow_generic_jobs",
+      "margins": [-56061, -17686],
+      "animal_exits": [9, 3],
+      "recorded_action_differences": [388, 402],
+      "reason": "one case improved but the other lost five additional animals; route cascade remained"
+    },
+    {
+      "name": "atomic_without_source_lookahead",
+      "margins": [-112952, -162305],
+      "animal_exits": [4, 3],
+      "recorded_action_differences": [426, 507],
+      "reason": "broad motif detection caused catastrophic nearest-route switching"
+    },
+    {
+      "name": "continuation_only_source_lookahead",
+      "margins": [-41578, -28406],
+      "animal_exits": [4, 4],
+      "recorded_action_differences": [8, 9],
+      "reason": "did not trigger on the known day-10 failures because opening rows have source=-1"
+    },
+    {
+      "name": "opening_source_full_farm_latch",
+      "margins": [-52479, -35777],
+      "animal_exits": [4, 4],
+      "recorded_action_differences": [52, 243],
+      "reason": "farm-wide source hold reduced both margins and did not prevent the exits"
+    },
+    {
+      "name": "opening_source_actor_only",
+      "margins": [-54692, -41868],
+      "animal_exits": [5, 6],
+      "recorded_action_differences": [49, 294],
+      "reason": "actor-only work-unit tracking increased exits and reduced both margins"
+    },
+    {
+      "name": "opening_source_counterfactual_day_view",
+      "margins": [-54692, -38578],
+      "animal_exits": [5, 5],
+      "recorded_action_differences": [51, 233],
+      "reason": "masking repair deltas until day end still increased exits and reduced both margins"
+    }
+  ],
+  "decision": "keep execution transactions implemented but disabled; do not promote any E repair"
+}
