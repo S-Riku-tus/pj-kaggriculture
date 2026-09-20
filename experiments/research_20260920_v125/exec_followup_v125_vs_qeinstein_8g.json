@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-20T16:08:23.506647+09:00",
+  "agent": "agents\\v125_exec\\main.py",
+  "opponent": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+  "configuration": {
+    "pairs": 4,
+    "seed": 2026092102,
+    "episode_steps": 720
+  },
+  "summary": {
+    "games": 8,
+    "wins": 8,
+    "ties": 0,
+    "win_rate": 1.0,
+    "mean_our_reward": 85403.875,
+    "mean_opponent_reward": 76270.375,
+    "mean_margin": 9133.5,
+    "all_done": true
+  },
+  "games": [
+    {
+      "seed": 2026092102,
+      "seat": 0,
+      "ours": 101880.0,
+      "theirs": 86333.0,
+      "margin": 15547.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092102,
+      "seat": 1,
+      "ours": 101880.0,
+      "theirs": 86333.0,
+      "margin": 15547.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092103,
+      "seat": 0,
+      "ours": 87613.0,
+      "theirs": 77084.0,
+      "margin": 10529.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092103,
+      "seat": 1,
+      "ours": 87613.0,
+      "theirs": 77084.0,
+      "margin": 10529.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092104,
+      "seat": 0,
+      "ours": 72594.0,
+      "theirs": 66962.0,
+      "margin": 5632.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092104,
+      "seat": 1,
+      "ours": 80773.0,
+      "theirs": 76401.0,
+      "margin": 4372.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092105,
+      "seat": 0,
+      "ours": 75439.0,
+      "theirs": 69983.0,
+      "margin": 5456.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    },
+    {
+      "seed": 2026092105,
+      "seat": 1,
+      "ours": 75439.0,
+      "theirs": 69983.0,
+      "margin": 5456.0,
+      "win": true,
+      "tie": false,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "replay": null
+    }
+  ]
+}

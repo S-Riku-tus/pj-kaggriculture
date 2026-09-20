@@ -1,0 +1,924 @@
+[
+  {
+    "episode_id": 110837769,
+    "target_submission": 56357320,
+    "seat": 0,
+    "opponent_submission": 56241510,
+    "own_reward": 72064.0,
+    "opponent_reward": 72241.0,
+    "margin": -177.0,
+    "money_by_day": {
+      "0": 3000.0,
+      "1": 32.0,
+      "2": 92.0,
+      "3": 205.0,
+      "4": 288.0,
+      "5": 693.0,
+      "6": 808.0,
+      "7": 750.0,
+      "8": 457.0,
+      "9": 1416.0,
+      "10": 2061.0,
+      "11": 14380.0,
+      "12": 13578.0,
+      "13": 16841.0,
+      "14": 18908.0,
+      "15": 21815.0,
+      "16": 26476.0,
+      "17": 30467.0,
+      "18": 34453.0,
+      "19": 38128.0,
+      "20": 40927.0,
+      "21": 43852.0,
+      "22": 46193.0,
+      "23": 47968.0,
+      "24": 49622.0,
+      "25": 51438.0,
+      "26": 53235.0,
+      "27": 55126.0,
+      "28": 57733.0,
+      "29": 63172.0
+    },
+    "actual_cash_flows": {
+      "BUY_PRODUCT_WHEAT_qty": 161,
+      "BUY_PRODUCT_WHEAT_cash": 5572,
+      "SELL_WHEAT_qty": 444,
+      "SELL_WHEAT_cash": 13070,
+      "HIRE__qty": 270,
+      "HIRE__cash": 4685,
+      "BUY_ANIMAL_COW_qty": 8,
+      "BUY_ANIMAL_COW_cash": 3200,
+      "BUY_ANIMAL_SHEEP_qty": 6,
+      "BUY_ANIMAL_SHEEP_cash": 3000,
+      "BUY_SEED_MELON_qty": 12,
+      "BUY_SEED_MELON_cash": 960,
+      "BUY_SEED_WHEAT_qty": 163,
+      "BUY_SEED_WHEAT_cash": 1630,
+      "SELL_FERTILIZER_qty": 348,
+      "SELL_FERTILIZER_cash": 15221,
+      "BUY_SEED_STRAWBERRY_qty": 33,
+      "BUY_SEED_STRAWBERRY_cash": 3300,
+      "SELL_WOOL_qty": 159,
+      "SELL_WOOL_cash": 14377,
+      "BUY_LAND__qty": 2,
+      "BUY_LAND__cash": 3000,
+      "BUY_PRODUCT_FERTILIZER_qty": 107,
+      "BUY_PRODUCT_FERTILIZER_cash": 3252,
+      "SELL_MILK_qty": 210,
+      "SELL_MILK_cash": 14264,
+      "BUY_ANIMAL_GOOSE_qty": 3,
+      "BUY_ANIMAL_GOOSE_cash": 900,
+      "SELL_MELON_qty": 72,
+      "SELL_MELON_cash": 14267,
+      "SELL_EGG_qty": 74,
+      "SELL_EGG_cash": 4004,
+      "SELL_STRAWBERRY_qty": 250,
+      "SELL_STRAWBERRY_cash": 18141,
+      "BUY_SEED_CARROT_qty": 31,
+      "BUY_SEED_CARROT_cash": 620,
+      "SELL_CARROT_qty": 94,
+      "SELL_CARROT_cash": 5839
+    },
+    "own_animal_exits": [],
+    "care_order_example": {
+      "previous_replay_step": 191,
+      "next_replay_step": 192,
+      "tile": [
+        4,
+        3
+      ],
+      "before": {
+        "animal": "COW",
+        "cared_today": true,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "fertilizer_available": false,
+        "kind": "PASTURE",
+        "pending_care_bonus": 5,
+        "placed_day": 0,
+        "yield_units": 0
+      },
+      "after": {
+        "animal": "COW",
+        "cared_today": false,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "fertilizer_available": true,
+        "kind": "PASTURE",
+        "pending_care_bonus": 1,
+        "placed_day": 0,
+        "yield_units": 6
+      }
+    }
+  },
+  {
+    "episode_id": 111075166,
+    "target_submission": 56361903,
+    "seat": 0,
+    "opponent_submission": 56332038,
+    "own_reward": 85476.0,
+    "opponent_reward": 81026.0,
+    "margin": 4450.0,
+    "money_by_day": {
+      "0": 3000.0,
+      "1": 8.0,
+      "2": 35.0,
+      "3": 21.0,
+      "4": 9.0,
+      "5": 287.0,
+      "6": 723.0,
+      "7": 67.0,
+      "8": 37.0,
+      "9": 845.0,
+      "10": 370.0,
+      "11": 5202.0,
+      "12": 10577.0,
+      "13": 22219.0,
+      "14": 26876.0,
+      "15": 32062.0,
+      "16": 39780.0,
+      "17": 46624.0,
+      "18": 51844.0,
+      "19": 57286.0,
+      "20": 59224.0,
+      "21": 61483.0,
+      "22": 62531.0,
+      "23": 65215.0,
+      "24": 66759.0,
+      "25": 68726.0,
+      "26": 70682.0,
+      "27": 72695.0,
+      "28": 75058.0,
+      "29": 79249.0
+    },
+    "actual_cash_flows": {
+      "BUY_ANIMAL_COW_qty": 8,
+      "BUY_ANIMAL_COW_cash": 3200,
+      "BUY_PRODUCT_WHEAT_qty": 159,
+      "BUY_PRODUCT_WHEAT_cash": 5738,
+      "SELL_WHEAT_qty": 458,
+      "SELL_WHEAT_cash": 12744,
+      "HIRE__qty": 286,
+      "HIRE__cash": 4929,
+      "BUY_ANIMAL_SHEEP_qty": 10,
+      "BUY_ANIMAL_SHEEP_cash": 5000,
+      "BUY_SEED_MELON_qty": 12,
+      "BUY_SEED_MELON_cash": 960,
+      "BUY_SEED_WHEAT_qty": 166,
+      "BUY_SEED_WHEAT_cash": 1660,
+      "SELL_FERTILIZER_qty": 218,
+      "SELL_FERTILIZER_cash": 12523,
+      "BUY_SEED_STRAWBERRY_qty": 25,
+      "BUY_SEED_STRAWBERRY_cash": 2500,
+      "SELL_WOOL_qty": 213,
+      "SELL_WOOL_cash": 27211,
+      "BUY_LAND__qty": 2,
+      "BUY_LAND__cash": 3000,
+      "BUY_SEED_TOMATO_qty": 6,
+      "BUY_SEED_TOMATO_cash": 300,
+      "SELL_MILK_qty": 157,
+      "SELL_MILK_cash": 10983,
+      "SELL_MELON_qty": 72,
+      "SELL_MELON_cash": 13903,
+      "BUY_SEED_CARROT_qty": 106,
+      "BUY_SEED_CARROT_cash": 2120,
+      "SELL_STRAWBERRY_qty": 188,
+      "SELL_STRAWBERRY_cash": 21376,
+      "SELL_CARROT_qty": 287,
+      "SELL_CARROT_cash": 10940,
+      "SELL_TOMATO_qty": 38,
+      "SELL_TOMATO_cash": 2203
+    },
+    "own_animal_exits": [
+      [
+        456,
+        0,
+        8,
+        3,
+        "SHEEP",
+        0,
+        8,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        528,
+        0,
+        5,
+        2,
+        "COW",
+        0,
+        6,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        528,
+        0,
+        8,
+        4,
+        "SHEEP",
+        0,
+        8,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        552,
+        0,
+        7,
+        3,
+        "SHEEP",
+        0,
+        6,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        576,
+        0,
+        6,
+        2,
+        "COW",
+        0,
+        8,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        672,
+        0,
+        4,
+        3,
+        "SHEEP",
+        0,
+        0,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        672,
+        0,
+        2,
+        4,
+        "SHEEP",
+        6,
+        0,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        672,
+        0,
+        3,
+        4,
+        "SHEEP",
+        1,
+        0,
+        {
+          "kind": "PASTURE"
+        }
+      ],
+      [
+        696,
+        0,
+        4,
+        6,
+        "COW",
+        0,
+        9,
+        {
+          "kind": "PASTURE"
+        }
+      ]
+    ],
+    "tile_8_3_action_trace": [
+      {
+        "t": 400,
+        "action_day": 16,
+        "worker": 1,
+        "action": [
+          "FEED"
+        ],
+        "tile_before": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": false,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 3,
+          "placed_day": 8,
+          "yield_units": 0
+        },
+        "tile_after": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": true,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 3,
+          "placed_day": 8,
+          "yield_units": 0
+        }
+      },
+      {
+        "t": 401,
+        "action_day": 16,
+        "worker": 1,
+        "action": [
+          "CARE"
+        ],
+        "tile_before": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": true,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 3,
+          "placed_day": 8,
+          "yield_units": 0
+        },
+        "tile_after": {
+          "animal": "SHEEP",
+          "cared_today": true,
+          "consecutive_unfed": 0,
+          "fed_today": true,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 3,
+          "placed_day": 8,
+          "yield_units": 0
+        }
+      },
+      {
+        "t": 402,
+        "action_day": 16,
+        "worker": 1,
+        "action": [
+          "COLLECT_FERTILIZER"
+        ],
+        "tile_before": {
+          "animal": "SHEEP",
+          "cared_today": true,
+          "consecutive_unfed": 0,
+          "fed_today": true,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 3,
+          "placed_day": 8,
+          "yield_units": 0
+        },
+        "tile_after": {
+          "animal": "SHEEP",
+          "cared_today": true,
+          "consecutive_unfed": 0,
+          "fed_today": true,
+          "fertilizer_available": false,
+          "kind": "PASTURE",
+          "pending_care_bonus": 3,
+          "placed_day": 8,
+          "yield_units": 0
+        }
+      },
+      {
+        "t": 419,
+        "action_day": 17,
+        "worker": 7,
+        "action": [
+          "HARVEST"
+        ],
+        "tile_before": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": false,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 1,
+          "placed_day": 8,
+          "yield_units": 4
+        },
+        "tile_after": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": false,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 1,
+          "placed_day": 8,
+          "yield_units": 0
+        }
+      },
+      {
+        "t": 424,
+        "action_day": 17,
+        "worker": 3,
+        "action": [
+          "COLLECT_FERTILIZER"
+        ],
+        "tile_before": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": false,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 1,
+          "placed_day": 8,
+          "yield_units": 0
+        },
+        "tile_after": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 0,
+          "fed_today": false,
+          "fertilizer_available": false,
+          "kind": "PASTURE",
+          "pending_care_bonus": 1,
+          "placed_day": 8,
+          "yield_units": 0
+        }
+      },
+      {
+        "t": 449,
+        "action_day": 18,
+        "worker": 3,
+        "action": [
+          "COLLECT_FERTILIZER"
+        ],
+        "tile_before": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 1,
+          "fed_today": false,
+          "fertilizer_available": true,
+          "kind": "PASTURE",
+          "pending_care_bonus": 1,
+          "placed_day": 8,
+          "yield_units": 0
+        },
+        "tile_after": {
+          "animal": "SHEEP",
+          "cared_today": false,
+          "consecutive_unfed": 1,
+          "fed_today": false,
+          "fertilizer_available": false,
+          "kind": "PASTURE",
+          "pending_care_bonus": 1,
+          "placed_day": 8,
+          "yield_units": 0
+        }
+      },
+      {
+        "t": 471,
+        "action_day": 19,
+        "worker": 3,
+        "action": [
+          "DIG"
+        ],
+        "tile_before": {
+          "kind": "PASTURE"
+        },
+        "tile_after": null
+      },
+      {
+        "t": 472,
+        "action_day": 19,
+        "worker": 3,
+        "action": [
+          "PLANT",
+          "WHEAT"
+        ],
+        "tile_before": null,
+        "tile_after": {
+          "consecutive_unwatered": 1,
+          "crop": "WHEAT",
+          "fertilized_until_day": -1,
+          "kind": "PLANT",
+          "max_lifespan_step": 576,
+          "planted_day": 19,
+          "watered_today": false,
+          "yield_units": 1
+        }
+      },
+      {
+        "t": 473,
+        "action_day": 19,
+        "worker": 3,
+        "action": [
+          "WATER"
+        ],
+        "tile_before": {
+          "consecutive_unwatered": 1,
+          "crop": "WHEAT",
+          "fertilized_until_day": -1,
+          "kind": "PLANT",
+          "max_lifespan_step": 576,
+          "planted_day": 19,
+          "watered_today": false,
+          "yield_units": 1
+        },
+        "tile_after": {
+          "consecutive_unwatered": 1,
+          "crop": "WHEAT",
+          "fertilized_until_day": -1,
+          "kind": "PLANT",
+          "max_lifespan_step": 576,
+          "planted_day": 19,
+          "watered_today": true,
+          "yield_units": 1
+        }
+      }
+    ],
+    "prices_at_retirement_t456": {
+      "WHEAT": 34,
+      "CARROT": 41,
+      "TOMATO": 62,
+      "STRAWBERRY": 91,
+      "MELON": 94,
+      "EGG": 54,
+      "MILK": 34,
+      "WOOL": 18,
+      "FERTILIZER": 35
+    }
+  },
+  {
+    "episode_id": 110815723,
+    "target_submission": 56357320,
+    "seat": 1,
+    "opponent_submission": 56336852,
+    "own_reward": 103847.0,
+    "opponent_reward": 95323.0,
+    "margin": 8524.0,
+    "money_by_day": {
+      "0": 3000.0,
+      "1": 25.0,
+      "2": 86.0,
+      "3": 200.0,
+      "4": 289.0,
+      "5": 693.0,
+      "6": 810.0,
+      "7": 606.0,
+      "8": 276.0,
+      "9": 1068.0,
+      "10": 1158.0,
+      "11": 14881.0,
+      "12": 14988.0,
+      "13": 17623.0,
+      "14": 19626.0,
+      "15": 21447.0,
+      "16": 24817.0,
+      "17": 29382.0,
+      "18": 34399.0,
+      "19": 34349.0,
+      "20": 38423.0,
+      "21": 45088.0,
+      "22": 53039.0,
+      "23": 57985.0,
+      "24": 63357.0,
+      "25": 68290.0,
+      "26": 71642.0,
+      "27": 75181.0,
+      "28": 84584.0,
+      "29": 90506.0
+    },
+    "actual_cash_flows": {
+      "BUY_PRODUCT_WHEAT_qty": 161,
+      "BUY_PRODUCT_WHEAT_cash": 5611,
+      "SELL_WHEAT_qty": 323,
+      "SELL_WHEAT_cash": 13626,
+      "HIRE__qty": 284,
+      "HIRE__cash": 7612,
+      "BUY_ANIMAL_COW_qty": 8,
+      "BUY_ANIMAL_COW_cash": 3200,
+      "BUY_ANIMAL_SHEEP_qty": 6,
+      "BUY_ANIMAL_SHEEP_cash": 3000,
+      "BUY_SEED_MELON_qty": 12,
+      "BUY_SEED_MELON_cash": 960,
+      "BUY_SEED_WHEAT_qty": 163,
+      "BUY_SEED_WHEAT_cash": 1630,
+      "SELL_FERTILIZER_qty": 340,
+      "SELL_FERTILIZER_cash": 18808,
+      "BUY_SEED_STRAWBERRY_qty": 33,
+      "BUY_SEED_STRAWBERRY_cash": 3300,
+      "SELL_WOOL_qty": 154,
+      "SELL_WOOL_cash": 3606,
+      "BUY_LAND__qty": 3,
+      "BUY_LAND__cash": 7000,
+      "BUY_PRODUCT_FERTILIZER_qty": 78,
+      "BUY_PRODUCT_FERTILIZER_cash": 3510,
+      "SELL_MILK_qty": 245,
+      "SELL_MILK_cash": 8600,
+      "BUY_ANIMAL_GOOSE_qty": 3,
+      "BUY_ANIMAL_GOOSE_cash": 900,
+      "SELL_MELON_qty": 72,
+      "SELL_MELON_cash": 16969,
+      "SELL_EGG_qty": 72,
+      "SELL_EGG_cash": 4149,
+      "SELL_STRAWBERRY_qty": 247,
+      "SELL_STRAWBERRY_cash": 56079,
+      "BUY_SEED_TOMATO_qty": 10,
+      "BUY_SEED_TOMATO_cash": 500,
+      "BUY_SEED_CARROT_qty": 31,
+      "BUY_SEED_CARROT_cash": 620,
+      "SELL_TOMATO_qty": 80,
+      "SELL_TOMATO_cash": 12187,
+      "SELL_CARROT_qty": 84,
+      "SELL_CARROT_cash": 4666
+    },
+    "own_animal_exits": [],
+    "tomato_branch": {
+      "planted_day": 18,
+      "tiles": [
+        {
+          "x": 5,
+          "y": 5,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 6,
+          "y": 5,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "plant": {
+            "consecutive_unwatered": 0,
+            "crop": "TOMATO",
+            "fertilized_until_day": -1,
+            "kind": "PLANT",
+            "max_lifespan_step": -1,
+            "planted_day": 18,
+            "watered_today": false,
+            "yield_units": 0
+          }
+        }
+      ],
+      "trades": [
+        [
+          151,
+          1,
+          3,
+          "BUY_LAND",
+          "",
+          1,
+          1000
+        ],
+        [
+          266,
+          1,
+          6,
+          "BUY_LAND",
+          "",
+          1,
+          2000
+        ],
+        [
+          434,
+          1,
+          4,
+          "BUY_LAND",
+          "",
+          1,
+          4000
+        ],
+        [
+          434,
+          1,
+          5,
+          "BUY_SEED",
+          "TOMATO",
+          10,
+          500
+        ],
+        [
+          637,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          6,
+          867
+        ],
+        [
+          640,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          6,
+          855
+        ],
+        [
+          647,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          8,
+          1148
+        ],
+        [
+          663,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          6,
+          928
+        ],
+        [
+          665,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          6,
+          887
+        ],
+        [
+          670,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          8,
+          1192
+        ],
+        [
+          685,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          6,
+          935
+        ],
+        [
+          688,
+          1,
+          0,
+          "SELL",
+          "TOMATO",
+          6,
+          921
+        ],
+        [
+          695,
+          1,
+          2,
+          "SELL",
+          "TOMATO",
+          8,
+          1238
+        ],
+        [
+          712,
+          1,
+          2,
+          "SELL",
+          "TOMATO",
+          10,
+          1645
+        ],
+        [
+          716,
+          1,
+          2,
+          "SELL",
+          "TOMATO",
+          10,
+          1571
+        ]
+      ]
+    }
+  }
+]

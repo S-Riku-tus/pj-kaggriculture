@@ -1,0 +1,96 @@
+{
+  "unique_replays": 1009,
+  "unique_public_replays": 1004,
+  "target_perspectives": 1023,
+  "public_target_perspectives": 1018,
+  "validation_perspectives": 5,
+  "unique_transitions_audited": 725471,
+  "engine_module_versions": [
+    "1.32.7"
+  ],
+  "audit_error_counts": {
+    "shed": 968,
+    "inventory": 4,
+    "money": 4
+  },
+  "audit_error_episode_counts": {
+    "shed": 581,
+    "inventory": 4,
+    "money": 4
+  },
+  "target_cash_ledger_mismatch_rows": [
+    {
+      "episode_id": 111036541,
+      "target_submission": 56354460,
+      "ledger_residual": 120.0
+    }
+  ],
+  "v124_cash_ledger_mismatch_rows": 0,
+  "method": "One-transition independent audit resynchronized to each recorded prior observation, NOT a full closed-loop simulator or counterfactual win test. Shed ordering mismatches reconciled retrospectively by observed stock conservation; cash-comparison tables exclude the one target perspective with a 120 cash discrepancy.",
+  "inputs": [
+    {
+      "filename": "submission_56354460_battle_logs.zip",
+      "bytes": 91272778,
+      "sha256": "a6b5684dd76ae2ba0efabe05c30e41761705643fe150271e2dab71923433da63",
+      "episodes_count": 153,
+      "episodes_idset_sha256": "d2579591b176faa1e074a20297b9149e138526c828ce027af38d9abb5ca8b8aa",
+      "replay_members": 153
+    },
+    {
+      "filename": "leaderboard_20260920_rank1_submission_56216119(1).zip",
+      "bytes": 116958,
+      "sha256": "4ab419f7f91b33dae981ffcb03bc619a31e284bd35fa6d558119e36f16aa33ae",
+      "episodes_count": 579,
+      "episodes_idset_sha256": "89ae50f0f0f0a5b19ac135b8d23abee1c4c5cb35fb3e88b93eb75969f1944301",
+      "replay_members": 0
+    },
+    {
+      "filename": "v124_submission_56357320(2).zip",
+      "bytes": 41738349,
+      "sha256": "7f69041f15698bfd63a6b808a4540d77b67062997d733940ffc396769241d175",
+      "episodes_count": 79,
+      "episodes_idset_sha256": "bca5ad78e0c912d18533c7eb9e3813cfe9253a3dee4c9e86e813223ad1157ca9",
+      "replay_members": 79
+    },
+    {
+      "filename": "leaderboard_20260920_rank2_submission_56361903(1).zip",
+      "bytes": 35230,
+      "sha256": "2ee234103be49c930c30d1b9f8028267c4b2dcdf2cab635a0dd4a0f0328cd150",
+      "episodes_count": 132,
+      "episodes_idset_sha256": "e8336055f2e2ca9cb97613ef8ef3a70174c47932a3f8211ad901461e927d961f",
+      "replay_members": 0
+    },
+    {
+      "filename": "leaderboard_20260920_rank3_submission_56354460(1).zip",
+      "bytes": 41782,
+      "sha256": "e1e5d4719cc92237a9d086f33acbb7fc542c539738e3e6d23b68106ddb83eb44",
+      "episodes_count": 153,
+      "episodes_idset_sha256": "d2579591b176faa1e074a20297b9149e138526c828ce027af38d9abb5ca8b8aa",
+      "replay_members": 0
+    },
+    {
+      "filename": "submission_56216119_battle_logs(1).zip",
+      "bytes": 340671536,
+      "sha256": "5610cf7a93cc681cf24d4c3da09477fc3c158461e657d475d5a023dd08eb99e4",
+      "episodes_count": 579,
+      "episodes_idset_sha256": "89ae50f0f0f0a5b19ac135b8d23abee1c4c5cb35fb3e88b93eb75969f1944301",
+      "replay_members": 579
+    },
+    {
+      "filename": "v124_submission_56360233(2).zip",
+      "bytes": 43743423,
+      "sha256": "3aa91ab184446800038562d98d520a0122ee721b9721c4007e1bf559ae9a6bf3",
+      "episodes_count": 80,
+      "episodes_idset_sha256": "d44ca7204ef6af2c6e2b05a4bd96b77ba88c9382c7b4e12116a31e5b13464217",
+      "replay_members": 80
+    },
+    {
+      "filename": "submission_56361903_battle_logs.zip",
+      "bytes": 77232945,
+      "sha256": "52699d7e30c417ed30004449e2aacae7d0ca64f31007ecff72caa4b1d569ec74",
+      "episodes_count": 132,
+      "episodes_idset_sha256": "e8336055f2e2ca9cb97613ef8ef3a70174c47932a3f8211ad901461e927d961f",
+      "replay_members": 132
+    }
+  ]
+}
