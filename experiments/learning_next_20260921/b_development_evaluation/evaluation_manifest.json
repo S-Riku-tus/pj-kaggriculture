@@ -1,0 +1,48 @@
+{
+  "stage": "development",
+  "output_id": "b_development_evaluation",
+  "created_at_utc": "2026-09-21T05:10:24.441034+00:00",
+  "engine": "kaggle-environments==1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "arms": [
+    "c0",
+    "b_simple",
+    "b_learned"
+  ],
+  "opponents": {
+    "qeinstein_moev2": {
+      "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+      "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+      "evidence_tier": "Silver public executable proxy"
+    },
+    "mooman_e052a": {
+      "path": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+      "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+      "evidence_tier": "Silver public executable proxy"
+    },
+    "smart_farm": {
+      "path": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+      "sha256": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+      "evidence_tier": "Silver public executable proxy"
+    },
+    "souvik_v4": {
+      "path": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+      "sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+      "evidence_tier": "Silver public executable proxy"
+    }
+  },
+  "seeds": [
+    2026092311,
+    2026092312,
+    2026092313,
+    2026092314,
+    2026092315
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "games": 120,
+  "formal_strength_claim": false,
+  "reason": "development evidence; not fresh holdout"
+}

@@ -1,0 +1,57 @@
+{
+  "c0": {},
+  "b_simple": {
+    "action_changes": 2.0,
+    "candidate_sets": 1438.0,
+    "changed_action_checks": 2.0,
+    "changed_action_successes": 2.0,
+    "fallbacks": 0.0,
+    "inference_calls": 0.0,
+    "model_loads": 0.0
+  },
+  "b_learned": {
+    "action_changes": 4.0,
+    "candidate_sets": 1438.0,
+    "changed_action_checks": 4.0,
+    "changed_action_successes": 4.0,
+    "fallbacks": 0.0,
+    "inference_calls": 1438.0,
+    "model_loads": 2.0
+  },
+  "a_baseline": {
+    "action_changes": 517.0,
+    "changed_action_checks": 517.0,
+    "changed_action_successes": 358.0,
+    "fallbacks": 0.0,
+    "inference_calls": 0.0,
+    "jobs_aborted": 2.0,
+    "jobs_completed": 2.0,
+    "jobs_started": 4.0,
+    "model_loads": 0.0,
+    "task_boundaries": 1355.0
+  },
+  "a_learned": {
+    "action_changes": 2021.0,
+    "changed_action_checks": 1996.0,
+    "changed_action_successes": 1346.0,
+    "fallbacks": 0.0,
+    "inference_calls": 2549.0,
+    "jobs_aborted": 19.0,
+    "jobs_completed": 37.0,
+    "jobs_started": 56.0,
+    "model_loads": 2.0,
+    "task_boundaries": 5890.0
+  },
+  "independent_bc": {
+    "actor_decisions": 9764.0,
+    "blocked_market_orders": 2479.0,
+    "fallbacks": 0.0,
+    "inference_calls": 12188.0,
+    "legality_masks": 12188.0,
+    "market_decisions": 2424.0,
+    "model_action_checks": 8466.0,
+    "model_action_successes": 8394.0,
+    "model_loads": 4.0,
+    "resource_reservations": 819.0
+  }
+}

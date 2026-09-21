@@ -1,0 +1,3864 @@
+[
+  {
+    "episode_id": 111196878,
+    "t": 215,
+    "day": 8,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3,
+      "WHEAT": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 1,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 15,
+      "WOOL": 0
+    },
+    "money": 474.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 216,
+    "day": 8,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 4
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 1,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 15,
+      "WOOL": 0
+    },
+    "money": 723.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 218,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 14,
+      "WOOL": 0
+    },
+    "money": 1558.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 219,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "FEED",
+    "effect": true,
+    "inventory": {
+      "WHEAT": 4
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1024.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 220,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "WHEAT": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1024.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 220,
+    "day": 9,
+    "actor": 6,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1024.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 221,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "WHEAT": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1024.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 222,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1,
+      "WHEAT": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1024.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 224,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "FEED",
+    "effect": true,
+    "inventory": {
+      "WHEAT": 3
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 1,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1105.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 225,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "WHEAT": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 1,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1105.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 226,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "WHEAT": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 1,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 1105.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 231,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "FEED",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3,
+      "WHEAT": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 1,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 2959.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 232,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3,
+      "WHEAT": 1
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 1,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 2959.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 233,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3,
+      "WHEAT": 1
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 1,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 2949.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 235,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "FEED",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 4,
+      "WHEAT": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 3179.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 236,
+    "day": 9,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 3179.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 236,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 4
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 3179.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 237,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 4
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 3179.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 238,
+    "day": 9,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 3179.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 239,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 5
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 3415.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 250,
+    "day": 10,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3432.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 251,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "MELON": 6
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3432.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 251,
+    "day": 10,
+    "actor": 7,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3432.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 251,
+    "day": 10,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3432.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 252,
+    "day": 10,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "MELON": 6
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 4930.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 252,
+    "day": 10,
+    "actor": 5,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 4930.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 252,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "FEED",
+    "effect": false,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 4930.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 253,
+    "day": 10,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5862.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 253,
+    "day": 10,
+    "actor": 3,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5862.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 253,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5862.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 254,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "HARVEST",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5327.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 254,
+    "day": 10,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {
+      "SHEEP": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5327.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 254,
+    "day": 10,
+    "actor": 3,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5327.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 254,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5327.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 255,
+    "day": 10,
+    "actor": 3,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {
+      "SHEEP": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5282.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 256,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "HARVEST",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5262.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 256,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "FEED",
+    "effect": false,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5262.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 257,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5262.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 258,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "HARVEST",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5262.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 258,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5262.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 259,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5252.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 266,
+    "day": 11,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 3,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 22,
+      "WOOL": 0
+    },
+    "money": 6943.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 277,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4301.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 278,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4281.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 280,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4171.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 281,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4151.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 283,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4141.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 284,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4131.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 286,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4121.0
+  },
+  {
+    "episode_id": 111196878,
+    "t": 287,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 4
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4121.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 239,
+    "day": 9,
+    "actor": 5,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 5
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": true,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 3689.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 250,
+    "day": 10,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3702.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 251,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "MELON": 6
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3702.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 251,
+    "day": 10,
+    "actor": 7,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3702.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 251,
+    "day": 10,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 11,
+      "WOOL": 0
+    },
+    "money": 3702.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 252,
+    "day": 10,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "MELON": 6
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5236.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 252,
+    "day": 10,
+    "actor": 5,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5236.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 252,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "FEED",
+    "effect": false,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5236.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 253,
+    "day": 10,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 6146.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 253,
+    "day": 10,
+    "actor": 3,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 6146.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 253,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 6146.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 254,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "HARVEST",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5610.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 254,
+    "day": 10,
+    "actor": 1,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {
+      "SHEEP": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5610.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 254,
+    "day": 10,
+    "actor": 3,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5610.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 254,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5610.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 255,
+    "day": 10,
+    "actor": 3,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {
+      "SHEEP": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 10,
+      "WOOL": 0
+    },
+    "money": 5564.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 256,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "HARVEST",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5544.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 256,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "FEED",
+    "effect": false,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 5544.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 257,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5544.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 258,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "HARVEST",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5544.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 258,
+    "day": 10,
+    "actor": 8,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5544.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 259,
+    "day": 10,
+    "actor": 0,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PLACE",
+    "effect": false,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 8,
+      "WOOL": 0
+    },
+    "money": 5534.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 266,
+    "day": 11,
+    "actor": 2,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 3,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 22,
+      "WOOL": 0
+    },
+    "money": 7208.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 277,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4762.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 278,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      2
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4742.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 280,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4632.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 281,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      3
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 3,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4612.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 283,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 2
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4602.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 284,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      5,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 4,
+      "placed_day": 6,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4592.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 286,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 3
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4582.0
+  },
+  {
+    "episode_id": 111203616,
+    "t": 287,
+    "day": 11,
+    "actor": 9,
+    "pos": [
+      6,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 4
+    },
+    "tile": {
+      "animal": "SHEEP",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 2,
+      "placed_day": 7,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 9,
+      "WOOL": 0
+    },
+    "money": 4582.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 3,
+    "day": 0,
+    "actor": 1,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": null,
+    "shed": {
+      "CARROT": 0,
+      "COW": 2,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 35,
+      "WOOL": 0
+    },
+    "money": 120.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 3,
+    "day": 0,
+    "actor": 5,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": null,
+    "shed": {
+      "CARROT": 0,
+      "COW": 2,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 35,
+      "WOOL": 0
+    },
+    "money": 120.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 4,
+    "day": 0,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": null,
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 5,
+      "WOOL": 0
+    },
+    "money": 1021.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 4,
+    "day": 0,
+    "actor": 5,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "BUILD_PASTURE",
+    "effect": true,
+    "inventory": {
+      "COW": 1
+    },
+    "tile": null,
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 2,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 5,
+      "WOOL": 0
+    },
+    "money": 1021.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 5,
+    "day": 0,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {
+      "SHEEP": 1
+    },
+    "tile": {
+      "kind": "PASTURE"
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 5,
+      "WOOL": 0
+    },
+    "money": 1021.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 5,
+    "day": 0,
+    "actor": 5,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "COW": 1
+    },
+    "tile": {
+      "kind": "PASTURE"
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 5,
+      "WOOL": 0
+    },
+    "money": 1021.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 6,
+    "day": 0,
+    "actor": 5,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "CARE",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 4,
+      "WOOL": 0
+    },
+    "money": 1021.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 7,
+    "day": 0,
+    "actor": 5,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 1,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 4,
+      "WOOL": 0
+    },
+    "money": 1021.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 8,
+    "day": 0,
+    "actor": 5,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {
+      "SHEEP": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": true,
+      "consecutive_unfed": 0,
+      "fed_today": false,
+      "fertilizer_available": false,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 4,
+      "WOOL": 0
+    },
+    "money": 861.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 25,
+    "day": 1,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 3,
+      "WOOL": 0
+    },
+    "money": 1.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 27,
+    "day": 1,
+    "actor": 1,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 2,
+      "WOOL": 0
+    },
+    "money": 0.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 33,
+    "day": 1,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 0.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 33,
+    "day": 1,
+    "actor": 1,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PLACE",
+    "effect": true,
+    "inventory": {
+      "FERTILIZER": 1
+    },
+    "tile": {
+      "animal": "COW",
+      "cared_today": false,
+      "consecutive_unfed": 1,
+      "fed_today": false,
+      "fertilizer_available": true,
+      "kind": "PASTURE",
+      "pending_care_bonus": 0,
+      "placed_day": 0,
+      "yield_units": 0
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 0.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 49,
+    "day": 2,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "PICKUP",
+    "effect": true,
+    "inventory": {},
+    "tile": {
+      "kind": "PASTURE"
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 5,
+      "WOOL": 0
+    },
+    "money": 81.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 50,
+    "day": 2,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "FEED",
+    "effect": false,
+    "inventory": {
+      "WHEAT": 4
+    },
+    "tile": {
+      "kind": "PASTURE"
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 74.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 51,
+    "day": 2,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "CARE",
+    "effect": false,
+    "inventory": {
+      "WHEAT": 4
+    },
+    "tile": {
+      "kind": "PASTURE"
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 1,
+      "WOOL": 0
+    },
+    "money": 74.0
+  },
+  {
+    "episode_id": 111183131,
+    "t": 52,
+    "day": 2,
+    "actor": 0,
+    "pos": [
+      4,
+      4
+    ],
+    "op": "COLLECT_FERTILIZER",
+    "effect": false,
+    "inventory": {
+      "WHEAT": 4
+    },
+    "tile": {
+      "kind": "PASTURE"
+    },
+    "shed": {
+      "CARROT": 0,
+      "COW": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "GOOSE": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "SHEEP": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 0,
+      "WOOL": 0
+    },
+    "money": 104.0
+  }
+]

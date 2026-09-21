@@ -1,0 +1,168 @@
+{
+  "evaluations": {
+    "b_development_evaluation": {
+      "stage": "development",
+      "output_id": "b_development_evaluation",
+      "created_at_utc": "2026-09-21T05:10:24.441034+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0",
+        "b_simple",
+        "b_learned"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "mooman_e052a": {
+          "path": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+          "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "smart_farm": {
+          "path": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+          "sha256": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "souvik_v4": {
+          "path": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+          "sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092311,
+        2026092312,
+        2026092313,
+        2026092314,
+        2026092315
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 120,
+      "formal_strength_claim": false,
+      "reason": "development evidence; not fresh holdout"
+    },
+    "challenge_calibration": {
+      "stage": "calibration",
+      "output_id": "challenge_calibration",
+      "created_at_utc": "2026-09-21T04:51:58.444326+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "mooman_e052a": {
+          "path": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+          "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "smart_farm": {
+          "path": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+          "sha256": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "souvik_v4": {
+          "path": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+          "sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "ggmljs_v16": {
+          "path": "experiments\\research_20260910\\runtime\\ggmljs_v16\\main.py",
+          "sha256": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "robriculture_lean_feed": {
+          "path": "experiments\\research_20260911_continuations\\runtime\\robriculture_lean_feed\\main.py",
+          "sha256": "52a943bb917f84b5f08e7beb081c7a9105ed4c92f551408a6eb861e50f542812",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092306,
+        2026092307
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 24,
+      "formal_strength_claim": false,
+      "reason": "C0-only challenge sensitivity calibration"
+    },
+    "smoke_evaluation": {
+      "stage": "smoke",
+      "created_at_utc": "2026-09-21T03:54:35.425544+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0",
+        "b_simple",
+        "b_learned",
+        "a_baseline",
+        "a_learned",
+        "independent_bc"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092301
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 12,
+      "formal_strength_claim": false,
+      "reason": "smoke implementation evidence"
+    },
+    "smoke_repair1_evaluation": {
+      "stage": "smoke",
+      "output_id": "smoke_repair1_evaluation",
+      "created_at_utc": "2026-09-21T04:44:20.888010+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0",
+        "b_simple",
+        "b_learned",
+        "a_baseline",
+        "a_learned",
+        "independent_bc"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092301
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 12,
+      "formal_strength_claim": false,
+      "reason": "smoke implementation evidence"
+    }
+  }
+}

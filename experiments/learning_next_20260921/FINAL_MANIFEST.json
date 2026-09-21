@@ -1,0 +1,634 @@
+{
+  "created_at_utc": "2026-09-21T05:16:39.928667+00:00",
+  "study_id": "learning_next_20260921",
+  "c0": {
+    "path": "artifacts\\submissions\\v126_control_candidate.tar.gz",
+    "sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452"
+  },
+  "models": {
+    "b_model.npz": {
+      "path": "experiments\\learning_next_20260921\\models\\b_model.npz",
+      "sha256": "0f4d1ec50314658d32d52a17d47f6f20be3bb5b414a764a679c9e1724b767df5"
+    },
+    "a_model.npz": {
+      "path": "experiments\\learning_next_20260921\\models\\a_model.npz",
+      "sha256": "30a927c1bb836eaecb1d9eaca07156e2091bd53401aac6b433618aff94a13b02"
+    },
+    "bc_actor_model.npz": {
+      "path": "experiments\\learning_next_20260921\\models\\bc_actor_model.npz",
+      "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4"
+    },
+    "bc_market_model.npz": {
+      "path": "experiments\\learning_next_20260921\\models\\bc_market_model.npz",
+      "sha256": "f47c654329811e01272b0befdbcdb12e0e2b416d07860cd52f4930fc7f563a62"
+    }
+  },
+  "archives": {
+    "b_simple": {
+      "path": "artifacts\\submissions\\learning_next_20260921_b_simple.tar.gz",
+      "sha256": "50b8d8e43a46b207a5351d95d9dbf1b0319013b798aaf417d6ea69c25503c7fc",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 26,
+          "sha256": "39f68d87521c4f473efa48207ad4be952aaf90bcd8867c4f56aaaa3144977dad"
+        },
+        {
+          "name": "b_simple_model.json",
+          "bytes": 91208,
+          "sha256": "9995d868ce5f6afde67552ec8b90d4f51acf69dafd3d499ea1037e31049eec95"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+        },
+        {
+          "name": "main.py",
+          "bytes": 8991,
+          "sha256": "1bd6f01a8ddaacfc60a93399cf36f3503edf8a41eb963ddecac3b5c708878732"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        }
+      ],
+      "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\b_simple-3fac1d3af808432f99b2608ffdd52424"
+    },
+    "b_learned": {
+      "path": "artifacts\\submissions\\learning_next_20260921_b_learned.tar.gz",
+      "sha256": "de65eafe156a937718c583b4c4963bbe2c0f54a1462283dffcb20693ebf3fd51",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 27,
+          "sha256": "8c6d08b28ea50e3f60fbfff3c3abb03b3ce9710516dfbc74ca9cafcac8721a6d"
+        },
+        {
+          "name": "b_model.json",
+          "bytes": 505,
+          "sha256": "4a267da2c628b2defaa13356bb4aaab68834785ded67ad9d89631c0082dabe99"
+        },
+        {
+          "name": "b_model.npz",
+          "bytes": 46254,
+          "sha256": "0f4d1ec50314658d32d52a17d47f6f20be3bb5b414a764a679c9e1724b767df5"
+        },
+        {
+          "name": "b_simple_model.json",
+          "bytes": 91208,
+          "sha256": "9995d868ce5f6afde67552ec8b90d4f51acf69dafd3d499ea1037e31049eec95"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+        },
+        {
+          "name": "main.py",
+          "bytes": 8991,
+          "sha256": "1bd6f01a8ddaacfc60a93399cf36f3503edf8a41eb963ddecac3b5c708878732"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        }
+      ],
+      "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\b_learned-623f42b8c9ed4a46aaa7a3e3bf0c3295"
+    },
+    "a_baseline": {
+      "path": "artifacts\\submissions\\learning_next_20260921_a_baseline.tar.gz",
+      "sha256": "aafa413985261d20196321ff18fa9f651bd9b43946455de1a14a8a9f4bc254a0",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 28,
+          "sha256": "94bc3663b5f0f3919e94fde6c29157f4941ee0b0bfd7aac9f0557172135fdd70"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+        },
+        {
+          "name": "main.py",
+          "bytes": 9976,
+          "sha256": "541a53fc01244cb2ce2250ee226574cb3deb3c5008844d8e6b0836780ef50a66"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        }
+      ],
+      "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\a_baseline-bb795dd8bace43f7ae849731b52cefa0"
+    },
+    "a_learned": {
+      "path": "artifacts\\submissions\\learning_next_20260921_a_learned.tar.gz",
+      "sha256": "9b1f164903c696e5f5f7ea31104be96a1a7f94bf727e30a70d3e47bc3e014485",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "a_model.json",
+          "bytes": 498,
+          "sha256": "3e024fcb0fb9fd0a6121218630d0d8a8976a6486a517caf74e70f2c6a7b7fbe7"
+        },
+        {
+          "name": "a_model.npz",
+          "bytes": 41466,
+          "sha256": "30a927c1bb836eaecb1d9eaca07156e2091bd53401aac6b433618aff94a13b02"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 27,
+          "sha256": "8c6d08b28ea50e3f60fbfff3c3abb03b3ce9710516dfbc74ca9cafcac8721a6d"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+        },
+        {
+          "name": "main.py",
+          "bytes": 9976,
+          "sha256": "541a53fc01244cb2ce2250ee226574cb3deb3c5008844d8e6b0836780ef50a66"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        }
+      ],
+      "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\a_learned-8ef3e54e45f546248febf46bbf3505a8"
+    },
+    "independent_bc": {
+      "path": "artifacts\\submissions\\learning_next_20260921_independent_bc.tar.gz",
+      "sha256": "7b3da3332199124ebdf9639b2efb6b3736edcf50afa8972af4f8991dc6df23f0",
+      "members": [
+        {
+          "name": "bc_actor_model.json",
+          "bytes": 504,
+          "sha256": "bf3dd329c2e3b063de4b190e590fff5ab6570ee7aa60d8aea10dd361be6c455d"
+        },
+        {
+          "name": "bc_actor_model.npz",
+          "bytes": 54182,
+          "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4"
+        },
+        {
+          "name": "bc_market_model.json",
+          "bytes": 503,
+          "sha256": "53fd6e431eb3bfe770ef10b81993e29ccc3ef4a6b782b26c7face7f044b20fe4"
+        },
+        {
+          "name": "bc_market_model.npz",
+          "bytes": 41478,
+          "sha256": "f47c654329811e01272b0befdbcdb12e0e2b416d07860cd52f4930fc7f563a62"
+        },
+        {
+          "name": "bc_quantities.json",
+          "bytes": 1693,
+          "sha256": "377f4106c18ca10d7b85a51d3c96d0c3c7767671dd8647d0a00b2520d9361e20"
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+        },
+        {
+          "name": "main.py",
+          "bytes": 9213,
+          "sha256": "0be64207b3679670190940e959d348a94a0373a1b12461b4e1b0d931628beb57"
+        }
+      ],
+      "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\independent_bc-b708a0b52e4a49138d7c5cf1b6a2378a"
+    }
+  },
+  "evaluations": {
+    "b_development_evaluation": {
+      "stage": "development",
+      "output_id": "b_development_evaluation",
+      "created_at_utc": "2026-09-21T05:10:24.441034+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0",
+        "b_simple",
+        "b_learned"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "mooman_e052a": {
+          "path": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+          "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "smart_farm": {
+          "path": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+          "sha256": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "souvik_v4": {
+          "path": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+          "sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092311,
+        2026092312,
+        2026092313,
+        2026092314,
+        2026092315
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 120,
+      "formal_strength_claim": false,
+      "reason": "development evidence; not fresh holdout"
+    },
+    "challenge_calibration": {
+      "stage": "calibration",
+      "output_id": "challenge_calibration",
+      "created_at_utc": "2026-09-21T04:51:58.444326+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "mooman_e052a": {
+          "path": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+          "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "smart_farm": {
+          "path": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+          "sha256": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "souvik_v4": {
+          "path": "experiments\\research_20260910\\runtime\\souvik_v4\\main.py",
+          "sha256": "540d92b8982b9b387946a7c40731ee4ea81bcff5957ad39aadcc05813e57046b",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "ggmljs_v16": {
+          "path": "experiments\\research_20260910\\runtime\\ggmljs_v16\\main.py",
+          "sha256": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca",
+          "evidence_tier": "Silver public executable proxy"
+        },
+        "robriculture_lean_feed": {
+          "path": "experiments\\research_20260911_continuations\\runtime\\robriculture_lean_feed\\main.py",
+          "sha256": "52a943bb917f84b5f08e7beb081c7a9105ed4c92f551408a6eb861e50f542812",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092306,
+        2026092307
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 24,
+      "formal_strength_claim": false,
+      "reason": "C0-only challenge sensitivity calibration"
+    },
+    "smoke_evaluation": {
+      "stage": "smoke",
+      "created_at_utc": "2026-09-21T03:54:35.425544+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0",
+        "b_simple",
+        "b_learned",
+        "a_baseline",
+        "a_learned",
+        "independent_bc"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092301
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 12,
+      "formal_strength_claim": false,
+      "reason": "smoke implementation evidence"
+    },
+    "smoke_repair1_evaluation": {
+      "stage": "smoke",
+      "output_id": "smoke_repair1_evaluation",
+      "created_at_utc": "2026-09-21T04:44:20.888010+00:00",
+      "engine": "kaggle-environments==1.32.7",
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "arms": [
+        "c0",
+        "b_simple",
+        "b_learned",
+        "a_baseline",
+        "a_learned",
+        "independent_bc"
+      ],
+      "opponents": {
+        "qeinstein_moev2": {
+          "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+          "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+          "evidence_tier": "Silver public executable proxy"
+        }
+      },
+      "seeds": [
+        2026092301
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "games": 12,
+      "formal_strength_claim": false,
+      "reason": "smoke implementation evidence"
+    }
+  },
+  "files": {
+    "source_manifest.json": {
+      "bytes": 347977,
+      "sha256": "4f4e4fbd4a322c3aaedf27d1b03aef47ceaff51ffda91c602be50130f47707be"
+    },
+    "dataset_manifest.json": {
+      "bytes": 14036,
+      "sha256": "f922162264e2787ecdb1560c52fe84e62fcd3e4c7598b3f1c2f8c080e5ca6785"
+    },
+    "split_manifest.json": {
+      "bytes": 23814,
+      "sha256": "cb8aab7dc031166d31167397379dbe7aa233f1b096774d8342fa1af4d1d10376"
+    },
+    "feature_schema.json": {
+      "bytes": 34501,
+      "sha256": "189626f3c59a64e386b47b4d0341521fba16806451e42d6870e95b64db85deb5"
+    },
+    "offline_metrics.json": {
+      "bytes": 165906,
+      "sha256": "a38a0d81522224188748f5e3818f0d07df7a5735d8a575a91c08e1df6812191c"
+    },
+    "model_usage.json": {
+      "bytes": 3477,
+      "sha256": "4bf7f83cdde19677fd172b455e9ca1474aa0ad5003bc0ebd1c3ef1414ababd79"
+    },
+    "paired_results.csv": {
+      "bytes": 74168,
+      "sha256": "86af6a0d60de069a5098254fc647c515390761d4c6bfd250ee2340c11b31338a"
+    },
+    "payoff_by_family.csv": {
+      "bytes": 2234,
+      "sha256": "66df114ef00b49fc535783cf35c42c5c6c3b026f02d7be972aad7b0c9fb136d9"
+    },
+    "paired_summary.json": {
+      "bytes": 3831,
+      "sha256": "b5f5668fb8e85ae74c1ebc3496eacfb978a69b114122fa14457f15863380d628"
+    },
+    "evaluation_manifest.json": {
+      "bytes": 6125,
+      "sha256": "9a5b602e913872d285b4a1b8dea6b37ff99adad62a174fb59661815770f917e4"
+    },
+    "inference_benchmark.json": {
+      "bytes": 7625,
+      "sha256": "ad9917bb835396513ff638a7f9023285c69d1b4f7004cc585d0726ae0ccdbcc4"
+    },
+    "archive_manifest.json": {
+      "bytes": 13565,
+      "sha256": "53598048e6569e8c231f78515968e5e3ffb3e6ea4b4d5f4d4c31942c87c7558b"
+    },
+    "package_validation.json": {
+      "bytes": 2698,
+      "sha256": "97543509ab8c162d2a7e3e9c6d955733a45fb868d76bb8170d8d06c0a189178a"
+    },
+    "engine_comparison.json": {
+      "bytes": 1514,
+      "sha256": "68c8cc46ce25eb9cceda9b58e01b2701a0489720d1060ca0c7aabdafeca719d1"
+    },
+    "repair_history.json": {
+      "bytes": 2777,
+      "sha256": "4b38b1e1e34bfe9d8ed3d2ea0e4da05a83efbc3864a6536c900bae3b51a58362"
+    },
+    "verification.json": {
+      "bytes": 1294,
+      "sha256": "8694d7224ccb6958d6235fead8dfa0eff326af8fb8acff92aedbe5c665a4bcc3"
+    },
+    "commands.jsonl": {
+      "bytes": 8952,
+      "sha256": "dcc1e3bde4634f71cadd7bb2f017543e27fbfc8e27550b67799a1048a0b27a28"
+    },
+    "RESUME_COMMANDS.md": {
+      "bytes": 2502,
+      "sha256": "fa4667d0d7eaa40e8d16b6960e24110a6b0813de0caf35b1107dd373559ce679"
+    },
+    "REPORT_JA.md": {
+      "bytes": 11719,
+      "sha256": "3d71c5ec4a8af466e1a17675490a073fe323e685a0fc6f3bde451cdc9e408feb"
+    }
+  },
+  "kaggle_submission_performed": false,
+  "rating_3000_claimed": false
+}

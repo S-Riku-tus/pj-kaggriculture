@@ -1,0 +1,14 @@
+{
+  "task": "bc",
+  "architecture": "319-32-44 ReLU MLP",
+  "seed": 20260921,
+  "train_rows": 579777,
+  "validation_rows": 126799,
+  "test_rows": 126561,
+  "optimizer_steps": 2272,
+  "best_validation_loss": 0.7708055816932704,
+  "parameter_change_l2": 19.330583238742506,
+  "checkpoint": "experiments\\learning_next_20260921\\models\\bc_actor_model.npz",
+  "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4",
+  "saved_at_utc": "2026-09-21T04:37:42.380743+00:00"
+}

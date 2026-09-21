@@ -1,0 +1,549 @@
+{
+  "created_at_utc": "2026-09-21T05:16:39.709041+00:00",
+  "tasks": {
+    "b": {
+      "task": "B opponent requested-SELL event and quantity",
+      "source_unique_episodes": 850,
+      "episode_counts": {
+        "train": 595,
+        "validation": 127,
+        "test": 128
+      },
+      "row_stride": 2,
+      "horizons": [
+        1,
+        4,
+        24
+      ],
+      "products": [
+        "WHEAT",
+        "CARROT",
+        "TOMATO",
+        "STRAWBERRY",
+        "MELON",
+        "EGG",
+        "MILK",
+        "WOOL",
+        "FERTILIZER"
+      ],
+      "label_semantics": "requested SELL quantity from steps[t+1:t+h+1], not claimed executed quantity",
+      "feature_count": 233,
+      "mapping_evidence": {
+        "PICKUP": {
+          "episode_id": 108700415,
+          "observation_index": 1,
+          "action_index": 2
+        },
+        "WEST": {
+          "episode_id": 108700415,
+          "observation_index": 7,
+          "action_index": 8
+        },
+        "NORTH": {
+          "episode_id": 108700415,
+          "observation_index": 16,
+          "action_index": 17
+        },
+        "DAY_BOUNDARY": {
+          "episode_id": 108700415,
+          "observation_index": 23,
+          "action_index": 24
+        },
+        "SOUTH": {
+          "episode_id": 108700415,
+          "observation_index": 28,
+          "action_index": 29
+        },
+        "EAST": {
+          "episode_id": 108700415,
+          "observation_index": 52,
+          "action_index": 53
+        }
+      },
+      "label_distribution": {
+        "event_validation": 615491,
+        "event_train": 2879494,
+        "event_test": 651617
+      },
+      "arrays": {
+        "x_validation": [
+          91440,
+          233
+        ],
+        "event_validation": [
+          91440,
+          27
+        ],
+        "quantity_validation": [
+          91440,
+          27
+        ],
+        "family_validation": [
+          91440
+        ],
+        "x_train": [
+          428400,
+          233
+        ],
+        "event_train": [
+          428400,
+          27
+        ],
+        "quantity_train": [
+          428400,
+          27
+        ],
+        "family_train": [
+          428400
+        ],
+        "x_test": [
+          92160,
+          233
+        ],
+        "event_test": [
+          92160,
+          27
+        ],
+        "quantity_test": [
+          92160,
+          27
+        ],
+        "family_test": [
+          92160
+        ]
+      },
+      "created_at_utc": "2026-09-21T04:19:03.178599+00:00"
+    },
+    "a": {
+      "task": "A executable work-task selection",
+      "teacher_submission": 56216119,
+      "teacher_episodes": 579,
+      "episode_counts": {
+        "test": 88,
+        "train": 403,
+        "validation": 88
+      },
+      "teacher_selection_fixed_before_test": true,
+      "classes": [
+        "FEED",
+        "CARE",
+        "WATER",
+        "FERTILIZE",
+        "HARVEST",
+        "COLLECT_FERTILIZER",
+        "PICKUP",
+        "PLACE",
+        "DROP",
+        "PLANT",
+        "DIG"
+      ],
+      "feature_count": 275,
+      "candidate_coverage": {
+        "teacher_work_actions": 2163233,
+        "candidate_covered": 2079454,
+        "excluded:CARE": 18837,
+        "excluded:HARVEST": 64942
+      },
+      "label_distribution": {
+        "test": {
+          "PICKUP": 17128,
+          "PLACE": 10103,
+          "FEED": 27439,
+          "CARE": 25455,
+          "PLANT": 25118,
+          "WATER": 121266,
+          "COLLECT_FERTILIZER": 32038,
+          "HARVEST": 34264,
+          "DROP": 6685,
+          "FERTILIZE": 13968,
+          "DIG": 3046
+        },
+        "train": {
+          "PICKUP": 78820,
+          "PLACE": 46691,
+          "FEED": 125310,
+          "CARE": 116237,
+          "PLANT": 112085,
+          "WATER": 553914,
+          "COLLECT_FERTILIZER": 147327,
+          "HARVEST": 155347,
+          "DROP": 30828,
+          "FERTILIZE": 64985,
+          "DIG": 14498
+        },
+        "validation": {
+          "PICKUP": 17213,
+          "PLACE": 10152,
+          "FEED": 28014,
+          "CARE": 25952,
+          "PLANT": 24803,
+          "WATER": 120126,
+          "COLLECT_FERTILIZER": 32809,
+          "HARVEST": 33931,
+          "DROP": 6591,
+          "FERTILIZE": 14206,
+          "DIG": 3105
+        }
+      },
+      "quality_rule": "completed public teacher episodes; only pre-action locally executable work labels; wins and losses retained without outcome as input",
+      "arrays": {
+        "x_test": [
+          316510,
+          275
+        ],
+        "y_test": [
+          316510
+        ],
+        "baseline_test": [
+          316510
+        ],
+        "x_train": [
+          1446042,
+          275
+        ],
+        "y_train": [
+          1446042
+        ],
+        "baseline_train": [
+          1446042
+        ],
+        "x_validation": [
+          316902,
+          275
+        ],
+        "y_validation": [
+          316902
+        ],
+        "baseline_validation": [
+          316902
+        ]
+      },
+      "created_at_utc": "2026-09-21T04:40:54.638670+00:00"
+    },
+    "bc": {
+      "task": "independent structured behavioral cloning",
+      "teacher_submission": 56216119,
+      "teacher_episodes": 579,
+      "episode_counts": {
+        "test": 88,
+        "train": 403,
+        "validation": 88
+      },
+      "actor_classes": [
+        "PASS",
+        "NORTH",
+        "SOUTH",
+        "EAST",
+        "WEST",
+        "WATER",
+        "HARVEST",
+        "FERTILIZE",
+        "CARE",
+        "FEED",
+        "COLLECT_FERTILIZER",
+        "DIG",
+        "DROP",
+        "BUILD_COOP",
+        "BUILD_PASTURE",
+        "PLANT:WHEAT",
+        "PLANT:CARROT",
+        "PLANT:TOMATO",
+        "PLANT:STRAWBERRY",
+        "PLANT:MELON",
+        "PICKUP:WHEAT",
+        "PICKUP:CARROT",
+        "PICKUP:TOMATO",
+        "PICKUP:STRAWBERRY",
+        "PICKUP:MELON",
+        "PICKUP:EGG",
+        "PICKUP:MILK",
+        "PICKUP:WOOL",
+        "PICKUP:FERTILIZER",
+        "PICKUP:GOOSE",
+        "PICKUP:COW",
+        "PICKUP:SHEEP",
+        "PLACE:WHEAT",
+        "PLACE:CARROT",
+        "PLACE:TOMATO",
+        "PLACE:STRAWBERRY",
+        "PLACE:MELON",
+        "PLACE:EGG",
+        "PLACE:MILK",
+        "PLACE:WOOL",
+        "PLACE:FERTILIZER",
+        "PLACE:GOOSE",
+        "PLACE:COW",
+        "PLACE:SHEEP"
+      ],
+      "market_classes": [
+        "EOS",
+        "HIRE",
+        "BUY_LAND",
+        "BUY_SEED:WHEAT",
+        "BUY_SEED:CARROT",
+        "BUY_SEED:TOMATO",
+        "BUY_SEED:STRAWBERRY",
+        "BUY_SEED:MELON",
+        "BUY_PRODUCT:WHEAT",
+        "BUY_PRODUCT:FERTILIZER",
+        "BUY_ANIMAL:GOOSE",
+        "BUY_ANIMAL:COW",
+        "BUY_ANIMAL:SHEEP",
+        "SELL:WHEAT",
+        "SELL:CARROT",
+        "SELL:TOMATO",
+        "SELL:STRAWBERRY",
+        "SELL:MELON",
+        "SELL:EGG",
+        "SELL:MILK",
+        "SELL:WOOL",
+        "SELL:FERTILIZER"
+      ],
+      "actor_feature_count": 319,
+      "actor_history": "previous actor action token one-hot; added after first closed-loop failure",
+      "market_feature_count": 256,
+      "actor_eligible_rows": 4169811,
+      "actor_deterministic_sampled_rows": 833137,
+      "actor_representation_coverage": 1.0,
+      "market_order_preserved": true,
+      "excluded": {},
+      "actor_label_distribution": {
+        "test": {
+          "PICKUP:COW": 267,
+          "PLACE:COW": 206,
+          "WEST": 16460,
+          "PLACE:SHEEP": 87,
+          "CARE": 5614,
+          "FEED": 5512,
+          "PLANT:MELON": 209,
+          "NORTH": 19499,
+          "WATER": 24142,
+          "PLANT:WHEAT": 2835,
+          "COLLECT_FERTILIZER": 6361,
+          "PICKUP:WHEAT": 2899,
+          "SOUTH": 11708,
+          "EAST": 12085,
+          "PLACE:FERTILIZER": 1027,
+          "PASS": 978,
+          "HARVEST": 8930,
+          "PLANT:STRAWBERRY": 541,
+          "DROP": 1306,
+          "PICKUP:GOOSE": 54,
+          "PLACE:GOOSE": 25,
+          "BUILD_PASTURE": 284,
+          "PLACE:MILK": 487,
+          "FERTILIZE": 2712,
+          "PLANT:TOMATO": 165,
+          "PLANT:CARROT": 1259,
+          "DIG": 611,
+          "PICKUP:SHEEP": 117,
+          "BUILD_COOP": 23,
+          "PLACE:WOOL": 156,
+          "PICKUP:MELON": 2
+        },
+        "train": {
+          "NORTH": 89500,
+          "PLACE:SHEEP": 434,
+          "WATER": 110766,
+          "WEST": 76184,
+          "PLANT:WHEAT": 12969,
+          "PLANT:MELON": 978,
+          "COLLECT_FERTILIZER": 29323,
+          "PLACE:FERTILIZER": 4869,
+          "SOUTH": 53438,
+          "EAST": 54657,
+          "FEED": 25013,
+          "CARE": 25551,
+          "HARVEST": 39949,
+          "PASS": 4602,
+          "PICKUP:WHEAT": 13576,
+          "PLANT:STRAWBERRY": 2456,
+          "DROP": 6187,
+          "PICKUP:COW": 1429,
+          "PLACE:COW": 914,
+          "PICKUP:GOOSE": 255,
+          "BUILD_PASTURE": 1232,
+          "BUILD_COOP": 83,
+          "PLACE:MILK": 2201,
+          "PLACE:WOOL": 747,
+          "FERTILIZE": 13069,
+          "DIG": 2854,
+          "PLANT:CARROT": 5115,
+          "PLANT:TOMATO": 758,
+          "PICKUP:SHEEP": 529,
+          "PLACE:GOOSE": 134,
+          "PLACE:MELON": 2,
+          "PICKUP:MELON": 2,
+          "PICKUP:STRAWBERRY": 1
+        },
+        "validation": {
+          "PICKUP:SHEEP": 131,
+          "NORTH": 19423,
+          "FEED": 5477,
+          "PLACE:SHEEP": 104,
+          "WEST": 16474,
+          "CARE": 5730,
+          "PLANT:MELON": 215,
+          "PLANT:WHEAT": 2848,
+          "WATER": 24095,
+          "PASS": 999,
+          "EAST": 11988,
+          "COLLECT_FERTILIZER": 6596,
+          "SOUTH": 11576,
+          "PICKUP:WHEAT": 3085,
+          "PLACE:FERTILIZER": 1038,
+          "PLANT:STRAWBERRY": 506,
+          "DROP": 1308,
+          "HARVEST": 8906,
+          "PICKUP:GOOSE": 29,
+          "PLACE:GOOSE": 15,
+          "BUILD_COOP": 24,
+          "BUILD_PASTURE": 259,
+          "PLACE:MILK": 498,
+          "PLACE:COW": 217,
+          "FERTILIZE": 2789,
+          "PLANT:TOMATO": 174,
+          "DIG": 588,
+          "PLANT:CARROT": 1183,
+          "PICKUP:COW": 321,
+          "PLACE:WOOL": 202,
+          "PLACE:MELON": 1
+        }
+      },
+      "market_label_distribution": {
+        "test": {
+          "BUY_ANIMAL:COW": 630,
+          "BUY_PRODUCT:WHEAT": 1850,
+          "EOS": 31680,
+          "SELL:WHEAT": 4358,
+          "BUY_SEED:WHEAT": 6831,
+          "HIRE": 19541,
+          "SELL:FERTILIZER": 4610,
+          "BUY_SEED:MELON": 220,
+          "BUY_SEED:STRAWBERRY": 1368,
+          "SELL:WOOL": 961,
+          "BUY_ANIMAL:GOOSE": 53,
+          "SELL:MILK": 1002,
+          "SELL:MELON": 591,
+          "SELL:STRAWBERRY": 1284,
+          "SELL:EGG": 522,
+          "BUY_SEED:TOMATO": 273,
+          "SELL:CARROT": 1225,
+          "BUY_SEED:CARROT": 304,
+          "SELL:TOMATO": 900,
+          "BUY_ANIMAL:SHEEP": 184,
+          "BUY_LAND": 29
+        },
+        "train": {
+          "BUY_ANIMAL:COW": 2941,
+          "BUY_PRODUCT:WHEAT": 8298,
+          "EOS": 145080,
+          "SELL:WHEAT": 20226,
+          "BUY_SEED:WHEAT": 32318,
+          "HIRE": 89509,
+          "SELL:FERTILIZER": 21082,
+          "BUY_SEED:MELON": 942,
+          "BUY_SEED:STRAWBERRY": 6390,
+          "SELL:WOOL": 4449,
+          "BUY_ANIMAL:GOOSE": 254,
+          "SELL:MILK": 4971,
+          "SELL:MELON": 2746,
+          "SELL:EGG": 2351,
+          "SELL:STRAWBERRY": 5931,
+          "BUY_SEED:CARROT": 1114,
+          "SELL:CARROT": 4966,
+          "SELL:TOMATO": 4019,
+          "BUY_SEED:TOMATO": 1298,
+          "BUY_ANIMAL:SHEEP": 764,
+          "BUY_LAND": 188
+        },
+        "validation": {
+          "BUY_ANIMAL:COW": 634,
+          "BUY_PRODUCT:WHEAT": 1801,
+          "EOS": 31680,
+          "SELL:WHEAT": 4389,
+          "BUY_SEED:WHEAT": 6992,
+          "HIRE": 19543,
+          "SELL:FERTILIZER": 4563,
+          "BUY_SEED:MELON": 206,
+          "BUY_SEED:STRAWBERRY": 1334,
+          "SELL:WOOL": 1049,
+          "BUY_ANIMAL:GOOSE": 43,
+          "SELL:MILK": 1113,
+          "SELL:MELON": 572,
+          "SELL:EGG": 394,
+          "BUY_SEED:TOMATO": 291,
+          "BUY_ANIMAL:SHEEP": 204,
+          "SELL:STRAWBERRY": 1170,
+          "SELL:TOMATO": 954,
+          "SELL:CARROT": 1142,
+          "BUY_SEED:CARROT": 266,
+          "BUY_LAND": 42
+        }
+      },
+      "arrays": {
+        "market_x_test": [
+          78416,
+          256
+        ],
+        "market_y_test": [
+          78416
+        ],
+        "market_quantity_test": [
+          78416
+        ],
+        "actor_x_test": [
+          126561,
+          319
+        ],
+        "actor_y_test": [
+          126561
+        ],
+        "actor_quantity_test": [
+          126561
+        ],
+        "market_x_train": [
+          359837,
+          256
+        ],
+        "market_y_train": [
+          359837
+        ],
+        "market_quantity_train": [
+          359837
+        ],
+        "actor_x_train": [
+          579777,
+          319
+        ],
+        "actor_y_train": [
+          579777
+        ],
+        "actor_quantity_train": [
+          579777
+        ],
+        "market_x_validation": [
+          78382,
+          256
+        ],
+        "market_y_validation": [
+          78382
+        ],
+        "market_quantity_validation": [
+          78382
+        ],
+        "actor_x_validation": [
+          126799,
+          319
+        ],
+        "actor_y_validation": [
+          126799
+        ],
+        "actor_quantity_validation": [
+          126799
+        ]
+      },
+      "created_at_utc": "2026-09-21T04:37:14.885732+00:00"
+    }
+  }
+}

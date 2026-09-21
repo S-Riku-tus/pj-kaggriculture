@@ -1,0 +1,59 @@
+{
+  "validated_at_utc": "2026-09-21T04:52:40.421379+00:00",
+  "results": [
+    {
+      "arm": "c0",
+      "archive": "artifacts\\submissions\\v126_control_candidate.tar.gz",
+      "archive_sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+      "extracted_path": "C:\\tmp\\kaggriculture-learning-next-20260921\\validation-20260921-135229\\c0",
+      "separate_process_exit_code": 0,
+      "stdout": "1.2601743999985047 True",
+      "stderr": ""
+    },
+    {
+      "arm": "b_simple",
+      "archive": "artifacts\\submissions\\learning_next_20260921_b_simple.tar.gz",
+      "archive_sha256": "50b8d8e43a46b207a5351d95d9dbf1b0319013b798aaf417d6ea69c25503c7fc",
+      "extracted_path": "C:\\tmp\\kaggriculture-learning-next-20260921\\validation-20260921-135229\\b_simple",
+      "separate_process_exit_code": 0,
+      "stdout": "1.3693408999824896 True",
+      "stderr": ""
+    },
+    {
+      "arm": "b_learned",
+      "archive": "artifacts\\submissions\\learning_next_20260921_b_learned.tar.gz",
+      "archive_sha256": "de65eafe156a937718c583b4c4963bbe2c0f54a1462283dffcb20693ebf3fd51",
+      "extracted_path": "C:\\tmp\\kaggriculture-learning-next-20260921\\validation-20260921-135229\\b_learned",
+      "separate_process_exit_code": 0,
+      "stdout": "1.489389599999413 True",
+      "stderr": ""
+    },
+    {
+      "arm": "a_baseline",
+      "archive": "artifacts\\submissions\\learning_next_20260921_a_baseline.tar.gz",
+      "archive_sha256": "aafa413985261d20196321ff18fa9f651bd9b43946455de1a14a8a9f4bc254a0",
+      "extracted_path": "C:\\tmp\\kaggriculture-learning-next-20260921\\validation-20260921-135229\\a_baseline",
+      "separate_process_exit_code": 0,
+      "stdout": "1.4848310999805108 True",
+      "stderr": ""
+    },
+    {
+      "arm": "a_learned",
+      "archive": "artifacts\\submissions\\learning_next_20260921_a_learned.tar.gz",
+      "archive_sha256": "9b1f164903c696e5f5f7ea31104be96a1a7f94bf727e30a70d3e47bc3e014485",
+      "extracted_path": "C:\\tmp\\kaggriculture-learning-next-20260921\\validation-20260921-135229\\a_learned",
+      "separate_process_exit_code": 0,
+      "stdout": "1.5128089999780059 True",
+      "stderr": ""
+    },
+    {
+      "arm": "independent_bc",
+      "archive": "artifacts\\submissions\\learning_next_20260921_independent_bc.tar.gz",
+      "archive_sha256": "7b3da3332199124ebdf9639b2efb6b3736edcf50afa8972af4f8991dc6df23f0",
+      "extracted_path": "C:\\tmp\\kaggriculture-learning-next-20260921\\validation-20260921-135229\\independent_bc",
+      "separate_process_exit_code": 0,
+      "stdout": "0.19873639999423176 True",
+      "stderr": ""
+    }
+  ]
+}

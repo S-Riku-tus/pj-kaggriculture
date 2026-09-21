@@ -1,0 +1,113 @@
+{
+  "task": "B opponent requested-SELL event and quantity",
+  "source_unique_episodes": 850,
+  "episode_counts": {
+    "train": 595,
+    "validation": 127,
+    "test": 128
+  },
+  "row_stride": 2,
+  "horizons": [
+    1,
+    4,
+    24
+  ],
+  "products": [
+    "WHEAT",
+    "CARROT",
+    "TOMATO",
+    "STRAWBERRY",
+    "MELON",
+    "EGG",
+    "MILK",
+    "WOOL",
+    "FERTILIZER"
+  ],
+  "label_semantics": "requested SELL quantity from steps[t+1:t+h+1], not claimed executed quantity",
+  "feature_count": 233,
+  "mapping_evidence": {
+    "PICKUP": {
+      "episode_id": 108700415,
+      "observation_index": 1,
+      "action_index": 2
+    },
+    "WEST": {
+      "episode_id": 108700415,
+      "observation_index": 7,
+      "action_index": 8
+    },
+    "NORTH": {
+      "episode_id": 108700415,
+      "observation_index": 16,
+      "action_index": 17
+    },
+    "DAY_BOUNDARY": {
+      "episode_id": 108700415,
+      "observation_index": 23,
+      "action_index": 24
+    },
+    "SOUTH": {
+      "episode_id": 108700415,
+      "observation_index": 28,
+      "action_index": 29
+    },
+    "EAST": {
+      "episode_id": 108700415,
+      "observation_index": 52,
+      "action_index": 53
+    }
+  },
+  "label_distribution": {
+    "event_validation": 615491,
+    "event_train": 2879494,
+    "event_test": 651617
+  },
+  "arrays": {
+    "x_validation": [
+      91440,
+      233
+    ],
+    "event_validation": [
+      91440,
+      27
+    ],
+    "quantity_validation": [
+      91440,
+      27
+    ],
+    "family_validation": [
+      91440
+    ],
+    "x_train": [
+      428400,
+      233
+    ],
+    "event_train": [
+      428400,
+      27
+    ],
+    "quantity_train": [
+      428400,
+      27
+    ],
+    "family_train": [
+      428400
+    ],
+    "x_test": [
+      92160,
+      233
+    ],
+    "event_test": [
+      92160,
+      27
+    ],
+    "quantity_test": [
+      92160,
+      27
+    ],
+    "family_test": [
+      92160
+    ]
+  },
+  "created_at_utc": "2026-09-21T04:19:03.178599+00:00"
+}

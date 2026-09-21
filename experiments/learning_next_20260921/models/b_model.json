@@ -1,0 +1,14 @@
+{
+  "task": "B",
+  "architecture": "233-32-54 ReLU multi-head MLP",
+  "seed": 20260921,
+  "train_rows": 428400,
+  "validation_rows": 91440,
+  "test_rows": 92160,
+  "optimizer_steps": 1680,
+  "best_validation_loss": 0.19758954450937066,
+  "parameter_change_l2": 16.65549626353722,
+  "checkpoint": "experiments\\learning_next_20260921\\models\\b_model.npz",
+  "sha256": "0f4d1ec50314658d32d52a17d47f6f20be3bb5b414a764a679c9e1724b767df5",
+  "saved_at_utc": "2026-09-21T04:21:13.450520+00:00"
+}

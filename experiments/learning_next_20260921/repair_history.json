@@ -1,0 +1,39 @@
+{
+  "policy": "Failed trials are retained; later repair evaluations use a distinct output_id.",
+  "trial_1": {
+    "evaluation": "experiments/learning_next_20260921/smoke_evaluation",
+    "b_model_sha256": "0e102d73c2857691b1f125aa5d792e5f886fba6a0575dab5091f1950a151b239",
+    "a_model_sha256": "f171a84a8d2cb74187c66e7d99a0be200cb1b42789ac4657f9b1ff962409d7b6",
+    "bc_actor_model_sha256": "9a3ba2fefdcdf321b0b44051fe7763328affb6d68b90efaca1bc870db4811c5e",
+    "bc_market_model_sha256": "0e89fc67a4c483923584bf55832cd306dfa054b4ee51e8517420ccd2762e181b",
+    "observations": {
+      "B": "Both seats completed and won; learned changed 3 aggregate actions, but margin was 299 below C0 in both pairs.",
+      "A": "Both learned and non-learned executor lost. 714/719 turns differed per seat from turn 2.",
+      "BC": "Both seats completed but lost; 719/719 turns differed per seat from turn 0."
+    },
+    "first_failure_classification": {
+      "A": "decoder: op-only class dropped required PICKUP/PLACE/PLANT item and quantity arguments",
+      "BC": "representation/history: state-only actor head was ambiguous and diverged at turn 0"
+    }
+  },
+  "repair_1": {
+    "changes": [
+      "A preserves a legal structured C0 action when the chosen op matches and otherwise materializes a legal token.",
+      "A only intervenes at an actual C0 work boundary and observation-checks multi-turn FEED jobs.",
+      "BC actor input includes its previous action token.",
+      "BC sequential market decode reserves exact seed/animal/land/hire costs and deterministic product-buy prices.",
+      "All arms add focal seat plus public per-product age/yield/maintenance/production-phase features.",
+      "Actor features add age, lifespan, maintenance streaks, inventory total, and shed distance."
+    ],
+    "requires_rebuild_and_retrain": ["B", "A", "independent_BC"],
+    "result": {
+      "evaluation": "experiments/learning_next_20260921/smoke_repair1_evaluation",
+      "all_games_complete": true,
+      "stored_states_per_game": 720,
+      "B": "Both seats won; 4/4 changed actions succeeded; mean paired margin -4 with no score change. Advanced to development.",
+      "A": "Both seats completed legally, but both changed C0 wins to losses. First difference was turn 4 and 1277 total turn-actions differed. Rejected early.",
+      "BC": "Both seats completed legally, but both changed C0 wins to losses. Previous-action history and reservations did not cure turn-0 exposure error; 1437/1438 turn-actions differed. Rejected early.",
+      "B_development": "40/40 wins for C0, simple, and learned. Learned paired score delta 0 and margin delta +13.85; simple margin delta -303.175. No fresh holdout because the preregistered positive win-score condition was not met."
+    }
+  }
+}

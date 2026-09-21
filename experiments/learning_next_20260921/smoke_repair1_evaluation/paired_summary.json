@@ -1,0 +1,74 @@
+{
+  "c0": {
+    "games": 2,
+    "mean_paired_win_score_delta": 0.0,
+    "mean_paired_margin_delta": 0.0,
+    "loss_to_win": 0,
+    "win_to_loss": 0,
+    "cluster_bootstrap_95pct_mean_score_delta": [
+      0.0,
+      0.0
+    ],
+    "cluster_unit": "opponent_family x requested_seed; both seats retained within each cluster"
+  },
+  "b_simple": {
+    "games": 2,
+    "mean_paired_win_score_delta": 0.0,
+    "mean_paired_margin_delta": -299.0,
+    "loss_to_win": 0,
+    "win_to_loss": 0,
+    "cluster_bootstrap_95pct_mean_score_delta": [
+      0.0,
+      0.0
+    ],
+    "cluster_unit": "opponent_family x requested_seed; both seats retained within each cluster"
+  },
+  "b_learned": {
+    "games": 2,
+    "mean_paired_win_score_delta": 0.0,
+    "mean_paired_margin_delta": -4.0,
+    "loss_to_win": 0,
+    "win_to_loss": 0,
+    "cluster_bootstrap_95pct_mean_score_delta": [
+      0.0,
+      0.0
+    ],
+    "cluster_unit": "opponent_family x requested_seed; both seats retained within each cluster"
+  },
+  "a_baseline": {
+    "games": 2,
+    "mean_paired_win_score_delta": -1.0,
+    "mean_paired_margin_delta": -202226.0,
+    "loss_to_win": 0,
+    "win_to_loss": 2,
+    "cluster_bootstrap_95pct_mean_score_delta": [
+      -1.0,
+      -1.0
+    ],
+    "cluster_unit": "opponent_family x requested_seed; both seats retained within each cluster"
+  },
+  "a_learned": {
+    "games": 2,
+    "mean_paired_win_score_delta": -1.0,
+    "mean_paired_margin_delta": -156901.0,
+    "loss_to_win": 0,
+    "win_to_loss": 2,
+    "cluster_bootstrap_95pct_mean_score_delta": [
+      -1.0,
+      -1.0
+    ],
+    "cluster_unit": "opponent_family x requested_seed; both seats retained within each cluster"
+  },
+  "independent_bc": {
+    "games": 2,
+    "mean_paired_win_score_delta": -1.0,
+    "mean_paired_margin_delta": -147941.5,
+    "loss_to_win": 0,
+    "win_to_loss": 2,
+    "cluster_bootstrap_95pct_mean_score_delta": [
+      -1.0,
+      -1.0
+    ],
+    "cluster_unit": "opponent_family x requested_seed; both seats retained within each cluster"
+  }
+}

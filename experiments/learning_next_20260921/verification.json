@@ -1,0 +1,31 @@
+{
+  "executed_at_jst": "2026-09-21T14:12:00+09:00",
+  "commands": [
+    {
+      "command": "uv run pytest -q",
+      "exit_code": 0,
+      "result": "318 tests passed (303 pre-existing plus 15 learning-next tests)",
+      "duration_seconds": 69.5,
+      "warning": "pytest cache path could not be written; test execution itself passed"
+    },
+    {
+      "command": "uv run ruff check agents\\learning_next_20260921 scripts\\learning_next_pipeline.py scripts\\learning_next_evaluate.py scripts\\learning_next_finalize.py tests\\test_learning_next.py",
+      "exit_code": 0,
+      "result": "All checks passed",
+      "duration_seconds": 3.1
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe artifacts\\v125_followup_evidence\\scripts\\verify_fixtures.py",
+      "exit_code": 0,
+      "result": "PASS; 12 failed-transfer records and 4 exit cases verified"
+    }
+  ],
+  "learning_next_test_scope": [
+    "observation[t] -> steps[t+1] mapping and MOVE/BUY/PICKUP/HARVEST/day-boundary state changes",
+    "both-seat reconstruction and forbidden-field invariance",
+    "episode split and duplicate constraint",
+    "fixed-engine market order/floor/cash/order-cap behavior",
+    "joint seed reservations and independent-BC import boundary",
+    "missing checkpoint fails explicitly"
+  ]
+}

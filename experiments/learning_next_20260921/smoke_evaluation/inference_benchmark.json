@@ -1,0 +1,56 @@
+{
+  "c0": {
+    "games": 2,
+    "cold_start_max_seconds": 1.4291743999929167,
+    "inference_p50_seconds": 0.0034615500189829618,
+    "inference_p95_seconds": 0.007009759981883692,
+    "inference_p99_seconds": 0.009714945986634122,
+    "inference_max_seconds": 0.32707609998760745,
+    "memory_note": "process RSS not isolated from engine; environment RAM recorded separately"
+  },
+  "b_simple": {
+    "games": 2,
+    "cold_start_max_seconds": 1.3728119000443257,
+    "inference_p50_seconds": 0.003563250007573515,
+    "inference_p95_seconds": 0.007266360020730645,
+    "inference_p99_seconds": 0.010794174022739777,
+    "inference_max_seconds": 0.328594799968414,
+    "memory_note": "process RSS not isolated from engine; environment RAM recorded separately"
+  },
+  "b_learned": {
+    "games": 2,
+    "cold_start_max_seconds": 1.43234429997392,
+    "inference_p50_seconds": 0.0038698499847669154,
+    "inference_p95_seconds": 0.006921000010333955,
+    "inference_p99_seconds": 0.01120006802841092,
+    "inference_max_seconds": 0.7395025999867357,
+    "memory_note": "process RSS not isolated from engine; environment RAM recorded separately"
+  },
+  "a_baseline": {
+    "games": 2,
+    "cold_start_max_seconds": 1.3860734999761917,
+    "inference_p50_seconds": 0.0025046499795280397,
+    "inference_p95_seconds": 0.004097219987306744,
+    "inference_p99_seconds": 0.005578879977110796,
+    "inference_max_seconds": 0.6839839000022039,
+    "memory_note": "process RSS not isolated from engine; environment RAM recorded separately"
+  },
+  "a_learned": {
+    "games": 2,
+    "cold_start_max_seconds": 1.7018756000325084,
+    "inference_p50_seconds": 0.0032387500104960054,
+    "inference_p95_seconds": 0.006135070003801958,
+    "inference_p99_seconds": 0.007630850006826228,
+    "inference_max_seconds": 0.29983079998055473,
+    "memory_note": "process RSS not isolated from engine; environment RAM recorded separately"
+  },
+  "independent_bc": {
+    "games": 2,
+    "cold_start_max_seconds": 0.008111500006634742,
+    "inference_p50_seconds": 0.002014000026974827,
+    "inference_p95_seconds": 0.006985920004080983,
+    "inference_p99_seconds": 0.00789333799039014,
+    "inference_max_seconds": 0.05385309999110177,
+    "memory_note": "process RSS not isolated from engine; environment RAM recorded separately"
+  }
+}

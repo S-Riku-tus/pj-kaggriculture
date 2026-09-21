@@ -1,0 +1,196 @@
+[
+  {
+    "episode_id": 111189071,
+    "recorded_t": 668,
+    "target_seat": 0,
+    "original_orders": [
+      [
+        [
+          "SELL",
+          "STRAWBERRY",
+          21
+        ],
+        [
+          "SELL",
+          "MILK",
+          11
+        ]
+      ],
+      [
+        [
+          "SELL",
+          "MILK",
+          11
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          21
+        ]
+      ]
+    ],
+    "scope": "One transition; observed opponent action held fixed. No future rollout.",
+    "baseline": {
+      "cash": [
+        76024.0,
+        77721.0
+      ],
+      "margin": -1697.0,
+      "milk_revenue": [
+        1206,
+        1460
+      ],
+      "strawberry_revenue": [
+        3803,
+        3512
+      ]
+    },
+    "swapped": {
+      "cash": [
+        76024.0,
+        77758.0
+      ],
+      "margin": -1734.0,
+      "milk_revenue": [
+        1344,
+        1344
+      ],
+      "strawberry_revenue": [
+        3665,
+        3665
+      ]
+    },
+    "immediate_margin_delta": -37.0
+  },
+  {
+    "episode_id": 111189071,
+    "recorded_t": 708,
+    "target_seat": 0,
+    "original_orders": [
+      [
+        [
+          "SELL",
+          "STRAWBERRY",
+          17
+        ],
+        [
+          "SELL",
+          "MILK",
+          8
+        ]
+      ],
+      [
+        [
+          "SELL",
+          "MILK",
+          8
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          17
+        ]
+      ]
+    ],
+    "scope": "One transition; observed opponent action held fixed. No future rollout.",
+    "baseline": {
+      "cash": [
+        89441.0,
+        91178.0
+      ],
+      "margin": -1737.0,
+      "milk_revenue": [
+        1154,
+        1321
+      ],
+      "strawberry_revenue": [
+        3017,
+        2819
+      ]
+    },
+    "swapped": {
+      "cash": [
+        89440.0,
+        91208.0
+      ],
+      "margin": -1768.0,
+      "milk_revenue": [
+        1246,
+        1246
+      ],
+      "strawberry_revenue": [
+        2924,
+        2924
+      ]
+    },
+    "immediate_margin_delta": -31.0
+  },
+  {
+    "episode_id": 111189071,
+    "recorded_t": 618,
+    "target_seat": 0,
+    "original_orders": [
+      [
+        [
+          "SELL",
+          "STRAWBERRY",
+          7
+        ],
+        [
+          "SELL",
+          "MILK",
+          3
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      [
+        [
+          "SELL",
+          "MILK",
+          9
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    ],
+    "scope": "One transition; observed opponent action held fixed. No future rollout.",
+    "baseline": {
+      "cash": [
+        65071.0,
+        67331.0
+      ],
+      "margin": -2260.0,
+      "milk_revenue": [
+        297,
+        1006
+      ],
+      "strawberry_revenue": [
+        970,
+        0
+      ]
+    },
+    "swapped": {
+      "cash": [
+        65122.0,
+        67286.0
+      ],
+      "margin": -2164.0,
+      "milk_revenue": [
+        348,
+        961
+      ],
+      "strawberry_revenue": [
+        970,
+        0
+      ]
+    },
+    "immediate_margin_delta": 96.0
+  }
+]

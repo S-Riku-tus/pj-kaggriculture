@@ -1,0 +1,29 @@
+{
+  "replay_unique_count": 1141,
+  "public_unique_count": 1134,
+  "public_target_perspectives": 1148,
+  "transitions_audited": 820379,
+  "all_audit_error_kinds": {
+    "shed": 1112,
+    "inventory": 4,
+    "money": 4
+  },
+  "v125_target_audit_error_kinds": {
+    "shed": 79
+  },
+  "v125_cash_identity_max_residual": 0.0,
+  "v125_unit_sales_cash_max_residual": 0.0,
+  "v125_pair_cash_decomposition_max_residual": 0.0,
+  "module_version_perspectives": {
+    "1.32.7": 1148
+  },
+  "v125_nonempty_observation_log_count": 0,
+  "limitations": [
+    "Each transition is initialized from recorded state, not a full closed-loop simulation.",
+    "Shed overflow item allocation can differ because replay JSON sorting loses runtime dictionary insertion order; total overflow is invariant.",
+    "Public comparison data are not randomized paired trials; opponent selection differs.",
+    "Top3 episode111036541 has known120 money discrepancy and is excluded from realized sales aggregates.",
+    "One-step market experiment fixes only current opponent action; does not establish future win uplift.",
+    "No v125 source code or internal decisions supplied."
+  ]
+}

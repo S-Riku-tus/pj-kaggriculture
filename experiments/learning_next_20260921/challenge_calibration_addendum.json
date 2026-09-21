@@ -1,0 +1,20 @@
+{
+  "created_before_repair1_closed_loop_results": true,
+  "purpose": "The original four-family panel was previously saturated by C0. Calibrate additional executable public families using C0 only before candidate development evaluation.",
+  "control_only_calibration": {
+    "opponent_families": [
+      "qeinstein_moev2",
+      "mooman_e052a",
+      "smart_farm",
+      "souvik_v4",
+      "ggmljs_v16",
+      "robriculture_lean_feed"
+    ],
+    "requested_seeds": [2026092306, 2026092307],
+    "seats": [0, 1]
+  },
+  "development_rule": "Use unused preregistered development seeds 2026092311..2026092315. Retain the original four families and add any extra family on which C0 is not 4/4 in calibration, up to six families.",
+  "evidence_tier": "Silver executable public code; not the private top policy and not independent Gold",
+  "lineage_caution": "mooman/souvik share PSR continuation ancestry; mooman/ggmljs also have Kaito ancestry. robriculture is a separate public repository ancestry.",
+  "promotion_rule_unchanged": "No promotion without positive paired win-score difference on a later unused holdout."
+}

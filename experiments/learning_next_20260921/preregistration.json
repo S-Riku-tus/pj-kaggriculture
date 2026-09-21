@@ -1,0 +1,57 @@
+{
+  "created_at_jst": "2026-09-21T00:00:00+09:00",
+  "study_id": "learning_next_20260921",
+  "control": {
+    "name": "C0",
+    "archive": "artifacts/submissions/v126_control_candidate.tar.gz",
+    "sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+    "claim": "frozen causal control behaviorally identical to audited V125; not claimed globally strongest"
+  },
+  "engine": {
+    "package": "kaggle-environments==1.32.7",
+    "source_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "data": {
+    "submission_priority": [56216119, 56361903, 56354460],
+    "bc_teacher_selection_rule": "largest locally available complete replay corpus before test evaluation; expected 56216119",
+    "split_unit": "episode_id; both seats and all duplicate source appearances remain in one split",
+    "split_seed": 20260921,
+    "ratios": {"train": 0.7, "validation": 0.15, "test": 0.15},
+    "b_row_stride": 2,
+    "bc_step_stride": 2,
+    "bc_actor_deterministic_sample_modulus": 5,
+    "bc_actor_selected_residues": [0]
+  },
+  "training": {
+    "seed": 20260921,
+    "hidden_width": 32,
+    "max_epochs": 8,
+    "batch_size": 2048,
+    "early_stopping_patience": 2,
+    "selection": "lowest validation loss; test is read once after checkpoint selection"
+  },
+  "evaluation": {
+    "smoke": {
+      "opponent_families": ["qeinstein_moev2"],
+      "requested_seeds": [2026092301],
+      "seats": [0, 1],
+      "purpose": "end-to-end completion, runtime safety, model-use and first paired effect"
+    },
+    "development_if_smoke_promising": {
+      "opponent_families": ["qeinstein_moev2", "mooman_e052a", "smart_farm", "souvik_v4"],
+      "requested_seeds": [2026092311, 2026092312, 2026092313, 2026092314, 2026092315],
+      "seats": [0, 1]
+    },
+    "fresh_holdout_if_development_promising": {
+      "requested_seeds": [2026092401, 2026092402, 2026092403, 2026092404, 2026092405],
+      "seats": [0, 1]
+    },
+    "promotion_rule": "no runtime failures; positive paired win-score difference on unused holdout; evidence from at least four independent executable opponent families; no automatic all-pair margin constraint",
+    "early_rejection": "runtime failure, zero delivered action changes, or smoke paired win-score decrease with a diagnosed mechanism; rejection of one arm does not stop another arm"
+  },
+  "safety": {
+    "hard": ["exception", "timeout", "invalid_action_shape", "incomplete_episode", "new_resource_reservation_failure", "unintended_partial_job"],
+    "not_automatically_hard": ["legal_crop_loss", "preplanned_animal_exit"]
+  },
+  "kaggle_submission_allowed": false
+}

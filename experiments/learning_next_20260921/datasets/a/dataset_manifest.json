@@ -1,0 +1,106 @@
+{
+  "task": "A executable work-task selection",
+  "teacher_submission": 56216119,
+  "teacher_episodes": 579,
+  "episode_counts": {
+    "test": 88,
+    "train": 403,
+    "validation": 88
+  },
+  "teacher_selection_fixed_before_test": true,
+  "classes": [
+    "FEED",
+    "CARE",
+    "WATER",
+    "FERTILIZE",
+    "HARVEST",
+    "COLLECT_FERTILIZER",
+    "PICKUP",
+    "PLACE",
+    "DROP",
+    "PLANT",
+    "DIG"
+  ],
+  "feature_count": 275,
+  "candidate_coverage": {
+    "teacher_work_actions": 2163233,
+    "candidate_covered": 2079454,
+    "excluded:CARE": 18837,
+    "excluded:HARVEST": 64942
+  },
+  "label_distribution": {
+    "test": {
+      "PICKUP": 17128,
+      "PLACE": 10103,
+      "FEED": 27439,
+      "CARE": 25455,
+      "PLANT": 25118,
+      "WATER": 121266,
+      "COLLECT_FERTILIZER": 32038,
+      "HARVEST": 34264,
+      "DROP": 6685,
+      "FERTILIZE": 13968,
+      "DIG": 3046
+    },
+    "train": {
+      "PICKUP": 78820,
+      "PLACE": 46691,
+      "FEED": 125310,
+      "CARE": 116237,
+      "PLANT": 112085,
+      "WATER": 553914,
+      "COLLECT_FERTILIZER": 147327,
+      "HARVEST": 155347,
+      "DROP": 30828,
+      "FERTILIZE": 64985,
+      "DIG": 14498
+    },
+    "validation": {
+      "PICKUP": 17213,
+      "PLACE": 10152,
+      "FEED": 28014,
+      "CARE": 25952,
+      "PLANT": 24803,
+      "WATER": 120126,
+      "COLLECT_FERTILIZER": 32809,
+      "HARVEST": 33931,
+      "DROP": 6591,
+      "FERTILIZE": 14206,
+      "DIG": 3105
+    }
+  },
+  "quality_rule": "completed public teacher episodes; only pre-action locally executable work labels; wins and losses retained without outcome as input",
+  "arrays": {
+    "x_test": [
+      316510,
+      275
+    ],
+    "y_test": [
+      316510
+    ],
+    "baseline_test": [
+      316510
+    ],
+    "x_train": [
+      1446042,
+      275
+    ],
+    "y_train": [
+      1446042
+    ],
+    "baseline_train": [
+      1446042
+    ],
+    "x_validation": [
+      316902,
+      275
+    ],
+    "y_validation": [
+      316902
+    ],
+    "baseline_validation": [
+      316902
+    ]
+  },
+  "created_at_utc": "2026-09-21T04:40:54.638670+00:00"
+}

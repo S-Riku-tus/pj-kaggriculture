@@ -1,0 +1,47 @@
+{
+  "c0": {},
+  "b_simple": {
+    "action_changes": 2.0,
+    "candidate_sets": 1438.0,
+    "changed_action_successes": 2.0,
+    "fallbacks": 0.0,
+    "inference_calls": 0.0,
+    "model_loads": 0.0
+  },
+  "b_learned": {
+    "action_changes": 3.0,
+    "candidate_sets": 1438.0,
+    "changed_action_successes": 3.0,
+    "fallbacks": 0.0,
+    "inference_calls": 1438.0,
+    "model_loads": 2.0
+  },
+  "a_baseline": {
+    "action_changes": 1444.0,
+    "fallbacks": 0.0,
+    "inference_calls": 0.0,
+    "jobs_aborted": 0.0,
+    "jobs_completed": 0.0,
+    "jobs_started": 0.0,
+    "model_loads": 0.0,
+    "task_boundaries": 1720.0
+  },
+  "a_learned": {
+    "action_changes": 1444.0,
+    "fallbacks": 0.0,
+    "inference_calls": 1444.0,
+    "jobs_aborted": 0.0,
+    "jobs_completed": 0.0,
+    "jobs_started": 0.0,
+    "model_loads": 2.0,
+    "task_boundaries": 1720.0
+  },
+  "independent_bc": {
+    "actor_decisions": 5725.0,
+    "fallbacks": 0.0,
+    "inference_calls": 7833.0,
+    "legality_masks": 7833.0,
+    "market_decisions": 2108.0,
+    "model_loads": 4.0
+  }
+}

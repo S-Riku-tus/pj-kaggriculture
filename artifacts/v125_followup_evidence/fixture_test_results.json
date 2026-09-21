@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "market_one_step": [
+    {
+      "episode_id": 111189071,
+      "record_index": 618,
+      "baseline_money_verified": true,
+      "immediate_margin_delta": 96.0
+    },
+    {
+      "episode_id": 111189071,
+      "record_index": 668,
+      "baseline_money_verified": true,
+      "immediate_margin_delta": -37.0
+    },
+    {
+      "episode_id": 111189071,
+      "record_index": 708,
+      "baseline_money_verified": true,
+      "immediate_margin_delta": -31.0
+    }
+  ],
+  "failed_transfer_records_verified": 12,
+  "four_animal_exit_cases_verified": 4,
+  "identical_layout_cases_verified": 2,
+  "scope": "Recorded-state checks and three single-transition market swaps. No repaired agent, future rollout, or win uplift is tested."
+}

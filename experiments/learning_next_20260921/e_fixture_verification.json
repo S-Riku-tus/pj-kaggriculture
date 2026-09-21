@@ -1,0 +1,13 @@
+{
+  "executed_at_utc": "2026-09-21T04:12:04.3466367Z",
+  "command": ".\\.venv\\Scripts\\python.exe artifacts\\v125_followup_evidence\\scripts\\verify_fixtures.py",
+  "exit_code": 0,
+  "status": "PASS",
+  "failed_transfer_records_verified": 12,
+  "episodes": [111196878, 111203616, 110824511, 111007532],
+  "records_per_episode": [243, 251, 252],
+  "four_animal_exit_cases_verified": 4,
+  "identical_layout_cases_verified": 2,
+  "market_one_step_margin_deltas": [96.0, -37.0, -31.0],
+  "scope": "Recorded-state verification only. This does not establish a repaired C1 and did not gate B, A, or BC."
+}

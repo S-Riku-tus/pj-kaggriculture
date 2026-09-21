@@ -1,0 +1,68 @@
+{
+  "c0": {
+    "games": 2,
+    "cold_start_max_seconds": 2.308619000017643,
+    "inference_p50_seconds": 0.004979150020517409,
+    "inference_p95_seconds": 0.006858229992212728,
+    "inference_p99_seconds": 0.008422468003118414,
+    "inference_max_seconds": 0.33758980000857264,
+    "rss_after_max_bytes": 713904128,
+    "rss_delta_max_bytes": 533708800,
+    "memory_note": "worker-process RSS includes the engine and opponent; delta brackets one full game"
+  },
+  "b_simple": {
+    "games": 2,
+    "cold_start_max_seconds": 2.321855299989693,
+    "inference_p50_seconds": 0.00506334999226965,
+    "inference_p95_seconds": 0.007352410035673529,
+    "inference_p99_seconds": 0.01042684197309431,
+    "inference_max_seconds": 0.2964308999944478,
+    "rss_after_max_bytes": 717123584,
+    "rss_delta_max_bytes": 536653824,
+    "memory_note": "worker-process RSS includes the engine and opponent; delta brackets one full game"
+  },
+  "b_learned": {
+    "games": 2,
+    "cold_start_max_seconds": 2.017832899990026,
+    "inference_p50_seconds": 0.0060636499838437885,
+    "inference_p95_seconds": 0.007923559960909187,
+    "inference_p99_seconds": 0.013090736023150421,
+    "inference_max_seconds": 0.720586400013417,
+    "rss_after_max_bytes": 720621568,
+    "rss_delta_max_bytes": 254136320,
+    "memory_note": "worker-process RSS includes the engine and opponent; delta brackets one full game"
+  },
+  "a_baseline": {
+    "games": 2,
+    "cold_start_max_seconds": 1.9737096999888308,
+    "inference_p50_seconds": 0.0036529499921016395,
+    "inference_p95_seconds": 0.005383580009220169,
+    "inference_p99_seconds": 0.006941593980882324,
+    "inference_max_seconds": 0.720944500004407,
+    "rss_after_max_bytes": 590516224,
+    "rss_delta_max_bytes": 55947264,
+    "memory_note": "worker-process RSS includes the engine and opponent; delta brackets one full game"
+  },
+  "a_learned": {
+    "games": 2,
+    "cold_start_max_seconds": 2.082332200021483,
+    "inference_p50_seconds": 0.005620250012725592,
+    "inference_p95_seconds": 0.009414219966856763,
+    "inference_p99_seconds": 0.011363818021491175,
+    "inference_max_seconds": 0.807733100024052,
+    "rss_after_max_bytes": 613228544,
+    "rss_delta_max_bytes": 128700416,
+    "memory_note": "worker-process RSS includes the engine and opponent; delta brackets one full game"
+  },
+  "independent_bc": {
+    "games": 2,
+    "cold_start_max_seconds": 0.008783800003584474,
+    "inference_p50_seconds": 0.007160050037782639,
+    "inference_p95_seconds": 0.013770139974076303,
+    "inference_p99_seconds": 0.015570345980813746,
+    "inference_max_seconds": 0.020299900032114238,
+    "rss_after_max_bytes": 430104576,
+    "rss_delta_max_bytes": -106098688,
+    "memory_note": "worker-process RSS includes the engine and opponent; delta brackets one full game"
+  }
+}

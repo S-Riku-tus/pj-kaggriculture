@@ -33,3 +33,8 @@ data/training/*
 experiments/research_20260920_v126/known_case_replays/
 experiments/research_20260920_v126/four_arm_development/replays/
 experiments/research_20260920_v126/four_arm_development/decision_log.jsonl
+
+# Large reproducible learning-next arrays, replays, and temporary package roots.
+experiments/learning_next_20260921/datasets/**/*.npy
+experiments/learning_next_20260921/package_staging/
+experiments/learning_next_20260921/*_evaluation/replays/

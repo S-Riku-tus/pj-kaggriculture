@@ -1,0 +1,31 @@
+{
+  "stage": "smoke",
+  "created_at_utc": "2026-09-21T03:54:35.425544+00:00",
+  "engine": "kaggle-environments==1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "arms": [
+    "c0",
+    "b_simple",
+    "b_learned",
+    "a_baseline",
+    "a_learned",
+    "independent_bc"
+  ],
+  "opponents": {
+    "qeinstein_moev2": {
+      "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+      "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+      "evidence_tier": "Silver public executable proxy"
+    }
+  },
+  "seeds": [
+    2026092301
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "games": 12,
+  "formal_strength_claim": false,
+  "reason": "smoke implementation evidence"
+}
