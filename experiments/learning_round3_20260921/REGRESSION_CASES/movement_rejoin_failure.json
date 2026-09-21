@@ -1,0 +1,9 @@
+{
+  "case": "WATER then NORTH replacement cannot resume stale route",
+  "start_position": [3, 4],
+  "control_suffix": [["WATER"], ["NORTH"]],
+  "replacement": [["FERTILIZE"], ["WATER"]],
+  "expected_rejoin": {"position": [3, 3], "minimum_inventory": {}},
+  "actual_after_replacement": {"position": [3, 4]},
+  "required_result": "REPLAN"
+}

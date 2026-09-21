@@ -1,0 +1,176 @@
+{
+  "regression": {
+    "a2": {
+      "action_changes": 4.0,
+      "base_calls": 1438.0,
+      "candidate_sets": 22.0,
+      "fallbacks": 0.0,
+      "inference_calls": 42.0,
+      "jobs_aborted": 0.0,
+      "jobs_completed": 2.0,
+      "jobs_started": 2.0,
+      "keep_choices": 1432.0,
+      "model_loads": 2.0,
+      "pending_jobs": 0.0,
+      "primitive_successes": 4.0,
+      "shadow_candidate_sets": 808.0
+    },
+    "a2_keep": {
+      "action_changes": 0.0,
+      "base_calls": 1438.0,
+      "candidate_sets": 0.0,
+      "fallbacks": 0.0,
+      "inference_calls": 0.0,
+      "jobs_aborted": 0.0,
+      "jobs_completed": 0.0,
+      "jobs_started": 0.0,
+      "keep_choices": 1438.0,
+      "model_loads": 0.0,
+      "pending_jobs": 0.0,
+      "primitive_successes": 0.0,
+      "shadow_candidate_sets": 810.0
+    },
+    "a2_nonlearned": {
+      "action_changes": 4.0,
+      "base_calls": 1438.0,
+      "candidate_sets": 2.0,
+      "fallbacks": 0.0,
+      "inference_calls": 0.0,
+      "jobs_aborted": 0.0,
+      "jobs_completed": 2.0,
+      "jobs_started": 2.0,
+      "keep_choices": 1432.0,
+      "model_loads": 0.0,
+      "pending_jobs": 0.0,
+      "primitive_successes": 4.0,
+      "shadow_candidate_sets": 748.0
+    },
+    "b1": {
+      "action_changes": 4.0,
+      "candidate_sets": 1438.0,
+      "changed_action_checks": 4.0,
+      "changed_action_successes": 4.0,
+      "fallbacks": 0.0,
+      "inference_calls": 1438.0,
+      "model_loads": 2.0
+    },
+    "b2": {
+      "action_changes": 5.0,
+      "base_calls": 1438.0,
+      "candidate_sets": 1438.0,
+      "changed_action_checks": 5.0,
+      "changed_action_successes": 5.0,
+      "fallbacks": 0.0,
+      "inference_calls": 1438.0,
+      "model_loads": 2.0
+    },
+    "b2_frequency": {
+      "action_changes": 2.0,
+      "base_calls": 1438.0,
+      "candidate_sets": 1438.0,
+      "changed_action_checks": 2.0,
+      "changed_action_successes": 2.0,
+      "fallbacks": 0.0,
+      "inference_calls": 0.0,
+      "model_loads": 0.0
+    },
+    "b2_history_shuffle": {
+      "action_changes": 6.0,
+      "base_calls": 1438.0,
+      "candidate_sets": 1438.0,
+      "changed_action_checks": 6.0,
+      "changed_action_successes": 6.0,
+      "fallbacks": 0.0,
+      "inference_calls": 1438.0,
+      "model_loads": 2.0
+    },
+    "b_simple": {
+      "action_changes": 2.0,
+      "candidate_sets": 1438.0,
+      "changed_action_checks": 2.0,
+      "changed_action_successes": 2.0,
+      "fallbacks": 0.0,
+      "inference_calls": 0.0,
+      "model_loads": 0.0
+    },
+    "c0": {}
+  },
+  "known_failure": {
+    "b1": {
+      "action_changes": 4.0,
+      "candidate_sets": 2876.0,
+      "changed_action_checks": 4.0,
+      "changed_action_successes": 4.0,
+      "fallbacks": 0.0,
+      "inference_calls": 2876.0,
+      "model_loads": 4.0
+    },
+    "b2": {
+      "action_changes": 13.0,
+      "base_calls": 2876.0,
+      "candidate_sets": 2876.0,
+      "changed_action_checks": 13.0,
+      "changed_action_successes": 13.0,
+      "fallbacks": 0.0,
+      "inference_calls": 2876.0,
+      "model_loads": 4.0
+    },
+    "b2_frequency": {
+      "action_changes": 12.0,
+      "base_calls": 2876.0,
+      "candidate_sets": 2876.0,
+      "changed_action_checks": 12.0,
+      "changed_action_successes": 12.0,
+      "fallbacks": 0.0,
+      "inference_calls": 0.0,
+      "model_loads": 0.0
+    },
+    "c0": {}
+  },
+  "external": {
+    "a2": {
+      "resumed_completed_replay": 32.0
+    },
+    "a2_keep": {
+      "resumed_completed_replay": 32.0
+    },
+    "a2_nonlearned": {
+      "resumed_completed_replay": 32.0
+    },
+    "b1": {
+      "action_changes": 46.0,
+      "candidate_sets": 23008.0,
+      "changed_action_checks": 46.0,
+      "changed_action_successes": 46.0,
+      "fallbacks": 0.0,
+      "inference_calls": 23008.0,
+      "model_loads": 32.0
+    },
+    "b2": {
+      "action_changes": 29.0,
+      "base_calls": 6471.0,
+      "candidate_sets": 6471.0,
+      "changed_action_checks": 29.0,
+      "changed_action_successes": 29.0,
+      "fallbacks": 0.0,
+      "inference_calls": 6471.0,
+      "model_loads": 9.0,
+      "resumed_completed_replay": 23.0
+    },
+    "b2_frequency": {
+      "resumed_completed_replay": 32.0
+    },
+    "b_simple": {
+      "action_changes": 86.0,
+      "candidate_sets": 23008.0,
+      "changed_action_checks": 86.0,
+      "changed_action_successes": 86.0,
+      "fallbacks": 0.0,
+      "inference_calls": 0.0,
+      "model_loads": 0.0
+    },
+    "c0": {
+      "resumed_completed_replay": 32.0
+    }
+  }
+}

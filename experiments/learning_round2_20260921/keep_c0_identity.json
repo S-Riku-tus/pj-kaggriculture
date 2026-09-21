@@ -1,0 +1,61 @@
+{
+  "saved_observation_source": "experiments\\learning_next_20260921\\smoke_repair1_evaluation\\replays\\c0\\qeinstein_moev2\\seed_2026092301_seat_0.json.gz",
+  "saved_observations_checked": 719,
+  "saved_output_identical": true,
+  "first_saved_mismatch": null,
+  "encoder_input_mutations": [],
+  "full_game_checks": [
+    {
+      "seat": 0,
+      "stored_states_equal": true,
+      "actions_equal": true,
+      "action_differences": 0,
+      "first_action_difference": null,
+      "first_public_state_difference": null,
+      "first_private_state_difference": null,
+      "final_rewards_left": [
+        86247.0,
+        65831.0
+      ],
+      "final_rewards_right": [
+        86247.0,
+        65831.0
+      ],
+      "final_status_left": [
+        "DONE",
+        "DONE"
+      ],
+      "final_status_right": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "seat": 1,
+      "stored_states_equal": true,
+      "actions_equal": true,
+      "action_differences": 0,
+      "first_action_difference": null,
+      "first_public_state_difference": null,
+      "first_private_state_difference": null,
+      "final_rewards_left": [
+        65831.0,
+        86247.0
+      ],
+      "final_rewards_right": [
+        65831.0,
+        86247.0
+      ],
+      "final_status_left": [
+        "DONE",
+        "DONE"
+      ],
+      "final_status_right": [
+        "DONE",
+        "DONE"
+      ]
+    }
+  ],
+  "full_game_identity": true,
+  "no_op_contract": "C0 called once; shadow candidates are read-only; KEEP returns the complete structured C0 joint action"
+}

@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-09-21T07:31:32.706937+00:00",
+  "products": [
+    "WHEAT",
+    "CARROT",
+    "TOMATO",
+    "STRAWBERRY",
+    "MELON",
+    "EGG",
+    "MILK",
+    "WOOL",
+    "FERTILIZER"
+  ],
+  "horizons": [
+    1,
+    4,
+    24
+  ],
+  "labels": {
+    "requested": "sum of submitted SELL quantities, including quantities beyond inventory or the ten-order execution cap",
+    "executed": "units removed from the seller shed by fixed-engine market commits",
+    "impact": "executed units that increased market inventory; $1-floor executions contribute zero",
+    "revenue": "cash credited by successful SELL commits"
+  },
+  "transition_order": "both players' actor-order unit actions, per-slot lockstep market, town consumption, day boundary",
+  "censoring": "mask=0 when the complete 1/4/24-decision horizon does not exist",
+  "reconstruction_mask": "mask=0 when any transition in the horizon fails recorded-next-state validation",
+  "runtime_inputs": "public observation plus focal private/self history only; opponent private is label reconstruction only"
+}

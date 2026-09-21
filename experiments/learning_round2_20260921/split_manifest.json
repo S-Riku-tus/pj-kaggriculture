@@ -1,0 +1,22 @@
+{
+  "a2": {
+    "unit": "family x seed (all prefixes/candidates remain together)",
+    "round_manifests": [
+      "experiments\\learning_round2_20260921\\datasets\\a2\\round1_manifest.json",
+      "experiments\\learning_round2_20260921\\datasets\\a2\\round2_manifest.json"
+    ]
+  },
+  "b2": {
+    "unit": "old episode-level frozen split",
+    "source": "experiments\\learning_next_20260921\\split_manifest.json"
+  },
+  "external": {
+    "unit": "family x seed; both seats retained in one cluster",
+    "seeds": [
+      2026092421,
+      2026092422,
+      2026092423,
+      2026092424
+    ]
+  }
+}

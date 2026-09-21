@@ -1,0 +1,2767 @@
+{
+  "created_at_utc": "2026-09-21T07:32:58.134298+00:00",
+  "teacher_meaning": "fixed-engine reconstructed opponent market-impact supply",
+  "architecture": "233-32-108 ReLU multi-head MLP",
+  "selection": {
+    "seed": 20260922,
+    "sha256": "7e5a13c0cbc1f620f358300df89139c4d950e3e8c3618012433c04d775be2cf4",
+    "best_validation_loss": 0.1411951184272766,
+    "optimizer_steps": 1260,
+    "parameter_change_l2": 17.05100995551643
+  },
+  "initializations": [
+    {
+      "seed": 20260921,
+      "sha256": "6ecd320b7effc1ebb968e073e912f0f23ae3e8d64b09bae223880be91e71b70c",
+      "best_validation_loss": 0.14305220544338226,
+      "optimizer_steps": 1260,
+      "parameter_change_l2": 16.85470897248473
+    },
+    {
+      "seed": 20260922,
+      "sha256": "7e5a13c0cbc1f620f358300df89139c4d950e3e8c3618012433c04d775be2cf4",
+      "best_validation_loss": 0.1411951184272766,
+      "optimizer_steps": 1260,
+      "parameter_change_l2": 17.05100995551643
+    }
+  ],
+  "train_rows": 428400,
+  "validation_rows": 91440,
+  "test_rows": 92160,
+  "active_model_sha256": "7e5a13c0cbc1f620f358300df89139c4d950e3e8c3618012433c04d775be2cf4",
+  "runtime_outputs": "first 27 impact-event logits and next 27 impact log-quantities; requested/executed heads are auxiliary",
+  "validation": {
+    "rows": 91440,
+    "valid_cells": 2435634,
+    "brier": 0.11090246587991714,
+    "quantity_mae": 1.5775132179260254,
+    "nonzero_quantity_mae": 6.044107437133789,
+    "reliability": [
+      {
+        "lower": 0.0,
+        "count": 1031473,
+        "predicted": 0.020176803693175316,
+        "observed": 0.0043520286037540485
+      },
+      {
+        "lower": 0.1,
+        "count": 215584,
+        "predicted": 0.14642301201820374,
+        "observed": 0.057861436841324033
+      },
+      {
+        "lower": 0.2,
+        "count": 162805,
+        "predicted": 0.24867144227027893,
+        "observed": 0.13127360953287676
+      },
+      {
+        "lower": 0.30000000000000004,
+        "count": 143908,
+        "predicted": 0.34905776381492615,
+        "observed": 0.19461044556244267
+      },
+      {
+        "lower": 0.4,
+        "count": 130724,
+        "predicted": 0.44937363266944885,
+        "observed": 0.24757504360331692
+      },
+      {
+        "lower": 0.5,
+        "count": 125705,
+        "predicted": 0.5499663352966309,
+        "observed": 0.30766477069328985
+      },
+      {
+        "lower": 0.6000000000000001,
+        "count": 125099,
+        "predicted": 0.6500458121299744,
+        "observed": 0.37760493688998314
+      },
+      {
+        "lower": 0.7000000000000001,
+        "count": 131629,
+        "predicted": 0.7507982850074768,
+        "observed": 0.4949897059158696
+      },
+      {
+        "lower": 0.8,
+        "count": 147120,
+        "predicted": 0.8515077829360962,
+        "observed": 0.6690728656878738
+      },
+      {
+        "lower": 0.9,
+        "count": 221587,
+        "predicted": 0.9562070369720459,
+        "observed": 0.8795055666623042
+      }
+    ],
+    "by_target": {
+      "WHEAT:1": {
+        "rows": 91436,
+        "positive_rate": 0.10846931186841069,
+        "brier": 0.17852671444416046,
+        "quantity_mae": 0.9591214060783386,
+        "nonzero_quantity_mae": 7.019592761993408,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.17852671444416046,
+        "actionable_brier": 0.18629544973373413
+      },
+      "WHEAT:4": {
+        "rows": 90906,
+        "positive_rate": 0.2858777198424746,
+        "brier": 0.1832226663827896,
+        "quantity_mae": 2.779923439025879,
+        "nonzero_quantity_mae": 8.095052719116211,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.1832226663827896,
+        "actionable_brier": 0.18984265625476837
+      },
+      "WHEAT:24": {
+        "rows": 88284,
+        "positive_rate": 0.7451406823433465,
+        "brier": 0.15855620801448822,
+        "quantity_mae": 10.096911430358887,
+        "nonzero_quantity_mae": 12.727343559265137,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.15855620801448822,
+        "actionable_brier": 0.1502540409564972
+      },
+      "CARROT:1": {
+        "rows": 91436,
+        "positive_rate": 0.027297782055208015,
+        "brier": 0.06065022945404053,
+        "quantity_mae": 0.3036280870437622,
+        "nonzero_quantity_mae": 8.307493209838867,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.06065022945404053,
+        "actionable_brier": 0.14657974243164062
+      },
+      "CARROT:4": {
+        "rows": 90906,
+        "positive_rate": 0.06999537984291467,
+        "brier": 0.09602759033441544,
+        "quantity_mae": 0.8226169347763062,
+        "nonzero_quantity_mae": 9.019177436828613,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.09602759033441544,
+        "actionable_brier": 0.2295081615447998
+      },
+      "CARROT:24": {
+        "rows": 88284,
+        "positive_rate": 0.2355239907571021,
+        "brier": 0.07011477649211884,
+        "quantity_mae": 2.436577081680298,
+        "nonzero_quantity_mae": 9.070435523986816,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.07011477649211884,
+        "actionable_brier": 0.12091784179210663
+      },
+      "TOMATO:1": {
+        "rows": 91436,
+        "positive_rate": 0.01962028085218076,
+        "brier": 0.04859115183353424,
+        "quantity_mae": 0.15699104964733124,
+        "nonzero_quantity_mae": 5.847290515899658,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.04859115183353424,
+        "actionable_brier": 0.15489047765731812
+      },
+      "TOMATO:4": {
+        "rows": 90906,
+        "positive_rate": 0.04733460937671881,
+        "brier": 0.07793622463941574,
+        "quantity_mae": 0.3712458312511444,
+        "nonzero_quantity_mae": 6.014039039611816,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.07793622463941574,
+        "actionable_brier": 0.20924240350723267
+      },
+      "TOMATO:24": {
+        "rows": 88284,
+        "positive_rate": 0.20886004258982374,
+        "brier": 0.06570352613925934,
+        "quantity_mae": 1.375769853591919,
+        "nonzero_quantity_mae": 5.340773105621338,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.06570352613925934,
+        "actionable_brier": 0.121092788875103
+      },
+      "STRAWBERRY:1": {
+        "rows": 91436,
+        "positive_rate": 0.03889059013955116,
+        "brier": 0.13064363598823547,
+        "quantity_mae": 0.3171270787715912,
+        "nonzero_quantity_mae": 5.434712886810303,
+        "floor_brier": 0.23253664374351501,
+        "nonfloor_brier": 0.12920846045017242,
+        "actionable_brier": 0.22805552184581757
+      },
+      "STRAWBERRY:4": {
+        "rows": 90906,
+        "positive_rate": 0.19930477636239632,
+        "brier": 0.15121419727802277,
+        "quantity_mae": 1.1175768375396729,
+        "nonzero_quantity_mae": 4.16327428817749,
+        "floor_brier": 0.33412909507751465,
+        "nonfloor_brier": 0.1486556977033615,
+        "actionable_brier": 0.2665502727031708
+      },
+      "STRAWBERRY:24": {
+        "rows": 88284,
+        "positive_rate": 0.47045897331339764,
+        "brier": 0.05806658789515495,
+        "quantity_mae": 3.3208041191101074,
+        "nonzero_quantity_mae": 6.275875091552734,
+        "floor_brier": 0.15967994928359985,
+        "nonfloor_brier": 0.05665218085050583,
+        "actionable_brier": 0.09555743634700775
+      },
+      "MELON:1": {
+        "rows": 91436,
+        "positive_rate": 0.014873791504440265,
+        "brier": 0.03257393464446068,
+        "quantity_mae": 0.15145130455493927,
+        "nonzero_quantity_mae": 6.93523645401001,
+        "floor_brier": 0.0018549372907727957,
+        "nonfloor_brier": 0.032601505517959595,
+        "actionable_brier": 0.03317731246352196
+      },
+      "MELON:4": {
+        "rows": 90906,
+        "positive_rate": 0.037907288847820825,
+        "brier": 0.07493146508932114,
+        "quantity_mae": 0.503433346748352,
+        "nonzero_quantity_mae": 10.173972129821777,
+        "floor_brier": 0.03772597014904022,
+        "nonfloor_brier": 0.07496505975723267,
+        "actionable_brier": 0.07638449221849442
+      },
+      "MELON:24": {
+        "rows": 88284,
+        "positive_rate": 0.1505142494676272,
+        "brier": 0.11154787242412567,
+        "quantity_mae": 1.9988669157028198,
+        "nonzero_quantity_mae": 11.065610885620117,
+        "floor_brier": 0.2001960277557373,
+        "nonfloor_brier": 0.1114654615521431,
+        "actionable_brier": 0.11507672816514969
+      },
+      "EGG:1": {
+        "rows": 91436,
+        "positive_rate": 0.020549892821208275,
+        "brier": 0.06240483745932579,
+        "quantity_mae": 0.1547197848558426,
+        "nonzero_quantity_mae": 5.60434627532959,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.06240483745932579,
+        "actionable_brier": 0.13949443399906158
+      },
+      "EGG:4": {
+        "rows": 90906,
+        "positive_rate": 0.06508921303324312,
+        "brier": 0.09863551706075668,
+        "quantity_mae": 0.47415754199028015,
+        "nonzero_quantity_mae": 5.3211565017700195,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.09863551706075668,
+        "actionable_brier": 0.18907327950000763
+      },
+      "EGG:24": {
+        "rows": 88284,
+        "positive_rate": 0.29430021294911873,
+        "brier": 0.07539506256580353,
+        "quantity_mae": 1.6642882823944092,
+        "nonzero_quantity_mae": 4.622405529022217,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.07539506256580353,
+        "actionable_brier": 0.11929938197135925
+      },
+      "MILK:1": {
+        "rows": 91436,
+        "positive_rate": 0.0378953585021217,
+        "brier": 0.1252107173204422,
+        "quantity_mae": 0.20263193547725677,
+        "nonzero_quantity_mae": 4.026922702789307,
+        "floor_brier": 0.1415369063615799,
+        "nonfloor_brier": 0.12458096444606781,
+        "actionable_brier": 0.1838693618774414
+      },
+      "MILK:4": {
+        "rows": 90906,
+        "positive_rate": 0.2684531274063318,
+        "brier": 0.15793047845363617,
+        "quantity_mae": 1.102317214012146,
+        "nonzero_quantity_mae": 3.0176751613616943,
+        "floor_brier": 0.2746334969997406,
+        "nonfloor_brier": 0.15353167057037354,
+        "actionable_brier": 0.23224036395549774
+      },
+      "MILK:24": {
+        "rows": 88284,
+        "positive_rate": 0.6301028498935254,
+        "brier": 0.08745180815458298,
+        "quantity_mae": 3.733025312423706,
+        "nonzero_quantity_mae": 5.292373180389404,
+        "floor_brier": 0.1959020346403122,
+        "nonfloor_brier": 0.08358685672283173,
+        "actionable_brier": 0.0885792076587677
+      },
+      "WOOL:1": {
+        "rows": 91436,
+        "positive_rate": 0.03188022223194365,
+        "brier": 0.11462921649217606,
+        "quantity_mae": 0.2206929326057434,
+        "nonzero_quantity_mae": 4.404336929321289,
+        "floor_brier": 0.06070362776517868,
+        "nonfloor_brier": 0.12134189903736115,
+        "actionable_brier": 0.17370817065238953
+      },
+      "WOOL:4": {
+        "rows": 90906,
+        "positive_rate": 0.17822805975403164,
+        "brier": 0.1502932906150818,
+        "quantity_mae": 0.8687801361083984,
+        "nonzero_quantity_mae": 3.4525275230407715,
+        "floor_brier": 0.14261962473392487,
+        "nonfloor_brier": 0.15123814344406128,
+        "actionable_brier": 0.23375216126441956
+      },
+      "WOOL:24": {
+        "rows": 88284,
+        "positive_rate": 0.49226360382402246,
+        "brier": 0.11898446083068848,
+        "quantity_mae": 3.006188154220581,
+        "nonzero_quantity_mae": 5.094510078430176,
+        "floor_brier": 0.22160778939723969,
+        "nonfloor_brier": 0.10691555589437485,
+        "actionable_brier": 0.15261685848236084
+      },
+      "FERTILIZER:1": {
+        "rows": 91436,
+        "positive_rate": 0.13187366026510347,
+        "brier": 0.15999802947044373,
+        "quantity_mae": 0.4855237603187561,
+        "nonzero_quantity_mae": 2.539496660232544,
+        "floor_brier": 0.18429458141326904,
+        "nonfloor_brier": 0.15964432060718536,
+        "actionable_brier": 0.19471128284931183
+      },
+      "FERTILIZER:4": {
+        "rows": 90906,
+        "positive_rate": 0.3333663344553715,
+        "brier": 0.15620605647563934,
+        "quantity_mae": 1.1595245599746704,
+        "nonzero_quantity_mae": 2.617778778076172,
+        "floor_brier": 0.19941680133342743,
+        "nonfloor_brier": 0.15561924874782562,
+        "actionable_brier": 0.15624785423278809
+      },
+      "FERTILIZER:24": {
+        "rows": 88284,
+        "positive_rate": 0.9480766616827512,
+        "brier": 0.18754754960536957,
+        "quantity_mae": 3.3589062690734863,
+        "nonzero_quantity_mae": 3.255648612976074,
+        "floor_brier": 0.22483833134174347,
+        "nonfloor_brier": 0.18718501925468445,
+        "actionable_brier": 0.19006595015525818
+      }
+    }
+  },
+  "baselines": {
+    "validation": {
+      "zero": {
+        "rows": 91440,
+        "valid_cells": 2435634,
+        "brier": 0.22297848761081696,
+        "quantity_mae": 2.314983367919922,
+        "nonzero_quantity_mae": 10.382092475891113,
+        "reliability": [
+          {
+            "lower": 0.0,
+            "count": 2435634,
+            "predicted": 9.357623589846195e-14,
+            "observed": 0.2229784934846533
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.30000000000000004,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.6000000000000001,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.7000000000000001,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.9,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          }
+        ],
+        "by_target": {
+          "WHEAT:1": {
+            "rows": 91436,
+            "positive_rate": 0.10846931186841069,
+            "brier": 0.10846931487321854,
+            "quantity_mae": 0.831357479095459,
+            "nonzero_quantity_mae": 7.664448261260986,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.10846931487321854,
+            "actionable_brier": 0.11666271835565567
+          },
+          "WHEAT:4": {
+            "rows": 90906,
+            "positive_rate": 0.2858777198424746,
+            "brier": 0.2858777344226837,
+            "quantity_mae": 2.7999250888824463,
+            "nonzero_quantity_mae": 9.794136047363281,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.2858777344226837,
+            "actionable_brier": 0.2948354184627533
+          },
+          "WHEAT:24": {
+            "rows": 88284,
+            "positive_rate": 0.7451406823433465,
+            "brier": 0.7451406717300415,
+            "quantity_mae": 16.26150894165039,
+            "nonzero_quantity_mae": 21.823406219482422,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.7451406717300415,
+            "actionable_brier": 0.7676493525505066
+          },
+          "CARROT:1": {
+            "rows": 91436,
+            "positive_rate": 0.027297782055208015,
+            "brier": 0.02729778178036213,
+            "quantity_mae": 0.24148038029670715,
+            "nonzero_quantity_mae": 8.84615421295166,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.02729778178036213,
+            "actionable_brier": 0.07148027420043945
+          },
+          "CARROT:4": {
+            "rows": 90906,
+            "positive_rate": 0.06999537984291467,
+            "brier": 0.06999538093805313,
+            "quantity_mae": 0.7265086770057678,
+            "nonzero_quantity_mae": 10.37938117980957,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.06999538093805313,
+            "actionable_brier": 0.17111288011074066
+          },
+          "CARROT:24": {
+            "rows": 88284,
+            "positive_rate": 0.2355239907571021,
+            "brier": 0.235523983836174,
+            "quantity_mae": 3.866272449493408,
+            "nonzero_quantity_mae": 16.415620803833008,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.235523983836174,
+            "actionable_brier": 0.5414368510246277
+          },
+          "TOMATO:1": {
+            "rows": 91436,
+            "positive_rate": 0.01962028085218076,
+            "brier": 0.01962028071284294,
+            "quantity_mae": 0.11972308158874512,
+            "nonzero_quantity_mae": 6.102006912231445,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.01962028071284294,
+            "actionable_brier": 0.0710427463054657
+          },
+          "TOMATO:4": {
+            "rows": 90906,
+            "positive_rate": 0.04733460937671881,
+            "brier": 0.04733460769057274,
+            "quantity_mae": 0.31784480810165405,
+            "nonzero_quantity_mae": 6.714849948883057,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.04733460769057274,
+            "actionable_brier": 0.15165309607982635
+          },
+          "TOMATO:24": {
+            "rows": 88284,
+            "positive_rate": 0.20886004258982374,
+            "brier": 0.20886003971099854,
+            "quantity_mae": 1.8538013696670532,
+            "nonzero_quantity_mae": 8.87580680847168,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.20886003971099854,
+            "actionable_brier": 0.5095224976539612
+          },
+          "STRAWBERRY:1": {
+            "rows": 91436,
+            "positive_rate": 0.03889059013955116,
+            "brier": 0.03889058902859688,
+            "quantity_mae": 0.22401461005210876,
+            "nonzero_quantity_mae": 5.7601237297058105,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.03943837061524391,
+            "actionable_brier": 0.07333045452833176
+          },
+          "STRAWBERRY:4": {
+            "rows": 90906,
+            "positive_rate": 0.19930477636239632,
+            "brier": 0.19930477440357208,
+            "quantity_mae": 1.0506237745285034,
+            "nonzero_quantity_mae": 5.271442890167236,
+            "floor_brier": 0.3333333432674408,
+            "nonfloor_brier": 0.1974300593137741,
+            "actionable_brier": 0.3369772434234619
+          },
+          "STRAWBERRY:24": {
+            "rows": 88284,
+            "positive_rate": 0.47045897331339764,
+            "brier": 0.470458984375,
+            "quantity_mae": 6.3003034591674805,
+            "nonzero_quantity_mae": 13.391823768615723,
+            "floor_brier": 0.7731022834777832,
+            "nonfloor_brier": 0.4662463366985321,
+            "actionable_brier": 0.8371052145957947
+          },
+          "MELON:1": {
+            "rows": 91436,
+            "positive_rate": 0.014873791504440265,
+            "brier": 0.014873791486024857,
+            "quantity_mae": 0.10879740864038467,
+            "nonzero_quantity_mae": 7.314705848693848,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.01488714199513197,
+            "actionable_brier": 0.04456084594130516
+          },
+          "MELON:4": {
+            "rows": 90906,
+            "positive_rate": 0.037907288847820825,
+            "brier": 0.03790728747844696,
+            "quantity_mae": 0.42419642210006714,
+            "nonzero_quantity_mae": 11.1903657913208,
+            "floor_brier": 0.024390242993831635,
+            "nonfloor_brier": 0.03791949152946472,
+            "actionable_brier": 0.057416267693042755
+          },
+          "MELON:24": {
+            "rows": 88284,
+            "positive_rate": 0.1505142494676272,
+            "brier": 0.15051424503326416,
+            "quantity_mae": 2.6181414127349854,
+            "nonzero_quantity_mae": 17.394641876220703,
+            "floor_brier": 0.19512194395065308,
+            "nonfloor_brier": 0.15047277510166168,
+            "actionable_brier": 0.12957316637039185
+          },
+          "EGG:1": {
+            "rows": 91436,
+            "positive_rate": 0.020549892821208275,
+            "brier": 0.020549893379211426,
+            "quantity_mae": 0.1194496676325798,
+            "nonzero_quantity_mae": 5.812666416168213,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.020549893379211426,
+            "actionable_brier": 0.045904744416475296
+          },
+          "EGG:4": {
+            "rows": 90906,
+            "positive_rate": 0.06508921303324312,
+            "brier": 0.06508921086788177,
+            "quantity_mae": 0.3979495167732239,
+            "nonzero_quantity_mae": 6.1139092445373535,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.06508921086788177,
+            "actionable_brier": 0.12328410148620605
+          },
+          "EGG:24": {
+            "rows": 88284,
+            "positive_rate": 0.29430021294911873,
+            "brier": 0.2943001985549927,
+            "quantity_mae": 2.3972747325897217,
+            "nonzero_quantity_mae": 8.14567756652832,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.2943001985549927,
+            "actionable_brier": 0.48662269115448
+          },
+          "MILK:1": {
+            "rows": 91436,
+            "positive_rate": 0.0378953585021217,
+            "brier": 0.037895359098911285,
+            "quantity_mae": 0.1581105887889862,
+            "nonzero_quantity_mae": 4.1722941398620605,
+            "floor_brier": 8.756512433464715e-27,
+            "nonfloor_brier": 0.03935711085796356,
+            "actionable_brier": 0.056345876306295395
+          },
+          "MILK:4": {
+            "rows": 90906,
+            "positive_rate": 0.2684531274063318,
+            "brier": 0.26845312118530273,
+            "quantity_mae": 1.0636701583862305,
+            "nonzero_quantity_mae": 3.96221923828125,
+            "floor_brier": 0.2483343482017517,
+            "nonfloor_brier": 0.26921144127845764,
+            "actionable_brier": 0.40203210711479187
+          },
+          "MILK:24": {
+            "rows": 88284,
+            "positive_rate": 0.6301028498935254,
+            "brier": 0.6301028728485107,
+            "quantity_mae": 6.3885979652404785,
+            "nonzero_quantity_mae": 10.13897705078125,
+            "floor_brier": 0.7014483213424683,
+            "nonfloor_brier": 0.6275602579116821,
+            "actionable_brier": 0.8982313275337219
+          },
+          "WOOL:1": {
+            "rows": 91436,
+            "positive_rate": 0.03188022223194365,
+            "brier": 0.031880222260951996,
+            "quantity_mae": 0.1497112661600113,
+            "nonzero_quantity_mae": 4.696054935455322,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.03584868460893631,
+            "actionable_brier": 0.045879680663347244
+          },
+          "WOOL:4": {
+            "rows": 90906,
+            "positive_rate": 0.17822805975403164,
+            "brier": 0.17822806537151337,
+            "quantity_mae": 0.7874947786331177,
+            "nonzero_quantity_mae": 4.418467044830322,
+            "floor_brier": 0.11609472334384918,
+            "nonfloor_brier": 0.1858784258365631,
+            "actionable_brier": 0.27687200903892517
+          },
+          "WOOL:24": {
+            "rows": 88284,
+            "positive_rate": 0.49226360382402246,
+            "brier": 0.4922636151313782,
+            "quantity_mae": 4.743158340454102,
+            "nonzero_quantity_mae": 9.635403633117676,
+            "floor_brier": 0.43003228306770325,
+            "nonfloor_brier": 0.4995822608470917,
+            "actionable_brier": 0.681079089641571
+          },
+          "FERTILIZER:1": {
+            "rows": 91436,
+            "positive_rate": 0.13187366026510347,
+            "brier": 0.13187366724014282,
+            "quantity_mae": 0.4242311418056488,
+            "nonzero_quantity_mae": 3.216951370239258,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.133793443441391,
+            "actionable_brier": 0.23057308793067932
+          },
+          "FERTILIZER:4": {
+            "rows": 90906,
+            "positive_rate": 0.3333663344553715,
+            "brier": 0.333366334438324,
+            "quantity_mae": 1.2943259477615356,
+            "nonzero_quantity_mae": 3.8825936317443848,
+            "floor_brier": 0.021346470341086388,
+            "nonfloor_brier": 0.33760368824005127,
+            "actionable_brier": 0.41427987813949585
+          },
+          "FERTILIZER:24": {
+            "rows": 88284,
+            "positive_rate": 0.9480766616827512,
+            "brier": 0.9480766654014587,
+            "quantity_mae": 7.85065221786499,
+            "nonzero_quantity_mae": 8.280609130859375,
+            "floor_brier": 0.19647058844566345,
+            "nonfloor_brier": 0.9553834795951843,
+            "actionable_brier": 0.9455315470695496
+          }
+        }
+      },
+      "frequency": {
+        "rows": 91440,
+        "valid_cells": 2435634,
+        "brier": 0.11396398395299911,
+        "quantity_mae": 2.630502462387085,
+        "nonzero_quantity_mae": 7.097380638122559,
+        "reliability": [
+          {
+            "lower": 0.0,
+            "count": 1020454,
+            "predicted": 0.03037814423441887,
+            "observed": 0.03043351292659934
+          },
+          {
+            "lower": 0.1,
+            "count": 442230,
+            "predicted": 0.16070328652858734,
+            "observed": 0.1627139723673202
+          },
+          {
+            "lower": 0.2,
+            "count": 368330,
+            "predicted": 0.24020400643348694,
+            "observed": 0.24213069801536666
+          },
+          {
+            "lower": 0.30000000000000004,
+            "count": 133232,
+            "predicted": 0.3188059628009796,
+            "observed": 0.315427224690765
+          },
+          {
+            "lower": 0.4,
+            "count": 169472,
+            "predicted": 0.48127174377441406,
+            "observed": 0.4787339501510574
+          },
+          {
+            "lower": 0.5,
+            "count": 22080,
+            "predicted": 0.5105340480804443,
+            "observed": 0.5180253623188406
+          },
+          {
+            "lower": 0.6000000000000001,
+            "count": 88284,
+            "predicted": 0.6310209631919861,
+            "observed": 0.6301028498935254
+          },
+          {
+            "lower": 0.7000000000000001,
+            "count": 103268,
+            "predicted": 0.7389840483665466,
+            "observed": 0.7453809505364682
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.9,
+            "count": 88284,
+            "predicted": 0.949203372001648,
+            "observed": 0.9480766616827512
+          }
+        ],
+        "by_target": {
+          "WHEAT:1": {
+            "rows": 91436,
+            "positive_rate": 0.10846931186841069,
+            "brier": 0.09259670972824097,
+            "quantity_mae": 1.40435791015625,
+            "nonzero_quantity_mae": 6.579408168792725,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.09259670972824097,
+            "actionable_brier": 0.0981360673904419
+          },
+          "WHEAT:4": {
+            "rows": 90906,
+            "positive_rate": 0.2858777198424746,
+            "brier": 0.1956465095281601,
+            "quantity_mae": 3.8619816303253174,
+            "nonzero_quantity_mae": 7.5629730224609375,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.1956465095281601,
+            "actionable_brier": 0.2001589834690094
+          },
+          "WHEAT:24": {
+            "rows": 88284,
+            "positive_rate": 0.7451406823433465,
+            "brier": 0.18994322419166565,
+            "quantity_mae": 15.137898445129395,
+            "nonzero_quantity_mae": 15.271048545837402,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.18994322419166565,
+            "actionable_brier": 0.17934438586235046
+          },
+          "CARROT:1": {
+            "rows": 91436,
+            "positive_rate": 0.027297782055208015,
+            "brier": 0.02542034350335598,
+            "quantity_mae": 0.43373358249664307,
+            "nonzero_quantity_mae": 8.219167709350586,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.02542034350335598,
+            "actionable_brier": 0.06499020010232925
+          },
+          "CARROT:4": {
+            "rows": 90906,
+            "positive_rate": 0.06999537984291467,
+            "brier": 0.06190312281250954,
+            "quantity_mae": 1.2362725734710693,
+            "nonzero_quantity_mae": 9.194581985473633,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.06190312281250954,
+            "actionable_brier": 0.14378444850444794
+          },
+          "CARROT:24": {
+            "rows": 88284,
+            "positive_rate": 0.2355239907571021,
+            "brier": 0.18016481399536133,
+            "quantity_mae": 5.878573417663574,
+            "nonzero_quantity_mae": 13.141324996948242,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.18016481399536133,
+            "actionable_brier": 0.3493504226207733
+          },
+          "TOMATO:1": {
+            "rows": 91436,
+            "positive_rate": 0.01962028085218076,
+            "brier": 0.01841903105378151,
+            "quantity_mae": 0.21990075707435608,
+            "nonzero_quantity_mae": 5.740192890167236,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.01841903105378151,
+            "actionable_brier": 0.06431516259908676
+          },
+          "TOMATO:4": {
+            "rows": 90906,
+            "positive_rate": 0.04733460937671881,
+            "brier": 0.04216792806982994,
+            "quantity_mae": 0.5605952143669128,
+            "nonzero_quantity_mae": 5.976932048797607,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.04216792806982994,
+            "actionable_brier": 0.12488158792257309
+          },
+          "TOMATO:24": {
+            "rows": 88284,
+            "positive_rate": 0.20886004258982374,
+            "brier": 0.1653820127248764,
+            "quantity_mae": 2.9140334129333496,
+            "nonzero_quantity_mae": 7.117983818054199,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.1653820127248764,
+            "actionable_brier": 0.3487430214881897
+          },
+          "STRAWBERRY:1": {
+            "rows": 91436,
+            "positive_rate": 0.03889059013955116,
+            "brier": 0.03620123118162155,
+            "quantity_mae": 0.4165800213813782,
+            "nonzero_quantity_mae": 5.2620530128479,
+            "floor_brier": 0.0038444623351097107,
+            "nonfloor_brier": 0.036656979471445084,
+            "actionable_brier": 0.06461399048566818
+          },
+          "STRAWBERRY:4": {
+            "rows": 90906,
+            "positive_rate": 0.19930477636239632,
+            "brier": 0.15727312862873077,
+            "quantity_mae": 1.6958953142166138,
+            "nonzero_quantity_mae": 4.0564069747924805,
+            "floor_brier": 0.2356490194797516,
+            "nonfloor_brier": 0.1561768501996994,
+            "actionable_brier": 0.23777326941490173
+          },
+          "STRAWBERRY:24": {
+            "rows": 88284,
+            "positive_rate": 0.47045897331339764,
+            "brier": 0.24920007586479187,
+            "quantity_mae": 7.520092010498047,
+            "nonzero_quantity_mae": 8.266280174255371,
+            "floor_brier": 0.26127147674560547,
+            "nonfloor_brier": 0.24903205037117004,
+            "actionable_brier": 0.26520290970802307
+          },
+          "MELON:1": {
+            "rows": 91436,
+            "positive_rate": 0.014873791504440265,
+            "brier": 0.014436843805015087,
+            "quantity_mae": 0.2111806720495224,
+            "nonzero_quantity_mae": 7.090448379516602,
+            "floor_brier": 0.0006492619286291301,
+            "nonfloor_brier": 0.014449221082031727,
+            "actionable_brier": 0.04173418506979942
+          },
+          "MELON:4": {
+            "rows": 90906,
+            "positive_rate": 0.037907288847820825,
+            "brier": 0.03568706288933754,
+            "quantity_mae": 0.7972005605697632,
+            "nonzero_quantity_mae": 10.556435585021973,
+            "floor_brier": 0.02329939417541027,
+            "nonfloor_brier": 0.03569824993610382,
+            "actionable_brier": 0.0527881383895874
+          },
+          "MELON:24": {
+            "rows": 88284,
+            "positive_rate": 0.1505142494676272,
+            "brier": 0.12775224447250366,
+            "quantity_mae": 4.460757255554199,
+            "nonzero_quantity_mae": 14.975508689880371,
+            "floor_brier": 0.15906140208244324,
+            "nonfloor_brier": 0.12772312760353088,
+            "actionable_brier": 0.11317754536867142
+          },
+          "EGG:1": {
+            "rows": 91436,
+            "positive_rate": 0.020549892821208275,
+            "brier": 0.019311409443616867,
+            "quantity_mae": 0.23353876173496246,
+            "nonzero_quantity_mae": 5.419572830200195,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.019311409443616867,
+            "actionable_brier": 0.04226779192686081
+          },
+          "EGG:4": {
+            "rows": 90906,
+            "positive_rate": 0.06508921303324312,
+            "brier": 0.05620104447007179,
+            "quantity_mae": 0.7038000822067261,
+            "nonzero_quantity_mae": 5.186171531677246,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.05620104447007179,
+            "actionable_brier": 0.10059136897325516
+          },
+          "EGG:24": {
+            "rows": 88284,
+            "positive_rate": 0.29430021294911873,
+            "brier": 0.2077743262052536,
+            "quantity_mae": 3.4953842163085938,
+            "nonzero_quantity_mae": 5.7170844078063965,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.2077743262052536,
+            "actionable_brier": 0.28324657678604126
+          },
+          "MILK:1": {
+            "rows": 91436,
+            "positive_rate": 0.0378953585021217,
+            "brier": 0.03580084443092346,
+            "quantity_mae": 0.2852309048175812,
+            "nonzero_quantity_mae": 3.9522385597229004,
+            "floor_brier": 0.0019362838938832283,
+            "nonfloor_brier": 0.03710711747407913,
+            "actionable_brier": 0.05230386182665825
+          },
+          "MILK:4": {
+            "rows": 90906,
+            "positive_rate": 0.2684531274063318,
+            "brier": 0.19356483221054077,
+            "quantity_mae": 1.5189615488052368,
+            "nonzero_quantity_mae": 2.911689043045044,
+            "floor_brier": 0.18471865355968475,
+            "nonfloor_brier": 0.1938982605934143,
+            "actionable_brier": 0.25410255789756775
+          },
+          "MILK:24": {
+            "rows": 88284,
+            "positive_rate": 0.6301028498935254,
+            "brier": 0.23295114934444427,
+            "quantity_mae": 5.8503336906433105,
+            "nonzero_quantity_mae": 5.629354953765869,
+            "floor_brier": 0.21507628262043,
+            "nonfloor_brier": 0.23358817398548126,
+            "actionable_brier": 0.16328471899032593
+          },
+          "WOOL:1": {
+            "rows": 91436,
+            "positive_rate": 0.03188022223194365,
+            "brier": 0.030580511316657066,
+            "quantity_mae": 0.2699810564517975,
+            "nonzero_quantity_mae": 4.515248775482178,
+            "floor_brier": 0.0011918803211301565,
+            "nonfloor_brier": 0.034238819032907486,
+            "actionable_brier": 0.04355430603027344
+          },
+          "WOOL:4": {
+            "rows": 90906,
+            "positive_rate": 0.17822805975403164,
+            "brier": 0.14449700713157654,
+            "quantity_mae": 1.235666275024414,
+            "nonzero_quantity_mae": 3.646109104156494,
+            "floor_brier": 0.09961926937103271,
+            "nonfloor_brier": 0.1500227302312851,
+            "actionable_brier": 0.20698951184749603
+          },
+          "WOOL:24": {
+            "rows": 88284,
+            "positive_rate": 0.49226360382402246,
+            "brier": 0.24970193207263947,
+            "quantity_mae": 5.490877628326416,
+            "nonzero_quantity_mae": 6.6209845542907715,
+            "floor_brier": 0.24925921857357025,
+            "nonfloor_brier": 0.24975398182868958,
+            "actionable_brier": 0.2550676465034485
+          },
+          "FERTILIZER:1": {
+            "rows": 91436,
+            "positive_rate": 0.13187366026510347,
+            "brier": 0.10031230747699738,
+            "quantity_mae": 0.5943962335586548,
+            "nonzero_quantity_mae": 2.4269542694091797,
+            "floor_brier": 0.028326665982604027,
+            "nonfloor_brier": 0.1013602614402771,
+            "actionable_brier": 0.13795354962348938
+          },
+          "FERTILIZER:4": {
+            "rows": 90906,
+            "positive_rate": 0.3333663344553715,
+            "brier": 0.1869746297597885,
+            "quantity_mae": 1.4580856561660767,
+            "nonzero_quantity_mae": 2.6346282958984375,
+            "floor_brier": 0.136965811252594,
+            "nonfloor_brier": 0.18765376508235931,
+            "actionable_brier": 0.17463263869285583
+          },
+          "FERTILIZER:24": {
+            "rows": 88284,
+            "positive_rate": 0.9480766616827512,
+            "brier": 0.049030233174562454,
+            "quantity_mae": 4.153226852416992,
+            "nonzero_quantity_mae": 3.9626150131225586,
+            "floor_brier": 0.7258760929107666,
+            "nonfloor_brier": 0.0424501933157444,
+            "actionable_brier": 0.051975466310977936
+          }
+        }
+      },
+      "production": {
+        "rows": 91440,
+        "valid_cells": 2435634,
+        "brier": 0.2344631850719452,
+        "quantity_mae": 9.889116287231445,
+        "nonzero_quantity_mae": 17.220138549804688,
+        "reliability": [
+          {
+            "lower": 0.0,
+            "count": 568123,
+            "predicted": 0.03176208958029747,
+            "observed": 0.011520392591041024
+          },
+          {
+            "lower": 0.1,
+            "count": 215028,
+            "predicted": 0.15946795046329498,
+            "observed": 0.05507654817047082
+          },
+          {
+            "lower": 0.2,
+            "count": 194533,
+            "predicted": 0.24091044068336487,
+            "observed": 0.06522286707139663
+          },
+          {
+            "lower": 0.30000000000000004,
+            "count": 158700,
+            "predicted": 0.333506315946579,
+            "observed": 0.11497794580970384
+          },
+          {
+            "lower": 0.4,
+            "count": 113827,
+            "predicted": 0.4500201642513275,
+            "observed": 0.15785358482609574
+          },
+          {
+            "lower": 0.5,
+            "count": 122590,
+            "predicted": 0.5517223477363586,
+            "observed": 0.19009707153927727
+          },
+          {
+            "lower": 0.6000000000000001,
+            "count": 148161,
+            "predicted": 0.6515507698059082,
+            "observed": 0.24141305741726904
+          },
+          {
+            "lower": 0.7000000000000001,
+            "count": 180972,
+            "predicted": 0.7535119652748108,
+            "observed": 0.30016245607055236
+          },
+          {
+            "lower": 0.8,
+            "count": 197951,
+            "predicted": 0.8503397107124329,
+            "observed": 0.36120049911341695
+          },
+          {
+            "lower": 0.9,
+            "count": 535749,
+            "predicted": 0.9730832576751709,
+            "observed": 0.5429968138064654
+          }
+        ],
+        "by_target": {
+          "WHEAT:1": {
+            "rows": 91436,
+            "positive_rate": 0.10846931186841069,
+            "brier": 0.6481679081916809,
+            "quantity_mae": 26.3602294921875,
+            "nonzero_quantity_mae": 26.67557144165039,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.6481679081916809,
+            "actionable_brier": 0.6739625334739685
+          },
+          "WHEAT:4": {
+            "rows": 90906,
+            "positive_rate": 0.2858777198424746,
+            "brier": 0.5412842035293579,
+            "quantity_mae": 28.67889976501465,
+            "nonzero_quantity_mae": 31.260168075561523,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.5412842035293579,
+            "actionable_brier": 0.5542371273040771
+          },
+          "WHEAT:24": {
+            "rows": 88284,
+            "positive_rate": 0.7451406823433465,
+            "brier": 0.2180534303188324,
+            "quantity_mae": 43.64143371582031,
+            "nonzero_quantity_mae": 46.819522857666016,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.2180534303188324,
+            "actionable_brier": 0.19917884469032288
+          },
+          "CARROT:1": {
+            "rows": 91436,
+            "positive_rate": 0.027297782055208015,
+            "brier": 0.20228099822998047,
+            "quantity_mae": 5.922471046447754,
+            "nonzero_quantity_mae": 14.056567192077637,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.20228099822998047,
+            "actionable_brier": 0.4496884047985077
+          },
+          "CARROT:4": {
+            "rows": 90906,
+            "positive_rate": 0.06999537984291467,
+            "brier": 0.19037625193595886,
+            "quantity_mae": 6.5842366218566895,
+            "nonzero_quantity_mae": 16.041366577148438,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.19037625193595886,
+            "actionable_brier": 0.4024791121482849
+          },
+          "CARROT:24": {
+            "rows": 88284,
+            "positive_rate": 0.2355239907571021,
+            "brier": 0.10836105048656464,
+            "quantity_mae": 9.480708122253418,
+            "nonzero_quantity_mae": 22.01723289489746,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.10836105048656464,
+            "actionable_brier": 0.13095082342624664
+          },
+          "TOMATO:1": {
+            "rows": 91436,
+            "positive_rate": 0.01962028085218076,
+            "brier": 0.08026931434869766,
+            "quantity_mae": 1.837309718132019,
+            "nonzero_quantity_mae": 4.683498859405518,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.08026931434869766,
+            "actionable_brier": 0.1755271553993225
+          },
+          "TOMATO:4": {
+            "rows": 90906,
+            "positive_rate": 0.04733460937671881,
+            "brier": 0.09383366256952286,
+            "quantity_mae": 2.221996784210205,
+            "nonzero_quantity_mae": 5.199552059173584,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.09383366256952286,
+            "actionable_brier": 0.19105863571166992
+          },
+          "TOMATO:24": {
+            "rows": 88284,
+            "positive_rate": 0.20886004258982374,
+            "brier": 0.10441707074642181,
+            "quantity_mae": 3.88112735748291,
+            "nonzero_quantity_mae": 7.05391788482666,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.10441707074642181,
+            "actionable_brier": 0.13821804523468018
+          },
+          "STRAWBERRY:1": {
+            "rows": 91436,
+            "positive_rate": 0.03889059013955116,
+            "brier": 0.2092905193567276,
+            "quantity_mae": 5.322772026062012,
+            "nonzero_quantity_mae": 9.20002555847168,
+            "floor_brier": 0.2874396741390228,
+            "nonfloor_brier": 0.20818978548049927,
+            "actionable_brier": 0.34538695216178894
+          },
+          "STRAWBERRY:4": {
+            "rows": 90906,
+            "positive_rate": 0.19930477636239632,
+            "brier": 0.254883348941803,
+            "quantity_mae": 6.945853233337402,
+            "nonzero_quantity_mae": 9.431663513183594,
+            "floor_brier": 0.31238582730293274,
+            "nonfloor_brier": 0.25407904386520386,
+            "actionable_brier": 0.3576659560203552
+          },
+          "STRAWBERRY:24": {
+            "rows": 88284,
+            "positive_rate": 0.47045897331339764,
+            "brier": 0.30401235818862915,
+            "quantity_mae": 15.682099342346191,
+            "nonzero_quantity_mae": 16.311933517456055,
+            "floor_brier": 0.1557210087776184,
+            "nonfloor_brier": 0.3060764670372009,
+            "actionable_brier": 0.13103556632995605
+          },
+          "MELON:1": {
+            "rows": 91436,
+            "positive_rate": 0.014873791504440265,
+            "brier": 0.301364004611969,
+            "quantity_mae": 8.613970756530762,
+            "nonzero_quantity_mae": 12.232499122619629,
+            "floor_brier": 0.1372976005077362,
+            "nonfloor_brier": 0.301511287689209,
+            "actionable_brier": 0.12160580605268478
+          },
+          "MELON:4": {
+            "rows": 90906,
+            "positive_rate": 0.037907288847820825,
+            "brier": 0.31358200311660767,
+            "quantity_mae": 9.293758392333984,
+            "nonzero_quantity_mae": 11.716813087463379,
+            "floor_brier": 0.16511233150959015,
+            "nonfloor_brier": 0.3137160539627075,
+            "actionable_brier": 0.13137580454349518
+          },
+          "MELON:24": {
+            "rows": 88284,
+            "positive_rate": 0.1505142494676272,
+            "brier": 0.3567408323287964,
+            "quantity_mae": 12.781291007995605,
+            "nonzero_quantity_mae": 12.75928020477295,
+            "floor_brier": 0.22291067242622375,
+            "nonfloor_brier": 0.356865257024765,
+            "actionable_brier": 0.17050038278102875
+          },
+          "EGG:1": {
+            "rows": 91436,
+            "positive_rate": 0.020549892821208275,
+            "brier": 0.10271374881267548,
+            "quantity_mae": 2.210559844970703,
+            "nonzero_quantity_mae": 4.480885982513428,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.10271374881267548,
+            "actionable_brier": 0.1991167664527893
+          },
+          "EGG:4": {
+            "rows": 90906,
+            "positive_rate": 0.06508921303324312,
+            "brier": 0.12040743231773376,
+            "quantity_mae": 2.5274200439453125,
+            "nonzero_quantity_mae": 4.499448776245117,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.12040743231773376,
+            "actionable_brier": 0.2134755402803421
+          },
+          "EGG:24": {
+            "rows": 88284,
+            "positive_rate": 0.29430021294911873,
+            "brier": 0.1350841373205185,
+            "quantity_mae": 3.707787036895752,
+            "nonzero_quantity_mae": 4.860597133636475,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.1350841373205185,
+            "actionable_brier": 0.1469232439994812
+          },
+          "MILK:1": {
+            "rows": 91436,
+            "positive_rate": 0.0378953585021217,
+            "brier": 0.18089830875396729,
+            "quantity_mae": 4.105554103851318,
+            "nonzero_quantity_mae": 6.485044479370117,
+            "floor_brier": 0.24809344112873077,
+            "nonfloor_brier": 0.17830637097358704,
+            "actionable_brier": 0.28947556018829346
+          },
+          "MILK:4": {
+            "rows": 90906,
+            "positive_rate": 0.2684531274063318,
+            "brier": 0.22788067162036896,
+            "quantity_mae": 5.011158466339111,
+            "nonzero_quantity_mae": 6.411009788513184,
+            "floor_brier": 0.2999582588672638,
+            "nonfloor_brier": 0.22516389191150665,
+            "actionable_brier": 0.2911357283592224
+          },
+          "MILK:24": {
+            "rows": 88284,
+            "positive_rate": 0.6301028498935254,
+            "brier": 0.2139926701784134,
+            "quantity_mae": 8.77459716796875,
+            "nonzero_quantity_mae": 8.392937660217285,
+            "floor_brier": 0.203719362616539,
+            "nonfloor_brier": 0.21435880661010742,
+            "actionable_brier": 0.08551324158906937
+          },
+          "WOOL:1": {
+            "rows": 91436,
+            "positive_rate": 0.03188022223194365,
+            "brier": 0.1867302507162094,
+            "quantity_mae": 4.339808464050293,
+            "nonzero_quantity_mae": 6.818321228027344,
+            "floor_brier": 0.33173367381095886,
+            "nonfloor_brier": 0.16868019104003906,
+            "actionable_brier": 0.2662733495235443
+          },
+          "WOOL:4": {
+            "rows": 90906,
+            "positive_rate": 0.17822805975403164,
+            "brier": 0.21796730160713196,
+            "quantity_mae": 5.10577392578125,
+            "nonzero_quantity_mae": 7.3474578857421875,
+            "floor_brier": 0.35495245456695557,
+            "nonfloor_brier": 0.20110057294368744,
+            "actionable_brier": 0.2947024405002594
+          },
+          "WOOL:24": {
+            "rows": 88284,
+            "positive_rate": 0.49226360382402246,
+            "brier": 0.24898578226566315,
+            "quantity_mae": 8.602034568786621,
+            "nonzero_quantity_mae": 8.760486602783203,
+            "floor_brier": 0.35402625799179077,
+            "nonfloor_brier": 0.23663261532783508,
+            "actionable_brier": 0.2080218493938446
+          },
+          "FERTILIZER:1": {
+            "rows": 91436,
+            "positive_rate": 0.13187366026510347,
+            "brier": 0.32037416100502014,
+            "quantity_mae": 6.724862098693848,
+            "nonzero_quantity_mae": 6.561049938201904,
+            "floor_brier": 0.5667920112609863,
+            "nonfloor_brier": 0.31678688526153564,
+            "actionable_brier": 0.3724156618118286
+          },
+          "FERTILIZER:4": {
+            "rows": 90906,
+            "positive_rate": 0.3333663344553715,
+            "brier": 0.3865828812122345,
+            "quantity_mae": 8.809152603149414,
+            "nonzero_quantity_mae": 6.796128749847412,
+            "floor_brier": 0.7379228472709656,
+            "nonfloor_brier": 0.3818114995956421,
+            "actionable_brier": 0.39163315296173096
+          },
+          "FERTILIZER:24": {
+            "rows": 88284,
+            "positive_rate": 0.9480766616827512,
+            "brier": 0.05059071257710457,
+            "quantity_mae": 21.091157913208008,
+            "nonzero_quantity_mae": 20.54854965209961,
+            "floor_brier": 0.802351713180542,
+            "nonfloor_brier": 0.04328237846493721,
+            "actionable_brier": 0.05420295149087906
+          }
+        }
+      }
+    },
+    "test": {
+      "zero": {
+        "rows": 92160,
+        "valid_cells": 2454138,
+        "brier": 0.2244824916124344,
+        "quantity_mae": 2.2834115028381348,
+        "nonzero_quantity_mae": 10.171891212463379,
+        "reliability": [
+          {
+            "lower": 0.0,
+            "count": 2454138,
+            "predicted": 9.357623589846195e-14,
+            "observed": 0.2244824863149505
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.30000000000000004,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.6000000000000001,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.7000000000000001,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.9,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          }
+        ],
+        "by_target": {
+          "WHEAT:1": {
+            "rows": 92152,
+            "positive_rate": 0.1125097664727841,
+            "brier": 0.11250976473093033,
+            "quantity_mae": 0.8401228189468384,
+            "nonzero_quantity_mae": 7.4671101570129395,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.11250976473093033,
+            "actionable_brier": 0.12136970460414886
+          },
+          "WHEAT:4": {
+            "rows": 91616,
+            "positive_rate": 0.28967647572476424,
+            "brier": 0.2896764874458313,
+            "quantity_mae": 2.6892900466918945,
+            "nonzero_quantity_mae": 9.283771514892578,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.2896764874458313,
+            "actionable_brier": 0.3009606599807739
+          },
+          "WHEAT:24": {
+            "rows": 88914,
+            "positive_rate": 0.7519175832827226,
+            "brier": 0.7519176006317139,
+            "quantity_mae": 15.492453575134277,
+            "nonzero_quantity_mae": 20.603925704956055,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.7519176006317139,
+            "actionable_brier": 0.7751455307006836
+          },
+          "CARROT:1": {
+            "rows": 92152,
+            "positive_rate": 0.0279755187082212,
+            "brier": 0.027975518256425858,
+            "quantity_mae": 0.24937060475349426,
+            "nonzero_quantity_mae": 8.913887023925781,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.027975518256425858,
+            "actionable_brier": 0.06991668790578842
+          },
+          "CARROT:4": {
+            "rows": 91616,
+            "positive_rate": 0.07080640936081034,
+            "brier": 0.07080640643835068,
+            "quantity_mae": 0.7099087238311768,
+            "nonzero_quantity_mae": 10.026052474975586,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.07080640643835068,
+            "actionable_brier": 0.16066844761371613
+          },
+          "CARROT:24": {
+            "rows": 88914,
+            "positive_rate": 0.2397147805744877,
+            "brier": 0.23971478641033173,
+            "quantity_mae": 3.8454349040985107,
+            "nonzero_quantity_mae": 16.041709899902344,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.23971478641033173,
+            "actionable_brier": 0.536853551864624
+          },
+          "TOMATO:1": {
+            "rows": 92152,
+            "positive_rate": 0.019739126660300373,
+            "brier": 0.019739126786589622,
+            "quantity_mae": 0.118467316031456,
+            "nonzero_quantity_mae": 6.001649379730225,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.019739126786589622,
+            "actionable_brier": 0.08096795529127121
+          },
+          "TOMATO:4": {
+            "rows": 91616,
+            "positive_rate": 0.04656391896611946,
+            "brier": 0.04656391963362694,
+            "quantity_mae": 0.3164512813091278,
+            "nonzero_quantity_mae": 6.796061992645264,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.04656391963362694,
+            "actionable_brier": 0.1604442596435547
+          },
+          "TOMATO:24": {
+            "rows": 88914,
+            "positive_rate": 0.1988888139100704,
+            "brier": 0.19888880848884583,
+            "quantity_mae": 1.8214341402053833,
+            "nonzero_quantity_mae": 9.158052444458008,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.19888880848884583,
+            "actionable_brier": 0.5066771507263184
+          },
+          "STRAWBERRY:1": {
+            "rows": 92152,
+            "positive_rate": 0.041811355152356976,
+            "brier": 0.04181135445833206,
+            "quantity_mae": 0.23969094455242157,
+            "nonzero_quantity_mae": 5.732676029205322,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.04215075075626373,
+            "actionable_brier": 0.07774488627910614
+          },
+          "STRAWBERRY:4": {
+            "rows": 91616,
+            "positive_rate": 0.21258295494236815,
+            "brier": 0.21258296072483063,
+            "quantity_mae": 1.147714376449585,
+            "nonzero_quantity_mae": 5.398900985717773,
+            "floor_brier": 0.28125,
+            "nonfloor_brier": 0.21202684938907623,
+            "actionable_brier": 0.3659893870353699
+          },
+          "STRAWBERRY:24": {
+            "rows": 88914,
+            "positive_rate": 0.4894279865937873,
+            "brier": 0.48942798376083374,
+            "quantity_mae": 6.8654656410217285,
+            "nonzero_quantity_mae": 14.0275297164917,
+            "floor_brier": 0.8294797539710999,
+            "nonfloor_brier": 0.486760675907135,
+            "actionable_brier": 0.8818119764328003
+          },
+          "MELON:1": {
+            "rows": 92152,
+            "positive_rate": 0.015854240819515582,
+            "brier": 0.0158542413264513,
+            "quantity_mae": 0.11211910843849182,
+            "nonzero_quantity_mae": 7.071868419647217,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.015870774164795876,
+            "actionable_brier": 0.04494938626885414
+          },
+          "MELON:4": {
+            "rows": 91616,
+            "positive_rate": 0.03921804051694027,
+            "brier": 0.03921804204583168,
+            "quantity_mae": 0.41824573278427124,
+            "nonzero_quantity_mae": 10.664626121520996,
+            "floor_brier": 0.0625,
+            "nonfloor_brier": 0.039193619042634964,
+            "actionable_brier": 0.05808599665760994
+          },
+          "MELON:24": {
+            "rows": 88914,
+            "positive_rate": 0.15131475358211305,
+            "brier": 0.15131475031375885,
+            "quantity_mae": 2.5821805000305176,
+            "nonzero_quantity_mae": 17.06496238708496,
+            "floor_brier": 0.375,
+            "nonfloor_brier": 0.15107297897338867,
+            "actionable_brier": 0.12184186279773712
+          },
+          "EGG:1": {
+            "rows": 92152,
+            "positive_rate": 0.02023830193593194,
+            "brier": 0.020238302648067474,
+            "quantity_mae": 0.12184217572212219,
+            "nonzero_quantity_mae": 6.0203752517700195,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.020238302648067474,
+            "actionable_brier": 0.04051373898983002
+          },
+          "EGG:4": {
+            "rows": 91616,
+            "positive_rate": 0.06373340901152637,
+            "brier": 0.06373340636491776,
+            "quantity_mae": 0.39692848920822144,
+            "nonzero_quantity_mae": 6.227950096130371,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.06373340636491776,
+            "actionable_brier": 0.11445207893848419
+          },
+          "EGG:24": {
+            "rows": 88914,
+            "positive_rate": 0.2886159659896079,
+            "brier": 0.28861597180366516,
+            "quantity_mae": 2.3885326385498047,
+            "nonzero_quantity_mae": 8.275815963745117,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.28861597180366516,
+            "actionable_brier": 0.47256529331207275
+          },
+          "MILK:1": {
+            "rows": 92152,
+            "positive_rate": 0.03660256966750586,
+            "brier": 0.03660256788134575,
+            "quantity_mae": 0.1485806107521057,
+            "nonzero_quantity_mae": 4.0592942237854,
+            "floor_brier": 8.756510122348782e-27,
+            "nonfloor_brier": 0.03904386982321739,
+            "actionable_brier": 0.05319030210375786
+          },
+          "MILK:4": {
+            "rows": 91616,
+            "positive_rate": 0.2687849283967866,
+            "brier": 0.26878494024276733,
+            "quantity_mae": 1.0341861248016357,
+            "nonzero_quantity_mae": 3.8476345539093018,
+            "floor_brier": 0.30180659890174866,
+            "nonfloor_brier": 0.26661625504493713,
+            "actionable_brier": 0.39686816930770874
+          },
+          "MILK:24": {
+            "rows": 88914,
+            "positive_rate": 0.6301032458330522,
+            "brier": 0.6301032304763794,
+            "quantity_mae": 6.213295936584473,
+            "nonzero_quantity_mae": 9.860758781433105,
+            "floor_brier": 0.7565284371376038,
+            "nonfloor_brier": 0.6222373843193054,
+            "actionable_brier": 0.893240749835968
+          },
+          "WOOL:1": {
+            "rows": 92152,
+            "positive_rate": 0.0312093063633996,
+            "brier": 0.03120930679142475,
+            "quantity_mae": 0.13729490339756012,
+            "nonzero_quantity_mae": 4.399165630340576,
+            "floor_brier": 8.75651089272076e-27,
+            "nonfloor_brier": 0.03540476784110069,
+            "actionable_brier": 0.046705540269613266
+          },
+          "WOOL:4": {
+            "rows": 91616,
+            "positive_rate": 0.18211884387006635,
+            "brier": 0.18211884796619415,
+            "quantity_mae": 0.7435709834098816,
+            "nonzero_quantity_mae": 4.082888603210449,
+            "floor_brier": 0.11582078784704208,
+            "nonfloor_brier": 0.19093966484069824,
+            "actionable_brier": 0.28514525294303894
+          },
+          "WOOL:24": {
+            "rows": 88914,
+            "positive_rate": 0.48560406685111457,
+            "brier": 0.48560407757759094,
+            "quantity_mae": 4.490327835083008,
+            "nonzero_quantity_mae": 9.246891021728516,
+            "floor_brier": 0.43008726835250854,
+            "nonfloor_brier": 0.4927058219909668,
+            "actionable_brier": 0.6735118627548218
+          },
+          "FERTILIZER:1": {
+            "rows": 92152,
+            "positive_rate": 0.13439751714558557,
+            "brier": 0.13439752161502838,
+            "quantity_mae": 0.42305105924606323,
+            "nonzero_quantity_mae": 3.147759437561035,
+            "floor_brier": 0.0007102272938936949,
+            "nonfloor_brier": 0.13647183775901794,
+            "actionable_brier": 0.24851258099079132
+          },
+          "FERTILIZER:4": {
+            "rows": 91616,
+            "positive_rate": 0.33724458609849806,
+            "brier": 0.33724460005760193,
+            "quantity_mae": 1.2923616170883179,
+            "nonzero_quantity_mae": 3.8321197032928467,
+            "floor_brier": 0.011227545328438282,
+            "nonfloor_brier": 0.3420691192150116,
+            "actionable_brier": 0.4355887472629547
+          },
+          "FERTILIZER:24": {
+            "rows": 88914,
+            "positive_rate": 0.9473986098927053,
+            "brier": 0.9473986029624939,
+            "quantity_mae": 7.833783149719238,
+            "nonzero_quantity_mae": 8.268730163574219,
+            "floor_brier": 0.09923664480447769,
+            "nonfloor_brier": 0.9575148224830627,
+            "actionable_brier": 0.9445677399635315
+          }
+        }
+      },
+      "frequency": {
+        "rows": 92160,
+        "valid_cells": 2454138,
+        "brier": 0.11444748193025589,
+        "quantity_mae": 2.5980746746063232,
+        "nonzero_quantity_mae": 6.941226482391357,
+        "reliability": [
+          {
+            "lower": 0.0,
+            "count": 1028428,
+            "predicted": 0.030378496274352074,
+            "observed": 0.030901531269082523
+          },
+          {
+            "lower": 0.1,
+            "count": 445576,
+            "predicted": 0.16070003807544708,
+            "observed": 0.1636331400254951
+          },
+          {
+            "lower": 0.2,
+            "count": 371140,
+            "predicted": 0.24020922183990479,
+            "observed": 0.24661313789944495
+          },
+          {
+            "lower": 0.30000000000000004,
+            "count": 134220,
+            "predicted": 0.3188142478466034,
+            "observed": 0.3117419162568917
+          },
+          {
+            "lower": 0.4,
+            "count": 170688,
+            "predicted": 0.48127293586730957,
+            "observed": 0.4857224878140233
+          },
+          {
+            "lower": 0.5,
+            "count": 22242,
+            "predicted": 0.5105323195457458,
+            "observed": 0.5157359949644816
+          },
+          {
+            "lower": 0.6000000000000001,
+            "count": 88914,
+            "predicted": 0.6310213804244995,
+            "observed": 0.6301032458330522
+          },
+          {
+            "lower": 0.7000000000000001,
+            "count": 104016,
+            "predicted": 0.7389853000640869,
+            "observed": 0.7519035532994924
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "predicted": 0.0,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.9,
+            "count": 88914,
+            "predicted": 0.9492039084434509,
+            "observed": 0.9473986098927053
+          }
+        ],
+        "by_target": {
+          "WHEAT:1": {
+            "rows": 92152,
+            "positive_rate": 0.1125097664727841,
+            "brier": 0.09563232213258743,
+            "quantity_mae": 1.4096996784210205,
+            "nonzero_quantity_mae": 6.408378601074219,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.09563232213258743,
+            "actionable_brier": 0.1016140878200531
+          },
+          "WHEAT:4": {
+            "rows": 91616,
+            "positive_rate": 0.28967647572476424,
+            "brier": 0.19766049087047577,
+            "quantity_mae": 3.751453161239624,
+            "nonzero_quantity_mae": 7.097596168518066,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.19766049087047577,
+            "actionable_brier": 0.20312590897083282
+          },
+          "WHEAT:24": {
+            "rows": 88914,
+            "positive_rate": 0.7519175832827226,
+            "brier": 0.18672224879264832,
+            "quantity_mae": 14.356762886047363,
+            "nonzero_quantity_mae": 14.227511405944824,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.18672224879264832,
+            "actionable_brier": 0.17580699920654297
+          },
+          "CARROT:1": {
+            "rows": 92152,
+            "positive_rate": 0.0279755187082212,
+            "brier": 0.02599278837442398,
+            "quantity_mae": 0.4407094419002533,
+            "nonzero_quantity_mae": 8.285449028015137,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.02599278837442398,
+            "actionable_brier": 0.06359478831291199
+          },
+          "CARROT:4": {
+            "rows": 91616,
+            "positive_rate": 0.07080640936081034,
+            "brier": 0.06259465217590332,
+            "quantity_mae": 1.2178586721420288,
+            "nonzero_quantity_mae": 8.836325645446777,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.06259465217590332,
+            "actionable_brier": 0.1356038600206375
+          },
+          "CARROT:24": {
+            "rows": 88914,
+            "positive_rate": 0.2397147805744877,
+            "brier": 0.18247559666633606,
+            "quantity_mae": 5.819943428039551,
+            "nonzero_quantity_mae": 12.730350494384766,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.18247559666633606,
+            "actionable_brier": 0.3468089699745178
+          },
+          "TOMATO:1": {
+            "rows": 92152,
+            "positive_rate": 0.019739126660300373,
+            "brier": 0.018570495769381523,
+            "quantity_mae": 0.218758225440979,
+            "nonzero_quantity_mae": 5.644792556762695,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.018570495769381523,
+            "actionable_brier": 0.07310786843299866
+          },
+          "TOMATO:4": {
+            "rows": 91616,
+            "positive_rate": 0.04656391896611946,
+            "brier": 0.04169207066297531,
+            "quantity_mae": 0.5611855983734131,
+            "nonzero_quantity_mae": 6.066709041595459,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.04169207066297531,
+            "actionable_brier": 0.13091443479061127
+          },
+          "TOMATO:24": {
+            "rows": 88914,
+            "positive_rate": 0.1988888139100704,
+            "brier": 0.15931658446788788,
+            "quantity_mae": 2.916159152984619,
+            "nonzero_quantity_mae": 7.395434379577637,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.15931658446788788,
+            "actionable_brier": 0.34703531861305237
+          },
+          "STRAWBERRY:1": {
+            "rows": 92152,
+            "positive_rate": 0.041811355152356976,
+            "brier": 0.03863310068845749,
+            "quantity_mae": 0.4285728633403778,
+            "nonzero_quantity_mae": 5.225012302398682,
+            "floor_brier": 0.004256109707057476,
+            "nonfloor_brier": 0.03891214728355408,
+            "actionable_brier": 0.06806927174329758
+          },
+          "STRAWBERRY:4": {
+            "rows": 91616,
+            "positive_rate": 0.21258295494236815,
+            "brier": 0.16452740132808685,
+            "quantity_mae": 1.7570825815200806,
+            "nonzero_quantity_mae": 4.171937465667725,
+            "floor_brier": 0.21294526755809784,
+            "nonfloor_brier": 0.16413527727127075,
+            "actionable_brier": 0.25352421402931213
+          },
+          "STRAWBERRY:24": {
+            "rows": 88914,
+            "positive_rate": 0.4894279865937873,
+            "brier": 0.24994675815105438,
+            "quantity_mae": 7.765406608581543,
+            "nonzero_quantity_mae": 8.713475227355957,
+            "floor_brier": 0.2643868029117584,
+            "nonfloor_brier": 0.24983347952365875,
+            "actionable_brier": 0.2670372724533081
+          },
+          "MELON:1": {
+            "rows": 92152,
+            "positive_rate": 0.015854240819515582,
+            "brier": 0.015370490960776806,
+            "quantity_mae": 0.21416768431663513,
+            "nonzero_quantity_mae": 6.850982189178467,
+            "floor_brier": 0.00047153522609733045,
+            "nonfloor_brier": 0.015386028215289116,
+            "actionable_brier": 0.0420779287815094
+          },
+          "MELON:4": {
+            "rows": 91616,
+            "positive_rate": 0.03921804051694027,
+            "brier": 0.036931008100509644,
+            "quantity_mae": 0.7900368571281433,
+            "nonzero_quantity_mae": 10.036762237548828,
+            "floor_brier": 0.05347419157624245,
+            "nonfloor_brier": 0.03691365197300911,
+            "actionable_brier": 0.053408410400152206
+          },
+          "MELON:24": {
+            "rows": 88914,
+            "positive_rate": 0.15131475358211305,
+            "brier": 0.12829576432704926,
+            "quantity_mae": 4.418460845947266,
+            "nonzero_quantity_mae": 14.630504608154297,
+            "floor_brier": 0.2833445072174072,
+            "nonfloor_brier": 0.12812818586826324,
+            "actionable_brier": 0.10774769634008408
+          },
+          "EGG:1": {
+            "rows": 92152,
+            "positive_rate": 0.02023830193593194,
+            "brier": 0.019083591178059578,
+            "quantity_mae": 0.2365148514509201,
+            "nonzero_quantity_mae": 5.635565757751465,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.019083591178059578,
+            "actionable_brier": 0.03771290183067322
+          },
+          "EGG:4": {
+            "rows": 91616,
+            "positive_rate": 0.06373340901152637,
+            "brier": 0.055446699261665344,
+            "quantity_mae": 0.7065168619155884,
+            "nonzero_quantity_mae": 5.308999061584473,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.055446699261665344,
+            "actionable_brier": 0.09537091851234436
+          },
+          "EGG:24": {
+            "rows": 88914,
+            "positive_rate": 0.2886159659896079,
+            "brier": 0.20554128289222717,
+            "quantity_mae": 3.515003204345703,
+            "nonzero_quantity_mae": 5.846961975097656,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.20554128289222717,
+            "actionable_brier": 0.27771273255348206
+          },
+          "MILK:1": {
+            "rows": 92152,
+            "positive_rate": 0.03660256966750586,
+            "brier": 0.03460812196135521,
+            "quantity_mae": 0.27628666162490845,
+            "nonzero_quantity_mae": 3.8394250869750977,
+            "floor_brier": 0.0018615048611536622,
+            "nonfloor_brier": 0.03679223731160164,
+            "actionable_brier": 0.049443505704402924
+          },
+          "MILK:4": {
+            "rows": 91616,
+            "positive_rate": 0.2687849283967866,
+            "brier": 0.1938178539276123,
+            "quantity_mae": 1.4927704334259033,
+            "nonzero_quantity_mae": 2.810131549835205,
+            "floor_brier": 0.20854586362838745,
+            "nonfloor_brier": 0.19285061955451965,
+            "actionable_brier": 0.2518112361431122
+          },
+          "MILK:24": {
+            "rows": 88914,
+            "positive_rate": 0.6301032458330522,
+            "brier": 0.232929065823555,
+            "quantity_mae": 5.840773105621338,
+            "nonzero_quantity_mae": 5.6139984130859375,
+            "floor_brier": 0.2002336084842682,
+            "nonfloor_brier": 0.2349632978439331,
+            "actionable_brier": 0.1645928919315338
+          },
+          "WOOL:1": {
+            "rows": 92152,
+            "positive_rate": 0.0312093063633996,
+            "brier": 0.029915787279605865,
+            "quantity_mae": 0.2576552927494049,
+            "nonzero_quantity_mae": 4.215870380401611,
+            "floor_brier": 0.0012051339726895094,
+            "nonfloor_brier": 0.03377535194158554,
+            "actionable_brier": 0.04419742897152901
+          },
+          "WOOL:4": {
+            "rows": 91616,
+            "positive_rate": 0.18211884387006635,
+            "brier": 0.1469719558954239,
+            "quantity_mae": 1.1859536170959473,
+            "nonzero_quantity_mae": 3.3125762939453125,
+            "floor_brier": 0.0983249694108963,
+            "nonfloor_brier": 0.1534443497657776,
+            "actionable_brier": 0.2119673639535904
+          },
+          "WOOL:24": {
+            "rows": 88914,
+            "positive_rate": 0.48560406685111457,
+            "brier": 0.24951490759849548,
+            "quantity_mae": 5.3055572509765625,
+            "nonzero_quantity_mae": 6.269693851470947,
+            "floor_brier": 0.24919627606868744,
+            "nonfloor_brier": 0.24955566227436066,
+            "actionable_brier": 0.25476378202438354
+          },
+          "FERTILIZER:1": {
+            "rows": 92152,
+            "positive_rate": 0.13439751714558557,
+            "brier": 0.10201457142829895,
+            "quantity_mae": 0.591140627861023,
+            "nonzero_quantity_mae": 2.3685147762298584,
+            "floor_brier": 0.029716599732637405,
+            "nonfloor_brier": 0.10313636064529419,
+            "actionable_brier": 0.14813467860221863
+          },
+          "FERTILIZER:4": {
+            "rows": 91616,
+            "positive_rate": 0.33724458609849806,
+            "brier": 0.18817079067230225,
+            "quantity_mae": 1.455358862876892,
+            "nonzero_quantity_mae": 2.611009359359741,
+            "floor_brier": 0.13973650336265564,
+            "nonfloor_brier": 0.18888752162456512,
+            "actionable_brier": 0.1808522343635559
+          },
+          "FERTILIZER:24": {
+            "rows": 88914,
+            "positive_rate": 0.9473986098927053,
+            "brier": 0.04962826520204544,
+            "quantity_mae": 4.239421844482422,
+            "nonzero_quantity_mae": 4.050920486450195,
+            "floor_brier": 0.8136237263679504,
+            "nonfloor_brier": 0.040515899658203125,
+            "actionable_brier": 0.05272454023361206
+          }
+        }
+      },
+      "production": {
+        "rows": 92160,
+        "valid_cells": 2454138,
+        "brier": 0.23357124626636505,
+        "quantity_mae": 9.75219440460205,
+        "nonzero_quantity_mae": 16.91535758972168,
+        "reliability": [
+          {
+            "lower": 0.0,
+            "count": 572255,
+            "predicted": 0.03160044923424721,
+            "observed": 0.011743016662152363
+          },
+          {
+            "lower": 0.1,
+            "count": 219973,
+            "predicted": 0.15931019186973572,
+            "observed": 0.05536133980079373
+          },
+          {
+            "lower": 0.2,
+            "count": 193000,
+            "predicted": 0.2409198135137558,
+            "observed": 0.06761658031088083
+          },
+          {
+            "lower": 0.30000000000000004,
+            "count": 159649,
+            "predicted": 0.3333233594894409,
+            "observed": 0.11381843920099718
+          },
+          {
+            "lower": 0.4,
+            "count": 113688,
+            "predicted": 0.4497012197971344,
+            "observed": 0.15622581099148547
+          },
+          {
+            "lower": 0.5,
+            "count": 123572,
+            "predicted": 0.551600456237793,
+            "observed": 0.19030201016411485
+          },
+          {
+            "lower": 0.6000000000000001,
+            "count": 151106,
+            "predicted": 0.6515861749649048,
+            "observed": 0.24468915860389395
+          },
+          {
+            "lower": 0.7000000000000001,
+            "count": 182030,
+            "predicted": 0.7534774541854858,
+            "observed": 0.30471900236224797
+          },
+          {
+            "lower": 0.8,
+            "count": 196556,
+            "predicted": 0.8504747748374939,
+            "observed": 0.36069618836362155
+          },
+          {
+            "lower": 0.9,
+            "count": 542309,
+            "predicted": 0.972722053527832,
+            "observed": 0.5461388249134719
+          }
+        ],
+        "by_target": {
+          "WHEAT:1": {
+            "rows": 92152,
+            "positive_rate": 0.1125097664727841,
+            "brier": 0.6405543684959412,
+            "quantity_mae": 25.34511947631836,
+            "nonzero_quantity_mae": 25.40009307861328,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.6405543684959412,
+            "actionable_brier": 0.6701291799545288
+          },
+          "WHEAT:4": {
+            "rows": 91616,
+            "positive_rate": 0.28967647572476424,
+            "brier": 0.5344279408454895,
+            "quantity_mae": 27.67279815673828,
+            "nonzero_quantity_mae": 30.00140380859375,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.5344279408454895,
+            "actionable_brier": 0.5484715700149536
+          },
+          "WHEAT:24": {
+            "rows": 88914,
+            "positive_rate": 0.7519175832827226,
+            "brier": 0.21015696227550507,
+            "quantity_mae": 42.15175247192383,
+            "nonzero_quantity_mae": 45.183719635009766,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.21015696227550507,
+            "actionable_brier": 0.19140690565109253
+          },
+          "CARROT:1": {
+            "rows": 92152,
+            "positive_rate": 0.0279755187082212,
+            "brier": 0.2034873068332672,
+            "quantity_mae": 5.83755350112915,
+            "nonzero_quantity_mae": 13.459052085876465,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.2034873068332672,
+            "actionable_brier": 0.41847312450408936
+          },
+          "CARROT:4": {
+            "rows": 91616,
+            "positive_rate": 0.07080640936081034,
+            "brier": 0.19278492033481598,
+            "quantity_mae": 6.491670608520508,
+            "nonzero_quantity_mae": 15.028877258300781,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.19278492033481598,
+            "actionable_brier": 0.38503342866897583
+          },
+          "CARROT:24": {
+            "rows": 88914,
+            "positive_rate": 0.2397147805744877,
+            "brier": 0.11219333112239838,
+            "quantity_mae": 9.440696716308594,
+            "nonzero_quantity_mae": 21.15538787841797,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.11219333112239838,
+            "actionable_brier": 0.13938993215560913
+          },
+          "TOMATO:1": {
+            "rows": 92152,
+            "positive_rate": 0.019739126660300373,
+            "brier": 0.07843167334794998,
+            "quantity_mae": 1.8396273851394653,
+            "nonzero_quantity_mae": 4.6967973709106445,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.07843167334794998,
+            "actionable_brier": 0.2020837962627411
+          },
+          "TOMATO:4": {
+            "rows": 91616,
+            "positive_rate": 0.04656391896611946,
+            "brier": 0.09116504341363907,
+            "quantity_mae": 2.2218005657196045,
+            "nonzero_quantity_mae": 5.470353126525879,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.09116504341363907,
+            "actionable_brier": 0.21203157305717468
+          },
+          "TOMATO:24": {
+            "rows": 88914,
+            "positive_rate": 0.1988888139100704,
+            "brier": 0.10491370409727097,
+            "quantity_mae": 3.9110889434814453,
+            "nonzero_quantity_mae": 7.212272644042969,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.10491370409727097,
+            "actionable_brier": 0.13373859226703644
+          },
+          "STRAWBERRY:1": {
+            "rows": 92152,
+            "positive_rate": 0.041811355152356976,
+            "brier": 0.22160309553146362,
+            "quantity_mae": 5.669930934906006,
+            "nonzero_quantity_mae": 9.553569793701172,
+            "floor_brier": 0.2958219349384308,
+            "nonfloor_brier": 0.22100064158439636,
+            "actionable_brier": 0.37777194380760193
+          },
+          "STRAWBERRY:4": {
+            "rows": 91616,
+            "positive_rate": 0.21258295494236815,
+            "brier": 0.26345840096473694,
+            "quantity_mae": 7.324516773223877,
+            "nonzero_quantity_mae": 9.66092586517334,
+            "floor_brier": 0.3437642455101013,
+            "nonfloor_brier": 0.26280802488327026,
+            "actionable_brier": 0.3792440891265869
+          },
+          "STRAWBERRY:24": {
+            "rows": 88914,
+            "positive_rate": 0.4894279865937873,
+            "brier": 0.29953253269195557,
+            "quantity_mae": 16.047304153442383,
+            "nonzero_quantity_mae": 16.575580596923828,
+            "floor_brier": 0.1477508395910263,
+            "nonfloor_brier": 0.3007230758666992,
+            "actionable_brier": 0.11513406783342361
+          },
+          "MELON:1": {
+            "rows": 92152,
+            "positive_rate": 0.015854240819515582,
+            "brier": 0.295592725276947,
+            "quantity_mae": 8.472872734069824,
+            "nonzero_quantity_mae": 11.99427604675293,
+            "floor_brier": 0.009283172897994518,
+            "nonfloor_brier": 0.29589131474494934,
+            "actionable_brier": 0.08837877959012985
+          },
+          "MELON:4": {
+            "rows": 91616,
+            "positive_rate": 0.03921804051694027,
+            "brier": 0.3064699172973633,
+            "quantity_mae": 9.120888710021973,
+            "nonzero_quantity_mae": 11.410088539123535,
+            "floor_brier": 0.06585205346345901,
+            "nonfloor_brier": 0.3067223131656647,
+            "actionable_brier": 0.09499425441026688
+          },
+          "MELON:24": {
+            "rows": 88914,
+            "positive_rate": 0.15131475358211305,
+            "brier": 0.348280668258667,
+            "quantity_mae": 12.554600715637207,
+            "nonzero_quantity_mae": 12.737739562988281,
+            "floor_brier": 0.3189488351345062,
+            "nonfloor_brier": 0.3483123481273651,
+            "actionable_brier": 0.12935172021389008
+          },
+          "EGG:1": {
+            "rows": 92152,
+            "positive_rate": 0.02023830193593194,
+            "brier": 0.10209234058856964,
+            "quantity_mae": 2.2542827129364014,
+            "nonzero_quantity_mae": 4.6521477699279785,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.10209234058856964,
+            "actionable_brier": 0.18690907955169678
+          },
+          "EGG:4": {
+            "rows": 91616,
+            "positive_rate": 0.06373340901152637,
+            "brier": 0.11950074136257172,
+            "quantity_mae": 2.565338373184204,
+            "nonzero_quantity_mae": 4.586827278137207,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.11950074136257172,
+            "actionable_brier": 0.20620453357696533
+          },
+          "EGG:24": {
+            "rows": 88914,
+            "positive_rate": 0.2886159659896079,
+            "brier": 0.1350427120923996,
+            "quantity_mae": 3.771184206008911,
+            "nonzero_quantity_mae": 5.051848888397217,
+            "floor_brier": 0.0,
+            "nonfloor_brier": 0.1350427120923996,
+            "actionable_brier": 0.16409626603126526
+          },
+          "MILK:1": {
+            "rows": 92152,
+            "positive_rate": 0.03660256966750586,
+            "brier": 0.18371102213859558,
+            "quantity_mae": 4.1624531745910645,
+            "nonzero_quantity_mae": 6.53745174407959,
+            "floor_brier": 0.33004260063171387,
+            "nonfloor_brier": 0.17395107448101044,
+            "actionable_brier": 0.2889673709869385
+          },
+          "MILK:4": {
+            "rows": 91616,
+            "positive_rate": 0.2687849283967866,
+            "brier": 0.23256546258926392,
+            "quantity_mae": 5.056553840637207,
+            "nonzero_quantity_mae": 6.32567024230957,
+            "floor_brier": 0.35577520728111267,
+            "nonfloor_brier": 0.22447378933429718,
+            "actionable_brier": 0.30433717370033264
+          },
+          "MILK:24": {
+            "rows": 88914,
+            "positive_rate": 0.6301032458330522,
+            "brier": 0.21633008122444153,
+            "quantity_mae": 8.91583251953125,
+            "nonzero_quantity_mae": 8.483247756958008,
+            "floor_brier": 0.1889551430940628,
+            "nonfloor_brier": 0.2180332988500595,
+            "actionable_brier": 0.09494948387145996
+          },
+          "WOOL:1": {
+            "rows": 92152,
+            "positive_rate": 0.0312093063633996,
+            "brier": 0.18611760437488556,
+            "quantity_mae": 4.255970478057861,
+            "nonzero_quantity_mae": 6.717666149139404,
+            "floor_brier": 0.34061914682388306,
+            "nonfloor_brier": 0.16534800827503204,
+            "actionable_brier": 0.2658027708530426
+          },
+          "WOOL:4": {
+            "rows": 91616,
+            "positive_rate": 0.18211884387006635,
+            "brier": 0.2165389358997345,
+            "quantity_mae": 4.9912519454956055,
+            "nonzero_quantity_mae": 7.37465238571167,
+            "floor_brier": 0.3569849133491516,
+            "nonfloor_brier": 0.19785287976264954,
+            "actionable_brier": 0.2903607189655304
+          },
+          "WOOL:24": {
+            "rows": 88914,
+            "positive_rate": 0.48560406685111457,
+            "brier": 0.2533426284790039,
+            "quantity_mae": 8.519752502441406,
+            "nonzero_quantity_mae": 8.651249885559082,
+            "floor_brier": 0.3679156005382538,
+            "nonfloor_brier": 0.23868633806705475,
+            "actionable_brier": 0.21065868437290192
+          },
+          "FERTILIZER:1": {
+            "rows": 92152,
+            "positive_rate": 0.13439751714558557,
+            "brier": 0.31428179144859314,
+            "quantity_mae": 6.54351282119751,
+            "nonzero_quantity_mae": 6.3445234298706055,
+            "floor_brier": 0.5440647602081299,
+            "nonfloor_brier": 0.310716450214386,
+            "actionable_brier": 0.3614747226238251
+          },
+          "FERTILIZER:4": {
+            "rows": 91616,
+            "positive_rate": 0.33724458609849806,
+            "brier": 0.38077202439308167,
+            "quantity_mae": 8.605569839477539,
+            "nonzero_quantity_mae": 6.599964618682861,
+            "floor_brier": 0.7301008701324463,
+            "nonfloor_brier": 0.37560251355171204,
+            "actionable_brier": 0.37697353959083557
+          },
+          "FERTILIZER:24": {
+            "rows": 88914,
+            "positive_rate": 0.9473986098927053,
+            "brier": 0.05141202732920647,
+            "quantity_mae": 20.833986282348633,
+            "nonzero_quantity_mae": 20.219280242919922,
+            "floor_brier": 0.899038553237915,
+            "nonfloor_brier": 0.04130217060446739,
+            "actionable_brier": 0.05531131103634834
+          }
+        }
+      }
+    }
+  },
+  "test": {
+    "rows": 92160,
+    "valid_cells": 2454138,
+    "brier": 0.11144053936004639,
+    "quantity_mae": 1.5661991834640503,
+    "nonzero_quantity_mae": 5.922213077545166,
+    "reliability": [
+      {
+        "lower": 0.0,
+        "count": 1033997,
+        "predicted": 0.020382490009069443,
+        "observed": 0.004342372366650967
+      },
+      {
+        "lower": 0.1,
+        "count": 216973,
+        "predicted": 0.14646965265274048,
+        "observed": 0.058887511349338395
+      },
+      {
+        "lower": 0.2,
+        "count": 163875,
+        "predicted": 0.24867255985736847,
+        "observed": 0.13012356979405035
+      },
+      {
+        "lower": 0.30000000000000004,
+        "count": 143939,
+        "predicted": 0.34911543130874634,
+        "observed": 0.193192949791231
+      },
+      {
+        "lower": 0.4,
+        "count": 130943,
+        "predicted": 0.4494194984436035,
+        "observed": 0.2482301459413638
+      },
+      {
+        "lower": 0.5,
+        "count": 127197,
+        "predicted": 0.54991215467453,
+        "observed": 0.30507794995164983
+      },
+      {
+        "lower": 0.6000000000000001,
+        "count": 127307,
+        "predicted": 0.6500981450080872,
+        "observed": 0.3778032629784694
+      },
+      {
+        "lower": 0.7000000000000001,
+        "count": 134308,
+        "predicted": 0.7505497932434082,
+        "observed": 0.4912588974595705
+      },
+      {
+        "lower": 0.8,
+        "count": 150927,
+        "predicted": 0.8514580130577087,
+        "observed": 0.6684423595513063
+      },
+      {
+        "lower": 0.9,
+        "count": 224665,
+        "predicted": 0.9558092951774597,
+        "observed": 0.8823715309460752
+      }
+    ],
+    "by_target": {
+      "WHEAT:1": {
+        "rows": 92152,
+        "positive_rate": 0.1125097664727841,
+        "brier": 0.1810196042060852,
+        "quantity_mae": 1.0321413278579712,
+        "nonzero_quantity_mae": 7.413104057312012,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.1810196042060852,
+        "actionable_brier": 0.18986962735652924
+      },
+      "WHEAT:4": {
+        "rows": 91616,
+        "positive_rate": 0.28967647572476424,
+        "brier": 0.18686626851558685,
+        "quantity_mae": 2.6843597888946533,
+        "nonzero_quantity_mae": 7.616363525390625,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.18686626851558685,
+        "actionable_brier": 0.1943719983100891
+      },
+      "WHEAT:24": {
+        "rows": 88914,
+        "positive_rate": 0.7519175832827226,
+        "brier": 0.15687055885791779,
+        "quantity_mae": 9.513707160949707,
+        "nonzero_quantity_mae": 11.899580955505371,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.15687055885791779,
+        "actionable_brier": 0.14462773501873016
+      },
+      "CARROT:1": {
+        "rows": 92152,
+        "positive_rate": 0.0279755187082212,
+        "brier": 0.0606594942510128,
+        "quantity_mae": 0.37431466579437256,
+        "nonzero_quantity_mae": 10.686674118041992,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.0606594942510128,
+        "actionable_brier": 0.13368989527225494
+      },
+      "CARROT:4": {
+        "rows": 91616,
+        "positive_rate": 0.07080640936081034,
+        "brier": 0.09839954227209091,
+        "quantity_mae": 0.811575174331665,
+        "nonzero_quantity_mae": 8.766524314880371,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.09839954227209091,
+        "actionable_brier": 0.22503440082073212
+      },
+      "CARROT:24": {
+        "rows": 88914,
+        "positive_rate": 0.2397147805744877,
+        "brier": 0.07162672281265259,
+        "quantity_mae": 2.5108847618103027,
+        "nonzero_quantity_mae": 9.18983268737793,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.07162672281265259,
+        "actionable_brier": 0.13495464622974396
+      },
+      "TOMATO:1": {
+        "rows": 92152,
+        "positive_rate": 0.019739126660300373,
+        "brier": 0.04993679001927376,
+        "quantity_mae": 0.22008450329303741,
+        "nonzero_quantity_mae": 7.369053840637207,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.04993679001927376,
+        "actionable_brier": 0.16134686768054962
+      },
+      "TOMATO:4": {
+        "rows": 91616,
+        "positive_rate": 0.04656391896611946,
+        "brier": 0.080246202647686,
+        "quantity_mae": 0.37117859721183777,
+        "nonzero_quantity_mae": 6.075107574462891,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.080246202647686,
+        "actionable_brier": 0.21853813529014587
+      },
+      "TOMATO:24": {
+        "rows": 88914,
+        "positive_rate": 0.1988888139100704,
+        "brier": 0.06482764333486557,
+        "quantity_mae": 1.3216594457626343,
+        "nonzero_quantity_mae": 5.36611795425415,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.06482764333486557,
+        "actionable_brier": 0.11338154226541519
+      },
+      "STRAWBERRY:1": {
+        "rows": 92152,
+        "positive_rate": 0.041811355152356976,
+        "brier": 0.13642747700214386,
+        "quantity_mae": 0.3644889295101166,
+        "nonzero_quantity_mae": 5.399110794067383,
+        "floor_brier": 0.22093328833580017,
+        "nonfloor_brier": 0.13574151694774628,
+        "actionable_brier": 0.23552392423152924
+      },
+      "STRAWBERRY:4": {
+        "rows": 91616,
+        "positive_rate": 0.21258295494236815,
+        "brier": 0.15131402015686035,
+        "quantity_mae": 1.1933177709579468,
+        "nonzero_quantity_mae": 4.239596843719482,
+        "floor_brier": 0.36099082231521606,
+        "nonfloor_brier": 0.14961592853069305,
+        "actionable_brier": 0.26797711849212646
+      },
+      "STRAWBERRY:24": {
+        "rows": 88914,
+        "positive_rate": 0.4894279865937873,
+        "brier": 0.04864056408405304,
+        "quantity_mae": 3.466369152069092,
+        "nonzero_quantity_mae": 6.47684383392334,
+        "floor_brier": 0.14205919206142426,
+        "nonfloor_brier": 0.04790780693292618,
+        "actionable_brier": 0.07675217092037201
+      },
+      "MELON:1": {
+        "rows": 92152,
+        "positive_rate": 0.015854240819515582,
+        "brier": 0.03282713145017624,
+        "quantity_mae": 0.22012585401535034,
+        "nonzero_quantity_mae": 6.709532260894775,
+        "floor_brier": 0.0006909587536938488,
+        "nonfloor_brier": 0.0328606478869915,
+        "actionable_brier": 0.03011498413980007
+      },
+      "MELON:4": {
+        "rows": 91616,
+        "positive_rate": 0.03921804051694027,
+        "brier": 0.07707404345273972,
+        "quantity_mae": 0.49733319878578186,
+        "nonzero_quantity_mae": 9.660515785217285,
+        "floor_brier": 0.04790850356221199,
+        "nonfloor_brier": 0.07710464298725128,
+        "actionable_brier": 0.07139929383993149
+      },
+      "MELON:24": {
+        "rows": 88914,
+        "positive_rate": 0.15131475358211305,
+        "brier": 0.11288312822580338,
+        "quantity_mae": 1.9396973848342896,
+        "nonzero_quantity_mae": 10.693473815917969,
+        "floor_brier": 0.3342675268650055,
+        "nonfloor_brier": 0.11264384537935257,
+        "actionable_brier": 0.10216660797595978
+      },
+      "EGG:1": {
+        "rows": 92152,
+        "positive_rate": 0.02023830193593194,
+        "brier": 0.06521542370319366,
+        "quantity_mae": 0.22379325330257416,
+        "nonzero_quantity_mae": 5.817685127258301,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.06521542370319366,
+        "actionable_brier": 0.14838063716888428
+      },
+      "EGG:4": {
+        "rows": 91616,
+        "positive_rate": 0.06373340901152637,
+        "brier": 0.10567905753850937,
+        "quantity_mae": 0.47916853427886963,
+        "nonzero_quantity_mae": 5.4509100914001465,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.10567905753850937,
+        "actionable_brier": 0.2103862464427948
+      },
+      "EGG:24": {
+        "rows": 88914,
+        "positive_rate": 0.2886159659896079,
+        "brier": 0.0802759975194931,
+        "quantity_mae": 1.7266266345977783,
+        "nonzero_quantity_mae": 4.841147422790527,
+        "floor_brier": 0.0,
+        "nonfloor_brier": 0.0802759975194931,
+        "actionable_brier": 0.1369805634021759
+      },
+      "MILK:1": {
+        "rows": 92152,
+        "positive_rate": 0.03660256966750586,
+        "brier": 0.12660913169384003,
+        "quantity_mae": 0.25754040479660034,
+        "nonzero_quantity_mae": 3.910759925842285,
+        "floor_brier": 0.15891659259796143,
+        "nonfloor_brier": 0.12445428222417831,
+        "actionable_brier": 0.18664546310901642
+      },
+      "MILK:4": {
+        "rows": 91616,
+        "positive_rate": 0.2687849283967866,
+        "brier": 0.16342639923095703,
+        "quantity_mae": 1.0732802152633667,
+        "nonzero_quantity_mae": 2.916322946548462,
+        "floor_brier": 0.29056861996650696,
+        "nonfloor_brier": 0.15507645905017853,
+        "actionable_brier": 0.2402159571647644
+      },
+      "MILK:24": {
+        "rows": 88914,
+        "positive_rate": 0.6301032458330522,
+        "brier": 0.0885540172457695,
+        "quantity_mae": 3.6325528621673584,
+        "nonzero_quantity_mae": 5.109261989593506,
+        "floor_brier": 0.16548782587051392,
+        "nonfloor_brier": 0.0837673619389534,
+        "actionable_brier": 0.09318457543849945
+      },
+      "WOOL:1": {
+        "rows": 92152,
+        "positive_rate": 0.0312093063633996,
+        "brier": 0.10956335812807083,
+        "quantity_mae": 0.23747125267982483,
+        "nonzero_quantity_mae": 4.1044487953186035,
+        "floor_brier": 0.06061070039868355,
+        "nonfloor_brier": 0.11614403873682022,
+        "actionable_brier": 0.16713480651378632
+      },
+      "WOOL:4": {
+        "rows": 91616,
+        "positive_rate": 0.18211884387006635,
+        "brier": 0.1429954171180725,
+        "quantity_mae": 0.8077653646469116,
+        "nonzero_quantity_mae": 3.1086294651031494,
+        "floor_brier": 0.15390032529830933,
+        "nonfloor_brier": 0.14154453575611115,
+        "actionable_brier": 0.22319762408733368
+      },
+      "WOOL:24": {
+        "rows": 88914,
+        "positive_rate": 0.48560406685111457,
+        "brier": 0.11824744939804077,
+        "quantity_mae": 2.8283016681671143,
+        "nonzero_quantity_mae": 4.829380512237549,
+        "floor_brier": 0.23529912531375885,
+        "nonfloor_brier": 0.10327409207820892,
+        "actionable_brier": 0.15573465824127197
+      },
+      "FERTILIZER:1": {
+        "rows": 92152,
+        "positive_rate": 0.13439751714558557,
+        "brier": 0.15877003967761993,
+        "quantity_mae": 0.4814424216747284,
+        "nonzero_quantity_mae": 2.4732818603515625,
+        "floor_brier": 0.15501154959201813,
+        "nonfloor_brier": 0.15882836282253265,
+        "actionable_brier": 0.19495169818401337
+      },
+      "FERTILIZER:4": {
+        "rows": 91616,
+        "positive_rate": 0.33724458609849806,
+        "brier": 0.1530255824327469,
+        "quantity_mae": 1.150391697883606,
+        "nonzero_quantity_mae": 2.5778629779815674,
+        "floor_brier": 0.19391649961471558,
+        "nonfloor_brier": 0.15242046117782593,
+        "actionable_brier": 0.15423814952373505
+      },
+      "FERTILIZER:24": {
+        "rows": 88914,
+        "positive_rate": 0.9473986098927053,
+        "brier": 0.18515512347221375,
+        "quantity_mae": 3.4096791744232178,
+        "nonzero_quantity_mae": 3.3158388137817383,
+        "floor_brier": 0.14449763298034668,
+        "nonfloor_brier": 0.18564005196094513,
+        "actionable_brier": 0.18375806510448456
+      }
+    }
+  }
+}

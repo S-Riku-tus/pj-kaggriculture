@@ -1,0 +1,200 @@
+{
+  "measurements": {
+    "regression": {
+      "a2": {
+        "games": 2,
+        "cold_import_max_seconds": 4.134692499996163,
+        "inference_mean_seconds": 0.04369223970781089,
+        "inference_p95_max_seconds": 0.09119723999756389,
+        "inference_max_seconds": 1.2767572000157088,
+        "rss_max_bytes": 717062144
+      },
+      "a2_keep": {
+        "games": 2,
+        "cold_import_max_seconds": 3.592520300007891,
+        "inference_mean_seconds": 0.04016261940223899,
+        "inference_p95_max_seconds": 0.07580735001247378,
+        "inference_max_seconds": 0.7361451999749988,
+        "rss_max_bytes": 716673024
+      },
+      "a2_nonlearned": {
+        "games": 2,
+        "cold_import_max_seconds": 3.608884699991904,
+        "inference_mean_seconds": 0.041911953755112634,
+        "inference_p95_max_seconds": 0.09046075998339803,
+        "inference_max_seconds": 0.6042986999964342,
+        "rss_max_bytes": 716701696
+      },
+      "b1": {
+        "games": 2,
+        "cold_import_max_seconds": 3.6126109000178985,
+        "inference_mean_seconds": 0.012876747913240236,
+        "inference_p95_max_seconds": 0.023664469982031738,
+        "inference_max_seconds": 0.09252840001136065,
+        "rss_max_bytes": 716677120
+      },
+      "b2": {
+        "games": 2,
+        "cold_import_max_seconds": 4.024680099973921,
+        "inference_mean_seconds": 0.014655298331505664,
+        "inference_p95_max_seconds": 0.03055578999919819,
+        "inference_max_seconds": 0.1742880999809131,
+        "rss_max_bytes": 716816384
+      },
+      "b2_frequency": {
+        "games": 2,
+        "cold_import_max_seconds": 3.9669309000018984,
+        "inference_mean_seconds": 0.011477415160012402,
+        "inference_p95_max_seconds": 0.02343025996815414,
+        "inference_max_seconds": 0.08212720003211871,
+        "rss_max_bytes": 716988416
+      },
+      "b2_history_shuffle": {
+        "games": 2,
+        "cold_import_max_seconds": 6.500424000027124,
+        "inference_mean_seconds": 0.0093503428356086,
+        "inference_p95_max_seconds": 0.011900140013312922,
+        "inference_max_seconds": 0.3400168999796733,
+        "rss_max_bytes": 720973824
+      },
+      "b_simple": {
+        "games": 2,
+        "cold_import_max_seconds": 3.756906100024935,
+        "inference_mean_seconds": 0.012536067802035438,
+        "inference_p95_max_seconds": 0.02535058000357822,
+        "inference_max_seconds": 0.1498816999956034,
+        "rss_max_bytes": 716337152
+      },
+      "c0": {
+        "games": 2,
+        "cold_import_max_seconds": 3.6514189000008628,
+        "inference_mean_seconds": 0.01120121251638384,
+        "inference_p95_max_seconds": 0.0224013899860438,
+        "inference_max_seconds": 0.6540301999775693,
+        "rss_max_bytes": 715243520
+      }
+    },
+    "known_failure": {
+      "b1": {
+        "games": 4,
+        "cold_import_max_seconds": 3.358084100007545,
+        "inference_mean_seconds": 0.016376570827054522,
+        "inference_p95_max_seconds": 0.037211640021996575,
+        "inference_max_seconds": 0.5844014000031166,
+        "rss_max_bytes": 1045106688
+      },
+      "b2": {
+        "games": 4,
+        "cold_import_max_seconds": 3.983864400011953,
+        "inference_mean_seconds": 0.016322670167753076,
+        "inference_p95_max_seconds": 0.03649932998232545,
+        "inference_max_seconds": 0.722460399963893,
+        "rss_max_bytes": 1043877888
+      },
+      "b2_frequency": {
+        "games": 4,
+        "cold_import_max_seconds": 2.9394549000426196,
+        "inference_mean_seconds": 0.01505374742737584,
+        "inference_p95_max_seconds": 0.034303900005761535,
+        "inference_max_seconds": 0.9645157000049949,
+        "rss_max_bytes": 1044041728
+      },
+      "c0": {
+        "games": 4,
+        "cold_import_max_seconds": 3.12502229999518,
+        "inference_mean_seconds": 0.013907466168384721,
+        "inference_p95_max_seconds": 0.030891370022436606,
+        "inference_max_seconds": 0.814578200050164,
+        "rss_max_bytes": 1043046400
+      }
+    },
+    "external": {
+      "a2": {
+        "games": 32,
+        "timing_measured_games": 0,
+        "resumed_replay_games": 32,
+        "cold_import_max_seconds": null,
+        "inference_mean_seconds": null,
+        "inference_p95_max_seconds": null,
+        "inference_max_seconds": null,
+        "rss_max_bytes": null
+      },
+      "a2_keep": {
+        "games": 32,
+        "timing_measured_games": 0,
+        "resumed_replay_games": 32,
+        "cold_import_max_seconds": null,
+        "inference_mean_seconds": null,
+        "inference_p95_max_seconds": null,
+        "inference_max_seconds": null,
+        "rss_max_bytes": null
+      },
+      "a2_nonlearned": {
+        "games": 32,
+        "timing_measured_games": 0,
+        "resumed_replay_games": 32,
+        "cold_import_max_seconds": null,
+        "inference_mean_seconds": null,
+        "inference_p95_max_seconds": null,
+        "inference_max_seconds": null,
+        "rss_max_bytes": null
+      },
+      "b1": {
+        "games": 32,
+        "timing_measured_games": 32,
+        "resumed_replay_games": 0,
+        "cold_import_max_seconds": 4.196935500018299,
+        "inference_mean_seconds": 0.021959865029587317,
+        "inference_p95_max_seconds": 0.03746218997985125,
+        "inference_max_seconds": 1.3453644000110216,
+        "rss_max_bytes": 1055117312
+      },
+      "b2": {
+        "games": 32,
+        "timing_measured_games": 9,
+        "resumed_replay_games": 23,
+        "cold_import_max_seconds": 4.022384400013834,
+        "inference_mean_seconds": 0.013484631988264965,
+        "inference_p95_max_seconds": 0.023537170013878502,
+        "inference_max_seconds": 0.7623130999854766,
+        "rss_max_bytes": 713220096
+      },
+      "b2_frequency": {
+        "games": 32,
+        "timing_measured_games": 0,
+        "resumed_replay_games": 32,
+        "cold_import_max_seconds": null,
+        "inference_mean_seconds": null,
+        "inference_p95_max_seconds": null,
+        "inference_max_seconds": null,
+        "rss_max_bytes": null
+      },
+      "b_simple": {
+        "games": 32,
+        "timing_measured_games": 32,
+        "resumed_replay_games": 0,
+        "cold_import_max_seconds": 7.032858100021258,
+        "inference_mean_seconds": 0.01926577520012296,
+        "inference_p95_max_seconds": 0.03220336997765117,
+        "inference_max_seconds": 1.6126367999822833,
+        "rss_max_bytes": 1055121408
+      },
+      "c0": {
+        "games": 32,
+        "timing_measured_games": 0,
+        "resumed_replay_games": 32,
+        "cold_import_max_seconds": null,
+        "inference_mean_seconds": null,
+        "inference_p95_max_seconds": null,
+        "inference_max_seconds": null,
+        "rss_max_bytes": null
+      }
+    }
+  },
+  "scope": "local Windows process import and Python action wall time; not equated to Kaggle runner time",
+  "official_configuration": {
+    "actTimeout": 1,
+    "episodeSteps": 720,
+    "remainingOverageTime": "runner-managed cumulative allowance"
+  }
+}

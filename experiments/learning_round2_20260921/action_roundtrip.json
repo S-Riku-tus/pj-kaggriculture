@@ -1,0 +1,140 @@
+{
+  "teacher": 56216119,
+  "test_episodes": 88,
+  "representation": {
+    "actor_op_rate": 1.0,
+    "actor_full_field_rate": 0.9808174596786285,
+    "market_op_rate": 1.0,
+    "market_full_field_rate": 0.6467951483771993,
+    "joint_action_exact_rate": 0.5978631938298141,
+    "transition_exact_lower_bound": 0.5978631938298141,
+    "transition_note": "Exact joint actions imply exact deterministic non-random transitions; a sampled engine replay check is added by build-b2."
+  },
+  "counts": {
+    "actor": 633597,
+    "market": 83436,
+    "joint": 63272
+  },
+  "by_op": {
+    "PASS": {
+      "total": 4950,
+      "full": 4950
+    },
+    "BUY_ANIMAL": {
+      "total": 1351,
+      "full": 1259
+    },
+    "BUY_PRODUCT": {
+      "total": 2813,
+      "full": 435
+    },
+    "PICKUP": {
+      "total": 17128,
+      "full": 6555
+    },
+    "SELL": {
+      "total": 34654,
+      "full": 8494
+    },
+    "HIRE": {
+      "total": 25360,
+      "full": 25360
+    },
+    "BUILD_PASTURE": {
+      "total": 1339,
+      "full": 1339
+    },
+    "PLACE": {
+      "total": 10103,
+      "full": 8522
+    },
+    "NORTH": {
+      "total": 97363,
+      "full": 97363
+    },
+    "WEST": {
+      "total": 82528,
+      "full": 82528
+    },
+    "BUY_SEED": {
+      "total": 18934,
+      "full": 18094
+    },
+    "FEED": {
+      "total": 27439,
+      "full": 27439
+    },
+    "CARE": {
+      "total": 28275,
+      "full": 28275
+    },
+    "SOUTH": {
+      "total": 57971,
+      "full": 57971
+    },
+    "PLANT": {
+      "total": 25118,
+      "full": 25118
+    },
+    "WATER": {
+      "total": 121266,
+      "full": 121266
+    },
+    "EAST": {
+      "total": 60217,
+      "full": 60217
+    },
+    "COLLECT_FERTILIZER": {
+      "total": 32038,
+      "full": 32038
+    },
+    "HARVEST": {
+      "total": 44056,
+      "full": 44056
+    },
+    "DROP": {
+      "total": 6685,
+      "full": 6685
+    },
+    "BUY_LAND": {
+      "total": 324,
+      "full": 324
+    },
+    "BUILD_COOP": {
+      "total": 107,
+      "full": 107
+    },
+    "FERTILIZE": {
+      "total": 13968,
+      "full": 13968
+    },
+    "DIG": {
+      "total": 3046,
+      "full": 3046
+    }
+  },
+  "first_roundtrip_failure": {
+    "episode_id": 111063979,
+    "step": 0,
+    "field": "market quantity",
+    "teacher": [
+      "BUY_PRODUCT",
+      "WHEAT",
+      5
+    ],
+    "decoded": [
+      "BUY_PRODUCT",
+      "WHEAT",
+      3
+    ]
+  },
+  "bc_quantities_role": "train-only per-token median; it replaces every teacher quantity at decode and is therefore lossy",
+  "same_encoded_observation_multiple_actor_actions": 0,
+  "sequence_properties": {
+    "actor_order_preserved": true,
+    "market_slot_order_preserved": true,
+    "eos_represented": true
+  },
+  "verdict": "op vocabulary is covered, but median quantity decoding prevents complete action reconstruction",
+  "sampled_fixed_engine_transition_check": 1.0
+}

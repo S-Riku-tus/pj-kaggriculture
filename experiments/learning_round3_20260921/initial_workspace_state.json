@@ -1,0 +1,45 @@
+{
+  "captured_before_round3_source_changes": true,
+  "captured_local_date": "2026-09-21",
+  "git": {
+    "root": "C:/Users/shiba/Kaggle/pj-kaggriculture",
+    "branch": "main",
+    "head": "f5d8cd8190b73d6dfe8beaf45f7892b8df586495",
+    "upstream_relation": "ahead 1",
+    "status_entries": [],
+    "clean": true
+  },
+  "audit_input": {
+    "path": "C:/Users/shiba/Downloads/Kaggriculture_Round2_Audit_Evidence_20260921.zip",
+    "bytes": 77394,
+    "declared_sha256": "cd94e3ade1a7bd0072e7e7db688ee32685059d0fc66be62acb93fbe7d3a57220",
+    "observed_sha256": "bd696d89d4937f1e6031baa6f6110bc28ee854a5c7785dfe0da8ffa3e76acc2f",
+    "hash_matches": false,
+    "disposition": "QUARANTINED_INPUT_HASH_MISMATCH_READ_ONLY"
+  },
+  "known_success_archive": {
+    "path": "artifacts/submissions/learning_next_20260921_b_learned_fixed_v3.tar.gz",
+    "bytes": 1865363,
+    "declared_sha256": "f1aede2a9f4a8ad0b8f3b3cd41d1f49708b713ca1cbc4221df472dcba1201105",
+    "observed_sha256": "f1aede2a9f4a8ad0b8f3b3cd41d1f49708b713ca1cbc4221df472dcba1201105",
+    "hash_matches": true
+  },
+  "baseline_files": [
+    {"path": "artifacts/submissions/v126_control_candidate.tar.gz", "bytes": 3237877, "sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452"},
+    {"path": "scripts/learning_round2.py", "bytes": 158864, "sha256": "a7f1c3581e7e6ef4210b93f8fa029f05f0ecd417d3fb2388f0a60fd1ea63d3a7"},
+    {"path": "agents/learning_round2_20260921/common.py", "bytes": 8644, "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"},
+    {"path": "agents/learning_round2_20260921/a2_agent.py", "bytes": 11385, "sha256": "3c4826af69fd373add26cb670bd29c80cc7bb61499049a402e27f68fefcc90ec"},
+    {"path": "agents/learning_round2_20260921/b2_agent.py", "bytes": 9037, "sha256": "4c67dff1f0ac19695e7a55b0b3f47810234da95ff94b42f5ec1f89ef822df2b2"},
+    {"path": "experiments/learning_round2_20260921/feature_schema.json", "bytes": 28355, "sha256": "1f86905d10b8723af34b3f1ec6cbeff1bc4a3168214b9b168310c237f01ef4fe"},
+    {"path": "experiments/learning_round2_20260921/models/a2_model.npz", "bytes": 56864, "sha256": "ba48132139303c012e0fc31ae81ee0ae3bed31460bf5df5453fd991a97cc27f2"},
+    {"path": "experiments/learning_round2_20260921/models/b2_model.npz", "bytes": 63318, "sha256": "7e5a13c0cbc1f620f358300df89139c4d950e3e8c3618012433c04d775be2cf4"}
+  ],
+  "c0_flags": {
+    "source": "agents/v126_exec/main.py",
+    "ENABLE_SERVICE_POLICY": false,
+    "ENABLE_FERTILIZER_POLICY": false,
+    "ENABLE_ANIMAL_PURCHASE_GUARD": false,
+    "ENABLE_GENERAL_JOB_RECOVERY": false,
+    "ENABLE_EXECUTION_TRANSACTIONS": false
+  }
+}

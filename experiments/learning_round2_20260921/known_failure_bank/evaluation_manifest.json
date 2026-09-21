@@ -1,0 +1,751 @@
+{
+  "created_at_utc": "2026-09-21T07:42:26.848550+00:00",
+  "bank": "known_failure",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "games": 16,
+  "arms": [
+    "b1",
+    "b2",
+    "b2_frequency",
+    "c0"
+  ],
+  "opponents": {
+    "qeinstein_moev2": {
+      "path": "experiments\\research_20260910\\runtime\\qeinstein_moev2\\main.py",
+      "sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c",
+      "executable": true,
+      "public_identity_claim": "proxy only"
+    },
+    "mooman_e052a": {
+      "path": "experiments\\research_20260910\\runtime\\mooman_e052a\\main.py",
+      "sha256": "a5fb09be01ac6558e84c1e4c8e91c3848f6a8f7aaf4c603f0426f07179cee362",
+      "executable": true,
+      "public_identity_claim": "proxy only"
+    },
+    "smart_farm": {
+      "path": "experiments\\research_20260918_v120\\acquisition\\smart_farm\\decoded_main_1.py",
+      "sha256": "004eae43a514acf76a763298683e4ee8028c445e2be6809a3a98842bfd7bd1e4",
+      "executable": true,
+      "public_identity_claim": "proxy only"
+    }
+  },
+  "new_archives": {
+    "a2_keep": {
+      "path": "artifacts\\submissions\\learning_round2_20260921_a2_keep.tar.gz",
+      "sha256": "de8da4ea7df42b267a00146788145024ed709cf6ee9432caef59a43ac6392fc1",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 102,
+          "sha256": "4009a78476e86e9d2dadd225225f97ccb1a9e950abe006ff1111ee01e166f0d9"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d"
+        },
+        {
+          "name": "common.py",
+          "bytes": 8644,
+          "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"
+        },
+        {
+          "name": "learning_common.py",
+          "bytes": 32373,
+          "sha256": "7b0661b13ede4e401605e26a6f0ddfd0a49f03507e24ae206738141cac6a093a"
+        },
+        {
+          "name": "main.py",
+          "bytes": 11385,
+          "sha256": "3c4826af69fd373add26cb670bd29c80cc7bb61499049a402e27f68fefcc90ec"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        }
+      ]
+    },
+    "a2_nonlearned": {
+      "path": "artifacts\\submissions\\learning_round2_20260921_a2_nonlearned.tar.gz",
+      "sha256": "3168f420ae9b0146f262291bfc7c92dd338fff655a67e82d897793e2cc1bfa63",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 108,
+          "sha256": "8ffd075a9703800fc8d1dfc92a87314a86aeb0a34e98120e30f573d5dc593563"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d"
+        },
+        {
+          "name": "common.py",
+          "bytes": 8644,
+          "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"
+        },
+        {
+          "name": "learning_common.py",
+          "bytes": 32373,
+          "sha256": "7b0661b13ede4e401605e26a6f0ddfd0a49f03507e24ae206738141cac6a093a"
+        },
+        {
+          "name": "main.py",
+          "bytes": 11385,
+          "sha256": "3c4826af69fd373add26cb670bd29c80cc7bb61499049a402e27f68fefcc90ec"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        }
+      ]
+    },
+    "a2": {
+      "path": "artifacts\\submissions\\learning_round2_20260921_a2.tar.gz",
+      "sha256": "f271cc6abc9f963379f516c85b4627c96e564ff01ba7abf4797cd6c12470922a",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "a2_model.npz",
+          "bytes": 56864,
+          "sha256": "ba48132139303c012e0fc31ae81ee0ae3bed31460bf5df5453fd991a97cc27f2"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 105,
+          "sha256": "61d99eeba8f91cb6c483f676806111e79fc31f662f71f2e7723f05e097288921"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d"
+        },
+        {
+          "name": "common.py",
+          "bytes": 8644,
+          "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"
+        },
+        {
+          "name": "learning_common.py",
+          "bytes": 32373,
+          "sha256": "7b0661b13ede4e401605e26a6f0ddfd0a49f03507e24ae206738141cac6a093a"
+        },
+        {
+          "name": "main.py",
+          "bytes": 11385,
+          "sha256": "3c4826af69fd373add26cb670bd29c80cc7bb61499049a402e27f68fefcc90ec"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        }
+      ]
+    },
+    "b2_frequency": {
+      "path": "artifacts\\submissions\\learning_round2_20260921_b2_frequency.tar.gz",
+      "sha256": "450f38fbbdd0cd6c6bef1faad1c7f9e231636eb303abded59ae6d228eb1c658d",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 29,
+          "sha256": "9e5b560d83a5d3cadcf79c6bd8c64a771c8bb99c76f3ec9c6cb82248d934af2e"
+        },
+        {
+          "name": "b2_simple.json",
+          "bytes": 91915,
+          "sha256": "65701fceb31250ca030a41699d53444c8645bbdc75406c24bb540aac573531eb"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d"
+        },
+        {
+          "name": "common.py",
+          "bytes": 8644,
+          "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"
+        },
+        {
+          "name": "learning_common.py",
+          "bytes": 32373,
+          "sha256": "7b0661b13ede4e401605e26a6f0ddfd0a49f03507e24ae206738141cac6a093a"
+        },
+        {
+          "name": "main.py",
+          "bytes": 9037,
+          "sha256": "4c67dff1f0ac19695e7a55b0b3f47810234da95ff94b42f5ec1f89ef822df2b2"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        }
+      ]
+    },
+    "b2": {
+      "path": "artifacts\\submissions\\learning_round2_20260921_b2.tar.gz",
+      "sha256": "b1c381965c0434a3814a09d987bf03ce075bcda4ccf85b6b639578861663e2c1",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 27,
+          "sha256": "8c6d08b28ea50e3f60fbfff3c3abb03b3ce9710516dfbc74ca9cafcac8721a6d"
+        },
+        {
+          "name": "b2_model.npz",
+          "bytes": 63318,
+          "sha256": "7e5a13c0cbc1f620f358300df89139c4d950e3e8c3618012433c04d775be2cf4"
+        },
+        {
+          "name": "b2_simple.json",
+          "bytes": 91915,
+          "sha256": "65701fceb31250ca030a41699d53444c8645bbdc75406c24bb540aac573531eb"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d"
+        },
+        {
+          "name": "common.py",
+          "bytes": 8644,
+          "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"
+        },
+        {
+          "name": "learning_common.py",
+          "bytes": 32373,
+          "sha256": "7b0661b13ede4e401605e26a6f0ddfd0a49f03507e24ae206738141cac6a093a"
+        },
+        {
+          "name": "main.py",
+          "bytes": 9037,
+          "sha256": "4c67dff1f0ac19695e7a55b0b3f47810234da95ff94b42f5ec1f89ef822df2b2"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        }
+      ]
+    },
+    "b2_history_shuffle": {
+      "path": "artifacts\\submissions\\learning_round2_20260921_b2_history_shuffle.tar.gz",
+      "sha256": "da1b2953783f7426695087cbd770f555bed32b68e4459e8efa5dc2b0f407e8e6",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 35,
+          "sha256": "c06d7f8c8f5b3d5fab7a749ea65970bd52662520bbaa990c4edb9464c56db8ab"
+        },
+        {
+          "name": "b2_model.npz",
+          "bytes": 63318,
+          "sha256": "7e5a13c0cbc1f620f358300df89139c4d950e3e8c3618012433c04d775be2cf4"
+        },
+        {
+          "name": "b2_simple.json",
+          "bytes": 91915,
+          "sha256": "65701fceb31250ca030a41699d53444c8645bbdc75406c24bb540aac573531eb"
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d"
+        },
+        {
+          "name": "common.py",
+          "bytes": 8644,
+          "sha256": "dc3cc7e083f934fe16f709c4c64feae896eefad55d90acbdbbf8e770c3b7f44c"
+        },
+        {
+          "name": "learning_common.py",
+          "bytes": 32373,
+          "sha256": "7b0661b13ede4e401605e26a6f0ddfd0a49f03507e24ae206738141cac6a093a"
+        },
+        {
+          "name": "main.py",
+          "bytes": 9037,
+          "sha256": "4c67dff1f0ac19695e7a55b0b3f47810234da95ff94b42f5ec1f89ef822df2b2"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+        }
+      ]
+    }
+  },
+  "c0_archive": {
+    "path": "artifacts\\submissions\\v126_control_candidate.tar.gz",
+    "sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452"
+  },
+  "b1_archive": {
+    "path": "artifacts\\submissions\\learning_next_20260921_b_learned.tar.gz",
+    "sha256": "de65eafe156a937718c583b4c4963bbe2c0f54a1462283dffcb20693ebf3fd51",
+    "members": [
+      {
+        "name": "NOTICE.md",
+        "bytes": 338,
+        "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+      },
+      {
+        "name": "arm_config.json",
+        "bytes": 27,
+        "sha256": "8c6d08b28ea50e3f60fbfff3c3abb03b3ce9710516dfbc74ca9cafcac8721a6d"
+      },
+      {
+        "name": "b_model.json",
+        "bytes": 505,
+        "sha256": "4a267da2c628b2defaa13356bb4aaab68834785ded67ad9d89631c0082dabe99"
+      },
+      {
+        "name": "b_model.npz",
+        "bytes": 46254,
+        "sha256": "0f4d1ec50314658d32d52a17d47f6f20be3bb5b414a764a679c9e1724b767df5"
+      },
+      {
+        "name": "b_simple_model.json",
+        "bytes": 91208,
+        "sha256": "9995d868ce5f6afde67552ec8b90d4f51acf69dafd3d499ea1037e31049eec95"
+      },
+      {
+        "name": "c0_main.py",
+        "bytes": 6491,
+        "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+      },
+      {
+        "name": "common.py",
+        "bytes": 30581,
+        "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+      },
+      {
+        "name": "main.py",
+        "bytes": 8991,
+        "sha256": "1bd6f01a8ddaacfc60a93399cf36f3503edf8a41eb963ddecac3b5c708878732"
+      },
+      {
+        "name": "market_overlay.py",
+        "bytes": 13888,
+        "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+      },
+      {
+        "name": "model_metadata.json",
+        "bytes": 9595,
+        "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+      },
+      {
+        "name": "opponent_sell_model.json",
+        "bytes": 12249,
+        "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+      },
+      {
+        "name": "policy_model.json.gz",
+        "bytes": 1720997,
+        "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+      },
+      {
+        "name": "v120_base.py",
+        "bytes": 10546,
+        "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+      },
+      {
+        "name": "v121_sparse.py",
+        "bytes": 9937,
+        "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+      },
+      {
+        "name": "v123_base.py",
+        "bytes": 14490,
+        "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+      },
+      {
+        "name": "v124_base.py",
+        "bytes": 19414,
+        "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+      }
+    ],
+    "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\b_learned-623f42b8c9ed4a46aaa7a3e3bf0c3295"
+  },
+  "b_simple_archive": {
+    "path": "artifacts\\submissions\\learning_next_20260921_b_simple.tar.gz",
+    "sha256": "50b8d8e43a46b207a5351d95d9dbf1b0319013b798aaf417d6ea69c25503c7fc",
+    "members": [
+      {
+        "name": "NOTICE.md",
+        "bytes": 338,
+        "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+      },
+      {
+        "name": "arm_config.json",
+        "bytes": 26,
+        "sha256": "39f68d87521c4f473efa48207ad4be952aaf90bcd8867c4f56aaaa3144977dad"
+      },
+      {
+        "name": "b_simple_model.json",
+        "bytes": 91208,
+        "sha256": "9995d868ce5f6afde67552ec8b90d4f51acf69dafd3d499ea1037e31049eec95"
+      },
+      {
+        "name": "c0_main.py",
+        "bytes": 6491,
+        "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8"
+      },
+      {
+        "name": "common.py",
+        "bytes": 30581,
+        "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9"
+      },
+      {
+        "name": "main.py",
+        "bytes": 8991,
+        "sha256": "1bd6f01a8ddaacfc60a93399cf36f3503edf8a41eb963ddecac3b5c708878732"
+      },
+      {
+        "name": "market_overlay.py",
+        "bytes": 13888,
+        "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+      },
+      {
+        "name": "model_metadata.json",
+        "bytes": 9595,
+        "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+      },
+      {
+        "name": "opponent_sell_model.json",
+        "bytes": 12249,
+        "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+      },
+      {
+        "name": "policy_model.json.gz",
+        "bytes": 1720997,
+        "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+      },
+      {
+        "name": "v120_base.py",
+        "bytes": 10546,
+        "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+      },
+      {
+        "name": "v121_sparse.py",
+        "bytes": 9937,
+        "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+      },
+      {
+        "name": "v123_base.py",
+        "bytes": 14490,
+        "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+      },
+      {
+        "name": "v124_base.py",
+        "bytes": 19414,
+        "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+      }
+    ],
+    "staging_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\learning_next_20260921\\package_staging\\b_simple-3fac1d3af808432f99b2608ffdd52424"
+  },
+  "grouping": "family x requested_seed; two seats are one world cluster when both are present",
+  "formal_strength_claim": false,
+  "known_failure_is_holdout": false
+}

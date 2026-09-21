@@ -1,0 +1,1255 @@
+{
+  "cases": [
+    {
+      "arm": "a_baseline",
+      "seat": 0,
+      "first_action_difference": 4,
+      "c0_intended_action": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "COW"
+          ]
+        ],
+        "market": []
+      },
+      "final_action": {
+        "farmer": [
+          "DROP"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "DROP"
+          ]
+        ],
+        "market": []
+      },
+      "before_c0": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "before_candidate": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_c0": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_candidate": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 2
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "first_public_state_difference": 5,
+      "first_private_state_difference": 5,
+      "final_rewards": [
+        0.0,
+        181160.0
+      ],
+      "source_router_state": "C0 was called once, then the selected primitive replaced its structured unit action",
+      "job_state": "old A had no active job unless FEED-without-WHEAT was selected",
+      "missing_precondition": "the op-priority/11-class selector did not preserve C0's actor-level plan, future inventory reservation, or continuation contract"
+    },
+    {
+      "arm": "a_baseline",
+      "seat": 1,
+      "first_action_difference": 4,
+      "c0_intended_action": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "COW"
+          ]
+        ],
+        "market": []
+      },
+      "final_action": {
+        "farmer": [
+          "DROP"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "DROP"
+          ]
+        ],
+        "market": []
+      },
+      "before_c0": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "before_candidate": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_c0": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_candidate": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 2
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "first_public_state_difference": 5,
+      "first_private_state_difference": 5,
+      "final_rewards": [
+        182460.0,
+        0.0
+      ],
+      "source_router_state": "C0 was called once, then the selected primitive replaced its structured unit action",
+      "job_state": "old A had no active job unless FEED-without-WHEAT was selected",
+      "missing_precondition": "the op-priority/11-class selector did not preserve C0's actor-level plan, future inventory reservation, or continuation contract"
+    },
+    {
+      "arm": "a_learned",
+      "seat": 0,
+      "first_action_difference": 4,
+      "c0_intended_action": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "COW"
+          ]
+        ],
+        "market": []
+      },
+      "final_action": {
+        "farmer": [
+          "PLACE",
+          "SHEEP",
+          1
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "COW"
+          ]
+        ],
+        "market": []
+      },
+      "before_c0": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "before_candidate": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_c0": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_candidate": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "first_public_state_difference": 5,
+      "first_private_state_difference": 5,
+      "final_rewards": [
+        4047.0,
+        154302.0
+      ],
+      "source_router_state": "C0 was called once, then the selected primitive replaced its structured unit action",
+      "job_state": "old A had no active job unless FEED-without-WHEAT was selected",
+      "missing_precondition": "the op-priority/11-class selector did not preserve C0's actor-level plan, future inventory reservation, or continuation contract"
+    },
+    {
+      "arm": "a_learned",
+      "seat": 1,
+      "first_action_difference": 4,
+      "c0_intended_action": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "COW"
+          ]
+        ],
+        "market": []
+      },
+      "final_action": {
+        "farmer": [
+          "PLACE",
+          "SHEEP",
+          1
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "COW"
+          ]
+        ],
+        "market": []
+      },
+      "before_c0": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "before_candidate": {
+        "step": 4,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_c0": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 4,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "after_candidate": {
+        "step": 5,
+        "money": 972.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 1
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "market_inventory": {
+          "WHEAT": 9989,
+          "CARROT": 9999,
+          "TOMATO": 9999,
+          "STRAWBERRY": 9999,
+          "MELON": 9999,
+          "EGG": 9999,
+          "MILK": 9999,
+          "WOOL": 9999,
+          "FERTILIZER": 10000
+        }
+      },
+      "first_public_state_difference": 5,
+      "first_private_state_difference": 5,
+      "final_rewards": [
+        125089.0,
+        2374.0
+      ],
+      "source_router_state": "C0 was called once, then the selected primitive replaced its structured unit action",
+      "job_state": "old A had no active job unless FEED-without-WHEAT was selected",
+      "missing_precondition": "the op-priority/11-class selector did not preserve C0's actor-level plan, future inventory reservation, or continuation contract"
+    }
+  ],
+  "common_cause": "The shared executor replaced each C0 work boundary independently and returned to a time-advanced C0 without a state-compatible job/continuation contract. The non-learned priority selector therefore collapses too; the failure cannot be attributed to the learned classifier alone.",
+  "same_first_difference_steps": [
+    4
+  ],
+  "scope": "first divergence and immediate transition; later zero cash is not used as causal evidence"
+}

@@ -1,0 +1,12 @@
+{
+  "case": "joint pickup, deposit, and future-use reservations",
+  "shed": {"WHEAT": 5, "CARROT": 99},
+  "inventories": [{"MILK": 2}, {"WHEAT": 2}, {}],
+  "joint_action": {
+    "farmer": ["PLACE", "MILK", 2],
+    "hands": [["DROP"], ["PICKUP", "WHEAT", 4]],
+    "market": []
+  },
+  "reservations": {"shed:WHEAT": 2, "actor:1:WHEAT": 2, "shed_capacity": 1},
+  "expected_reasons": ["DROP_VIOLATES_FUTURE_RESERVATION", "SHED_MATERIAL_DOUBLE_USE", "SHED_CAPACITY_OVERBOOKED"]
+}

@@ -1,0 +1,11 @@
+{
+  "case": "constant binary and unknown job are rejected without large z-score",
+  "schema": {
+    "history:own_sell:24:WOOL": {"kind": "binary", "constant": true, "constant_value": 0},
+    "money": {"kind": "continuous", "mean": 5000, "scale": 2000, "minimum": 0, "maximum": 20000}
+  },
+  "values": {"history:own_sell:24:WOOL": 1, "money": 4000},
+  "unseen_job": "FERTILIZE_WATER",
+  "required_fallback": "KEEP",
+  "required_reason": "UNSEEN_BINARY_CATEGORY"
+}

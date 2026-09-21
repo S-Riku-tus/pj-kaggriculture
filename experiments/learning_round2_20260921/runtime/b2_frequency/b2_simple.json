@@ -1,0 +1,3205 @@
+{
+  "format": "round2-impact-hour-frequency-v1",
+  "global": {
+    "WHEAT": {
+      "1": {
+        "probability": 0.10809561604183202,
+        "expected_quantity": 0.8197348117828369
+      },
+      "4": {
+        "probability": 0.2777921260729916,
+        "expected_quantity": 2.5607848167419434
+      },
+      "24": {
+        "probability": 0.7373709296929384,
+        "expected_quantity": 14.75051498413086
+      }
+    },
+    "CARROT": {
+      "1": {
+        "probability": 0.025596433073439468,
+        "expected_quantity": 0.22653718292713165
+      },
+      "4": {
+        "probability": 0.06606059467683466,
+        "expected_quantity": 0.6794947981834412
+      },
+      "24": {
+        "probability": 0.22432612731069687,
+        "expected_quantity": 3.6423230171203613
+      }
+    },
+    "TOMATO": {
+      "1": {
+        "probability": 0.018817405107614735,
+        "expected_quantity": 0.11438208818435669
+      },
+      "4": {
+        "probability": 0.04521356524352448,
+        "expected_quantity": 0.31277117133140564
+      },
+      "24": {
+        "probability": 0.19650591693093047,
+        "expected_quantity": 1.804414987564087
+      }
+    },
+    "STRAWBERRY": {
+      "1": {
+        "probability": 0.04076754283579999,
+        "expected_quantity": 0.23142537474632263
+      },
+      "4": {
+        "probability": 0.20879430492683934,
+        "expected_quantity": 1.1440273523330688
+      },
+      "24": {
+        "probability": 0.4795904555650089,
+        "expected_quantity": 6.857950210571289
+      }
+    },
+    "MELON": {
+      "1": {
+        "probability": 0.015390541108361735,
+        "expected_quantity": 0.10905738174915314
+      },
+      "4": {
+        "probability": 0.038923533499877906,
+        "expected_quantity": 0.42108699679374695
+      },
+      "24": {
+        "probability": 0.15397314177430582,
+        "expected_quantity": 2.5977284908294678
+      }
+    },
+    "EGG": {
+      "1": {
+        "probability": 0.021343199962649984,
+        "expected_quantity": 0.13025350868701935
+      },
+      "4": {
+        "probability": 0.06746464058303124,
+        "expected_quantity": 0.4271140396595001
+      },
+      "24": {
+        "probability": 0.30366569340242866,
+        "expected_quantity": 2.5689172744750977
+      }
+    },
+    "MILK": {
+      "1": {
+        "probability": 0.035267752929641905,
+        "expected_quantity": 0.14379990100860596
+      },
+      "4": {
+        "probability": 0.2701684855087436,
+        "expected_quantity": 1.0364512205123901
+      },
+      "24": {
+        "probability": 0.6310208639492614,
+        "expected_quantity": 6.227584362030029
+      }
+    },
+    "WOOL": {
+      "1": {
+        "probability": 0.030419253933423596,
+        "expected_quantity": 0.13180120289325714
+      },
+      "4": {
+        "probability": 0.17688395724938485,
+        "expected_quantity": 0.7290332317352295
+      },
+      "24": {
+        "probability": 0.48683434527032254,
+        "expected_quantity": 4.395827770233154
+      }
+    },
+    "FERTILIZER": {
+      "1": {
+        "probability": 0.13303142070124654,
+        "expected_quantity": 0.4176735579967499
+      },
+      "4": {
+        "probability": 0.33368630139559347,
+        "expected_quantity": 1.263746976852417
+      },
+      "24": {
+        "probability": 0.9492033413257019,
+        "expected_quantity": 7.649997234344482
+      }
+    }
+  },
+  "by_hour": {
+    "0": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.19369747899159664,
+          "expected_quantity": 2.6992716789245605
+        },
+        "4": {
+          "probability": 0.3868627450980392,
+          "expected_quantity": 4.951428413391113
+        },
+        "24": {
+          "probability": 0.7382982425613364,
+          "expected_quantity": 14.099501609802246
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.06299719887955182,
+          "expected_quantity": 0.8561064600944519
+        },
+        "4": {
+          "probability": 0.12086834733893558,
+          "expected_quantity": 1.551568627357483
+        },
+        "24": {
+          "probability": 0.21472072385592483,
+          "expected_quantity": 3.069514513015747
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.061512605042016805,
+          "expected_quantity": 0.4501120448112488
+        },
+        "4": {
+          "probability": 0.13366946778711486,
+          "expected_quantity": 0.9887114763259888
+        },
+        "24": {
+          "probability": 0.19024418537207818,
+          "expected_quantity": 1.6912301778793335
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.1353781512605042,
+          "expected_quantity": 1.1861064434051514
+        },
+        "4": {
+          "probability": 0.21084033613445377,
+          "expected_quantity": 1.8333613872528076
+        },
+        "24": {
+          "probability": 0.4706803549678093,
+          "expected_quantity": 6.715648651123047
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.04411764705882353,
+          "expected_quantity": 0.3326890766620636
+        },
+        "4": {
+          "probability": 0.07677871148459384,
+          "expected_quantity": 0.6099439859390259
+        },
+        "24": {
+          "probability": 0.15889449567890493,
+          "expected_quantity": 2.5900180339813232
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.0619327731092437,
+          "expected_quantity": 0.4531092345714569
+        },
+        "4": {
+          "probability": 0.15067226890756302,
+          "expected_quantity": 1.062268853187561
+        },
+        "24": {
+          "probability": 0.3050287106316339,
+          "expected_quantity": 2.494025945663452
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.07218487394957983,
+          "expected_quantity": 0.42224088311195374
+        },
+        "4": {
+          "probability": 0.35750700280112047,
+          "expected_quantity": 1.8846778869628906
+        },
+        "24": {
+          "probability": 0.6108114378516327,
+          "expected_quantity": 6.070065498352051
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.04929971988795518,
+          "expected_quantity": 0.26887956261634827
+        },
+        "4": {
+          "probability": 0.23683473389355741,
+          "expected_quantity": 1.023809552192688
+        },
+        "24": {
+          "probability": 0.46720027840612494,
+          "expected_quantity": 4.294559478759766
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.49910364145658265,
+          "expected_quantity": 2.957703113555908
+        },
+        "4": {
+          "probability": 0.7838375350140055,
+          "expected_quantity": 4.396946907043457
+        },
+        "24": {
+          "probability": 0.9231193086247897,
+          "expected_quantity": 7.472536563873291
+        }
+      }
+    },
+    "1": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "2": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.12644257703081233,
+          "expected_quantity": 0.8230252265930176
+        },
+        "4": {
+          "probability": 0.22792717086834735,
+          "expected_quantity": 1.8090195655822754
+        },
+        "24": {
+          "probability": 0.7328171219766835,
+          "expected_quantity": 14.60521411895752
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.03324929971988796,
+          "expected_quantity": 0.1966666728258133
+        },
+        "4": {
+          "probability": 0.044481792717086834,
+          "expected_quantity": 0.26885154843330383
+        },
+        "24": {
+          "probability": 0.21953482976625485,
+          "expected_quantity": 3.50040602684021
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.04417366946778711,
+          "expected_quantity": 0.28960785269737244
+        },
+        "4": {
+          "probability": 0.04745098039215686,
+          "expected_quantity": 0.31456583738327026
+        },
+        "24": {
+          "probability": 0.18751812539875878,
+          "expected_quantity": 1.7400672435760498
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.034761904761904765,
+          "expected_quantity": 0.10596638917922974
+        },
+        "4": {
+          "probability": 0.1538655462184874,
+          "expected_quantity": 0.5212324857711792
+        },
+        "24": {
+          "probability": 0.4727394002668059,
+          "expected_quantity": 6.75587272644043
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.010812324929971988,
+          "expected_quantity": 0.037254903465509415
+        },
+        "4": {
+          "probability": 0.014033613445378151,
+          "expected_quantity": 0.05476190522313118
+        },
+        "24": {
+          "probability": 0.13821704077489705,
+          "expected_quantity": 2.597384214401245
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.016246498599439777,
+          "expected_quantity": 0.13784313201904297
+        },
+        "4": {
+          "probability": 0.024089635854341738,
+          "expected_quantity": 0.18221288919448853
+        },
+        "24": {
+          "probability": 0.3034336755408619,
+          "expected_quantity": 2.5510411262512207
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.10058823529411764,
+          "expected_quantity": 0.36666667461395264
+        },
+        "4": {
+          "probability": 0.29428571428571426,
+          "expected_quantity": 1.258263349533081
+        },
+        "24": {
+          "probability": 0.6159445507801171,
+          "expected_quantity": 6.123542785644531
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.02296918767507003,
+          "expected_quantity": 0.10324929654598236
+        },
+        "4": {
+          "probability": 0.18868347338935573,
+          "expected_quantity": 0.9925490021705627
+        },
+        "24": {
+          "probability": 0.45760106722347893,
+          "expected_quantity": 4.334899425506592
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.20182072829131653,
+          "expected_quantity": 0.4585714340209961
+        },
+        "4": {
+          "probability": 0.31238095238095237,
+          "expected_quantity": 0.8567507266998291
+        },
+        "24": {
+          "probability": 0.9132010904239893,
+          "expected_quantity": 7.5751118659973145
+        }
+      }
+    },
+    "3": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "4": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.06179271708683473,
+          "expected_quantity": 0.4481232464313507
+        },
+        "4": {
+          "probability": 0.26064425770308125,
+          "expected_quantity": 1.9546778202056885
+        },
+        "24": {
+          "probability": 0.7309610811437852,
+          "expected_quantity": 14.60274887084961
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.00288515406162465,
+          "expected_quantity": 0.01106442604213953
+        },
+        "4": {
+          "probability": 0.016246498599439777,
+          "expected_quantity": 0.08170868456363678
+        },
+        "24": {
+          "probability": 0.22249289484368656,
+          "expected_quantity": 3.52105450630188
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.0003641456582633053,
+          "expected_quantity": 0.0021568627562373877
+        },
+        "4": {
+          "probability": 0.0040896358543417366,
+          "expected_quantity": 0.025826331228017807
+        },
+        "24": {
+          "probability": 0.19587030914680123,
+          "expected_quantity": 1.7791311740875244
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.010756302521008404,
+          "expected_quantity": 0.025182072073221207
+        },
+        "4": {
+          "probability": 0.14801120448179272,
+          "expected_quantity": 0.47084033489227295
+        },
+        "24": {
+          "probability": 0.4732614117510585,
+          "expected_quantity": 6.759178638458252
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.001288515406162465,
+          "expected_quantity": 0.006666666828095913
+        },
+        "4": {
+          "probability": 0.00988795518207283,
+          "expected_quantity": 0.05697479099035263
+        },
+        "24": {
+          "probability": 0.13792703439475668,
+          "expected_quantity": 2.597384214401245
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.0013445378151260505,
+          "expected_quantity": 0.003893557470291853
+        },
+        "4": {
+          "probability": 0.010364145658263305,
+          "expected_quantity": 0.05112044885754585
+        },
+        "24": {
+          "probability": 0.30386868511107246,
+          "expected_quantity": 2.5557973384857178
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.026330532212885154,
+          "expected_quantity": 0.1280672252178192
+        },
+        "4": {
+          "probability": 0.2635294117647059,
+          "expected_quantity": 0.9825209975242615
+        },
+        "24": {
+          "probability": 0.6517023374514239,
+          "expected_quantity": 6.1292266845703125
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.059635854341736697,
+          "expected_quantity": 0.2792156934738159
+        },
+        "4": {
+          "probability": 0.19857142857142857,
+          "expected_quantity": 1.2345378398895264
+        },
+        "24": {
+          "probability": 0.4692593237051215,
+          "expected_quantity": 4.33806037902832
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.057366946778711486,
+          "expected_quantity": 0.09364145994186401
+        },
+        "4": {
+          "probability": 0.26434173669467786,
+          "expected_quantity": 0.6182352900505066
+        },
+        "24": {
+          "probability": 0.9447247839452468,
+          "expected_quantity": 7.6233978271484375
+        }
+      }
+    },
+    "5": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "6": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.15798319327731092,
+          "expected_quantity": 0.8699719905853271
+        },
+        "4": {
+          "probability": 0.24028011204481792,
+          "expected_quantity": 1.606414556503296
+        },
+        "24": {
+          "probability": 0.7352821762078766,
+          "expected_quantity": 14.594802856445312
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.005350140056022409,
+          "expected_quantity": 0.020196078345179558
+        },
+        "4": {
+          "probability": 0.01803921568627451,
+          "expected_quantity": 0.10526610910892487
+        },
+        "24": {
+          "probability": 0.22295690505191115,
+          "expected_quantity": 3.529667615890503
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.0006442577030812325,
+          "expected_quantity": 0.002436974784359336
+        },
+        "4": {
+          "probability": 0.004817927170868348,
+          "expected_quantity": 0.025770308449864388
+        },
+        "24": {
+          "probability": 0.19636331999303985,
+          "expected_quantity": 1.7817702293395996
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.01196078431372549,
+          "expected_quantity": 0.04957983270287514
+        },
+        "4": {
+          "probability": 0.18028011204481792,
+          "expected_quantity": 0.5970308184623718
+        },
+        "24": {
+          "probability": 0.47590046981033585,
+          "expected_quantity": 6.788614273071289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.0054621848739495795,
+          "expected_quantity": 0.030392156913876534
+        },
+        "4": {
+          "probability": 0.02742296918767507,
+          "expected_quantity": 0.23630252480506897
+        },
+        "24": {
+          "probability": 0.1387390522591497,
+          "expected_quantity": 2.597384214401245
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.002072829131652661,
+          "expected_quantity": 0.006582633126527071
+        },
+        "4": {
+          "probability": 0.011932773109243698,
+          "expected_quantity": 0.04397759214043617
+        },
+        "24": {
+          "probability": 0.304332695319297,
+          "expected_quantity": 2.5566091537475586
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.031820728291316526,
+          "expected_quantity": 0.13044817745685577
+        },
+        "4": {
+          "probability": 0.2686834733893557,
+          "expected_quantity": 0.8469187617301941
+        },
+        "24": {
+          "probability": 0.6526593585058871,
+          "expected_quantity": 6.163215637207031
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.05420168067226891,
+          "expected_quantity": 0.29067227244377136
+        },
+        "4": {
+          "probability": 0.2007563025210084,
+          "expected_quantity": 0.838347315788269
+        },
+        "24": {
+          "probability": 0.5221274868047097,
+          "expected_quantity": 4.356649875640869
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.15313725490196078,
+          "expected_quantity": 0.19834734499454498
+        },
+        "4": {
+          "probability": 0.27319327731092435,
+          "expected_quantity": 0.723305344581604
+        },
+        "24": {
+          "probability": 0.9487558726291978,
+          "expected_quantity": 7.623948574066162
+        }
+      }
+    },
+    "7": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "8": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.029075630252100842,
+          "expected_quantity": 0.19011203944683075
+        },
+        "4": {
+          "probability": 0.22408963585434175,
+          "expected_quantity": 1.4709523916244507
+        },
+        "24": {
+          "probability": 0.7301780639174061,
+          "expected_quantity": 14.595499038696289
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.0028011204481792717,
+          "expected_quantity": 0.015210083685815334
+        },
+        "4": {
+          "probability": 0.033221288515406164,
+          "expected_quantity": 0.21184873580932617
+        },
+        "24": {
+          "probability": 0.22342091526013572,
+          "expected_quantity": 3.53926682472229
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.00028011204481792715,
+          "expected_quantity": 0.0005882352706976235
+        },
+        "4": {
+          "probability": 0.008711484593837535,
+          "expected_quantity": 0.048991598188877106
+        },
+        "24": {
+          "probability": 0.19659532509715213,
+          "expected_quantity": 1.7825242280960083
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.007647058823529412,
+          "expected_quantity": 0.025882352143526077
+        },
+        "4": {
+          "probability": 0.18677871148459385,
+          "expected_quantity": 0.6296918988227844
+        },
+        "24": {
+          "probability": 0.4762484774665043,
+          "expected_quantity": 6.79067325592041
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.010420168067226891,
+          "expected_quantity": 0.06512605398893356
+        },
+        "4": {
+          "probability": 0.04532212885154062,
+          "expected_quantity": 0.7657983303070068
+        },
+        "24": {
+          "probability": 0.14323415115132532,
+          "expected_quantity": 2.597384214401245
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.0018207282913165266,
+          "expected_quantity": 0.00792717095464468
+        },
+        "4": {
+          "probability": 0.026946778711484595,
+          "expected_quantity": 0.13854341208934784
+        },
+        "24": {
+          "probability": 0.30436169595731105,
+          "expected_quantity": 2.5568411350250244
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.018543417366946778,
+          "expected_quantity": 0.07056022435426712
+        },
+        "4": {
+          "probability": 0.23742296918767508,
+          "expected_quantity": 0.6371148228645325
+        },
+        "24": {
+          "probability": 0.6290818398004756,
+          "expected_quantity": 6.165216445922852
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.028823529411764706,
+          "expected_quantity": 0.11801120638847351
+        },
+        "4": {
+          "probability": 0.1652941176470588,
+          "expected_quantity": 0.4843977689743042
+        },
+        "24": {
+          "probability": 0.5054521199466389,
+          "expected_quantity": 4.360564708709717
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.15140056022408963,
+          "expected_quantity": 0.2143697440624237
+        },
+        "4": {
+          "probability": 0.2553501400560224,
+          "expected_quantity": 0.5773109197616577
+        },
+        "24": {
+          "probability": 0.9570210544631982,
+          "expected_quantity": 7.625166893005371
+        }
+      }
+    },
+    "9": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "10": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10288515406162466,
+          "expected_quantity": 0.5471988916397095
+        },
+        "4": {
+          "probability": 0.2573949579831933,
+          "expected_quantity": 1.6607563495635986
+        },
+        "24": {
+          "probability": 0.7309900817817993,
+          "expected_quantity": 14.603503227233887
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.010084033613445379,
+          "expected_quantity": 0.05605041980743408
+        },
+        "4": {
+          "probability": 0.036890756302521005,
+          "expected_quantity": 0.24851541221141815
+        },
+        "24": {
+          "probability": 0.2242039324865147,
+          "expected_quantity": 3.5584652423858643
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.002605042016806723,
+          "expected_quantity": 0.013081232085824013
+        },
+        "4": {
+          "probability": 0.009915966386554622,
+          "expected_quantity": 0.06271708756685257
+        },
+        "24": {
+          "probability": 0.19676932892523635,
+          "expected_quantity": 1.7896003723144531
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.015182072829131652,
+          "expected_quantity": 0.04745098203420639
+        },
+        "4": {
+          "probability": 0.1511204481792717,
+          "expected_quantity": 0.658319354057312
+        },
+        "24": {
+          "probability": 0.47923554318195,
+          "expected_quantity": 6.818949222564697
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.028431372549019607,
+          "expected_quantity": 0.279439777135849
+        },
+        "4": {
+          "probability": 0.05378151260504202,
+          "expected_quantity": 1.1309243440628052
+        },
+        "24": {
+          "probability": 0.15338437445623804,
+          "expected_quantity": 2.597384214401245
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.007338935574229692,
+          "expected_quantity": 0.031680673360824585
+        },
+        "4": {
+          "probability": 0.03630252100840336,
+          "expected_quantity": 0.22605042159557343
+        },
+        "24": {
+          "probability": 0.30560872339191464,
+          "expected_quantity": 2.557305335998535
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.015798319327731094,
+          "expected_quantity": 0.056358542293310165
+        },
+        "4": {
+          "probability": 0.1853781512605042,
+          "expected_quantity": 0.5950419902801514
+        },
+        "24": {
+          "probability": 0.6276028072617598,
+          "expected_quantity": 6.201032638549805
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.016554621848739497,
+          "expected_quantity": 0.06697478890419006
+        },
+        "4": {
+          "probability": 0.12907563025210084,
+          "expected_quantity": 0.3719607889652252
+        },
+        "24": {
+          "probability": 0.48694971289368366,
+          "expected_quantity": 4.3773274421691895
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.056134453781512605,
+          "expected_quantity": 0.09316526353359222
+        },
+        "4": {
+          "probability": 0.24257703081232493,
+          "expected_quantity": 0.390112042427063
+        },
+        "24": {
+          "probability": 0.9575140653094368,
+          "expected_quantity": 7.625630855560303
+        }
+      }
+    },
+    "11": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "12": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.047787114845938373,
+          "expected_quantity": 0.2488795518875122
+        },
+        "4": {
+          "probability": 0.1934842288083366,
+          "expected_quantity": 1.2936018705368042
+        },
+        "24": {
+          "probability": 0.7432863522997506,
+          "expected_quantity": 14.605823516845703
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.005854341736694678,
+          "expected_quantity": 0.035910364240407944
+        },
+        "4": {
+          "probability": 0.03182251106504566,
+          "expected_quantity": 0.22928455471992493
+        },
+        "24": {
+          "probability": 0.2243489356765849,
+          "expected_quantity": 3.5775187015533447
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.0025210084033613447,
+          "expected_quantity": 0.010756302624940872
+        },
+        "4": {
+          "probability": 0.011765365006442938,
+          "expected_quantity": 0.0740937888622284
+        },
+        "24": {
+          "probability": 0.19737834232353113,
+          "expected_quantity": 1.7922104597091675
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.021792717086834733,
+          "expected_quantity": 0.06859944015741348
+        },
+        "4": {
+          "probability": 0.19124320690234747,
+          "expected_quantity": 0.9347022175788879
+        },
+        "24": {
+          "probability": 0.47923554318195,
+          "expected_quantity": 6.824778079986572
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.04526610644257703,
+          "expected_quantity": 0.29523810744285583
+        },
+        "4": {
+          "probability": 0.051879657123648386,
+          "expected_quantity": 0.661353588104248
+        },
+        "24": {
+          "probability": 0.16907371962183168,
+          "expected_quantity": 2.5974130630493164
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.011988795518207283,
+          "expected_quantity": 0.07607842981815338
+        },
+        "4": {
+          "probability": 0.033867443554260745,
+          "expected_quantity": 0.1804863065481186
+        },
+        "24": {
+          "probability": 0.3030566672466794,
+          "expected_quantity": 2.5580883026123047
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.020140056022408964,
+          "expected_quantity": 0.07193277031183243
+        },
+        "4": {
+          "probability": 0.20057146058602723,
+          "expected_quantity": 0.6503445506095886
+        },
+        "24": {
+          "probability": 0.6277478104518299,
+          "expected_quantity": 6.212255477905273
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.016862745098039214,
+          "expected_quantity": 0.041428569704294205
+        },
+        "4": {
+          "probability": 0.13115580704801388,
+          "expected_quantity": 0.4008067548274994
+        },
+        "24": {
+          "probability": 0.4866017052375152,
+          "expected_quantity": 4.380633354187012
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.061400560224089636,
+          "expected_quantity": 0.07498599588871002
+        },
+        "4": {
+          "probability": 0.1746596447980279,
+          "expected_quantity": 0.36920836567878723
+        },
+        "24": {
+          "probability": 0.9578040716895772,
+          "expected_quantity": 7.626413822174072
+        }
+      }
+    },
+    "13": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "14": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.06775910364145658,
+          "expected_quantity": 0.32042017579078674
+        },
+        "4": {
+          "probability": 0.19520260045956397,
+          "expected_quantity": 1.5132545232772827
+        },
+        "24": {
+          "probability": 0.743605359317905,
+          "expected_quantity": 14.645293235778809
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.009467787114845938,
+          "expected_quantity": 0.05537815019488335
+        },
+        "4": {
+          "probability": 0.041753068430196716,
+          "expected_quantity": 0.31090623140335083
+        },
+        "24": {
+          "probability": 0.22559596311118846,
+          "expected_quantity": 3.6052722930908203
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.004593837535014005,
+          "expected_quantity": 0.018851540982723236
+        },
+        "4": {
+          "probability": 0.014963851370285266,
+          "expected_quantity": 0.0914083942770958
+        },
+        "24": {
+          "probability": 0.1975233455136013,
+          "expected_quantity": 1.7988516092300415
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.05787114845938375,
+          "expected_quantity": 0.1873389333486557
+        },
+        "4": {
+          "probability": 0.21308075996188983,
+          "expected_quantity": 1.0254161357879639
+        },
+        "24": {
+          "probability": 0.48054057189258165,
+          "expected_quantity": 6.865900993347168
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.005714285714285714,
+          "expected_quantity": 0.03624649718403816
+        },
+        "4": {
+          "probability": 0.019027069438995684,
+          "expected_quantity": 0.1558033972978592
+        },
+        "24": {
+          "probability": 0.16304158691491213,
+          "expected_quantity": 2.597616195678711
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.00988795518207283,
+          "expected_quantity": 0.0351540632545948
+        },
+        "4": {
+          "probability": 0.02827439331950905,
+          "expected_quantity": 0.12909825146198273
+        },
+        "24": {
+          "probability": 0.30012760280726175,
+          "expected_quantity": 2.5615394115448
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.0392436974789916,
+          "expected_quantity": 0.10913164913654327
+        },
+        "4": {
+          "probability": 0.2572717592333128,
+          "expected_quantity": 0.8139326572418213
+        },
+        "24": {
+          "probability": 0.6291398410765037,
+          "expected_quantity": 6.264282703399658
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.04165266106442577,
+          "expected_quantity": 0.08392156660556793
+        },
+        "4": {
+          "probability": 0.14226867679201927,
+          "expected_quantity": 0.41621363162994385
+        },
+        "24": {
+          "probability": 0.48886375500261003,
+          "expected_quantity": 4.411374092102051
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.05918767507002801,
+          "expected_quantity": 0.09929972141981125
+        },
+        "4": {
+          "probability": 0.21067085131424088,
+          "expected_quantity": 0.5395112633705139
+        },
+        "24": {
+          "probability": 0.9557450263905806,
+          "expected_quantity": 7.64247989654541
+        }
+      }
+    },
+    "15": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "16": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.06560224089635855,
+          "expected_quantity": 0.40159663558006287
+        },
+        "4": {
+          "probability": 0.21457410418886333,
+          "expected_quantity": 2.154292583465576
+        },
+        "24": {
+          "probability": 0.7458674090829999,
+          "expected_quantity": 14.717939376831055
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.011120448179271708,
+          "expected_quantity": 0.051372550427913666
+        },
+        "4": {
+          "probability": 0.05293556888913811,
+          "expected_quantity": 0.5454775094985962
+        },
+        "24": {
+          "probability": 0.22681398990777796,
+          "expected_quantity": 3.671973705291748
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.004285714285714286,
+          "expected_quantity": 0.017058823257684708
+        },
+        "4": {
+          "probability": 0.02557057141254977,
+          "expected_quantity": 0.15462905168533325
+        },
+        "24": {
+          "probability": 0.19836436401600835,
+          "expected_quantity": 1.8152079582214355
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.03196078431372549,
+          "expected_quantity": 0.11442577093839645
+        },
+        "4": {
+          "probability": 0.2262378736051141,
+          "expected_quantity": 1.190517544746399
+        },
+        "24": {
+          "probability": 0.48248361463952205,
+          "expected_quantity": 6.8916826248168945
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.004033613445378151,
+          "expected_quantity": 0.024173669517040253
+        },
+        "4": {
+          "probability": 0.011523579879997758,
+          "expected_quantity": 0.09350641816854477
+        },
+        "24": {
+          "probability": 0.16251957543065948,
+          "expected_quantity": 2.597616195678711
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.005938375350140056,
+          "expected_quantity": 0.0291596632450819
+        },
+        "4": {
+          "probability": 0.04068300342062468,
+          "expected_quantity": 0.19634947180747986
+        },
+        "24": {
+          "probability": 0.3008236181195986,
+          "expected_quantity": 2.5761265754699707
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.0157703081232493,
+          "expected_quantity": 0.04680672287940979
+        },
+        "4": {
+          "probability": 0.24611674984579152,
+          "expected_quantity": 0.7692199945449829
+        },
+        "24": {
+          "probability": 0.6252827562206369,
+          "expected_quantity": 6.282524108886719
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.016750700280112045,
+          "expected_quantity": 0.04165266081690788
+        },
+        "4": {
+          "probability": 0.13225480850109347,
+          "expected_quantity": 0.3634273409843445
+        },
+        "24": {
+          "probability": 0.48837074415637144,
+          "expected_quantity": 4.436575412750244
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.05887955182072829,
+          "expected_quantity": 0.1386834681034088
+        },
+        "4": {
+          "probability": 0.23181741714798407,
+          "expected_quantity": 0.6811529397964478
+        },
+        "24": {
+          "probability": 0.9572820602053245,
+          "expected_quantity": 7.66965389251709
+        }
+      }
+    },
+    "17": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "18": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.08469210511570573,
+          "expected_quantity": 0.6597747802734375
+        },
+        "4": {
+          "probability": 0.2540252454417952,
+          "expected_quantity": 2.9805049896240234
+        },
+        "24": {
+          "probability": 0.7368314189581158,
+          "expected_quantity": 14.885601997375488
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.022804953213425225,
+          "expected_quantity": 0.15885022282600403
+        },
+        "4": {
+          "probability": 0.06594670406732117,
+          "expected_quantity": 0.861907422542572
+        },
+        "24": {
+          "probability": 0.2277816452024597,
+          "expected_quantity": 3.775408983230591
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.010449935563400011,
+          "expected_quantity": 0.056171905249357224
+        },
+        "4": {
+          "probability": 0.04185133239831697,
+          "expected_quantity": 0.2597756087779999
+        },
+        "24": {
+          "probability": 0.1988919828286344,
+          "expected_quantity": 1.8358567953109741
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.05160531181711212,
+          "expected_quantity": 0.2772454619407654
+        },
+        "4": {
+          "probability": 0.26698457223001404,
+          "expected_quantity": 1.5812342166900635
+        },
+        "24": {
+          "probability": 0.4868024132730015,
+          "expected_quantity": 6.961190223693848
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.0041183392166750715,
+          "expected_quantity": 0.022132571786642075
+        },
+        "4": {
+          "probability": 0.01085553997194951,
+          "expected_quantity": 0.0788499265909195
+        },
+        "24": {
+          "probability": 0.16112658080983872,
+          "expected_quantity": 2.598764419555664
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.01610914999719841,
+          "expected_quantity": 0.07774415612220764
+        },
+        "4": {
+          "probability": 0.06900420757363254,
+          "expected_quantity": 0.36917251348495483
+        },
+        "24": {
+          "probability": 0.30247128437173687,
+          "expected_quantity": 2.5900626182556152
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.022412730430884743,
+          "expected_quantity": 0.08743766695261002
+        },
+        "4": {
+          "probability": 0.2867601683029453,
+          "expected_quantity": 1.0166620016098022
+        },
+        "24": {
+          "probability": 0.630235526163128,
+          "expected_quantity": 6.328953266143799
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.012495097215218244,
+          "expected_quantity": 0.0451616533100605
+        },
+        "4": {
+          "probability": 0.1472931276297335,
+          "expected_quantity": 0.5183169841766357
+        },
+        "24": {
+          "probability": 0.4907471864485439,
+          "expected_quantity": 4.462292671203613
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.0959545021572253,
+          "expected_quantity": 0.21210847795009613
+        },
+        "4": {
+          "probability": 0.2663113604488079,
+          "expected_quantity": 0.7529032230377197
+        },
+        "24": {
+          "probability": 0.9583478361758905,
+          "expected_quantity": 7.718702793121338
+        }
+      }
+    },
+    "19": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "20": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.0994732122842412,
+          "expected_quantity": 0.7685496807098389
+        },
+        "4": {
+          "probability": 0.3860355921395861,
+          "expected_quantity": 3.355863332748413
+        },
+        "24": {
+          "probability": 0.7369581616665699,
+          "expected_quantity": 15.217257499694824
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.02499439587536427,
+          "expected_quantity": 0.2044384628534317
+        },
+        "4": {
+          "probability": 0.14642629412787664,
+          "expected_quantity": 1.3231697082519531
+        },
+        "24": {
+          "probability": 0.22932745314222713,
+          "expected_quantity": 4.023501396179199
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.012441156691324815,
+          "expected_quantity": 0.046738401055336
+        },
+        "4": {
+          "probability": 0.09480609819720597,
+          "expected_quantity": 0.5537939667701721
+        },
+        "24": {
+          "probability": 0.20016828178494747,
+          "expected_quantity": 1.8846689462661743
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.03824815063887021,
+          "expected_quantity": 0.21668347716331482
+        },
+        "4": {
+          "probability": 0.28569358298069675,
+          "expected_quantity": 1.7728826999664307
+        },
+        "24": {
+          "probability": 0.48705971101955553,
+          "expected_quantity": 7.006237983703613
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.002045505492042143,
+          "expected_quantity": 0.013842187821865082
+        },
+        "4": {
+          "probability": 0.04367862732595212,
+          "expected_quantity": 0.33392268419265747
+        },
+        "24": {
+          "probability": 0.1605930482214356,
+          "expected_quantity": 2.6000406742095947
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021772024209818427,
+          "expected_quantity": 0.0809796005487442
+        },
+        "4": {
+          "probability": 0.15042606225726046,
+          "expected_quantity": 0.9266129732131958
+        },
+        "24": {
+          "probability": 0.30412580514129867,
+          "expected_quantity": 2.610978841781616
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.016784353284017037,
+          "expected_quantity": 0.06360681354999542
+        },
+        "4": {
+          "probability": 0.3097211755840241,
+          "expected_quantity": 1.2491450309753418
+        },
+        "24": {
+          "probability": 0.6323913421923054,
+          "expected_quantity": 6.3425116539001465
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.008546290069491145,
+          "expected_quantity": 0.03799596428871155
+        },
+        "4": {
+          "probability": 0.181873514578865,
+          "expected_quantity": 0.8477769494056702
+        },
+        "24": {
+          "probability": 0.4898450647014449,
+          "expected_quantity": 4.4751057624816895
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.07764514682806546,
+          "expected_quantity": 0.16817978024482727
+        },
+        "4": {
+          "probability": 0.2880122891426584,
+          "expected_quantity": 0.8936583399772644
+        },
+        "24": {
+          "probability": 0.9584227934776302,
+          "expected_quantity": 7.76550817489624
+        }
+      }
+    },
+    "21": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    },
+    "22": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.2599585410947392,
+          "expected_quantity": 1.859908103942871
+        },
+        "4": {
+          "probability": 0.5040278180237612,
+          "expected_quantity": 6.123819351196289
+        },
+        "24": {
+          "probability": 0.7433813283790061,
+          "expected_quantity": 15.834300994873047
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.11555269202756457,
+          "expected_quantity": 1.0572301149368286
+        },
+        "4": {
+          "probability": 0.19093016516951608,
+          "expected_quantity": 2.4975948333740234
+        },
+        "24": {
+          "probability": 0.23072457036692987,
+          "expected_quantity": 4.336710453033447
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.0819373634377276,
+          "expected_quantity": 0.4650120437145233
+        },
+        "4": {
+          "probability": 0.15007244277021153,
+          "expected_quantity": 1.1899739503860474
+        },
+        "24": {
+          "probability": 0.20239201114723643,
+          "expected_quantity": 1.9620587825775146
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.07204885427755056,
+          "expected_quantity": 0.47265952825546265
+        },
+        "4": {
+          "probability": 0.29701535786728483,
+          "expected_quantity": 2.582758665084839
+        },
+        "24": {
+          "probability": 0.4909138411518811,
+          "expected_quantity": 7.117016792297363
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.022970474536388594,
+          "expected_quantity": 0.16544343531131744
+        },
+        "4": {
+          "probability": 0.10518690234714576,
+          "expected_quantity": 0.886612594127655
+        },
+        "24": {
+          "probability": 0.16093822573153738,
+          "expected_quantity": 2.6043601036071777
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.0996694492688666,
+          "expected_quantity": 0.6228920221328735
+        },
+        "4": {
+          "probability": 0.23535207186322804,
+          "expected_quantity": 1.6774847507476807
+        },
+        "24": {
+          "probability": 0.30675220622387367,
+          "expected_quantity": 2.658703088760376
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.0435878760714886,
+          "expected_quantity": 0.17230656743049622
+        },
+        "4": {
+          "probability": 0.3383656911040278,
+          "expected_quantity": 1.7645900249481201
+        },
+        "24": {
+          "probability": 0.6396597770552717,
+          "expected_quantity": 6.44847297668457
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.03722897641324444,
+          "expected_quantity": 0.20440921187400818
+        },
+        "4": {
+          "probability": 0.2717762967255868,
+          "expected_quantity": 1.2777456045150757
+        },
+        "24": {
+          "probability": 0.4889979098931723,
+          "expected_quantity": 4.522062301635742
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.12432069023474704,
+          "expected_quantity": 0.30290213227272034
+        },
+        "4": {
+          "probability": 0.711909591422776,
+          "expected_quantity": 4.458331108093262
+        },
+        "24": {
+          "probability": 0.9585171853228054,
+          "expected_quantity": 7.831659317016602
+        }
+      }
+    },
+    "23": {
+      "WHEAT": {
+        "1": {
+          "probability": 0.10809561604183202,
+          "expected_quantity": 0.8197348117828369
+        },
+        "4": {
+          "probability": 0.2777921260729916,
+          "expected_quantity": 2.5607848167419434
+        },
+        "24": {
+          "probability": 0.7373709296929384,
+          "expected_quantity": 14.75051498413086
+        }
+      },
+      "CARROT": {
+        "1": {
+          "probability": 0.025596433073439468,
+          "expected_quantity": 0.22653718292713165
+        },
+        "4": {
+          "probability": 0.06606059467683466,
+          "expected_quantity": 0.6794947981834412
+        },
+        "24": {
+          "probability": 0.22432612731069687,
+          "expected_quantity": 3.6423230171203613
+        }
+      },
+      "TOMATO": {
+        "1": {
+          "probability": 0.018817405107614735,
+          "expected_quantity": 0.11438208818435669
+        },
+        "4": {
+          "probability": 0.04521356524352448,
+          "expected_quantity": 0.31277117133140564
+        },
+        "24": {
+          "probability": 0.19650591693093047,
+          "expected_quantity": 1.804414987564087
+        }
+      },
+      "STRAWBERRY": {
+        "1": {
+          "probability": 0.04076754283579999,
+          "expected_quantity": 0.23142537474632263
+        },
+        "4": {
+          "probability": 0.20879430492683934,
+          "expected_quantity": 1.1440273523330688
+        },
+        "24": {
+          "probability": 0.4795904555650089,
+          "expected_quantity": 6.857950210571289
+        }
+      },
+      "MELON": {
+        "1": {
+          "probability": 0.015390541108361735,
+          "expected_quantity": 0.10905738174915314
+        },
+        "4": {
+          "probability": 0.038923533499877906,
+          "expected_quantity": 0.42108699679374695
+        },
+        "24": {
+          "probability": 0.15397314177430582,
+          "expected_quantity": 2.5977284908294678
+        }
+      },
+      "EGG": {
+        "1": {
+          "probability": 0.021343199962649984,
+          "expected_quantity": 0.13025350868701935
+        },
+        "4": {
+          "probability": 0.06746464058303124,
+          "expected_quantity": 0.4271140396595001
+        },
+        "24": {
+          "probability": 0.30366569340242866,
+          "expected_quantity": 2.5689172744750977
+        }
+      },
+      "MILK": {
+        "1": {
+          "probability": 0.035267752929641905,
+          "expected_quantity": 0.14379990100860596
+        },
+        "4": {
+          "probability": 0.2701684855087436,
+          "expected_quantity": 1.0364512205123901
+        },
+        "24": {
+          "probability": 0.6310208639492614,
+          "expected_quantity": 6.227584362030029
+        }
+      },
+      "WOOL": {
+        "1": {
+          "probability": 0.030419253933423596,
+          "expected_quantity": 0.13180120289325714
+        },
+        "4": {
+          "probability": 0.17688395724938485,
+          "expected_quantity": 0.7290332317352295
+        },
+        "24": {
+          "probability": 0.48683434527032254,
+          "expected_quantity": 4.395827770233154
+        }
+      },
+      "FERTILIZER": {
+        "1": {
+          "probability": 0.13303142070124654,
+          "expected_quantity": 0.4176735579967499
+        },
+        "4": {
+          "probability": 0.33368630139559347,
+          "expected_quantity": 1.263746976852417
+        },
+        "24": {
+          "probability": 0.9492033413257019,
+          "expected_quantity": 7.649997234344482
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "created_at_utc": "2026-09-21T07:31:32.709947+00:00",
+  "unique_episodes": 850,
+  "stored_states": 612000,
+  "decisions": 611150,
+  "shapes": {
+    "requested_train": [
+      428400,
+      27
+    ],
+    "executed_train": [
+      428400,
+      27
+    ],
+    "impact_train": [
+      428400,
+      27
+    ],
+    "revenue_train": [
+      428400,
+      27
+    ],
+    "mask_train": [
+      428400,
+      27
+    ],
+    "floor_train": [
+      428400,
+      27
+    ],
+    "actionable_train": [
+      428400,
+      27
+    ],
+    "requested_validation": [
+      91440,
+      27
+    ],
+    "executed_validation": [
+      91440,
+      27
+    ],
+    "impact_validation": [
+      91440,
+      27
+    ],
+    "revenue_validation": [
+      91440,
+      27
+    ],
+    "mask_validation": [
+      91440,
+      27
+    ],
+    "floor_validation": [
+      91440,
+      27
+    ],
+    "actionable_validation": [
+      91440,
+      27
+    ],
+    "requested_test": [
+      92160,
+      27
+    ],
+    "executed_test": [
+      92160,
+      27
+    ],
+    "impact_test": [
+      92160,
+      27
+    ],
+    "revenue_test": [
+      92160,
+      27
+    ],
+    "mask_test": [
+      92160,
+      27
+    ],
+    "floor_test": [
+      92160,
+      27
+    ],
+    "actionable_test": [
+      92160,
+      27
+    ]
+  },
+  "hashes": {
+    "requested_train": "c796acd65fac2d0c3ae29c9b31b12f8d5a3f25e78a81bd4a8cf8c863b6cc03bd",
+    "executed_train": "df44ff0132cf269c69d54dfbf13491c7c18daca70c77b7eb966bb94cb83a5549",
+    "impact_train": "01656bb2e1330869eaa6ba1bd4def5ff11395738e41cae06489055e300fe1c93",
+    "revenue_train": "f363479f237bb63e0edbafb8b63739a75e5795fc10274812cbeda3193e9f15f9",
+    "mask_train": "be6d06e98c14f81e9c83d906c4240cf37fb08e1e05314023dd69a1487470650b",
+    "floor_train": "fdb45b5b45fe4420732662c95db9f09db062ae29bbc9971d19e82c4d5794ec4c",
+    "actionable_train": "edcda6bfde0dfb845eb7598cc435e84ab6fd0b1f91d33f22606249f053f1e98d",
+    "requested_validation": "8018886c9111eac9a964d02442713e87c6dd1e4957b33c1810d8e178a4edd4fc",
+    "executed_validation": "5d6fcb7902acbf9eb8f2575d8cf586eb942034d05d8dc6e7640ffef29446d8aa",
+    "impact_validation": "fbcadf0e6bf057354503528c7b9329be52b432dc4de1da2e8f4209738f022179",
+    "revenue_validation": "0934a2afaea97df9831f816fbe6ec02019cbc18d9b2ca667d01ebf9416b2f8af",
+    "mask_validation": "d61fd17cf3e4ee131eee401e7b104a048e6b48709d377e30402c710e25512d36",
+    "floor_validation": "c1bce26b4de419a3433539acbbd7d2707b1766bf95ddf416795b942083212e0b",
+    "actionable_validation": "091288e1b055cf777b3b51e1c5be6dc86b77460f171406e6418aa457fa408a7e",
+    "requested_test": "2c61adc2f7c90912d5100d5ab1cfefd50bbcdc0099ce29631ce5f7a85360664a",
+    "executed_test": "cf37e24f800c24fc4f1beada080477f6e53b12bf1471a7ce9b081f8bc6c1f935",
+    "impact_test": "03c6d1461ffc76e6c7f0afda932c5cff6056e45ae0eec5fee58e9aa3e367552b",
+    "revenue_test": "bbac98a6b44a563ba1cf694d058616f0a44bbaf8b273ab5adec8e15a01d9db6c",
+    "mask_test": "94b2de8bc9d24cacb417ba4a22aa83f737de0806e2f8954419acd4e118ac3a6e",
+    "floor_test": "98eac1a916751d8692a1aa012d6e30e85755061e319ade1abc24b136ebb3ee54",
+    "actionable_test": "83ee3570389d39dcce8cd4cb8b45ae263311c800ed8606bde9d961876802918b"
+  },
+  "split_source": "experiments\\learning_next_20260921\\split_manifest.json",
+  "schema": "experiments\\learning_round2_20260921\\b2_label_schema.json",
+  "row_order": "episode_id ascending, then even step ascending, then focal seat 0/1; identical to frozen B1 features"
+}

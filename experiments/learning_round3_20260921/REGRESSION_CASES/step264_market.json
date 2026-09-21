@@ -1,0 +1,13 @@
+{
+  "case": "Round2 systematic market-order error",
+  "market_inventory": {"WHEAT": 10000, "CARROT": 10000, "TOMATO": 10000, "STRAWBERRY": 10000, "MELON": 10000, "EGG": 10000, "MILK": 10000, "WOOL": 10000, "FERTILIZER": 10000},
+  "players": [
+    {"money": 12000, "shed": {"MELON": 12, "FERTILIZER": 13}, "seeds": {}, "hires_today": 0, "hands": 0, "unlocked_land": 1},
+    {"money": 12000, "shed": {"MELON": 12, "FERTILIZER": 13}, "seeds": {}, "hires_today": 0, "hands": 0, "unlocked_land": 1}
+  ],
+  "c0_orders": [["SELL", "MELON", 12], ["SELL", "FERTILIZER", 13], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"]],
+  "reversed_orders": [["SELL", "FERTILIZER", 13], ["SELL", "MELON", 12], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"]],
+  "opponent_orders": [["SELL", "MELON", 12], ["SELL", "FERTILIZER", 13]],
+  "round2_prediction": {"MELON": {"raw_sigmoid": 0.764112, "quantity_regression": 0.495358}, "FERTILIZER": {"raw_sigmoid": 0.977170, "quantity_regression": 4.644242}},
+  "prohibition": "do not branch on step, seed, seat, or opponent identity"
+}

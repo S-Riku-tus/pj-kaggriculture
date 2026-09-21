@@ -1,0 +1,190 @@
+{
+  "study_id": "learning_round2_20260921",
+  "created_at_utc": "2026-09-21T06:34:55.227098+00:00",
+  "source_state": {
+    "commit": "3a2ae04d4832a648b453dbdcccf699d3d58f06e5",
+    "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": [
+      "?? agents/learning_round2_20260921/",
+      "?? data/current_field_20260910/competition_20260921_submission_check.json",
+      "?? data/current_field_20260910/our_team_20260921_submission_check.json",
+      "?? experiments/learning_round2_20260921/",
+      "?? scripts/learning_round2.py",
+      "?? tests/test_learning_round2.py"
+    ],
+    "untracked": [
+      {
+        "path": "agents/learning_round2_20260921/",
+        "sha256": null
+      },
+      {
+        "path": "data/current_field_20260910/competition_20260921_submission_check.json",
+        "sha256": "e7f0bcc5dbe4837bb39e348e744cd78f4a19982480eb11729b91d0338885a44e"
+      },
+      {
+        "path": "data/current_field_20260910/our_team_20260921_submission_check.json",
+        "sha256": "40444b6daacf7af70fb0228f1b5b2c6d20fe46efcb7e6529b60cb4be96dbe0a8"
+      },
+      {
+        "path": "experiments/learning_round2_20260921/",
+        "sha256": null
+      },
+      {
+        "path": "scripts/learning_round2.py",
+        "sha256": "fd54962838ade84e2d11813a82712497d3927dc26fe85211eec7c9c429c4e995"
+      },
+      {
+        "path": "tests/test_learning_round2.py",
+        "sha256": "8ed6fb7f7756e88b774fc1d7d72786f5f81349d093ace4a7e0c97ae750d36423"
+      }
+    ]
+  },
+  "c0": {
+    "path": "artifacts\\submissions\\v126_control_candidate.tar.gz",
+    "sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452"
+  },
+  "engine": {
+    "package": "kaggle-environments==1.32.7",
+    "source_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "a2": {
+    "round1": {
+      "families": [
+        "qeinstein_moev2",
+        "mooman_e052a",
+        "smart_farm",
+        "souvik_v4"
+      ],
+      "seeds": [
+        2026092401,
+        2026092402,
+        2026092403,
+        2026092404,
+        2026092405,
+        2026092406,
+        2026092407,
+        2026092408
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "max_prefixes_per_game": 2
+    },
+    "round2": {
+      "families": [
+        "qeinstein_moev2",
+        "mooman_e052a",
+        "smart_farm",
+        "souvik_v4"
+      ],
+      "seeds": [
+        2026092409,
+        2026092410,
+        2026092411,
+        2026092412
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "state_source": "round1 A2 selector after a bounded intervention"
+    },
+    "candidate_limit": 3,
+    "runtime_curriculum": {
+      "t_min": 240,
+      "development_max_jobs": 1,
+      "expanded_max_jobs": 4
+    },
+    "primary_label": "delta_margin/10000 + 5*delta_win_score versus KEEP from the same prefix",
+    "risk": "cash<1000, win-to-loss, or delta_margin<-5000"
+  },
+  "b2": {
+    "primary_label": "market-impact SELL quantity",
+    "auxiliary_labels": [
+      "requested SELL",
+      "executed SELL",
+      "revenue"
+    ],
+    "horizons": [
+      1,
+      4,
+      24
+    ],
+    "terminal_policy": "mask any target whose complete horizon extends past the 719th decision",
+    "candidate_contract": "same contiguous-SELL reorder set as frozen B1"
+  },
+  "banks": {
+    "regression": {
+      "families": [
+        "qeinstein_moev2"
+      ],
+      "seeds": [
+        2026092301
+      ],
+      "seats": [
+        0,
+        1
+      ]
+    },
+    "known_failure": [
+      {
+        "family": "qeinstein_moev2",
+        "seed": 2026092307,
+        "seat": 1,
+        "c0_margin": -170
+      },
+      {
+        "family": "smart_farm",
+        "seed": 2026092307,
+        "seat": 0,
+        "c0_margin": -461
+      },
+      {
+        "family": "smart_farm",
+        "seed": 2026092307,
+        "seat": 1,
+        "c0_margin": -461
+      },
+      {
+        "family": "mooman_e052a",
+        "seed": 2026092307,
+        "seat": 1,
+        "c0_margin": -7452
+      }
+    ],
+    "external": {
+      "families": [
+        "qeinstein_moev2",
+        "mooman_e052a",
+        "smart_farm",
+        "souvik_v4"
+      ],
+      "seeds": [
+        2026092421,
+        2026092422,
+        2026092423,
+        2026092424,
+        2026092425,
+        2026092426,
+        2026092427,
+        2026092428,
+        2026092429,
+        2026092430,
+        2026092431,
+        2026092432
+      ],
+      "seats": [
+        0,
+        1
+      ]
+    }
+  },
+  "promotion_rule": "paired win-score, loss-to-win/win-to-loss, family regressions, runtime and economic failures; margin alone is insufficient",
+  "forbidden": [
+    "Kaggle submission",
+    "paid compute",
+    "future/private runtime inputs",
+    "overwriting learning_next_20260921"
+  ]
+}

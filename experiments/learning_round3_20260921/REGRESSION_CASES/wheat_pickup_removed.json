@@ -1,0 +1,11 @@
+{
+  "case": "required WHEAT pickup cannot be replaced",
+  "observation": {
+    "player": 0, "step": 242, "day": 10, "hour": 2,
+    "farms": [{"farmer": [4, 4], "hands": [[4, 4]], "money": 5000}, {"farmer": [4, 4], "hands": [], "money": 5000}],
+    "private": {"shed": {"WHEAT": 9}, "inventories": [{}, {"WHEAT": 0}]},
+    "configuration": {"shedCapacity": 100, "maxMarketOrdersPerTurn": 10}
+  },
+  "control": {"farmer": ["PASS"], "hands": [["PICKUP", "WHEAT", 5]], "market": []},
+  "candidate": {"actor": 1, "continuation": [["COLLECT_FERTILIZER"], ["DROP"]], "remaining_wheat_uses": 5}
+}

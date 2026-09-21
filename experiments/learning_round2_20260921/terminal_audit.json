@@ -1,0 +1,11 @@
+{
+  "unique_episodes": 850,
+  "stored_states": 612000,
+  "decisions": 611150,
+  "old_b_rows": 612000,
+  "old_b_sampling": "both seats, even observation indices 0..718 (360 rows per seat/episode)",
+  "old_terminal_behavior": "end=min(last_state, step+horizon), so horizon 4/24 tail rows use a shorter effective horizon without a mask",
+  "round2_policy": "store a boolean mask for every item/horizon and exclude censored cells from loss/metrics",
+  "runtime_previous_action": "MarketHistory receives the focal agent's actual prior emitted market orders; teacher actions are used only in offline replay reconstruction",
+  "same_turn_information": "only already-emitted self actions are retained; unselected teacher actions are not runtime features"
+}

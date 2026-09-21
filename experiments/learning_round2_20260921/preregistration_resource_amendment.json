@@ -1,0 +1,18 @@
+{
+  "created_before_completed_round2_rollouts": true,
+  "reason": "Measured fixed-engine/C0 cost after candidate-scan optimization was 24.71 seconds for one isolated full game, while eight concurrent workers were CPU-bound for more than two minutes per game. The proposed upper-size panel would require several hours.",
+  "observed_outcomes_before_amendment": 0,
+  "preserved": [
+    "four executable opponent families",
+    "both seats",
+    "terminal outcome labels",
+    "two collect-fit rounds",
+    "separate regression, known-failure and external banks"
+  ],
+  "amended_scale": {
+    "a2_round1": "4 families x 2 new seeds x both seats, at most one prefix and three candidates",
+    "a2_round2": "4 families x 1 new seed x both seats after one forced round-1 learned-selector intervention",
+    "external": "4 families x 4 new seeds x both seats"
+  },
+  "interpretation": "This establishes the learning loop and a bounded comparison, not a strong-strength claim; external evidence remains insufficient for a 3000-rating claim."
+}

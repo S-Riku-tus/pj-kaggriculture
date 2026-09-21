@@ -1,0 +1,19 @@
+{
+  "teacher": 56216119,
+  "episode_id": 111063979,
+  "seat": 0,
+  "interval": [
+    240,
+    312
+  ],
+  "rows": 72,
+  "unique_full_joint_actions": 72,
+  "representation": "canonical JSON of farmer, ordered hands, ordered market, all item/quantity fields and stopping by list length",
+  "optimizer_steps": 23,
+  "teacher_forced_exact_action_accuracy": 1.0,
+  "parameter_change_l2": 13.591754913813473,
+  "model_sha256": "64f2680c43dd7c3afb2229c290329cb2ef0b3b11a629b1830365f8e4e5f201ac",
+  "runtime_integrated": false,
+  "closed_loop_rollouts": 0,
+  "limitation": "a one-sequence capacity/representation probe; it is not an unknown-state policy or an upper-tier oracle"
+}
