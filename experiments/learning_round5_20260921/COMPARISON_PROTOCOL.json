@@ -1,0 +1,26 @@
+{
+  "created_before_results": true,
+  "purpose": "small local comparison of selector NONE, explicit RULE, and LEARNED on one shared BC base and one shared Round5 executor",
+  "engine": "kaggle-environments==1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "arms": ["round5_none", "round5_rule", "round5_learned"],
+  "conditions": [
+    {"family": "qeinstein_moev2", "seed": 2026100501, "seats": [0, 1], "scope": "round5_fixed_new_local"},
+    {"family": "smart_farm", "seed": 2026100502, "seats": [0, 1], "scope": "round5_fixed_new_local"}
+  ],
+  "cluster_unit": "family×seed; two seats are paired views, not independent samples",
+  "primary_reference": "round5_none",
+  "record": [
+    "self_money",
+    "opponent_money",
+    "margin",
+    "win_draw_loss",
+    "town_unlock_sequence",
+    "first_town_difference_vs_none",
+    "first_opponent_action_difference_vs_none",
+    "semantic executor counters",
+    "failure trace windows"
+  ],
+  "interpretation_limit": "two clusters are a development diagnostic, not a rating estimate or narrow confidence interval",
+  "online_submission": false
+}

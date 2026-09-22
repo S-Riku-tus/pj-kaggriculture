@@ -1,0 +1,1201 @@
+[
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "WEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "HARVEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "HARVEST_ATTRIBUTED:WHEAT:4",
+    "plan_id": "HARVEST:crop:WHEAT:a4:s106"
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "resource_conflict_replan",
+    "actor": 6,
+    "rejected": [
+      "WATER"
+    ],
+    "reason": "WATER_PRECONDITION_FAILED",
+    "emitted": [
+      "HARVEST"
+    ],
+    "replacement_reason": "HARVEST_RESERVED:WHEAT:3"
+  },
+  {
+    "step": 107,
+    "seat": 0,
+    "event": "plan_started",
+    "plan": {
+      "plan_id": "HARVEST:crop:WHEAT:a6:s107",
+      "strategy_mode": "round5-learned",
+      "job_type": "HARVEST",
+      "origin": "executor_correction",
+      "seat": 0,
+      "actor_index": 6,
+      "day_epoch": 4,
+      "created_step": 107,
+      "deadline_step": 107,
+      "target": [
+        0,
+        2
+      ],
+      "target_identity": {
+        "type": "crop",
+        "coordinate": [
+          0,
+          2
+        ],
+        "resource": "WHEAT",
+        "generation_or_placement_day": 0
+      },
+      "required_resources": {},
+      "resource_reservations": {
+        "target:0,2:WHEAT": 3
+      },
+      "remaining_obligations": {},
+      "primitive_postconditions": [
+        "actor_inventory_increased:WHEAT",
+        "target_yield_decreased"
+      ],
+      "completion_postconditions": [
+        "harvest_attributed_to_actor",
+        "single_owner_for_consumed_yield"
+      ],
+      "abort_and_replan_conditions": [
+        "target_changed",
+        "yield_consumed",
+        "actor_identity_changed"
+      ],
+      "policy_state_digest": "",
+      "ordered_primitives": [
+        [
+          "HARVEST"
+        ]
+      ],
+      "actor_identity": {
+        "seat": 0,
+        "actor_index": 6,
+        "day_epoch": 4
+      }
+    }
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "PLANT",
+      "STRAWBERRY"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "PLANT_ESTABLISHED:STRAWBERRY",
+    "plan_id": null
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "WATER"
+    ],
+    "status": "UNKNOWN",
+    "reason": "WATER_TARGET_CHANGED_LATER_IN_JOINT",
+    "plan_id": null
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "HARVEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "HARVEST_ATTRIBUTED:WHEAT:4",
+    "plan_id": "HARVEST:crop:WHEAT:a6:s107"
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "resource_conflict_replan",
+    "actor": 2,
+    "rejected": [
+      "WATER"
+    ],
+    "reason": "WATER_PRECONDITION_FAILED",
+    "emitted": [
+      "NORTH"
+    ],
+    "replacement_reason": "MOVE"
+  },
+  {
+    "step": 108,
+    "seat": 0,
+    "event": "resource_conflict_replan",
+    "actor": 4,
+    "rejected": [
+      "WATER"
+    ],
+    "reason": "WATER_PRECONDITION_FAILED",
+    "emitted": [
+      "EAST"
+    ],
+    "replacement_reason": "MOVE"
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "EAST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "PLANT",
+      "STRAWBERRY"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "PLANT_ESTABLISHED:STRAWBERRY",
+    "plan_id": null
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "resource_conflict_replan",
+    "actor": 5,
+    "rejected": [
+      "WATER"
+    ],
+    "reason": "WATER_PRECONDITION_FAILED",
+    "emitted": [
+      "NORTH"
+    ],
+    "replacement_reason": "MOVE"
+  },
+  {
+    "step": 109,
+    "seat": 0,
+    "event": "resource_conflict_replan",
+    "actor": 6,
+    "rejected": [
+      "WATER"
+    ],
+    "reason": "WATER_PRECONDITION_FAILED",
+    "emitted": [
+      "EAST"
+    ],
+    "replacement_reason": "MOVE"
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "PLANT",
+      "STRAWBERRY"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "PLANT_ESTABLISHED:STRAWBERRY",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "EAST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "WEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "WEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "resource_conflict_replan",
+    "actor": 2,
+    "rejected": [
+      "WATER"
+    ],
+    "reason": "WATER_PRECONDITION_FAILED",
+    "emitted": [
+      "HARVEST"
+    ],
+    "replacement_reason": "HARVEST_RESERVED:WHEAT:3"
+  },
+  {
+    "step": 113,
+    "seat": 0,
+    "event": "plan_started",
+    "plan": {
+      "plan_id": "HARVEST:crop:WHEAT:a2:s113",
+      "strategy_mode": "round5-learned",
+      "job_type": "HARVEST",
+      "origin": "executor_correction",
+      "seat": 0,
+      "actor_index": 2,
+      "day_epoch": 4,
+      "created_step": 113,
+      "deadline_step": 113,
+      "target": [
+        2,
+        1
+      ],
+      "target_identity": {
+        "type": "crop",
+        "coordinate": [
+          2,
+          1
+        ],
+        "resource": "WHEAT",
+        "generation_or_placement_day": 0
+      },
+      "required_resources": {},
+      "resource_reservations": {
+        "target:2,1:WHEAT": 3
+      },
+      "remaining_obligations": {},
+      "primitive_postconditions": [
+        "actor_inventory_increased:WHEAT",
+        "target_yield_decreased"
+      ],
+      "completion_postconditions": [
+        "harvest_attributed_to_actor",
+        "single_owner_for_consumed_yield"
+      ],
+      "abort_and_replan_conditions": [
+        "target_changed",
+        "yield_consumed",
+        "actor_identity_changed"
+      ],
+      "policy_state_digest": "",
+      "ordered_primitives": [
+        [
+          "HARVEST"
+        ]
+      ],
+      "actor_identity": {
+        "seat": 0,
+        "actor_index": 2,
+        "day_epoch": 4
+      }
+    }
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "WATER"
+    ],
+    "status": "UNKNOWN",
+    "reason": "WATER_TARGET_CHANGED_LATER_IN_JOINT",
+    "plan_id": null
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "HARVEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "HARVEST_ATTRIBUTED:WHEAT:4",
+    "plan_id": "HARVEST:crop:WHEAT:a2:s113"
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 114,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "WEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 115,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 115,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 115,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "EAST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 115,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 115,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 119,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 119,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "WATER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "WATER_TARGET_TRANSITION",
+    "plan_id": null
+  },
+  {
+    "step": 119,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "FEED"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "FEED_ATTRIBUTED_BY_ACTOR_WHEAT_AND_TARGET",
+    "plan_id": "ANIMAL_MAINTAIN:a4:s118:4,2"
+  },
+  {
+    "step": 119,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 119,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 120,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "MOVE_DAY_BOUNDARY_ACTOR_RESET",
+    "plan_id": null
+  },
+  {
+    "step": 120,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "CARE"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 120,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 120,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 121,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "COLLECT_FERTILIZER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "FERTILIZER_ATTRIBUTED",
+    "plan_id": null
+  },
+  {
+    "step": 121,
+    "seat": 0,
+    "event": "cash_realization_result",
+    "status": "ESTABLISHED",
+    "reason": "SOLD_INVENTORY_CONSUMED_CASH_MAY_BE_RESPENT",
+    "item": "FERTILIZER",
+    "gross_cash_observation": 73,
+    "plan_id": "CASH_REALIZATION:FERTILIZER:s120:slot0"
+  },
+  {
+    "step": 143,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 143,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 143,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "DROP"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_INVENTORY_DECREASED",
+    "plan_id": null
+  },
+  {
+    "step": 143,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "EAST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 143,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 144,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "NORTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "MOVE_DAY_BOUNDARY_ACTOR_RESET",
+    "plan_id": null
+  },
+  {
+    "step": 144,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "NORTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 144,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "EAST"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 144,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "NORTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 144,
+    "seat": 0,
+    "event": "cash_realization_result",
+    "status": "UNKNOWN",
+    "reason": "MARKET_OR_DAY_BOUNDARY_NET_DELTA_AMBIGUOUS",
+    "item": "WHEAT",
+    "gross_cash_observation": 96,
+    "plan_id": "CASH_REALIZATION:WHEAT:s143:slot0"
+  },
+  {
+    "step": 145,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "COLLECT_FERTILIZER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "FERTILIZER_ATTRIBUTED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "WEST"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "NORTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 167,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 8,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "WEST"
+    ],
+    "status": "UNKNOWN",
+    "reason": "MOVE_DAY_BOUNDARY_ACTOR_RESET",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 1,
+    "action": [
+      "NORTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 2,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 3,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 4,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 5,
+    "action": [
+      "WEST"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 6,
+    "action": [
+      "NORTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 168,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 8,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "ACTOR_IDENTITY_NOT_OBSERVABLE",
+    "plan_id": null
+  },
+  {
+    "step": 169,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      5
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_INVENTORY_DELTA:WHEAT:5",
+    "plan_id": null
+  },
+  {
+    "step": 169,
+    "seat": 0,
+    "event": "cash_realization_result",
+    "status": "ESTABLISHED",
+    "reason": "SOLD_INVENTORY_CONSUMED_CASH_MAY_BE_RESPENT",
+    "item": "FERTILIZER",
+    "gross_cash_observation": -30,
+    "plan_id": "CASH_REALIZATION:FERTILIZER:s168:slot0"
+  },
+  {
+    "step": 169,
+    "seat": 0,
+    "event": "plan_started",
+    "plan": {
+      "plan_id": "ANIMAL_MAINTAIN:a0:s169:4,4",
+      "strategy_mode": "round5-learned",
+      "job_type": "ANIMAL_MAINTENANCE",
+      "origin": "base_observed_action",
+      "seat": 0,
+      "actor_index": 0,
+      "day_epoch": 7,
+      "created_step": 169,
+      "deadline_step": 191,
+      "target": [
+        4,
+        4
+      ],
+      "target_identity": {
+        "type": "animal",
+        "coordinate": [
+          4,
+          4
+        ],
+        "resource": "COW",
+        "product": "MILK",
+        "generation_or_placement_day": 0
+      },
+      "required_resources": {
+        "WHEAT": 1
+      },
+      "resource_reservations": {
+        "WHEAT": 1
+      },
+      "remaining_obligations": {
+        "FEED": 1
+      },
+      "primitive_postconditions": [
+        "actor_wheat_consumed",
+        "target_fed_transition"
+      ],
+      "completion_postconditions": [
+        "feed_attributed_to_actor",
+        "remaining_wheat_reserved"
+      ],
+      "abort_and_replan_conditions": [
+        "target_already_serviced",
+        "target_gone",
+        "day_epoch_changed",
+        "retirement_selected"
+      ],
+      "policy_state_digest": "90068e1264a4eea9a426350a4644795cb44afdd1c171a4e580bb668c12671aa2",
+      "ordered_primitives": [
+        [
+          "FEED"
+        ]
+      ],
+      "actor_identity": {
+        "seat": 0,
+        "actor_index": 0,
+        "day_epoch": 7
+      }
+    }
+  }
+]

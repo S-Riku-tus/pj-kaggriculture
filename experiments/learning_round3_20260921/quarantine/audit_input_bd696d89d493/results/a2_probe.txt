@@ -1,0 +1,143 @@
+train rows 26 prefixes 12 constant 245 dim 530
+train job types Counter({'KEEP_C0': 12, 'COLLECT_DROP': 10, 'CARE_COLLECT': 2, 'COLLECT_CARE': 2}) train steps Counter({242: 20, 246: 6})
+         family       seed  seat  selected_step  first_difference  predicted_value  predicted_risk   max_abs_z  n_z_gt_10  n_changed_constant_features  terminal_margin_delta             job  actor
+   mooman_e052a 2026092421     0            279             279.0         1.954098    9.357624e-14  999.999939         72                           55                -2843.0 FERTILIZE_WATER     10
+   mooman_e052a 2026092421     1            281             281.0        10.403629    9.357624e-14  999.999939         73                           61                -3496.0 FERTILIZE_WATER      8
+   mooman_e052a 2026092422     0            254             254.0        44.360237    9.357624e-14 1080.000000         37                           30                    0.0    COLLECT_CARE     10
+   mooman_e052a 2026092422     1            254             254.0        43.412712    9.357624e-14 1080.000000         36                           23                    0.0    COLLECT_CARE     10
+   mooman_e052a 2026092423     0            254             254.0         8.562198    9.357624e-14 1080.000000         34                           22                    0.0    COLLECT_CARE     10
+   mooman_e052a 2026092423     1            254             254.0         8.192339    9.357624e-14 1080.000000         34                           22                    0.0    COLLECT_CARE     10
+   mooman_e052a 2026092424     0            242             242.0        43.664059    9.357624e-14  920.000000          2                            1               -12235.0    COLLECT_DROP      8
+   mooman_e052a 2026092424     1            242             242.0        43.496426    9.357624e-14  920.000000          2                            1               -12235.0    COLLECT_DROP      8
+qeinstein_moev2 2026092421     0            284             284.0         0.392441    9.357624e-14  999.999939         69                           48                 -713.0 FERTILIZE_WATER      2
+qeinstein_moev2 2026092421     1            287             287.0        23.359907    9.357624e-14  999.999939         69                           46                   -1.0 FERTILIZE_WATER      5
+qeinstein_moev2 2026092422     0            279             279.0        20.156052    9.357624e-14  999.999939         69                           54                -2134.0 FERTILIZE_WATER     10
+qeinstein_moev2 2026092422     1            279             279.0         6.599294    9.357624e-14  999.999939         71                           52                -2444.0 FERTILIZE_WATER     10
+qeinstein_moev2 2026092423     0            254             254.0        13.602304    9.357624e-14 1019.999939         33                           28                    0.0    COLLECT_CARE     10
+qeinstein_moev2 2026092423     1            254             254.0        11.266748    9.357624e-14 1019.999939         33                           28                    0.0    COLLECT_CARE     10
+qeinstein_moev2 2026092424     0            286             286.0         2.607831    9.357624e-14  999.999939         71                           49                  -63.0 FERTILIZE_WATER      2
+qeinstein_moev2 2026092424     1            287             287.0        20.816729    9.357624e-14  999.999939         67                           44                   15.0 FERTILIZE_WATER      5
+     smart_farm 2026092421     0            279             279.0         1.914316    9.357624e-14  999.999939         72                           55                -3491.0 FERTILIZE_WATER     10
+     smart_farm 2026092421     1            281             281.0        10.384475    9.357624e-14  999.999939         73                           61                -4080.0 FERTILIZE_WATER      8
+     smart_farm 2026092422     0            254             254.0        11.497583    9.357624e-14 1080.000000         35                           28                    0.0    COLLECT_CARE     10
+     smart_farm 2026092422     1            254             254.0         8.968210    9.357624e-14 1080.000000         35                           28                    0.0    COLLECT_CARE     10
+     smart_farm 2026092423     0            254             254.0         9.575433    9.357624e-14 1080.000000         34                           22                    0.0    COLLECT_CARE     10
+     smart_farm 2026092423     1            254             254.0         7.060723    9.357624e-14 1080.000000         34                           22                    0.0    COLLECT_CARE     10
+     smart_farm 2026092424     0            242             242.0        42.434929    9.357624e-14  920.000000          2                            1               -10077.0    COLLECT_DROP      8
+     smart_farm 2026092424     1            242             242.0        42.509773    9.357624e-14  920.000000          2                            1               -10077.0    COLLECT_DROP      8
+      souvik_v4 2026092421     0            279             279.0         1.954120    9.357624e-14  999.999939         72                           55                -2843.0 FERTILIZE_WATER     10
+      souvik_v4 2026092421     1            281             281.0        10.403607    9.357624e-14  999.999939         73                           61                -3496.0 FERTILIZE_WATER      8
+      souvik_v4 2026092422     0            254             254.0        10.594089    9.357624e-14 1080.000000         35                           28                    0.0    COLLECT_CARE     10
+      souvik_v4 2026092422     1            254             254.0         7.861597    9.357624e-14 1080.000000         34                           21                    0.0    COLLECT_CARE     10
+      souvik_v4 2026092423     0            254             254.0         8.562224    9.357624e-14 1080.000000         34                           22                    0.0    COLLECT_CARE     10
+      souvik_v4 2026092423     1            254             254.0         8.192317    9.357624e-14 1080.000000         34                           22                    0.0    COLLECT_CARE     10
+      souvik_v4 2026092424     0            242             242.0        42.363388    9.357624e-14  920.000000          2                            1               -14442.0    COLLECT_DROP      8
+      souvik_v4 2026092424     1            242             242.0        42.197109    9.357624e-14  920.000000          2                            1               -14442.0    COLLECT_DROP      8
+jobs {'COLLECT_CARE': 14, 'FERTILIZE_WATER': 12, 'COLLECT_DROP': 6}
+TOP EXAMPLE {
+  "family": "mooman_e052a",
+  "seed": 2026092421,
+  "seat": 0,
+  "selected_step": 279,
+  "first_difference": 279.0,
+  "candidate": {
+    "actor_index": 10,
+    "target": [
+      2,
+      2
+    ],
+    "deadline_step": 287,
+    "control_action": [
+      "WATER"
+    ],
+    "rejoin": {
+      "position_unchanged": true,
+      "base_called_once_per_turn": true,
+      "tape_rewind": false
+    },
+    "job_type": "FERTILIZE_WATER",
+    "candidate_id": "FERTILIZE_WATER:a10",
+    "sequence": [
+      [
+        "FERTILIZE"
+      ],
+      [
+        "WATER"
+      ]
+    ],
+    "reservations": {
+      "carried:FERTILIZER": 1
+    },
+    "success_effect": "fertilized and watered",
+    "abort_conditions": [
+      "actor moved",
+      "deadline passed",
+      "next primitive no longer legal"
+    ]
+  },
+  "predicted_value": 1.9540984630584717,
+  "predicted_risk": 9.357623589846195e-14,
+  "max_abs_z": 999.9999389648438,
+  "n_z_gt_10": 72,
+  "n_changed_constant_features": 55,
+  "top_features": [
+    {
+      "name": "candidate_actor:actor:tile_crop:WHEAT",
+      "x": 1.0,
+      "mean": 0.0,
+      "scale": 0.0010000000474974513,
+      "z": 999.9999389648438
+    },
+    {
+      "name": "farm0:production_phase:MELON",
+      "x": 0.0,
+      "mean": 1.0,
+      "scale": 0.0010000000474974513,
+      "z": -999.9999389648438
+    },
+    {
+      "name": "candidate_actor:actor:tile_kind:PLANT",
+      "x": 1.0,
+      "mean": 0.0,
+      "scale": 0.0010000000474974513,
+      "z": 999.9999389648438
+    },
+    {
+      "name": "farm1:production_phase:MELON",
+      "x": 0.0,
+      "mean": 1.0,
+      "scale": 0.0010000000474974513,
+      "z": -999.9999389648438
+    },
+    {
+      "name": "job:FERTILIZE_WATER",
+      "x": 1.0,
+      "mean": 0.0,
+      "scale": 0.0010000000474974513,
+      "z": 999.9999389648438
+    },
+    {
+      "name": "control_op:WATER",
+      "x": 1.0,
+      "mean": 0.0,
+      "scale": 0.0010000000474974513,
+      "z": 999.9999389648438
+    },
+    {
+      "name": "candidate_actor:private:carried:FERTILIZER",
+      "x": 0.42749154567718506,
+      "mean": 0.0,
+      "scale": 0.0010000000474974513,
+      "z": 427.49151611328125
+    },
+    {
+      "name": "private:carried:FERTILIZER",
+      "x": 0.42749154567718506,
+      "mean": 0.0,
+      "scale": 0.0010000000474974513,
+      "z": 427.49151611328125
+    }
+  ],
+  "terminal_margin_delta": -2843.0
+}
+parameter_count 12794

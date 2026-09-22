@@ -1,0 +1,239 @@
+{
+  "harvest": {
+    "candidate_emitted": true,
+    "candidate_id": "HARVEST_DELIVER_DAY_BOUNDARY:a4:s205",
+    "day": 8,
+    "planted_day": 7,
+    "age_days": 1,
+    "yield_units": 1,
+    "contract_continuation": [
+      [
+        "PICKUP",
+        "WHEAT",
+        1
+      ],
+      [
+        "FEED"
+      ]
+    ],
+    "contract_reserved_materials": {
+      "shed:WHEAT": 1
+    },
+    "runtime_first_action": [
+      "HARVEST"
+    ],
+    "inventory_before": {},
+    "inventory_after": {},
+    "tile_unchanged": true,
+    "new_product_created": false
+  },
+  "feed_once": {
+    "contract": {
+      "candidate_id": "FEED_ONCE_STATE_REPLAN:a5:s434",
+      "preconditions": {
+        "same_day_completion": true
+      },
+      "actor_identity": {
+        "seat": 0,
+        "role": "hand",
+        "actor_index": 5,
+        "day_epoch": 18,
+        "observed_position": [
+          5,
+          4
+        ]
+      },
+      "reserved_materials": {
+        "shed:WHEAT": 1
+      },
+      "reserved_cash": 0,
+      "reserved_shed_capacity": 0,
+      "deadline_step": 455,
+      "continuation": [
+        [
+          "PICKUP",
+          "WHEAT",
+          1
+        ],
+        [
+          "FEED"
+        ]
+      ],
+      "safe_rejoin_boundary": {
+        "kind": "FEED_POSTCONDITION_OBSERVED"
+      },
+      "expected_rejoin": {
+        "position": [
+          5,
+          4
+        ],
+        "minimum_inventory": {},
+        "remaining_obligations": 0
+      },
+      "primitive_postconditions": [
+        "material transition observed"
+      ],
+      "economic_postconditions": [
+        "paired terminal margin measured"
+      ],
+      "abort_policy": "SAFE_REPLAN",
+      "replanning_policy": "STATE_BASED_ACTOR_REPLAN",
+      "phase": "pickup",
+      "origin": [
+        5,
+        4
+      ],
+      "target": [
+        5,
+        4
+      ],
+      "remaining": 1
+    },
+    "same_turn_duplicate_feed_action_actors": [
+      4,
+      5
+    ],
+    "joint_validator_reasons": [],
+    "rejoin_status_at_436": [
+      "PROVEN_REJOIN",
+      []
+    ],
+    "actor5_wheat_before_feed": 1,
+    "actor5_wheat_after_feed": 1,
+    "actor4_wheat_before_feed": 5,
+    "actor4_wheat_after_feed": 4,
+    "actor5_wheat_at_441": 0,
+    "actor5_action_at_441": [
+      "FEED"
+    ],
+    "target_fed_after_441": false
+  },
+  "source_call_graph": {
+    "_module_dir": [
+      "Path",
+      "globals",
+      "next",
+      "reversed"
+    ],
+    "_load_c0": [
+      "ImportError",
+      "_module_dir",
+      "id"
+    ],
+    "_load_config": [
+      "_module_dir"
+    ],
+    "reset_runtime_state": [
+      "hasattr"
+    ],
+    "_call_base": [
+      "any",
+      "len",
+      "list"
+    ],
+    "_shape": [
+      "len",
+      "list",
+      "max",
+      "range"
+    ],
+    "_positions": [
+      "list"
+    ],
+    "_move": [
+      "int"
+    ],
+    "_distance": [
+      "abs",
+      "int"
+    ],
+    "_route": [
+      "_move",
+      "int",
+      "list"
+    ],
+    "_tile": [
+      "int"
+    ],
+    "_contract": [
+      "actor_identity",
+      "int"
+    ],
+    "_unfed": [
+      "enumerate",
+      "isinstance"
+    ],
+    "_candidate": [
+      "_contract",
+      "_distance",
+      "_positions",
+      "_route",
+      "_tile",
+      "_unfed",
+      "int",
+      "isinstance",
+      "len",
+      "max",
+      "min",
+      "range"
+    ],
+    "_pending_action": [
+      "_distance",
+      "_move",
+      "_positions",
+      "_tile",
+      "_unfed",
+      "bool",
+      "int",
+      "isinstance",
+      "len",
+      "list",
+      "min",
+      "sum"
+    ],
+    "_record": [
+      "len"
+    ],
+    "_agent_impl": [
+      "_call_base",
+      "_candidate",
+      "_pending_action",
+      "_record",
+      "_shape",
+      "deepcopy",
+      "int",
+      "len",
+      "validate_joint_action"
+    ],
+    "policy_diagnostics": [
+      "len"
+    ],
+    "policy_trace": [
+      "deepcopy"
+    ],
+    "agent": [
+      "_agent_impl"
+    ]
+  },
+  "production_test_imports_probe_agent": false,
+  "scan": {
+    "count": 384,
+    "unique_candidate_id_count": 36,
+    "by_job": {
+      "FEED_REFILL_DAY_BOUNDARY": 356,
+      "HARVEST_DELIVER_DAY_BOUNDARY": 28
+    },
+    "harvest_candidate_ids": {
+      "HARVEST_DELIVER_DAY_BOUNDARY:a2:s543": 10,
+      "HARVEST_DELIVER_DAY_BOUNDARY:a2:s544": 10,
+      "HARVEST_DELIVER_DAY_BOUNDARY:a4:s205": 4,
+      "HARVEST_DELIVER_DAY_BOUNDARY:a4:s206": 4
+    }
+  },
+  "handoff_manifest": {
+    "checked": 41,
+    "all_ok": true,
+    "failures": []
+  },
+  "limitations": "AST-extracted functions and attached recorded observations were exercised. No new engine rollout or training was run."
+}

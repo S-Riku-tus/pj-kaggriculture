@@ -1,0 +1,52 @@
+{
+  "created_at_utc": "2026-09-21T12:00:29.486034+00:00",
+  "development_only": true,
+  "observed_round2_conditions_reused_as_holdout": false,
+  "grouping": "family x seed; both seats are one cluster",
+  "summary": {
+    "c0": {
+      "games": 4,
+      "mean_paired_margin_delta": 0.0,
+      "positive_games": 0,
+      "negative_games": 0,
+      "jobs_started": 0,
+      "jobs_completed": 0,
+      "jobs_aborted": 0,
+      "action_changes": 0
+    },
+    "feed_refill": {
+      "games": 4,
+      "mean_paired_margin_delta": -1089.0,
+      "positive_games": 0,
+      "negative_games": 4,
+      "jobs_started": 4,
+      "jobs_completed": 4,
+      "jobs_aborted": 0,
+      "action_changes": 46
+    },
+    "harvest_deliver": {
+      "games": 4,
+      "mean_paired_margin_delta": 0.0,
+      "positive_games": 0,
+      "negative_games": 0,
+      "jobs_started": 2,
+      "jobs_completed": 2,
+      "jobs_aborted": 0,
+      "action_changes": 16
+    },
+    "feed_once_replan": {
+      "games": 4,
+      "mean_paired_margin_delta": -87.0,
+      "positive_games": 0,
+      "negative_games": 4,
+      "jobs_started": 4,
+      "jobs_completed": 4,
+      "jobs_aborted": 0,
+      "action_changes": 14
+    }
+  },
+  "positive_candidate_arms": [],
+  "training_run": false,
+  "training_reason": "selector training requires positive completed paired candidates",
+  "promotable": false
+}

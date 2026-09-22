@@ -1,0 +1,99 @@
+{
+  "created_at_utc": "2026-09-21T12:08:52.833092+00:00",
+  "trained_model_present": false,
+  "model_loads": 0,
+  "inference_calls": 0,
+  "reason": "NO_POSITIVE_CANDIDATE_SUPPORT; no learned artifact was created or silently bypassed",
+  "closed_loop_latest_run": {
+    "created_at_utc": "2026-09-21T12:00:29.486034+00:00",
+    "games": 16,
+    "arms": {
+      "c0": {
+        "model_loads": 0,
+        "inference_calls": 0,
+        "timing_measured_games": 0,
+        "cold_import_max_seconds": null,
+        "warm_mean_seconds": null,
+        "rss_after_max_bytes": null,
+        "missing_measurements_are_not_imputed": true
+      },
+      "feed_refill": {
+        "model_loads": 0,
+        "inference_calls": 0,
+        "timing_measured_games": 0,
+        "cold_import_max_seconds": null,
+        "warm_mean_seconds": null,
+        "rss_after_max_bytes": null,
+        "missing_measurements_are_not_imputed": true
+      },
+      "harvest_deliver": {
+        "model_loads": 0,
+        "inference_calls": 0,
+        "timing_measured_games": 0,
+        "cold_import_max_seconds": null,
+        "warm_mean_seconds": null,
+        "rss_after_max_bytes": null,
+        "missing_measurements_are_not_imputed": true
+      },
+      "feed_once_replan": {
+        "model_loads": 0,
+        "inference_calls": 0,
+        "timing_measured_games": 4,
+        "cold_import_max_seconds": 2.2971438999520615,
+        "warm_mean_seconds": 0.006200788212184449,
+        "rss_after_max_bytes": 811765760,
+        "missing_measurements_are_not_imputed": true
+      }
+    }
+  },
+  "candidate_selection_and_fallback": {
+    "c0": {
+      "jobs_started": 0,
+      "jobs_completed": 0,
+      "jobs_aborted": 0,
+      "action_changes": 0,
+      "fallbacks": 0
+    },
+    "feed_once_replan": {
+      "jobs_started": 4,
+      "jobs_completed": 4,
+      "jobs_aborted": 0,
+      "action_changes": 14,
+      "fallbacks": 0
+    },
+    "feed_refill": {
+      "jobs_started": 4,
+      "jobs_completed": 4,
+      "jobs_aborted": 0,
+      "action_changes": 46,
+      "fallbacks": 0
+    },
+    "harvest_deliver": {
+      "jobs_started": 2,
+      "jobs_completed": 2,
+      "jobs_aborted": 0,
+      "action_changes": 16,
+      "fallbacks": 0
+    }
+  },
+  "official_loader_measurements": {
+    "c0_identity": {
+      "archive_sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+      "cold_import_seconds": 2.2973947999998927,
+      "warm_calls": 719,
+      "warm_mean_seconds": 0.0038773502085243917,
+      "warm_max_seconds": 0.011220599990338087,
+      "one_game_states": 720,
+      "one_game_peak_rss_bytes": null
+    },
+    "feed_once_replan_rejected_probe": {
+      "archive_sha256": "afe2698868a0da513c154cf7a96f83e77551cfacfbbcbb4792c7c201e6235efd",
+      "cold_import_seconds": 1.965723400004208,
+      "warm_calls": 3,
+      "warm_mean_seconds": 0.0031831000233069062,
+      "warm_max_seconds": 0.0037136999890208244,
+      "closed_loop_peak_rss_bytes": 811765760
+    }
+  },
+  "missing_measurements_are_not_imputed": true
+}

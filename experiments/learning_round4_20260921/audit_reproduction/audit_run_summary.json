@@ -1,0 +1,15 @@
+{
+  "input_sha256": "51f5625762895a782f34989dd2db32f1d09343ff6ff49704695254e4f1d8e870",
+  "checks": {
+    "16_recorded_replays_verified": true,
+    "41_manifest_files_verified": true,
+    "immature_harvest_reproduced": true,
+    "duplicate_feed_missed_by_validator": true,
+    "incorrect_rejoin_proof_reproduced": true,
+    "positive_synthetic_data_still_reports_false": true,
+    "synthetic_errors_still_report_execution_true": true
+  },
+  "all_original_findings_reproduced": true,
+  "scope": "Recorded evidence and extracted functions only; no new engine rollouts, training, or submissions.",
+  "synthetic_tests_are_not_game_results": true
+}

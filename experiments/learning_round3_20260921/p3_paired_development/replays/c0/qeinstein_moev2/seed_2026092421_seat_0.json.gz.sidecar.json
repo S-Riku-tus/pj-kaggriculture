@@ -1,0 +1,557 @@
+{
+  "created_at_utc": "2026-09-21T11:50:18.523602+00:00",
+  "task_digest": "c8404f35a28802aa566371e9bd89424796f91fc8a48fd44d5229e33fc1b0d098",
+  "replay_sha256": "1756a5e0a317f731d7166fb53312e7ff092bff655b7c3154a5a0630b340243a3",
+  "seed": 2026092421,
+  "seat": 0,
+  "terminal_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "stored_states": 720,
+  "agent_archive_sha256": "eef268e4fd2c5d51b3841a3e4f3b6a3acd5b0cfb403f20a880b6b6ecbd947dfb",
+  "agent_source_tree_sha256": "cc31c5243d24149dde39a709b5347a4896c340433cd874aa2d38a6ad1b810d3a",
+  "opponent_tree_sha256": "5afd65f823b8f7dbda34fa86c8eb1376bb3a96a2ac2cf195aa4e95e4536d5f13",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "configuration": {
+    "episodeSteps": 720,
+    "seed": 2026092421
+  },
+  "diagnostics": {
+    "version": "v126_exec",
+    "step": 718,
+    "day": 29,
+    "flags": {
+      "execution_jobs": true,
+      "execution_transactions": false,
+      "animal_purchase_guard": false,
+      "general_job_recovery": false,
+      "service_policy": false,
+      "fertilizer_policy": false
+    },
+    "trigger_counts": {
+      "hire_spawn_mismatch": 37,
+      "hire_spawn_verified": 20
+    },
+    "active_jobs": {},
+    "transaction_source_latch": null,
+    "expected_new_hands": [],
+    "recent_events": [
+      {
+        "event": "hire_spawn_verified",
+        "count": 9
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_verified",
+        "count": 7
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_verified",
+        "count": 7
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_verified",
+        "count": 1
+      },
+      {
+        "event": "hire_spawn_verified",
+        "count": 10
+      },
+      {
+        "event": "hire_spawn_verified",
+        "count": 9
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "event": "hire_spawn_mismatch",
+        "expected": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ]
+      }
+    ]
+  },
+  "timing_measured": true
+}

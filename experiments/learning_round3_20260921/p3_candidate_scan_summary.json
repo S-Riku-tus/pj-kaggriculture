@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-09-21T11:42:06.047060+00:00",
+  "observed_development_conditions": 32,
+  "scanned_steps_per_condition": 408,
+  "fixed_step_filter": false,
+  "candidate_count": 384,
+  "by_job": {
+    "FEED_REFILL_DAY_BOUNDARY": 356,
+    "HARVEST_DELIVER_DAY_BOUNDARY": 28
+  },
+  "distinct_steps": 33,
+  "distinct_days": 10,
+  "distinct_families": 4,
+  "coverage_cells": 41,
+  "paired_continuations_run": 0,
+  "training_run": false,
+  "training_verdict": "PENDING_PAIRED_CONTINUATIONS",
+  "note": "scan establishes state/job/time coverage only; it is not economic evidence and does not enable runtime actions"
+}

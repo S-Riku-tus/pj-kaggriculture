@@ -1,0 +1,48 @@
+captured_at_local=2026-09-21T21:52:10+09:00
+head=688a9d28782af1b1a416b98f2267325dc0011398
+branch=main
+tracking=origin/main
+
+## main...origin/main
+ M agents/learning_round3_20260921/contracts.py
+ M agents/learning_round3_20260921/market.py
+ M experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json
+ M tests/test_learning_round3.py
+?? agents/learning_round3_20260921/a3_probe_agent.py
+?? experiments/learning_round3_20260921.zip
+?? experiments/learning_round3_20260921/EXECUTOR_CONTRACT_TESTS.json
+?? experiments/learning_round3_20260921/FINAL_STATUS.json
+?? experiments/learning_round3_20260921/HANDOFF_MANIFEST.json
+?? experiments/learning_round3_20260921/LOADER_VALIDATION.json
+?? experiments/learning_round3_20260921/MODEL_USAGE.json
+?? experiments/learning_round3_20260921/NORMALIZATION_AND_SUPPORT_AUDIT.json
+?? experiments/learning_round3_20260921/ORACLE_HEADROOM_AND_REGRET.csv
+?? experiments/learning_round3_20260921/P3_PROBE_LOADER_VALIDATION.json
+?? experiments/learning_round3_20260921/P3_SCOPE_RESULTS.json
+?? experiments/learning_round3_20260921/REPORT_JA.md
+?? experiments/learning_round3_20260921/REPRODUCE.md
+?? experiments/learning_round3_20260921/SOURCE_AND_MODEL_MANIFEST.json
+?? experiments/learning_round3_20260921/audit_input_validation.json
+?? experiments/learning_round3_20260921/c0_identity_package.json
+?? experiments/learning_round3_20260921/environment.json
+?? experiments/learning_round3_20260921/handoff_evidence.json
+?? experiments/learning_round3_20260921/handoff_evidence.zip
+?? experiments/learning_round3_20260921/p2_decomposition_summary.json
+?? experiments/learning_round3_20260921/p3_candidate_scan.jsonl
+?? experiments/learning_round3_20260921/p3_candidate_scan_summary.json
+?? experiments/learning_round3_20260921/p3_paired_development/
+?? experiments/learning_round3_20260921/p3_probe_archives.json
+?? experiments/learning_round3_20260921/paired_results.csv
+?? experiments/learning_round3_20260921/quarantine/
+?? experiments/learning_round3_20260921/runtime/
+?? scripts/learning_round3.py
+?? scripts/round3_loader_probe.py
+
+Tracked diff summary:
+ agents/learning_round3_20260921/contracts.py       | 14 ++++--
+ agents/learning_round3_20260921/market.py          | 33 ++++++++-----
+ experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json | 8 ++--
+ tests/test_learning_round3.py                      | 67 ++++++++++++++++++++++
+ 4 files changed, 104 insertions(+), 18 deletions(-)
+
+No staged changes were reported. These pre-existing tracked and untracked files are user-owned and must not be reset, deleted, or overwritten by Round4 work.

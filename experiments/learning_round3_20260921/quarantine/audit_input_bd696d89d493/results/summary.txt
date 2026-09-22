@@ -1,0 +1,141 @@
+SUMMARY
+               games  wins         cash     opp_cash      margin  margin_delta  actions
+arm                                                                                    
+a2                32  23.0  90349.53125  85883.03125  4466.50000   -3096.78125      850
+a2_keep           32  30.0  91213.21875  83649.93750  7563.28125       0.00000        0
+a2_nonlearned     32  20.0  89540.03125  88635.93750   904.09375   -6659.18750     3373
+b1                32  30.0  91212.96875  83648.78125  7564.18750       0.90625       46
+b2                32  28.0  91033.06250  83779.59375  7253.46875    -309.81250      122
+b2_frequency      32  28.0  91033.78125  83779.09375  7254.68750    -308.59375      114
+b_simple          32  28.0  91033.78125  83779.09375  7254.68750    -308.59375      114
+c0                32  30.0  91213.21875  83649.93750  7563.28125       0.00000        0
+BY FAMILY
+                               wins      delta  n
+arm           opponent_family                    
+a2            mooman_e052a      6.0  -3851.125  8
+              qeinstein_moev2   5.0   -667.500  8
+              smart_farm        6.0  -3465.625  8
+              souvik_v4         6.0  -4402.875  8
+a2_keep       mooman_e052a      8.0      0.000  8
+              qeinstein_moev2   6.0      0.000  8
+              smart_farm        8.0      0.000  8
+              souvik_v4         8.0      0.000  8
+a2_nonlearned mooman_e052a      6.0  -4876.125  8
+              qeinstein_moev2   2.0 -11604.000  8
+              smart_farm        6.0  -5081.500  8
+              souvik_v4         6.0  -5075.125  8
+b1            mooman_e052a      8.0     18.375  8
+              qeinstein_moev2   6.0      2.125  8
+              smart_farm        8.0      9.625  8
+              souvik_v4         8.0    -26.500  8
+b2            mooman_e052a      8.0   -253.250  8
+              qeinstein_moev2   6.0   -300.000  8
+              smart_farm        6.0   -307.250  8
+              souvik_v4         8.0   -378.750  8
+b2_frequency  mooman_e052a      8.0   -252.125  8
+              qeinstein_moev2   6.0   -301.250  8
+              smart_farm        6.0   -303.250  8
+              souvik_v4         8.0   -377.750  8
+b_simple      mooman_e052a      8.0   -252.125  8
+              qeinstein_moev2   6.0   -301.250  8
+              smart_farm        6.0   -303.250  8
+              souvik_v4         8.0   -377.750  8
+c0            mooman_e052a      8.0      0.000  8
+              qeinstein_moev2   6.0      0.000  8
+              smart_farm        8.0      0.000  8
+              souvik_v4         8.0      0.000  8
+B2/B1 GAME DELTAS
+arm opponent_family  requested_seed  seat  margin  paired_margin_delta_vs_c0  action_differences_vs_c0  first_action_difference
+ b1    mooman_e052a      2026092421     0  4941.0                        0.0                         1                    647.0
+ b1    mooman_e052a      2026092421     1  4941.0                        0.0                         1                    647.0
+ b1    mooman_e052a      2026092422     0  9764.0                       26.0                         5                    409.0
+ b1    mooman_e052a      2026092422     1  9914.0                       31.0                         5                    360.0
+ b1    mooman_e052a      2026092423     0 20009.0                       45.0                         2                    312.0
+ b1    mooman_e052a      2026092423     1 20009.0                       45.0                         2                    312.0
+ b1    mooman_e052a      2026092424     0   324.0                        0.0                         0                      NaN
+ b1    mooman_e052a      2026092424     1   324.0                        0.0                         0                      NaN
+ b1 qeinstein_moev2      2026092421     0 -3270.0                        0.0                         0                      NaN
+ b1 qeinstein_moev2      2026092421     1 -3270.0                        0.0                         0                      NaN
+ b1 qeinstein_moev2      2026092422     0  4599.0                       -4.0                         3                    409.0
+ b1 qeinstein_moev2      2026092422     1  1331.0                       29.0                         1                    600.0
+ b1 qeinstein_moev2      2026092423     0 19012.0                       -4.0                         3                    360.0
+ b1 qeinstein_moev2      2026092423     1 19012.0                       -4.0                         3                    360.0
+ b1 qeinstein_moev2      2026092424     0  5685.0                        0.0                         0                      NaN
+ b1 qeinstein_moev2      2026092424     1  5685.0                        0.0                         0                      NaN
+ b1      smart_farm      2026092421     0  5069.0                        0.0                         0                      NaN
+ b1      smart_farm      2026092421     1  5066.0                       -3.0                         1                    385.0
+ b1      smart_farm      2026092422     0  3020.0                       40.0                         3                    409.0
+ b1      smart_farm      2026092422     1  4231.0                       40.0                         2                    409.0
+ b1      smart_farm      2026092423     0 17590.0                        0.0                         1                    457.0
+ b1      smart_farm      2026092423     1 17590.0                        0.0                         1                    457.0
+ b1      smart_farm      2026092424     0    54.0                        0.0                         0                      NaN
+ b1      smart_farm      2026092424     1    54.0                        0.0                         0                      NaN
+ b1       souvik_v4      2026092421     0  4937.0                        0.0                         1                    647.0
+ b1       souvik_v4      2026092421     1  4937.0                        0.0                         1                    647.0
+ b1       souvik_v4      2026092422     0  6666.0                     -151.0                         3                    577.0
+ b1       souvik_v4      2026092422     1  6504.0                     -151.0                         3                    577.0
+ b1       souvik_v4      2026092423     0 20005.0                       45.0                         2                    312.0
+ b1       souvik_v4      2026092423     1 20005.0                       45.0                         2                    312.0
+ b1       souvik_v4      2026092424     0  3658.0                        0.0                         0                      NaN
+ b1       souvik_v4      2026092424     1  3658.0                        0.0                         0                      NaN
+ b2    mooman_e052a      2026092421     0  4633.0                     -308.0                         4                    264.0
+ b2    mooman_e052a      2026092421     1  4633.0                     -308.0                         3                    264.0
+ b2    mooman_e052a      2026092422     0  9452.0                     -286.0                         3                    264.0
+ b2    mooman_e052a      2026092422     1  9647.0                     -236.0                         6                    264.0
+ b2    mooman_e052a      2026092423     0 19697.0                     -267.0                         4                    264.0
+ b2    mooman_e052a      2026092423     1 19697.0                     -267.0                         5                    264.0
+ b2    mooman_e052a      2026092424     0   147.0                     -177.0                         3                    264.0
+ b2    mooman_e052a      2026092424     1   147.0                     -177.0                         3                    264.0
+ b2 qeinstein_moev2      2026092421     0 -3501.0                     -231.0                         4                    264.0
+ b2 qeinstein_moev2      2026092421     1 -3501.0                     -231.0                         4                    264.0
+ b2 qeinstein_moev2      2026092422     0  4205.0                     -398.0                         5                    264.0
+ b2 qeinstein_moev2      2026092422     1   958.0                     -344.0                         6                    264.0
+ b2 qeinstein_moev2      2026092423     0 18717.0                     -299.0                         2                    264.0
+ b2 qeinstein_moev2      2026092423     1 18717.0                     -299.0                         3                    264.0
+ b2 qeinstein_moev2      2026092424     0  5386.0                     -299.0                         3                    264.0
+ b2 qeinstein_moev2      2026092424     1  5386.0                     -299.0                         3                    264.0
+ b2      smart_farm      2026092421     0  4776.0                     -293.0                         3                    264.0
+ b2      smart_farm      2026092421     1  4776.0                     -293.0                         2                    264.0
+ b2      smart_farm      2026092422     0  2700.0                     -280.0                         3                    264.0
+ b2      smart_farm      2026092422     1  3911.0                     -280.0                         3                    264.0
+ b2      smart_farm      2026092423     0 17246.0                     -344.0                         5                    264.0
+ b2      smart_farm      2026092423     1 17246.0                     -344.0                         5                    264.0
+ b2      smart_farm      2026092424     0  -258.0                     -312.0                         3                    264.0
+ b2      smart_farm      2026092424     1  -258.0                     -312.0                         3                    264.0
+ b2       souvik_v4      2026092421     0  4629.0                     -308.0                         4                    264.0
+ b2       souvik_v4      2026092421     1  4629.0                     -308.0                         3                    264.0
+ b2       souvik_v4      2026092422     0  6559.0                     -258.0                         2                    264.0
+ b2       souvik_v4      2026092422     1  6397.0                     -258.0                         2                    264.0
+ b2       souvik_v4      2026092423     0 19693.0                     -267.0                         4                    264.0
+ b2       souvik_v4      2026092423     1 19693.0                     -267.0                         5                    264.0
+ b2       souvik_v4      2026092424     0  2976.0                     -682.0                         7                    264.0
+ b2       souvik_v4      2026092424     1  2976.0                     -682.0                         7                    264.0
+A2 DATA
+                     n           d     mind    maxd  start  end
+round job_type                                                 
+1     COLLECT_DROP  16 -10452.3125 -17738.0 -1384.0    242  242
+      KEEP_C0       16      0.0000      0.0     0.0    242  242
+2     CARE_COLLECT   8      0.0000      0.0     0.0    246  246
+      COLLECT_CARE   8      0.0000      0.0     0.0    246  246
+      KEEP_C0        8      0.0000      0.0     0.0    246  246
+                   n   p  s
+round split                
+1     test         4   2  1
+      train       20  10  2
+      validation   8   4  2
+2     test        18   6  1
+      train        6   2  1
+HEADROOM games 40 rows 1050 total max 2224.0 avg 55.6
+                 hindsight_gain_vs_c0  b1_gain_vs_c0  simple_gain_vs_c0
+family                                                                 
+mooman_e052a                    774.0           86.0            -1768.0
+qeinstein_moev2                 240.0           44.0            -1562.0
+smart_farm                      734.0           67.0            -1560.0
+souvik_v4                       476.0           86.0            -1770.0
+headroom per game {'count': 40.0, 'mean': 55.6, 'std': 48.272623233528066, 'min': 5.0, '25%': 17.25, '50%': 35.5, '75%': 96.25, 'max': 161.0}
+largest [{'family': 'mooman_e052a', 'step': 457, 'hindsight_gain_vs_c0': 157.0}, {'family': 'mooman_e052a', 'step': 457, 'hindsight_gain_vs_c0': 157.0}, {'family': 'mooman_e052a', 'step': 498, 'hindsight_gain_vs_c0': 67.0}, {'family': 'mooman_e052a', 'step': 498, 'hindsight_gain_vs_c0': 67.0}, {'family': 'smart_farm', 'step': 498, 'hindsight_gain_vs_c0': 67.0}]
+B2 metrics keys ['rows', 'valid_cells', 'brier', 'quantity_mae', 'nonzero_quantity_mae', 'reliability', 'by_target']
+{"rows": 92160, "valid_cells": 2454138, "brier": 0.11144053936004639, "quantity_mae": 1.5661991834640503, "nonzero_quantity_mae": 5.922213077545166, "reliability": [{"lower": 0.0, "count": 1033997, "predicted": 0.020382490009069443, "observed": 0.004342372366650967}, {"lower": 0.1, "count": 216973, "predicted": 0.14646965265274048, "observed": 0.058887511349338395}, {"lower": 0.2, "count": 163875, "predicted": 0.24867255985736847, "observed": 0.13012356979405035}, {"lower": 0.30000000000000004, "count": 143939, "predicted": 0.34911543130874634, "observed": 0.193192949791231}, {"lower": 0.4, "count": 130943, "predicted": 0.4494194984436035, "observed": 0.2482301459413638}, {"lower": 0.5, "count": 127197, "predicted": 0.54991215467453, "observed": 0.30507794995164983}, {"lower": 0.6000000000000001, "count": 127307, "predicted": 0.6500981450080872, "observed": 0.3778032629784694}, {"lower": 0.7000000000000001, "count": 134308, "predicted": 0.7505497932434082, "observed": 0.4912588974595705}, {"lower": 0.8, "count": 150927, "predicted": 0.8514580130577087, "observed": 0.6684423595513063}, {"lower": 0.9, "count": 224665, "predicted": 0.9558092951774597, "observed": 0.8823715309460752}], "by_target": {"WHEAT:1": {"rows": 92152, "positive_rate": 0.1125097664727841, "brier": 0.1810196042060852, "quantity_mae": 1.0321413278579712, "nonzero_quantity_mae": 7.413104057312012, "floor_brier": 0.0, "nonfloor_brier": 0.1810196042060852, "actionable_brier": 0.18986962735652924}, "WHEAT:4": {"rows": 91616, "positive_rate": 0.28967647572476424, "brier": 0.18686626851558685, "quantity_mae": 2.6843597888946533, "nonzero_quantity_mae": 7.616363525390625, "floor_brier": 0.0, "nonfloor_brier": 0.18686626851558685, "actionable_brier": 0.1943719983100891}, "WHEAT:24": {"rows": 88914, "positive_rate": 0.7519175832827226, "brier": 0.15687055885791779, "quantity_mae": 9.513707160949707, "nonzero_quantity_mae": 11.899580955505371, "floor_brier": 0.0, "nonfloor_brier": 0.15687055885791779, "actionable_brier": 0.14462773501873016}, "CARROT:1": {"rows": 92152, "positive_rate": 0.0279755187082212, "brier": 0.0606594942510128, "quantity_mae": 0.37431466579437256, "nonzero_quantity_mae": 10.686674118041992, "floor_brier": 0.0, "nonfloor_brier": 0.0606594942510128, "actionable_brier": 0.13368989527225494}, "CARROT:4": {"rows": 91616, "positive_rate": 0.07080640936081034, "brier": 0.09839954227209091, "quantity_mae": 0.811575174331665, "nonzero_quantity_mae": 8.766524314880371, "floor_brier": 0.0, "nonfloor_brier": 0.09839954227209091, "actionable_brier": 0.22503440082073212}, "CARROT:24": {"rows": 88914, "positive_rate": 0.2397147805744877, "brier": 0.07162672281265259, "quantity_mae": 2.5108847618103027, "nonzero_quantity_mae": 9.18983268737793, "floor_brier": 0.0, "nonfloor_brier": 0.07162672281265259, "actionable_brier": 0.13495464622974396}, "TOMATO:1": {"rows": 92152, "positive_rate": 0.019739126660300373, "brier": 0.04993679001927376, "quantity_mae": 0.22008450329303741, "nonzero_quantity_mae": 7.369053840637207, "floor_brier": 0.0, "nonfloor_brier": 0.04993679001927376, "actionable_brier": 0.16134686768054962}, "TOMATO:4": {"rows": 91616, "positive_rate": 0.04656391896611946, "brier": 0.080246202647686, "quantity_mae": 0.37117859721183777, "nonzero_quantity_mae": 6.075107574462891, "floor_brier": 0.0, "nonfloor_brier": 0.080246202647686, "actionable_brier": 0.21853813529014587}, "TOMATO:24": {"rows": 88914, "positive_rate": 0.1988888139100704, "brier": 0.06482764333486557, "quantity_mae": 1.3216594457626343, "nonzero_quantity_mae": 5.36611795425415, "floor_brier": 0.0, "nonfloor_brier": 0.06482764333486557, "actionable_brier": 0.11338154226541519}, "STRAWBERRY:1": {"rows": 92152, "positive_rate": 0.041811355152356976, "brier": 0.13642747700214386, "quantity_mae": 0.3644889295101166, "nonzero_quantity_mae": 5.399110794067383, "floor_brier": 0.22093328833580017, "nonfloor_brier": 0.13574151694774628, "actionable_brier": 0.23552392423152924}, "STRAWBERRY:4": 
+zero {"rows": 92160, "valid_cells": 2454138, "brier": 0.2244824916124344, "quantity_mae": 2.2834115028381348, "nonzero_quantity_mae": 10.171891212463379, "reliability": [{"lower": 0.0, "count": 2454138, "predicted": 9.357623589846195e-14, "observed": 0.2244824863149505}, {"lower": 0.1, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.2, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.30000000000000004, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.4, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.5, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.6000000000000001, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.7000000000000001, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.8, "count": 0, "predicted": 0.0, "observed": 0.0}, {"lower": 0.9, "count": 0, "predicted": 0.0, "observed": 0.0}], "by_target": {"WHEAT:1": {"rows": 92152, "positive_rate": 0.1125097664727841, "brier": 0.11250976473093033, "quantity_m
+frequency {"rows": 92160, "valid_cells": 2454138, "brier": 0.11444748193025589, "quantity_mae": 2.5980746746063232, "nonzero_quantity_mae": 6.941226482391357, "reliability": [{"lower": 0.0, "count": 1028428, "predicted": 0.030378496274352074, "observed": 0.030901531269082523}, {"lower": 0.1, "count": 445576, "predicted": 0.16070003807544708, "observed": 0.1636331400254951}, {"lower": 0.2, "count": 371140, "predicted": 0.24020922183990479, "observed": 0.24661313789944495}, {"lower": 0.30000000000000004, "count": 134220, "predicted": 0.3188142478466034, "observed": 0.3117419162568917}, {"lower": 0.4, "count": 170688, "predicted": 0.48127293586730957, "observed": 0.4857224878140233}, {"lower": 0.5, "count": 22242, "predicted": 0.5105323195457458, "observed": 0.5157359949644816}, {"lower": 0.6000000000000001, "count": 88914, "predicted": 0.6310213804244995, "observed": 0.6301032458330522}, {"lower": 0.7000000000000001, "count": 104016, "predicted": 0.7389853000640869, "observed": 0.7519035532994924}
+production {"rows": 92160, "valid_cells": 2454138, "brier": 0.23357124626636505, "quantity_mae": 9.75219440460205, "nonzero_quantity_mae": 16.91535758972168, "reliability": [{"lower": 0.0, "count": 572255, "predicted": 0.03160044923424721, "observed": 0.011743016662152363}, {"lower": 0.1, "count": 219973, "predicted": 0.15931019186973572, "observed": 0.05536133980079373}, {"lower": 0.2, "count": 193000, "predicted": 0.2409198135137558, "observed": 0.06761658031088083}, {"lower": 0.30000000000000004, "count": 159649, "predicted": 0.3333233594894409, "observed": 0.11381843920099718}, {"lower": 0.4, "count": 113688, "predicted": 0.4497012197971344, "observed": 0.15622581099148547}, {"lower": 0.5, "count": 123572, "predicted": 0.551600456237793, "observed": 0.19030201016411485}, {"lower": 0.6000000000000001, "count": 151106, "predicted": 0.6515861749649048, "observed": 0.24468915860389395}, {"lower": 0.7000000000000001, "count": 182030, "predicted": 0.7534774541854858, "observed": 0.30471900236224797

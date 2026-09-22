@@ -1,0 +1,56 @@
+91:def utc_now() -> str:
+95:def sha256(path: Path) -> str:
+103:def json_hash(value: Any) -> str:
+107:def write_json(path: Path, value: Any) -> None:
+112:def append_jsonl(path: Path, value: Any) -> None:
+118:def _git(command: Sequence[str]) -> str:
+122:def source_state() -> dict[str, Any]:
+139:def command_run(name: str) -> Any:
+189:def init_study() -> None:
+246:def _safe_extract(archive: Path, target: Path) -> None:
+260:def _stage_overlay(name: str, main_source: Path, config: Mapping[str, Any], files: Sequence[Path]) -> Path:
+280:def prepare_runtimes() -> dict[str, Path]:
+315:def _load_module(path: Path, label: str) -> Any:
+340:def _call(function: Callable[..., Any], observation: Any, configuration: Any) -> Any:
+349:def _run_game(task: Mapping[str, Any]) -> dict[str, Any]:
+408:def _result_from_completed_replay(task: Mapping[str, Any]) -> dict[str, Any] | None:
+441:def _run_parallel(tasks: list[dict[str, Any]], worker: Callable[[Mapping[str, Any]], dict[str, Any]], workers: int = 16) -> list[dict[str, Any]]:
+452:def _restore_observation(states: list[dict[str, Any]], seat: int, step: int) -> dict[str, Any]:
+462:def _action_state_summary(observation: Mapping[str, Any], actor: int | None = None) -> dict[str, Any]:
+480:def _read_gzip_json(path: Path) -> dict[str, Any]:
+485:def _first_replay(stage: str, arm: str, family: str, seat: int) -> Path:
+492:def _compare_replays(left: dict[str, Any], right: dict[str, Any], seat: int) -> dict[str, Any]:
+522:def diagnose_keep() -> dict[str, Any]:
+583:def diagnose_old_a_failure() -> dict[str, Any]:
+633:def diagnose_a_objective() -> dict[str, Any]:
+699:def diagnose_bc_roundtrip() -> dict[str, Any]:
+789:def diagnose_terminal() -> dict[str, Any]:
+807:def diagnose() -> None:
+827:def _run_a2_scan(task: Mapping[str, Any]) -> dict[str, Any]:
+910:def _run_a2_branch(task: Mapping[str, Any]) -> dict[str, Any]:
+1034:def _split_group(family: str, seed: int) -> str:
+1039:def collect_a2(round_number: int) -> None:
+1199:class _Adam:
+1217:def _load_a2_records(rounds: int) -> list[dict[str, Any]]:
+1226:def train_a2(rounds: int) -> None:
+1346:def _market_transition_labels(replay: Mapping[str, Any], step: int) -> dict[str, Any]:
+1545:def _build_b2_sequential_reference() -> None:
+1717:def _build_b2_episode(task: Mapping[str, Any]) -> dict[str, Any]:
+1842:def build_b2() -> None:
+1980:def _moments(x: np.ndarray, chunk: int = 65536) -> tuple[np.ndarray, np.ndarray]:
+1994:def _b2_predict(parameters: Sequence[np.ndarray], center: np.ndarray, scale: np.ndarray, x: np.ndarray, chunk: int = 16384) -> np.ndarray:
+2003:def _masked_mean(values: np.ndarray, mask: np.ndarray) -> float:
+2007:def _reliability(y: np.ndarray, probability: np.ndarray, mask: np.ndarray) -> list[dict[str, Any]]:
+2015:def _b2_metrics(
+2051:def _fit_b2_seed(seed: int, arrays: Mapping[str, np.ndarray], center: np.ndarray, scale: np.ndarray) -> dict[str, Any]:
+2137:def train_b2() -> None:
+2218:def b_opportunity_headroom() -> None:
+2294:def train_bc2_probe() -> None:
+2368:def package_round2() -> None:
+2413:def _action_differences(control_path: Path, candidate_path: Path, seat: int) -> tuple[int, int | None]:
+2425:def _write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+2435:def _bank_tasks(bank: str, runtimes: Mapping[str, Path], output: Path) -> list[dict[str, Any]]:
+2468:def evaluate_bank(bank: str, package: bool = True) -> None:
+2613:def evaluate_all() -> None:
+2619:def finalize() -> None:
+2940:def main() -> None:

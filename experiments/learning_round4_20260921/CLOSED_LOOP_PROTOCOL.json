@@ -1,0 +1,48 @@
+{
+  "protocol_id": "round4-closed-loop-fixed-20260921-v1",
+  "fixed_before_results": true,
+  "purpose": "development regression plus limited prospective local diagnostic; not online evidence",
+  "arms": [
+    "round4_learned",
+    "round4_rule"
+  ],
+  "conditions": [
+    {
+      "scope": "round3_regression_seen",
+      "family": "qeinstein_moev2",
+      "seed": 2026092421,
+      "seats": [0, 1]
+    },
+    {
+      "scope": "round3_regression_seen",
+      "family": "smart_farm",
+      "seed": 2026092422,
+      "seats": [0, 1]
+    },
+    {
+      "scope": "limited_prospective_local_diagnostic",
+      "family": "qeinstein_moev2",
+      "seed": 2026092821,
+      "seats": [0, 1]
+    },
+    {
+      "scope": "limited_prospective_local_diagnostic",
+      "family": "smart_farm",
+      "seed": 2026092822,
+      "seats": [0, 1]
+    }
+  ],
+  "cluster_unit": "family x seed; two seats are repeated views within one cluster",
+  "primary_comparison": "paired terminal margin of learned minus rule at identical family/seed/seat",
+  "retained_outcomes": [
+    "self_money",
+    "opponent_money",
+    "margin",
+    "win_draw_loss",
+    "terminal_status",
+    "executor activation and completion counters",
+    "first execution divergence traces"
+  ],
+  "promotion_rule": "no champion promotion from this small local panel",
+  "holdout_rule": "prospective conditions become development-observed immediately after this run"
+}

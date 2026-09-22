@@ -1,0 +1,2207 @@
+{
+  "created_at_utc": "2026-09-21T15:33:37.943364+00:00",
+  "source_replay": "experiments\\learning_round4_20260921\\closed_loop\\replays\\round4_learned\\qeinstein_moev2\\seed_2026092421_seat_0.json.gz",
+  "source_replay_sha256": "bed28448d98bee2370aef74a06f42fdc96b5f75784edabb8e500dbce1df1b3ed",
+  "scope": "records 1..96 recomputed from the saved Round4 learned replay",
+  "observed_opening_orders_records_1_8": [
+    {
+      "record": 1,
+      "decision_step": 0,
+      "market": [
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "record": 2,
+      "decision_step": 1,
+      "market": [
+        [
+          "BUY_LAND"
+        ]
+      ]
+    },
+    {
+      "record": 3,
+      "decision_step": 2,
+      "market": [
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "record": 4,
+      "decision_step": 3,
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ]
+      ]
+    },
+    {
+      "record": 5,
+      "decision_step": 4,
+      "market": []
+    },
+    {
+      "record": 6,
+      "decision_step": 5,
+      "market": [
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    },
+    {
+      "record": 7,
+      "decision_step": 6,
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          4
+        ]
+      ]
+    },
+    {
+      "record": 8,
+      "decision_step": 7,
+      "market": [
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          3
+        ]
+      ]
+    }
+  ],
+  "observed_event_counts_first_96": {
+    "market:BUY_ANIMAL:COW": 4,
+    "market:BUY_PRODUCT:WHEAT": 12,
+    "primitive:PASS": 75,
+    "market:BUY_LAND:": 1,
+    "primitive:PICKUP": 4,
+    "primitive:BUILD_PASTURE": 4,
+    "market:SELL:WHEAT": 12,
+    "primitive:PLACE": 4,
+    "primitive:NORTH": 31,
+    "market:BUY_SEED:WHEAT": 22,
+    "market:BUY_SEED:MELON": 2,
+    "primitive:SOUTH": 15,
+    "primitive:WEST": 20,
+    "market:HIRE:": 4,
+    "primitive:PLANT": 16,
+    "primitive:WATER": 19
+  },
+  "first_animal_disappearance": {
+    "record": 48,
+    "decision_step": 47,
+    "animals": [
+      [
+        4,
+        3,
+        "COW",
+        0
+      ],
+      [
+        4,
+        4,
+        "COW",
+        0
+      ]
+    ]
+  },
+  "all_animal_disappearances_first_96": [
+    {
+      "record": 48,
+      "decision_step": 47,
+      "animals": [
+        [
+          4,
+          3,
+          "COW",
+          0
+        ],
+        [
+          4,
+          4,
+          "COW",
+          0
+        ]
+      ]
+    },
+    {
+      "record": 72,
+      "decision_step": 71,
+      "animals": [
+        [
+          1,
+          4,
+          "COW",
+          1
+        ]
+      ]
+    },
+    {
+      "record": 96,
+      "decision_step": 95,
+      "animals": [
+        [
+          3,
+          3,
+          "COW",
+          2
+        ]
+      ]
+    }
+  ],
+  "first_cash_zero_record": 49,
+  "cash_zero_records": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ],
+  "static_round5_repair_probe": {
+    "warning": "each saved Round4 state/action is repaired independently; this is not a continued engine counterfactual",
+    "changed_records": 66,
+    "first_changes": [
+      {
+        "record": 1,
+        "decision_step": 0,
+        "before_money": 3000,
+        "before_wheat": 0,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "portfolio": [],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 0,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 0,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 1,
+          "animal_plan_count": 0,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 4,
+        "decision_step": 3,
+        "before_money": 1020,
+        "before_wheat": 6,
+        "proposal": {
+          "farmer": [
+            "PLACE",
+            "COW",
+            1
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "portfolio": [],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 2,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 1,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 0,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 6,
+        "decision_step": 5,
+        "before_money": 1160,
+        "before_wheat": 1,
+        "proposal": {
+          "farmer": [
+            "NORTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "NORTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 99,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 1,
+          "override_primitive_issued": 0,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 1,
+          "animal_plan_count": 1,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 7,
+        "decision_step": 6,
+        "before_money": 676,
+        "before_wheat": 4,
+        "proposal": {
+          "farmer": [
+            "BUILD_PASTURE"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              4
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "BUILD_PASTURE"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 1,
+          "override_primitive_issued": 0,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 2,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 1,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 1,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 1,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 8,
+        "decision_step": 7,
+        "before_money": 786,
+        "before_wheat": 0,
+        "proposal": {
+          "farmer": [
+            "PLACE",
+            "COW",
+            1
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "PLACE",
+            "COW"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 216,
+            "expected_product_value": 169,
+            "shed_free_capacity": 99,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 1,
+          "animal_plan_count": 1,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 10,
+        "decision_step": 9,
+        "before_money": 303,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 11,
+        "decision_step": 10,
+        "before_money": 293,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 12,
+        "decision_step": 11,
+        "before_money": 283,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              2
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ],
+            [
+              "BUY_SEED",
+              "MELON",
+              2
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 13,
+        "decision_step": 12,
+        "before_money": 113,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 14,
+        "decision_step": 13,
+        "before_money": 103,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 15,
+        "decision_step": 14,
+        "before_money": 93,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 16,
+        "decision_step": 15,
+        "before_money": 83,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 17,
+        "decision_step": 16,
+        "before_money": 73,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 18,
+        "decision_step": 17,
+        "before_money": 63,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 19,
+        "decision_step": 18,
+        "before_money": 53,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 20,
+        "decision_step": 19,
+        "before_money": 43,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 0,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 0,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 21,
+        "decision_step": 20,
+        "before_money": 33,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 1,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 22,
+        "decision_step": 21,
+        "before_money": 23,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 2,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 23,
+        "decision_step": 22,
+        "before_money": 13,
+        "before_wheat": 3,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              3
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 95,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 3,
+          "investment_orders_blocked": 2,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      },
+      {
+        "record": 24,
+        "decision_step": 23,
+        "before_money": 87,
+        "before_wheat": 0,
+        "proposal": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "repaired": {
+          "farmer": [
+            "SOUTH"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "portfolio": [
+          {
+            "plan_id": "ANIMAL:COW:4,3:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                3
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 98,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          },
+          {
+            "plan_id": "ANIMAL:COW:4,4:placed0:day0",
+            "target_identity": {
+              "type": "animal",
+              "coordinate": [
+                4,
+                4
+              ],
+              "resource": "COW",
+              "product": "MILK",
+              "generation_or_placement_day": 0
+            },
+            "state": "MAINTAIN",
+            "next_production_day": 8,
+            "yield_units": 0,
+            "feed_cost_to_production": 224,
+            "expected_product_value": 169,
+            "shed_free_capacity": 98,
+            "recovery_route_available": true,
+            "maintenance_deadline_step": 23,
+            "retirement_reason": null
+          }
+        ],
+        "diagnostics": {
+          "executor": "round5-ordered-resource-ledger-v1",
+          "policy": "opening-static-repair-probe",
+          "base_primitive_issued": 0,
+          "override_primitive_issued": 1,
+          "primitive_effect_observed": 0,
+          "primitive_failed": 0,
+          "primitive_unknown": 0,
+          "terminal_pending": 1,
+          "plan_started": 0,
+          "plan_completed": 0,
+          "cash_realization_started": 0,
+          "cash_realization_completed": 0,
+          "resource_conflicts_blocked": 0,
+          "duplicate_harvests_blocked": 0,
+          "duplicate_services_blocked": 0,
+          "atomic_plants_blocked": 0,
+          "actors_reassigned": 0,
+          "fallback_passes": 0,
+          "animal_harvest_overrides": 0,
+          "retirement_plans_enforced": 0,
+          "market_orders_changed": 1,
+          "wheat_sell_units_blocked": 0,
+          "investment_orders_blocked": 1,
+          "animal_plan_count": 2,
+          "completed_plan_ids": 0
+        }
+      }
+    ]
+  }
+}

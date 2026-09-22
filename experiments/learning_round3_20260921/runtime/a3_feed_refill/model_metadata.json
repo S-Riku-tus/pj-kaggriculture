@@ -1,0 +1,369 @@
+{
+  "format": "v121-sparse-continuation-v1",
+  "description": "Current-meta, state-compatible winning continuations from V123 live games.",
+  "runtime_excludes": [
+    "episode ids",
+    "submission ids",
+    "team names",
+    "exact ratings",
+    "rewards and outcomes",
+    "future observations"
+  ],
+  "selection_rule": "completed V123 live game; opponent initial rating >=1600; day-12 winner/V123 portfolio L1 <=5; winner continuation only",
+  "anonymous_provenance": [
+    {
+      "source": 0,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 1,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 2,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 2,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 3,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 4,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 5,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": true
+    },
+    {
+      "source": 6,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1700,
+      "day12_portfolio_distance": 0,
+      "animal_route": 1,
+      "expansion": false
+    },
+    {
+      "source": 7,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 8,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 1,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 9,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1700,
+      "day12_portfolio_distance": 2,
+      "animal_route": 1,
+      "expansion": false
+    },
+    {
+      "source": 10,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 11,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 1,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 12,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 13,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 4,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 14,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 4,
+      "animal_route": 1,
+      "expansion": false
+    },
+    {
+      "source": 15,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1700,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 16,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": true
+    },
+    {
+      "source": 17,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 18,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 19,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 20,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 21,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 22,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 23,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 24,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 4,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 25,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 1,
+      "expansion": false
+    },
+    {
+      "source": 26,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 1,
+      "expansion": false
+    },
+    {
+      "source": 27,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 28,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 29,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 30,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1800,
+      "day12_portfolio_distance": 1,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 31,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 2,
+      "animal_route": 0,
+      "expansion": true
+    },
+    {
+      "source": 32,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 33,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 34,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 35,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 36,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 1,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 37,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1700,
+      "day12_portfolio_distance": 1,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 38,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 1,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 39,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 2,
+      "expansion": false
+    },
+    {
+      "source": 40,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 41,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": false
+    },
+    {
+      "source": 42,
+      "teacher_origin": "v123",
+      "opponent_rating_band": 1600,
+      "day12_portfolio_distance": 0,
+      "animal_route": 0,
+      "expansion": true
+    },
+    {
+      "source": 43,
+      "teacher_origin": "winning_opponent",
+      "opponent_rating_band": 1650,
+      "day12_portfolio_distance": 1,
+      "animal_route": 0,
+      "expansion": false
+    }
+  ],
+  "policy_model_sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+  "sale_model_format": "v124-opponent-sell-v1"
+}

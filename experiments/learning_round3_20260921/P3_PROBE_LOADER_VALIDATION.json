@@ -1,0 +1,53 @@
+{
+  "archive": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\submissions\\learning_round3_20260921_a3_feed_once_replan_probe.tar.gz",
+  "archive_sha256": "afe2698868a0da513c154cf7a96f83e77551cfacfbbcbb4792c7c201e6235efd",
+  "archive_members": [
+    "NOTICE.md",
+    "arm_config.json",
+    "c0_main.py",
+    "contracts.py",
+    "main.py",
+    "market_overlay.py",
+    "model_metadata.json",
+    "opening_routes.json.gz",
+    "opponent_sell_model.json",
+    "policy_model.json.gz",
+    "v120_base.py",
+    "v121_sparse.py",
+    "v123_base.py",
+    "v124_base.py",
+    "v125_exec_base.py"
+  ],
+  "kaggle_environments_version": "1.32.7",
+  "loader": "kaggle_environments.agent.get_last_callable",
+  "empty_globals": true,
+  "arbitrary_cwd": "C:\\Users\\shiba\\Kaggle\\round3_probe_loader_30312_196ad915\\arbitrary_cwd",
+  "repository_removed_from_sys_path": true,
+  "numpy_blocked_during_archive_exec_and_game": false,
+  "numpy_blocked_during_archive_exec_and_preflight_inference": true,
+  "numpy_blocked_during_game": false,
+  "preflight_action_type": "dict",
+  "last_callable": "agent",
+  "cold_import_seconds": 1.965723400004208,
+  "warm_calls": 3,
+  "warm_mean_seconds": 0.0031831000233069062,
+  "warm_max_seconds": 0.0037136999890208244,
+  "stored_states": 4,
+  "terminal_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "terminal_rewards": [
+    1055.0,
+    3000.0
+  ],
+  "action_sha256": "89151736ba725a2711218419f227103ff007fe38d6bd3a85a6001acfda160521",
+  "passed": true,
+  "candidate_verdict": "REJECTED_DEVELOPMENT_NEGATIVE",
+  "not_a_submission_candidate": true,
+  "closed_loop_evidence": "experiments\\learning_round3_20260921\\p3_paired_development\\paired_summary.json",
+  "full_game_via_direct_runner": true,
+  "full_game_via_official_loader": false,
+  "official_loader_scope": "archive execution, last-callable assertion, and real 4-state runner smoke test",
+  "stderr_tail": "r\nclobber_proxy\ncoin_game\ncoin_game_arena\ncoin_game_proxy\ncolored_trails\nconnect_four\nconnect_four_proxy\ncoop_box_pushing\ncoop_to_1p\ncoordinated_mp\ncrazy_eights\ncrazyhouse\ncribbage\ncrossword\ncursor_go\ndark_chess\ndark_hex\ndark_hex_ir\ndark_hex_proxy\ndeep_sea\ndots_and_boxes\ndots_and_boxes_proxy\ndou_dizhu\nefg_game\neinstein_wurfelt_nicht\neuchre\nfirst_sealed_auction\ngin_rummy\ngin_rummy_proxy\ngo\ngo_fish\ngo_fish_proxy\ngo_proxy\ngomoku\ngoofspiel\nhavannah\nhavannah_proxy\nhearts\nhex\nhive\nhive_proxy\nkriegspiel\nkuhn_poker\nlaser_tag\nlatent_ttt\nleduc_poker\nlewis_signaling\nliars_dice\nliars_dice_ir\nlines_of_action\nlines_of_action_proxy\nmaedn\nmancala\nmancala_proxy\nmarkov_soccer\nmarkov_soccer_proxy\nmatching_pennies_3p\nmatrix_bos\nmatrix_brps\nmatrix_cd\nmatrix_coordination\nmatrix_mp\nmatrix_pd\nmatrix_rps\nmatrix_rpsw\nmatrix_sh\nmatrix_shapleys_game\nmfg_crowd_modelling\nmfg_crowd_modelling_2d\nmfg_dynamic_routing\nmfg_garnet\nmisere\nmnk\nmorpion_solitaire\nnegotiation\nnegotiation_proxy\nnfg_game\nnim\nnine_mens_morris\nnine_mens_morris_proxy\nnormal_form_extensive_game\noh_hell\noshi_zumo\noshi_zumo_proxy\nothello\nothello_proxy\noware\npathfinding\npentago\nphantom_go\nphantom_ttt\nphantom_ttt_ir\npig\npython_ant_foraging\npython_ant_foraging_proxy\npython_block_dominoes\npython_dynamic_routing\npython_hangman\npython_iterated_prisoners_dilemma\npython_kuhn_poker\npython_liars_poker\npython_pokerkit_wrapper\npython_pokerkit_wrapper_acpc_style\npython_repeated_pokerkit\npython_team_dominoes\npython_tic_tac_toe\nquoridor\nrbc\nrepeated_game\nrepeated_leduc_poker\nrestricted_nash_response\nsheriff\nshogi\nshogi_proxy\nskat\nsnake\nsnake_proxy\nsocial_deduction\nsolitaire\nspades\nstart_at\nstones_and_gems\ntarok\ntic_tac_toe\ntiny_bridge_2p\ntiny_bridge_4p\ntiny_hanabi\ntrade_comm\nturn_based_simultaneous_game\ntwixt\nultimate_tic_tac_toe\nultimate_tic_tac_toe_proxy\nxiangqi\ny\ny_proxy\nyacht\nzerosum\nprobe_stage=kaggle_imported\nprobe_stage=archive_extracted\nprobe_stage=loader_selected seconds=1.965723\nprobe_stage=environment_created\nprobe_stage=game_finished\n"
+}

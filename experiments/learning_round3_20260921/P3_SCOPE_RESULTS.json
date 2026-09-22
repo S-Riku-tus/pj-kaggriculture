@@ -1,0 +1,216 @@
+{
+  "created_at_utc": "2026-09-21T12:08:52.833092+00:00",
+  "development_only": true,
+  "observed_round2_panel_not_used_as_unseen_holdout": true,
+  "broad_scan": {
+    "created_at_utc": "2026-09-21T11:42:06.047060+00:00",
+    "observed_development_conditions": 32,
+    "scanned_steps_per_condition": 408,
+    "fixed_step_filter": false,
+    "candidate_count": 384,
+    "by_job": {
+      "FEED_REFILL_DAY_BOUNDARY": 356,
+      "HARVEST_DELIVER_DAY_BOUNDARY": 28
+    },
+    "distinct_steps": 33,
+    "distinct_days": 10,
+    "distinct_families": 4,
+    "coverage_cells": 41,
+    "paired_continuations_run": 0,
+    "training_run": false,
+    "training_verdict": "PENDING_PAIRED_CONTINUATIONS",
+    "note": "scan establishes state/job/time coverage only; it is not economic evidence and does not enable runtime actions"
+  },
+  "paired_summary": {
+    "created_at_utc": "2026-09-21T12:00:29.486034+00:00",
+    "development_only": true,
+    "observed_round2_conditions_reused_as_holdout": false,
+    "grouping": "family x seed; both seats are one cluster",
+    "summary": {
+      "c0": {
+        "games": 4,
+        "mean_paired_margin_delta": 0.0,
+        "positive_games": 0,
+        "negative_games": 0,
+        "jobs_started": 0,
+        "jobs_completed": 0,
+        "jobs_aborted": 0,
+        "action_changes": 0
+      },
+      "feed_refill": {
+        "games": 4,
+        "mean_paired_margin_delta": -1089.0,
+        "positive_games": 0,
+        "negative_games": 4,
+        "jobs_started": 4,
+        "jobs_completed": 4,
+        "jobs_aborted": 0,
+        "action_changes": 46
+      },
+      "harvest_deliver": {
+        "games": 4,
+        "mean_paired_margin_delta": 0.0,
+        "positive_games": 0,
+        "negative_games": 0,
+        "jobs_started": 2,
+        "jobs_completed": 2,
+        "jobs_aborted": 0,
+        "action_changes": 16
+      },
+      "feed_once_replan": {
+        "games": 4,
+        "mean_paired_margin_delta": -87.0,
+        "positive_games": 0,
+        "negative_games": 4,
+        "jobs_started": 4,
+        "jobs_completed": 4,
+        "jobs_aborted": 0,
+        "action_changes": 14
+      }
+    },
+    "positive_candidate_arms": [],
+    "training_run": false,
+    "training_reason": "selector training requires positive completed paired candidates",
+    "promotable": false
+  },
+  "family_seed_clusters": [
+    {
+      "arm": "c0",
+      "opponent_family": "qeinstein_moev2",
+      "seed": 2026092421,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        0.0,
+        0.0
+      ],
+      "cluster_mean_delta": 0.0,
+      "cluster_min_delta": 0.0,
+      "cluster_max_delta": 0.0
+    },
+    {
+      "arm": "c0",
+      "opponent_family": "smart_farm",
+      "seed": 2026092422,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        0.0,
+        0.0
+      ],
+      "cluster_mean_delta": 0.0,
+      "cluster_min_delta": 0.0,
+      "cluster_max_delta": 0.0
+    },
+    {
+      "arm": "feed_once_replan",
+      "opponent_family": "qeinstein_moev2",
+      "seed": 2026092421,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        -136.0,
+        -136.0
+      ],
+      "cluster_mean_delta": -136.0,
+      "cluster_min_delta": -136.0,
+      "cluster_max_delta": -136.0
+    },
+    {
+      "arm": "feed_once_replan",
+      "opponent_family": "smart_farm",
+      "seed": 2026092422,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        -32.0,
+        -44.0
+      ],
+      "cluster_mean_delta": -38.0,
+      "cluster_min_delta": -44.0,
+      "cluster_max_delta": -32.0
+    },
+    {
+      "arm": "feed_refill",
+      "opponent_family": "qeinstein_moev2",
+      "seed": 2026092421,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        -2140.0,
+        -2140.0
+      ],
+      "cluster_mean_delta": -2140.0,
+      "cluster_min_delta": -2140.0,
+      "cluster_max_delta": -2140.0
+    },
+    {
+      "arm": "feed_refill",
+      "opponent_family": "smart_farm",
+      "seed": 2026092422,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        -32.0,
+        -44.0
+      ],
+      "cluster_mean_delta": -38.0,
+      "cluster_min_delta": -44.0,
+      "cluster_max_delta": -32.0
+    },
+    {
+      "arm": "harvest_deliver",
+      "opponent_family": "qeinstein_moev2",
+      "seed": 2026092421,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        0.0,
+        0.0
+      ],
+      "cluster_mean_delta": 0.0,
+      "cluster_min_delta": 0.0,
+      "cluster_max_delta": 0.0
+    },
+    {
+      "arm": "harvest_deliver",
+      "opponent_family": "smart_farm",
+      "seed": 2026092422,
+      "seats": [
+        0,
+        1
+      ],
+      "seat_deltas": [
+        0.0,
+        0.0
+      ],
+      "cluster_mean_delta": 0.0,
+      "cluster_min_delta": 0.0,
+      "cluster_max_delta": 0.0
+    }
+  ],
+  "candidate_expansion_executed": {
+    "from": "whole-day FEED_REFILL_DAY_BOUNDARY",
+    "to": "one-unit FEED_ONCE_STATE_REPLAN with an observed fed_today safe boundary",
+    "reason": "reduce worker opportunity cost and prove a state-based return instead of waiting for actor disappearance",
+    "result": "4/4 negative; mean paired margin delta -87"
+  },
+  "training_verdict": "NO_POSITIVE_CANDIDATE_SUPPORT",
+  "training_run": false,
+  "unseen_evaluation_run": false,
+  "stop_reason": "all executable expanded-scope candidates were non-positive; training or holdout use would violate the preregistered gate"
+}

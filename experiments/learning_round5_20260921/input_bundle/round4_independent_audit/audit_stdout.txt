@@ -1,0 +1,64 @@
+{
+  "scope": "independent saved-replay audit; no new game, training, model load, or online submission",
+  "replay_count": 16,
+  "input_zip_sha256": "ae89c1fb503af470b3b670b810c3344f065cabd9587730316bd6d84998042572",
+  "replay_hashes_and_money_verified": true,
+  "all_720_done": true,
+  "learned_mean_final_money": 2458.0,
+  "rule_mean_final_money": 3253.25,
+  "learned_ever_zero_cash": 8,
+  "learned_games_with_zero_feed": 4,
+  "harvest_issued": 722,
+  "immature_harvest_issued": 0,
+  "harvest_positive_actor_delta": 576,
+  "harvest_boundary_unattributed": 2,
+  "duplicate_harvests": 144,
+  "duplicate_harvest_zero_delta": 144,
+  "all_zero_harvests_are_later_duplicates": true,
+  "animal_placements": 38,
+  "animal_disappearances": 35,
+  "disappearance_causes_all_prior_unfed1_false_day_boundary": true,
+  "animal_harvest_issued": 0,
+  "standing_on_positive_animal_yield_actions": 660,
+  "paired_town_sequences_differ": 8,
+  "scope_decomposition": {
+    "limited_prospective_local_diagnostic": {
+      "delta_self": 315.0,
+      "delta_opponent": 9794.5,
+      "delta_margin": -9479.5
+    },
+    "round3_regression_seen": {
+      "delta_self": -1905.5,
+      "delta_opponent": -6053.5,
+      "delta_margin": 4148.0
+    }
+  },
+  "selected_episode_overlap": 0,
+  "training_confusion_arithmetic": {
+    "validation": {
+      "rows": 1920,
+      "accuracy_recomputed": 0.6661458333333333,
+      "macro_f1_recomputed": 0.6047859422385748,
+      "arithmetic_matches": true
+    },
+    "test": {
+      "rows": 1920,
+      "accuracy_recomputed": 0.6510416666666666,
+      "macro_f1_recomputed": 0.5913788538252112,
+      "arithmetic_matches": true
+    }
+  },
+  "attachment_hash_coverage": {
+    "input_zip_sha256": "ae89c1fb503af470b3b670b810c3344f065cabd9587730316bd6d84998042572",
+    "entries": 23,
+    "verified": 18,
+    "missing": [
+      "artifacts\\submissions\\learning_round4_20260921_learned.tar.gz",
+      "artifacts\\submissions\\learning_round4_20260921_rule.tar.gz",
+      "agents\\learning_round4_20260921\\strategy_model.json",
+      "agents\\learning_round4_20260921\\evaluation.py",
+      "tests\\test_learning_round4.py"
+    ],
+    "mismatched": []
+  }
+}

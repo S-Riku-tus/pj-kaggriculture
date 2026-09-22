@@ -1,0 +1,332 @@
+[
+  {
+    "arm": "feed_once_replan",
+    "family": "qeinstein_moev2",
+    "seed": 2026092421,
+    "seat": 0,
+    "trace": [
+      {
+        "step": 434,
+        "event": "candidate_started",
+        "contract": {
+          "candidate_id": "FEED_ONCE_STATE_REPLAN:a5:s434",
+          "preconditions": {
+            "same_day_completion": true
+          },
+          "actor_identity": {
+            "seat": 0,
+            "role": "hand",
+            "actor_index": 5,
+            "day_epoch": 18,
+            "observed_position": [
+              5,
+              4
+            ]
+          },
+          "reserved_materials": {
+            "shed:WHEAT": 1
+          },
+          "reserved_cash": 0,
+          "reserved_shed_capacity": 0,
+          "deadline_step": 455,
+          "continuation": [
+            [
+              "PICKUP",
+              "WHEAT",
+              1
+            ],
+            [
+              "FEED"
+            ]
+          ],
+          "safe_rejoin_boundary": {
+            "kind": "FEED_POSTCONDITION_OBSERVED"
+          },
+          "expected_rejoin": {
+            "position": [
+              5,
+              4
+            ],
+            "minimum_inventory": {},
+            "remaining_obligations": 0
+          },
+          "primitive_postconditions": [
+            "material transition observed"
+          ],
+          "economic_postconditions": [
+            "paired terminal margin measured"
+          ],
+          "abort_policy": "SAFE_REPLAN",
+          "replanning_policy": "STATE_BASED_ACTOR_REPLAN",
+          "phase": "feed_route",
+          "origin": [
+            5,
+            4
+          ],
+          "target": [
+            5,
+            4
+          ],
+          "remaining": 1
+        }
+      },
+      {
+        "step": 436,
+        "event": "state_replan_boundary",
+        "candidate_id": "FEED_ONCE_STATE_REPLAN:a5:s434"
+      }
+    ]
+  },
+  {
+    "arm": "feed_once_replan",
+    "family": "qeinstein_moev2",
+    "seed": 2026092421,
+    "seat": 1,
+    "trace": [
+      {
+        "step": 434,
+        "event": "candidate_started",
+        "contract": {
+          "candidate_id": "FEED_ONCE_STATE_REPLAN:a5:s434",
+          "preconditions": {
+            "same_day_completion": true
+          },
+          "actor_identity": {
+            "seat": 1,
+            "role": "hand",
+            "actor_index": 5,
+            "day_epoch": 18,
+            "observed_position": [
+              5,
+              4
+            ]
+          },
+          "reserved_materials": {
+            "shed:WHEAT": 1
+          },
+          "reserved_cash": 0,
+          "reserved_shed_capacity": 0,
+          "deadline_step": 455,
+          "continuation": [
+            [
+              "PICKUP",
+              "WHEAT",
+              1
+            ],
+            [
+              "FEED"
+            ]
+          ],
+          "safe_rejoin_boundary": {
+            "kind": "FEED_POSTCONDITION_OBSERVED"
+          },
+          "expected_rejoin": {
+            "position": [
+              5,
+              4
+            ],
+            "minimum_inventory": {},
+            "remaining_obligations": 0
+          },
+          "primitive_postconditions": [
+            "material transition observed"
+          ],
+          "economic_postconditions": [
+            "paired terminal margin measured"
+          ],
+          "abort_policy": "SAFE_REPLAN",
+          "replanning_policy": "STATE_BASED_ACTOR_REPLAN",
+          "phase": "feed_route",
+          "origin": [
+            5,
+            4
+          ],
+          "target": [
+            5,
+            4
+          ],
+          "remaining": 1
+        }
+      },
+      {
+        "step": 436,
+        "event": "state_replan_boundary",
+        "candidate_id": "FEED_ONCE_STATE_REPLAN:a5:s434"
+      }
+    ]
+  },
+  {
+    "arm": "feed_once_replan",
+    "family": "smart_farm",
+    "seed": 2026092422,
+    "seat": 0,
+    "trace": [
+      {
+        "step": 209,
+        "event": "candidate_started",
+        "contract": {
+          "candidate_id": "FEED_ONCE_STATE_REPLAN:a1:s209",
+          "preconditions": {
+            "same_day_completion": true
+          },
+          "actor_identity": {
+            "seat": 0,
+            "role": "hand",
+            "actor_index": 1,
+            "day_epoch": 8,
+            "observed_position": [
+              5,
+              4
+            ]
+          },
+          "reserved_materials": {
+            "shed:WHEAT": 1
+          },
+          "reserved_cash": 0,
+          "reserved_shed_capacity": 0,
+          "deadline_step": 215,
+          "continuation": [
+            [
+              "PICKUP",
+              "WHEAT",
+              1
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "FEED"
+            ]
+          ],
+          "safe_rejoin_boundary": {
+            "kind": "FEED_POSTCONDITION_OBSERVED"
+          },
+          "expected_rejoin": {
+            "position": [
+              2,
+              4
+            ],
+            "minimum_inventory": {},
+            "remaining_obligations": 0
+          },
+          "primitive_postconditions": [
+            "material transition observed"
+          ],
+          "economic_postconditions": [
+            "paired terminal margin measured"
+          ],
+          "abort_policy": "SAFE_REPLAN",
+          "replanning_policy": "STATE_BASED_ACTOR_REPLAN",
+          "phase": "feed_route",
+          "origin": [
+            5,
+            4
+          ],
+          "target": [
+            2,
+            4
+          ],
+          "remaining": 1
+        }
+      },
+      {
+        "step": 214,
+        "event": "state_replan_boundary",
+        "candidate_id": "FEED_ONCE_STATE_REPLAN:a1:s209"
+      }
+    ]
+  },
+  {
+    "arm": "feed_once_replan",
+    "family": "smart_farm",
+    "seed": 2026092422,
+    "seat": 1,
+    "trace": [
+      {
+        "step": 209,
+        "event": "candidate_started",
+        "contract": {
+          "candidate_id": "FEED_ONCE_STATE_REPLAN:a1:s209",
+          "preconditions": {
+            "same_day_completion": true
+          },
+          "actor_identity": {
+            "seat": 1,
+            "role": "hand",
+            "actor_index": 1,
+            "day_epoch": 8,
+            "observed_position": [
+              5,
+              4
+            ]
+          },
+          "reserved_materials": {
+            "shed:WHEAT": 1
+          },
+          "reserved_cash": 0,
+          "reserved_shed_capacity": 0,
+          "deadline_step": 215,
+          "continuation": [
+            [
+              "PICKUP",
+              "WHEAT",
+              1
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "FEED"
+            ]
+          ],
+          "safe_rejoin_boundary": {
+            "kind": "FEED_POSTCONDITION_OBSERVED"
+          },
+          "expected_rejoin": {
+            "position": [
+              2,
+              4
+            ],
+            "minimum_inventory": {},
+            "remaining_obligations": 0
+          },
+          "primitive_postconditions": [
+            "material transition observed"
+          ],
+          "economic_postconditions": [
+            "paired terminal margin measured"
+          ],
+          "abort_policy": "SAFE_REPLAN",
+          "replanning_policy": "STATE_BASED_ACTOR_REPLAN",
+          "phase": "feed_route",
+          "origin": [
+            5,
+            4
+          ],
+          "target": [
+            2,
+            4
+          ],
+          "remaining": 1
+        }
+      },
+      {
+        "step": 214,
+        "event": "state_replan_boundary",
+        "candidate_id": "FEED_ONCE_STATE_REPLAN:a1:s209"
+      }
+    ]
+  }
+]

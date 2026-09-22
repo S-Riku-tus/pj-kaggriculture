@@ -1,0 +1,72 @@
+{
+  "created_at_utc": "2026-09-21T15:39:44.991137+00:00",
+  "archives": {
+    "none": {
+      "path": "artifacts\\submissions\\learning_round5_20260921_none.tar.gz",
+      "sha256": "44a3b83f7a11777bdeb7e0d1d132c88853d6ddb3c50091e21f8482e1ac502c0c",
+      "bytes": 115765,
+      "members": [
+        "policy_runtime.py",
+        "executor.py",
+        "contracts.py",
+        "action_codec.py",
+        "features.py",
+        "selector.py",
+        "bc_agent.py",
+        "common.py",
+        "bc_actor_model.npz",
+        "bc_actor_model.json",
+        "bc_market_model.npz",
+        "bc_market_model.json",
+        "bc_quantities.json",
+        "main.py",
+        "base_main.py"
+      ]
+    },
+    "rule": {
+      "path": "artifacts\\submissions\\learning_round5_20260921_rule.tar.gz",
+      "sha256": "2b28454725af82d78d8c66ada62ccaf5349de69ff743e05eebaeb48b37327fe5",
+      "bytes": 115607,
+      "members": [
+        "policy_runtime.py",
+        "executor.py",
+        "contracts.py",
+        "action_codec.py",
+        "features.py",
+        "selector.py",
+        "bc_agent.py",
+        "common.py",
+        "bc_actor_model.npz",
+        "bc_actor_model.json",
+        "bc_market_model.npz",
+        "bc_market_model.json",
+        "bc_quantities.json",
+        "main.py",
+        "rule_main.py"
+      ]
+    },
+    "learned": {
+      "path": "artifacts\\submissions\\learning_round5_20260921_learned.tar.gz",
+      "sha256": "c1c158e0212827d6d6a367094a64eaa4f32450667a4ba4013366c9e886bf296b",
+      "bytes": 118773,
+      "members": [
+        "policy_runtime.py",
+        "executor.py",
+        "contracts.py",
+        "action_codec.py",
+        "features.py",
+        "selector.py",
+        "bc_agent.py",
+        "common.py",
+        "bc_actor_model.npz",
+        "bc_actor_model.json",
+        "bc_market_model.npz",
+        "bc_market_model.json",
+        "bc_quantities.json",
+        "main.py",
+        "learned_main.py",
+        "strategy_model.json"
+      ]
+    }
+  }
+}

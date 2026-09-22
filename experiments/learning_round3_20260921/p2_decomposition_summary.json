@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-09-21T11:38:48.926614+00:00",
+  "conditions": 32,
+  "all_first_divergences_step264": true,
+  "candidate_scope": "the same two SELL-block orders used by C0/B2 at the first divergence",
+  "methods": {
+    "current_prediction_current_evaluator": {
+      "changed": 32,
+      "total_ordered_oracle_regret": 5452,
+      "mean_ordered_oracle_regret": 170.375
+    },
+    "current_prediction_repaired_evaluator": {
+      "changed": 32,
+      "total_ordered_oracle_regret": 5452,
+      "mean_ordered_oracle_regret": 170.375
+    },
+    "simple_prediction_repaired_evaluator": {
+      "changed": 32,
+      "total_ordered_oracle_regret": 5452,
+      "mean_ordered_oracle_regret": 170.375
+    },
+    "exact_quantities_unordered_oracle": {
+      "changed": 0,
+      "total_ordered_oracle_regret": 0,
+      "mean_ordered_oracle_regret": 0
+    },
+    "exact_ordered_oracle_repaired_evaluator": {
+      "changed": 0,
+      "total_ordered_oracle_regret": 0,
+      "mean_ordered_oracle_regret": 0
+    }
+  },
+  "ordered_oracle_positive_headroom_conditions": 0,
+  "ordered_oracle_total_headroom": 0,
+  "runtime_input_boundary": "opponent private and current/future orders used only for offline oracle columns"
+}

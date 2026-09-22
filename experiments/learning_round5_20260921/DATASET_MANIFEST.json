@@ -1,0 +1,549 @@
+{
+  "created_at_utc": "2026-09-21T14:49:34.421763+00:00",
+  "task": "single-teacher strategy selection feeding typed candidate plans",
+  "teacher_submission": 56216119,
+  "teacher_current_rank": "UNKNOWN",
+  "private_teacher_implementation": "UNKNOWN",
+  "source_split": "experiments\\learning_round4_20260921\\EPISODE_SPLIT_MANIFEST.json",
+  "source_split_sha256": "74b8743b01a4eb1decbee62db73f8d3175eac9082a36411ceb2fac7037969c67",
+  "split_policy": "reused Round4 episode-level train/validation/test assignments; all are development-observed after this run",
+  "row_stride": 3,
+  "feature_names": [
+    "day",
+    "hour",
+    "own_money",
+    "opponent_money",
+    "margin",
+    "shed_wheat",
+    "shed_load",
+    "carried_wheat",
+    "animal_count",
+    "goose_count",
+    "cow_count",
+    "sheep_count",
+    "unfed_animals",
+    "unfed_once_animals",
+    "uncared_animals",
+    "animal_yield_total",
+    "egg_yield",
+    "milk_yield",
+    "wool_yield",
+    "actors_on_positive_animal_yield",
+    "minimum_days_to_animal_production",
+    "crop_count",
+    "harvestable_crops",
+    "immature_positive_yield_crops",
+    "empty_owned_tiles",
+    "hand_count",
+    "remaining_steps",
+    "wheat_price",
+    "egg_price",
+    "milk_price",
+    "wool_price",
+    "max_product_price",
+    "committed_feed_today",
+    "unreserved_wheat",
+    "shed_animal_products",
+    "seed_total"
+  ],
+  "classes": [
+    "NONE",
+    "ANIMAL_LIFECYCLE_REALIZATION",
+    "HARVEST_AND_LAND_CONVERSION",
+    "SELL_AND_REINVEST"
+  ],
+  "label_origin": "observed replay action; deterministic analyst label; simultaneous intent set retained separately",
+  "multi_intent_cardinality": {
+    "2": 3863,
+    "1": 3577,
+    "0": 775,
+    "3": 1385
+  },
+  "class_counts": {
+    "train": {
+      "ANIMAL_LIFECYCLE_REALIZATION": 3939,
+      "SELL_AND_REINVEST": 760,
+      "NONE": 482,
+      "HARVEST_AND_LAND_CONVERSION": 579
+    },
+    "validation": {
+      "ANIMAL_LIFECYCLE_REALIZATION": 1344,
+      "SELL_AND_REINVEST": 235,
+      "NONE": 154,
+      "HARVEST_AND_LAND_CONVERSION": 187
+    },
+    "test": {
+      "ANIMAL_LIFECYCLE_REALIZATION": 1344,
+      "SELL_AND_REINVEST": 240,
+      "NONE": 139,
+      "HARVEST_AND_LAND_CONVERSION": 197
+    }
+  },
+  "shapes": {
+    "x_train": [
+      5760,
+      36
+    ],
+    "y_train": [
+      5760
+    ],
+    "x_validation": [
+      1920,
+      36
+    ],
+    "y_validation": [
+      1920
+    ],
+    "x_test": [
+      1920,
+      36
+    ],
+    "y_test": [
+      1920
+    ]
+  },
+  "episode_rows": [
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 165,
+        "SELL_AND_REINVEST": 34,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 22
+      }
+    },
+    {
+      "episode": 110195241,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 170,
+        "SELL_AND_REINVEST": 26,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 25
+      }
+    },
+    {
+      "episode": 111031244,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 161,
+        "SELL_AND_REINVEST": 35,
+        "NONE": 17,
+        "HARVEST_AND_LAND_CONVERSION": 27
+      }
+    },
+    {
+      "episode": 110438593,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 158,
+        "SELL_AND_REINVEST": 37,
+        "NONE": 15,
+        "HARVEST_AND_LAND_CONVERSION": 30
+      }
+    },
+    {
+      "episode": 110372518,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 168,
+        "SELL_AND_REINVEST": 29,
+        "NONE": 24,
+        "HARVEST_AND_LAND_CONVERSION": 19
+      }
+    },
+    {
+      "episode": 109798422,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 180,
+        "SELL_AND_REINVEST": 30,
+        "NONE": 18,
+        "HARVEST_AND_LAND_CONVERSION": 12
+      }
+    },
+    {
+      "episode": 109149804,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 169,
+        "SELL_AND_REINVEST": 31,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 20
+      }
+    },
+    {
+      "episode": 110571697,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 166,
+        "SELL_AND_REINVEST": 32,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 22
+      }
+    },
+    {
+      "episode": 109564916,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 169,
+        "SELL_AND_REINVEST": 34,
+        "NONE": 18,
+        "HARVEST_AND_LAND_CONVERSION": 19
+      }
+    },
+    {
+      "episode": 108917364,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 161,
+        "SELL_AND_REINVEST": 31,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 29
+      }
+    },
+    {
+      "episode": 109013354,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 169,
+        "SELL_AND_REINVEST": 27,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 24
+      }
+    },
+    {
+      "episode": 110147572,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 167,
+        "SELL_AND_REINVEST": 25,
+        "NONE": 21,
+        "HARVEST_AND_LAND_CONVERSION": 27
+      }
+    },
+    {
+      "episode": 109898617,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 159,
+        "SELL_AND_REINVEST": 37,
+        "NONE": 23,
+        "HARVEST_AND_LAND_CONVERSION": 21
+      }
+    },
+    {
+      "episode": 108720933,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 163,
+        "SELL_AND_REINVEST": 30,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 28
+      }
+    },
+    {
+      "episode": 108801628,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 150,
+        "SELL_AND_REINVEST": 37,
+        "NONE": 16,
+        "HARVEST_AND_LAND_CONVERSION": 37
+      }
+    },
+    {
+      "episode": 110607329,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 177,
+        "SELL_AND_REINVEST": 28,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 16
+      }
+    },
+    {
+      "episode": 110469896,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 161,
+        "SELL_AND_REINVEST": 30,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 29
+      }
+    },
+    {
+      "episode": 110907373,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 177,
+        "SELL_AND_REINVEST": 25,
+        "NONE": 22,
+        "HARVEST_AND_LAND_CONVERSION": 16
+      }
+    },
+    {
+      "episode": 111026476,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 173,
+        "SELL_AND_REINVEST": 25,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 22
+      }
+    },
+    {
+      "episode": 110964284,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 157,
+        "SELL_AND_REINVEST": 31,
+        "NONE": 24,
+        "HARVEST_AND_LAND_CONVERSION": 28
+      }
+    },
+    {
+      "episode": 109386870,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 151,
+        "SELL_AND_REINVEST": 36,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 34
+      }
+    },
+    {
+      "episode": 110338107,
+      "seat": 0,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 159,
+        "SELL_AND_REINVEST": 38,
+        "NONE": 24,
+        "HARVEST_AND_LAND_CONVERSION": 19
+      }
+    },
+    {
+      "episode": 110567121,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 157,
+        "SELL_AND_REINVEST": 39,
+        "NONE": 21,
+        "HARVEST_AND_LAND_CONVERSION": 23
+      }
+    },
+    {
+      "episode": 109687908,
+      "seat": 1,
+      "split": "train",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 152,
+        "SELL_AND_REINVEST": 33,
+        "NONE": 25,
+        "HARVEST_AND_LAND_CONVERSION": 30
+      }
+    },
+    {
+      "episode": 110315400,
+      "seat": 1,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 158,
+        "SELL_AND_REINVEST": 32,
+        "NONE": 25,
+        "HARVEST_AND_LAND_CONVERSION": 25
+      }
+    },
+    {
+      "episode": 110102993,
+      "seat": 0,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 173,
+        "SELL_AND_REINVEST": 27,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 20
+      }
+    },
+    {
+      "episode": 109176211,
+      "seat": 1,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 173,
+        "SELL_AND_REINVEST": 29,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 19
+      }
+    },
+    {
+      "episode": 108836562,
+      "seat": 1,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 167,
+        "SELL_AND_REINVEST": 26,
+        "NONE": 16,
+        "HARVEST_AND_LAND_CONVERSION": 31
+      }
+    },
+    {
+      "episode": 108711662,
+      "seat": 1,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 172,
+        "SELL_AND_REINVEST": 29,
+        "NONE": 18,
+        "HARVEST_AND_LAND_CONVERSION": 21
+      }
+    },
+    {
+      "episode": 108785323,
+      "seat": 1,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 166,
+        "SELL_AND_REINVEST": 24,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 30
+      }
+    },
+    {
+      "episode": 108939100,
+      "seat": 0,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 164,
+        "SELL_AND_REINVEST": 35,
+        "NONE": 17,
+        "HARVEST_AND_LAND_CONVERSION": 24
+      }
+    },
+    {
+      "episode": 110814279,
+      "seat": 1,
+      "split": "validation",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 171,
+        "SELL_AND_REINVEST": 33,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 17
+      }
+    },
+    {
+      "episode": 108737646,
+      "seat": 0,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 170,
+        "SELL_AND_REINVEST": 25,
+        "NONE": 19,
+        "HARVEST_AND_LAND_CONVERSION": 26
+      }
+    },
+    {
+      "episode": 108746799,
+      "seat": 0,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 173,
+        "SELL_AND_REINVEST": 24,
+        "NONE": 18,
+        "HARVEST_AND_LAND_CONVERSION": 25
+      }
+    },
+    {
+      "episode": 109613476,
+      "seat": 1,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 166,
+        "SELL_AND_REINVEST": 36,
+        "NONE": 15,
+        "HARVEST_AND_LAND_CONVERSION": 23
+      }
+    },
+    {
+      "episode": 108848838,
+      "seat": 1,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 175,
+        "SELL_AND_REINVEST": 30,
+        "NONE": 18,
+        "HARVEST_AND_LAND_CONVERSION": 17
+      }
+    },
+    {
+      "episode": 110705635,
+      "seat": 0,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 167,
+        "SELL_AND_REINVEST": 26,
+        "NONE": 16,
+        "HARVEST_AND_LAND_CONVERSION": 31
+      }
+    },
+    {
+      "episode": 108859780,
+      "seat": 1,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 178,
+        "SELL_AND_REINVEST": 28,
+        "NONE": 15,
+        "HARVEST_AND_LAND_CONVERSION": 19
+      }
+    },
+    {
+      "episode": 109952844,
+      "seat": 1,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 156,
+        "SELL_AND_REINVEST": 36,
+        "NONE": 20,
+        "HARVEST_AND_LAND_CONVERSION": 28
+      }
+    },
+    {
+      "episode": 110222493,
+      "seat": 1,
+      "split": "test",
+      "labels": {
+        "ANIMAL_LIFECYCLE_REALIZATION": 159,
+        "SELL_AND_REINVEST": 35,
+        "NONE": 18,
+        "HARVEST_AND_LAND_CONVERSION": 28
+      }
+    }
+  ],
+  "lossless_codec_actions_checked": 28760,
+  "hidden_inputs_used": []
+}

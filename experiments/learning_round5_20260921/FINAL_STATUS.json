@@ -1,0 +1,69 @@
+{
+  "created_at_utc": "2026-09-21T15:48:21.685961+00:00",
+  "status": "ROUND5_RESEARCH_COMPLETE_NO_SUBMISSION_CANDIDATE",
+  "kaggle_submission_performed": false,
+  "new_online_games": 0,
+  "new_online_rating": null,
+  "game_money_is_not_rating": true,
+  "rating_2000_achieved": "UNKNOWN_NOT_MEASURED",
+  "rating_3000_achieved": "UNKNOWN_NOT_MEASURED",
+  "limited_submission_candidate": null,
+  "limited_submission_decision": "DEFER",
+  "champion_promotion": "FAIL",
+  "research_continuation": "YES",
+  "round5_training_executed": true,
+  "round5_checkpoint_sha256": "6e61e6f56ff6134acef068f4ffa57a4ec987c81755daa8dfe8518c7828a99c66",
+  "learned_archive": {
+    "path": "artifacts\\submissions\\learning_round5_20260921_learned.tar.gz",
+    "sha256": "c1c158e0212827d6d6a367094a64eaa4f32450667a4ba4013366c9e886bf296b",
+    "bytes": 118773,
+    "members": [
+      "policy_runtime.py",
+      "executor.py",
+      "contracts.py",
+      "action_codec.py",
+      "features.py",
+      "selector.py",
+      "bc_agent.py",
+      "common.py",
+      "bc_actor_model.npz",
+      "bc_actor_model.json",
+      "bc_market_model.npz",
+      "bc_market_model.json",
+      "bc_quantities.json",
+      "main.py",
+      "learned_main.py",
+      "strategy_model.json"
+    ]
+  },
+  "archive_loader_checks_passed": true,
+  "required_execution_contracts": {
+    "status": "PASS",
+    "reason": "all 8 required contracts passed",
+    "scope": "declared P1 semantic contracts; unrelated base primitives with unobservable day-boundary outcomes remain UNKNOWN",
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554",
+      "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871",
+      "experiments/learning_round5_20260921/pytest_round3_round4_round5.xml#13d9ac21b1d422fa2a8f6e7f4541945f519dc1c34726fdff3c2fb11c37ea35fa"
+    ]
+  },
+  "formal_external_result": {
+    "games": 4,
+    "clusters": 2,
+    "mean_delta_self": -760.5,
+    "mean_delta_opponent": 1245.0,
+    "mean_delta_margin": -2005.5,
+    "positive_clusters": 1,
+    "negative_clusters": 1
+  },
+  "formal_external_all_losses": true,
+  "online_permission_required_before_any_future_submission": true,
+  "round3_384_scan_preserved_unmodified": true,
+  "preexisting_tracked_diff_preserved": true,
+  "unexecuted": [
+    "Kaggle submission and online rating measurement",
+    "large-scale GPU/API/cloud training",
+    "evaluation of every Round3 384-scan continuation",
+    "opponent-conditioned exact market price prediction (opponent concurrent order is unobserved at decision time)"
+  ]
+}

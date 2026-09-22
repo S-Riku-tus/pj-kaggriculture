@@ -1,0 +1,112 @@
+{
+  "package": {
+    "tested": true,
+    "valid": true,
+    "last_callable": "agent",
+    "full_episodes": 2,
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/loader/learned_seat0.json#645720eb73839fb42ec1e704104f234c2d2a10166c05654e689126b77221927d",
+      "experiments/learning_round5_20260921/loader/learned_seat1.json#fbc1a71ff68a0d5c8fc60e9b9173036e96d28b1fa8870ee5e11e40457600f2c3"
+    ]
+  },
+  "execution": {
+    "known_critical_bug": false,
+    "scope": "declared P1 semantic contracts; unrelated base primitives with unobservable day-boundary outcomes remain UNKNOWN",
+    "required_contracts": [
+      {
+        "name": "round4_exact_duplicate_fixtures",
+        "status": "PASS"
+      },
+      {
+        "name": "farmer_to_hand_ordered_resource_consumption",
+        "status": "PASS"
+      },
+      {
+        "name": "formal_panel_duplicate_harvest_zero",
+        "status": "PASS"
+      },
+      {
+        "name": "formal_panel_immature_harvest_zero",
+        "status": "PASS"
+      },
+      {
+        "name": "formal_panel_attributed_failed_zero",
+        "status": "PASS"
+      },
+      {
+        "name": "cow_to_milk_to_shed_to_cash",
+        "status": "PASS"
+      },
+      {
+        "name": "sheep_to_wool_to_shed_to_cash",
+        "status": "PASS"
+      },
+      {
+        "name": "animal_yield_not_double_counted",
+        "status": "PASS"
+      }
+    ],
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554",
+      "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871",
+      "experiments/learning_round5_20260921/pytest_round3_round4_round5.xml#13d9ac21b1d422fa2a8f6e7f4541945f519dc1c34726fdff3c2fb11c37ea35fa"
+    ]
+  },
+  "training": {
+    "optimizer_updates": 216,
+    "parameter_change_l2": 2.4446340123362695,
+    "checkpoint_valid": true,
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/TRAINING_RECORD.json#f4f6a76f3b91034e6d9368c5c837a9ec186875b4747136332cf73648c4691e50",
+      "agents/learning_round5_20260921/strategy_model.json#6e61e6f56ff6134acef068f4ffa57a4ec987c81755daa8dfe8518c7828a99c66"
+    ]
+  },
+  "model": {
+    "model_loads": 3,
+    "inference_calls": 2876,
+    "invalid_fallbacks": 0,
+    "reloaded": true,
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871"
+    ]
+  },
+  "skill": {
+    "evaluated": true,
+    "completed": 3,
+    "required": 3,
+    "failed": 0,
+    "unknown": 0,
+    "scope": "fixed-engine cow/sheep end-to-end realization and duplicate animal yield",
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554"
+    ]
+  },
+  "local_economic": {
+    "evaluated": true,
+    "clusters": 2,
+    "mean_delta_self": 228,
+    "mean_delta_opponent": 0,
+    "mean_delta_margin": 228,
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554"
+    ]
+  },
+  "external_economic": {
+    "evaluated": true,
+    "clusters": 2,
+    "mean_delta_self": -760.5,
+    "mean_delta_opponent": 1245.0,
+    "mean_delta_margin": -2005.5,
+    "evidence_ids": [
+      "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871"
+    ]
+  },
+  "online": {
+    "evaluated": false,
+    "games": 0,
+    "evidence_ids": []
+  },
+  "diagnostic_hypothesis": "candidate-plan selector must improve qeinstein allocation without regressing the now-correct shared executor",
+  "limited_submission_decision": "DEFER",
+  "limited_submission_reason": "all four learned proxy games lost and the two family-seed clusters disagree; no Round5 online submission is proposed"
+}

@@ -1,0 +1,24 @@
+{
+  "common": [
+    {"source": "policy_runtime.py", "target": "policy_runtime.py"},
+    {"source": "executor.py", "target": "executor.py"},
+    {"source": "contracts.py", "target": "contracts.py"},
+    {"source": "action_codec.py", "target": "action_codec.py"},
+    {"source": "features.py", "target": "features.py"},
+    {"source": "selector.py", "target": "selector.py"},
+    {"source": "../learning_next_20260921/bc_agent.py", "target": "bc_agent.py"},
+    {"source": "../learning_next_20260921/common.py", "target": "common.py"},
+    {"source": "../learning_next_20260921/bc_actor_model.npz", "target": "bc_actor_model.npz"},
+    {"source": "../learning_next_20260921/bc_actor_model.json", "target": "bc_actor_model.json"},
+    {"source": "../learning_next_20260921/bc_market_model.npz", "target": "bc_market_model.npz"},
+    {"source": "../learning_next_20260921/bc_market_model.json", "target": "bc_market_model.json"},
+    {"source": "../learning_next_20260921/bc_quantities.json", "target": "bc_quantities.json"}
+  ],
+  "none": [{"source": "base_entrypoint.py", "target": "main.py"}, {"source": "base_main.py", "target": "base_main.py"}],
+  "rule": [{"source": "rule_entrypoint.py", "target": "main.py"}, {"source": "rule_main.py", "target": "rule_main.py"}],
+  "learned": [
+    {"source": "main.py", "target": "main.py"},
+    {"source": "learned_main.py", "target": "learned_main.py"},
+    {"source": "strategy_model.json", "target": "strategy_model.json"}
+  ]
+}

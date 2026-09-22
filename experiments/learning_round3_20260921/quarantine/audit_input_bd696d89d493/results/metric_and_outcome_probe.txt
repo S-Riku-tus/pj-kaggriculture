@@ -1,0 +1,43 @@
+     split      model  horizon  cells    brier  quantity_mae
+validation    learned        1 822924 0.101470      0.327987
+validation    learned        4 818154 0.127377      1.022175
+validation    learned       24 794556 0.103708      3.443482
+validation       zero        1 822924 0.047928      0.264097
+validation       zero        4 818154 0.165062      0.984727
+validation       zero       24 794556 0.463916      5.808857
+validation  frequency        1 822924 0.041453      0.452100
+validation  frequency        4 818154 0.119324      1.452051
+validation  frequency       24 794556 0.183544      6.100131
+validation production        1 822924 0.248010      7.270838
+validation production        4 818154 0.260755      8.353139
+validation production       24 794556 0.193360     14.182471
+      test    learned        1 829368 0.102336      0.379045
+      test    learned        4 824544 0.128781      1.007597
+      test    learned       24 800226 0.103009      3.372164
+      test       zero        1 829368 0.048926      0.265616
+      test       zero        4 824544 0.167859      0.972073
+      test       zero       24 800226 0.464776      5.725879
+      test  frequency        1 829368 0.042202      0.452612
+      test  frequency        4 824544 0.120868      1.435357
+      test  frequency       24 800226 0.182708      6.019721
+      test production        1 829368 0.247319      7.153480
+      test production        4 824544 0.259743      8.227821
+      test production       24 800226 0.192356     14.016244
+Training targets (428400, 27) (428400, 27)
+MELON:1 n 428380 positive 6593 pos_weight 20.0
+FERTILIZER:1 n 428380 positive 56988 pos_weight 6.517021127254861
+animal_count c0 242 13 [([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([5, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count c0 264 16 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([5, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count c0 288 17 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 1), ([6, 2], 'SHEEP', 0), ([2, 3], 'SHEEP', 0), ([3, 3], 'SHEEP', 1), ([4, 3], 'COW', 0), ([5, 3], 'COW', 1), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 1), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count c0 312 17 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([2, 3], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([5, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count c0 336 17 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([2, 3], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([5, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count a2 242 13 [([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([5, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count a2 264 16 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([5, 3], 'COW', 1), ([6, 3], 'SHEEP', 1), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([5, 4], 'COW', 1), ([6, 4], 'SHEEP', 1), ([7, 4], 'SHEEP', 1)]
+animal_count a2 288 15 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 1), ([6, 2], 'SHEEP', 0), ([2, 3], 'SHEEP', 0), ([3, 3], 'SHEEP', 1), ([4, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count a2 312 15 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([2, 3], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+animal_count a2 336 15 [([4, 1], 'SHEEP', 0), ([3, 2], 'SHEEP', 0), ([4, 2], 'COW', 0), ([5, 2], 'SHEEP', 0), ([6, 2], 'SHEEP', 0), ([2, 3], 'SHEEP', 0), ([3, 3], 'SHEEP', 0), ([4, 3], 'COW', 0), ([6, 3], 'SHEEP', 0), ([1, 4], 'SHEEP', 0), ([2, 4], 'COW', 0), ([3, 4], 'SHEEP', 0), ([4, 4], 'COW', 0), ([6, 4], 'SHEEP', 0), ([7, 4], 'SHEEP', 0)]
+                 games  sum_terminal_delta  mean_terminal_delta
+job                                                            
+COLLECT_CARE        14                 0.0             0.000000
+COLLECT_DROP         6            -73508.0        -12251.333333
+FERTILIZE_WATER     12            -25589.0         -2132.416667

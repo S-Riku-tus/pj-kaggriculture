@@ -1,0 +1,3378 @@
+[
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092421,
+    "seat": 0,
+    "selected_step": 279,
+    "first_difference": 279.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        2,
+        2
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a10",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 1.9540984630584717,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 72,
+    "n_changed_constant_features": 55,
+    "top_features": [
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      }
+    ],
+    "terminal_margin_delta": -2843.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092421,
+    "seat": 1,
+    "selected_step": 281,
+    "first_difference": 281.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        3,
+        1
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a8",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 10.403629302978516,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 73,
+    "n_changed_constant_features": 61,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      }
+    ],
+    "terminal_margin_delta": -3496.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092422,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 44.36023712158203,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 37,
+    "n_changed_constant_features": 30,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092422,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 43.41271209716797,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 36,
+    "n_changed_constant_features": 23,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092423,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 8.5621976852417,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 22,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092423,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 8.192338943481445,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 22,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092424,
+    "seat": 0,
+    "selected_step": 242,
+    "first_difference": 242.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        5,
+        4
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_DROP",
+      "candidate_id": "COLLECT_DROP:a8",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "DROP"
+        ]
+      ],
+      "reservations": {
+        "shed_capacity": 1
+      },
+      "success_effect": "fertilizer deposited in shed",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 43.664058685302734,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 920.0,
+    "n_z_gt_10": 2,
+    "n_changed_constant_features": 1,
+    "top_features": [
+      {
+        "name": "history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.08000000566244125,
+        "scale": 0.0010000000474974513,
+        "z": 920.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.04307691752910614,
+        "scale": 0.03988148272037506,
+        "z": 23.994169235229492
+      },
+      {
+        "name": "farm1:public_yield:MILK",
+        "x": 0.10999999940395355,
+        "mean": 0.1192307323217392,
+        "scale": 0.0026646931655704975,
+        "z": -3.4640884399414062
+      },
+      {
+        "name": "candidate_actor:private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.043321702629327774,
+        "scale": 0.049540258944034576,
+        "z": 2.6234238147735596
+      },
+      {
+        "name": "farm1:production_phase:WOOL",
+        "x": 0.4047619104385376,
+        "mean": 0.33479854464530945,
+        "scale": 0.0270913727581501,
+        "z": 2.582496166229248
+      },
+      {
+        "name": "private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.07997854799032211,
+        "scale": 0.04108505696058273,
+        "z": 2.271099328994751
+      },
+      {
+        "name": "farm0:public_age:MILK",
+        "x": 0.23888888955116272,
+        "mean": 0.2048763483762741,
+        "scale": 0.015002137050032616,
+        "z": 2.2671797275543213
+      },
+      {
+        "name": "candidate_actor:history:market_delta:1:FERTILIZER",
+        "x": -0.10999999940395355,
+        "mean": -0.023846156895160675,
+        "scale": 0.03981466218829155,
+        "z": -2.163872241973877
+      }
+    ],
+    "terminal_margin_delta": -12235.0
+  },
+  {
+    "family": "mooman_e052a",
+    "seed": 2026092424,
+    "seat": 1,
+    "selected_step": 242,
+    "first_difference": 242.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        5,
+        4
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_DROP",
+      "candidate_id": "COLLECT_DROP:a8",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "DROP"
+        ]
+      ],
+      "reservations": {
+        "shed_capacity": 1
+      },
+      "success_effect": "fertilizer deposited in shed",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 43.49642562866211,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 920.0,
+    "n_z_gt_10": 2,
+    "n_changed_constant_features": 1,
+    "top_features": [
+      {
+        "name": "history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.08000000566244125,
+        "scale": 0.0010000000474974513,
+        "z": 920.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.04307691752910614,
+        "scale": 0.03988148272037506,
+        "z": 23.994169235229492
+      },
+      {
+        "name": "farm0:public_yield:MILK",
+        "x": 0.10999999940395355,
+        "mean": 0.1192307323217392,
+        "scale": 0.0026646931655704975,
+        "z": -3.4640884399414062
+      },
+      {
+        "name": "candidate_actor:private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.043321702629327774,
+        "scale": 0.049540258944034576,
+        "z": 2.6234238147735596
+      },
+      {
+        "name": "farm0:production_phase:WOOL",
+        "x": 0.4047619104385376,
+        "mean": 0.33253973722457886,
+        "scale": 0.02892535924911499,
+        "z": 2.4968461990356445
+      },
+      {
+        "name": "farm0:crop:STRAWBERRY",
+        "x": 0.1899999976158142,
+        "mean": 0.19846153259277344,
+        "scale": 0.003608014667406678,
+        "z": -2.345205307006836
+      },
+      {
+        "name": "farm0:public_maintenance:STRAWBERRY",
+        "x": 0.1899999976158142,
+        "mean": 0.19846153259277344,
+        "scale": 0.003608014667406678,
+        "z": -2.345205307006836
+      },
+      {
+        "name": "private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.07997854799032211,
+        "scale": 0.04108505696058273,
+        "z": 2.271099328994751
+      }
+    ],
+    "terminal_margin_delta": -12235.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092421,
+    "seat": 0,
+    "selected_step": 284,
+    "first_difference": 284.0,
+    "candidate": {
+      "actor_index": 2,
+      "target": [
+        8,
+        3
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a2",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 0.3924412131309509,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 69,
+    "n_changed_constant_features": 48,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:STRAWBERRY",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4398428797721863,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 439.8428649902344
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4398428797721863,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 439.8428649902344
+      }
+    ],
+    "terminal_margin_delta": -713.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092421,
+    "seat": 1,
+    "selected_step": 287,
+    "first_difference": 287.0,
+    "candidate": {
+      "actor_index": 5,
+      "target": [
+        1,
+        3
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a5",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 23.359907150268555,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 69,
+    "n_changed_constant_features": 46,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4620981216430664,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 462.0981140136719
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4620981216430664,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 462.0981140136719
+      }
+    ],
+    "terminal_margin_delta": -1.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092422,
+    "seat": 0,
+    "selected_step": 279,
+    "first_difference": 279.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        2,
+        2
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a10",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 20.156051635742188,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 69,
+    "n_changed_constant_features": 54,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      }
+    ],
+    "terminal_margin_delta": -2134.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092422,
+    "seat": 1,
+    "selected_step": 279,
+    "first_difference": 279.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        2,
+        2
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a10",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 6.599294185638428,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 71,
+    "n_changed_constant_features": 52,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      }
+    ],
+    "terminal_margin_delta": -2444.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092423,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 13.602303504943848,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1019.9999389648438,
+    "n_z_gt_10": 33,
+    "n_changed_constant_features": 28,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0099999904632568,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1019.9999389648438
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092423,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 11.266748428344727,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1019.9999389648438,
+    "n_z_gt_10": 33,
+    "n_changed_constant_features": 28,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0099999904632568,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1019.9999389648438
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092424,
+    "seat": 0,
+    "selected_step": 286,
+    "first_difference": 286.0,
+    "candidate": {
+      "actor_index": 2,
+      "target": [
+        8,
+        2
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a2",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 2.60783052444458,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 71,
+    "n_changed_constant_features": 49,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:STRAWBERRY",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      }
+    ],
+    "terminal_margin_delta": -63.0
+  },
+  {
+    "family": "qeinstein_moev2",
+    "seed": 2026092424,
+    "seat": 1,
+    "selected_step": 287,
+    "first_difference": 287.0,
+    "candidate": {
+      "actor_index": 5,
+      "target": [
+        1,
+        3
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a5",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 20.816728591918945,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 67,
+    "n_changed_constant_features": 44,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4620981216430664,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 462.0981140136719
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4620981216430664,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 462.0981140136719
+      }
+    ],
+    "terminal_margin_delta": 15.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092421,
+    "seat": 0,
+    "selected_step": 279,
+    "first_difference": 279.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        2,
+        2
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a10",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 1.9143158197402954,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 72,
+    "n_changed_constant_features": 55,
+    "top_features": [
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      }
+    ],
+    "terminal_margin_delta": -3491.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092421,
+    "seat": 1,
+    "selected_step": 281,
+    "first_difference": 281.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        3,
+        1
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a8",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 10.384474754333496,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 73,
+    "n_changed_constant_features": 61,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      }
+    ],
+    "terminal_margin_delta": -4080.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092422,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 11.497583389282227,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 35,
+    "n_changed_constant_features": 28,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092422,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 8.968210220336914,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 35,
+    "n_changed_constant_features": 28,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092423,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 9.575432777404785,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 22,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092423,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 7.060723304748535,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 22,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092424,
+    "seat": 0,
+    "selected_step": 242,
+    "first_difference": 242.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        5,
+        4
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_DROP",
+      "candidate_id": "COLLECT_DROP:a8",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "DROP"
+        ]
+      ],
+      "reservations": {
+        "shed_capacity": 1
+      },
+      "success_effect": "fertilizer deposited in shed",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 42.43492889404297,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 920.0,
+    "n_z_gt_10": 2,
+    "n_changed_constant_features": 1,
+    "top_features": [
+      {
+        "name": "history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.08000000566244125,
+        "scale": 0.0010000000474974513,
+        "z": 920.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.04307691752910614,
+        "scale": 0.03988148272037506,
+        "z": 23.994169235229492
+      },
+      {
+        "name": "candidate_actor:shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.048076923936605453,
+        "scale": 0.06081303209066391,
+        "z": 3.3203914165496826
+      },
+      {
+        "name": "history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.06076924502849579,
+        "scale": 0.021648071706295013,
+        "z": -3.198009967803955
+      },
+      {
+        "name": "history:market_delta:4:TOMATO",
+        "x": -0.029999999329447746,
+        "mean": -0.016153845936059952,
+        "scale": 0.004865042399615049,
+        "z": -2.8460497856140137
+      },
+      {
+        "name": "shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.08653846383094788,
+        "scale": 0.05769231170415878,
+        "z": 2.8333330154418945
+      },
+      {
+        "name": "candidate_actor:history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.03307691961526871,
+        "scale": 0.034280434250831604,
+        "z": -2.8273584842681885
+      },
+      {
+        "name": "candidate_actor:private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.043321702629327774,
+        "scale": 0.049540258944034576,
+        "z": 2.6234238147735596
+      }
+    ],
+    "terminal_margin_delta": -10077.0
+  },
+  {
+    "family": "smart_farm",
+    "seed": 2026092424,
+    "seat": 1,
+    "selected_step": 242,
+    "first_difference": 242.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        5,
+        4
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_DROP",
+      "candidate_id": "COLLECT_DROP:a8",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "DROP"
+        ]
+      ],
+      "reservations": {
+        "shed_capacity": 1
+      },
+      "success_effect": "fertilizer deposited in shed",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 42.50977325439453,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 920.0,
+    "n_z_gt_10": 2,
+    "n_changed_constant_features": 1,
+    "top_features": [
+      {
+        "name": "history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.08000000566244125,
+        "scale": 0.0010000000474974513,
+        "z": 920.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.04307691752910614,
+        "scale": 0.03988148272037506,
+        "z": 23.994169235229492
+      },
+      {
+        "name": "candidate_actor:shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.048076923936605453,
+        "scale": 0.06081303209066391,
+        "z": 3.3203914165496826
+      },
+      {
+        "name": "history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.06076924502849579,
+        "scale": 0.021648071706295013,
+        "z": -3.198009967803955
+      },
+      {
+        "name": "history:market_delta:4:TOMATO",
+        "x": -0.029999999329447746,
+        "mean": -0.016153845936059952,
+        "scale": 0.004865042399615049,
+        "z": -2.8460497856140137
+      },
+      {
+        "name": "shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.08653846383094788,
+        "scale": 0.05769231170415878,
+        "z": 2.8333330154418945
+      },
+      {
+        "name": "candidate_actor:history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.03307691961526871,
+        "scale": 0.034280434250831604,
+        "z": -2.8273584842681885
+      },
+      {
+        "name": "candidate_actor:private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.043321702629327774,
+        "scale": 0.049540258944034576,
+        "z": 2.6234238147735596
+      }
+    ],
+    "terminal_margin_delta": -10077.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092421,
+    "seat": 0,
+    "selected_step": 279,
+    "first_difference": 279.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        2,
+        2
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a10",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 1.9541199207305908,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 72,
+    "n_changed_constant_features": 55,
+    "top_features": [
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.42749154567718506,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 427.49151611328125
+      }
+    ],
+    "terminal_margin_delta": -2843.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092421,
+    "seat": 1,
+    "selected_step": 281,
+    "first_difference": 281.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        3,
+        1
+      ],
+      "deadline_step": 287,
+      "control_action": [
+        "WATER"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "FERTILIZE_WATER",
+      "candidate_id": "FERTILIZE_WATER:a8",
+      "sequence": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "reservations": {
+        "carried:FERTILIZER": 1
+      },
+      "success_effect": "fertilized and watered",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 10.403607368469238,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 999.9999389648438,
+    "n_z_gt_10": 73,
+    "n_changed_constant_features": 61,
+    "top_features": [
+      {
+        "name": "job:FERTILIZE_WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm0:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_kind:PLANT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "farm1:production_phase:MELON",
+        "x": 0.0,
+        "mean": 1.0,
+        "scale": 0.0010000000474974513,
+        "z": -999.9999389648438
+      },
+      {
+        "name": "candidate_actor:actor:tile_crop:WHEAT",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "control_op:WATER",
+        "x": 1.0,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 999.9999389648438
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.4513416886329651,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 451.3416748046875
+      }
+    ],
+    "terminal_margin_delta": -3496.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092422,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 10.594088554382324,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 35,
+    "n_changed_constant_features": 28,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092422,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 7.861596584320068,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 21,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092423,
+    "seat": 0,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 8.562224388122559,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 22,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092423,
+    "seat": 1,
+    "selected_step": 254,
+    "first_difference": 254.0,
+    "candidate": {
+      "actor_index": 10,
+      "target": [
+        4,
+        2
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "CARE"
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_CARE",
+      "candidate_id": "COLLECT_CARE:a10",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "reservations": {},
+      "success_effect": "fertilizer carried and care banked",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 8.192317008972168,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 1080.0,
+    "n_z_gt_10": 34,
+    "n_changed_constant_features": 22,
+    "top_features": [
+      {
+        "name": "history:market_delta:24:MELON",
+        "x": 1.0700000524520874,
+        "mean": -0.010000000707805157,
+        "scale": 0.0010000000474974513,
+        "z": 1080.0
+      },
+      {
+        "name": "history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:MELON",
+        "x": 0.5400000214576721,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 540.0
+      },
+      {
+        "name": "history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:history:own_sell:4:MELON",
+        "x": 0.47999998927116394,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 479.9999694824219
+      },
+      {
+        "name": "candidate_actor:private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:MILK",
+        "x": 0.3243183493614197,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 324.3183288574219
+      },
+      {
+        "name": "private:carried:FERTILIZER",
+        "x": 0.298626571893692,
+        "mean": 0.0,
+        "scale": 0.0010000000474974513,
+        "z": 298.6265563964844
+      }
+    ],
+    "terminal_margin_delta": 0.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092424,
+    "seat": 0,
+    "selected_step": 242,
+    "first_difference": 242.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        5,
+        4
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_DROP",
+      "candidate_id": "COLLECT_DROP:a8",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "DROP"
+        ]
+      ],
+      "reservations": {
+        "shed_capacity": 1
+      },
+      "success_effect": "fertilizer deposited in shed",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 42.36338806152344,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 920.0,
+    "n_z_gt_10": 2,
+    "n_changed_constant_features": 1,
+    "top_features": [
+      {
+        "name": "history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.08000000566244125,
+        "scale": 0.0010000000474974513,
+        "z": 920.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.04307691752910614,
+        "scale": 0.03988148272037506,
+        "z": 23.994169235229492
+      },
+      {
+        "name": "candidate_actor:shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.048076923936605453,
+        "scale": 0.06081303209066391,
+        "z": 3.3203914165496826
+      },
+      {
+        "name": "history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.06076924502849579,
+        "scale": 0.021648071706295013,
+        "z": -3.198009967803955
+      },
+      {
+        "name": "history:market_delta:4:TOMATO",
+        "x": -0.029999999329447746,
+        "mean": -0.016153845936059952,
+        "scale": 0.004865042399615049,
+        "z": -2.8460497856140137
+      },
+      {
+        "name": "shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.08653846383094788,
+        "scale": 0.05769231170415878,
+        "z": 2.8333330154418945
+      },
+      {
+        "name": "candidate_actor:history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.03307691961526871,
+        "scale": 0.034280434250831604,
+        "z": -2.8273584842681885
+      },
+      {
+        "name": "candidate_actor:private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.043321702629327774,
+        "scale": 0.049540258944034576,
+        "z": 2.6234238147735596
+      }
+    ],
+    "terminal_margin_delta": -14442.0
+  },
+  {
+    "family": "souvik_v4",
+    "seed": 2026092424,
+    "seat": 1,
+    "selected_step": 242,
+    "first_difference": 242.0,
+    "candidate": {
+      "actor_index": 8,
+      "target": [
+        5,
+        4
+      ],
+      "deadline_step": 263,
+      "control_action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "rejoin": {
+        "position_unchanged": true,
+        "base_called_once_per_turn": true,
+        "tape_rewind": false
+      },
+      "job_type": "COLLECT_DROP",
+      "candidate_id": "COLLECT_DROP:a8",
+      "sequence": [
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "DROP"
+        ]
+      ],
+      "reservations": {
+        "shed_capacity": 1
+      },
+      "success_effect": "fertilizer deposited in shed",
+      "abort_conditions": [
+        "actor moved",
+        "deadline passed",
+        "next primitive no longer legal"
+      ]
+    },
+    "predicted_value": 42.19710922241211,
+    "predicted_risk": 9.357623589846195e-14,
+    "max_abs_z": 920.0,
+    "n_z_gt_10": 2,
+    "n_changed_constant_features": 1,
+    "top_features": [
+      {
+        "name": "history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.08000000566244125,
+        "scale": 0.0010000000474974513,
+        "z": 920.0
+      },
+      {
+        "name": "candidate_actor:history:own_sell:24:WOOL",
+        "x": 1.0,
+        "mean": 0.04307691752910614,
+        "scale": 0.03988148272037506,
+        "z": 23.994169235229492
+      },
+      {
+        "name": "candidate_actor:shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.048076923936605453,
+        "scale": 0.06081303209066391,
+        "z": 3.3203914165496826
+      },
+      {
+        "name": "history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.06076924502849579,
+        "scale": 0.021648071706295013,
+        "z": -3.198009967803955
+      },
+      {
+        "name": "history:market_delta:4:TOMATO",
+        "x": -0.029999999329447746,
+        "mean": -0.016153845936059952,
+        "scale": 0.004865042399615049,
+        "z": -2.8460497856140137
+      },
+      {
+        "name": "shop_count:PIZZA_SHOP",
+        "x": 0.25,
+        "mean": 0.08653846383094788,
+        "scale": 0.05769231170415878,
+        "z": 2.8333330154418945
+      },
+      {
+        "name": "candidate_actor:history:market_delta:24:TOMATO",
+        "x": -0.12999999523162842,
+        "mean": -0.03307691961526871,
+        "scale": 0.034280434250831604,
+        "z": -2.8273584842681885
+      },
+      {
+        "name": "candidate_actor:private:shed:SHEEP",
+        "x": 0.1732867956161499,
+        "mean": 0.043321702629327774,
+        "scale": 0.049540258944034576,
+        "z": 2.6234238147735596
+      }
+    ],
+    "terminal_margin_delta": -14442.0
+  }
+]

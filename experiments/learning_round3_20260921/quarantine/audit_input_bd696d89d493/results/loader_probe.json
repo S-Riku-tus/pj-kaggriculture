@@ -1,0 +1,152 @@
+[
+  {
+    "archive": "learning_round2_20260921_a2.tar.gz",
+    "sha256": "f271cc6abc9f963379f516c85b4627c96e564ff01ba7abf4797cd6c12470922a",
+    "tests": [
+      {
+        "mode": "empty_globals",
+        "success": false,
+        "error_type": "KeyError",
+        "error": "\"'__name__' not in globals\"",
+        "last_traceback_line": "KeyError: \"'__name__' not in globals\""
+      },
+      {
+        "mode": "injected_globals",
+        "success": true,
+        "last_callable": "policy_trace"
+      },
+      {
+        "mode": "no_numpy",
+        "success": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "numpy deliberately unavailable in this diagnostic",
+        "last_traceback_line": "ModuleNotFoundError: numpy deliberately unavailable in this diagnostic"
+      }
+    ]
+  },
+  {
+    "archive": "learning_round2_20260921_a2_keep.tar.gz",
+    "sha256": "de8da4ea7df42b267a00146788145024ed709cf6ee9432caef59a43ac6392fc1",
+    "tests": [
+      {
+        "mode": "empty_globals",
+        "success": false,
+        "error_type": "KeyError",
+        "error": "\"'__name__' not in globals\"",
+        "last_traceback_line": "KeyError: \"'__name__' not in globals\""
+      },
+      {
+        "mode": "injected_globals",
+        "success": true,
+        "last_callable": "policy_trace"
+      },
+      {
+        "mode": "no_numpy",
+        "success": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "numpy deliberately unavailable in this diagnostic",
+        "last_traceback_line": "ModuleNotFoundError: numpy deliberately unavailable in this diagnostic"
+      }
+    ]
+  },
+  {
+    "archive": "learning_round2_20260921_a2_nonlearned.tar.gz",
+    "sha256": "3168f420ae9b0146f262291bfc7c92dd338fff655a67e82d897793e2cc1bfa63",
+    "tests": [
+      {
+        "mode": "empty_globals",
+        "success": false,
+        "error_type": "KeyError",
+        "error": "\"'__name__' not in globals\"",
+        "last_traceback_line": "KeyError: \"'__name__' not in globals\""
+      },
+      {
+        "mode": "injected_globals",
+        "success": true,
+        "last_callable": "policy_trace"
+      },
+      {
+        "mode": "no_numpy",
+        "success": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "numpy deliberately unavailable in this diagnostic",
+        "last_traceback_line": "ModuleNotFoundError: numpy deliberately unavailable in this diagnostic"
+      }
+    ]
+  },
+  {
+    "archive": "learning_round2_20260921_b2.tar.gz",
+    "sha256": "b1c381965c0434a3814a09d987bf03ce075bcda4ccf85b6b639578861663e2c1",
+    "tests": [
+      {
+        "mode": "empty_globals",
+        "success": false,
+        "error_type": "NameError",
+        "error": "name '__file__' is not defined",
+        "last_traceback_line": "NameError: name '__file__' is not defined. Did you mean: '__name__'?"
+      },
+      {
+        "mode": "injected_globals",
+        "success": true,
+        "last_callable": "policy_diagnostics"
+      },
+      {
+        "mode": "no_numpy",
+        "success": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "numpy deliberately unavailable in this diagnostic",
+        "last_traceback_line": "ModuleNotFoundError: numpy deliberately unavailable in this diagnostic"
+      }
+    ]
+  },
+  {
+    "archive": "learning_round2_20260921_b2_frequency.tar.gz",
+    "sha256": "450f38fbbdd0cd6c6bef1faad1c7f9e231636eb303abded59ae6d228eb1c658d",
+    "tests": [
+      {
+        "mode": "empty_globals",
+        "success": false,
+        "error_type": "NameError",
+        "error": "name '__file__' is not defined",
+        "last_traceback_line": "NameError: name '__file__' is not defined. Did you mean: '__name__'?"
+      },
+      {
+        "mode": "injected_globals",
+        "success": true,
+        "last_callable": "policy_diagnostics"
+      },
+      {
+        "mode": "no_numpy",
+        "success": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "numpy deliberately unavailable in this diagnostic",
+        "last_traceback_line": "ModuleNotFoundError: numpy deliberately unavailable in this diagnostic"
+      }
+    ]
+  },
+  {
+    "archive": "learning_round2_20260921_b2_history_shuffle.tar.gz",
+    "sha256": "da1b2953783f7426695087cbd770f555bed32b68e4459e8efa5dc2b0f407e8e6",
+    "tests": [
+      {
+        "mode": "empty_globals",
+        "success": false,
+        "error_type": "NameError",
+        "error": "name '__file__' is not defined",
+        "last_traceback_line": "NameError: name '__file__' is not defined. Did you mean: '__name__'?"
+      },
+      {
+        "mode": "injected_globals",
+        "success": true,
+        "last_callable": "policy_diagnostics"
+      },
+      {
+        "mode": "no_numpy",
+        "success": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "numpy deliberately unavailable in this diagnostic",
+        "last_traceback_line": "ModuleNotFoundError: numpy deliberately unavailable in this diagnostic"
+      }
+    ]
+  }
+]

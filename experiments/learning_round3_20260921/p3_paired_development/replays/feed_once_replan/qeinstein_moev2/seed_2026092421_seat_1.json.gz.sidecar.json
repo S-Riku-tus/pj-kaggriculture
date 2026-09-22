@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-09-21T11:59:35.761268+00:00",
+  "task_digest": "5db36485c73699d69dcb8d1d78904a15ecaca901696a0e8fd658cfaf3daf425a",
+  "replay_sha256": "a3a777c37de129b443b1398761c91affa5704bb982716c8bc454d80b02f4c6be",
+  "seed": 2026092421,
+  "seat": 1,
+  "terminal_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "stored_states": 720,
+  "agent_archive_sha256": "afe2698868a0da513c154cf7a96f83e77551cfacfbbcbb4792c7c201e6235efd",
+  "agent_source_tree_sha256": "2da0b5b5f40342f9af81ca72c011e1b8e0eea60a38758bd62656e869d8408136",
+  "opponent_tree_sha256": "5afd65f823b8f7dbda34fa86c8eb1376bb3a96a2ac2cf195aa4e95e4536d5f13",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "configuration": {
+    "episodeSteps": 720,
+    "seed": 2026092421
+  },
+  "diagnostics": {
+    "arm": "A3_probe_feed_once_replan",
+    "model_loads": 0,
+    "inference_calls": 0,
+    "base_calls": 719,
+    "candidate_sets": 717,
+    "supported_candidates": 1,
+    "jobs_started": 1,
+    "jobs_completed": 1,
+    "jobs_aborted": 0,
+    "action_changes": 2,
+    "fallbacks": 0,
+    "active_jobs": 0
+  },
+  "timing_measured": true
+}

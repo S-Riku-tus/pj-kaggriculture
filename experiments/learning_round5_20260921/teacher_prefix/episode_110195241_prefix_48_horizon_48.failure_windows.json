@@ -1,0 +1,320 @@
+[
+  {
+    "step": 71,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "ACTOR_POSITION_CHANGED",
+    "plan_id": null
+  },
+  {
+    "step": 71,
+    "seat": 0,
+    "event": "market_reservation_repair",
+    "before": [
+      [
+        "SELL",
+        "WHEAT",
+        3
+      ]
+    ],
+    "after": [],
+    "portfolio": {
+      "plans": [
+        {
+          "plan_id": "ANIMAL:COW:4,2:placed0:day2",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              4,
+              2
+            ],
+            "resource": "COW",
+            "product": "MILK",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 8,
+          "yield_units": 0,
+          "feed_cost_to_production": 180,
+          "expected_product_value": 350,
+          "shed_free_capacity": 97,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 71,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:SHEEP:4,3:placed0:day2",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              4,
+              3
+            ],
+            "resource": "SHEEP",
+            "product": "WOOL",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 6,
+          "yield_units": 0,
+          "feed_cost_to_production": 120,
+          "expected_product_value": 636,
+          "shed_free_capacity": 97,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 71,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:SHEEP:2,4:placed0:day2",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              2,
+              4
+            ],
+            "resource": "SHEEP",
+            "product": "WOOL",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 6,
+          "yield_units": 0,
+          "feed_cost_to_production": 120,
+          "expected_product_value": 636,
+          "shed_free_capacity": 97,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 71,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:SHEEP:3,4:placed0:day2",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              3,
+              4
+            ],
+            "resource": "SHEEP",
+            "product": "WOOL",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 6,
+          "yield_units": 0,
+          "feed_cost_to_production": 120,
+          "expected_product_value": 636,
+          "shed_free_capacity": 97,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 71,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:COW:4,4:placed0:day2",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              4,
+              4
+            ],
+            "resource": "COW",
+            "product": "MILK",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 8,
+          "yield_units": 0,
+          "feed_cost_to_production": 180,
+          "expected_product_value": 350,
+          "shed_free_capacity": 97,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 71,
+          "retirement_reason": null
+        }
+      ],
+      "committed_feed_requirements": 9,
+      "accessible_wheat": 4,
+      "carried_wheat": 1,
+      "shed_wheat": 3,
+      "reserved_shed_wheat": 8,
+      "unreserved_wheat": 0,
+      "committed_near_term_cash_requirements": 150,
+      "unreserved_cash": 0
+    },
+    "price_model": "fixed-engine own-queue per-unit; concurrent opponent order unknown"
+  },
+  {
+    "step": 72,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "SOUTH"
+    ],
+    "status": "UNKNOWN",
+    "reason": "MOVE_DAY_BOUNDARY_ACTOR_RESET",
+    "plan_id": null
+  },
+  {
+    "step": 73,
+    "seat": 0,
+    "event": "primitive_result",
+    "actor": 0,
+    "action": [
+      "COLLECT_FERTILIZER"
+    ],
+    "status": "ESTABLISHED",
+    "reason": "FERTILIZER_ATTRIBUTED",
+    "plan_id": null
+  },
+  {
+    "step": 73,
+    "seat": 0,
+    "event": "cash_realization_result",
+    "status": "ESTABLISHED",
+    "reason": "SOLD_INVENTORY_CONSUMED_CASH_MAY_BE_RESPENT",
+    "item": "FERTILIZER",
+    "gross_cash_observation": 90,
+    "plan_id": "CASH_REALIZATION:FERTILIZER:s72:slot0"
+  },
+  {
+    "step": 73,
+    "seat": 0,
+    "event": "market_reservation_repair",
+    "before": [],
+    "after": [
+      [
+        "BUY_PRODUCT",
+        "WHEAT",
+        1
+      ]
+    ],
+    "portfolio": {
+      "plans": [
+        {
+          "plan_id": "ANIMAL:COW:4,2:placed0:day3",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              4,
+              2
+            ],
+            "resource": "COW",
+            "product": "MILK",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 8,
+          "yield_units": 0,
+          "feed_cost_to_production": 150,
+          "expected_product_value": 354,
+          "shed_free_capacity": 96,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 95,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:SHEEP:4,3:placed0:day3",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              4,
+              3
+            ],
+            "resource": "SHEEP",
+            "product": "WOOL",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 6,
+          "yield_units": 0,
+          "feed_cost_to_production": 90,
+          "expected_product_value": 642,
+          "shed_free_capacity": 96,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 95,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:SHEEP:2,4:placed0:day3",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              2,
+              4
+            ],
+            "resource": "SHEEP",
+            "product": "WOOL",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 6,
+          "yield_units": 0,
+          "feed_cost_to_production": 90,
+          "expected_product_value": 642,
+          "shed_free_capacity": 96,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 95,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:SHEEP:3,4:placed0:day3",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              3,
+              4
+            ],
+            "resource": "SHEEP",
+            "product": "WOOL",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 6,
+          "yield_units": 0,
+          "feed_cost_to_production": 90,
+          "expected_product_value": 642,
+          "shed_free_capacity": 96,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 95,
+          "retirement_reason": null
+        },
+        {
+          "plan_id": "ANIMAL:COW:4,4:placed0:day3",
+          "target_identity": {
+            "type": "animal",
+            "coordinate": [
+              4,
+              4
+            ],
+            "resource": "COW",
+            "product": "MILK",
+            "generation_or_placement_day": 0
+          },
+          "state": "MAINTAIN",
+          "next_production_day": 8,
+          "yield_units": 0,
+          "feed_cost_to_production": 150,
+          "expected_product_value": 531,
+          "shed_free_capacity": 96,
+          "recovery_route_available": true,
+          "maintenance_deadline_step": 95,
+          "retirement_reason": null
+        }
+      ],
+      "committed_feed_requirements": 5,
+      "accessible_wheat": 4,
+      "carried_wheat": 0,
+      "shed_wheat": 4,
+      "reserved_shed_wheat": 5,
+      "unreserved_wheat": 0,
+      "committed_near_term_cash_requirements": 30,
+      "unreserved_cash": 69
+    },
+    "price_model": "fixed-engine own-queue per-unit; concurrent opponent order unknown"
+  }
+]

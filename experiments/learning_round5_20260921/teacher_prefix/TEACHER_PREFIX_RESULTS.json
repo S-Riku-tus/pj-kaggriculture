@@ -1,0 +1,5323 @@
+{
+  "created_at_utc": "2026-09-21T15:31:34.119004+00:00",
+  "scope": "three train/development teacher-prefix counterfactuals; not an unused holdout and not DAgger",
+  "teacher_submission": 56216119,
+  "teacher_current_rank": "UNKNOWN",
+  "teacher_private_version": "UNKNOWN",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "all_prefixes_exact": true,
+  "results": [
+    {
+      "episode": 109741171,
+      "teacher_submission": 56216119,
+      "source_split": "train",
+      "seat": 1,
+      "seed": 1330453307,
+      "prefix_steps": 24,
+      "rollout_steps": 24,
+      "prefix_exact_all_states": true,
+      "first_prefix_mismatch": null,
+      "prefix_state_hash": "1c6b00de0a5d9ae77963705d5c46f2ecb8ac219a9fc923fa67e3265124216689",
+      "teacher_prefix_state_hash": "1c6b00de0a5d9ae77963705d5c46f2ecb8ac219a9fc923fa67e3265124216689",
+      "policy_state_reconstruction": "BC history advanced with observed prefix states and actual teacher actions; Round5 executor begins with no invented accepted plan",
+      "post_prefix_opponent_origin": "saved replay action sequence; no private-teacher query on learner states",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 24,
+        "record": 25,
+        "learner_action": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "teacher_action": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 17,
+        "shed": {
+          "WHEAT": 3,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "carried": [
+          {}
+        ],
+        "animals": [
+          {
+            "position": [
+              4,
+              3
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          }
+        ],
+        "positive_animal_yield": []
+      },
+      "teacher_end": {
+        "money": 61,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 0,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 0
+        },
+        "carried": [
+          {}
+        ],
+        "animals": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          }
+        ],
+        "positive_animal_yield": []
+      },
+      "delta_self_money": -44,
+      "learner_opponent_money": 20,
+      "teacher_opponent_money": 18,
+      "animal_product_sales": 0,
+      "selector_inference_calls": 24,
+      "silent_fallbacks": 0,
+      "executor": {
+        "executor": "round5-ordered-resource-ledger-v1",
+        "policy": "round5-learned",
+        "base_primitive_issued": 22,
+        "override_primitive_issued": 0,
+        "primitive_effect_observed": 22,
+        "primitive_failed": 0,
+        "primitive_unknown": 0,
+        "terminal_pending": 0,
+        "plan_started": 0,
+        "plan_completed": 0,
+        "cash_realization_started": 1,
+        "cash_realization_completed": 1,
+        "resource_conflicts_blocked": 0,
+        "duplicate_harvests_blocked": 0,
+        "duplicate_services_blocked": 0,
+        "atomic_plants_blocked": 0,
+        "actors_reassigned": 0,
+        "fallback_passes": 0,
+        "animal_harvest_overrides": 0,
+        "retirement_plans_enforced": 0,
+        "market_orders_changed": 22,
+        "wheat_sell_units_blocked": 57,
+        "investment_orders_blocked": 32,
+        "animal_plan_count": 5,
+        "completed_plan_ids": 0
+      },
+      "failure_reasons": {},
+      "trace": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_109741171_prefix_24_horizon_24.trace.jsonl",
+      "trace_sha256": "c7cf691c76a993f361b51fade97ff11d12d448892176d8945be22063a50673e1",
+      "failure_windows": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_109741171_prefix_24_horizon_24.failure_windows.json",
+      "failure_windows_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "focal_actions": [
+        {
+          "decision_step": 24,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 25,
+          "action": {
+            "farmer": [
+              "PLACE",
+              "FERTILIZER",
+              1
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 26,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 27,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 28,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 29,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 30,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 31,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 32,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 33,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 34,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 35,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 36,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 37,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 38,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 39,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 40,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 41,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 42,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 43,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 44,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 45,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 46,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 47,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        }
+      ],
+      "counterfactual_replay": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_109741171_prefix_24_horizon_24.json.gz",
+      "counterfactual_replay_sha256": "b0b9b98b1440ea36fe30e1d59b83a255471833ac78644762b0bd4f4b5e5a4e35"
+    },
+    {
+      "episode": 110195241,
+      "teacher_submission": 56216119,
+      "source_split": "train",
+      "seat": 0,
+      "seed": 425749773,
+      "prefix_steps": 48,
+      "rollout_steps": 48,
+      "prefix_exact_all_states": true,
+      "first_prefix_mismatch": null,
+      "prefix_state_hash": "343ec2da5ae34ced624ed8a09e281f98244b253f6beb6123d52d3b16077ab068",
+      "teacher_prefix_state_hash": "343ec2da5ae34ced624ed8a09e281f98244b253f6beb6123d52d3b16077ab068",
+      "policy_state_reconstruction": "BC history advanced with observed prefix states and actual teacher actions; Round5 executor begins with no invented accepted plan",
+      "post_prefix_opponent_origin": "saved replay action sequence; no private-teacher query on learner states",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 48,
+        "record": 49,
+        "learner_action": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              2
+            ]
+          ]
+        },
+        "teacher_action": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 99,
+        "shed": {
+          "WHEAT": 10,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 2,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "carried": [
+          {}
+        ],
+        "animals": [
+          {
+            "position": [
+              4,
+              3
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          }
+        ],
+        "positive_animal_yield": []
+      },
+      "teacher_end": {
+        "money": 180,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 9,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 1,
+          "TOMATO": 0,
+          "WHEAT": 0
+        },
+        "carried": [
+          {}
+        ],
+        "animals": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          }
+        ],
+        "positive_animal_yield": []
+      },
+      "delta_self_money": -81,
+      "learner_opponent_money": 106,
+      "teacher_opponent_money": 102,
+      "animal_product_sales": 0,
+      "selector_inference_calls": 48,
+      "silent_fallbacks": 0,
+      "executor": {
+        "executor": "round5-ordered-resource-ledger-v1",
+        "policy": "round5-learned",
+        "base_primitive_issued": 129,
+        "override_primitive_issued": 3,
+        "primitive_effect_observed": 128,
+        "primitive_failed": 0,
+        "primitive_unknown": 1,
+        "terminal_pending": 3,
+        "plan_started": 6,
+        "plan_completed": 6,
+        "cash_realization_started": 4,
+        "cash_realization_completed": 4,
+        "resource_conflicts_blocked": 1,
+        "duplicate_harvests_blocked": 0,
+        "duplicate_services_blocked": 1,
+        "atomic_plants_blocked": 0,
+        "actors_reassigned": 1,
+        "fallback_passes": 0,
+        "animal_harvest_overrides": 0,
+        "retirement_plans_enforced": 0,
+        "market_orders_changed": 12,
+        "wheat_sell_units_blocked": 24,
+        "investment_orders_blocked": 16,
+        "animal_plan_count": 10,
+        "completed_plan_ids": 6
+      },
+      "failure_reasons": {
+        "MOVE_DAY_BOUNDARY_ACTOR_RESET": 1
+      },
+      "trace": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_110195241_prefix_48_horizon_48.trace.jsonl",
+      "trace_sha256": "be868315aac9c18b33819f7e98b779b149e00cb84bf614e91f5d6f7510d0a427",
+      "failure_windows": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_110195241_prefix_48_horizon_48.failure_windows.json",
+      "failure_windows_sha256": "15881869616012415f6b222729ea33a71701594e2373ab401bab66c97d8f56b2",
+      "focal_actions": [
+        {
+          "decision_step": 48,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 49,
+          "action": {
+            "farmer": [
+              "PLACE",
+              "FERTILIZER",
+              1
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 50,
+          "action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 51,
+          "action": {
+            "farmer": [
+              "FEED"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 52,
+          "action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 53,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 54,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 55,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 56,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 57,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 58,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 59,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 60,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 61,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 62,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 63,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 64,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 65,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 66,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 67,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 68,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 69,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 70,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 71,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 72,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 73,
+          "action": {
+            "farmer": [
+              "PLACE",
+              "FERTILIZER",
+              1
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                1
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 74,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 75,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 76,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "FEED"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 77,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 78,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 79,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 80,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 81,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 82,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 83,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 84,
+          "action": {
+            "farmer": [
+              "HARVEST"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 85,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 86,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 87,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 88,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 89,
+          "action": {
+            "farmer": [
+              "HARVEST"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 90,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 91,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 92,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 93,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 94,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "FEED"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 95,
+          "action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "CARE"
+              ]
+            ],
+            "market": []
+          }
+        }
+      ],
+      "counterfactual_replay": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_110195241_prefix_48_horizon_48.json.gz",
+      "counterfactual_replay_sha256": "ec892893f9f8a6f5e56d6f34194fe227d5d8174801c9054483131ab5d7dd0745"
+    },
+    {
+      "episode": 111031244,
+      "teacher_submission": 56216119,
+      "source_split": "train",
+      "seat": 0,
+      "seed": 450330549,
+      "prefix_steps": 96,
+      "rollout_steps": 96,
+      "prefix_exact_all_states": true,
+      "first_prefix_mismatch": null,
+      "prefix_state_hash": "b6d7c6a27f6311eb39a69f9472a535df92cdd719c8255857cd137df131d037db",
+      "teacher_prefix_state_hash": "b6d7c6a27f6311eb39a69f9472a535df92cdd719c8255857cd137df131d037db",
+      "policy_state_reconstruction": "BC history advanced with observed prefix states and actual teacher actions; Round5 executor begins with no invented accepted plan",
+      "post_prefix_opponent_origin": "saved replay action sequence; no private-teacher query on learner states",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 96,
+        "record": 97,
+        "learner_action": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "teacher_action": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 5,
+        "shed": {
+          "WHEAT": 35,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 4,
+          "FERTILIZER": 2,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "carried": [
+          {}
+        ],
+        "animals": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 1
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          }
+        ],
+        "positive_animal_yield": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          }
+        ]
+      },
+      "teacher_end": {
+        "money": 2,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 13,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 1
+        },
+        "carried": [
+          {}
+        ],
+        "animals": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              5,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              3
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              5,
+              3
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              6,
+              3
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              2,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              3,
+              4
+            ],
+            "animal": "SHEEP",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              5,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              6,
+              4
+            ],
+            "animal": "GOOSE",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              7,
+              4
+            ],
+            "animal": "GOOSE",
+            "yield_units": 0,
+            "consecutive_unfed": 0
+          }
+        ],
+        "positive_animal_yield": [
+          {
+            "position": [
+              4,
+              2
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          },
+          {
+            "position": [
+              4,
+              4
+            ],
+            "animal": "COW",
+            "yield_units": 6,
+            "consecutive_unfed": 0
+          }
+        ]
+      },
+      "delta_self_money": 3,
+      "learner_opponent_money": 416,
+      "teacher_opponent_money": 234,
+      "animal_product_sales": 4,
+      "selector_inference_calls": 96,
+      "silent_fallbacks": 0,
+      "executor": {
+        "executor": "round5-ordered-resource-ledger-v1",
+        "policy": "round5-learned",
+        "base_primitive_issued": 611,
+        "override_primitive_issued": 43,
+        "primitive_effect_observed": 633,
+        "primitive_failed": 0,
+        "primitive_unknown": 18,
+        "terminal_pending": 3,
+        "plan_started": 25,
+        "plan_completed": 25,
+        "cash_realization_started": 22,
+        "cash_realization_completed": 21,
+        "resource_conflicts_blocked": 36,
+        "duplicate_harvests_blocked": 6,
+        "duplicate_services_blocked": 28,
+        "atomic_plants_blocked": 0,
+        "actors_reassigned": 36,
+        "fallback_passes": 0,
+        "animal_harvest_overrides": 5,
+        "retirement_plans_enforced": 0,
+        "market_orders_changed": 22,
+        "wheat_sell_units_blocked": 0,
+        "investment_orders_blocked": 20,
+        "animal_plan_count": 20,
+        "completed_plan_ids": 25
+      },
+      "failure_reasons": {
+        "WATER_TARGET_CHANGED_LATER_IN_JOINT": 2,
+        "MOVE_DAY_BOUNDARY_ACTOR_RESET": 3,
+        "ACTOR_IDENTITY_NOT_OBSERVABLE": 13,
+        "MARKET_OR_DAY_BOUNDARY_NET_DELTA_AMBIGUOUS": 1
+      },
+      "trace": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_111031244_prefix_96_horizon_96.trace.jsonl",
+      "trace_sha256": "c553b42280bd0b332162784ad10b8ee84e0e02809bacddeaec6ac5d026f2e99c",
+      "failure_windows": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_111031244_prefix_96_horizon_96.failure_windows.json",
+      "failure_windows_sha256": "aee35cfdf76725c031a3c064b50e4f5c44be859b2f5d10bcfb930da473b26ac6",
+      "focal_actions": [
+        {
+          "decision_step": 96,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 97,
+          "action": {
+            "farmer": [
+              "PLACE",
+              "FERTILIZER",
+              1
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 98,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 99,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 100,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "FEED"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 101,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 102,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 103,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 104,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 105,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 106,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 107,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "HARVEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 108,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 109,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 110,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 111,
+          "action": {
+            "farmer": [
+              "HARVEST"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 112,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 113,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 114,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 115,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 116,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 117,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 118,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 119,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 120,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 121,
+          "action": {
+            "farmer": [
+              "PLACE",
+              "FERTILIZER",
+              1
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 122,
+          "action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 123,
+          "action": {
+            "farmer": [
+              "FEED"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 124,
+          "action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 125,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 126,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 127,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 128,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 129,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 130,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 131,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 132,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 133,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 134,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                4
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 135,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 136,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 137,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 138,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                1
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 139,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 140,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 141,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 142,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 143,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 144,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 145,
+          "action": {
+            "farmer": [
+              "PLACE",
+              "FERTILIZER",
+              1
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 146,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 147,
+          "action": {
+            "farmer": [
+              "HARVEST"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 148,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "FEED"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 149,
+          "action": {
+            "farmer": [
+              "DROP"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 150,
+          "action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              1
+            ],
+            "hands": [
+              [
+                "DROP"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WOOL",
+                4
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 151,
+          "action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                2
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WOOL",
+                2
+              ],
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 152,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 153,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "FEED"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 154,
+          "action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 155,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 156,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "DIG"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 157,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 158,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 159,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 160,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 161,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 162,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 163,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 164,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 165,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "DROP"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 166,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 167,
+          "action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 168,
+          "action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              5
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 169,
+          "action": {
+            "farmer": [
+              "FEED"
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 170,
+          "action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 171,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PICKUP",
+                "WHEAT",
+                3
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 172,
+          "action": {
+            "farmer": [
+              "FEED"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 173,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "FEED"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WOOL",
+                4
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 174,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WOOL",
+                4
+              ],
+              [
+                "BUY_LAND"
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 175,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 176,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 177,
+          "action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "DIG"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 178,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 179,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 180,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 181,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "DIG"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 182,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 183,
+          "action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 184,
+          "action": {
+            "farmer": [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            "hands": [
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 185,
+          "action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "decision_step": 186,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "PLANT",
+                "STRAWBERRY"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 187,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 188,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 189,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 190,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "decision_step": 191,
+          "action": {
+            "farmer": [
+              "SOUTH"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          }
+        }
+      ],
+      "counterfactual_replay": "experiments\\learning_round5_20260921\\teacher_prefix\\episode_111031244_prefix_96_horizon_96.json.gz",
+      "counterfactual_replay_sha256": "9f53bc32cb2fd1f5b65d8104ce97d6eceb9f09c57834ffba4155b22fa045177e"
+    }
+  ]
+}

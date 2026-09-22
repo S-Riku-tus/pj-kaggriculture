@@ -1,0 +1,114 @@
+{
+  "created_at_utc": "2026-09-21T13:32:23.033704+00:00",
+  "archives": {
+    "learned": {
+      "path": "artifacts\\submissions\\learning_round4_20260921_learned.tar.gz",
+      "sha256": "664b71ef17764fcfd526fb7b2eae16b0651bec4bdb943e3c42c2ab97ea96b340",
+      "bytes": 110469,
+      "files": [
+        {
+          "path": "main.py",
+          "source": "agents\\learning_round4_20260921\\main.py",
+          "sha256": "11c21b984e678d2a43724f9f596af42d5ba4537a570202f19da5d751889c9b0b"
+        },
+        {
+          "path": "learned_main.py",
+          "source": "agents\\learning_round4_20260921\\learned_main.py",
+          "sha256": "961ae504afffe621bd05d1231b9e16f178bdc925d13e405aaeea4f9f256789ae"
+        },
+        {
+          "path": "executor.py",
+          "source": "agents\\learning_round4_20260921\\executor.py",
+          "sha256": "f18c204419cd6bf95220fc6ee91e735594edb53ebf6f01186e7b38d46faaa2af"
+        },
+        {
+          "path": "contracts.py",
+          "source": "agents\\learning_round4_20260921\\contracts.py",
+          "sha256": "e9aaf3211b3a37759d391490e619fb56b51d37b0d3aa0e2cce33e69617518591"
+        },
+        {
+          "path": "action_codec.py",
+          "source": "agents\\learning_round4_20260921\\action_codec.py",
+          "sha256": "6c668e534a0abfa9875cdd0e7c28072ced1e2b64795bc12f359dd684685ccd70"
+        },
+        {
+          "path": "features.py",
+          "source": "agents\\learning_round4_20260921\\features.py",
+          "sha256": "29fb4fc5fea612bc3944fd6f7db52a71832dac8fa1a8186e5b1dbd471621a15b"
+        },
+        {
+          "path": "selector.py",
+          "source": "agents\\learning_round4_20260921\\selector.py",
+          "sha256": "b65606fdc19a18392653007272d19b2db9eee57ff9703acda6248ea61d883da2"
+        },
+        {
+          "path": "strategy_model.json",
+          "source": "agents\\learning_round4_20260921\\strategy_model.json",
+          "sha256": "0276229affaf6e8b28ca374f19c926d9208b136ac108e60ea9af65f1cd5a65b2"
+        },
+        {
+          "path": "bc_agent.py",
+          "source": "agents\\learning_next_20260921\\bc_agent.py",
+          "sha256": "0be64207b3679670190940e959d348a94a0373a1b12461b4e1b0d931628beb57"
+        },
+        {
+          "path": "common.py",
+          "source": "agents\\learning_next_20260921\\common.py",
+          "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+        },
+        {
+          "path": "bc_actor_model.npz",
+          "source": "agents\\learning_next_20260921\\bc_actor_model.npz",
+          "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4"
+        },
+        {
+          "path": "bc_actor_model.json",
+          "source": "agents\\learning_next_20260921\\bc_actor_model.json",
+          "sha256": "bf3dd329c2e3b063de4b190e590fff5ab6570ee7aa60d8aea10dd361be6c455d"
+        },
+        {
+          "path": "bc_market_model.npz",
+          "source": "agents\\learning_next_20260921\\bc_market_model.npz",
+          "sha256": "f47c654329811e01272b0befdbcdb12e0e2b416d07860cd52f4930fc7f563a62"
+        },
+        {
+          "path": "bc_market_model.json",
+          "source": "agents\\learning_next_20260921\\bc_market_model.json",
+          "sha256": "53fd6e431eb3bfe770ef10b81993e29ccc3ef4a6b782b26c7face7f044b20fe4"
+        },
+        {
+          "path": "bc_quantities.json",
+          "source": "agents\\learning_next_20260921\\bc_quantities.json",
+          "sha256": "377f4106c18ca10d7b85a51d3c96d0c3c7767671dd8647d0a00b2520d9361e20"
+        }
+      ]
+    },
+    "rule": {
+      "path": "artifacts\\submissions\\learning_round4_20260921_rule.tar.gz",
+      "sha256": "6cb324f496ca216a1bd309a8cc3ae1db6eac9c2e9a9973f0325c06dcef454b3e",
+      "bytes": 9892,
+      "files": [
+        {
+          "path": "main.py",
+          "source": "agents\\learning_round4_20260921\\rule_entrypoint.py",
+          "sha256": "b840438cefb94e0fae23d98cd99c7c32c537f30866adfd4b414b1243001efd53"
+        },
+        {
+          "path": "rule_main.py",
+          "source": "agents\\learning_round4_20260921\\rule_main.py",
+          "sha256": "afa876ac29fb7211bbf6ed35db3f8b71d162d207eded158051eefe28118321a8"
+        },
+        {
+          "path": "executor.py",
+          "source": "agents\\learning_round4_20260921\\executor.py",
+          "sha256": "f18c204419cd6bf95220fc6ee91e735594edb53ebf6f01186e7b38d46faaa2af"
+        },
+        {
+          "path": "contracts.py",
+          "source": "agents\\learning_round4_20260921\\contracts.py",
+          "sha256": "e9aaf3211b3a37759d391490e619fb56b51d37b0d3aa0e2cce33e69617518591"
+        }
+      ]
+    }
+  }
+}

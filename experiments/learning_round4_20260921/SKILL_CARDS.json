@@ -1,0 +1,994 @@
+{
+  "cards": [
+    {
+      "skill_id": "animal_service_with_continuation",
+      "teacher_submission": 56216119,
+      "teacher_version_uncertainty": "private implementation/version unknown; submission id is the only fixed version key",
+      "evidence": [
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            6,
+            14
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            9,
+            17
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            12,
+            20
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            24,
+            32
+          ]
+        }
+      ],
+      "observable_preconditions": [
+        "derived only from focal public observation and focal private state"
+      ],
+      "observed_plan": [
+        {
+          "farmer": [
+            "CARE"
+          ],
+          "hands": [
+            [
+              "PLACE",
+              "SHEEP",
+              1
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ]
+          ],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "CARE"
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              1
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "PLANT",
+              "MELON"
+            ]
+          ],
+          "market": []
+        },
+        {
+          "farmer": [
+            "CARE"
+          ],
+          "hands": [
+            [
+              "NORTH"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "PLANT",
+              "MELON"
+            ]
+          ],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              2
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        }
+      ],
+      "inferred_intent": "INFERENCE: maintain animals through the daily deadline while preserving wheat and the next service route.",
+      "alternative_plans": [
+        "buy wheat before shortage",
+        "skip non-production-day care",
+        "reassign target to another actor"
+      ],
+      "required_resources_and_deadlines": {
+        "WHEAT": "one per effective FEED",
+        "deadline": "day end"
+      },
+      "success_postconditions": [
+        "target fed transition",
+        "responsible actor wheat decreased",
+        "remaining service wheat reserved"
+      ],
+      "abort_and_replan_conditions": [
+        "target already served",
+        "actor day identity changed",
+        "wheat unavailable"
+      ],
+      "counterexamples": [
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            15,
+            23
+          ],
+          "observable_state_digest": "bf9e0ce6edc2752a6e50c13495e1b219b77fe9024b2f2336ce9e0d0084170a93",
+          "observed_action": {
+            "farmer": [
+              "WEST"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            18,
+            26
+          ],
+          "observable_state_digest": "d5a3140976d9a4c78e859e8f221b30c625d4f1630f555e5024b647da7509792b",
+          "observed_action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            21,
+            29
+          ],
+          "observable_state_digest": "2cac0ed583ecb71b1a37cd44ccfed7a8b3ff9e0be3e318aa4d397530835f49fb",
+          "observed_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            30,
+            38
+          ],
+          "observable_state_digest": "20c4ce564a3f9df217a612346567fc7784911c867b87d65237f043b9523857ef",
+          "observed_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                1
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "skill_id": "harvest_and_land_conversion",
+      "teacher_submission": 56216119,
+      "teacher_version_uncertainty": "private implementation/version unknown; submission id is the only fixed version key",
+      "evidence": [
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            57,
+            65
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            63,
+            71
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            192,
+            200
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            240,
+            248
+          ]
+        }
+      ],
+      "observable_preconditions": [
+        "derived only from focal public observation and focal private state"
+      ],
+      "observed_plan": [
+        {
+          "farmer": [
+            "WEST"
+          ],
+          "hands": [
+            [
+              "SOUTH"
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            [
+              "HARVEST"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "NORTH"
+          ],
+          "hands": [
+            [
+              "NORTH"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "PLANT",
+              "STRAWBERRY"
+            ],
+            [
+              "WATER"
+            ],
+            [
+              "HARVEST"
+            ]
+          ],
+          "market": [
+            [
+              "BUY_SEED",
+              "STRAWBERRY",
+              1
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "HARVEST"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "HARVEST"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              4
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      ],
+      "inferred_intent": "INFERENCE: realize mature crop value and release land only when the engine harvest precondition holds.",
+      "alternative_plans": [
+        "delay for additional one-time-crop yield",
+        "water or fertilize first",
+        "retain ongoing crop"
+      ],
+      "required_resources_and_deadlines": {
+        "maturity": "crop-specific first_yield_day",
+        "capacity": "end-day shed headroom considered separately"
+      },
+      "success_postconditions": [
+        "actor crop inventory increased",
+        "target tile or yield changed"
+      ],
+      "abort_and_replan_conditions": [
+        "immature crop",
+        "zero yield",
+        "target changed"
+      ],
+      "counterexamples": [
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            54,
+            62
+          ],
+          "observable_state_digest": "931151e0f0c4bbef3fb8d55a8f83391f023e1d1c482cfe2000b1f50447c926f6",
+          "observed_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            60,
+            68
+          ],
+          "observable_state_digest": "46db9ff8e8b803b7357b6651a34f43bcfd20a50b4f5dfe63b27133a720f99274",
+          "observed_action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            84,
+            92
+          ],
+          "observable_state_digest": "b82541ee008fae9807cd29995139c1a17c07a876dbdb7f5f71fabb2275688cd4",
+          "observed_action": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "STRAWBERRY",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            87,
+            95
+          ],
+          "observable_state_digest": "6db70f29818d4d7c2f0fde8ef4a8c672240f674e94fc9824ae313466b9a03fc9",
+          "observed_action": {
+            "farmer": [
+              "NORTH"
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ]
+            ],
+            "market": []
+          }
+        }
+      ]
+    },
+    {
+      "skill_id": "sell_and_reinvest",
+      "teacher_submission": 56216119,
+      "teacher_version_uncertainty": "private implementation/version unknown; submission id is the only fixed version key",
+      "evidence": [
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            0,
+            8
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            3,
+            11
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            15,
+            23
+          ]
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            18,
+            26
+          ]
+        }
+      ],
+      "observable_preconditions": [
+        "derived only from focal public observation and focal private state"
+      ],
+      "observed_plan": [
+        {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "PLACE",
+            "COW",
+            1
+          ],
+          "hands": [
+            [
+              "NORTH"
+            ],
+            [
+              "PICKUP",
+              "SHEEP",
+              1
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "WEST"
+            ]
+          ],
+          "market": [
+            [
+              "BUY_SEED",
+              "MELON",
+              2
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "WEST"
+          ],
+          "hands": [
+            [
+              "WATER"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "PLANT",
+              "WHEAT"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        {
+          "farmer": [
+            "NORTH"
+          ],
+          "hands": [
+            [
+              "WATER"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "PLANT",
+              "WHEAT"
+            ]
+          ],
+          "market": [
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      ],
+      "inferred_intent": "INFERENCE: convert inventory to cash and order the next investment without losing market quantity or order.",
+      "alternative_plans": [
+        "wait for demand recovery",
+        "sell a partial quantity",
+        "reserve cash for feed or land"
+      ],
+      "required_resources_and_deadlines": {
+        "inventory": "requested sell quantity",
+        "cash": "ordered purchases",
+        "order_slots": 10
+      },
+      "success_postconditions": [
+        "requested order remains exactly encoded",
+        "cash and inventory deltas are observed"
+      ],
+      "abort_and_replan_conditions": [
+        "inventory insufficient",
+        "cash insufficient",
+        "order cap exceeded"
+      ],
+      "counterexamples": [
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            6,
+            14
+          ],
+          "observable_state_digest": "22fe7744a05ed37cb089c3ec16d3a8e21244173ba2aacc7dc1c0440d1fe1c4e5",
+          "observed_action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [
+              [
+                "PLACE",
+                "SHEEP",
+                1
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            9,
+            17
+          ],
+          "observable_state_digest": "7c4c6bbd415e0aae0a10d888ea01ac7c03589538624deddca6f45b1bd94664b5",
+          "observed_action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [
+              [
+                "PICKUP",
+                "WHEAT",
+                1
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "PLANT",
+                "MELON"
+              ]
+            ],
+            "market": []
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            12,
+            20
+          ],
+          "observable_state_digest": "3c15b2594d595fab379b714bcc189b22283409ffae2a9fdf89511722a309d828",
+          "observed_action": {
+            "farmer": [
+              "CARE"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "MELON"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "episode": 109741171,
+          "seat": 1,
+          "step_range": [
+            27,
+            35
+          ],
+          "observable_state_digest": "3176d5796a3a778da3d23cad398fccd108354ad78c7a893dced6e864a733eff7",
+          "observed_action": {
+            "farmer": [
+              "COLLECT_FERTILIZER"
+            ],
+            "hands": [
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": []
+          }
+        }
+      ]
+    }
+  ]
+}

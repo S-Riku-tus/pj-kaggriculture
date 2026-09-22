@@ -1,0 +1,299 @@
+{
+  "created_at_utc": "2026-09-21T13:10:20.722742+00:00",
+  "unit": "episode_id",
+  "teacher_submission": 56216119,
+  "source_split_manifest": "experiments\\learning_next_20260921\\split_manifest.json",
+  "source_rule": "existing SHA256(seed:episode_id) 70/15/15 split; observed conditions are never returned to holdout",
+  "full_counts": {
+    "test": 88,
+    "train": 403,
+    "validation": 88
+  },
+  "selected_limits_fixed_before_training": {
+    "train": 24,
+    "validation": 8,
+    "test": 8
+  },
+  "selected": [
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109741171.json",
+      "sha256": "291d8012a1abca06f242fc5b6480eb3f4c5cfd480a5e7961037b6454cd47f92a"
+    },
+    {
+      "episode": 110195241,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110195241.json",
+      "sha256": "7eead9a4e14c5b603ec9cee8bb49c6baef5cf2d4c8cf755ffb69700859a6795c"
+    },
+    {
+      "episode": 111031244,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_111031244.json",
+      "sha256": "f10e08ab33acaab5b894c808636ff417218be71fc64fb5a8dfb9fea6e104e2db"
+    },
+    {
+      "episode": 110438593,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110438593.json",
+      "sha256": "0d7f3db174e6989fd41caf9d17ea53d507f6c5112e3bb99d51aff242bdb59e94"
+    },
+    {
+      "episode": 110372518,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110372518.json",
+      "sha256": "56c23a7d0e332920555f7bd0729faa28a7c70058473fefac65a6bb81c39a5440"
+    },
+    {
+      "episode": 109798422,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109798422.json",
+      "sha256": "18da6112dda3e00379ea962e4ec40c83e01f3ce24f73893e11a5b9bd0e72fc32"
+    },
+    {
+      "episode": 109149804,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109149804.json",
+      "sha256": "ff3c85511248f31adcd6bdd495f3b91af3f67c0f1e2a37a3b39d7d4c3cb05ad3"
+    },
+    {
+      "episode": 110571697,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110571697.json",
+      "sha256": "ab19e073fc3f8b2973df0cb1725a504d8acc2e6cfa45029b724690516934a83c"
+    },
+    {
+      "episode": 109564916,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109564916.json",
+      "sha256": "eb20cf8f9d376cdfbc5992d86574db3b7fb688c398defd59ab432f0ce874352d"
+    },
+    {
+      "episode": 108917364,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_108917364.json",
+      "sha256": "47f7b8b7de456dee83673a20e7d86ca2a83fab47fbccaec31d4b337eb4c2490e"
+    },
+    {
+      "episode": 109013354,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109013354.json",
+      "sha256": "671eacd0ffd4ff3313b52ed958bc7f5f442546d18a30e85b494ea1552c293256"
+    },
+    {
+      "episode": 110147572,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110147572.json",
+      "sha256": "f2e7dd340fddd917679406c4ee29a1147fdd96f46953bcbac430dc31fafd8e29"
+    },
+    {
+      "episode": 109898617,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109898617.json",
+      "sha256": "76fcb63f23638f92fc5688ef058a24612085d0fbdf0448c1797b8f53c94085ce"
+    },
+    {
+      "episode": 108720933,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_108720933.json",
+      "sha256": "215b638426290764884d91f8924dcc7127936eee8cc145c13be52cd2de8c0260"
+    },
+    {
+      "episode": 108801628,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_108801628.json",
+      "sha256": "2e2fe8039cfd4a738b5d7a7addeec1739bee02225bd377557135882e741cee3a"
+    },
+    {
+      "episode": 110607329,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110607329.json",
+      "sha256": "760b363d51e8c4413e89c623b57f669e54045279a02f8732d31c0c5a1cc1b9b5"
+    },
+    {
+      "episode": 110469896,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110469896.json",
+      "sha256": "e457eb493f2b3636c2f3e2cd27e9a20a8509d797fd8a0fd189775d9986918450"
+    },
+    {
+      "episode": 110907373,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110907373.json",
+      "sha256": "6ff6b7b66504b58c75947a60867a7b66a04f727c31aaa1ea1ea5b68c7b70cbd3"
+    },
+    {
+      "episode": 111026476,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_111026476.json",
+      "sha256": "15d6f4ddec168aaaff036b7eeee9a43501d8c6df062625af90a2ee9cec4d03e9"
+    },
+    {
+      "episode": 110964284,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110964284.json",
+      "sha256": "185b3eb208138504c8a71b9a99bc8a30f8b09e8084a7cf80d8eca93486fc4cca"
+    },
+    {
+      "episode": 109386870,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109386870.json",
+      "sha256": "27e6d803b3df065537cebe94edea8075e37ba0e11159f36efc2f2f264d987e43"
+    },
+    {
+      "episode": 110338107,
+      "seat": 0,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110338107.json",
+      "sha256": "29e5a43fede60eecad3533e7bf6507b5c0819a59846f6016826d2dbc5404223e"
+    },
+    {
+      "episode": 110567121,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_110567121.json",
+      "sha256": "6be1289037d2ae9aa24d2d3b4aa261f4c284f026cf5a27543721c26e9fabcba4"
+    },
+    {
+      "episode": 109687908,
+      "seat": 1,
+      "split": "train",
+      "path": "data\\replays\\submission_56216119\\episode_109687908.json",
+      "sha256": "c2bd197c239d78773312fae4bafc2c0df30f19d7eec69e35ed2c52f3ad67118b"
+    },
+    {
+      "episode": 110315400,
+      "seat": 1,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_110315400.json",
+      "sha256": "744d5184a9f95c90afeaa975c67ffd943bbdeaad036b9c39a2f476d80d598666"
+    },
+    {
+      "episode": 110102993,
+      "seat": 0,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_110102993.json",
+      "sha256": "6fa5eaee1ddbb5c6eb84b6dc578bc25fce9a901880cc49038389baaf60bcd73b"
+    },
+    {
+      "episode": 109176211,
+      "seat": 1,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_109176211.json",
+      "sha256": "87297fbeff9880c5f2ed5a1f1f5de23612708373344b34d079af978819f53181"
+    },
+    {
+      "episode": 108836562,
+      "seat": 1,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_108836562.json",
+      "sha256": "2b25b2bb5070134078198785a289f74f1f4c695d4f8aa585ecc94f89b44e1651"
+    },
+    {
+      "episode": 108711662,
+      "seat": 1,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_108711662.json",
+      "sha256": "4ceaf2e6f1d3160f639f7efa2f921daf13648f8f37698558a0c586abaa36f572"
+    },
+    {
+      "episode": 108785323,
+      "seat": 1,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_108785323.json",
+      "sha256": "32135893fa2008c69c316eee996c944e2a7fd43eb81be3b7f4acab381559d537"
+    },
+    {
+      "episode": 108939100,
+      "seat": 0,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_108939100.json",
+      "sha256": "344bb4d67a9a593ba223ddda3fc2daab2d5c534ccb5f99935fae0c8235fdb776"
+    },
+    {
+      "episode": 110814279,
+      "seat": 1,
+      "split": "validation",
+      "path": "data\\replays\\submission_56216119\\episode_110814279.json",
+      "sha256": "b00e375baeeeb669186413ff1b86eebd9cd8419ad213a31de5acc0164d373edc"
+    },
+    {
+      "episode": 108737646,
+      "seat": 0,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_108737646.json",
+      "sha256": "4041f2ef99862b4e4c71c9e2e3c60a972e7b820532e14eb70a0238063ae7d47d"
+    },
+    {
+      "episode": 108746799,
+      "seat": 0,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_108746799.json",
+      "sha256": "f1fed504bd07680490aefcd71eebad6b69a10d46dba1b8e378073b47e01f7301"
+    },
+    {
+      "episode": 109613476,
+      "seat": 1,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_109613476.json",
+      "sha256": "eed41252d408db942ce7d98746320d51f7dc7debf6babe97eaddc61ed2ad4640"
+    },
+    {
+      "episode": 108848838,
+      "seat": 1,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_108848838.json",
+      "sha256": "70c069bb0881382fb793905f9117d89c697edaf36242850fc81a6d8b195dc946"
+    },
+    {
+      "episode": 110705635,
+      "seat": 0,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_110705635.json",
+      "sha256": "c03ed56c0b47dc91c13343464717b3f9ce3e858e50f002124743bab95be123b1"
+    },
+    {
+      "episode": 108859780,
+      "seat": 1,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_108859780.json",
+      "sha256": "ed34d8bb0f09cad6133fc74a990ddf98d095b62b072b93caa70a5132b97d9c26"
+    },
+    {
+      "episode": 109952844,
+      "seat": 1,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_109952844.json",
+      "sha256": "47f1dc16d7c8ea4bb28b4ba4960dc188f21e3a54fb571d479aec6c824985a25d"
+    },
+    {
+      "episode": 110222493,
+      "seat": 1,
+      "split": "test",
+      "path": "data\\replays\\submission_56216119\\episode_110222493.json",
+      "sha256": "d65299011c663a16ac1ebc0fd6f50658d6bec40cc2db839c8e2d1dd9eb9a99db"
+    }
+  ]
+}

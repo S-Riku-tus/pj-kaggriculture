@@ -1,0 +1,1554 @@
+{
+  "created_at_utc": "2026-09-21T15:31:20.516209+00:00",
+  "scope": "teacher action -> BC token target -> median quantity decode; model classification error excluded",
+  "teacher_joint_actions": 28760,
+  "joint_exact": 17417,
+  "joint_exact_rate": 0.6055980528511822,
+  "actor_primitives": 287929,
+  "actor_exact": 282294,
+  "actor_exact_rate": 0.9804292030326921,
+  "market_orders": 37858,
+  "market_exact": 25023,
+  "market_exact_rate": 0.6609699403032384,
+  "mismatch_causes": {
+    "market_quantity_compression": 12835,
+    "actor_quantity_compression": 5635
+  },
+  "lossless_json_codec": "separately verified; not the runtime BC output representation",
+  "wheat_quantity_examples": [
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 1,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        1
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 2,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        1
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 15,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        1
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 16,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        1
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 73,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        3
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 96,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        2
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 118,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        1
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 120,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        4
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 121,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        1
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 144,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        3
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 192,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        3
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 271,
+      "teacher": [
+        "SELL",
+        "WHEAT",
+        6
+      ],
+      "runtime_representation": [
+        "SELL",
+        "WHEAT",
+        5
+      ]
+    }
+  ],
+  "opening_wheat_5_to_3_diagnosis": {
+    "round4_skill_card": "experiments\\learning_round4_20260921\\SKILL_CARDS.json",
+    "teacher_observed_order": [
+      "BUY_PRODUCT",
+      "WHEAT",
+      5
+    ],
+    "runtime_decoded_order": [
+      "BUY_PRODUCT",
+      "WHEAT",
+      3
+    ],
+    "cause": "market_quantity_compression",
+    "input_difference": "NOT_APPLICABLE: runtime BC quantity is a token-level fixed median and does not read observation features",
+    "model_classification_error": "EXCLUDED: this audit starts from the correct teacher token"
+  },
+  "examples": [
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 0,
+      "teacher": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            5
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 1,
+      "teacher": {
+        "farmer": [
+          "PICKUP",
+          "COW",
+          1
+        ],
+        "hands": [],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_ANIMAL",
+            "SHEEP",
+            3
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PICKUP",
+          "COW",
+          1
+        ],
+        "hands": [],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            5
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_ANIMAL",
+            "SHEEP",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 2,
+      "teacher": {
+        "farmer": [
+          "BUILD_PASTURE"
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "SHEEP",
+            1
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "PICKUP",
+            "COW",
+            1
+          ],
+          [
+            "PICKUP",
+            "SHEEP",
+            1
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "BUILD_PASTURE"
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "SHEEP",
+            1
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "PICKUP",
+            "COW",
+            1
+          ],
+          [
+            "PICKUP",
+            "SHEEP",
+            1
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 4,
+      "teacher": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT",
+          3
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "BUILD_PASTURE"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT",
+          3
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "BUILD_PASTURE"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 5,
+      "teacher": {
+        "farmer": [
+          "FEED"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "SHEEP",
+            1
+          ]
+        ],
+        "market": [
+          [
+            "BUY_SEED",
+            "MELON",
+            2
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "FEED"
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLACE",
+            "SHEEP",
+            1
+          ]
+        ],
+        "market": [
+          [
+            "BUY_SEED",
+            "MELON",
+            2
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 6,
+      "teacher": {
+        "farmer": [
+          "CARE"
+        ],
+        "hands": [
+          [
+            "PLACE",
+            "SHEEP",
+            1
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "CARE"
+        ],
+        "hands": [
+          [
+            "PLACE",
+            "SHEEP",
+            1
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 9,
+      "teacher": {
+        "farmer": [
+          "CARE"
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "WHEAT",
+            1
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLANT",
+            "MELON"
+          ]
+        ],
+        "market": []
+      },
+      "runtime_representation": {
+        "farmer": [
+          "CARE"
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "PLANT",
+            "MELON"
+          ]
+        ],
+        "market": []
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 12,
+      "teacher": {
+        "farmer": [
+          "CARE"
+        ],
+        "hands": [
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "PLANT",
+            "MELON"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_SEED",
+            "WHEAT",
+            2
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "CARE"
+        ],
+        "hands": [
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "PLANT",
+            "MELON"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_SEED",
+            "WHEAT",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 15,
+      "teacher": {
+        "farmer": [
+          "WEST"
+        ],
+        "hands": [
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "PLANT",
+            "WHEAT"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "WEST"
+        ],
+        "hands": [
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "PLANT",
+            "WHEAT"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            5
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 16,
+      "teacher": {
+        "farmer": [
+          "PLANT",
+          "WHEAT"
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "PLANT",
+            "WHEAT"
+          ],
+          [
+            "PLANT",
+            "WHEAT"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PLANT",
+          "WHEAT"
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "PLANT",
+            "WHEAT"
+          ],
+          [
+            "PLANT",
+            "WHEAT"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            5
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 26,
+      "teacher": {
+        "farmer": [
+          "NORTH"
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            2
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "NORTH"
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 30,
+      "teacher": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT",
+          2
+        ],
+        "hands": [
+          [
+            "SOUTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            2
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT",
+          3
+        ],
+        "hands": [
+          [
+            "SOUTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 31,
+      "teacher": {
+        "farmer": [
+          "WEST"
+        ],
+        "hands": [
+          [
+            "SOUTH"
+          ],
+          [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            2
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "WEST"
+        ],
+        "hands": [
+          [
+            "SOUTH"
+          ],
+          [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 48,
+      "teacher": {
+        "farmer": [
+          "COLLECT_FERTILIZER"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "COLLECT_FERTILIZER"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 49,
+      "teacher": {
+        "farmer": [
+          "PLACE",
+          "FERTILIZER",
+          1
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "WHEAT",
+            1
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            1
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": []
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PLACE",
+          "FERTILIZER",
+          1
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": []
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 53,
+      "teacher": {
+        "farmer": [
+          "PLACE",
+          "FERTILIZER",
+          1
+        ],
+        "hands": [
+          [
+            "CARE"
+          ],
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            2
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PLACE",
+          "FERTILIZER",
+          1
+        ],
+        "hands": [
+          [
+            "CARE"
+          ],
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 54,
+      "teacher": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT",
+          2
+        ],
+        "hands": [
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PICKUP",
+          "WHEAT",
+          3
+        ],
+        "hands": [
+          [
+            "NORTH"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 55,
+      "teacher": {
+        "farmer": [
+          "FEED"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            2
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "FEED"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 57,
+      "teacher": {
+        "farmer": [
+          "WEST"
+        ],
+        "hands": [
+          [
+            "SOUTH"
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          [
+            "HARVEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "WEST"
+        ],
+        "hands": [
+          [
+            "SOUTH"
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "HARVEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "step": 73,
+      "teacher": {
+        "farmer": [
+          "PLACE",
+          "FERTILIZER",
+          1
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ]
+        ]
+      },
+      "runtime_representation": {
+        "farmer": [
+          "PLACE",
+          "FERTILIZER",
+          1
+        ],
+        "hands": [
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            5
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5809 @@
+{
+  "created_at_utc": "2026-09-21T13:10:20.717243+00:00",
+  "teacher_submission": 56216119,
+  "teacher_version": "UNKNOWN (submission id fixed; private source version unavailable)",
+  "teacher_current_rank_status": "UNKNOWN (not re-queried on 2026-09-21 Round4 run)",
+  "source_type": "public Kaggle replay JSON already present locally",
+  "public_information_only": true,
+  "opponent_private_used": false,
+  "acquisition_reference": "experiments\\learning_next_20260921\\source_manifest.json",
+  "acquisition_manifest_created_at_utc": "2026-09-21T02:53:04.279828+00:00",
+  "engine": {
+    "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "version": "kaggle-environments==1.32.7"
+  },
+  "episode_count": 579,
+  "episodes": [
+    {
+      "episode": 111063979,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111063979.json",
+      "sha256": "7c4aa1a70b7e78827bc350457e4665619611678663f479ecfa0770cb15527722",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111058336,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111058336.json",
+      "sha256": "3c4dead9d9f2f4e735bd8a444b2cc59a07c0892616f87f6dacf7b5ca2a568215",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111052856,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111052856.json",
+      "sha256": "489ef60eeae94da43d59600da089fbb94619995dac68c23966e8f7516c99a871",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111047335,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111047335.json",
+      "sha256": "81ce470129f0de5dbbd017c6c9cb4c5ad5e645245277b5ccaeaf38f0dbd7735a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111041913,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111041913.json",
+      "sha256": "bdc1a49eca252d91b8184d4df7542682f5a0554e30939c8b3a61320d51dab403",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111036531,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111036531.json",
+      "sha256": "cfc8c6e7e2e9b0f7beb30d3c41cb97381840dee379f1373396d4b306f5dc26f9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111031244,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111031244.json",
+      "sha256": "f10e08ab33acaab5b894c808636ff417218be71fc64fb5a8dfb9fea6e104e2db",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 111026476,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111026476.json",
+      "sha256": "15d6f4ddec168aaaff036b7eeee9a43501d8c6df062625af90a2ee9cec4d03e9",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 111021281,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111021281.json",
+      "sha256": "250e696bba031879b7f8fa2db7be48203cccef1a781fdc849a2661026152c4a4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111016701,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111016701.json",
+      "sha256": "6e6c27cc49d193cf06143df93ce6ac9bdf48d695926d6a03f51d601bd76faaf0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111012214,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111012214.json",
+      "sha256": "bd70c0bcb7ed9458e6fda7d721ccce7ed9e4e0ae76c6066608329d91b0dcb3b4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111007735,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111007735.json",
+      "sha256": "7fb822f2a77451cef579ae1c36bbb01bf24de4f8a45f35c374d3c7365d631c17",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 111003255,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_111003255.json",
+      "sha256": "8e275b0b5b51e1c4d4e95045ef2d997d94138acf25b936ea76cb7ad1472110b1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110998284,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110998284.json",
+      "sha256": "70bc105a17603126fed7838501c0e87c0cf6f5a74650df747c971faa896684ff",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110993875,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110993875.json",
+      "sha256": "af66a6799f55f5131c15012a393535aa8b9f8377e62413cab86ed56f24b3d381",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110989428,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110989428.json",
+      "sha256": "fc8c4b3b73957b25460b9f72f2261624e58c9ec33d791a8a36be8fc86c95aa50",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110984730,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110984730.json",
+      "sha256": "aaae37cd986479eb67949da8f941ba864a46c4f125679cf3e18bafca4ff83c62",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110979592,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110979592.json",
+      "sha256": "dd8cdf7adaabaccd39070c7f7e33299acd51dfe5d4eb009a4cbcaaf450160f2e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110974876,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110974876.json",
+      "sha256": "e2b5e6ca3f0fa40414da96be0ce251db76a7d18446bf7e8c61c22a5bf2fdfd9b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110969650,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110969650.json",
+      "sha256": "9dd226838fe890e3326372cd7f9bf8e94e23b6eb542211484e00532e78d40d56",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110964284,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110964284.json",
+      "sha256": "185b3eb208138504c8a71b9a99bc8a30f8b09e8084a7cf80d8eca93486fc4cca",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110959567,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110959567.json",
+      "sha256": "374c3538b94c79a5d8b188b167b056bbf8bc5fb7df41f97dbf53cd0cecaa6223",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110954233,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110954233.json",
+      "sha256": "d32a3369297dab28f499c36c2e7e5f7ca1949366bf4663d76c05fc51e91c41f0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110948948,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110948948.json",
+      "sha256": "a642ca68f23a91322d61e48f57ce9e81ec08e90e9a760f91f4d94ae312b5ee02",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110943566,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110943566.json",
+      "sha256": "a606394d81547b5f008bb2c7d4c4fbcd0f14b13962f46e084eac78ddb52e4d03",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110938064,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110938064.json",
+      "sha256": "5ff98eee2d12280a40088dd7fa7832ce553e460e853c8b38b1914907bbdbe4fe",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110932461,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110932461.json",
+      "sha256": "b25adf118c1720587f1e9b00018e6f36a892fd17cfcd800a5c681f9c4b968719",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110926948,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110926948.json",
+      "sha256": "0b435a212617dcb876a016680f73612eb4c06995ed87d6c33314db6fef447643",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110920455,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110920455.json",
+      "sha256": "34751322b8d99c492a12e54df725cd2ac011ed70c550c55d5360912bbad4c02c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110913896,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110913896.json",
+      "sha256": "396a4393c66943371a4272577c5ee572221bd115352af8e90b9d1c9ed8062a80",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110907373,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110907373.json",
+      "sha256": "6ff6b7b66504b58c75947a60867a7b66a04f727c31aaa1ea1ea5b68c7b70cbd3",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110900752,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110900752.json",
+      "sha256": "54b26999041097e7d35aa29996a99f6955bf8b2cbe5bff7baf265b897d55b47c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110894053,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110894053.json",
+      "sha256": "f2c6f1b219d4f2c24d97e706db3d4f9a2be405b6f12dc28f6d5ed13fb3c97821",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110886706,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110886706.json",
+      "sha256": "75461e7291e658cac86b53e3b6ac99b2c1d59f808054d7d6c1cf391f607b7d3b",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110880100,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110880100.json",
+      "sha256": "a9fc7b2ac52ae489b919b99a8953e9c8c67038efd3716b25c0dc072739148947",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110873562,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110873562.json",
+      "sha256": "c4a012f65de82480c70ac05555b8e40120776a4427206472c02802187720f74d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110866886,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110866886.json",
+      "sha256": "f1ab0d0d3b6c6630a20c95fd0aef3c841a5285190b10cee8fda32c06275f1ab6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110860277,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110860277.json",
+      "sha256": "f1f54a676c9c01e3c58425171d39e0366ed441992b1bc1ffcacc0e6e2eb99a4e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110853714,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110853714.json",
+      "sha256": "5ff3b9694b7cc10e5faeb48efb332028adb1d0bf76d22d2f40458c42ff00ce81",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110847157,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110847157.json",
+      "sha256": "29332c7e1104413e732a500b6f91586cb6dfab3d0866e68d0a5d231d2c48f90c",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110840539,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110840539.json",
+      "sha256": "8007f3bdb228d07b33b12b94e6882986a353e87b69cf6eb5f120df71d804e143",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110833935,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110833935.json",
+      "sha256": "c418547add997923220f00bf018729cc15110d79504dc34ad0080010fd485969",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110827336,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110827336.json",
+      "sha256": "70882e3c4d88370d5e7183970fb0e740c4ffc8c60a66ed0fc35e6148a424acf4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110820756,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110820756.json",
+      "sha256": "68a8415a08b5ed15197c89aeeb61f7cf6bb0ed19854bad3f8bbd9eae7c08b412",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110814279,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110814279.json",
+      "sha256": "b00e375baeeeb669186413ff1b86eebd9cd8419ad213a31de5acc0164d373edc",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110807592,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110807592.json",
+      "sha256": "10f5c4ee013a174a85d9c2a3189b2ed5779d8bda49b8a2244edfa8977e3eeb1d",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110800960,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110800960.json",
+      "sha256": "4c5925fdadd9aa5696a6b07991ac06ed77bd376f0db7628681a92c59a981f113",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110794443,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110794443.json",
+      "sha256": "3aa25be51f8b8e7475b7298c92b25eb44bfd8ce670f12095913219e609f5da9e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110787897,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110787897.json",
+      "sha256": "b55f2a4bd4d037a780546da0dd735ba60e7783a8bc89f8be3cd5a83a0458c3f5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110781289,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110781289.json",
+      "sha256": "b0d796e9f2308f79aa5cad99aaaa0b87d9530a26bc06943774fcbcface0e434e",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110774688,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110774688.json",
+      "sha256": "28d7c448c8c244edb05b27d04a22e2ccdf27e06f26287796bc3015671116d121",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110768104,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110768104.json",
+      "sha256": "ae9eb5e5707845d75e52987c26dda38f61d75cf4fe9f77fc4067f3db42f33b4b",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110761433,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110761433.json",
+      "sha256": "cdc8b1b2f092d472d8f37d1bcb4cafd97ae7ba9a906b23d62acabf982a7d23ac",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110754532,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110754532.json",
+      "sha256": "b9966deb419a68eb68344406b52d41a549454795342e4154d9fb2a102e3e636c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110748260,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110748260.json",
+      "sha256": "bc015d412a1b613853172f3c5a3815e56a9d9a00735c84a2d7ebce4d7d64a482",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110741715,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110741715.json",
+      "sha256": "9d560d459514822e5aaf8b23ee5ff09cdd75799f0437f07216d2c9e6385e9b9c",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110735210,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110735210.json",
+      "sha256": "e4ffab7b7430d6de5846aa85fd6607c8005f0569cbdcf4c40a8b1f0336704988",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110728807,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110728807.json",
+      "sha256": "fda1b7c6d2d6bf97fab37fc63625dc0c6b7fea666a770297b9b3c7636c59f710",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110723185,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110723185.json",
+      "sha256": "ac359fb30fd25618fe2925fb40ac7abb59133274ce5e1e8a38f9d505754b670a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110717373,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110717373.json",
+      "sha256": "285f9a81052ae0f9e1f16f02cb0c89d41027c79ebbc24436b17799cb749c83f2",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110712446,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110712446.json",
+      "sha256": "14975ad58453c214b402ead484894f85497cf7f76fc366390be526c8ed4c6d46",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110711267,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110711267.json",
+      "sha256": "be87c64e8c5a2a6d1d2d657ec61b9d8c536be3e73646e093d7e296f99c4f2555",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110705635,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110705635.json",
+      "sha256": "c03ed56c0b47dc91c13343464717b3f9ce3e858e50f002124743bab95be123b1",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110699866,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110699866.json",
+      "sha256": "885350dabc8f28b37c7c1e0e12d6c6334f5c2a4b006c93a325241b2bb828e567",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110694783,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110694783.json",
+      "sha256": "233f14d27230ff2edfede3c22ff1740c19aa03f8cfcda3c748407a3445ac0626",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110689609,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110689609.json",
+      "sha256": "2838f43483cd1e7400a4909089850dda8f50e21b825698dd2caa2887a0d7f9d9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110684258,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110684258.json",
+      "sha256": "0d6d90b4bac80047761bece6c7c728f6adb18d916d53e67629a135170eab17be",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110679214,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110679214.json",
+      "sha256": "c2157b9a7b90b90b46ce75257b6335ea75082f533f88eb578480f8c3e1eb4821",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110673851,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110673851.json",
+      "sha256": "c82ef45477feb516692e9317d8c51d26ce115eb9d28406c3112692612e7565d4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110668628,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110668628.json",
+      "sha256": "69c3bcd3f84aaa743109e84c715af89ea808a50ca76a66a957bebf17e1904fe5",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110663979,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110663979.json",
+      "sha256": "b0d356b89e70ac1ec47e1dde3e2a686630c0af7d2067e4a4f24d1e8b9c174735",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110658772,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110658772.json",
+      "sha256": "acd076b7d706a7009b44830ec2f313523ba259fb800a1c7a90b1220dd9af86e4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110654074,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110654074.json",
+      "sha256": "2994e2a0be034f0751931b59586ab28b060302c49d300432ea7d208d0ed8dfce",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110648924,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110648924.json",
+      "sha256": "47cc10547db08e9c51aa1bc01fe7025396359eba705c721fef43baafd1133ad0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110644324,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110644324.json",
+      "sha256": "98c6cfba46860a0ef097e5be15a429b1dfa0fb0a00576082be29372aa39334cc",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110639260,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110639260.json",
+      "sha256": "b157a7ff000bcd4aa4784f3ededaaef5d135ee72e56630d65eca654791c55e8d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110634716,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110634716.json",
+      "sha256": "4fc25c9ef63b3c874a76c39b5f23e20c2afe9d8bde343c7d7075d71ed5acc922",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110630110,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110630110.json",
+      "sha256": "6369009fd321c6b6b13735403709397e4d82b3eca46272295ed5c49dbe9922a8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110624937,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110624937.json",
+      "sha256": "2f8a143259c7c9c27808c38d4ca948e81fcb6101b0f3b8d7859e19bbc5055960",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110620461,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110620461.json",
+      "sha256": "f0b703d863fcff43b8b98ecd0ef6867ec78c8b2421e80b12c0e5c6fc327b81a7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110620339,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110620339.json",
+      "sha256": "727c2df6bd1354886a07eac48d964e4118e8f676581a47c650f85ce16b1b41a8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110616012,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110616012.json",
+      "sha256": "4f59e46816c2d2f494e331cbecc055ee903be0d65bfff976374633fa41eb5e64",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110611670,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110611670.json",
+      "sha256": "b3bdd9cfbd440d0f549d9e6277896e6ab119db53b6f92894ec55e38d326698f0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110607329,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110607329.json",
+      "sha256": "760b363d51e8c4413e89c623b57f669e54045279a02f8732d31c0c5a1cc1b9b5",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110602868,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110602868.json",
+      "sha256": "b1cf00a3d0920859cfe557182a1c1390e86f77535bdc8fb3a3268c2dfdcc6c0c",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110598531,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110598531.json",
+      "sha256": "b253f3d4d80def2f630752a5a85d80dbeadded3709a73da45a25d1b0e4109d91",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110594250,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110594250.json",
+      "sha256": "35364bdd67b0d60fdedd7588abc440c637f5247e33235f849a76c5cd02dcfa27",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110589893,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110589893.json",
+      "sha256": "47a6c3196190529f721f41bd7f3ab36b43d3e0d01c95ed7f3f9f8a7abbe648f6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110585534,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110585534.json",
+      "sha256": "5d0e61da8ccb0e9c025358e63da2c4029ea07f3c4d147c57ab2f26484ca03648",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110581050,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110581050.json",
+      "sha256": "6eec266738a0885ded2b103cdebe9765bbf8faa31119e91213260db15b72b6ef",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110581055,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110581055.json",
+      "sha256": "9b83b173302229e8976f77d04b55336a9dd21d6d9d47b10c3d4c282f22a2733c",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110576175,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110576175.json",
+      "sha256": "877df0b62c464586215bd9c5b8c423aa6e84d3fe0d7a34a703708c97c5f1ae33",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110571697,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110571697.json",
+      "sha256": "ab19e073fc3f8b2973df0cb1725a504d8acc2e6cfa45029b724690516934a83c",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110567030,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110567030.json",
+      "sha256": "adca042c910a4580cfeff2de318c3c2277f71316335516f452df6b5630803ca5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110567121,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110567121.json",
+      "sha256": "6be1289037d2ae9aa24d2d3b4aa261f4c284f026cf5a27543721c26e9fabcba4",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110561876,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110561876.json",
+      "sha256": "afdf247ad6cc52f44a99a1b67d566357741b6c0df510b86c551801f631bd4d4d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110556584,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110556584.json",
+      "sha256": "36b681c81b12e4478b9f48e8bc472afcd753f25e10e96cb8a2231f8f1e8e7a5d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110550972,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110550972.json",
+      "sha256": "5fe9a093685c5e5b4a8284c09ec3641c74cdbbb59b282fae5e67b4069db55ae3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110545890,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110545890.json",
+      "sha256": "9e990d0da99e613937970b55dc1fad94171f43fbf10fc2c58d857c1941cc9189",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110540339,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110540339.json",
+      "sha256": "337fca97c830273065515a9959fe552929217080a63541939da504ad8fe40193",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110534086,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110534086.json",
+      "sha256": "f065eb2572087829432f80bf95d58793f582f81567cc6db7280781e6aa82f3cb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110528434,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110528434.json",
+      "sha256": "f253a786a1bacbf75edb7e14deff23b0c3d6579ce0a422707c203a565e66ce4e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110522049,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110522049.json",
+      "sha256": "4e58b9a408c300ef7b3e8edb299d7bc74c71c4fff9503ccc00312d53b50e93c8",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110515636,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110515636.json",
+      "sha256": "4ee011a47e3916218c990d43a1479ffbb3afa1bb21b24e07abe1a5433105703d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110515630,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110515630.json",
+      "sha256": "a98559d4c718279f3cd2675deb5352ecc4493bcb0a6e69ae6be0ce582c4b6bb9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110508935,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110508935.json",
+      "sha256": "be2d18b6007412a49c6fd246cac08619e4aff743fc6b2de4a82bfd1532b98e24",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110501645,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110501645.json",
+      "sha256": "b073e1e194cca220277ad0d6e6d86730e5a9a979ad709a0e6b40fb933d77408a",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110495046,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110495046.json",
+      "sha256": "8638119ca47d7403d64043cdf6ffbc7494a2b90156c94131ae6b97ef26d75d07",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110495009,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110495009.json",
+      "sha256": "799c6806a9b8eb96e34fe8abc648cfc95500e5ffc63bcfc5a7ee48b6ce09e579",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110488468,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110488468.json",
+      "sha256": "f3cc719286076287e0499002ac5f9a5e449401466cd0223bd84804bf59f2227f",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110488471,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110488471.json",
+      "sha256": "58ba295cad1faf751074bb63f60fae47b132a215895e439c3c6eecdafc837105",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110481973,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110481973.json",
+      "sha256": "aeb4fb7060c3ad91e4ad30651fb42189df0a9809b78884d51845b0ab107da1bb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110481975,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110481975.json",
+      "sha256": "c2c88bb0d612f3ff094c38551699eaa0b16ce3d9ff715ce26aae8a7df68d933f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110475632,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110475632.json",
+      "sha256": "9c1fa7332c9fafee89737875d0948ea17975b5a76ca4c088016b7bd2ce154678",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110469896,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110469896.json",
+      "sha256": "e457eb493f2b3636c2f3e2cd27e9a20a8509d797fd8a0fd189775d9986918450",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110470026,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110470026.json",
+      "sha256": "e11e676b58e6c6047a8ce1bfefe1e8a1e8f9f70b6b1f60fff49fa0ed6bf63ae5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110463411,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110463411.json",
+      "sha256": "a183608c5412df059930e0a187ccc372d2d906fab7762277bc6b811642fb7bd3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110457104,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110457104.json",
+      "sha256": "e904e3e01a5c8f63038a06ddf7678962c5b9ac7ae40d251943d5bb73001a2e2a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110456046,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110456046.json",
+      "sha256": "6aa8a11dc0c2e9e5726bf768d3599d4704aa1489476f13f9a0c1d154c9c0d978",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110456052,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110456052.json",
+      "sha256": "b96823dc4ac00efc79f84e1700a58fac5ca55838efae143bc4998fc2a7bf67cb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110450369,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110450369.json",
+      "sha256": "17d9b2386439ad5ef1efc10710fe263219837f8e5f9aa75d957347ea0cc5e538",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110450383,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110450383.json",
+      "sha256": "a9952c198743c01803ef3fe399cfe6493c27bdd6257ff7457bb02778cbe7d658",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110444190,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110444190.json",
+      "sha256": "5896c0bd7f7fbc693fc259c6e21447b74f4e52a4a1d8d6596abf4000ef5c9ff5",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110438594,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110438594.json",
+      "sha256": "c56414687146510377539ffa04a960ce0a38c3879800f97084fa264bfc4f3be0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110438593,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110438593.json",
+      "sha256": "0d7f3db174e6989fd41caf9d17ea53d507f6c5112e3bb99d51aff242bdb59e94",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110432311,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110432311.json",
+      "sha256": "d3e72529f8db51f4f36461fec7c0155633a7c16c185c103ce2def9b1a4a29794",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110432306,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110432306.json",
+      "sha256": "8fb52a8f7678853ec15ea4e8b295c1660ff858a797518b8b14b6e1f19bec4dee",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110426623,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110426623.json",
+      "sha256": "b77607495790391163ce58401ce3e4b92f19362f54e2689d9761b6e723c3b756",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110426632,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110426632.json",
+      "sha256": "4ba99c2b2a9aab8896872c8329a3a8872700b305d4d223528b7a6ba441284e90",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110420339,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110420339.json",
+      "sha256": "a084f402dd03b1a609211e70f8db6b0eafe70df0891596e93c05b5b762fd6255",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110420332,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110420332.json",
+      "sha256": "c542cd0824160e2c2da69b654923c971b4fac996c0f39ffacf684b50033d39ef",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110414611,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110414611.json",
+      "sha256": "34fef6705868636611b8f9a739571c7a9a1c3021cba644e57b6602e94a4e8479",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110414622,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110414622.json",
+      "sha256": "a96a35897ea754278dcea98a58c9290a4f788a47448517ace0cf6e36a3654da4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110408322,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110408322.json",
+      "sha256": "893f18bb88026bfba52784055d312c227696bbbb33023e26d0eeeb9157b2833c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110402663,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110402663.json",
+      "sha256": "c5ff8a9c4572ed0908f11cc5b657e0791a4889a999a41d70e68648bdd593b5e9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110402664,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110402664.json",
+      "sha256": "34d2519f3df3e7c5504590def010a8aeed346202083727fac8c6870f93ba3632",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110396387,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110396387.json",
+      "sha256": "bbbdb8332acb848d7874bb6f440282e604d548062a0bd40588ca1dd85d76ce15",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110390763,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110390763.json",
+      "sha256": "51eaf87074206e97856e98c81df5eb3328b464469703cb6c5cedb4677f471b78",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110384453,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110384453.json",
+      "sha256": "d87b344a498f303faa80fdb7971e3d8af8098554da2eab93c1799f90313d6868",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110378190,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110378190.json",
+      "sha256": "8918686c3c7d64a16f9ea422569e60807b3f5c7652f25020c6b76252a3a773a1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110374885,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110374885.json",
+      "sha256": "53e8e4c2e61f53ea7aec3a422be104b786a798f8ec8feba3c4196b05f228a996",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110372519,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110372519.json",
+      "sha256": "bd329916a12e827247d2802e768f8e245fa4c9a9cd4354cf3c44025acdd50345",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110372518,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110372518.json",
+      "sha256": "56c23a7d0e332920555f7bd0729faa28a7c70058473fefac65a6bb81c39a5440",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110366273,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110366273.json",
+      "sha256": "8f0c200fa8f118b9c609376e69ae49ef2dc31fc5843f03e0d3e3d97c82ba0d7a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110366276,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110366276.json",
+      "sha256": "ec83a79a352326e499fc9a27a4c7f53a45d22f202b57ffa72582c3d54e416758",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110360764,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110360764.json",
+      "sha256": "a8586c8ed33ac4f6e8d0eff9b174851f2459f6139ebeb048b386a858dca69d38",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110355324,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110355324.json",
+      "sha256": "73e8576c973e2b798eae5600e3dd1181d757abda0254ec3d9434f6d6f8dc097c",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110355328,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110355328.json",
+      "sha256": "fe1a128b549fc913d991959667621ab4be7063c066683fc8cec90940c2ad1c6e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110349860,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110349860.json",
+      "sha256": "fcebffb856f7858d3ba6d8134f2a55fe7c0cb07fafc618c9b2f7730fa7da565b",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110349852,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110349852.json",
+      "sha256": "9d8f77d4b75f9351981985d1daa6e5ff7160e386e8cac59c3e39d5fed8690627",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110344282,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110344282.json",
+      "sha256": "496d539a6fb618e700fa2a65eb90a800cdedf9c6026c2fc0bca82e62b854f660",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110344288,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110344288.json",
+      "sha256": "0f94d296dc79430b2d5b651721386054749de2fe79d9c17ec1929f1e118616c6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110338107,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110338107.json",
+      "sha256": "29e5a43fede60eecad3533e7bf6507b5c0819a59846f6016826d2dbc5404223e",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110332585,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110332585.json",
+      "sha256": "e4b0b04ee35ad8abc25dfe4c65e1222dcd56d1c53a02ffc4f3b7f1b5780563fe",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110332581,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110332581.json",
+      "sha256": "9ae4303f5ed5c001434a8615028b8f9d44454a53643ddb9d328ca55c0580c09d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110326959,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110326959.json",
+      "sha256": "2b7c14c1f2162ca50f36682c54c34577e04abe6574eabc5e3196d5ae8b79dd12",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110320847,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110320847.json",
+      "sha256": "1b82ab3ece2bc39f4a7c9863f8f9aae6f2bd83c806b91b50661724ee17769d51",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110320839,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110320839.json",
+      "sha256": "86c14c642bf703a3fbf82491e3a273b700715b3d53634e8cb61da559e24b631e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110315400,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110315400.json",
+      "sha256": "744d5184a9f95c90afeaa975c67ffd943bbdeaad036b9c39a2f476d80d598666",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110315401,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110315401.json",
+      "sha256": "aa4ebe164b9b30267feace455499c5adda3300dd063ef959dedff63dad358de0",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110310020,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110310020.json",
+      "sha256": "604c6a2a357c923a6591983d850a39691bf7a3467d8ddb7c4ec3c5a38899dd58",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110310025,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110310025.json",
+      "sha256": "43d975f12e12859302a3098b57d232eeec70563c1aaee834c679c1f93fb43df3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110304587,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110304587.json",
+      "sha256": "732ef807387070362f74ec9c874ab21d186250ec96e90194dd1e8285f463d665",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110299087,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110299087.json",
+      "sha256": "3d59a547e3b3868e08615162c23aa5b4e407d5345e32d107a5d745d0d842fd80",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110299126,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110299126.json",
+      "sha256": "1b42d84ed2eec0c954e67cfbe72e30b7ebdaf67b0094dfc8350190f9a8a4740d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110299084,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110299084.json",
+      "sha256": "f363bc7a2193b05847df250fddcfdddb2ed0ff32b631c47651801f6da33ba5bf",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110293614,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110293614.json",
+      "sha256": "cdd54f55bc3a9beca848e2ab4ebef72c2c7b8c79a83866011eb984e23cc97acf",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110293609,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110293609.json",
+      "sha256": "778682c13b2fbd78c26a72507d9ab2af81e3b3bcc8981ed00ac5868491a389dd",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110293654,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110293654.json",
+      "sha256": "f8752c5ce65aafd9b70172e682959d24784c1bbe2471825358521f095d549164",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110288154,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110288154.json",
+      "sha256": "b665e12bb679f6a11dceb890c28d4398e65b119f9a890257fb65f9eb31ca923d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110288145,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110288145.json",
+      "sha256": "c68e57f6a966e7e605cfb5727da8a8e758987a8ce2dac98822a3531c65c34444",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110282687,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110282687.json",
+      "sha256": "f4dc619124515d7bbbe91697c417c258e5846b73976a4cc9a72284ddc434374a",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110277235,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110277235.json",
+      "sha256": "be40dde91fecb2cc40d391919c3fa3d1df6de6648fc79aed50d9bd937d23dbc0",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110271825,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110271825.json",
+      "sha256": "30582f3dea367f9e35865d773ab91acfffb8c6b47510fe8f801ee78e8303b9bd",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110271824,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110271824.json",
+      "sha256": "78a9a5a7a7150d9b00d96b6e8b336a7f036078919183949677e82bfafb020dea",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110266476,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110266476.json",
+      "sha256": "2db000205739326dde65791cde39d266f28ddc2810978bc1e2d35b62fd385810",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110266528,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110266528.json",
+      "sha256": "0483b05ad5f125ad764209f2390076b70e4a6e5f79c53078b6e13340906dd178",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110261418,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110261418.json",
+      "sha256": "6822bce31f8afe40e7d3b9088b343a2b573309f7628d4a11fceee36ab49b12ec",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110261366,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110261366.json",
+      "sha256": "62d640f9cafca40677b5d5b2ee158aaebfcb3208ddd22cb6bc4e863607aed7cb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110256739,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110256739.json",
+      "sha256": "e75e3c6fb6f1426080d281f3366695cdc30300495ed70a05c7038e84628e9d2a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110251503,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110251503.json",
+      "sha256": "fbc89d4959b977e658dbca2682c098ffb9a1980be00fb78bc2a19b0015897c4f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110251515,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110251515.json",
+      "sha256": "9556c2e01c31c64550200eec712f07c7f1d83ae1d1c38a269ed6cf528fc2b32d",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110246344,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110246344.json",
+      "sha256": "b156493c5939a4ec22a12f76cb6e1a4319b768d76bce81e47cd4a1a0453570ca",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110246349,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110246349.json",
+      "sha256": "d04f7eea306611626a79f5642b63f043d3e80b1f822fc591d69f897cc72a8ab9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110241647,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110241647.json",
+      "sha256": "0a59f67b35acc2c6feac28612c425b097692cb1115529f79c1e843a6d373b12f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110241660,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110241660.json",
+      "sha256": "2d6f7038a8368bb063af3b0c073f2cf29fb8adfdf0d6580226342143638f4b25",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110236489,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110236489.json",
+      "sha256": "f6e48c5316fc0e21981ac7841506c709061ba8cf9c6862e09ba02e42a74d0764",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110231798,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110231798.json",
+      "sha256": "2a72437363c38e6faf931d360320c49ad18156fa0d859bb922e8191aaf81f9e0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110231797,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110231797.json",
+      "sha256": "1f53145d96b8d80ea727f1dd7ff0748a05fcb71c83a6a5ab27fe7cbc6c64ac14",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110226825,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110226825.json",
+      "sha256": "134accb50efe108806c714c8c42763bb824f893f1acdd82c436bc43678cd6672",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110226841,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110226841.json",
+      "sha256": "7950bfcd1a564a400e9f062ecac20d63c5eebe70c69b69599e84ba91df9f5b4a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110226840,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110226840.json",
+      "sha256": "026ca33b1858696d95e300c57e43f724cf2228981a05b808d98727120f5dc7b3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110222493,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110222493.json",
+      "sha256": "d65299011c663a16ac1ebc0fd6f50658d6bec40cc2db839c8e2d1dd9eb9a99db",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110218088,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110218088.json",
+      "sha256": "41726b044c3fe1052469e251d133870db542f3d3930915d1a6c035c195a52218",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110213698,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110213698.json",
+      "sha256": "21fc5ac854375077478d2f014dcd3de386aab0f8cad484e03615edf22ec67db9",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110209281,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110209281.json",
+      "sha256": "39965288a021423ee71a9e146c84b06a3e971852676804a355e0e17b33f5c89e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110204283,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110204283.json",
+      "sha256": "ee1e6b1e77bb7f6e6d7d34c5f0dcc475d0753c0d7dcd0f607e4af14d546d5c9c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110199771,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110199771.json",
+      "sha256": "6141ef77b2bf027128c7b20d4c3d5549bd7f615e02ce7a6f204f9ece2d3c4d04",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110199768,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110199768.json",
+      "sha256": "3e076ce5ab622ff2406485ec20e6a05423cb241ef52aa48dbbb89a16c2f2593c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110195241,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110195241.json",
+      "sha256": "7eead9a4e14c5b603ec9cee8bb49c6baef5cf2d4c8cf755ffb69700859a6795c",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110190223,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110190223.json",
+      "sha256": "36a3d01bd3f2d136c282b4717b412b84abf359f1048a9dcaf710c7fe09b65b7d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110185534,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110185534.json",
+      "sha256": "0532311eba65cbd63dfd1db36d4c1f3bf50dc8af44b82f4dff0b27d84549a81e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110180282,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110180282.json",
+      "sha256": "0133bdaeb122393d568b40a288e38f34117868210b8418128e0b14a5bfc407ba",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110180241,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110180241.json",
+      "sha256": "af721c06f024df8879225bc691a642bbf4e28016acfed7a3d5137997b38e57f1",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110175598,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110175598.json",
+      "sha256": "8385506418ad012ab9e3d387c869c378cb30b96d7b2e04d1ec9529e861e8ca7e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110170312,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110170312.json",
+      "sha256": "51acd6c67e91ffede271208f2383ffd148b60b25af43b69e9ae5ae85b46679dd",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110165031,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110165031.json",
+      "sha256": "3e2e8d45b4b5a2fb54e254829cb28b9d900a79ba14976f612c9c5dd0cff2c634",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110159380,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110159380.json",
+      "sha256": "4f36250872a48ae9732041866dcd69ba86ade40c52c22e59ecfb5c59493c782f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110159381,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110159381.json",
+      "sha256": "7bd822ea2701b5035559fb8f561e53725245647c405102897da2143178138276",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110153714,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110153714.json",
+      "sha256": "a2a11afb4193857fd07650b33afa82fd8485cde919d13d272384bddb494b55ce",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110147576,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110147576.json",
+      "sha256": "0d5569079bdea2a18fb683839727f075aee3a10a497dc3975a9c1174e89f6b35",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110147572,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110147572.json",
+      "sha256": "f2e7dd340fddd917679406c4ee29a1147fdd96f46953bcbac430dc31fafd8e29",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110141835,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110141835.json",
+      "sha256": "5cb867f2152b508d473ecc04a2638c97db4777f5bf5f463bf82770079ad7afac",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110141832,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110141832.json",
+      "sha256": "61caa453367b4236f0538fe8bb13fd07600970f14e398f8be4bb6ebced22ab1c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110135201,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110135201.json",
+      "sha256": "1d558a0ab5d39b4a6fa0e1d9f32701f4ea821e706e9f9bdcd782a2377c431131",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110129805,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110129805.json",
+      "sha256": "18efa8c2ef1eaff26a909963312f00e8d4b7635c34f254af288a4aaa94b93239",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110123361,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110123361.json",
+      "sha256": "e024fd9b61736d24718b3678e071e0803d59483ce28090ed96e676a894e05db0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110116816,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110116816.json",
+      "sha256": "35af0293233ee4a7ecfdf08caf7ee08609fb9a119bb899607390034aecc98d7d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110110267,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110110267.json",
+      "sha256": "7de2c5aa75e412bd480ddb7a8a1280c953ba5676691ae959040c62486e30a7bc",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110110266,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110110266.json",
+      "sha256": "2abe9a7fcc8c20448076b3c20ccc03e1e8d5d8e8b1c81896b0917682fd308c46",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110102993,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110102993.json",
+      "sha256": "6fa5eaee1ddbb5c6eb84b6dc578bc25fce9a901880cc49038389baaf60bcd73b",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 110096407,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110096407.json",
+      "sha256": "c628c8008f6ed77e8feea44acbd349ff4022c56dfeb033efff864d5605d87772",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110096272,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110096272.json",
+      "sha256": "ffc4b9f82facd1ea969cce772930c6acb639ef81c5628d5787eb7995172999ae",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110096406,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110096406.json",
+      "sha256": "403d198b4523651e1daca25dff4f06acea5afbd9c63f736e7087ec15ca8f0194",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110090077,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110090077.json",
+      "sha256": "3a942b6e41ab19231fd89784069c6eaed7cb85ee86888c2a98b3afef444ab574",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110084421,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110084421.json",
+      "sha256": "69ce8f5e78ef30e5e8a0f5be2ec6f16634f79d2f177e3b441bb860092e4edac8",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110078185,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110078185.json",
+      "sha256": "ca65895421481fe2050fe585d1af9ca97bcd23c560f309d27da4358aefee8b0c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110072550,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110072550.json",
+      "sha256": "a3952d218994b2991dca8e99adea45026b02b232c276b54bac924ad2e2377a86",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110066141,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110066141.json",
+      "sha256": "890c0d32292f103b1f7130e2864f19e3f024bf20950cd78ba214c1037b6c35e9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110059746,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110059746.json",
+      "sha256": "346caa738f717f820176bd7cf2fe1fea8ef7b9d97d9c73234e90e29894abaf7f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110053384,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110053384.json",
+      "sha256": "7c9d464ab681dfe76185293e9ec1e82788ff3d0019f64d736ad89c7a3b9799d2",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110047039,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110047039.json",
+      "sha256": "a8e8a581cce37f280067e3ffdcd5f18685cb106caf89f48a8413fa321593478d",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110047042,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110047042.json",
+      "sha256": "256ce4a3b167825ec13ff2f2a52b7ca23dd9c662762cab566f51f46d2bb28d6e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110040775,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110040775.json",
+      "sha256": "3c38e955c0340294fc54946d386ebda887ae84634ea66c5f0ecf4c5c4136917f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110035119,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110035119.json",
+      "sha256": "33ca38dec2fe59f7c2ee73f48345be6f2b4b5d4fb327a55d236997b9c931c247",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110028793,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110028793.json",
+      "sha256": "55befebcd60c485052185f3d1babc38968fed6f728d2a8f0c36e00ca12e2d336",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110022430,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110022430.json",
+      "sha256": "3fd5c38b123c40e5489c691b09610f02616e1f8bb083e70c18e1d6a09cb50b21",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110016042,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110016042.json",
+      "sha256": "ebad463421c4276ff13824954bdb3313bd370d828f38d03f364ed15b7172790f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110009567,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110009567.json",
+      "sha256": "c63bab89fbeff74a13c2efdb96dc8de52609c7fec955056556ca445f5808578c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 110003132,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_110003132.json",
+      "sha256": "8f4ba7f903fc71e2dadf66c67882529701991e907274fc04579425dd10441e41",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109996696,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109996696.json",
+      "sha256": "2340b18d277e86965a89fccc96022490b112a2be9260ff7930d0b2d15e14ad7c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109990274,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109990274.json",
+      "sha256": "069619b0f84eed3a03b47441000079cdc3c342573aaaead12aea5ffd517248f1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109983899,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109983899.json",
+      "sha256": "af2682e030fa929ac9000555af3285361071ad7971c5c8e7acfce4785385dddc",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109977488,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109977488.json",
+      "sha256": "7589fac3ba8b1cf5ebdfd9b6c316f923d3c655a58d4c42e5776c27e76d066c6d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109971156,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109971156.json",
+      "sha256": "10d863bf7fe49e2d93a6cd63ce34df3607162150786179d19691fe67225b69c0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109964826,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109964826.json",
+      "sha256": "8eaca6a35424397cfb74bd96cd6079781e50a9535dee9d88980f8b6dcdb617bc",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109958522,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109958522.json",
+      "sha256": "9ef50bde179b20af95a9c0c9d7ae7d346b691cbb3ebee06c32df9c74fc546c83",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109952844,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109952844.json",
+      "sha256": "47f1dc16d7c8ea4bb28b4ba4960dc188f21e3a54fb571d479aec6c824985a25d",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109946452,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109946452.json",
+      "sha256": "a41abbb206796397d266d5ef319e2075f1f7b25f5f7d18b6e7302db63f8f975b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109940102,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109940102.json",
+      "sha256": "411b01d42995315e301ae3ad2945700de69178e3c71d66232aa2f7398cb3a111",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109933888,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109933888.json",
+      "sha256": "9787de0464f7d8bef86e7dab2bb25f658c398b00239f2db2f927044b12432775",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109928284,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109928284.json",
+      "sha256": "d0c9a4d5099cbd81cd2e00dc1f0f1a433128c8e7dd89ac23c3b582ca3156103e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109922110,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109922110.json",
+      "sha256": "6c32a958a0f116a2a2a23c0c07a80f756396b096dbb9f2a9c023caefa79f9e93",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109916550,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109916550.json",
+      "sha256": "de2a506ef1f25e0ff411f76d05eea186c940304bbaf26c0ec943996aa4c24773",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109910434,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109910434.json",
+      "sha256": "235f1a140c46418273d90ce1d7bcebe03d869fb51fe2ce97cae25b5a7dbe4a93",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109904844,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109904844.json",
+      "sha256": "bf7f61f9ec7d5eb1b74e45023b7d9b9eba76af4b6b79c62768e4b6c71d083ba9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109898549,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109898549.json",
+      "sha256": "453059d7febebffbaa235137670cc97db5831bf98b484b8907263fb9e79ee0e9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109898617,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109898617.json",
+      "sha256": "76fcb63f23638f92fc5688ef058a24612085d0fbdf0448c1797b8f53c94085ce",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109893079,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109893079.json",
+      "sha256": "e651ae9995230401629af428dc790dd2fb80ea1a2023200d064c34900fd9e7b4",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109887717,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109887717.json",
+      "sha256": "d74937cf86cd9fb994f72779b58298c504de3820658a1dc23832475f32991af5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109882670,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109882670.json",
+      "sha256": "5f386dfca06ead8cd1e32107b4d039e82bd6b42c76c7bb3fb2f08d8a2f13d5a1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109878019,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109878019.json",
+      "sha256": "73e05728eb669c036d36283f93836eb11234340aaa01f2e8ebc24ea3332d23fe",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109872746,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109872746.json",
+      "sha256": "9cd35feff91f61b2d7dbbdf82eecb963c4b957339284180f628ad32bdaf2ae88",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109867661,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109867661.json",
+      "sha256": "986805d6685779f50a4aee5fb24a2fddb096b6fe4fb7a3d02bd1111260abb160",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109867654,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109867654.json",
+      "sha256": "c61451ac40e6f034144451fb64f607693ee518949c9eb5d2287d29593881150a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109863154,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109863154.json",
+      "sha256": "76c6a04f2d4da570f7429f62156f66ce96eb14da1f6ccf3ce38742a80599e1fe",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109858158,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109858158.json",
+      "sha256": "afe15f2d63473ea522580f977c09a0dec9b55905bf8fad2a7651c9f22dc0e5a0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109853569,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109853569.json",
+      "sha256": "eb668c72e43e1a73f990ac527de9cb4b593833fb3ebbfbd80d4b3c5204106b0a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109853556,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109853556.json",
+      "sha256": "7d71a565e3db173e03d1c9c2a4a7dc9e117b80a0115af58fc06951700f29760b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109848551,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109848551.json",
+      "sha256": "c43a0e0a3f51c913e5602dcbdf71215c9536b95db066a455764b7aff60fe19f8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109844179,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109844179.json",
+      "sha256": "645c136a7e2c28bdd969f9aa30cf21de2975d1afbc2f0206747007fac9e8cee0",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109839908,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109839908.json",
+      "sha256": "25c1da9b1834e5ea070ca480ecb46b707d98c0733729fe0269ef05b0b9635a10",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109839906,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109839906.json",
+      "sha256": "4f59a8c0c6adb6741541430cc0fb35b1514559946ee7f4a611b6e8b1f55877e9",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109835596,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109835596.json",
+      "sha256": "7d577b285776ba465cc1eb858155e42399124daa4323345d4822a57e7f93a59d",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109835614,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109835614.json",
+      "sha256": "750accdbebde94252d35dc381cc5569bf1a02858c3dbc8b1b5522c7ca63d7c28",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109831250,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109831250.json",
+      "sha256": "8d75b8b7f0df9a81d7f18d134672f11f8d1fd8b8d4054851dd445de22ca2f1aa",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109826296,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109826296.json",
+      "sha256": "7373ce735cacb6667fc2d77dd88c4d44d6ef15877a8ccdad12a5a74062e4904b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109821955,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109821955.json",
+      "sha256": "99f6b4423c521ff489cb00314e460a4cc48f908a901ea826654ffcf16fa15230",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109817596,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109817596.json",
+      "sha256": "fd12aaacbee06c900163c60c6f5d56754ca123669a0fa6b823531a57a36e9f64",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109813096,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109813096.json",
+      "sha256": "ed7c38e3f27ef35bdbeacfdc1bf69dd6ce653efae29329b63914c5240b19cc65",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109807939,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109807939.json",
+      "sha256": "f798c9ec5c74d13116699d0647a042e5e5069b1f8461b9471d53faa388aeccf9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109802933,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109802933.json",
+      "sha256": "eb630a56103e2d40d153f3f361be742e6c8d1e5a5a6b510622f0ed5a2c57adca",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109798408,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109798408.json",
+      "sha256": "95296cc6a645d88cb0483ec56ee699f76e07115d9fe6b3401d0befc022028fc7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109798422,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109798422.json",
+      "sha256": "18da6112dda3e00379ea962e4ec40c83e01f3ce24f73893e11a5b9bd0e72fc32",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109798420,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109798420.json",
+      "sha256": "6391d84e9964771a38748432bea1835d6dde0ad6bab9958ecef9cb0264a5aa17",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109793225,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109793225.json",
+      "sha256": "4da0dfa848830e3f4920a762d47e819c9789f633f465f75079e55ad0be5ae3a8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109788038,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109788038.json",
+      "sha256": "c7a0f1d14ecda5267dcf9808c47e546335552615feca3bac53f52b8fe50c6a66",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109782707,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109782707.json",
+      "sha256": "a3129ab250b1151dc5f12f34f84b4a13830112663af7ad0037f1d98eaf19fd71",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109782431,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109782431.json",
+      "sha256": "af2d1ee26effd87d6389eb92f7b8bae7765b3641f5e3aa86b0739587896aef57",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109776263,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109776263.json",
+      "sha256": "f27a08067cbba2bd0ffdfb625d1d3496acb5db0a3b0cc03f5817eb38799ba863",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109770002,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109770002.json",
+      "sha256": "9a8ede26f365168f11fa4ec6956fbe990a50b67783e89464a4eb450fd084ad9d",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109763505,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109763505.json",
+      "sha256": "db906045d19d333a51d0a924c5ffad6b83eecdd7c45a264087c6abdc2248c892",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109756255,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109756255.json",
+      "sha256": "48cb1a138b5dc6de243a930692fd719cb2fb540b482074d8fd20c4c288543145",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109748819,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109748819.json",
+      "sha256": "905c90cdc453e2acc7b80fdb2899fababc2dc6d55186f32344615b9a72ef3d54",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109741171,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109741171.json",
+      "sha256": "291d8012a1abca06f242fc5b6480eb3f4c5cfd480a5e7961037b6454cd47f92a",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109732826,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109732826.json",
+      "sha256": "9676908372fb1505570ad157ac76e49669bbad1ed43036848857c5b084d5e0f7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109725210,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109725210.json",
+      "sha256": "7e482fe9cfbc04303f9d84afde499a2f0f1fd2e38d077675022ff249677b2d7d",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109716882,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109716882.json",
+      "sha256": "5eb542f2cfff088c3a35d112e3797c521186df688255b97d7f940006a02f4b7a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109709247,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109709247.json",
+      "sha256": "d98cc6e9c09715e242162c5b58f1727f12a1de6e6e707093ad21246beaab4f38",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109701718,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109701718.json",
+      "sha256": "de9d19c6fe024e4cdd3955430fdedfaeec0c769e8d1a12d741809f1bc7d46da3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109694309,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109694309.json",
+      "sha256": "b1b3660a2a745f754a0701760ba26bc39d2fb452bce2ee9c17b1bca9cedd47ff",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109687908,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109687908.json",
+      "sha256": "c2bd197c239d78773312fae4bafc2c0df30f19d7eec69e35ed2c52f3ad67118b",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109681495,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109681495.json",
+      "sha256": "c280518614a2cec93240fccfffa27989ef3f244d3a72d6f38b1bdfd38d84238e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109675076,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109675076.json",
+      "sha256": "e7ea437d7bc4bc5c48290f28760b20e28025384fc9f80e0671a5bc27eb3038d0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109668603,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109668603.json",
+      "sha256": "94c9978c6222b6a9bc52113a528bd6c47bde5e8f4d8ee18019d60ad6de418644",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109662254,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109662254.json",
+      "sha256": "a96f353d7f7caeb418675b2f1412f15dbe920f15a9922f41999720a050533bcb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109655911,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109655911.json",
+      "sha256": "383835396eb2fe43a004e381b5a61db0505f51b4ffc7ff5b24bbe6cb05d915b1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109649637,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109649637.json",
+      "sha256": "49eff62c192cd2c4911eb446109a8cd3479e7552b69370a06f7175d21d4cb6fc",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109643430,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109643430.json",
+      "sha256": "256cecdd1ed91a2187db546f47066e811227feb503dacc2a1e3e8a91807b5b8d",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109637786,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109637786.json",
+      "sha256": "a3b0a14abefa7b384ffe8657c61c5049720f821b8a9bffbe22f46755b9d1a0aa",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109631496,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109631496.json",
+      "sha256": "3e9b3bb8669ae144767cf94f3ca980aa3565aa0b90a2bc2ab3f07eb092bddc80",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109625245,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109625245.json",
+      "sha256": "1005b27672f00caf514610dbe0f1993afad98692959287213d6c1962778aa175",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109619045,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109619045.json",
+      "sha256": "a4d99edf4de0f8e4d6357046cc5d0b50bddd23f74678c6d65214e31f32a1dd18",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109613476,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109613476.json",
+      "sha256": "eed41252d408db942ce7d98746320d51f7dc7debf6babe97eaddc61ed2ad4640",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109607344,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109607344.json",
+      "sha256": "f5103b8230d44e05cdbc72ac896c11379ea1114b2887d494142034ac7373abce",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109601810,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109601810.json",
+      "sha256": "f97d1335d772cbea8a9ac3d51ddc1870b6c264e8b8853aa753c02cb91216a3f0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109595682,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109595682.json",
+      "sha256": "a3fb18ca69c6f586a4984853e162295635a0b447a7055801dd6b87b94602fc5b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109590135,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109590135.json",
+      "sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109583885,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109583885.json",
+      "sha256": "75172116a63dbb14586379e9707e9eed9445580505e22cb12a7f3ae544a9e881",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109577639,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109577639.json",
+      "sha256": "ca739e915aac0aae5cb77f977e5b614eb4fa472d6a780f16158f72f2bb91e070",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109571275,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109571275.json",
+      "sha256": "454848bbee0542cbc61840cf1a6d072e55f5ad6be8d623afce126c5ecd29c1ee",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109564916,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109564916.json",
+      "sha256": "eb20cf8f9d376cdfbc5992d86574db3b7fb688c398defd59ab432f0ce874352d",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109564919,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109564919.json",
+      "sha256": "221ea1bffadce9ecbc699dece16b1d20ac42aed61d44474035c3826cd168c7a1",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109558405,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109558405.json",
+      "sha256": "aa65eeac1855e04f360be9d505596ec46d7a9e485e3771941c82313bebc7ad34",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109551973,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109551973.json",
+      "sha256": "f7a6af5f7fdee1a04d47ce5b26447713f3ec5336432606e42c807b30d23faec6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109545480,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109545480.json",
+      "sha256": "9667bb333a885ab5e75be75a87cfd4641c2697ebf95cf227948e026ff29da8a5",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109539274,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109539274.json",
+      "sha256": "c944f37fe8e5087f5294c59cf99113fc836fa34ff9c44c996ba1e9e55430e1ac",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109532776,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109532776.json",
+      "sha256": "63ae5619671c5bd9442cd03644da1f2c0538093a6a7bf54b8807cff41e320fd5",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109526610,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109526610.json",
+      "sha256": "b6de6382a3da901a7debd1d10b29e0081cf6a0dcf0af2f4bc238465341d8dcf2",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109520318,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109520318.json",
+      "sha256": "82ba2aa8962fd506de8f478d56e7ba4cad32d1f17a79ad48879fda44b1bd9212",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109513878,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109513878.json",
+      "sha256": "91e78c4ee8fc35cb55d146d68216303711f00708388a48338c23bc2f15875f64",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109510532,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109510532.json",
+      "sha256": "b434724669ea148bf3cbfa9ab27416d9e35f39cffd263b0e858586f2ffb77726",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109504810,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109504810.json",
+      "sha256": "40e2d97d814064f482867e0bdd6552d775de327cca0628b1fd764ed33ff998c5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109499091,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109499091.json",
+      "sha256": "af5193d539b0e5af18909c42f4d393a71286979e3d02f00fc9825f2cb3016852",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109493494,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109493494.json",
+      "sha256": "1d6d296f3a47dddf339b20beb7be234b6388a1e3a6e47e7085f6cb62aa3c5a97",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109487741,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109487741.json",
+      "sha256": "ffde53b59213c05cce7ee0dd371a05bdbeb6c1a8957b0ad2f63c06adc410205e",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109481829,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109481829.json",
+      "sha256": "ced9b48425acda42d30b80f82b6ae776d188a3f63e2abe738f416bfb9cd2ee92",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109476625,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109476625.json",
+      "sha256": "acc06c1454cc68bbc2507dc6eeab1de0b9e647fe8886a4421cfe8d214ea6fcac",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109471242,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109471242.json",
+      "sha256": "8110d70ee5054d7448ae4efa7ac5d5d1d935aea02605792e46810096f8c472a5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109466152,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109466152.json",
+      "sha256": "fed9ef82f715f440e9a6f495aca109d73767e2bb1ad906535de7dab655d9708d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109461814,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109461814.json",
+      "sha256": "8b3285497e089124324e6a08398dc0c131b565efe459a87ba356bc8352ac1e0e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109457593,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109457593.json",
+      "sha256": "603a9273a9651ebb2dbd566bb0a0619e7fb74b86f370ff0b618043ef06b8ddf7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109453261,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109453261.json",
+      "sha256": "c08c5bc02f17bd9b6cef296a9570d89fae24a43490f3cbbe5013ffe74b79187a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109448978,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109448978.json",
+      "sha256": "b0b0d715400b00e5f56891b6cafa4624124cfb8561ed908d2c13c75f083eb5d5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109444587,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109444587.json",
+      "sha256": "ba242f6a508686faef5163d94e2320226b0ab9f5f14d147853d82aac2300e0f5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109439785,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109439785.json",
+      "sha256": "e1233cb88345723265a6ab81459408a6694f21504a99f1aebd39a84cf2ea82b8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109435371,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109435371.json",
+      "sha256": "4322d8c47cdd1397e8a967d68f1c550f2196d1268e86542de9515a42dcf1ccfb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109430983,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109430983.json",
+      "sha256": "b4736f6016dc596d5b6fe71d23d89da715f03e62ce8d9a0b4fd18548220c691b",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109426096,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109426096.json",
+      "sha256": "22270b8236a67c3fc41effdeb7082dcf30ed311a062ea4d70a0c07492bc0d66f",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109421539,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109421539.json",
+      "sha256": "f49edde0b7cdf0b4e6e9b1417ab33356f93c43bcd8bbfb97096f22ffc5d279f7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109416404,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109416404.json",
+      "sha256": "ff4c9ac561a6daeddddaf8f65c11edfd7a2f32e48810073ef84d01f7db79c017",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109411267,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109411267.json",
+      "sha256": "d816e7d899107b562698bc51a4e73b4fee276c57c8747eeb59472d98680e1724",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109406006,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109406006.json",
+      "sha256": "a593f87dba9b62ed178a774be84bbbe67eea5e7f31d1a8f7af65a33c08808da8",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109402920,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109402920.json",
+      "sha256": "1cb1f2cb9a25be191c4428d8fa59cbffa3342ff5b152f2f3b6ecc76f83b9a2ca",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109397606,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109397606.json",
+      "sha256": "9ff500b4659ca9148e0fb40d1659dfd4b141e9224fe70c2f1727f43a3023f6e3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109392289,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109392289.json",
+      "sha256": "c3b351684a1c46a0e633425c8835e3c3122754dcf0e83921d0e623a2d379a14f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109386870,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109386870.json",
+      "sha256": "27e6d803b3df065537cebe94edea8075e37ba0e11159f36efc2f2f264d987e43",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109380791,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109380791.json",
+      "sha256": "e2f9134f3b00b0a0c18f4cc9ded3cdc90e712e3dac7ad6f4504901c9e1910aa0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109374469,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109374469.json",
+      "sha256": "d7de875cd5b873811bd203d377c48754ccfcc7edb092955c82f52e7ecec7019c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109374470,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109374470.json",
+      "sha256": "e7ba11ddbd3897d39c1e8e5f5849e520dea369505081bf9f7c2e36e852ea68a6",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109367997,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109367997.json",
+      "sha256": "0b1cb230131786d981fe09d8aa5e02b0f6ef6d4a908b693733067881695c70a4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109360663,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109360663.json",
+      "sha256": "0b97fa2120cfd0612d7fdd3bad7855cada23603aa5299707fae8f6f209d4930c",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109360668,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109360668.json",
+      "sha256": "e25dff3191e26bd4b2be6998b55a4eca3fcd35fb8a0333ce7e724ba08c8b953a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109353442,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109353442.json",
+      "sha256": "5abac47a2ad8ea6596d8c8908dc86599a4309e079d15296b6f3181d8515e214f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109345915,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109345915.json",
+      "sha256": "c0642d17e193b054e8e059377ffa3613f8e8008d41ec0848bcf1353f442f071d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109345931,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109345931.json",
+      "sha256": "f7c2ecc1287ad4781651a5308d913acbf0fba29f283a56f89aa5afcbe6103ce1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109338323,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109338323.json",
+      "sha256": "8298d15b04b4630255ce09b6a3d673494361ecbc803c1da3182af6e866732ba6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109329975,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109329975.json",
+      "sha256": "97a3b05821425992fa2dfafa166d69ce7dfc52f34fcd5e0e95538860c81f6388",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109329773,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109329773.json",
+      "sha256": "4e95a4a6ebf39d3ed76c162bee06a2caaf650575cceaa52d8dc1af36659010a0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109322480,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109322480.json",
+      "sha256": "d8df6d4b78be2c669bf2be542b127f444634bbce7239100ff860afb69d7a84ee",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109315245,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109315245.json",
+      "sha256": "06cca9c04078c096f90f3993ea877394b6f99094e7bfdd3979e3e58d6de53c53",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109308887,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109308887.json",
+      "sha256": "e1890afcaf7670d880828286568721779940554f23e0d0517ae170f78c03fb50",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109308895,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109308895.json",
+      "sha256": "e33e4ca99531f9d93c06a6f01768e9368efc923fa44a09bb7670e74a0b33b291",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109302520,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109302520.json",
+      "sha256": "a9e899f35b453ea6044662a97b09e8eaa676c57aadbb90cc5d2369493ecac0ff",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109302526,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109302526.json",
+      "sha256": "d923a93a03731c584af4535789d6c887a1a6eece36ad63da00e8308e4645e1de",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109296287,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109296287.json",
+      "sha256": "ddba2e84435ff99ee25cba9cfcdb1abbaaaac8c7e4d12c115d5dac11ec24dee3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109296129,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109296129.json",
+      "sha256": "17b3d974ea17063410562f95d164150727355efe05226c249e2e7ac6ac9b1d57",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109296288,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109296288.json",
+      "sha256": "6714ef4e9f5de6f9b1a1d6fa1eb69c87655e2e60f65cce6717bec6f7216f6bee",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109290711,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109290711.json",
+      "sha256": "51f90e2a078fb0acd5e36f8c8f1500fc205b1d5bd3f4168e0b9e346592049675",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109284458,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109284458.json",
+      "sha256": "58a775e326abbcd2934c9c2579a55493ae7314ebb63e1984bce8be58055ebfb9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109284459,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109284459.json",
+      "sha256": "716cdfc2ba41316181f38fbc1f6134628163105f3a12f4461b7b275ea2aa0ce3",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109278367,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109278367.json",
+      "sha256": "b609bf36b0562b8fb45c1e0fff2cacd0303972337ddd9daef6dd3e35871b8068",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109272810,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109272810.json",
+      "sha256": "56a67dd595102263cb700ccee1e0af96c2f822e096341a6a21deb808cf8d8d8b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109272809,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109272809.json",
+      "sha256": "874c5a5286580c7c274ffa408371ac74fcb69d9c315a2fe279c5633b30e7af6c",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109266646,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109266646.json",
+      "sha256": "cc32b3cb54a3b0a2f0a9bda403b600d635d05a82f3588d64d163f7d3ae3f6225",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109261272,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109261272.json",
+      "sha256": "2706b465873ba0eeebcbea46bb9839bf85165be7d90c6254db0f1e6dc13f616d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109255321,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109255321.json",
+      "sha256": "a7ef5c0e5af92cbdd0bc326c9f3f7f1bdfdc67ef22b570e16733f89f49b323fe",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109255313,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109255313.json",
+      "sha256": "a807ba4789b223a27148b95ebe64c81c010f7b4129d7a74a96163807677ce4f8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109249792,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109249792.json",
+      "sha256": "df111657632d9dc8e88f7b69cedcbb2673b9f92aa95d6e50e8a360e09d9a4726",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109249777,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109249777.json",
+      "sha256": "993115314ed22f96a0a29d54000bc0870cc6480f03fffbb08e2a10f9973b514c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109242657,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109242657.json",
+      "sha256": "8cbdcc74a8d9769744cf4c4d042edad000868e4ddac13486faa6e683001a0789",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109236303,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109236303.json",
+      "sha256": "101a5ab41b5a6594196e9646eecaf887b7a29438a2df1c9bafc864ef57d733a8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109230019,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109230019.json",
+      "sha256": "3731e66bf9568d9d9df7b9a04c7eb04f7409706e2bb12550772e9d8b8bdf3fb5",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109223730,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109223730.json",
+      "sha256": "52836ca44f0c3166e7cfb06a2f9a641e4c4c2ac9a100d4e656515972ffe4bf04",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109217380,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109217380.json",
+      "sha256": "ec85624dd280564aee04295833e5e56331974a94b0515a2c5904630f33b42440",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109212268,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109212268.json",
+      "sha256": "3d6e24e6fd9ce8d592161589c391dc68834aba740e367714c6447bda8094d9f0",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109211055,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109211055.json",
+      "sha256": "19bf26256ee1c6b80be8ac0d5b0dc89e73fa68ad52470264dad4b94375699b31",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109204785,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109204785.json",
+      "sha256": "9028dc0a57835db8095570f4af836351adb84cf422a18716d4aef2f18c53e5c9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109204788,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109204788.json",
+      "sha256": "f3ca147870693622cc582429b35ae5faedd982883d4d12e19a03299f5b3fe5fe",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109198733,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109198733.json",
+      "sha256": "716c9707a6e1a4ca1ed50785888108b86d291d386a1026f47898a240c42f1516",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109193108,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109193108.json",
+      "sha256": "7fbe9bc7605ee4796fd7ee525bfb37dff224f3d25999c094658188903e42923d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109186832,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109186832.json",
+      "sha256": "cf45922f2dc4e2633041459fef4b330655a1c00c4a7b61ff5d71beaf7e581041",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109182060,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109182060.json",
+      "sha256": "132ff07b5cea5e272a39e9db770bb5b668f99cb75497c8ad0d6dcd83893e9f3b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109181466,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109181466.json",
+      "sha256": "f7bbbc4b142052405155ca8b498b9836560609efebebaeafbb86020707d26d21",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109176205,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109176205.json",
+      "sha256": "e93851fc485b8043cbd1bf5f4051a51926fa44bf9b3f3c91f50f917fe64c58d8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109176211,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109176211.json",
+      "sha256": "87297fbeff9880c5f2ed5a1f1f5de23612708373344b34d079af978819f53181",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109170924,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109170924.json",
+      "sha256": "8579fc07b82b332d780d0807a36ed0096ef6e96ffd52dedd30248b925f31f6ff",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109170917,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109170917.json",
+      "sha256": "06f96e7ac2775f0cba129bfb7a570f43e381181842ef271b18f1ce567baf93ae",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109165702,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109165702.json",
+      "sha256": "8919997834095b2b42e3ba0eca681d0bbc5ebefefc2299bc78b9f3d94fc66948",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109160583,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109160583.json",
+      "sha256": "29650bc616a32c7256e1f891e00803cc470a8d5a4b412d9a11e6c2e0cfba728f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109160584,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109160584.json",
+      "sha256": "bca401d9e10fa955c5bc28ae49da191b79261f9a7cb5ecb659a0381f2761f4a8",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109155294,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109155294.json",
+      "sha256": "df3a1a3d6277ffe19ee1b973f17a9785cc7b690935854d6416222f6e5978dd2b",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109149804,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109149804.json",
+      "sha256": "ff3c85511248f31adcd6bdd495f3b91af3f67c0f1e2a37a3b39d7d4c3cb05ad3",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109144270,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109144270.json",
+      "sha256": "fa32a23d2ac479ee205c814ba5665eac9f552fc40378ddb4ecc2fce0710c8fff",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109138742,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109138742.json",
+      "sha256": "dc91f30b50f1e39c323bc81c0b73c506ffb91bdc4a879affbd86d62aaa5b5a33",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109133306,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109133306.json",
+      "sha256": "c819df7dca38fc548e219802e80ce4e6c17b042c01a4385a2cb9b981eae09709",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109128508,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109128508.json",
+      "sha256": "2851b239d30f95ce56f83f8051be2ef8f7d4e051d7b18c521b30a21403eec3b0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109122961,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109122961.json",
+      "sha256": "880547bfc90a72320873e12d0d6e20713b7523d1ffc83d362e64dbb8f47d5b7d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109118332,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109118332.json",
+      "sha256": "94c21f59dd6fe86023fd986649fb28fc20e8eaafde0d0159418758a21d7a2a48",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109112822,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109112822.json",
+      "sha256": "86cadcde9ee9394b8b83e50932470b41efb057547728219d9384259b6739acbc",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109108031,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109108031.json",
+      "sha256": "086f217f6be76af51f5721c870362890de2cb783c047a960192b8b17c1a434c8",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109103636,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109103636.json",
+      "sha256": "a12179780059ae1d3eac183a533a446df7a7984a7c27ef3c7f9e717a3349b508",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109098015,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109098015.json",
+      "sha256": "87bc5c3639718b896a3e0e2f02ad6517d68250236bd160839a4e4d55d2862cf3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109092811,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109092811.json",
+      "sha256": "54361005701c4d3ecd4ad8b3232dd6cdc96459f433cfc2a5124edb323f7dbc3d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109086890,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109086890.json",
+      "sha256": "bba2e3c1fd7b10d1194361d0d9dbb29c22d2cf50cdfc65a6cb8e4a3a9dd59ace",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109081880,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109081880.json",
+      "sha256": "9551eba859764e18875a339f44faac8ffad5354936b1cdb3121baa6794d1d9c3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109076770,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109076770.json",
+      "sha256": "5077908307a599af350bf7d6a0a803ddc3d1802b81578859ec3a3e22e35fb3a5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109072345,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109072345.json",
+      "sha256": "0be9a62cc172f6a5ff0c95140b322948119ddf684bae8e969f5e2737b372769e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109068188,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109068188.json",
+      "sha256": "f7ebb8d59f4012866dab73e56f9db7f11a3da44778264176432273414caeaf58",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109063909,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109063909.json",
+      "sha256": "0d45ffe3b623a508503a00121eddaaa7e82360a2d186ac7abd4b822a6e691a25",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109063120,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109063120.json",
+      "sha256": "01172fb67aec02cfa0a1e2aa191df43255280a0614b12dd7498ed1ba17b15a2e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109058829,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109058829.json",
+      "sha256": "203a2c8fdf06103f716758725801828b48fcdb69e0f97bce705ceead208a580a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109054512,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109054512.json",
+      "sha256": "e05ab82abc754ab63fc03e50c45e3da30fc3d8eb6a1fb9343d84e42ae4e28171",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109049838,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109049838.json",
+      "sha256": "5d7110ba81d215fb4a45133b940b6945d8c41732e1e9cfa91d0ee878164630d7",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109045627,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109045627.json",
+      "sha256": "c06da2124b7885fe8c698bf0e16ff337d97196eb2df04c91e929a725a5faca8e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109043265,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109043265.json",
+      "sha256": "1d290e20ab3d0380bcf8b53d4514a39a70493621c3932f7c82146104fd44f261",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109038466,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109038466.json",
+      "sha256": "ee6bcbecd903781c7a22b37462aa4d62857ec95415d94f2e824ac648cde35ae0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109038457,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109038457.json",
+      "sha256": "972c915956abcd18926ab1a51b5f798e3f5bbadef0086d8244083e4ae920bd3d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109034040,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109034040.json",
+      "sha256": "7b3c097abc3ec4393cd8142bca2bc60b8bfc392dac5e469650424f88c2a4ec1f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109028946,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109028946.json",
+      "sha256": "77c638a8ddcf6081781e8f333a423fb98b4823699dbfa6599f5ff97c5b75ac2f",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109023866,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109023866.json",
+      "sha256": "ffdfa46d21ca4aa4d539266e3b22f119686789b485e8aca3bed571f5807f3e79",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109018594,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109018594.json",
+      "sha256": "a1c81484615b8999c8bf8f315accf5e1b47d4ad4a9a17f2b15ea03f04212ea7e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109018595,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109018595.json",
+      "sha256": "9a9cf455d342fa9359802a5ed9a02717af17e47660591b65482db8bf16bf67b4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109013354,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109013354.json",
+      "sha256": "671eacd0ffd4ff3313b52ed958bc7f5f442546d18a30e85b494ea1552c293256",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 109007510,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109007510.json",
+      "sha256": "03ab10a2afd0119089da4289759b16a925718f27043967bc3d5febc90c770159",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 109002218,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109002218.json",
+      "sha256": "646196c370e77d1e6e5a57d12c857ad52249693fee8d565a35a676eaf80fa631",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108995962,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108995962.json",
+      "sha256": "9bf54851a70adff8d3e38a2fdaf35bbf475e636a17e2bdcfd2ed4c711006637c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108989716,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108989716.json",
+      "sha256": "abbb6f85658fff82c5f0132063dda5c504d79c071ff7f26ef8d69dfe7b0dc917",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108983486,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108983486.json",
+      "sha256": "4892b4389e88ac491d78d8c17c97ec2035e8b88a0ae1b4319e4d2aec224fb76e",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108976233,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108976233.json",
+      "sha256": "d9677d9e7b5c234357dc9437bbd6a9a7b1a947cac116066c7f0bcfc8da578b6f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108969080,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108969080.json",
+      "sha256": "58ae352c2eedd6e9a304ed56726707e73aeecdccdb6148da2fa05b4a73a832c7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108960982,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108960982.json",
+      "sha256": "7e6cbf285e223fc5276ce9c8559dcc9aa84cede42c19bb4471545f8d9f941c95",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108953735,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108953735.json",
+      "sha256": "0a95d0f94ba4301bc3272e284681ec425cb433141a84122d79bd241c6e9e71e0",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108953748,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108953748.json",
+      "sha256": "61e91ba16a349b1e1fdf952da5a7259e99b4c726a56c6210083583660eed667b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108946475,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108946475.json",
+      "sha256": "155cbb6d5d142994b170f84a1c5ff27ab784950f6dd438efcc1a4d8ec4d30b96",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108939100,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108939100.json",
+      "sha256": "344bb4d67a9a593ba223ddda3fc2daab2d5c534ccb5f99935fae0c8235fdb776",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108931883,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108931883.json",
+      "sha256": "192c270ef80302ec362ef0462529d27b49a76a61af2318ceab7cfa25f8be23f6",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108924601,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108924601.json",
+      "sha256": "382c5b11efef50b0c4ef52edf938d6ae80137ab10955d25309e67ea7596de7de",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108917364,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108917364.json",
+      "sha256": "47f7b8b7de456dee83673a20e7d86ca2a83fab47fbccaec31d4b337eb4c2490e",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108916488,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108916488.json",
+      "sha256": "fa9b8623f10b3eec4d34de5c3c093c4ef925a6cd843729dc4647f4eb13e8851d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108910059,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108910059.json",
+      "sha256": "3e5d235fc9a8a1aa594d52f862f8adf6c35d42dfe0e223672e478f7856587e5f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108902964,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108902964.json",
+      "sha256": "bf621d118693a77640cd6d3d39aafb5530f21522d3d92f1455656a5bcbf854f7",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108898869,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108898869.json",
+      "sha256": "e9699a09ecf9665fa2f046981e5456f251d0896e679ac11049af02c6237b2ce5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108899861,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108899861.json",
+      "sha256": "835785e7a7db6697464a306aa3d83f507e5ae5b17f08671682e0757bb41c4714",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108892720,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108892720.json",
+      "sha256": "b8edcaa3d76f383924ae8b69113b8fcf8207e0d2f9dccc4893e71d797a325f11",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108890593,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108890593.json",
+      "sha256": "caa902289e76013ca5f16ba3e7ef7bfd9e39359464fcab93d5b0cb1260d2f5c4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108884657,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108884657.json",
+      "sha256": "5e2a3df2b2f2059a9ad708c560ec519231ee5fd0703405cb5ed1c150debb3b40",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108882531,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108882531.json",
+      "sha256": "08f2d22e38e44d5460fdb23970e27083d0f0f96d4a145343289bc13970a87d9b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108881544,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108881544.json",
+      "sha256": "91ff0e9661cc9b7013f814d1eb9749c032c53144c8ca42e4598be3eb67241a36",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108875332,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108875332.json",
+      "sha256": "de9721fa429af08037ca5cdf6a01ad66c8d8867d9a13ce7636801580caca26b9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108869119,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108869119.json",
+      "sha256": "b4f10c88bd82923e9acaf3d2705e6bfdf620d9a9c872fe6c96d593a874116c39",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108866069,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108866069.json",
+      "sha256": "9637641c6024c117e3c5204424843f96f2460a054a6c661becaa9c6fef0d3ae8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108859780,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108859780.json",
+      "sha256": "ed34d8bb0f09cad6133fc74a990ddf98d095b62b072b93caa70a5132b97d9c26",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108860018,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108860018.json",
+      "sha256": "f13aa86eb25001e3f37d6b9ca4b42246a0d22c169ae19b82a64ef4de5e38f6a8",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108858734,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108858734.json",
+      "sha256": "b4a56dc6d7091340ad5ea2d77525f72e97d63fb0712354bddbe8964be9b631e9",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108854844,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108854844.json",
+      "sha256": "04324c5f225b1e163eb345a10dfd9badc35ef00c86557cc62bdeb68583ecc00e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108854810,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108854810.json",
+      "sha256": "b0bfd9c32491cdeb213fd1b5fab042ba51a792a3bb476cabe84c7a3673ed6f8b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108848838,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108848838.json",
+      "sha256": "70c069bb0881382fb793905f9117d89c697edaf36242850fc81a6d8b195dc946",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108848633,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108848633.json",
+      "sha256": "d8846ecb02273294780c0d44e054e4e5ef7ba3d5c4059065c1cdb556459f16e6",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108842612,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108842612.json",
+      "sha256": "e5aeec1c99ea0f9ccd8643009d8634687e0c51476561cf64ec863480c2825153",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108842565,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108842565.json",
+      "sha256": "3741f36aca17fa49542a17376c77892257c1989605172613ed608d80d6cf3336",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108836562,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108836562.json",
+      "sha256": "2b25b2bb5070134078198785a289f74f1f4c695d4f8aa585ecc94f89b44e1651",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108831297,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108831297.json",
+      "sha256": "d8b6279db15b3735c27e386ebeaf6d11b49189c14f539d908de8b7e7d258fdc6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108825224,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108825224.json",
+      "sha256": "5a2d2d5d025f3f31b2915d7ddb7a8a43a7e9914da38216136ececa3af639365a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108819116,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108819116.json",
+      "sha256": "b28c5575252b82ccdea1a64c3e63331c553aca9ace035af9e4e09db74c0f272c",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108813736,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108813736.json",
+      "sha256": "7e3730ebb4237d0a79a6269b5c08e7d52f61efdcd770f94da83cbc59b98f0fae",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108812503,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108812503.json",
+      "sha256": "1e1040a52af8466d954f1f7f73fef657c919c055978a705d434f95b101034346",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108812617,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108812617.json",
+      "sha256": "bc7e87c8e1e97c0aec17927bc8eedf240425e60da81bf730c9f38f97528ad9f6",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108807659,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108807659.json",
+      "sha256": "1cc948463c0fd22d7f6f64a154873f8e15117a2f737b8e22b52bce89818b0057",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108801628,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108801628.json",
+      "sha256": "2e2fe8039cfd4a738b5d7a7addeec1739bee02225bd377557135882e741cee3a",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108799610,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108799610.json",
+      "sha256": "ecff68df13824064be28453d6ab535116e0b9bb727e8ded7a4b8e1d740ef2237",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108797588,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108797588.json",
+      "sha256": "e007dee82e38e43d537f57eb6add2134ab1bad44c03a70ddfb7fcdc37b16d734",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108792196,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108792196.json",
+      "sha256": "22bef43138ec1cee0f351970a9c67cb530fe275aeffef7e56f6882eb354b2c5a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108786134,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108786134.json",
+      "sha256": "7551a196e45aaa208b89090ed4342b51e0fb0335ea0e7db96bb9a00b524a5bec",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108785323,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108785323.json",
+      "sha256": "32135893fa2008c69c316eee996c944e2a7fd43eb81be3b7f4acab381559d537",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108779613,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108779613.json",
+      "sha256": "3649f4c79743a3074a157887ab5fd185375f04d0576f0174979976557e85636e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108777017,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108777017.json",
+      "sha256": "e8b7b35120b4797150cba20c4cf5d3bdcd7f6a3f313098a4057c8cfff629a852",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108771661,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108771661.json",
+      "sha256": "95d4481f2d8a7459aea07aa34ab7e76f960d8fafc233ae103eff956022aa691e",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108769503,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108769503.json",
+      "sha256": "2147a17c52e92c4ed3c8a569bb56e5d228c0e9f64700c831e77e2884efbd7b63",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108768437,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108768437.json",
+      "sha256": "116050c68665541829a30ddedce292983a1edd1716625e476269289e736c3d9a",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108767430,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108767430.json",
+      "sha256": "309b8fb2ed3aac79c34d91392516e8c819771ee18caca7ddc6b5c0b43f08ad60",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108766643,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108766643.json",
+      "sha256": "70a750e01ce69ebf5315871fefe73b6a6d768819ff9ddaddcfa4fdad85994a20",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108766390,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108766390.json",
+      "sha256": "28fb0bf036b7b971b1797e5dba7050b72f88ee7ebf1cbf6f83e7c68bf299d285",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108765366,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108765366.json",
+      "sha256": "4a96976ee0653c8179a30877d1e63d5c008cfc111c42cc0d7d89d600c314e4d2",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108764329,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108764329.json",
+      "sha256": "9508a2e068a5f972835869afc6cbbc591592005dcf9e71bc4ece18c4f709be2a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108763300,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108763300.json",
+      "sha256": "2e351750a605b0a6a0340f465219b690a6434353911bd245ffd3c96cdaa14d40",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108762259,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108762259.json",
+      "sha256": "d71d27d1bc9fe67b5ea0ab50aa4a6a95bdb3c3cbf55f5ab98aa61b34cdf1430d",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108761234,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108761234.json",
+      "sha256": "8361f5e79cd4ead5edba9d76d9da75f3bf43d5d366cc78571294f52644590dc1",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108760198,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108760198.json",
+      "sha256": "131f54a9d99160041ed6d255312d3c2594f2d9efd93ae921f4b11e767a9ae034",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108759167,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108759167.json",
+      "sha256": "7a71e03e6c81de340675e58e6978d491432faa937fdd0aff0b3de949aaad9afe",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108758131,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108758131.json",
+      "sha256": "e2e4ad88e107d0ed9b9e6494d42569601aea0d7d9bb70e42b4acbee09f48b932",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108757097,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108757097.json",
+      "sha256": "8f79b299962cd2e08a4f018cb7766855633245d325d2b766d86b131fe8115154",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108756072,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108756072.json",
+      "sha256": "dc33e6c91e862ed8e4a1a7ad2f164d2dd395e42f97b6fe156725f7be1f2a7f5b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108755042,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108755042.json",
+      "sha256": "4aa3132d4d8304cb6389db7fcd137b50e88051a32dc2f9d46aa6b616a6195192",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108754009,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108754009.json",
+      "sha256": "8cee12d5d00e92f7ae5d551cead78b6f7727c026917e0498a5fd976e9901c19e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108752976,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108752976.json",
+      "sha256": "f01ce24cbf15ca6eabea701acc739fe6f797d32505adcd1f3880c3c343039e4e",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108753275,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108753275.json",
+      "sha256": "c75ec496c99d2301b31ed496ca42c15d87dedd05f22a3dc25441a2a2bd4deb09",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108751951,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108751951.json",
+      "sha256": "093df090c9e5390f80c38f84de7a9bc22a8a6adfa31f74a629b178972abdfa56",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108750936,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108750936.json",
+      "sha256": "bc4baa832e40d1f83931904bfbeb93a45521754aeb585be535bc822fb9d5c1ce",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108749919,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108749919.json",
+      "sha256": "9836c8c1761267bc55289b85f4b66116ea7a377c7fc78b241c342492579ee98a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108748850,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108748850.json",
+      "sha256": "5c239fc574100beab7e095e16b01b737820e2c1ba796e6675be0edd008af3b6d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108749476,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108749476.json",
+      "sha256": "d60a9b1fd99f8d1c3d6e41a09c3161cff0e3f9b3f3ae2eed44b955dd844b6c4b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108747819,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108747819.json",
+      "sha256": "46f7754e69fe49e80a8f61c0daaa1a9247a564274959a742be8df51ae0f03a16",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108746799,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108746799.json",
+      "sha256": "f1fed504bd07680490aefcd71eebad6b69a10d46dba1b8e378073b47e01f7301",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108745762,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108745762.json",
+      "sha256": "78630d5b420c25d5b413ccc797dc2d80287b2a8ad686edc51b8a9106219e78d8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108744733,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108744733.json",
+      "sha256": "5844fab8258e791f80b5d5ac192826ab646e11997061b9c5a6c78d4b12dcc18d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108743699,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108743699.json",
+      "sha256": "66e6400667b6625e9661dc60fc73404f21e60f8276bc4599a7d9a09e9f3d377e",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108742805,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108742805.json",
+      "sha256": "130411629474c400e161802f20f205cfe464d128e7338709f0c9f78a804856e4",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108741627,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108741627.json",
+      "sha256": "0119fcc7b7355966b148b10be91f56f4bb2c03945a1fa6d2005c739fe143c66a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108740598,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108740598.json",
+      "sha256": "56982898555cf08f3c8e72c2e95ec7041c53a09b945bc4cd26423d821cb723d1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108739514,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108739514.json",
+      "sha256": "0c21e6897dbad23936632ea18f0ffeda415779597fd5d577e6583eaf5380c8d4",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108738515,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108738515.json",
+      "sha256": "22d9bb4f7c9443ee3ceda2fdfed05ec986b8ad7f5d41c4c70de2f2f96b35e837",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108738911,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108738911.json",
+      "sha256": "fe3c79f2a2a9864110be8061658d4e8ba078a44ff715204f7c76808527ce78c8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108738863,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108738863.json",
+      "sha256": "109a52c510f36b874bcdb22ff6911fdac610cd98289a149dc4f596b2de9e471a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108737476,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108737476.json",
+      "sha256": "3480fdb607a834810e649ccff2386c6bd8c7778ca2539bef502f1b51b8307477",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108737646,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108737646.json",
+      "sha256": "4041f2ef99862b4e4c71c9e2e3c60a972e7b820532e14eb70a0238063ae7d47d",
+      "split": "test",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108736448,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108736448.json",
+      "sha256": "ea38492ad8455c95312680d8b9b323a6806f675d3a7ac8d56a3c66a303ec3838",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108735428,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108735428.json",
+      "sha256": "0e23bb748024d674868cfc63211e26c7ef8cddf088f9080fb14dc2edc178c053",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108734402,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108734402.json",
+      "sha256": "8afa943db9da49aa97239a0424a4fe67c12642ea04ec1d3db10733008fc7543f",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108733362,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108733362.json",
+      "sha256": "39c50202590b0ee5d8aeec9468df792f5562b8a20a692d89d4aa06f7087b4981",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108732336,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108732336.json",
+      "sha256": "f32614ec3b1c1f20d1c57b883ddb520c1fb4141dbedbb3a35d1a6ac523707fc0",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108732773,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108732773.json",
+      "sha256": "5006b2a3bd44a59385bd1276a0d561d0cde05059692fd2688518b848332600fe",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108731934,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108731934.json",
+      "sha256": "6a2a3f5aa6fb8f93310df0e737dd526094d7077bf9abf3544e04c723dcba5ed3",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108732056,
+      "seat": 1,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108732056.json",
+      "sha256": "9f0e1fad455f32813dfeef5c58238f7d3014216db1fb9aaa13518c57ef32e030",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108731304,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108731304.json",
+      "sha256": "6518ef2ee37a25ab8737506f0fa26a45b35ae126e736924056335cd5dad9871a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108730267,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108730267.json",
+      "sha256": "792828c4f15cb0caa386b0d936ca9533a5e2096e0f452b94fca47af49aada92d",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108729235,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108729235.json",
+      "sha256": "1833b7ad7b4ba99e1469a8d65c2f90476dac9fa0633469dca366613373a3c15b",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108728212,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108728212.json",
+      "sha256": "45e838ca54d40cc6dbe72e570c07aecbf6c4feecbbfce47ff1162410bb82dfbd",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108727183,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108727183.json",
+      "sha256": "a1b0c10c0dcd3f7ec2fa0bcfe271f36557e09e29ea2c8f185b8042ff322b71f5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108726104,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108726104.json",
+      "sha256": "080127f6d35b289cd5cb2d3c4f24f64cba441c33856ad26b6555685d64fea116",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108725125,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108725125.json",
+      "sha256": "cb44dfafc712ed2dcbc111a8f9942d838c997e7cdd1e82597db15f0fe5422110",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108724105,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108724105.json",
+      "sha256": "223d816d1d00961fff9c4bcb33356698b28b2ed35ce32f5f54a18e4f916404e9",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108723750,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108723750.json",
+      "sha256": "881541df15b931b01879df3e6502cc42564fd016a280e52a810f6835c483a5ba",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108723035,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108723035.json",
+      "sha256": "c306fc0aa6a02a61901042396807ece7111d994f3098cfb5a7bb200577736424",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108722171,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108722171.json",
+      "sha256": "3bb7ed5657fe1ec04af3096ef43d531f9fd08510b6228c80961bd327acd745b0",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108721990,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108721990.json",
+      "sha256": "c2e7df726465df348f7b16e5e7694e3f7b6a6215ab0ebc1032250c7293e978c4",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108720933,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108720933.json",
+      "sha256": "215b638426290764884d91f8924dcc7127936eee8cc145c13be52cd2de8c0260",
+      "split": "train",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108719893,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108719893.json",
+      "sha256": "253f660df1fabb20fe700dcb40142e3a8f975ddbf3b047bd1808d3a621555a0a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108718859,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108718859.json",
+      "sha256": "3743d990cdab6a249ea465e56cfc2f58cc32f07282103d18da6740fc962f3425",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108717820,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108717820.json",
+      "sha256": "a2a7b86fb23df1731ce9379d19898140f7994a35e26d5a88e55b269d92687843",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108716795,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108716795.json",
+      "sha256": "d165268886b1d27cdef03960734f00b7acd8c769dbd3037b8545b82f25a30375",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108715767,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108715767.json",
+      "sha256": "a082a8d429a5cca8dd26d55251a63fd32c56534950b75ddd2cea4463f8618655",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108714732,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108714732.json",
+      "sha256": "0bb4c360216a7ec9b0f504a04cf9d900ea33ef5b9a28f5778312df59f6568985",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108713690,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108713690.json",
+      "sha256": "107340b9ceadbee128e9d9375104b5d5c6813e0aafb538d2af0e15547daacf37",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108712681,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108712681.json",
+      "sha256": "fa6fe71315b1a2342578675eee2d5d6227528bc4c1373ffcf23e1a9e3abf1f19",
+      "split": "test",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108711662,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108711662.json",
+      "sha256": "4ceaf2e6f1d3160f639f7efa2f921daf13648f8f37698558a0c586abaa36f572",
+      "split": "validation",
+      "selected_for_round4_training": true
+    },
+    {
+      "episode": 108710643,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108710643.json",
+      "sha256": "d7cbb5702de161a13b503b0023915da0ca34296612c2432d91107b77a13a25c1",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108709634,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108709634.json",
+      "sha256": "22a169a49ddad99410ff1bb76ba903370d39ce13b617eaff5ab85e62a715f43a",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108708984,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108708984.json",
+      "sha256": "307c1ab546baf8486cf21b82a99400573641fe031362f5bee3405c296ae7582c",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108708620,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108708620.json",
+      "sha256": "da35b13c878c1c267e4ef25613abf07ff369874e2009f80c43cdde94421c5559",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108708624,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108708624.json",
+      "sha256": "2ee46728abe6711dd46a8ae3f6edebd8435fe1c210230bcb6037be388d94a7fb",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108707598,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108707598.json",
+      "sha256": "12339b806cee5669a4b50104a5c0383c145373e1b58aa4ab7fb883fe5a0ed144",
+      "split": "validation",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108706595,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108706595.json",
+      "sha256": "9d937674b967ca21e0832a6aea82fc09fe1cb9bb119af89657f23220434751f5",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108705580,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108705580.json",
+      "sha256": "3ddaf0cd2c4f68be44a5e2fca7ce2632d4514760ff67a034dc1f92915e6b0404",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108704569,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108704569.json",
+      "sha256": "ef930e6e644d32b8ca5fc90c1eff457840f08555cf6f9dc2b9bec79157de39d8",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108703564,
+      "seat": 1,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108703564.json",
+      "sha256": "f82610ca4b67a5459f8641a407d9ac286daea12c75a583408a766f7a97d35411",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108702592,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108702592.json",
+      "sha256": "53b39a05123ec60c87edcd6d1fd11ccaa0ac49823336b23339addd720373daa9",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108701534,
+      "seat": 0,
+      "result": "win",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108701534.json",
+      "sha256": "c642bf671709d31e2a415a3a3caa80e65940af1332c0ab1548bec3b201042a97",
+      "split": "train",
+      "selected_for_round4_training": false
+    },
+    {
+      "episode": 108700415,
+      "seat": 0,
+      "result": "loss",
+      "steps": 720,
+      "path": "data\\replays\\submission_56216119\\episode_108700415.json",
+      "sha256": "33354c7039c925a8c153cb96ecc2d2a7a9229a1eac8fe4cf2622ddc156ebc63d",
+      "split": "validation",
+      "selected_for_round4_training": false
+    }
+  ]
+}

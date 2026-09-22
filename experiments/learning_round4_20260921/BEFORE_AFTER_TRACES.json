@@ -1,0 +1,306 @@
+{
+  "source_scope": "saved Round3 qeinstein_moev2 seed 2026092421 seat0 replay",
+  "new_engine_game_run_for_these_exact_traces": false,
+  "case_a_immature_harvest": {
+    "step": 205,
+    "actor": 4,
+    "old_emitted": [
+      "HARVEST"
+    ],
+    "old_observed_effect": {
+      "inventory_delta": 0,
+      "tile_changed": false,
+      "job_was_falsely_completed_after_day_change": true
+    },
+    "round4_precondition": {
+      "applicable": false,
+      "reason": "HARVEST_PRECONDITION_FAILED:IMMATURE",
+      "crop": "WHEAT",
+      "age_days": 1,
+      "yield_units": 1
+    },
+    "round4_emitted": [
+      "PASS"
+    ],
+    "round4_trace": [
+      {
+        "step": 205,
+        "seat": 0,
+        "event": "harvest_blocked",
+        "actor": 4,
+        "reason": "HARVEST_PRECONDITION_FAILED:IMMATURE",
+        "audit_addendum": [
+          "HARVEST_PRECONDITION_FAILED",
+          "ECONOMIC_HYPOTHESIS_UNTESTED"
+        ]
+      }
+    ]
+  },
+  "case_b_duplicate_feed": {
+    "step_434_old_actor5": [
+      "PICKUP",
+      "WHEAT",
+      1
+    ],
+    "step_434_round4_actor5": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "step_435_old_actor4_actor5": [
+      [
+        "FEED"
+      ],
+      [
+        "FEED"
+      ]
+    ],
+    "old_effect_attribution": {
+      "actor4": {
+        "status": "ESTABLISHED",
+        "reason": "FEED_ATTRIBUTED_BY_ACTOR_WHEAT_AND_TARGET"
+      },
+      "actor5": {
+        "status": "FAILED",
+        "reason": "FEED_TARGET_CHANGED_BY_OTHER_ACTOR"
+      },
+      "actor5_wheat_before": 1,
+      "actor5_wheat_after": 1
+    },
+    "step_435_round4_actor4_actor5": [
+      [
+        "FEED"
+      ],
+      [
+        "NORTH"
+      ]
+    ],
+    "round4_duplicate_services_blocked": 1,
+    "round4_trace": [
+      {
+        "step": 434,
+        "seat": 0,
+        "event": "pickup_obligation_preserved",
+        "actor": 5,
+        "requested": 1,
+        "required": 2,
+        "emitted": 2
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 0,
+        "action": [
+          "FEED"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "FEED_ATTRIBUTED_BY_ACTOR_WHEAT_AND_TARGET",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 1,
+        "action": [
+          "WEST"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 2,
+        "action": [
+          "WATER"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "WATER_TARGET_TRANSITION",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 3,
+        "action": [
+          "NORTH"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 4,
+        "action": [
+          "EAST"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 5,
+        "action": [
+          "PICKUP",
+          "WHEAT",
+          2
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_INVENTORY_DELTA:WHEAT:2",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 6,
+        "action": [
+          "WEST"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 7,
+        "action": [
+          "SOUTH"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 8,
+        "action": [
+          "NORTH"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 9,
+        "action": [
+          "NORTH"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 10,
+        "action": [
+          "NORTH"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 11,
+        "action": [
+          "WEST"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "primitive_result",
+        "actor": 12,
+        "action": [
+          "WEST"
+        ],
+        "status": "ESTABLISHED",
+        "reason": "ACTOR_POSITION_CHANGED",
+        "plan_id": null
+      },
+      {
+        "step": 435,
+        "seat": 0,
+        "event": "state_based_replan",
+        "actor": 5,
+        "target": [
+          5,
+          3
+        ],
+        "reason": "DUPLICATE_SERVICE:FEED:5,4:reserved_by_actor_4",
+        "plan": {
+          "plan_id": "ANIMAL_SERVICE:a5:s435:5,3",
+          "job_type": "ANIMAL_SERVICE_WITH_CONTINUATION",
+          "seat": 0,
+          "actor_index": 5,
+          "day_epoch": 18,
+          "created_step": 435,
+          "deadline_step": 455,
+          "target": [
+            5,
+            3
+          ],
+          "required_resources": {
+            "WHEAT": 2
+          },
+          "remaining_obligations": {
+            "FEED": 2
+          },
+          "primitive_postconditions": [
+            "actor_wheat_consumed",
+            "target_fed_transition"
+          ],
+          "success_postconditions": [
+            "feed_attributed_to_actor",
+            "remaining_wheat_reserved"
+          ],
+          "abort_and_replan_conditions": [
+            "target_already_serviced",
+            "target_gone",
+            "day_epoch_changed"
+          ],
+          "policy_state_digest": "b0da67e96e395d4c6ffa1e33a497f0a5376ad5988e59a2cb38063391c8357d3a",
+          "continuation": [
+            [
+              "NORTH"
+            ],
+            [
+              "FEED"
+            ]
+          ],
+          "actor_identity": {
+            "seat": 0,
+            "actor_index": 5,
+            "day_epoch": 18
+          }
+        }
+      }
+    ]
+  }
+}

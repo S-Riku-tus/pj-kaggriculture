@@ -1,0 +1,59 @@
+{
+  "archive": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\submissions\\learning_round3_20260921_c0_identity.tar.gz",
+  "archive_sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+  "archive_members": [
+    "NOTICE.md",
+    "main.py",
+    "market_overlay.py",
+    "model_metadata.json",
+    "opening_routes.json.gz",
+    "opponent_sell_model.json",
+    "policy_model.json.gz",
+    "v120_base.py",
+    "v121_sparse.py",
+    "v123_base.py",
+    "v124_base.py",
+    "v125_exec_base.py"
+  ],
+  "kaggle_environments_version": "1.32.7",
+  "loader": "kaggle_environments.agent.get_last_callable",
+  "empty_globals": true,
+  "arbitrary_cwd": "C:\\Users\\shiba\\Kaggle\\round3_loader_validation_43916\\arbitrary_cwd",
+  "repository_removed_from_sys_path": true,
+  "numpy_blocked_during_archive_exec_and_game": false,
+  "numpy_blocked_during_archive_exec_and_preflight_inference": true,
+  "numpy_blocked_during_game": false,
+  "preflight_action_type": "dict",
+  "last_callable": "agent",
+  "cold_import_seconds": 2.2973947999998927,
+  "warm_calls": 719,
+  "warm_mean_seconds": 0.0038773502085243917,
+  "warm_max_seconds": 0.011220599990338087,
+  "stored_states": 720,
+  "terminal_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "terminal_rewards": [
+    154642.0,
+    3000.0
+  ],
+  "action_sha256": "108a81f0c5417597d039a8983f9c5822b0aa35657dfe2b0f5ab9d93b257c5697",
+  "passed": true,
+  "source_c0_sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+  "c0_identity_preserved": true,
+  "known_success_fixed_v3_found": true,
+  "known_success_fixed_v3_sha256": "f1aede2a9f4a8ad0b8f3b3cd41d1f49708b713ca1cbc4221df472dcba1201105",
+  "known_success_fixed_v3_matches": true,
+  "model_conversion": {
+    "applicable": false,
+    "reason": "C0 identity artifact has no newly converted learned model"
+  },
+  "full_720_game_attempt": {
+    "attempted": true,
+    "result": "PASS",
+    "terminal_statuses_confirmed": true,
+    "extraction_note": "an earlier attempt timed out inside Python tarfile.extractall before loader execution; the recorded run uses OS tar extraction of the same hash"
+  },
+  "stderr_tail": "r\nclobber_proxy\ncoin_game\ncoin_game_arena\ncoin_game_proxy\ncolored_trails\nconnect_four\nconnect_four_proxy\ncoop_box_pushing\ncoop_to_1p\ncoordinated_mp\ncrazy_eights\ncrazyhouse\ncribbage\ncrossword\ncursor_go\ndark_chess\ndark_hex\ndark_hex_ir\ndark_hex_proxy\ndeep_sea\ndots_and_boxes\ndots_and_boxes_proxy\ndou_dizhu\nefg_game\neinstein_wurfelt_nicht\neuchre\nfirst_sealed_auction\ngin_rummy\ngin_rummy_proxy\ngo\ngo_fish\ngo_fish_proxy\ngo_proxy\ngomoku\ngoofspiel\nhavannah\nhavannah_proxy\nhearts\nhex\nhive\nhive_proxy\nkriegspiel\nkuhn_poker\nlaser_tag\nlatent_ttt\nleduc_poker\nlewis_signaling\nliars_dice\nliars_dice_ir\nlines_of_action\nlines_of_action_proxy\nmaedn\nmancala\nmancala_proxy\nmarkov_soccer\nmarkov_soccer_proxy\nmatching_pennies_3p\nmatrix_bos\nmatrix_brps\nmatrix_cd\nmatrix_coordination\nmatrix_mp\nmatrix_pd\nmatrix_rps\nmatrix_rpsw\nmatrix_sh\nmatrix_shapleys_game\nmfg_crowd_modelling\nmfg_crowd_modelling_2d\nmfg_dynamic_routing\nmfg_garnet\nmisere\nmnk\nmorpion_solitaire\nnegotiation\nnegotiation_proxy\nnfg_game\nnim\nnine_mens_morris\nnine_mens_morris_proxy\nnormal_form_extensive_game\noh_hell\noshi_zumo\noshi_zumo_proxy\nothello\nothello_proxy\noware\npathfinding\npentago\nphantom_go\nphantom_ttt\nphantom_ttt_ir\npig\npython_ant_foraging\npython_ant_foraging_proxy\npython_block_dominoes\npython_dynamic_routing\npython_hangman\npython_iterated_prisoners_dilemma\npython_kuhn_poker\npython_liars_poker\npython_pokerkit_wrapper\npython_pokerkit_wrapper_acpc_style\npython_repeated_pokerkit\npython_team_dominoes\npython_tic_tac_toe\nquoridor\nrbc\nrepeated_game\nrepeated_leduc_poker\nrestricted_nash_response\nsheriff\nshogi\nshogi_proxy\nskat\nsnake\nsnake_proxy\nsocial_deduction\nsolitaire\nspades\nstart_at\nstones_and_gems\ntarok\ntic_tac_toe\ntiny_bridge_2p\ntiny_bridge_4p\ntiny_hanabi\ntrade_comm\nturn_based_simultaneous_game\ntwixt\nultimate_tic_tac_toe\nultimate_tic_tac_toe_proxy\nxiangqi\ny\ny_proxy\nyacht\nzerosum\nprobe_stage=kaggle_imported\nprobe_stage=archive_extracted\nprobe_stage=loader_selected seconds=2.297395\nprobe_stage=environment_created\nprobe_stage=game_finished\n"
+}

@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-09-21T12:08:52.833092+00:00",
+  "verdict": "NO_PROMOTION_CANDIDATE",
+  "candidate": "NONE",
+  "required_gates": {
+    "SERIALIZATION_VALID": {
+      "value": true,
+      "scope": "C0 identity and rejected feed_once probe"
+    },
+    "LOADER_VALID": {
+      "value": true,
+      "scope": "official get_last_callable, empty globals, arbitrary cwd, last callable agent"
+    },
+    "TRAINED": {
+      "value": false,
+      "reason": "NO_POSITIVE_CANDIDATE_SUPPORT"
+    },
+    "MODEL_USED": {
+      "value": false,
+      "reason": "no model was trained; loads and inferences are both zero"
+    },
+    "SUPPORTED_STATE": {
+      "value": true,
+      "scope": "executed bounded probes; A2 unsupported/OOD states still KEEP"
+    },
+    "ACTION_CHANGED": {
+      "value": true,
+      "scope": "research probes only"
+    },
+    "EXECUTION_VALID": {
+      "value": true,
+      "scope": "all 16 recorded development games DONE/DONE; contracts completed without abort"
+    },
+    "ECONOMICALLY_BENEFICIAL": {
+      "value": false,
+      "reason": "no positive P2 headroom and no positive P3 arm"
+    },
+    "EVALUATED_ON_UNSEEN_CONDITIONS": {
+      "value": false,
+      "reason": "stopped before holdout because economic gate failed"
+    },
+    "PROMOTABLE": {
+      "value": false,
+      "reason": "economic, trained/model-used, and unseen gates are false"
+    }
+  },
+  "arm_verdicts": {
+    "c0_identity": "BASELINE_ONLY",
+    "B3_same_two_order_candidate_set": "STOP_NO_ORACLE_HEADROOM",
+    "feed_refill": "REJECTED_NEGATIVE",
+    "harvest_deliver": "SAFE_NO_EFFECT",
+    "feed_once_replan": "REJECTED_NEGATIVE"
+  },
+  "kaggle_submission_performed": false,
+  "rating_claim": null
+}

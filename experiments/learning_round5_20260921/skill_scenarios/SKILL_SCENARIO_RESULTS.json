@@ -1,0 +1,88 @@
+{
+  "created_at_utc": "2026-09-21T15:30:56.156117+00:00",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "package_version": "kaggle-environments==1.32.7",
+  "purpose": "minimum physical/economic completion of a selected investment; not proof that animals are universally optimal",
+  "lifecycle_scenarios": [
+    {
+      "animal": "COW",
+      "product": "MILK",
+      "seed": 2026100601,
+      "engine_episode": true,
+      "stored_states": 360,
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "milestones": {
+        "buy": 1,
+        "place": 3,
+        "first_feed": 5,
+        "first_care": 6,
+        "harvest": 193,
+        "drop": 194,
+        "sell": 195
+      },
+      "ordered_end_to_end": true,
+      "actor_product_delta_at_harvest": 6,
+      "cash_delta_at_sale_step": 1191,
+      "initial_money": 3000,
+      "purchase_cash_outlay": 960,
+      "money_after_first_sale": 3231,
+      "cycle_cash_delta_through_first_sale": 231,
+      "cash_realization_completed": 4,
+      "animal_plan_count": 15,
+      "replay": "experiments\\learning_round5_20260921\\skill_scenarios\\cow\\replay.json.gz",
+      "replay_sha256": "6d52b90e4caf2e9adeb131c6e9cb94d6b80e7cf873af845b88213a8ed41fb338",
+      "trace": "experiments\\learning_round5_20260921\\skill_scenarios\\cow\\trace.jsonl",
+      "trace_sha256": "a795f6123d4b47c1666f4bb9910d913974329bb5784ce8c43e388aaccdbfa84a",
+      "contract": "PASS"
+    },
+    {
+      "animal": "SHEEP",
+      "product": "WOOL",
+      "seed": 2026100602,
+      "engine_episode": true,
+      "stored_states": 360,
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "milestones": {
+        "buy": 1,
+        "place": 3,
+        "first_feed": 5,
+        "first_care": 6,
+        "harvest": 145,
+        "drop": 146,
+        "sell": 147
+      },
+      "ordered_end_to_end": true,
+      "actor_product_delta_at_harvest": 6,
+      "cash_delta_at_sale_step": 1285,
+      "initial_money": 3000,
+      "purchase_cash_outlay": 1060,
+      "money_after_first_sale": 3225,
+      "cycle_cash_delta_through_first_sale": 225,
+      "cash_realization_completed": 3,
+      "animal_plan_count": 15,
+      "replay": "experiments\\learning_round5_20260921\\skill_scenarios\\sheep\\replay.json.gz",
+      "replay_sha256": "9bbf51cd55e8b7b43c54901134c2f53aa0fc94574ca7fbf46d3c38393095f3ae",
+      "trace": "experiments\\learning_round5_20260921\\skill_scenarios\\sheep\\trace.jsonl",
+      "trace_sha256": "dad57819bfa7ca0b7cd11359ac3ec34be22874ca04e8d0ee3a5839acc1316532",
+      "contract": "PASS"
+    }
+  ],
+  "duplicate_animal_harvest": {
+    "scope": "fixed engine primitive order, two actors same typed animal target",
+    "issued_harvests": 2,
+    "per_actor_milk": [
+      1,
+      0
+    ],
+    "total_milk": 1,
+    "remaining_yield": 0,
+    "contract": "PASS"
+  },
+  "all_required_contracts_pass": true
+}

@@ -1,0 +1,872 @@
+{
+  "created_at_utc": "2026-09-21T15:48:21.685961+00:00",
+  "manifest_self_excluded_to_avoid_recursive_hash": true,
+  "all_paths_repository_relative_except_engine_copy": true,
+  "files": [
+    {
+      "path": "agents/learning_next_20260921/bc_actor_model.json",
+      "sha256": "bf3dd329c2e3b063de4b190e590fff5ab6570ee7aa60d8aea10dd361be6c455d",
+      "bytes": 504
+    },
+    {
+      "path": "agents/learning_next_20260921/bc_actor_model.npz",
+      "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4",
+      "bytes": 54182
+    },
+    {
+      "path": "agents/learning_next_20260921/bc_agent.py",
+      "sha256": "0be64207b3679670190940e959d348a94a0373a1b12461b4e1b0d931628beb57",
+      "bytes": 9213
+    },
+    {
+      "path": "agents/learning_next_20260921/bc_market_model.json",
+      "sha256": "53fd6e431eb3bfe770ef10b81993e29ccc3ef4a6b782b26c7face7f044b20fe4",
+      "bytes": 503
+    },
+    {
+      "path": "agents/learning_next_20260921/bc_market_model.npz",
+      "sha256": "f47c654329811e01272b0befdbcdb12e0e2b416d07860cd52f4930fc7f563a62",
+      "bytes": 41478
+    },
+    {
+      "path": "agents/learning_next_20260921/bc_quantities.json",
+      "sha256": "377f4106c18ca10d7b85a51d3c96d0c3c7767671dd8647d0a00b2520d9361e20",
+      "bytes": 1693
+    },
+    {
+      "path": "agents/learning_next_20260921/common.py",
+      "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95",
+      "bytes": 31364
+    },
+    {
+      "path": "agents/learning_round5_20260921/__init__.py",
+      "sha256": "d7d080b76ca8a0674345abdd26cfd3b5099e588d6e2cd1361ad4542529d501b0",
+      "bytes": 48
+    },
+    {
+      "path": "agents/learning_round5_20260921/action_codec.py",
+      "sha256": "6c668e534a0abfa9875cdd0e7c28072ced1e2b64795bc12f359dd684685ccd70",
+      "bytes": 1157
+    },
+    {
+      "path": "agents/learning_round5_20260921/base_entrypoint.py",
+      "sha256": "0434de644509aec0e81bd2e950e38e4ded198b0a6dadfa240a52ad65f079d6b7",
+      "bytes": 392
+    },
+    {
+      "path": "agents/learning_round5_20260921/base_main.py",
+      "sha256": "3e35f9b0d8ede8e0cad8629b9162c547c739180bc9c6fc42b896d582e33e7d71",
+      "bytes": 401
+    },
+    {
+      "path": "agents/learning_round5_20260921/contracts.py",
+      "sha256": "9b859e6d8feee8500496ad4b4319077aaca503511ef39ea0435aa131e4e31dbd",
+      "bytes": 22478
+    },
+    {
+      "path": "agents/learning_round5_20260921/evaluation.py",
+      "sha256": "e7e3a6bfe3fb499f38c87179092ed464a1aaaf5967c69bfd08d8dc6dcb21587a",
+      "bytes": 10708
+    },
+    {
+      "path": "agents/learning_round5_20260921/executor.py",
+      "sha256": "b4806d68f55d37fc70a99be49e0664af4c609b65ba9ae66a43876a4ecc1bdf5b",
+      "bytes": 43676
+    },
+    {
+      "path": "agents/learning_round5_20260921/features.py",
+      "sha256": "346724223be2d5d66d73f9649a9d26db84110a0c505c4a03dfa60d533684171f",
+      "bytes": 8510
+    },
+    {
+      "path": "agents/learning_round5_20260921/learned_main.py",
+      "sha256": "e901b2e1fca5004e81796431288f8ccf97d4612a55a43446962f438fd95b4ed8",
+      "bytes": 374
+    },
+    {
+      "path": "agents/learning_round5_20260921/main.py",
+      "sha256": "75695dd2e06216e4025503a1a5e9b3b19cbefc3467e282a119cb4c4e3123fa4d",
+      "bytes": 472
+    },
+    {
+      "path": "agents/learning_round5_20260921/policy_runtime.py",
+      "sha256": "c9301c5533687b4ae650426154f4618f211ef64a0d5d03adc4a9cab0b8b230d0",
+      "bytes": 6279
+    },
+    {
+      "path": "agents/learning_round5_20260921/rule_entrypoint.py",
+      "sha256": "25f9415e4877703ef3714c9e5da9087fa6345f4644ab211420bab7a0a9edb34c",
+      "bytes": 401
+    },
+    {
+      "path": "agents/learning_round5_20260921/rule_main.py",
+      "sha256": "5ae686ba687aabf24536e8152be4910904380f275cc5c9c655e08a3cdc89b634",
+      "bytes": 405
+    },
+    {
+      "path": "agents/learning_round5_20260921/selector.py",
+      "sha256": "a37aef22aea81a6f44b4fb6e13f8c0b85e0be82af8be7e33966277dff0abe1af",
+      "bytes": 2454
+    },
+    {
+      "path": "agents/learning_round5_20260921/strategy_model.json",
+      "sha256": "6e61e6f56ff6134acef068f4ffa57a4ec987c81755daa8dfe8518c7828a99c66",
+      "bytes": 7888
+    },
+    {
+      "path": "agents/learning_round5_20260921/submission_manifest.json",
+      "sha256": "05193b69bc1ebc3d1cf99dd485b69e8b9453399ce5767095f60be2718fa968a7",
+      "bytes": 1472
+    },
+    {
+      "path": "artifacts/submissions/learning_round5_20260921_learned.tar.gz",
+      "sha256": "c1c158e0212827d6d6a367094a64eaa4f32450667a4ba4013366c9e886bf296b",
+      "bytes": 118773
+    },
+    {
+      "path": "artifacts/submissions/learning_round5_20260921_none.tar.gz",
+      "sha256": "44a3b83f7a11777bdeb7e0d1d132c88853d6ddb3c50091e21f8482e1ac502c0c",
+      "bytes": 115765
+    },
+    {
+      "path": "artifacts/submissions/learning_round5_20260921_rule.tar.gz",
+      "sha256": "2b28454725af82d78d8c66ada62ccaf5349de69ff743e05eebaeb48b37327fe5",
+      "bytes": 115607
+    },
+    {
+      "path": "data/replays/submission_56216119/episode_109741171.json",
+      "sha256": "291d8012a1abca06f242fc5b6480eb3f4c5cfd480a5e7961037b6454cd47f92a",
+      "bytes": 29879193
+    },
+    {
+      "path": "data/replays/submission_56216119/episode_110195241.json",
+      "sha256": "7eead9a4e14c5b603ec9cee8bb49c6baef5cf2d4c8cf755ffb69700859a6795c",
+      "bytes": 30108410
+    },
+    {
+      "path": "data/replays/submission_56216119/episode_111031244.json",
+      "sha256": "f10e08ab33acaab5b894c808636ff417218be71fc64fb5a8dfb9fea6e104e2db",
+      "bytes": 30139514
+    },
+    {
+      "path": "engine/kaggriculture.py",
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "bytes": 40356
+    },
+    {
+      "path": "experiments/learning_round4_20260921.zip",
+      "sha256": "ae89c1fb503af470b3b670b810c3344f065cabd9587730316bd6d84998042572",
+      "bytes": 4993624
+    },
+    {
+      "path": "experiments/learning_round4_20260921/EPISODE_SPLIT_MANIFEST.json",
+      "sha256": "74b8743b01a4eb1decbee62db73f8d3175eac9082a36411ceb2fac7037969c67",
+      "bytes": 10495
+    },
+    {
+      "path": "experiments/learning_round4_20260921/EVIDENCE_HASHES.json",
+      "sha256": "4be33778161771774783fd08c96102c5f7743f89b308b907883387bfe7bb0d9b",
+      "bytes": 4340
+    },
+    {
+      "path": "experiments/learning_round4_20260921/SKILL_CARDS.json",
+      "sha256": "241626af630e46f3a9b776444a70a3f2cb132ab8ed02111aba48d06a1bc00b6e",
+      "bytes": 21852
+    },
+    {
+      "path": "experiments/learning_round4_20260921/closed_loop/replays/round4_learned/qeinstein_moev2/seed_2026092421_seat_0.json.gz",
+      "sha256": "bed28448d98bee2370aef74a06f42fdc96b5f75784edabb8e500dbce1df1b3ed",
+      "bytes": 307598
+    },
+    {
+      "path": "experiments/learning_round5_20260921/ACTION_REPRESENTATION_AUDIT.json",
+      "sha256": "e0a7ae29bc1a552bbe5e460d19cc82990eeaed1949fc89f464ae07ea99cf92f6",
+      "bytes": 26929
+    },
+    {
+      "path": "experiments/learning_round5_20260921/ARCHIVE_MANIFEST.json",
+      "sha256": "e8ba88a09b918dc7e8a87facfcc5acc0363f288481092f83a2a7f1c874eee321",
+      "bytes": 2057
+    },
+    {
+      "path": "experiments/learning_round5_20260921/ARTIFACT_EVALUATION.json",
+      "sha256": "06cb80b815cd946b2fbfa7b0d887d977809cb78f18d75bff425085df282fd626",
+      "bytes": 3936
+    },
+    {
+      "path": "experiments/learning_round5_20260921/ARTIFACT_EVALUATION.md",
+      "sha256": "c9b6c5e9ebed2b94cc04f85b01bcbc4e17b1cae301052715b839ea4bb922e118",
+      "bytes": 1349
+    },
+    {
+      "path": "experiments/learning_round5_20260921/BUNDLE_CONTENT_VERIFICATION.json",
+      "sha256": "1d8cb66e715787c7efab1b5cf5281c5dfa08d74e7731a93bd5631507560f52fe",
+      "bytes": 267
+    },
+    {
+      "path": "experiments/learning_round5_20260921/COMPARISON_PROTOCOL.json",
+      "sha256": "70872ad661349118c924c3c79c0458327c0a2c04f263a0c91c0facc63dc71f64",
+      "bytes": 1143
+    },
+    {
+      "path": "experiments/learning_round5_20260921/DATASET_MANIFEST.json",
+      "sha256": "df6f6de41d94142517d279c8a1e7954775c99a9ba4619f9f43ab816eec35a2a8",
+      "bytes": 13088
+    },
+    {
+      "path": "experiments/learning_round5_20260921/EVALUATION_INPUT.json",
+      "sha256": "c628dfd2cc698782e04db955cfc90594b60909123f7b62a7b127667abb58a27b",
+      "bytes": 4168
+    },
+    {
+      "path": "experiments/learning_round5_20260921/FINAL_STATUS.json",
+      "sha256": "9557590973746b438ee83ee21c8f15dcb56129e4b11e965a4a78c23225bab9e5",
+      "bytes": 2796
+    },
+    {
+      "path": "experiments/learning_round5_20260921/Kaggriculture_Round4_Independent_Audit_Bundle.zip",
+      "sha256": "560dc2a0f483555606fd474d3e38532c9a76985f6142e2d29fb504ce9ffcf321",
+      "bytes": 102368
+    },
+    {
+      "path": "experiments/learning_round5_20260921/OPENING_96_DIAGNOSIS.json",
+      "sha256": "901972035caebb7bd31aab620e6cd22f764301e9a8ebe1598921aa1ec56f261f",
+      "bytes": 62846
+    },
+    {
+      "path": "experiments/learning_round5_20260921/RECOVERED_ROUND4_MANIFEST.json",
+      "sha256": "3ae5242b4469b05645cd461a38a28869fe00fc3daabe382c1a70d5a12b51de18",
+      "bytes": 12381
+    },
+    {
+      "path": "experiments/learning_round5_20260921/REPRODUCE.md",
+      "sha256": "252dbe0dbcaa720a3ce40f8bb536627fa63913283fe0c0b1ab7f29dd467220e4",
+      "bytes": 1437
+    },
+    {
+      "path": "experiments/learning_round5_20260921/ROUND5_REPORT.md",
+      "sha256": "fcf6bee7e2cb97375dd4d029d12c1ef235163f9dd9971e4936a6514a3b99e3ca",
+      "bytes": 6771
+    },
+    {
+      "path": "experiments/learning_round5_20260921/SKILL_CARDS_CONTINUOUS.json",
+      "sha256": "d163c49f07a0a156d8d3e3202540ba15561c442da67c649dd89c75b1d9b822d3",
+      "bytes": 661250
+    },
+    {
+      "path": "experiments/learning_round5_20260921/TRAINING_RECORD.json",
+      "sha256": "f4f6a76f3b91034e6d9368c5c837a9ec186875b4747136332cf73648c4691e50",
+      "bytes": 8232
+    },
+    {
+      "path": "experiments/learning_round5_20260921/WORKTREE_PRESERVATION.json",
+      "sha256": "31ef9a71120c3908f369f741d5c72d7b3ecf2ef25a23ed357431ea1d59a44e62",
+      "bytes": 458
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json",
+      "sha256": "d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871",
+      "bytes": 46648
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_learned/qeinstein_moev2/seed_2026100501_seat_0.json",
+      "sha256": "c326f1d65263b07594ed713cb00f39691047f059f9791b18941fbd1df153bd76",
+      "bytes": 221373
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_learned/qeinstein_moev2/seed_2026100501_seat_1.json",
+      "sha256": "7ee83b493409ef4c82a964d0681844c64cbce3de2734e966d7e6ddea756b568b",
+      "bytes": 343211
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_learned/smart_farm/seed_2026100502_seat_0.json",
+      "sha256": "49c3b62ab26cf8413eee10006015f50e3fd3259639eebad367b6f9b7be283ab9",
+      "bytes": 190022
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_learned/smart_farm/seed_2026100502_seat_1.json",
+      "sha256": "81b639bd3c68e059ccc27a78c0a8f89b34f51bb655ea1335f8d99ed9871b3bf3",
+      "bytes": 259092
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_none/qeinstein_moev2/seed_2026100501_seat_0.json",
+      "sha256": "8f3db1a34a4cbd9e5777d45a8bea01854d805fde813f4f2a9887579c50bba9d5",
+      "bytes": 195324
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_none/qeinstein_moev2/seed_2026100501_seat_1.json",
+      "sha256": "6f9eb66157246b06c246bfbc5d94c9813aeb5b2381253b50293d77eb204358f9",
+      "bytes": 218943
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_none/smart_farm/seed_2026100502_seat_0.json",
+      "sha256": "385853d1e2916ecd06325c3eb546d60758d9f63d3b957ae949ec154ec1ada27e",
+      "bytes": 215049
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_none/smart_farm/seed_2026100502_seat_1.json",
+      "sha256": "2ffea2a12e648cb37b6df390b4d954dce1bb02c4aa046a71ce1fb427063c28cc",
+      "bytes": 221231
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_rule/qeinstein_moev2/seed_2026100501_seat_0.json",
+      "sha256": "366453cd706f0aa51553214ae253ff580b46baf5b4c81cfe5d197969e8fc954d",
+      "bytes": 268013
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_rule/qeinstein_moev2/seed_2026100501_seat_1.json",
+      "sha256": "3ceb1c6a2df6ab9301ae01f634d0909d6406b479a63851f5b238152f5cdec268",
+      "bytes": 205256
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_rule/smart_farm/seed_2026100502_seat_0.json",
+      "sha256": "bac5698b83344779f13b04656215f261bc4d7226cc5db484d149f54d08b30aa8",
+      "bytes": 204228
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/failure_windows/round5_rule/smart_farm/seed_2026100502_seat_1.json",
+      "sha256": "a242b3bd2540c8c20fa745eeb9ad859924afedd831b15d4fb9415975c9d71ddd",
+      "bytes": 226235
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/paired_results.csv",
+      "sha256": "6b22126aea2d809e89480fcb691dce96dd3c6094028ff03cde2f616d149b2282",
+      "bytes": 962
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_learned/qeinstein_moev2/seed_2026100501_seat_0.json.gz",
+      "sha256": "ac1d9b0419dc8e0c36bbe8b9aff1b5c892828b679b78d6eae741c08b1cec1641",
+      "bytes": 436848
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_learned/qeinstein_moev2/seed_2026100501_seat_1.json.gz",
+      "sha256": "0bd6744670ce2ab2941da8a63be5f1f02041f98c94fdfd05192870aa42382117",
+      "bytes": 453675
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_learned/smart_farm/seed_2026100502_seat_0.json.gz",
+      "sha256": "3d6d7b9633ec994a6ca50a752b339891321448fde8d2e81da3cef79e0bcf7d5f",
+      "bytes": 425654
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_learned/smart_farm/seed_2026100502_seat_1.json.gz",
+      "sha256": "aa9c7d8427e60b9d2649c3783250cc8c95a2cea344183c712158248ff2f1b876",
+      "bytes": 427404
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_none/qeinstein_moev2/seed_2026100501_seat_0.json.gz",
+      "sha256": "b73925fb359e65aeeafe55b5a22b3e3a43d2f75a0236fc0eb85ad4a8a8d31819",
+      "bytes": 448204
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_none/qeinstein_moev2/seed_2026100501_seat_1.json.gz",
+      "sha256": "f2e8794f02217bd4be913adcc500605fd1cca1d5f1af320106ea314953e044eb",
+      "bytes": 449876
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_none/smart_farm/seed_2026100502_seat_0.json.gz",
+      "sha256": "e0da6197c7a855dce531211ae9307879f3b07ee5d11625c44e9493e1b771df41",
+      "bytes": 423540
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_none/smart_farm/seed_2026100502_seat_1.json.gz",
+      "sha256": "26867621c012095a53f62b749f418a29274e0869c86d2eea754e50349d6286fa",
+      "bytes": 425653
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_rule/qeinstein_moev2/seed_2026100501_seat_0.json.gz",
+      "sha256": "f5f94b2b4360eba58e4892022c4e567fb6c71435abc4316fe737e1a9df7f3a8c",
+      "bytes": 450600
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_rule/qeinstein_moev2/seed_2026100501_seat_1.json.gz",
+      "sha256": "5330222dc85eae95839fdfebfb105952b6c519317eed811456649016ad546ea6",
+      "bytes": 422590
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_rule/smart_farm/seed_2026100502_seat_0.json.gz",
+      "sha256": "badd9ceab706d8457f158fd6dfe9d4c6854cb74545bef5553aec2f2214c05c64",
+      "bytes": 420256
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/replays/round5_rule/smart_farm/seed_2026100502_seat_1.json.gz",
+      "sha256": "d265f1ef049918dfbe3b5f62488a9351cb7daa248ec2700b92a81784b427000e",
+      "bytes": 427226
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_learned/qeinstein_moev2/seed_2026100501_seat_0.jsonl",
+      "sha256": "faeae0cd1e026cef256bf76a7be1a8e24463d00058c948444f0689fd39ed041f",
+      "bytes": 891130
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_learned/qeinstein_moev2/seed_2026100501_seat_1.jsonl",
+      "sha256": "5d3f614f2fe2adeb05994e1767c505b7a1a5a76f7ce24c0702d29dbe955916ef",
+      "bytes": 947250
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_learned/smart_farm/seed_2026100502_seat_0.jsonl",
+      "sha256": "5a4d5a1ac0a4f45aee59da94198d873873218f88ab24f92bec7de5255037a2c0",
+      "bytes": 1005080
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_learned/smart_farm/seed_2026100502_seat_1.jsonl",
+      "sha256": "77becdedc88e34272a6cb1d21f743eb55e2cc42f741dccff40e630a55b4e0ec8",
+      "bytes": 944121
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_none/qeinstein_moev2/seed_2026100501_seat_0.jsonl",
+      "sha256": "4d9be6af501db222cd912b10b3c56e790cc0cefef8dab52717cbfe286bbdeb72",
+      "bytes": 911619
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_none/qeinstein_moev2/seed_2026100501_seat_1.jsonl",
+      "sha256": "9ebbe23b688c54a16ab110b332ecc1bbcdb5e7a9950a85c214189824d9cfed97",
+      "bytes": 912021
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_none/smart_farm/seed_2026100502_seat_0.jsonl",
+      "sha256": "83958917954e555ab785e2987f6aa40b6bcf9a25c087cdb24d0f4dcc9be924a3",
+      "bytes": 937833
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_none/smart_farm/seed_2026100502_seat_1.jsonl",
+      "sha256": "02174563704b7f487ee28bc0a381da9a272d185a15198f83eeb8985c64b4ebc1",
+      "bytes": 820432
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_rule/qeinstein_moev2/seed_2026100501_seat_0.jsonl",
+      "sha256": "b055b86906a4503028e4f88cfef4928b89ad2aa744f50fc94b41eb0681ac65a2",
+      "bytes": 1015380
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_rule/qeinstein_moev2/seed_2026100501_seat_1.jsonl",
+      "sha256": "ff4213b9d6c67f151514252a12e3470a9fa3a4c7266344ca5bba387f9391c5f8",
+      "bytes": 869660
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_rule/smart_farm/seed_2026100502_seat_0.jsonl",
+      "sha256": "5180422b6f3558999414b70a24c2735b1b5feafe2e8ae44d94c7016785ece42f",
+      "bytes": 934439
+    },
+    {
+      "path": "experiments/learning_round5_20260921/comparison/traces/round5_rule/smart_farm/seed_2026100502_seat_1.jsonl",
+      "sha256": "01c2e637eccf137face31b3bf0bad4ad1a6ab1ed0a22416107a00fc6ef1b6243",
+      "bytes": 899666
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/FROZEN_ROUND4_RESULTS.json",
+      "sha256": "3dd87f2141c4f0a71776b8fa54c6db4b29870371b0ada887e531326a4d658fd4",
+      "bytes": 12678
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/replays/qeinstein_moev2/seed_2026100501_seat_0.json.gz",
+      "sha256": "3dcd5eb9e9bf2971558c724dbb2e1fbfc11b3abbf4165765b255271fa9553c15",
+      "bytes": 357833
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/replays/qeinstein_moev2/seed_2026100501_seat_1.json.gz",
+      "sha256": "28b3e520c300e4258ef9520e74fd81c6436e8b18cf02eee6790c0ba694db8039",
+      "bytes": 338714
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/replays/smart_farm/seed_2026100502_seat_0.json.gz",
+      "sha256": "32b411948812f6a8006a15d610c7d8bd2b61a37a93f675f38bd95c3ce84a141d",
+      "bytes": 389508
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/replays/smart_farm/seed_2026100502_seat_1.json.gz",
+      "sha256": "73b68d20bc2794c248ba829c03e641ff12feebc99fcc17ed5675ae4d70fcff8a",
+      "bytes": 406387
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/traces/qeinstein_moev2/seed_2026100501_seat_0.jsonl",
+      "sha256": "193e6ef2c4cc6bc07ec2eaf737145355b7406bfe63efb6799d54b9184b1b48f7",
+      "bytes": 496047
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/traces/qeinstein_moev2/seed_2026100501_seat_1.jsonl",
+      "sha256": "492738351f111d51573f637a3ac10dd46f9c0f4f5de1c878bb96913b09fa90c8",
+      "bytes": 625698
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/traces/smart_farm/seed_2026100502_seat_0.jsonl",
+      "sha256": "16d4ad1eda4e3eef7960e92da59bf67d961e7a7d8e9c0377e106b96c7b16f402",
+      "bytes": 639088
+    },
+    {
+      "path": "experiments/learning_round5_20260921/frozen_round4_reference/traces/smart_farm/seed_2026100502_seat_1.jsonl",
+      "sha256": "f48415a10ea23cca0a1c5937c8df31e38569597c906755399c39ebc094464040",
+      "bytes": 728082
+    },
+    {
+      "path": "experiments/learning_round5_20260921/initial_git_snapshot/git_diff_binary.patch",
+      "sha256": "b544c55c6942c54d2ea6cadfb3d07bd5fdce184589606067183614318a6f3d08",
+      "bytes": 12950
+    },
+    {
+      "path": "experiments/learning_round5_20260921/initial_git_snapshot/git_diff_cached_binary.patch",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "bytes": 3
+    },
+    {
+      "path": "experiments/learning_round5_20260921/initial_git_snapshot/git_status_porcelain_v2.txt",
+      "sha256": "830651e306a04fc0f56f9aa166aaf570f2ceb000b8a11fadaba312d900e1ca65",
+      "bytes": 23212
+    },
+    {
+      "path": "experiments/learning_round5_20260921/initial_git_snapshot/head.txt",
+      "sha256": "f330ee115887f83b3872c79db901aee1e32d2d5200e1cdbb9a13144b640d4092",
+      "bytes": 42
+    },
+    {
+      "path": "experiments/learning_round5_20260921/initial_git_snapshot/untracked_files.txt",
+      "sha256": "f71d438f0445fb46db72cff5154a4f3023c01067ced98e8c3cc4938df0bb2fb9",
+      "bytes": 21936
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/animal_harvest_opportunities.json",
+      "sha256": "82faf1686fc66f95664265385e6396ec99b01066aac2813ae3c9c91cafce7e61",
+      "bytes": 395344
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/animal_lifecycle.json",
+      "sha256": "e9936e64293850fa11260f48dadb49a32a15ea60d8d45103be152a4ffd386761",
+      "bytes": 42476
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/attachment_manifest_audit.json",
+      "sha256": "00943e3b79effe5453e221c605e793206e076d8e9d778f86b38de7a7344b3ff9",
+      "bytes": 471
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/audit_summary.json",
+      "sha256": "af2c849ee32dd2a33ca6e169ebb4fad3a1134d9cd59bd81ebe140fa719aec873",
+      "bytes": 2228
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/daily_state.csv",
+      "sha256": "5873b1512c7be6173973a7b35b6cb032500054584dec7aee619dd5cbe15c8418",
+      "bytes": 38830
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/duplicate_harvests.json",
+      "sha256": "357fdc75b6fbe3fc337e86c7919e70fd1cffd07373a98687400224817af7cec5",
+      "bytes": 88742
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/harvest_events.json",
+      "sha256": "69a96544a0fbd83a2871fe0d743a267df7183fea49d22bd7aabea181c4684be6",
+      "bytes": 410546
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/opening_finance.json",
+      "sha256": "de1f0b7ee14a0a2be5edb18003c6880a4a3a2dfd26f9b0cc14a494e3dcfc440d",
+      "bytes": 394563
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/paired_decomposition.csv",
+      "sha256": "178bc48460d54e394f914fcbf2968bd415fd2d0a2d8819bf7807ed2c69f9ea9e",
+      "bytes": 834
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/paired_decomposition.json",
+      "sha256": "8abf7da0b12bfb5913448255153716054a5426204d1ca43e367adb0a8fa68d9e",
+      "bytes": 6588
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/replay_integrity.json",
+      "sha256": "92ad444f2e8deea86945b0c70b1cb954960840bbc395adda0714c659133c4c28",
+      "bytes": 6347
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/replay_summary.csv",
+      "sha256": "187481f2406984cee1216aff9408faebc5f6d3e6f453cc68376e2f2cc9b8d689",
+      "bytes": 1751
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/replay_summary.json",
+      "sha256": "d29a2fde8653f790035312f17029e97d5f3be8d86a1d9ac5a660b58bc503d049",
+      "bytes": 17387
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/round5_regression_fixtures.json",
+      "sha256": "85059c6459d98dae67e73735fa5eddb91e13592b49e92fd1a6e68dbfd90c24d6",
+      "bytes": 293980
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_audit/terminal_states.json",
+      "sha256": "99e657368793e26ff93526eeae926d28021a63e0cc2020f5cb1e179ef72201d8",
+      "bytes": 108207
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/Codex_Round5_Instructions_JA.md",
+      "sha256": "612a2ebf3121da9b203e1507755c2900d052484fe206d39f7f36697acd4b91ed",
+      "bytes": 23127
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/Kaggriculture_Round4_Independent_Audit_JA.md",
+      "sha256": "558a8062eda93882f329ec2e4d5e7ef0c7077f14965d1a70cd66f79a9148ec9d",
+      "bytes": 24502
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/README.md",
+      "sha256": "be1908696ddaf021fd91bc3e5ed1f79d9045650651f3550be9f59b1b0760f875",
+      "bytes": 2071
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/animal_harvest_opportunities.json",
+      "sha256": "2bcf217a1e24d104a62e9f7f5b665d0b5072f2957dfeb084f2f43f321e53d762",
+      "bytes": 376063
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/animal_lifecycle.json",
+      "sha256": "94d5b41f90affc1ed45ecedf1af9a5625a70cb4b56d4de0fb2748f1d9019c705",
+      "bytes": 40504
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/attachment_manifest_audit.json",
+      "sha256": "e863037cb2c7f8f739cee13ad4a37ec4e7cbe25dc7020549e3bc22c3a5691cc7",
+      "bytes": 459
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/audit_assertions.json",
+      "sha256": "acb92e04d761b3670c8d306d8ebf84c254f9f3e8295f9043d383766e1f4633a6",
+      "bytes": 571
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/audit_round4.py",
+      "sha256": "29ef90be102862b9df10e8f6fec309c94df0b372f1e984de484d3c9772c73f10",
+      "bytes": 18348
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/audit_stdout.txt",
+      "sha256": "7ebece5626c4597888a2169d5272ced60f702fa55a05232ceccbe5b3989843bc",
+      "bytes": 2166
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/audit_summary.json",
+      "sha256": "a3b02f4157c49f4c15b72b01e73fda6b37d524013e43a9e5b371dd689db8fe08",
+      "bytes": 2165
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/bundle_manifest.json",
+      "sha256": "e22523c5af199e5de08f1a2d63d1a2b8f4fe653144c09d30c0b539805d76d0bd",
+      "bytes": 3431
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/daily_state.csv",
+      "sha256": "5873b1512c7be6173973a7b35b6cb032500054584dec7aee619dd5cbe15c8418",
+      "bytes": 38830
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/duplicate_harvests.json",
+      "sha256": "2ef34261b080cd96a7c6b9da68be7ce19348de724fff4c99555ee4758cf3fccd",
+      "bytes": 84496
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/harvest_events.json",
+      "sha256": "cd2536b9e793e322289254083a5ff98e18a00d2a033abe98b11dc0a051a0b735",
+      "bytes": 391773
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/opening_finance.json",
+      "sha256": "97a6783191fde9e306bec4ef3072c3bf6fd008f1e8df7125cbe60e3dd26372e1",
+      "bytes": 370456
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/paired_decomposition.csv",
+      "sha256": "178bc48460d54e394f914fcbf2968bd415fd2d0a2d8819bf7807ed2c69f9ea9e",
+      "bytes": 834
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/paired_decomposition.json",
+      "sha256": "09eaa7c716e2feb8f0d89381a2de4ce581f593970b15f14a051443632e5fd118",
+      "bytes": 6307
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/replay_integrity.json",
+      "sha256": "acccb27b111374068998644ba71467f6adead447d1a6a65038be0f16898112f4",
+      "bytes": 6026
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/replay_summary.csv",
+      "sha256": "187481f2406984cee1216aff9408faebc5f6d3e6f453cc68376e2f2cc9b8d689",
+      "bytes": 1751
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/replay_summary.json",
+      "sha256": "49ec4f0a43d18f5ccd438912f5ccbaeb9d6ab32310422c0a1a0025b71d67651a",
+      "bytes": 16599
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/round5_regression_fixtures.json",
+      "sha256": "dc10e1d1c1a7ae026a4a03e807519475b0525d288b04fd895f6935fb57df5153",
+      "bytes": 284005
+    },
+    {
+      "path": "experiments/learning_round5_20260921/input_bundle/round4_independent_audit/terminal_states.json",
+      "sha256": "538d1bcc0ece51325ef5c4e4450586a6d85ac973acec5d4c093261813b30b89c",
+      "bytes": 103201
+    },
+    {
+      "path": "experiments/learning_round5_20260921/loader/learned_seat0.json",
+      "sha256": "645720eb73839fb42ec1e704104f234c2d2a10166c05654e689126b77221927d",
+      "bytes": 3064
+    },
+    {
+      "path": "experiments/learning_round5_20260921/loader/learned_seat1.json",
+      "sha256": "fbc1a71ff68a0d5c8fc60e9b9173036e96d28b1fa8870ee5e11e40457600f2c3",
+      "bytes": 3059
+    },
+    {
+      "path": "experiments/learning_round5_20260921/loader/none_seat0.json",
+      "sha256": "5dfc39bcfb3cf681a798b5aa2741a58dd12433e61ae1439a15b1a07ddf8f2da5",
+      "bytes": 3017
+    },
+    {
+      "path": "experiments/learning_round5_20260921/loader/none_seat1.json",
+      "sha256": "94025df7daa60b62397e6d96b9c334f69a6c63c74a38c802c29cb38ed958a9ec",
+      "bytes": 3011
+    },
+    {
+      "path": "experiments/learning_round5_20260921/loader/rule_seat0.json",
+      "sha256": "926273236fdbe3f30fa0e9dd651c72a0e7a6b60b18f198d77150f51291a6838a",
+      "bytes": 3017
+    },
+    {
+      "path": "experiments/learning_round5_20260921/loader/rule_seat1.json",
+      "sha256": "51cdb1d8af61240093a4a1b61807be82ab323ddc75c4bed8ef518746a1d3b4f0",
+      "bytes": 3015
+    },
+    {
+      "path": "experiments/learning_round5_20260921/pytest_round3_round4_round5.xml",
+      "sha256": "13d9ac21b1d422fa2a8f6e7f4541945f519dc1c34726fdff3c2fb11c37ea35fa",
+      "bytes": 13426
+    },
+    {
+      "path": "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json",
+      "sha256": "cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554",
+      "bytes": 3008
+    },
+    {
+      "path": "experiments/learning_round5_20260921/skill_scenarios/cow/replay.json.gz",
+      "sha256": "6d52b90e4caf2e9adeb131c6e9cb94d6b80e7cf873af845b88213a8ed41fb338",
+      "bytes": 28228
+    },
+    {
+      "path": "experiments/learning_round5_20260921/skill_scenarios/cow/trace.jsonl",
+      "sha256": "a795f6123d4b47c1666f4bb9910d913974329bb5784ce8c43e388aaccdbfa84a",
+      "bytes": 30581
+    },
+    {
+      "path": "experiments/learning_round5_20260921/skill_scenarios/sheep/replay.json.gz",
+      "sha256": "9bbf51cd55e8b7b43c54901134c2f53aa0fc94574ca7fbf46d3c38393095f3ae",
+      "bytes": 28589
+    },
+    {
+      "path": "experiments/learning_round5_20260921/skill_scenarios/sheep/trace.jsonl",
+      "sha256": "dad57819bfa7ca0b7cd11359ac3ec34be22874ca04e8d0ee3a5839acc1316532",
+      "bytes": 29232
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/TEACHER_PREFIX_RESULTS.json",
+      "sha256": "cc28eefbd2330e6f8a53d8f23f40cf5db23716fbab14d62dabaf3f60094c3845",
+      "bytes": 114052
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_109741171_prefix_24_horizon_24.failure_windows.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "bytes": 4
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_109741171_prefix_24_horizon_24.json.gz",
+      "sha256": "b0b9b98b1440ea36fe30e1d59b83a255471833ac78644762b0bd4f4b5e5a4e35",
+      "bytes": 16104
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_109741171_prefix_24_horizon_24.trace.jsonl",
+      "sha256": "c7cf691c76a993f361b51fade97ff11d12d448892176d8945be22063a50673e1",
+      "bytes": 55983
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_110195241_prefix_48_horizon_48.failure_windows.json",
+      "sha256": "15881869616012415f6b222729ea33a71701594e2373ab401bab66c97d8f56b2",
+      "bytes": 9122
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_110195241_prefix_48_horizon_48.json.gz",
+      "sha256": "ec892893f9f8a6f5e56d6f34194fe227d5d8174801c9054483131ab5d7dd0745",
+      "bytes": 31347
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_110195241_prefix_48_horizon_48.trace.jsonl",
+      "sha256": "be868315aac9c18b33819f7e98b779b149e00cb84bf614e91f5d6f7510d0a427",
+      "bytes": 55084
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_111031244_prefix_96_horizon_96.failure_windows.json",
+      "sha256": "aee35cfdf76725c031a3c064b50e4f5c44be859b2f5d10bcfb930da473b26ac6",
+      "bytes": 24288
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_111031244_prefix_96_horizon_96.json.gz",
+      "sha256": "9f53bc32cb2fd1f5b65d8104ce97d6eceb9f09c57834ffba4155b22fa045177e",
+      "bytes": 70702
+    },
+    {
+      "path": "experiments/learning_round5_20260921/teacher_prefix/episode_111031244_prefix_96_horizon_96.trace.jsonl",
+      "sha256": "c553b42280bd0b332162784ad10b8ee84e0e02809bacddeaec6ac5d026f2e99c",
+      "bytes": 189343
+    },
+    {
+      "path": "scripts/analyze_round5_opening.py",
+      "sha256": "f6bf4cd3876c5845f053558ddb904493e25f38712e184e94fc0f22cf7133a191",
+      "bytes": 4738
+    },
+    {
+      "path": "scripts/evaluate_round5_comparison.py",
+      "sha256": "478f116b7c3e953ef540a54fca1088a6144aa8dbe02a7b79ccba3b71e304833b",
+      "bytes": 13018
+    },
+    {
+      "path": "scripts/evaluate_round5_frozen_round4.py",
+      "sha256": "c8a3326f5ad06b61c0b80f5b654aa15f9948cd14438e68fd62a1d7374ef9b6ad",
+      "bytes": 9118
+    },
+    {
+      "path": "scripts/evaluate_round5_skills.py",
+      "sha256": "90566a227c5948acbe50840d5ce2db8f0e85da5c94a4c6818e29de911fba8b92",
+      "bytes": 8997
+    },
+    {
+      "path": "scripts/evaluate_round5_teacher_prefix.py",
+      "sha256": "a500308fa517c92b766684caa15462d2041dbc2e7772c87b2320fc16f746a091",
+      "bytes": 11671
+    },
+    {
+      "path": "scripts/finalize_round5.py",
+      "sha256": "cba37718d721f30ab0f4683a6868b4d6f4c14a65541533e6a8f32fe7274a7785",
+      "bytes": 24329
+    },
+    {
+      "path": "scripts/learning_round5.py",
+      "sha256": "9370164503fe3a965c19f302c6c93ec3d1b647b3a4b94882173c0c900e0aa18b",
+      "bytes": 26953
+    },
+    {
+      "path": "scripts/validate_round5_archive.py",
+      "sha256": "aa223edc937e2f68127cd88bc199e66bc1df6fc2200a6c33901c4e817e9e5b70",
+      "bytes": 8783
+    },
+    {
+      "path": "scripts/verify_round5_bundle.py",
+      "sha256": "e04d2243fa40310e792074992a4f934e7c4403e7a32607b22876a27186392cc1",
+      "bytes": 2291
+    },
+    {
+      "path": "tests/test_learning_round5.py",
+      "sha256": "3978c3ae02f9cc51febfda58df159e3ae093ce49341814371d6059dc9ec9df38",
+      "bytes": 21120
+    }
+  ]
+}

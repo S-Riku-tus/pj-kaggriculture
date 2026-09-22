@@ -1,0 +1,2123 @@
+{
+  "created_at_utc": "2026-09-21T13:10:40.618561+00:00",
+  "teacher_submission": 56216119,
+  "checkpoint": "agents\\learning_round4_20260921\\strategy_model.json",
+  "checkpoint_sha256": "0276229affaf6e8b28ca374f19c926d9208b136ac108e60ea9af65f1cd5a65b2",
+  "optimizer_updates": 216,
+  "parameter_change_l2": 2.517298435794106,
+  "sanity": {
+    "rows": 512,
+    "updates": 12,
+    "metrics": {
+      "rows": 512,
+      "accuracy": 0.32421875,
+      "macro_f1": 0.3236487828234579,
+      "cross_entropy": 1.2878255624564883,
+      "confusion": [
+        [
+          45,
+          0,
+          1,
+          0
+        ],
+        [
+          105,
+          34,
+          142,
+          6
+        ],
+        [
+          13,
+          1,
+          68,
+          13
+        ],
+        [
+          42,
+          0,
+          23,
+          19
+        ]
+      ],
+      "by_class": {
+        "NONE": {
+          "precision": 0.21951219512195122,
+          "recall": 0.9782608695652174,
+          "f1": 0.35856573705179284,
+          "support": 46
+        },
+        "ANIMAL_SERVICE_WITH_CONTINUATION": {
+          "precision": 0.9714285714285714,
+          "recall": 0.11846689895470383,
+          "f1": 0.21118012422360247,
+          "support": 287
+        },
+        "HARVEST_AND_LAND_CONVERSION": {
+          "precision": 0.2905982905982906,
+          "recall": 0.7157894736842105,
+          "f1": 0.4133738601823708,
+          "support": 95
+        },
+        "SELL_AND_REINVEST": {
+          "precision": 0.5,
+          "recall": 0.2261904761904762,
+          "f1": 0.3114754098360656,
+          "support": 84
+        }
+      }
+    },
+    "log": [
+      {
+        "epoch": 1,
+        "train_weighted_loss": 1.4017456383725042,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.201171875,
+          "macro_f1": 0.1759017286344019,
+          "cross_entropy": 1.3787156661841962,
+          "confusion": [
+            [
+              2,
+              1,
+              1,
+              42
+            ],
+            [
+              53,
+              2,
+              151,
+              81
+            ],
+            [
+              19,
+              8,
+              62,
+              6
+            ],
+            [
+              10,
+              5,
+              32,
+              37
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.023809523809523808,
+              "recall": 0.043478260869565216,
+              "f1": 0.030769230769230767,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.125,
+              "recall": 0.006968641114982578,
+              "f1": 0.013201320132013201,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.25203252032520324,
+              "recall": 0.6526315789473685,
+              "f1": 0.36363636363636365,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.22289156626506024,
+              "recall": 0.44047619047619047,
+              "f1": 0.296,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 1
+      },
+      {
+        "epoch": 2,
+        "train_weighted_loss": 1.3684057830463856,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.2421875,
+          "macro_f1": 0.20932516683640015,
+          "cross_entropy": 1.3587535836194378,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              119,
+              6,
+              161,
+              1
+            ],
+            [
+              21,
+              1,
+              69,
+              4
+            ],
+            [
+              43,
+              2,
+              35,
+              4
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.19736842105263158,
+              "recall": 0.9782608695652174,
+              "f1": 0.3284671532846716,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.6666666666666666,
+              "recall": 0.020905923344947737,
+              "f1": 0.04054054054054054,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2593984962406015,
+              "recall": 0.7263157894736842,
+              "f1": 0.38227146814404434,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.4444444444444444,
+              "recall": 0.047619047619047616,
+              "f1": 0.08602150537634409,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 2
+      },
+      {
+        "epoch": 3,
+        "train_weighted_loss": 1.3281603284957928,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.259765625,
+          "macro_f1": 0.23280429757569326,
+          "cross_entropy": 1.3397941882456683,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              114,
+              13,
+              159,
+              1
+            ],
+            [
+              20,
+              0,
+              69,
+              6
+            ],
+            [
+              44,
+              1,
+              33,
+              6
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.20179372197309417,
+              "recall": 0.9782608695652174,
+              "f1": 0.3345724907063197,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9285714285714286,
+              "recall": 0.04529616724738676,
+              "f1": 0.08637873754152825,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2633587786259542,
+              "recall": 0.7263157894736842,
+              "f1": 0.3865546218487395,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.46153846153846156,
+              "recall": 0.07142857142857142,
+              "f1": 0.12371134020618557,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 3
+      },
+      {
+        "epoch": 4,
+        "train_weighted_loss": 1.2873963183145416,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.279296875,
+          "macro_f1": 0.25630669942545636,
+          "cross_entropy": 1.3236058862529885,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              114,
+              19,
+              152,
+              2
+            ],
+            [
+              16,
+              0,
+              71,
+              8
+            ],
+            [
+              44,
+              0,
+              32,
+              8
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.2054794520547945,
+              "recall": 0.9782608695652174,
+              "f1": 0.33962264150943394,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 1.0,
+              "recall": 0.06620209059233449,
+              "f1": 0.12418300653594772,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.27734375,
+              "recall": 0.7473684210526316,
+              "f1": 0.40455840455840447,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.4444444444444444,
+              "recall": 0.09523809523809523,
+              "f1": 0.1568627450980392,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 4
+      },
+      {
+        "epoch": 5,
+        "train_weighted_loss": 1.2494716028413013,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.294921875,
+          "macro_f1": 0.2764321554002339,
+          "cross_entropy": 1.3108717388298947,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              113,
+              25,
+              147,
+              2
+            ],
+            [
+              15,
+              0,
+              71,
+              9
+            ],
+            [
+              44,
+              0,
+              30,
+              10
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.2073732718894009,
+              "recall": 0.9782608695652174,
+              "f1": 0.34220532319391633,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 1.0,
+              "recall": 0.08710801393728224,
+              "f1": 0.16025641025641027,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.285140562248996,
+              "recall": 0.7473684210526316,
+              "f1": 0.41279069767441856,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.47619047619047616,
+              "recall": 0.11904761904761904,
+              "f1": 0.19047619047619047,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 5
+      },
+      {
+        "epoch": 6,
+        "train_weighted_loss": 1.216062199469475,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.296875,
+          "macro_f1": 0.28637148661845563,
+          "cross_entropy": 1.301587748201974,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              113,
+              24,
+              147,
+              3
+            ],
+            [
+              14,
+              1,
+              70,
+              10
+            ],
+            [
+              44,
+              0,
+              27,
+              13
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.20833333333333334,
+              "recall": 0.9782608695652174,
+              "f1": 0.3435114503816794,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.96,
+              "recall": 0.08362369337979095,
+              "f1": 0.15384615384615385,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2857142857142857,
+              "recall": 0.7368421052631579,
+              "f1": 0.4117647058823529,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5,
+              "recall": 0.15476190476190477,
+              "f1": 0.23636363636363636,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 6
+      },
+      {
+        "epoch": 7,
+        "train_weighted_loss": 1.187751538187626,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.30078125,
+          "macro_f1": 0.2946379246994498,
+          "cross_entropy": 1.2953401343847397,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              111,
+              25,
+              147,
+              4
+            ],
+            [
+              14,
+              1,
+              69,
+              11
+            ],
+            [
+              44,
+              0,
+              25,
+              15
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.2102803738317757,
+              "recall": 0.9782608695652174,
+              "f1": 0.34615384615384615,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9615384615384616,
+              "recall": 0.08710801393728224,
+              "f1": 0.1597444089456869,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.28512396694214875,
+              "recall": 0.7263157894736842,
+              "f1": 0.4094955489614243,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5,
+              "recall": 0.17857142857142858,
+              "f1": 0.2631578947368421,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 7
+      },
+      {
+        "epoch": 8,
+        "train_weighted_loss": 1.1644207498018528,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.30859375,
+          "macro_f1": 0.30406339181210584,
+          "cross_entropy": 1.2915120685423682,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              110,
+              28,
+              145,
+              4
+            ],
+            [
+              14,
+              1,
+              69,
+              11
+            ],
+            [
+              43,
+              0,
+              25,
+              16
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.21226415094339623,
+              "recall": 0.9782608695652174,
+              "f1": 0.34883720930232565,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9655172413793104,
+              "recall": 0.0975609756097561,
+              "f1": 0.17721518987341772,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2875,
+              "recall": 0.7263157894736842,
+              "f1": 0.4119402985074626,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5161290322580645,
+              "recall": 0.19047619047619047,
+              "f1": 0.27826086956521734,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 8
+      },
+      {
+        "epoch": 9,
+        "train_weighted_loss": 1.1455432624029358,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.31640625,
+          "macro_f1": 0.3130262140246559,
+          "cross_entropy": 1.2894312296642099,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              106,
+              32,
+              144,
+              5
+            ],
+            [
+              14,
+              1,
+              68,
+              12
+            ],
+            [
+              43,
+              0,
+              24,
+              17
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.21634615384615385,
+              "recall": 0.9782608695652174,
+              "f1": 0.3543307086614173,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9696969696969697,
+              "recall": 0.11149825783972125,
+              "f1": 0.2,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2869198312236287,
+              "recall": 0.7157894736842105,
+              "f1": 0.40963855421686746,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5,
+              "recall": 0.20238095238095238,
+              "f1": 0.288135593220339,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 9
+      },
+      {
+        "epoch": 10,
+        "train_weighted_loss": 1.1304042595090402,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.318359375,
+          "macro_f1": 0.31669535283993117,
+          "cross_entropy": 1.2884649724440356,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              105,
+              32,
+              144,
+              6
+            ],
+            [
+              14,
+              1,
+              68,
+              12
+            ],
+            [
+              42,
+              0,
+              24,
+              18
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.21844660194174756,
+              "recall": 0.9782608695652174,
+              "f1": 0.3571428571428571,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9696969696969697,
+              "recall": 0.11149825783972125,
+              "f1": 0.2,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2869198312236287,
+              "recall": 0.7157894736842105,
+              "f1": 0.40963855421686746,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5,
+              "recall": 0.21428571428571427,
+              "f1": 0.3,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 10
+      },
+      {
+        "epoch": 11,
+        "train_weighted_loss": 1.1182515300601938,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.318359375,
+          "macro_f1": 0.31669535283993117,
+          "cross_entropy": 1.2880725134580628,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              105,
+              32,
+              144,
+              6
+            ],
+            [
+              14,
+              1,
+              68,
+              12
+            ],
+            [
+              42,
+              0,
+              24,
+              18
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.21844660194174756,
+              "recall": 0.9782608695652174,
+              "f1": 0.3571428571428571,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9696969696969697,
+              "recall": 0.11149825783972125,
+              "f1": 0.2,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2869198312236287,
+              "recall": 0.7157894736842105,
+              "f1": 0.40963855421686746,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5,
+              "recall": 0.21428571428571427,
+              "f1": 0.3,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 11
+      },
+      {
+        "epoch": 12,
+        "train_weighted_loss": 1.1083871479500735,
+        "validation": {
+          "rows": 512,
+          "accuracy": 0.32421875,
+          "macro_f1": 0.3236487828234579,
+          "cross_entropy": 1.2878255624564883,
+          "confusion": [
+            [
+              45,
+              0,
+              1,
+              0
+            ],
+            [
+              105,
+              34,
+              142,
+              6
+            ],
+            [
+              13,
+              1,
+              68,
+              13
+            ],
+            [
+              42,
+              0,
+              23,
+              19
+            ]
+          ],
+          "by_class": {
+            "NONE": {
+              "precision": 0.21951219512195122,
+              "recall": 0.9782608695652174,
+              "f1": 0.35856573705179284,
+              "support": 46
+            },
+            "ANIMAL_SERVICE_WITH_CONTINUATION": {
+              "precision": 0.9714285714285714,
+              "recall": 0.11846689895470383,
+              "f1": 0.21118012422360247,
+              "support": 287
+            },
+            "HARVEST_AND_LAND_CONVERSION": {
+              "precision": 0.2905982905982906,
+              "recall": 0.7157894736842105,
+              "f1": 0.4133738601823708,
+              "support": 95
+            },
+            "SELL_AND_REINVEST": {
+              "precision": 0.5,
+              "recall": 0.2261904761904762,
+              "f1": 0.3114754098360656,
+              "support": 84
+            }
+          }
+        },
+        "optimizer_updates": 12
+      }
+    ]
+  },
+  "full_training_log": [
+    {
+      "epoch": 1,
+      "train_weighted_loss": 1.2264012698563842,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.3578125,
+        "macro_f1": 0.35048118615411844,
+        "cross_entropy": 1.3148725913191952,
+        "confusion": [
+          [
+            133,
+            0,
+            21,
+            0
+          ],
+          [
+            382,
+            205,
+            468,
+            41
+          ],
+          [
+            48,
+            1,
+            273,
+            55
+          ],
+          [
+            131,
+            6,
+            80,
+            76
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.19164265129682997,
+            "recall": 0.8636363636363636,
+            "f1": 0.3136792452830189,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9669811320754716,
+            "recall": 0.18704379562043796,
+            "f1": 0.31345565749235477,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.32422802850356297,
+            "recall": 0.7241379310344828,
+            "f1": 0.4479081214109927,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4418604651162791,
+            "recall": 0.2593856655290102,
+            "f1": 0.3268817204301075,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 12
+    },
+    {
+      "epoch": 2,
+      "train_weighted_loss": 1.063436687262942,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.5130208333333334,
+        "macro_f1": 0.4980955321269329,
+        "cross_entropy": 1.100918364926422,
+        "confusion": [
+          [
+            127,
+            0,
+            25,
+            2
+          ],
+          [
+            148,
+            440,
+            329,
+            179
+          ],
+          [
+            34,
+            12,
+            260,
+            71
+          ],
+          [
+            61,
+            14,
+            60,
+            158
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.34324324324324323,
+            "recall": 0.8246753246753247,
+            "f1": 0.4847328244274809,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.944206008583691,
+            "recall": 0.40145985401459855,
+            "f1": 0.5633802816901409,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.3857566765578635,
+            "recall": 0.6896551724137931,
+            "f1": 0.49476688867745,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.3853658536585366,
+            "recall": 0.5392491467576792,
+            "f1": 0.44950213371266,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 24
+    },
+    {
+      "epoch": 3,
+      "train_weighted_loss": 0.9839206324987224,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.5890625,
+        "macro_f1": 0.5369062306757971,
+        "cross_entropy": 1.001762278494396,
+        "confusion": [
+          [
+            125,
+            3,
+            24,
+            2
+          ],
+          [
+            168,
+            629,
+            201,
+            98
+          ],
+          [
+            27,
+            33,
+            235,
+            82
+          ],
+          [
+            78,
+            20,
+            53,
+            142
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.314070351758794,
+            "recall": 0.8116883116883117,
+            "f1": 0.4528985507246377,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9182481751824818,
+            "recall": 0.573905109489051,
+            "f1": 0.7063447501403706,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.4580896686159844,
+            "recall": 0.623342175066313,
+            "f1": 0.5280898876404494,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4382716049382716,
+            "recall": 0.48464163822525597,
+            "f1": 0.4602917341977309,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 36
+    },
+    {
+      "epoch": 4,
+      "train_weighted_loss": 0.9452185882676499,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6057291666666667,
+        "macro_f1": 0.5452420804427771,
+        "cross_entropy": 0.9592114869494864,
+        "confusion": [
+          [
+            122,
+            4,
+            26,
+            2
+          ],
+          [
+            151,
+            662,
+            171,
+            112
+          ],
+          [
+            24,
+            34,
+            252,
+            67
+          ],
+          [
+            67,
+            26,
+            73,
+            127
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.33516483516483514,
+            "recall": 0.7922077922077922,
+            "f1": 0.471042471042471,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9118457300275482,
+            "recall": 0.6040145985401459,
+            "f1": 0.7266739846322722,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.4827586206896552,
+            "recall": 0.6684350132625995,
+            "f1": 0.560622914349277,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.41233766233766234,
+            "recall": 0.4334470989761092,
+            "f1": 0.42262895174708814,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 48
+    },
+    {
+      "epoch": 5,
+      "train_weighted_loss": 0.9222367960828444,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6177083333333333,
+        "macro_f1": 0.5616034420933178,
+        "cross_entropy": 0.9314554136574569,
+        "confusion": [
+          [
+            122,
+            4,
+            26,
+            2
+          ],
+          [
+            130,
+            670,
+            162,
+            134
+          ],
+          [
+            18,
+            34,
+            258,
+            67
+          ],
+          [
+            54,
+            26,
+            77,
+            136
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.3765432098765432,
+            "recall": 0.7922077922077922,
+            "f1": 0.5104602510460251,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9128065395095368,
+            "recall": 0.6113138686131386,
+            "f1": 0.7322404371584699,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.4933078393881453,
+            "recall": 0.6843501326259946,
+            "f1": 0.5733333333333334,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.40117994100294985,
+            "recall": 0.4641638225255973,
+            "f1": 0.430379746835443,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 60
+    },
+    {
+      "epoch": 6,
+      "train_weighted_loss": 0.9071468459278058,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6380208333333334,
+        "macro_f1": 0.5769008322971956,
+        "cross_entropy": 0.9104836440223747,
+        "confusion": [
+          [
+            122,
+            4,
+            26,
+            2
+          ],
+          [
+            125,
+            709,
+            141,
+            121
+          ],
+          [
+            16,
+            37,
+            252,
+            72
+          ],
+          [
+            56,
+            29,
+            66,
+            142
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.3824451410658307,
+            "recall": 0.7922077922077922,
+            "f1": 0.5158562367864694,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9101412066752247,
+            "recall": 0.6468978102189781,
+            "f1": 0.7562666666666666,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5195876288659794,
+            "recall": 0.6684350132625995,
+            "f1": 0.5846867749419954,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.42136498516320475,
+            "recall": 0.48464163822525597,
+            "f1": 0.4507936507936508,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 72
+    },
+    {
+      "epoch": 7,
+      "train_weighted_loss": 0.8965478280761726,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6411458333333333,
+        "macro_f1": 0.5791268176427883,
+        "cross_entropy": 0.8978218438111967,
+        "confusion": [
+          [
+            122,
+            4,
+            26,
+            2
+          ],
+          [
+            124,
+            714,
+            137,
+            121
+          ],
+          [
+            15,
+            36,
+            254,
+            72
+          ],
+          [
+            55,
+            28,
+            69,
+            141
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.3860759493670886,
+            "recall": 0.7922077922077922,
+            "f1": 0.5191489361702128,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9130434782608695,
+            "recall": 0.6514598540145985,
+            "f1": 0.7603833865814695,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.522633744855967,
+            "recall": 0.6737400530503979,
+            "f1": 0.5886442641946698,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.41964285714285715,
+            "recall": 0.4812286689419795,
+            "f1": 0.4483306836248013,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 84
+    },
+    {
+      "epoch": 8,
+      "train_weighted_loss": 0.8879739819425737,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6427083333333333,
+        "macro_f1": 0.5809004559376424,
+        "cross_entropy": 0.8875438927739171,
+        "confusion": [
+          [
+            122,
+            4,
+            25,
+            3
+          ],
+          [
+            114,
+            717,
+            141,
+            124
+          ],
+          [
+            14,
+            36,
+            257,
+            70
+          ],
+          [
+            53,
+            27,
+            75,
+            138
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.40264026402640263,
+            "recall": 0.7922077922077922,
+            "f1": 0.5339168490153172,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9145408163265306,
+            "recall": 0.6541970802919708,
+            "f1": 0.7627659574468085,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5160642570281124,
+            "recall": 0.6816976127320955,
+            "f1": 0.5874285714285714,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.41194029850746267,
+            "recall": 0.4709897610921502,
+            "f1": 0.4394904458598727,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 96
+    },
+    {
+      "epoch": 9,
+      "train_weighted_loss": 0.8811939495145372,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.65,
+        "macro_f1": 0.587849387587011,
+        "cross_entropy": 0.8770734508391077,
+        "confusion": [
+          [
+            122,
+            4,
+            25,
+            3
+          ],
+          [
+            101,
+            730,
+            139,
+            126
+          ],
+          [
+            14,
+            36,
+            258,
+            69
+          ],
+          [
+            51,
+            28,
+            76,
+            138
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.4236111111111111,
+            "recall": 0.7922077922077922,
+            "f1": 0.5520361990950227,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9147869674185464,
+            "recall": 0.666058394160584,
+            "f1": 0.7708553326293559,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5180722891566265,
+            "recall": 0.6843501326259946,
+            "f1": 0.5897142857142856,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4107142857142857,
+            "recall": 0.4709897610921502,
+            "f1": 0.43879173290938,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 108
+    },
+    {
+      "epoch": 10,
+      "train_weighted_loss": 0.8752513342585456,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.65625,
+        "macro_f1": 0.5951954747072552,
+        "cross_entropy": 0.8665106606679733,
+        "confusion": [
+          [
+            121,
+            3,
+            27,
+            3
+          ],
+          [
+            86,
+            742,
+            139,
+            129
+          ],
+          [
+            14,
+            37,
+            251,
+            75
+          ],
+          [
+            51,
+            27,
+            69,
+            146
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.44485294117647056,
+            "recall": 0.7857142857142857,
+            "f1": 0.568075117370892,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9171817058096415,
+            "recall": 0.677007299270073,
+            "f1": 0.7790026246719159,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5164609053497943,
+            "recall": 0.6657824933687002,
+            "f1": 0.581691772885284,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.41359773371104813,
+            "recall": 0.49829351535836175,
+            "f1": 0.4520123839009288,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 120
+    },
+    {
+      "epoch": 11,
+      "train_weighted_loss": 0.8702967935140666,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6572916666666667,
+        "macro_f1": 0.5951285387726327,
+        "cross_entropy": 0.8616460636244513,
+        "confusion": [
+          [
+            121,
+            3,
+            27,
+            3
+          ],
+          [
+            85,
+            746,
+            134,
+            131
+          ],
+          [
+            14,
+            37,
+            251,
+            75
+          ],
+          [
+            51,
+            27,
+            71,
+            144
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.44649446494464945,
+            "recall": 0.7857142857142857,
+            "f1": 0.5694117647058823,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9175891758917589,
+            "recall": 0.6806569343065694,
+            "f1": 0.7815610267155579,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5196687370600414,
+            "recall": 0.6657824933687002,
+            "f1": 0.5837209302325581,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.40793201133144474,
+            "recall": 0.49146757679180886,
+            "f1": 0.4458204334365325,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 132
+    },
+    {
+      "epoch": 12,
+      "train_weighted_loss": 0.8664654657821226,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6578125,
+        "macro_f1": 0.5949594797380606,
+        "cross_entropy": 0.8571824887060566,
+        "confusion": [
+          [
+            121,
+            4,
+            26,
+            3
+          ],
+          [
+            85,
+            748,
+            132,
+            131
+          ],
+          [
+            14,
+            37,
+            252,
+            74
+          ],
+          [
+            51,
+            28,
+            72,
+            142
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.44649446494464945,
+            "recall": 0.7857142857142857,
+            "f1": 0.5694117647058823,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9155446756425949,
+            "recall": 0.6824817518248175,
+            "f1": 0.7820177731312076,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5228215767634855,
+            "recall": 0.6684350132625995,
+            "f1": 0.5867287543655414,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4057142857142857,
+            "recall": 0.48464163822525597,
+            "f1": 0.4416796267496112,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 144
+    },
+    {
+      "epoch": 13,
+      "train_weighted_loss": 0.86278633919251,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.665625,
+        "macro_f1": 0.6010614141020704,
+        "cross_entropy": 0.8519416667838916,
+        "confusion": [
+          [
+            121,
+            4,
+            26,
+            3
+          ],
+          [
+            87,
+            761,
+            121,
+            127
+          ],
+          [
+            14,
+            37,
+            249,
+            77
+          ],
+          [
+            51,
+            28,
+            67,
+            147
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.4432234432234432,
+            "recall": 0.7857142857142857,
+            "f1": 0.5667447306791569,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9168674698795181,
+            "recall": 0.6943430656934306,
+            "f1": 0.7902388369678088,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5377969762419006,
+            "recall": 0.6604774535809018,
+            "f1": 0.5928571428571429,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4152542372881356,
+            "recall": 0.5017064846416383,
+            "f1": 0.4544049459041731,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 156
+    },
+    {
+      "epoch": 14,
+      "train_weighted_loss": 0.8592777415576033,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6640625,
+        "macro_f1": 0.6003967510300081,
+        "cross_entropy": 0.846993800163657,
+        "confusion": [
+          [
+            121,
+            3,
+            27,
+            3
+          ],
+          [
+            82,
+            759,
+            124,
+            131
+          ],
+          [
+            13,
+            37,
+            251,
+            76
+          ],
+          [
+            50,
+            29,
+            70,
+            144
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.4548872180451128,
+            "recall": 0.7857142857142857,
+            "f1": 0.5761904761904761,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9166666666666666,
+            "recall": 0.6925182481751825,
+            "f1": 0.7889812889812889,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5317796610169492,
+            "recall": 0.6657824933687002,
+            "f1": 0.591283863368669,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4067796610169492,
+            "recall": 0.49146757679180886,
+            "f1": 0.44513137557959814,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 168
+    },
+    {
+      "epoch": 15,
+      "train_weighted_loss": 0.8562168547214422,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6609375,
+        "macro_f1": 0.5974442931241388,
+        "cross_entropy": 0.8454372911241603,
+        "confusion": [
+          [
+            121,
+            4,
+            26,
+            3
+          ],
+          [
+            85,
+            755,
+            125,
+            131
+          ],
+          [
+            14,
+            37,
+            250,
+            76
+          ],
+          [
+            48,
+            29,
+            73,
+            143
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.45149253731343286,
+            "recall": 0.7857142857142857,
+            "f1": 0.5734597156398105,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9151515151515152,
+            "recall": 0.6888686131386861,
+            "f1": 0.7860489328474752,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5274261603375527,
+            "recall": 0.6631299734748011,
+            "f1": 0.5875440658049353,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.40509915014164305,
+            "recall": 0.4880546075085324,
+            "f1": 0.44272445820433437,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 180
+    },
+    {
+      "epoch": 16,
+      "train_weighted_loss": 0.8537644193879157,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6625,
+        "macro_f1": 0.598621483562622,
+        "cross_entropy": 0.8434878508740142,
+        "confusion": [
+          [
+            121,
+            4,
+            26,
+            3
+          ],
+          [
+            85,
+            757,
+            124,
+            130
+          ],
+          [
+            14,
+            36,
+            251,
+            76
+          ],
+          [
+            48,
+            29,
+            73,
+            143
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.45149253731343286,
+            "recall": 0.7857142857142857,
+            "f1": 0.5734597156398105,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9164648910411622,
+            "recall": 0.6906934306569343,
+            "f1": 0.7877211238293443,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5295358649789029,
+            "recall": 0.6657824933687002,
+            "f1": 0.5898942420681551,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.40625,
+            "recall": 0.4880546075085324,
+            "f1": 0.4434108527131783,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 192
+    },
+    {
+      "epoch": 17,
+      "train_weighted_loss": 0.8516157248041405,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6640625,
+        "macro_f1": 0.5995921072670575,
+        "cross_entropy": 0.8398129289878133,
+        "confusion": [
+          [
+            121,
+            3,
+            27,
+            3
+          ],
+          [
+            85,
+            759,
+            122,
+            130
+          ],
+          [
+            14,
+            35,
+            251,
+            77
+          ],
+          [
+            50,
+            29,
+            70,
+            144
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.44814814814814813,
+            "recall": 0.7857142857142857,
+            "f1": 0.5707547169811321,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9188861985472155,
+            "recall": 0.6925182481751825,
+            "f1": 0.7898022892819979,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5340425531914894,
+            "recall": 0.6657824933687002,
+            "f1": 0.5926800472255018,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.4067796610169492,
+            "recall": 0.49146757679180886,
+            "f1": 0.44513137557959814,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 204
+    },
+    {
+      "epoch": 18,
+      "train_weighted_loss": 0.8492445658891337,
+      "validation": {
+        "rows": 1920,
+        "accuracy": 0.6661458333333333,
+        "macro_f1": 0.6047859422385748,
+        "cross_entropy": 0.8363228047970189,
+        "confusion": [
+          [
+            121,
+            4,
+            25,
+            4
+          ],
+          [
+            84,
+            758,
+            120,
+            134
+          ],
+          [
+            13,
+            36,
+            251,
+            77
+          ],
+          [
+            43,
+            29,
+            72,
+            149
+          ]
+        ],
+        "by_class": {
+          "NONE": {
+            "precision": 0.46360153256704983,
+            "recall": 0.7857142857142857,
+            "f1": 0.5831325301204819,
+            "support": 154
+          },
+          "ANIMAL_SERVICE_WITH_CONTINUATION": {
+            "precision": 0.9165659008464329,
+            "recall": 0.6916058394160584,
+            "f1": 0.7883515340613623,
+            "support": 1096
+          },
+          "HARVEST_AND_LAND_CONVERSION": {
+            "precision": 0.5363247863247863,
+            "recall": 0.6657824933687002,
+            "f1": 0.5940828402366864,
+            "support": 377
+          },
+          "SELL_AND_REINVEST": {
+            "precision": 0.40934065934065933,
+            "recall": 0.5085324232081911,
+            "f1": 0.4535768645357686,
+            "support": 293
+          }
+        }
+      },
+      "optimizer_updates": 216
+    }
+  ],
+  "validation": {
+    "rows": 1920,
+    "accuracy": 0.6661458333333333,
+    "macro_f1": 0.6047859422385748,
+    "cross_entropy": 0.8363228047970189,
+    "confusion": [
+      [
+        121,
+        4,
+        25,
+        4
+      ],
+      [
+        84,
+        758,
+        120,
+        134
+      ],
+      [
+        13,
+        36,
+        251,
+        77
+      ],
+      [
+        43,
+        29,
+        72,
+        149
+      ]
+    ],
+    "by_class": {
+      "NONE": {
+        "precision": 0.46360153256704983,
+        "recall": 0.7857142857142857,
+        "f1": 0.5831325301204819,
+        "support": 154
+      },
+      "ANIMAL_SERVICE_WITH_CONTINUATION": {
+        "precision": 0.9165659008464329,
+        "recall": 0.6916058394160584,
+        "f1": 0.7883515340613623,
+        "support": 1096
+      },
+      "HARVEST_AND_LAND_CONVERSION": {
+        "precision": 0.5363247863247863,
+        "recall": 0.6657824933687002,
+        "f1": 0.5940828402366864,
+        "support": 377
+      },
+      "SELL_AND_REINVEST": {
+        "precision": 0.40934065934065933,
+        "recall": 0.5085324232081911,
+        "f1": 0.4535768645357686,
+        "support": 293
+      }
+    }
+  },
+  "test": {
+    "rows": 1920,
+    "accuracy": 0.6510416666666666,
+    "macro_f1": 0.591378853825211,
+    "cross_entropy": 0.8399009177281088,
+    "confusion": [
+      [
+        119,
+        2,
+        16,
+        2
+      ],
+      [
+        82,
+        747,
+        129,
+        138
+      ],
+      [
+        18,
+        51,
+        247,
+        72
+      ],
+      [
+        43,
+        39,
+        78,
+        137
+      ]
+    ],
+    "by_class": {
+      "NONE": {
+        "precision": 0.4541984732824427,
+        "recall": 0.8561151079136691,
+        "f1": 0.5935162094763092,
+        "support": 139
+      },
+      "ANIMAL_SERVICE_WITH_CONTINUATION": {
+        "precision": 0.8903456495828367,
+        "recall": 0.6815693430656934,
+        "f1": 0.7720930232558139,
+        "support": 1096
+      },
+      "HARVEST_AND_LAND_CONVERSION": {
+        "precision": 0.5255319148936171,
+        "recall": 0.6365979381443299,
+        "f1": 0.5757575757575758,
+        "support": 388
+      },
+      "SELL_AND_REINVEST": {
+        "precision": 0.39255014326647564,
+        "recall": 0.4612794612794613,
+        "f1": 0.4241486068111455,
+        "support": 297
+      }
+    }
+  },
+  "baseline_test": {
+    "majority_class": "ANIMAL_SERVICE_WITH_CONTINUATION",
+    "accuracy": 0.5708333333333333,
+    "macro_f1": 0.1816976127320955
+  },
+  "important_decision_metrics": {
+    "NONE": {
+      "precision": 0.4541984732824427,
+      "recall": 0.8561151079136691,
+      "f1": 0.5935162094763092,
+      "support": 139
+    },
+    "ANIMAL_SERVICE_WITH_CONTINUATION": {
+      "precision": 0.8903456495828367,
+      "recall": 0.6815693430656934,
+      "f1": 0.7720930232558139,
+      "support": 1096
+    },
+    "HARVEST_AND_LAND_CONVERSION": {
+      "precision": 0.5255319148936171,
+      "recall": 0.6365979381443299,
+      "f1": 0.5757575757575758,
+      "support": 388
+    },
+    "SELL_AND_REINVEST": {
+      "precision": 0.39255014326647564,
+      "recall": 0.4612794612794613,
+      "f1": 0.4241486068111455,
+      "support": 297
+    }
+  },
+  "reload_inference": {
+    "calls": 1,
+    "scores": {
+      "NONE": 0.0832228178448079,
+      "ANIMAL_SERVICE_WITH_CONTINUATION": 0.12690045714242243,
+      "HARVEST_AND_LAND_CONVERSION": 0.017826510172374035,
+      "SELL_AND_REINVEST": 0.7720502148403956
+    },
+    "finite": true
+  },
+  "skill_macro_accuracy_delta": 0.40968124109311554,
+  "action_changes": "measured in subsequent closed-loop run, not inferred from teacher-state accuracy"
+}

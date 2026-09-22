@@ -1,0 +1,61 @@
+{
+  "archive": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\submissions\\learning_round4_20260921_rule.tar.gz",
+  "archive_sha256": "6cb324f496ca216a1bd309a8cc3ae1db6eac9c2e9a9973f0325c06dcef454b3e",
+  "archive_members": [
+    "contracts.py",
+    "executor.py",
+    "main.py",
+    "rule_main.py"
+  ],
+  "kaggle_environments_version": "1.32.7",
+  "loader": "kaggle_environments.agent.get_last_callable",
+  "loader_exec_globals_started_empty": true,
+  "main_source_received_file_global": false,
+  "arbitrary_cwd": true,
+  "repository_removed_from_sys_path": true,
+  "last_callable": "agent",
+  "seat": 1,
+  "numpy_blocked": true,
+  "stored_states": 720,
+  "terminal_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "terminal_rewards": [
+    3461.0,
+    3213.0
+  ],
+  "calls": 719,
+  "warm_mean_seconds": 0.0003070080667728965,
+  "warm_max_seconds": 0.021366700006183237,
+  "rss_delta_bytes": 49147904,
+  "external_communication_required": false,
+  "diagnostics": {
+    "arm": "round4_rule",
+    "model_loads": 0,
+    "inference_calls": 0,
+    "rule_decisions": 719,
+    "executor": {
+      "executor": "round4-state-based-v1",
+      "policy": "explicit-rule",
+      "triggered": 14,
+      "candidate_generated": 14,
+      "applicable": 14,
+      "scheduled": 14,
+      "started": 14,
+      "primitive_issued": 44,
+      "primitive_effect_observed": 44,
+      "primitive_failed": 0,
+      "primitive_unknown": 0,
+      "job_completed": 44,
+      "jobs_replanned": 0,
+      "jobs_expired": 0,
+      "action_changes": 0,
+      "duplicate_services_blocked": 0,
+      "immature_harvests_blocked": 0,
+      "pickup_quantities_increased": 0,
+      "economic_evaluated": 0
+    }
+  },
+  "passed": true
+}

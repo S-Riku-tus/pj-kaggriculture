@@ -1,0 +1,250 @@
+﻿diff --git a/agents/learning_round3_20260921/contracts.py b/agents/learning_round3_20260921/contracts.py
+index 923bbca..1ce7628 100644
+--- a/agents/learning_round3_20260921/contracts.py
++++ b/agents/learning_round3_20260921/contracts.py
+@@ -1,3 +1,4 @@
++# ruff: noqa: E501
+ """Typed support checks and enforceable continuation-plan contracts.
+ 
+ This module intentionally uses only the Python standard library so the same
+@@ -184,6 +185,7 @@ def validate_joint_action(
+     units = _unit_actions(action, count)
+     shed = {str(key): _integer(value) for key, value in observation["private"].get("shed", {}).items()}
+     reserved_shed: Counter[str] = Counter()
++    owned_shed: Counter[tuple[int, str]] = Counter()
+     reserved_carried: Counter[tuple[int, str]] = Counter()
+     reserved_capacity = 0
+     for contract in contracts:
+@@ -191,11 +193,15 @@ def validate_joint_action(
+             parts = str(key).split(":")
+             if len(parts) == 2 and parts[0] == "shed":
+                 reserved_shed[parts[1]] += _integer(value)
++                owner = _integer(contract.get("actor_identity", {}).get("actor_index"), -1)
++                if owner >= 0:
++                    owned_shed[(owner, parts[1])] += _integer(value)
+             elif len(parts) == 3 and parts[0] == "actor":
+                 reserved_carried[(_integer(parts[1]), parts[2])] += _integer(value)
+         reserved_capacity += _integer(contract.get("reserved_shed_capacity"))
+ 
+     pickup: Counter[str] = Counter()
++    pickup_by_actor: Counter[tuple[int, str]] = Counter()
+     deposit = 0
+     for actor, unit in enumerate(units):
+         if not unit:
+@@ -204,7 +210,9 @@ def validate_joint_action(
+         inventory = _inventory(observation, actor)
+         if op == "PICKUP" and len(unit) >= 2:
+             item = str(unit[1])
+-            pickup[item] += max(1, _integer(unit[2], 1) if len(unit) >= 3 else 1)
++            quantity = max(1, _integer(unit[2], 1) if len(unit) >= 3 else 1)
++            pickup[item] += quantity
++            pickup_by_actor[(actor, item)] += quantity
+         elif op == "PLACE" and len(unit) >= 2:
+             item = str(unit[1])
+             if item not in {"GOOSE", "COW", "SHEEP"}:
+@@ -216,7 +224,8 @@ def validate_joint_action(
+             deposit += sum(max(0, _integer(value)) for value in inventory.values())
+ 
+     for item, quantity in pickup.items():
+-        available = max(0, shed.get(item, 0) - reserved_shed[item])
++        own_claims = sum(min(pickup_by_actor[(actor, item)], owned_shed[(actor, item)]) for actor in range(count))
++        available = max(0, shed.get(item, 0) - reserved_shed[item] + own_claims)
+         if quantity > available:
+             reasons.append(f"SHED_MATERIAL_DOUBLE_USE:{item}:{quantity}>{available}")
+     capacity = _integer(observation.get("configuration", {}).get("shedCapacity"), 100)
+@@ -294,4 +303,3 @@ __all__ = [
+     "validate_contract",
+     "validate_joint_action",
+ ]
+-
+diff --git a/agents/learning_round3_20260921/market.py b/agents/learning_round3_20260921/market.py
+index 77a383e..3f6d7f1 100644
+--- a/agents/learning_round3_20260921/market.py
++++ b/agents/learning_round3_20260921/market.py
+@@ -1,3 +1,4 @@
++# ruff: noqa: E501
+ """Pure-Python lockstep market evaluator matching kaggriculture 1.32.7."""
+ 
+ from __future__ import annotations
+@@ -8,8 +9,8 @@ from copy import deepcopy
+ from typing import Any
+ 
+ PRODUCTS = ("WHEAT", "CARROT", "TOMATO", "STRAWBERRY", "MELON", "EGG", "MILK", "WOOL", "FERTILIZER")
+-CROPS = {"WHEAT": 10, "CARROT": 20, "TOMATO": 50, "STRAWBERRY": 80, "MELON": 100}
+-ANIMALS = {"GOOSE": 100, "COW": 500, "SHEEP": 300}
++CROPS = {"WHEAT": 10, "CARROT": 20, "TOMATO": 50, "STRAWBERRY": 100, "MELON": 80}
++ANIMALS = {"GOOSE": 300, "COW": 400, "SHEEP": 500}
+ LAND_PRICES = (1000, 2000, 4000)
+ MARKET_PARAMS = {
+     "WHEAT": {"base": 25, "I0": 10000, "T": 400, "below_func": "sqrt", "below_target": .8, "above_func": "log", "above_target": .2},
+@@ -26,11 +27,16 @@ MARKET_PARAMS = {
+ 
+ def _shape(kind: str, x: float, threshold: float) -> float:
+     x = max(0.0, x)
+-    if kind == "linear": return x
+-    if kind == "sq": return x * x
+-    if kind == "sqrt": return math.sqrt(x)
+-    if kind == "log": return math.log(1.0 + x)
+-    if kind == "log10": return math.log10(1.0 + x)
++    if kind == "linear":
++        return x
++    if kind == "sq":
++        return x * x
++    if kind == "sqrt":
++        return math.sqrt(x)
++    if kind == "log":
++        return math.log(1.0 + x)
++    if kind == "log10":
++        return math.log10(1.0 + x)
+     if kind == "hinge":
+         u = x / threshold if threshold > 0 else x
+         return u + 8.0 * max(0.0, u - 1.0) ** 2
+@@ -82,8 +88,11 @@ def simulate_market(
+     state = [
+         {
+             "money": int(row.get("money", 0)),
+-            "shed": {str(k): int(v) for k, v in row.get("shed", {}).items()},
+-            "seeds": {str(k): int(v) for k, v in row.get("seeds", {}).items()},
++            "shed": {
++                key: int(row.get("shed", {}).get(key, 0))
++                for key in (*PRODUCTS, *ANIMALS)
++            },
++            "seeds": {key: int(row.get("seeds", {}).get(key, 0)) for key in CROPS},
+             "hires_today": int(row.get("hires_today", 0)),
+             "hands": int(row.get("hands", 0)),
+             "unlocked_land": int(row.get("unlocked_land", 1)),
+@@ -101,7 +110,8 @@ def simulate_market(
+             if parsed["type"] == "HIRE":
+                 n = state[player]["hires_today"]
+                 a, b = 0, 1
+-                for _ in range(n): a, b = b, a + b
++                for _ in range(n):
++                    a, b = b, a + b
+                 cost = max(1, b) * hire_multiplier
+                 if state[player]["money"] >= cost:
+                     state[player]["money"] -= cost
+@@ -146,7 +156,8 @@ def simulate_market(
+                     row["shed"][item] -= 1
+                     row["money"] += price
+                     revenue[player] += price
+-                    if price > 1: market[item] += 1
++                    if price > 1:
++                        market[item] += 1
+                     ok = True
+                 elif op == "BUY_PRODUCT" and row["money"] >= price and sum(row["shed"].values()) < shed_capacity:
+                     row["money"] -= price
+diff --git a/experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json b/experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json
+index 5c37ba8..f396a53 100644
+--- a/experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json
++++ b/experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json
+@@ -1,13 +1,13 @@
+ {
+   "case": "Round2 systematic market-order error",
+-  "market_inventory": {"WHEAT": 10000, "CARROT": 10000, "TOMATO": 10000, "STRAWBERRY": 10000, "MELON": 10000, "EGG": 10000, "MILK": 10000, "WOOL": 10000, "FERTILIZER": 10000},
++  "market_inventory": {"WHEAT": 9776, "CARROT": 9989, "TOMATO": 9947, "STRAWBERRY": 9989, "MELON": 10109, "EGG": 9989, "MILK": 9992, "WOOL": 9932, "FERTILIZER": 10121},
+   "players": [
+-    {"money": 12000, "shed": {"MELON": 12, "FERTILIZER": 13}, "seeds": {}, "hires_today": 0, "hands": 0, "unlocked_land": 1},
+-    {"money": 12000, "shed": {"MELON": 12, "FERTILIZER": 13}, "seeds": {}, "hires_today": 0, "hands": 0, "unlocked_land": 1}
++    {"money": 14512, "shed": {"WHEAT": 60, "CARROT": 0, "TOMATO": 0, "STRAWBERRY": 0, "MELON": 12, "EGG": 0, "MILK": 3, "WOOL": 0, "FERTILIZER": 14, "GOOSE": 0, "COW": 0, "SHEEP": 0}, "seeds": {"WHEAT": 0, "CARROT": 0, "TOMATO": 0, "STRAWBERRY": 0, "MELON": 0}, "hires_today": 0, "hands": 0, "unlocked_land": 2},
++    {"money": 14738, "shed": {"WHEAT": 65, "CARROT": 0, "TOMATO": 0, "STRAWBERRY": 0, "MELON": 12, "EGG": 0, "MILK": 0, "WOOL": 0, "FERTILIZER": 13, "GOOSE": 0, "COW": 0, "SHEEP": 0}, "seeds": {"WHEAT": 6, "CARROT": 4, "TOMATO": 0, "STRAWBERRY": 4, "MELON": 0}, "hires_today": 0, "hands": 0, "unlocked_land": 2}
+   ],
+   "c0_orders": [["SELL", "MELON", 12], ["SELL", "FERTILIZER", 13], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"]],
+   "reversed_orders": [["SELL", "FERTILIZER", 13], ["SELL", "MELON", 12], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"]],
+-  "opponent_orders": [["SELL", "MELON", 12], ["SELL", "FERTILIZER", 13]],
++  "opponent_orders": [["SELL", "MELON", 12], ["SELL", "FERTILIZER", 13], ["BUY_SEED", "WHEAT", 11], ["BUY_SEED", "CARROT", 1], ["BUY_SEED", "STRAWBERRY", 9], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"], ["HIRE"]],
+   "round2_prediction": {"MELON": {"raw_sigmoid": 0.764112, "quantity_regression": 0.495358}, "FERTILIZER": {"raw_sigmoid": 0.977170, "quantity_regression": 4.644242}},
+   "prohibition": "do not branch on step, seed, seat, or opponent identity"
+ }
+diff --git a/tests/test_learning_round3.py b/tests/test_learning_round3.py
+index 1d19c34..c8c97b3 100644
+--- a/tests/test_learning_round3.py
++++ b/tests/test_learning_round3.py
+@@ -1,5 +1,7 @@
++# ruff: noqa: E501
+ from __future__ import annotations
+ 
++import gzip
+ import json
+ from copy import deepcopy
+ from pathlib import Path
+@@ -17,6 +19,7 @@ from agents.learning_round3_20260921.contracts import (
+     validate_joint_action,
+ )
+ from agents.learning_round3_20260921.market import MARKET_PARAMS, market_price, simulate_market
++from scripts.learning_round3 import replay_task_digest, reusable_replay, sha256
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+ FIXTURES = ROOT / "experiments/learning_round3_20260921/REGRESSION_CASES"
+@@ -182,8 +185,72 @@ def test_step264_ordered_oracle_rejects_round2_reversal() -> None:
+     case = _fixture("step264_market.json")
+     left = simulate_market(case["market_inventory"], case["players"], [case["c0_orders"], case["opponent_orders"]])
+     right = simulate_market(case["market_inventory"], case["players"], [case["reversed_orders"], case["opponent_orders"]])
++    assert [row["money"] for row in left["players"]] == [16721, 15917]
++    assert [row["money"] for row in right["players"]] == [16549, 16057]
+     left_margin = left["players"][0]["money"] - left["players"][1]["money"]
+     right_margin = right["players"][0]["money"] - right["players"][1]["money"]
+     assert left_margin > right_margin
+     assert case["round2_prediction"]["MELON"]["quantity_regression"] < 0.5
+ 
++
++def _replay_task() -> dict:
++    return {
++        "agent_archive_sha256": "a" * 64,
++        "agent_source_tree_sha256": "b" * 64,
++        "model_hashes": {},
++        "configuration": {"episodeSteps": 2},
++        "feature_schema_sha256": "c" * 64,
++        "executor_version": "test-v1",
++        "engine_sha256": "d" * 64,
++        "opponent_tree_sha256": "e" * 64,
++        "seed": 123,
++        "seat": 1,
++    }
++
++
++def _valid_replay_pair(tmp_path: Path) -> tuple[dict, Path, Path, dict]:
++    task = _replay_task()
++    replay = tmp_path / "replay.json.gz"
++    with gzip.open(replay, "wt", encoding="utf-8") as stream:
++        json.dump({"steps": [[], []]}, stream)
++    sidecar = replay.with_suffix(replay.suffix + ".sidecar.json")
++    metadata = {
++        "task_digest": replay_task_digest(task),
++        "replay_sha256": sha256(replay),
++        "seed": 123,
++        "seat": 1,
++        "terminal_statuses": ["DONE", "DONE"],
++        "stored_states": 2,
++    }
++    sidecar.write_text(json.dumps(metadata), encoding="utf-8")
++    return task, replay, sidecar, metadata
++
++
++def test_replay_reuse_requires_matching_sidecar_and_hash(tmp_path: Path) -> None:
++    task, replay, sidecar, metadata = _valid_replay_pair(tmp_path)
++    assert reusable_replay(task, replay, sidecar) == (True, "VALID")
++    metadata["replay_sha256"] = "0" * 64
++    sidecar.write_text(json.dumps(metadata), encoding="utf-8")
++    assert reusable_replay(task, replay, sidecar) == (False, "REPLAY_HASH_MISMATCH")
++
++
++@pytest.mark.parametrize(
++    ("field", "value", "reason"),
++    [
++        ("seed", 124, "SEED_OR_SEAT_MISMATCH"),
++        ("seat", 0, "SEED_OR_SEAT_MISMATCH"),
++        ("terminal_statuses", ["ERROR", "DONE"], "TERMINAL_STATUS_INVALID"),
++        ("stored_states", 1, "STATE_COUNT_INVALID"),
++    ],
++)
++def test_replay_reuse_rejects_identity_or_completion_mismatch(tmp_path: Path, field: str, value: object, reason: str) -> None:
++    task, replay, sidecar, metadata = _valid_replay_pair(tmp_path)
++    metadata[field] = value
++    sidecar.write_text(json.dumps(metadata), encoding="utf-8")
++    assert reusable_replay(task, replay, sidecar) == (False, reason)
++
++
++def test_replay_reuse_rejects_missing_sidecar(tmp_path: Path) -> None:
++    task, replay, sidecar, _metadata = _valid_replay_pair(tmp_path)
++    sidecar.unlink()
++    assert reusable_replay(task, replay, sidecar) == (False, "SIDECAR_MISSING")

@@ -1,0 +1,1805 @@
+{
+  "mooman_e052a_2026092424_seat0_actor8": [
+    {
+      "arm": "c0",
+      "step": 241,
+      "actor": 8,
+      "position": [
+        5,
+        5
+      ],
+      "inventory": {},
+      "tile": "LOCKED",
+      "action": [
+        "NORTH"
+      ],
+      "shed": {
+        "WHEAT": 39,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 1
+      },
+      "shed_total": 41,
+      "money": 2348.0
+    },
+    {
+      "arm": "c0",
+      "step": 242,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "PICKUP",
+        "WHEAT",
+        5
+      ],
+      "shed": {
+        "WHEAT": 39,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 4,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 46,
+      "money": 970.0
+    },
+    {
+      "arm": "c0",
+      "step": 243,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {
+        "WHEAT": 5
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "FEED"
+      ],
+      "shed": {
+        "WHEAT": 39,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 43,
+      "money": 1019.0
+    },
+    {
+      "arm": "c0",
+      "step": 244,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {
+        "WHEAT": 4
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "CARE"
+      ],
+      "shed": {
+        "WHEAT": 39,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 43,
+      "money": 1019.0
+    },
+    {
+      "arm": "c0",
+      "step": 245,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {
+        "WHEAT": 4
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": true,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 35,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 39,
+      "money": 982.0
+    },
+    {
+      "arm": "c0",
+      "step": 246,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {
+        "WHEAT": 4,
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "NORTH"
+      ],
+      "shed": {
+        "WHEAT": 35,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 39,
+      "money": 982.0
+    },
+    {
+      "arm": "c0",
+      "step": 247,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {
+        "WHEAT": 4,
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "FEED"
+      ],
+      "shed": {
+        "WHEAT": 35,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 39,
+      "money": 982.0
+    },
+    {
+      "arm": "c0",
+      "step": 248,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {
+        "WHEAT": 3,
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "CARE"
+      ],
+      "shed": {
+        "WHEAT": 35,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 39,
+      "money": 982.0
+    },
+    {
+      "arm": "c0",
+      "step": 249,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {
+        "WHEAT": 3,
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": true,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 35,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 39,
+      "money": 982.0
+    },
+    {
+      "arm": "c0",
+      "step": 250,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {
+        "WHEAT": 3,
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "EAST"
+      ],
+      "shed": {
+        "WHEAT": 49,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 6,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 58,
+      "money": 1596.0
+    },
+    {
+      "arm": "c0",
+      "step": 251,
+      "actor": 8,
+      "position": [
+        6,
+        3
+      ],
+      "inventory": {
+        "WHEAT": 3,
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "SHEEP",
+        "placed_day": 8,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 2
+      },
+      "action": [
+        "FEED"
+      ],
+      "shed": {
+        "WHEAT": 51,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 55,
+      "money": 7589.0
+    },
+    {
+      "arm": "a2",
+      "step": 241,
+      "actor": 8,
+      "position": [
+        5,
+        5
+      ],
+      "inventory": {},
+      "tile": "LOCKED",
+      "action": [
+        "NORTH"
+      ],
+      "shed": {
+        "WHEAT": 39,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 1
+      },
+      "shed_total": 41,
+      "money": 2348.0
+    },
+    {
+      "arm": "a2",
+      "step": 242,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 39,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 4,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 46,
+      "money": 970.0
+    },
+    {
+      "arm": "a2",
+      "step": 243,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": false,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "DROP"
+      ],
+      "shed": {
+        "WHEAT": 44,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 48,
+      "money": 1019.0
+    },
+    {
+      "arm": "a2",
+      "step": 244,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": false,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "CARE"
+      ],
+      "shed": {
+        "WHEAT": 44,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 49,
+      "money": 1019.0
+    },
+    {
+      "arm": "a2",
+      "step": 245,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 40,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 45,
+      "money": 982.0
+    },
+    {
+      "arm": "a2",
+      "step": 246,
+      "actor": 8,
+      "position": [
+        5,
+        4
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 4
+      },
+      "action": [
+        "NORTH"
+      ],
+      "shed": {
+        "WHEAT": 40,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 45,
+      "money": 982.0
+    },
+    {
+      "arm": "a2",
+      "step": 247,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "FEED"
+      ],
+      "shed": {
+        "WHEAT": 40,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 45,
+      "money": 982.0
+    },
+    {
+      "arm": "a2",
+      "step": 248,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "CARE"
+      ],
+      "shed": {
+        "WHEAT": 40,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 45,
+      "money": 982.0
+    },
+    {
+      "arm": "a2",
+      "step": 249,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {},
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": true,
+        "fertilizer_available": true,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 40,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 45,
+      "money": 982.0
+    },
+    {
+      "arm": "a2",
+      "step": 250,
+      "actor": 8,
+      "position": [
+        5,
+        3
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 6,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 3
+      },
+      "action": [
+        "EAST"
+      ],
+      "shed": {
+        "WHEAT": 54,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 7,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 64,
+      "money": 1596.0
+    },
+    {
+      "arm": "a2",
+      "step": 251,
+      "actor": 8,
+      "position": [
+        6,
+        3
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "SHEEP",
+        "placed_day": 8,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": true,
+        "pending_care_bonus": 2
+      },
+      "action": [
+        "FEED"
+      ],
+      "shed": {
+        "WHEAT": 56,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 3
+      },
+      "shed_total": 61,
+      "money": 7589.0
+    }
+  ],
+  "mooman_e052a_2026092421_seat0_actor10": [
+    {
+      "arm": "c0",
+      "step": 277,
+      "actor": 10,
+      "position": [
+        3,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "COOP",
+        "animal": "GOOSE",
+        "placed_day": 10,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": true,
+        "pending_care_bonus": 1
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 63,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 64,
+      "money": 14478.0
+    },
+    {
+      "arm": "c0",
+      "step": 278,
+      "actor": 10,
+      "position": [
+        3,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "COOP",
+        "animal": "GOOSE",
+        "placed_day": 10,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 1
+      },
+      "action": [
+        "WEST"
+      ],
+      "shed": {
+        "WHEAT": 63,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 64,
+      "money": 14458.0
+    },
+    {
+      "arm": "c0",
+      "step": 279,
+      "actor": 10,
+      "position": [
+        2,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14332.0
+    },
+    {
+      "arm": "c0",
+      "step": 280,
+      "actor": 10,
+      "position": [
+        2,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "NORTH"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14222.0
+    },
+    {
+      "arm": "c0",
+      "step": 281,
+      "actor": 10,
+      "position": [
+        2,
+        1
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14202.0
+    },
+    {
+      "arm": "c0",
+      "step": 282,
+      "actor": 10,
+      "position": [
+        2,
+        1
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WEST"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14202.0
+    },
+    {
+      "arm": "c0",
+      "step": 283,
+      "actor": 10,
+      "position": [
+        1,
+        1
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "STRAWBERRY",
+        "planted_day": 5,
+        "watered_today": false,
+        "consecutive_unwatered": 1,
+        "yield_units": 0,
+        "max_lifespan_step": -1,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14192.0
+    },
+    {
+      "arm": "c0",
+      "step": 284,
+      "actor": 10,
+      "position": [
+        1,
+        1
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "STRAWBERRY",
+        "planted_day": 5,
+        "watered_today": true,
+        "consecutive_unwatered": 1,
+        "yield_units": 0,
+        "max_lifespan_step": -1,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "SOUTH"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14182.0
+    },
+    {
+      "arm": "c0",
+      "step": 285,
+      "actor": 10,
+      "position": [
+        1,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 57,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 58,
+      "money": 14561.0
+    },
+    {
+      "arm": "c0",
+      "step": 286,
+      "actor": 10,
+      "position": [
+        1,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "SOUTH"
+      ],
+      "shed": {
+        "WHEAT": 57,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 58,
+      "money": 14551.0
+    },
+    {
+      "arm": "c0",
+      "step": 287,
+      "actor": 10,
+      "position": [
+        1,
+        3
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 57,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 58,
+      "money": 14551.0
+    },
+    {
+      "arm": "a2",
+      "step": 277,
+      "actor": 10,
+      "position": [
+        3,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "COOP",
+        "animal": "GOOSE",
+        "placed_day": 10,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": true,
+        "pending_care_bonus": 1
+      },
+      "action": [
+        "COLLECT_FERTILIZER"
+      ],
+      "shed": {
+        "WHEAT": 63,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 64,
+      "money": 14478.0
+    },
+    {
+      "arm": "a2",
+      "step": 278,
+      "actor": 10,
+      "position": [
+        3,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "COOP",
+        "animal": "GOOSE",
+        "placed_day": 10,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 1
+      },
+      "action": [
+        "WEST"
+      ],
+      "shed": {
+        "WHEAT": 63,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 64,
+      "money": 14458.0
+    },
+    {
+      "arm": "a2",
+      "step": 279,
+      "actor": 10,
+      "position": [
+        2,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 2
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "FERTILIZE"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14332.0
+    },
+    {
+      "arm": "a2",
+      "step": 280,
+      "actor": 10,
+      "position": [
+        2,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": 13
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14222.0
+    },
+    {
+      "arm": "a2",
+      "step": 281,
+      "actor": 10,
+      "position": [
+        2,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": 13
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14202.0
+    },
+    {
+      "arm": "a2",
+      "step": 282,
+      "actor": 10,
+      "position": [
+        2,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": 13
+      },
+      "action": [
+        "WEST"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14202.0
+    },
+    {
+      "arm": "a2",
+      "step": 283,
+      "actor": 10,
+      "position": [
+        1,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14192.0
+    },
+    {
+      "arm": "a2",
+      "step": 284,
+      "actor": 10,
+      "position": [
+        1,
+        2
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "SOUTH"
+      ],
+      "shed": {
+        "WHEAT": 66,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 67,
+      "money": 14182.0
+    },
+    {
+      "arm": "a2",
+      "step": 285,
+      "actor": 10,
+      "position": [
+        1,
+        3
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": false,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 57,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 58,
+      "money": 14561.0
+    },
+    {
+      "arm": "a2",
+      "step": 286,
+      "actor": 10,
+      "position": [
+        1,
+        3
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 10,
+        "watered_today": true,
+        "consecutive_unwatered": 0,
+        "yield_units": 1,
+        "max_lifespan_step": 360,
+        "fertilized_until_day": -1
+      },
+      "action": [
+        "SOUTH"
+      ],
+      "shed": {
+        "WHEAT": 57,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 58,
+      "money": 14551.0
+    },
+    {
+      "arm": "a2",
+      "step": 287,
+      "actor": 10,
+      "position": [
+        1,
+        4
+      ],
+      "inventory": {
+        "FERTILIZER": 1
+      },
+      "tile": {
+        "kind": "PASTURE",
+        "animal": "SHEEP",
+        "placed_day": 10,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 1
+      },
+      "action": [
+        "WATER"
+      ],
+      "shed": {
+        "WHEAT": 57,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "shed_total": 58,
+      "money": 14551.0
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+# ruff: noqa: E501
 """Pure-Python lockstep market evaluator matching kaggriculture 1.32.7."""
 
 from __future__ import annotations
@@ -8,8 +9,8 @@ from copy import deepcopy
 from typing import Any
 
 PRODUCTS = ("WHEAT", "CARROT", "TOMATO", "STRAWBERRY", "MELON", "EGG", "MILK", "WOOL", "FERTILIZER")
-CROPS = {"WHEAT": 10, "CARROT": 20, "TOMATO": 50, "STRAWBERRY": 80, "MELON": 100}
-ANIMALS = {"GOOSE": 100, "COW": 500, "SHEEP": 300}
+CROPS = {"WHEAT": 10, "CARROT": 20, "TOMATO": 50, "STRAWBERRY": 100, "MELON": 80}
+ANIMALS = {"GOOSE": 300, "COW": 400, "SHEEP": 500}
 LAND_PRICES = (1000, 2000, 4000)
 MARKET_PARAMS = {
     "WHEAT": {"base": 25, "I0": 10000, "T": 400, "below_func": "sqrt", "below_target": .8, "above_func": "log", "above_target": .2},
@@ -26,11 +27,16 @@ MARKET_PARAMS = {
 
 def _shape(kind: str, x: float, threshold: float) -> float:
     x = max(0.0, x)
-    if kind == "linear": return x
-    if kind == "sq": return x * x
-    if kind == "sqrt": return math.sqrt(x)
-    if kind == "log": return math.log(1.0 + x)
-    if kind == "log10": return math.log10(1.0 + x)
+    if kind == "linear":
+        return x
+    if kind == "sq":
+        return x * x
+    if kind == "sqrt":
+        return math.sqrt(x)
+    if kind == "log":
+        return math.log(1.0 + x)
+    if kind == "log10":
+        return math.log10(1.0 + x)
     if kind == "hinge":
         u = x / threshold if threshold > 0 else x
         return u + 8.0 * max(0.0, u - 1.0) ** 2
@@ -82,8 +88,11 @@ def simulate_market(
     state = [
         {
             "money": int(row.get("money", 0)),
-            "shed": {str(k): int(v) for k, v in row.get("shed", {}).items()},
-            "seeds": {str(k): int(v) for k, v in row.get("seeds", {}).items()},
+            "shed": {
+                key: int(row.get("shed", {}).get(key, 0))
+                for key in (*PRODUCTS, *ANIMALS)
+            },
+            "seeds": {key: int(row.get("seeds", {}).get(key, 0)) for key in CROPS},
             "hires_today": int(row.get("hires_today", 0)),
             "hands": int(row.get("hands", 0)),
             "unlocked_land": int(row.get("unlocked_land", 1)),
@@ -101,7 +110,8 @@ def simulate_market(
             if parsed["type"] == "HIRE":
                 n = state[player]["hires_today"]
                 a, b = 0, 1
-                for _ in range(n): a, b = b, a + b
+                for _ in range(n):
+                    a, b = b, a + b
                 cost = max(1, b) * hire_multiplier
                 if state[player]["money"] >= cost:
                     state[player]["money"] -= cost
@@ -146,7 +156,8 @@ def simulate_market(
                     row["shed"][item] -= 1
                     row["money"] += price
                     revenue[player] += price
-                    if price > 1: market[item] += 1
+                    if price > 1:
+                        market[item] += 1
                     ok = True
                 elif op == "BUY_PRODUCT" and row["money"] >= price and sum(row["shed"].values()) < shed_capacity:
                     row["money"] -= price

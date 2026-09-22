@@ -1,0 +1,368 @@
+{
+  "scope": "immutable Round4 learned archive on the preregistered new-seed panel",
+  "archive": "artifacts\\submissions\\learning_round4_20260921_learned.tar.gz",
+  "archive_sha256": "664b71ef17764fcfd526fb7b2eae16b0651bec4bdb943e3c42c2ab97ea96b340",
+  "expected_archive_hash_match": true,
+  "causal_warning": "whole-artifact regression; selector representation/model and executor changed, so this is not a selector-only or pure-executor estimate",
+  "games": 4,
+  "rows": [
+    {
+      "family": "qeinstein_moev2",
+      "seed": 2026100501,
+      "seat": 0,
+      "self_money": 1381.0,
+      "opponent_money": 168132.0,
+      "margin": -166751.0,
+      "result": "LOSS",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "emitted_action_audit": {
+        "harvest_issued": 105,
+        "duplicate_harvest_issued": 12,
+        "immature_harvest_issued": 0,
+        "animal_harvest_issued": 0
+      },
+      "diagnostics": {
+        "arm": "round4_learned",
+        "model_loads": 3,
+        "strategy_inference_calls": 719,
+        "base_inference_calls": 5357,
+        "actual_action_differences": 96,
+        "silent_fallbacks": 0,
+        "explicit_commits": 719,
+        "selector_runtime_calls": 719,
+        "base": {
+          "arm": "independent_BC",
+          "model_loads": 2,
+          "inference_calls": 5357,
+          "actor_decisions": 4221,
+          "market_decisions": 1136,
+          "legality_masks": 5357,
+          "fallbacks": 0,
+          "resource_reservations": 367,
+          "blocked_market_orders": 787,
+          "model_action_checks": 3107,
+          "model_action_successes": 3090
+        },
+        "executor": {
+          "executor": "round4-state-based-v1",
+          "policy": "learned-single-teacher",
+          "triggered": 116,
+          "candidate_generated": 116,
+          "applicable": 105,
+          "scheduled": 105,
+          "started": 105,
+          "primitive_issued": 2847,
+          "primitive_effect_observed": 2773,
+          "primitive_failed": 1,
+          "primitive_unknown": 59,
+          "job_completed": 476,
+          "jobs_replanned": 0,
+          "jobs_expired": 0,
+          "action_changes": 137,
+          "duplicate_services_blocked": 0,
+          "immature_harvests_blocked": 11,
+          "pickup_quantities_increased": 0,
+          "economic_evaluated": 0
+        }
+      },
+      "replay": "experiments\\learning_round5_20260921\\frozen_round4_reference\\replays\\qeinstein_moev2\\seed_2026100501_seat_0.json.gz",
+      "replay_sha256": "3dcd5eb9e9bf2971558c724dbb2e1fbfc11b3abbf4165765b255271fa9553c15",
+      "trace": "experiments\\learning_round5_20260921\\frozen_round4_reference\\traces\\qeinstein_moev2\\seed_2026100501_seat_0.jsonl",
+      "trace_sha256": "193e6ef2c4cc6bc07ec2eaf737145355b7406bfe63efb6799d54b9184b1b48f7"
+    },
+    {
+      "family": "qeinstein_moev2",
+      "seed": 2026100501,
+      "seat": 1,
+      "self_money": 2.0,
+      "opponent_money": 127474.0,
+      "margin": -127472.0,
+      "result": "LOSS",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "emitted_action_audit": {
+        "harvest_issued": 48,
+        "duplicate_harvest_issued": 7,
+        "immature_harvest_issued": 0,
+        "animal_harvest_issued": 0
+      },
+      "diagnostics": {
+        "arm": "round4_learned",
+        "model_loads": 3,
+        "strategy_inference_calls": 719,
+        "base_inference_calls": 6110,
+        "actual_action_differences": 75,
+        "silent_fallbacks": 0,
+        "explicit_commits": 719,
+        "selector_runtime_calls": 719,
+        "base": {
+          "arm": "independent_BC",
+          "model_loads": 2,
+          "inference_calls": 6110,
+          "actor_decisions": 4837,
+          "market_decisions": 1273,
+          "legality_masks": 6110,
+          "fallbacks": 0,
+          "resource_reservations": 443,
+          "blocked_market_orders": 1417,
+          "model_action_checks": 4084,
+          "model_action_successes": 4070
+        },
+        "executor": {
+          "executor": "round4-state-based-v1",
+          "policy": "learned-single-teacher",
+          "triggered": 53,
+          "candidate_generated": 52,
+          "applicable": 49,
+          "scheduled": 49,
+          "started": 49,
+          "primitive_issued": 3924,
+          "primitive_effect_observed": 3803,
+          "primitive_failed": 0,
+          "primitive_unknown": 117,
+          "job_completed": 405,
+          "jobs_replanned": 1,
+          "jobs_expired": 0,
+          "action_changes": 111,
+          "duplicate_services_blocked": 2,
+          "immature_harvests_blocked": 3,
+          "pickup_quantities_increased": 0,
+          "economic_evaluated": 0
+        }
+      },
+      "replay": "experiments\\learning_round5_20260921\\frozen_round4_reference\\replays\\qeinstein_moev2\\seed_2026100501_seat_1.json.gz",
+      "replay_sha256": "28b3e520c300e4258ef9520e74fd81c6436e8b18cf02eee6790c0ba694db8039",
+      "trace": "experiments\\learning_round5_20260921\\frozen_round4_reference\\traces\\qeinstein_moev2\\seed_2026100501_seat_1.jsonl",
+      "trace_sha256": "492738351f111d51573f637a3ac10dd46f9c0f4f5de1c878bb96913b09fa90c8"
+    },
+    {
+      "family": "smart_farm",
+      "seed": 2026100502,
+      "seat": 0,
+      "self_money": 7.0,
+      "opponent_money": 163876.0,
+      "margin": -163869.0,
+      "result": "LOSS",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "emitted_action_audit": {
+        "harvest_issued": 66,
+        "duplicate_harvest_issued": 6,
+        "immature_harvest_issued": 0,
+        "animal_harvest_issued": 0
+      },
+      "diagnostics": {
+        "arm": "round4_learned",
+        "model_loads": 3,
+        "strategy_inference_calls": 719,
+        "base_inference_calls": 6707,
+        "actual_action_differences": 133,
+        "silent_fallbacks": 0,
+        "explicit_commits": 719,
+        "selector_runtime_calls": 719,
+        "base": {
+          "arm": "independent_BC",
+          "model_loads": 2,
+          "inference_calls": 6707,
+          "actor_decisions": 5521,
+          "market_decisions": 1186,
+          "legality_masks": 6707,
+          "fallbacks": 0,
+          "resource_reservations": 406,
+          "blocked_market_orders": 433,
+          "model_action_checks": 4107,
+          "model_action_successes": 4094
+        },
+        "executor": {
+          "executor": "round4-state-based-v1",
+          "policy": "learned-single-teacher",
+          "triggered": 99,
+          "candidate_generated": 98,
+          "applicable": 66,
+          "scheduled": 66,
+          "started": 66,
+          "primitive_issued": 3915,
+          "primitive_effect_observed": 3804,
+          "primitive_failed": 1,
+          "primitive_unknown": 102,
+          "job_completed": 456,
+          "jobs_replanned": 0,
+          "jobs_expired": 0,
+          "action_changes": 213,
+          "duplicate_services_blocked": 1,
+          "immature_harvests_blocked": 32,
+          "pickup_quantities_increased": 0,
+          "economic_evaluated": 0
+        }
+      },
+      "replay": "experiments\\learning_round5_20260921\\frozen_round4_reference\\replays\\smart_farm\\seed_2026100502_seat_0.json.gz",
+      "replay_sha256": "32b411948812f6a8006a15d610c7d8bd2b61a37a93f675f38bd95c3ce84a141d",
+      "trace": "experiments\\learning_round5_20260921\\frozen_round4_reference\\traces\\smart_farm\\seed_2026100502_seat_0.jsonl",
+      "trace_sha256": "16d4ad1eda4e3eef7960e92da59bf67d961e7a7d8e9c0377e106b96c7b16f402"
+    },
+    {
+      "family": "smart_farm",
+      "seed": 2026100502,
+      "seat": 1,
+      "self_money": 1528.0,
+      "opponent_money": 197896.0,
+      "margin": -196368.0,
+      "result": "LOSS",
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "emitted_action_audit": {
+        "harvest_issued": 83,
+        "duplicate_harvest_issued": 24,
+        "immature_harvest_issued": 0,
+        "animal_harvest_issued": 0
+      },
+      "diagnostics": {
+        "arm": "round4_learned",
+        "model_loads": 3,
+        "strategy_inference_calls": 719,
+        "base_inference_calls": 6921,
+        "actual_action_differences": 149,
+        "silent_fallbacks": 0,
+        "explicit_commits": 719,
+        "selector_runtime_calls": 719,
+        "base": {
+          "arm": "independent_BC",
+          "model_loads": 2,
+          "inference_calls": 6921,
+          "actor_decisions": 5802,
+          "market_decisions": 1119,
+          "legality_masks": 6921,
+          "fallbacks": 0,
+          "resource_reservations": 344,
+          "blocked_market_orders": 328,
+          "model_action_checks": 4625,
+          "model_action_successes": 4608
+        },
+        "executor": {
+          "executor": "round4-state-based-v1",
+          "policy": "learned-single-teacher",
+          "triggered": 90,
+          "candidate_generated": 90,
+          "applicable": 83,
+          "scheduled": 83,
+          "started": 83,
+          "primitive_issued": 4463,
+          "primitive_effect_observed": 4302,
+          "primitive_failed": 1,
+          "primitive_unknown": 149,
+          "job_completed": 552,
+          "jobs_replanned": 0,
+          "jobs_expired": 0,
+          "action_changes": 299,
+          "duplicate_services_blocked": 0,
+          "immature_harvests_blocked": 7,
+          "pickup_quantities_increased": 0,
+          "economic_evaluated": 0
+        }
+      },
+      "replay": "experiments\\learning_round5_20260921\\frozen_round4_reference\\replays\\smart_farm\\seed_2026100502_seat_1.json.gz",
+      "replay_sha256": "73b68d20bc2794c248ba829c03e641ff12feebc99fcc17ed5675ae4d70fcff8a",
+      "trace": "experiments\\learning_round5_20260921\\frozen_round4_reference\\traces\\smart_farm\\seed_2026100502_seat_1.jsonl",
+      "trace_sha256": "f48415a10ea23cca0a1c5937c8df31e38569597c906755399c39ebc094464040"
+    }
+  ],
+  "paired": [
+    {
+      "comparison": "round5_none_minus_frozen_round4_whole_artifact",
+      "family": "qeinstein_moev2",
+      "seed": 2026100501,
+      "seat": 0,
+      "delta_self": 13503.0,
+      "delta_opponent": -5546.0,
+      "delta_margin": 19049.0
+    },
+    {
+      "comparison": "round5_learned_minus_frozen_round4_whole_artifact",
+      "family": "qeinstein_moev2",
+      "seed": 2026100501,
+      "seat": 0,
+      "delta_self": 8043.0,
+      "delta_opponent": -4448.0,
+      "delta_margin": 12491.0
+    },
+    {
+      "comparison": "round5_none_minus_frozen_round4_whole_artifact",
+      "family": "qeinstein_moev2",
+      "seed": 2026100501,
+      "seat": 1,
+      "delta_self": 12120.0,
+      "delta_opponent": 16266.0,
+      "delta_margin": -4146.0
+    },
+    {
+      "comparison": "round5_learned_minus_frozen_round4_whole_artifact",
+      "family": "qeinstein_moev2",
+      "seed": 2026100501,
+      "seat": 1,
+      "delta_self": 13260.0,
+      "delta_opponent": 20672.0,
+      "delta_margin": -7412.0
+    },
+    {
+      "comparison": "round5_none_minus_frozen_round4_whole_artifact",
+      "family": "smart_farm",
+      "seed": 2026100502,
+      "seat": 0,
+      "delta_self": 8421.0,
+      "delta_opponent": -24847.0,
+      "delta_margin": 33268.0
+    },
+    {
+      "comparison": "round5_learned_minus_frozen_round4_whole_artifact",
+      "family": "smart_farm",
+      "seed": 2026100502,
+      "seat": 0,
+      "delta_self": 9361.0,
+      "delta_opponent": -25184.0,
+      "delta_margin": 34545.0
+    },
+    {
+      "comparison": "round5_none_minus_frozen_round4_whole_artifact",
+      "family": "smart_farm",
+      "seed": 2026100502,
+      "seat": 1,
+      "delta_self": 16307.0,
+      "delta_opponent": -30560.0,
+      "delta_margin": 46867.0
+    },
+    {
+      "comparison": "round5_learned_minus_frozen_round4_whole_artifact",
+      "family": "smart_farm",
+      "seed": 2026100502,
+      "seat": 1,
+      "delta_self": 16645.0,
+      "delta_opponent": -30747.0,
+      "delta_margin": 47392.0
+    }
+  ],
+  "summary": {
+    "round5_learned_minus_frozen_round4_whole_artifact": {
+      "delta_self": 11827.25,
+      "delta_opponent": -9926.75,
+      "delta_margin": 21754.0
+    },
+    "round5_none_minus_frozen_round4_whole_artifact": {
+      "delta_self": 12587.75,
+      "delta_opponent": -11171.75,
+      "delta_margin": 23759.5
+    }
+  }
+}

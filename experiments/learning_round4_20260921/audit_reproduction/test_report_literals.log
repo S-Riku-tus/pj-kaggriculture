@@ -1,0 +1,32 @@
+[
+  {
+    "test": "positive_economic_evidence",
+    "synthetic_only": true,
+    "mutated_input": "+500 all non-C0 paired margins and positive summary",
+    "reported_economic_benefit": {
+      "value": false,
+      "reason": "no positive P2 headroom and no positive P3 arm"
+    },
+    "reported_execution_valid": {
+      "value": true,
+      "scope": "all 16 recorded development games DONE/DONE; contracts completed without abort"
+    },
+    "reported_verdict": "NO_PROMOTION_CANDIDATE",
+    "reported_fixed_expansion_sentence": "4/4 negative; mean paired margin delta -87"
+  },
+  {
+    "test": "invalid_terminal_status",
+    "synthetic_only": true,
+    "mutated_input": "all non-C0 terminal statuses ERROR/ERROR and aborted count 1",
+    "reported_economic_benefit": {
+      "value": false,
+      "reason": "no positive P2 headroom and no positive P3 arm"
+    },
+    "reported_execution_valid": {
+      "value": true,
+      "scope": "all 16 recorded development games DONE/DONE; contracts completed without abort"
+    },
+    "reported_verdict": "NO_PROMOTION_CANDIDATE",
+    "reported_fixed_expansion_sentence": "4/4 negative; mean paired margin delta -87"
+  }
+]

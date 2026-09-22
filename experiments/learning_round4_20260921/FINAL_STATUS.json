@@ -1,0 +1,82 @@
+{
+  "learned_axes": {
+    "PACKAGE_VALID": {
+      "status": "PASS",
+      "reason": "final archive loaded and completed the required episode checks",
+      "evidence_ids": [
+        "LEARNED_LOADER_SEAT0",
+        "LEARNED_LOADER_SEAT1",
+        "ARCHIVE_MANIFEST"
+      ]
+    },
+    "EXECUTION_CORRECT": {
+      "status": "PASS",
+      "reason": "actor-attributed primitive effects were observed",
+      "evidence_ids": [
+        "BEFORE_AFTER_TRACES",
+        "pytest:test_learning_round4"
+      ]
+    },
+    "TRAINING_EXECUTED": {
+      "status": "PASS",
+      "reason": "training performed 216 optimizer updates",
+      "evidence_ids": [
+        "TRAINING_RECORD",
+        "closed_loop/CLOSED_LOOP_RESULTS"
+      ]
+    },
+    "MODEL_USED": {
+      "status": "PASS",
+      "reason": "model inference was used 5752 times",
+      "evidence_ids": [
+        "TRAINING_RECORD",
+        "closed_loop/CLOSED_LOOP_RESULTS"
+      ]
+    },
+    "BEHAVIORAL_FIDELITY": {
+      "status": "UNKNOWN",
+      "reason": "held-out decision delta=0.409681, but coherent multi-step plan completion was not measured",
+      "evidence_ids": [
+        "TRAINING_RECORD",
+        "EPISODE_SPLIT_MANIFEST"
+      ]
+    },
+    "ECONOMIC_EFFECT": {
+      "status": "FAIL",
+      "reason": "mean margin delta -9479.5 is below 0",
+      "evidence_ids": [
+        "CLOSED_LOOP_PROTOCOL",
+        "closed_loop/CLOSED_LOOP_RESULTS"
+      ]
+    },
+    "ONLINE_EVIDENCE": {
+      "status": "UNKNOWN",
+      "reason": "no online result is attached",
+      "evidence_ids": []
+    },
+    "READY_FOR_DIAGNOSTIC_SUBMISSION": {
+      "status": "FAIL",
+      "reason": "not advanced: the limited prospective local panel averaged -9479.5 margin versus the rule arm, the smart_farm cluster was -21126, and all eight learned external games were losses",
+      "evidence_ids": [
+        "ARCHIVE_MANIFEST",
+        "BEFORE_AFTER_TRACES",
+        "CLOSED_LOOP_PROTOCOL",
+        "LEARNED_LOADER_SEAT0",
+        "LEARNED_LOADER_SEAT1",
+        "closed_loop/CLOSED_LOOP_RESULTS",
+        "pytest:test_learning_round4"
+      ]
+    },
+    "CHAMPION_PROMOTION": {
+      "status": "FAIL",
+      "reason": "at least one required promotion axis failed",
+      "evidence_ids": []
+    }
+  },
+  "research_continuation": "SUPPORTED_WITH_REDESIGN",
+  "skill_improvement": "PARTIAL: held-out decision metrics improved; coherent closed-loop teacher plan fidelity unmeasured",
+  "economic_effect": "FAIL_ON_LIMITED_PROSPECTIVE_LOCAL_SCOPE",
+  "diagnostic_submission": "DO_NOT_ADVANCE_THIS_ARTIFACT",
+  "champion_promotion": "FAIL",
+  "online_submission_performed": false
+}

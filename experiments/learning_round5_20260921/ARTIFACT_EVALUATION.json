@@ -1,0 +1,84 @@
+{
+  "version": "round5-20260921-final",
+  "purpose": "learned",
+  "axes": {
+    "PACKAGE_VALID": {
+      "status": "PASS",
+      "reason": "archive passed loader and full-episode checks",
+      "scope": "final archive",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/loader/learned_seat0.json#645720eb73839fb42ec1e704104f234c2d2a10166c05654e689126b77221927d",
+        "experiments/learning_round5_20260921/loader/learned_seat1.json#fbc1a71ff68a0d5c8fc60e9b9173036e96d28b1fa8870ee5e11e40457600f2c3"
+      ]
+    },
+    "EXECUTION_CORRECT": {
+      "status": "PASS",
+      "reason": "all 8 required contracts passed",
+      "scope": "declared P1 semantic contracts; unrelated base primitives with unobservable day-boundary outcomes remain UNKNOWN",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554",
+        "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871",
+        "experiments/learning_round5_20260921/pytest_round3_round4_round5.xml#13d9ac21b1d422fa2a8f6e7f4541945f519dc1c34726fdff3c2fb11c37ea35fa"
+      ]
+    },
+    "TRAINING_EXECUTED": {
+      "status": "PASS",
+      "reason": "216 optimizer updates; parameter delta=2.44463",
+      "scope": "Round5 training run",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/TRAINING_RECORD.json#f4f6a76f3b91034e6d9368c5c837a9ec186875b4747136332cf73648c4691e50",
+        "agents/learning_round5_20260921/strategy_model.json#6e61e6f56ff6134acef068f4ffa57a4ec987c81755daa8dfe8518c7828a99c66"
+      ]
+    },
+    "MODEL_USED": {
+      "status": "PASS",
+      "reason": "reloaded model executed 2876 runtime inferences",
+      "scope": "runtime",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871"
+      ]
+    },
+    "SKILL_COMPLETION": {
+      "status": "PASS",
+      "reason": "completed=3 with no failed/unknown required skill",
+      "scope": "fixed-engine cow/sheep end-to-end realization and duplicate animal yield",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554"
+      ]
+    },
+    "LOCAL_ECONOMIC_EFFECT": {
+      "status": "UNKNOWN",
+      "reason": "non-negative point estimate but uncertainty unresolved: self=228, opponent=0, margin=228",
+      "scope": "local skill/economic scenarios",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/skill_scenarios/SKILL_SCENARIO_RESULTS.json#cc423ea8dd7beb97919558bef5ddac2d2f3b0cc5ec10c7e001b61cebe45a5554"
+      ]
+    },
+    "EXTERNAL_ECONOMIC_EFFECT": {
+      "status": "FAIL",
+      "reason": "delta self=-760.5, opponent=1245, margin=-2005.5",
+      "scope": "fixed external proxy panel",
+      "evidence_ids": [
+        "experiments/learning_round5_20260921/comparison/COMPARISON_RESULTS.json#d9f9f4f66ec0b60d183ea1da8ad9a03cd888322994e89f9f47eea27cb59ed871"
+      ]
+    },
+    "ONLINE_EVIDENCE": {
+      "status": "UNKNOWN",
+      "reason": "no Round5 online submission/result",
+      "scope": "Kaggle online",
+      "evidence_ids": []
+    },
+    "READY_FOR_LIMITED_SUBMISSION": {
+      "status": "NOT_APPLICABLE",
+      "reason": "all four learned proxy games lost and the two family-seed clusters disagree; no Round5 online submission is proposed",
+      "scope": "limited diagnostic submission only",
+      "evidence_ids": []
+    },
+    "CHAMPION_PROMOTION": {
+      "status": "FAIL",
+      "reason": "at least one promotion axis failed",
+      "scope": "champion replacement",
+      "evidence_ids": []
+    }
+  }
+}

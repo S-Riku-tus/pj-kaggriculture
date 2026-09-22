@@ -1,0 +1,50 @@
+{
+  "created_at_utc": "2026-09-21T12:08:52.339943+00:00",
+  "command": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\python.exe -m pytest -q tests/test_learning_round3.py",
+  "exit_code": 0,
+  "passed": true,
+  "stdout": ".....................................................................    [100%]\n",
+  "stderr": "",
+  "fixtures": {
+    "sha256": "f99ad124f9dafff05760fe0cf128d7a81650a02733973dacbbb1bb07f41bc016",
+    "file_count": 5,
+    "bytes": 3428,
+    "files": [
+      {
+        "path": "experiments/learning_round3_20260921/REGRESSION_CASES/movement_rejoin_failure.json",
+        "bytes": 339,
+        "sha256": "affb702d80a75ab0441b137486ec24aaa846a16ed030801ee69395c3ad194749"
+      },
+      {
+        "path": "experiments/learning_round3_20260921/REGRESSION_CASES/resource_conflicts.json",
+        "bytes": 475,
+        "sha256": "2110e944ad9b9a3f01aca92d80041265449f3044ed813e43ba80d7343d23d26e"
+      },
+      {
+        "path": "experiments/learning_round3_20260921/REGRESSION_CASES/step264_market.json",
+        "bytes": 1562,
+        "sha256": "9fdbee75d31e3bcefbcefbca9ad53fe23907d87c500255c360c4ede7bd707958"
+      },
+      {
+        "path": "experiments/learning_round3_20260921/REGRESSION_CASES/unknown_support.json",
+        "bytes": 463,
+        "sha256": "c65f93579f846e5ea05e21611dd98344dc6fd55e7c70de7c23dce74f4a8cd21c"
+      },
+      {
+        "path": "experiments/learning_round3_20260921/REGRESSION_CASES/wheat_pickup_removed.json",
+        "bytes": 589,
+        "sha256": "b55722b19ef98ba688987c9243fce5a43488e12b0988a0fb57c2228b2a40dc06"
+      }
+    ]
+  },
+  "contracts_enforced": [
+    "actor identity/day epoch",
+    "required pickup and remaining feed obligations",
+    "state-based replan after missing movement",
+    "DROP future-material reservation",
+    "cross-worker shed material and capacity",
+    "market slot limit",
+    "typed constant/unseen/nonfinite support",
+    "pinned engine market parity"
+  ]
+}
