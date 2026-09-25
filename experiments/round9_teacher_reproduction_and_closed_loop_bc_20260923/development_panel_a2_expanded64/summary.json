@@ -1,0 +1,96 @@
+{
+  "created_at_utc": "2026-09-23T13:02:43.498206+00:00",
+  "purpose": "preregistered 64-game economic-replication panel; not sealed final confirmation",
+  "candidate": {
+    "archive": "artifacts\\submissions\\round9_20260923_a2_prefix_bc_seed20260924_v1.tar.gz",
+    "sha256": "555fb354577914a2ead0f9c3d3967334677c6383b4db7001aafda3a597a385f3"
+  },
+  "anchors": {
+    "v122": {
+      "archive": "artifacts\\submissions\\v122.tar.gz",
+      "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+    },
+    "v124": {
+      "archive": "artifacts\\submissions\\v124.tar.gz",
+      "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+    }
+  },
+  "seeds": [
+    2026102301,
+    2026102302,
+    2026102303,
+    2026102304,
+    2026102305,
+    2026102306,
+    2026102307,
+    2026102308,
+    2026102309,
+    2026102310,
+    2026102311,
+    2026102312,
+    2026102313,
+    2026102314,
+    2026102315,
+    2026102316
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "v123_omitted_as_preregistered": true,
+  "completed_games": 64,
+  "failures": [],
+  "wins_draws_losses": {
+    "wins": 0,
+    "draws": 0,
+    "losses": 64
+  },
+  "mean_our_cash": 9427.875,
+  "mean_margin": -149569.75,
+  "games_with_first_animal_yield": 62,
+  "games_with_first_animal_harvest": 62,
+  "games_with_land_expansion": 19,
+  "all_replays_included": true,
+  "sealed_seeds_opened": false,
+  "statistics_by_anchor": {
+    "v122": {
+      "games": 32,
+      "seed_blocks": 16,
+      "wins": 0,
+      "draws": 0,
+      "losses": 32,
+      "seed_block_point_rate": 0.0,
+      "one_sided_95_hoeffding_lower": 0.0,
+      "descriptive_seed_block_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "mean_our_cash": 9398.625,
+      "mean_margin": -150955.78125,
+      "point_threshold_0_60_met": false,
+      "promotion_lower_above_0_50_met": false
+    },
+    "v124": {
+      "games": 32,
+      "seed_blocks": 16,
+      "wins": 0,
+      "draws": 0,
+      "losses": 32,
+      "seed_block_point_rate": 0.0,
+      "one_sided_95_hoeffding_lower": 0.0,
+      "descriptive_seed_block_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "mean_our_cash": 9457.125,
+      "mean_margin": -148183.71875,
+      "point_threshold_0_60_met": false,
+      "promotion_lower_above_0_50_met": false
+    }
+  },
+  "engine": {
+    "version": "1.32.7",
+    "source": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  }
+}

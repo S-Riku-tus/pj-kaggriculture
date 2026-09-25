@@ -1,0 +1,46 @@
+{
+  "seed612609264_step645": {
+    "final_orders": [
+      [
+        "SELL",
+        "STRAWBERRY",
+        13
+      ],
+      [
+        "SELL",
+        "WOOL",
+        7
+      ],
+      [
+        "BUY_SEED",
+        "CARROT",
+        1
+      ]
+    ],
+    "effective_own_fills": {
+      "STRAWBERRY": 13,
+      "WOOL": 7
+    },
+    "opponent_wool_sale": 0,
+    "fixed_result": "own WOOL 7 is no longer attributed to opponent"
+  },
+  "seed612609254_step456": {
+    "item": "WOOL",
+    "start_price": 37,
+    "own_fill": 12,
+    "true_opponent_fill_test_only": 12,
+    "public_runtime_interval": {
+      "confidence": "censored",
+      "lower": 0,
+      "upper": 100
+    },
+    "fixed_result": "negative estimate removed; unobserved zero is not encoded as no sale"
+  },
+  "seed532609243_step668": {
+    "classification": "REDUNDANT_WITH_BASELINE",
+    "wool_sell_orders": 1,
+    "quantity": 3,
+    "double_order": false
+  },
+  "truth_usage": "simulator truth appears only in test assertions/evaluation labels, never runtime features"
+}

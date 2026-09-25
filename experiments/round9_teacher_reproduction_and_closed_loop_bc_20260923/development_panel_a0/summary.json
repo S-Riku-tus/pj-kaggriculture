@@ -1,0 +1,82 @@
+{
+  "created_at_utc": "2026-09-23T12:46:46.821091+00:00",
+  "purpose": "normal-start production/reinvestment diagnostic; not a win-rate estimate",
+  "candidate": {
+    "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v6.tar.gz",
+    "sha256": "0b579c006fbc002d2873b55d9c936c149049575383e47309c9d6c0887e1a6e30"
+  },
+  "anchors": {
+    "v122": {
+      "archive": "artifacts\\submissions\\v122.tar.gz",
+      "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+    },
+    "v124": {
+      "archive": "artifacts\\submissions\\v124.tar.gz",
+      "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+    }
+  },
+  "seeds": [
+    2026102201,
+    2026102202
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "v123_omitted_as_preregistered": true,
+  "completed_games": 8,
+  "failures": [],
+  "wins_draws_losses": {
+    "wins": 0,
+    "draws": 0,
+    "losses": 8
+  },
+  "mean_our_cash": 1411.875,
+  "mean_margin": -137263.375,
+  "games_with_first_animal_yield": 0,
+  "games_with_first_animal_harvest": 0,
+  "games_with_land_expansion": 2,
+  "all_replays_included": true,
+  "sealed_seeds_opened": false,
+  "statistics_by_anchor": {
+    "v122": {
+      "games": 4,
+      "seed_blocks": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "seed_block_point_rate": 0.0,
+      "one_sided_95_hoeffding_lower": 0.0,
+      "descriptive_seed_block_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "mean_our_cash": 1812.25,
+      "mean_margin": -137702.0,
+      "point_threshold_0_60_met": false,
+      "promotion_lower_above_0_50_met": false
+    },
+    "v124": {
+      "games": 4,
+      "seed_blocks": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "seed_block_point_rate": 0.0,
+      "one_sided_95_hoeffding_lower": 0.0,
+      "descriptive_seed_block_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "mean_our_cash": 1011.5,
+      "mean_margin": -136824.75,
+      "point_threshold_0_60_met": false,
+      "promotion_lower_above_0_50_met": false
+    }
+  },
+  "engine": {
+    "version": "1.32.7",
+    "source": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "round11-telemetry-summary-v1",
+  "arms": {
+    "B1": {
+      "games": 192,
+      "games_with_reported_changes": 0,
+      "totals": {
+        "opening_calls": 192.0,
+        "opening_stock_ok": 192.0,
+        "parent.fertilizer.capped": 232.0,
+        "parent.fertilizer.covered": 344.0,
+        "parent.fertilizer.errors": 0.0,
+        "parent.fertilizer.skips": 576.0,
+        "parent.rescue.aborted": 0.0,
+        "parent.rescue.accepted": 152.0,
+        "parent.rescue.changed_steps": 998.0,
+        "parent.rescue.errors": 0.0,
+        "parent.rescue.max_planning_ms": 11099.698900041403,
+        "parent.rescue.planning_calls": 192.0,
+        "parent.rescue.shadow_declines": 40.0,
+        "parent.seed_budget.changed_turns": 1654.0,
+        "parent.seed_budget.cut_units": 8280.0,
+        "parent.seed_budget.errors": 0.0,
+        "parent.seed_budget.saved_cost": 165440.0
+      }
+    },
+    "m20_multi_hypothesis": {
+      "games": 192,
+      "games_with_reported_changes": 164,
+      "totals": {
+        "opening_calls": 192.0,
+        "opening_stock_ok": 192.0,
+        "parent.fertilizer.capped": 232.0,
+        "parent.fertilizer.covered": 344.0,
+        "parent.fertilizer.errors": 0.0,
+        "parent.fertilizer.skips": 576.0,
+        "parent.forecast.frontier_fires": 578.0,
+        "parent.forecast.frontier_units": 3770.0,
+        "parent.forecast.pred_errors": 0.0,
+        "parent.forecast.pred_fires": 3412.0,
+        "parent.forecast.pred_units": 24086.0,
+        "parent.rescue.aborted": 0.0,
+        "parent.rescue.accepted": 152.0,
+        "parent.rescue.changed_steps": 998.0,
+        "parent.rescue.errors": 0.0,
+        "parent.rescue.max_planning_ms": 12174.893600065843,
+        "parent.rescue.planning_calls": 192.0,
+        "parent.rescue.shadow_declines": 40.0,
+        "parent.seed_budget.changed_turns": 1684.0,
+        "parent.seed_budget.cut_units": 8472.0,
+        "parent.seed_budget.errors": 0.0,
+        "parent.seed_budget.saved_cost": 169280.0
+      }
+    }
+  }
+}

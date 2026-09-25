@@ -1,0 +1,128 @@
+{
+  "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_v2\\replays\\v124\\seed_2026102202_seat_1.json.gz",
+  "replay_sha256": "3d0cf5d65edb235586d5fdf4279f2c7ba561db699f9ca042150243ad7f95abff",
+  "seat": 1,
+  "start_cash": 3000,
+  "final_cash": 14936,
+  "sales_revenue": 17119,
+  "purchase_cost": 4515,
+  "seed_cost": 850,
+  "product_cost": 1365,
+  "animal_cost": 2300,
+  "hire_cost": 668,
+  "land_cost": 0,
+  "reconciled_cash": 14936,
+  "cash_reconciliation_error": 0,
+  "requested_orders": {
+    "BUY_ANIMAL:COW": 2,
+    "BUY_PRODUCT:WHEAT": 45,
+    "SELL:WHEAT": 91,
+    "HIRE": 165,
+    "BUY_ANIMAL:SHEEP": 3,
+    "BUY_SEED:MELON": 6,
+    "BUY_SEED:WHEAT": 37,
+    "SELL:FERTILIZER": 38,
+    "SELL:WOOL": 9,
+    "SELL:MELON": 17,
+    "SELL:MILK": 23
+  },
+  "actual_sold": {
+    "WHEAT": 91,
+    "FERTILIZER": 38,
+    "WOOL": 9,
+    "MELON": 17,
+    "MILK": 23
+  },
+  "actual_bought_seed": {
+    "MELON": 6,
+    "WHEAT": 37
+  },
+  "actual_bought_product": {
+    "WHEAT": 45
+  },
+  "actual_bought_animal": {
+    "COW": 2,
+    "SHEEP": 3
+  },
+  "actor_pickup": {
+    "COW": 2,
+    "SHEEP": 3,
+    "WHEAT": 276
+  },
+  "placed_assets": {
+    "BUILD_PASTURE": 24,
+    "ANIMAL:COW": 24,
+    "ANIMAL:SHEEP": 2,
+    "PLANT:MELON": 6,
+    "PLANT:WHEAT": 37
+  },
+  "produced_units_day_boundary_lower_bound": {
+    "WOOL": 10,
+    "MILK": 23
+  },
+  "harvested_units": {
+    "WHEAT": 77,
+    "WOOL": 9,
+    "MILK": 23,
+    "MELON": 23
+  },
+  "deposited_to_shed": {
+    "FERTILIZER": 19,
+    "WHEAT": 128,
+    "MILK": 17,
+    "WOOL": 4,
+    "MELON": 11
+  },
+  "animal_exits": 4,
+  "work_effect": {
+    "numerator": 636,
+    "denominator": 636,
+    "ratio": 1.0,
+    "unit": "issued non-move non-PASS actor command",
+    "day_boundary_terminal_unknown_count": 9,
+    "method": "independent fixed-engine immediate transition, not teacher imitation"
+  },
+  "actor_issued": {
+    "PASS": 6,
+    "PICKUP": 163,
+    "BUILD_PASTURE": 24,
+    "PLACE": 26,
+    "NORTH": 1034,
+    "WEST": 1052,
+    "FEED": 28,
+    "CARE": 30,
+    "PLANT": 43,
+    "WATER": 168,
+    "EAST": 796,
+    "SOUTH": 904,
+    "COLLECT_FERTILIZER": 38,
+    "HARVEST": 45,
+    "DROP": 65,
+    "DIG": 6
+  },
+  "actor_effective": {
+    "PASS": 0,
+    "PICKUP": 163,
+    "BUILD_PASTURE": 24,
+    "PLACE": 26,
+    "NORTH": 1034,
+    "WEST": 1052,
+    "FEED": 28,
+    "CARE": 30,
+    "PLANT": 43,
+    "WATER": 168,
+    "EAST": 796,
+    "SOUTH": 904,
+    "COLLECT_FERTILIZER": 38,
+    "HARVEST": 45,
+    "DROP": 65,
+    "DIG": 6
+  },
+  "candidate": "round9_a2_v2",
+  "anchor": "v124",
+  "seed": "2026102202",
+  "score": "0.0",
+  "our_cash": "14936.0",
+  "opponent_cash": "175990.0",
+  "margin": "-161054.0"
+}

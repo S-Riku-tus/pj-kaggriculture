@@ -1,0 +1,111 @@
+{
+  "created_at_jst": "2026-09-22T00:00:00+09:00",
+  "study_id": "learning_round6_20260922_anchor_addendum",
+  "instruction_precedence": {
+    "replaces": "Codex_Round6_Instructions_JA.md section 7.3 only",
+    "replacement": "v122/v123/v124 frozen submitted artifacts are the primary internal comparison anchors",
+    "retained": [
+      "full-action behavioral-cloning training",
+      "quantity and market-order preservation",
+      "separation of model output and execution correction",
+      "final submission archive runtime validation"
+    ],
+    "missing_local_input": "Codex_Round6_Instructions_JA.md was referenced by the user but was not present in the workspace or attachment directory at preregistration time"
+  },
+  "anchors": {
+    "v122": {
+      "archive": "artifacts/submissions/v122.tar.gz",
+      "historical_submission_ids": [56330890, 56330893],
+      "historical_note": "previous local analysis records 102 games started at rating >=1600 and an approximately even 52-50 result; not a current fixed rating"
+    },
+    "v123": {
+      "archive": "artifacts/submissions/v123.tar.gz",
+      "historical_submission_ids": [56346060, 56346090],
+      "historical_note": "two live-submission log sets are recorded locally; current rating is not independently rechecked"
+    },
+    "v124": {
+      "archive": "artifacts/submissions/v124.tar.gz",
+      "historical_submission_ids": [56357320, 56360233],
+      "historical_terminal_ratings": [1654.9613, 1571.7205],
+      "historical_note": "terminal values in saved analysis, not current fixed ratings"
+    }
+  },
+  "arms": {
+    "round6_full_action_bc": {
+      "archive": "artifacts/submissions/learning_next_20260921_independent_bc.tar.gz",
+      "role": "primary full-action learned candidate"
+    },
+    "round5_learned": {
+      "archive": "artifacts/submissions/learning_round5_20260921_learned.tar.gz",
+      "role": "old learned comparator on the same new anchors"
+    },
+    "round6_b_learned": {
+      "archive": "artifacts/submissions/learning_next_20260921_b_learned.tar.gz",
+      "role": "auxiliary learned opponent-sale overlay; not evidence that full-action BC succeeded"
+    },
+    "round6_sequence_bc_v1": {
+      "archive": "artifacts/submissions/learning_round6_20260922_sequence_bc_v1.tar.gz",
+      "role": "preregistered next full-action candidate with within-turn actor context and conditional quantity heads"
+    },
+    "c0": {
+      "archive": "artifacts/submissions/v126_control_candidate.tar.gz",
+      "role": "non-primary frozen execution control"
+    }
+  },
+  "development": {
+    "seeds": [2026102201, 2026102202, 2026102203, 2026102204, 2026102205, 2026102206, 2026102207, 2026102208],
+    "seed_search_before_freeze": "no occurrences found in the workspace",
+    "seats": [0, 1],
+    "games_per_arm": 48,
+    "use": "candidate and checkpoint comparison; development only"
+  },
+  "final_confirmation": {
+    "seeds": [
+      2026110701, 2026110702, 2026110703, 2026110704, 2026110705, 2026110706, 2026110707, 2026110708,
+      2026110709, 2026110710, 2026110711, 2026110712, 2026110713, 2026110714, 2026110715, 2026110716,
+      2026110717, 2026110718, 2026110719, 2026110720, 2026110721, 2026110722, 2026110723, 2026110724,
+      2026110725, 2026110726, 2026110727, 2026110728, 2026110729, 2026110730, 2026110731, 2026110732
+    ],
+    "seed_search_before_freeze": "no occurrences found in the workspace",
+    "seats": [0, 1],
+    "games_for_one_frozen_arm": 192,
+    "status": "SEALED_NOT_RUN",
+    "opening_rule": "only after candidate archive, correction code, anchors, metrics, and game count are frozen"
+  },
+  "statistics": {
+    "score": "win=1, draw=0.5, loss=0",
+    "seed_block": "mean both seats within anchor x seed before uncertainty calculations",
+    "primary_internal": "equal mean of v122, v123, and v124 point rates",
+    "initial_target": "point rate >=0.60 against each anchor",
+    "clear_advantage": "each anchor point estimate >=0.60 and prespecified one-sided 95% lower bound >0.50",
+    "intervals": [
+      "seed-block percentile bootstrap",
+      "distribution-free one-sided Hoeffding lower bound; used as the conservative decision lower bound when bootstrap degenerates"
+    ],
+    "bootstrap_seed": 20260922,
+    "bootstrap_draws": 20000
+  },
+  "imitation_holdout": {
+    "teacher_submission": 56216119,
+    "split": "test from experiments/learning_next_20260921/split_manifest.json",
+    "selection": "eight teacher episodes with lowest SHA-256 of round6-imitation:<episode_id>",
+    "episodes": 8,
+    "teacher_forcing": "public/private teacher observation at t, teacher action stored at t+1; model recurrent history is overwritten with the preceding teacher action",
+    "stages": [
+      "raw model argmax token",
+      "raw decode with train-only token quantity",
+      "final frozen archive output after legality/economic corrections"
+    ]
+  },
+  "engine": {
+    "package": "kaggle-environments==1.32.7",
+    "episode_steps": 720,
+    "loader": "safe extraction of the final tar.gz followed by root main.py import in a fresh worker process for every game",
+    "shop_policy": "save actual Shop sequence for every game; do not discard games whose sequences diverge"
+  },
+  "permissions": {
+    "kaggle_submission": false,
+    "external_account_operations": false,
+    "paid_compute": false
+  }
+}

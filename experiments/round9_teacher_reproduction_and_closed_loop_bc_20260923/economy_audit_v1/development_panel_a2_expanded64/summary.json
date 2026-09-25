@@ -1,0 +1,1432 @@
+{
+  "created_at_utc": "2026-09-23T13:11:14.922869+00:00",
+  "panel": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64",
+  "games": 64,
+  "cash_reconciliation": {
+    "games_exact": 64,
+    "games": 64,
+    "total_absolute_error": 0
+  },
+  "work_effect": {
+    "numerator": 35844,
+    "denominator": 35844,
+    "ratio": 1.0,
+    "day_boundary_terminal_unknown_count": 728
+  },
+  "totals": {
+    "sales_revenue": 785130,
+    "purchase_cost": 302419,
+    "seed_cost": 58710,
+    "product_cost": 83309,
+    "animal_cost": 160400,
+    "hire_cost": 50327,
+    "land_cost": 21000,
+    "animal_exits": 325
+  },
+  "item_totals": {
+    "actual_sold": {
+      "WHEAT": 5431,
+      "FERTILIZER": 2136,
+      "MILK": 851,
+      "MELON": 779,
+      "WOOL": 432,
+      "TOMATO": 3
+    },
+    "actual_bought_seed": {
+      "MELON": 394,
+      "WHEAT": 2659,
+      "STRAWBERRY": 2,
+      "TOMATO": 8
+    },
+    "actual_bought_product": {
+      "WHEAT": 2724
+    },
+    "actual_bought_animal": {
+      "COW": 146,
+      "SHEEP": 204
+    },
+    "actor_pickup": {
+      "COW": 195,
+      "SHEEP": 246,
+      "WHEAT": 11722
+    },
+    "placed_assets": {
+      "BUILD_PASTURE": 2897,
+      "ANIMAL:COW": 1222,
+      "ANIMAL:SHEEP": 182,
+      "PLANT:MELON": 394,
+      "PLANT:WHEAT": 2639,
+      "BUILD_COOP": 52,
+      "PLANT:STRAWBERRY": 2,
+      "PLANT:TOMATO": 8
+    },
+    "produced_units_day_boundary_lower_bound": {
+      "WOOL": 502,
+      "MILK": 898,
+      "TOMATO": 5
+    },
+    "harvested_units": {
+      "WHEAT": 4319,
+      "MILK": 851,
+      "MELON": 838,
+      "WOOL": 432,
+      "TOMATO": 5
+    },
+    "deposited_to_shed": {
+      "FERTILIZER": 1004,
+      "WHEAT": 3280,
+      "MILK": 671,
+      "WOOL": 129,
+      "COW": 30,
+      "MELON": 226,
+      "SHEEP": 17,
+      "TOMATO": 1
+    }
+  },
+  "records": [
+    {
+      "anchor": "v122",
+      "seed": "2026102301",
+      "seat": 0,
+      "final_cash": 7206,
+      "sales_revenue": 10118,
+      "purchase_cost": 5092,
+      "hire_cost": 820,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 490,
+        "denominator": 490,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 14,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102301_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102301",
+      "seat": 1,
+      "final_cash": 7492,
+      "sales_revenue": 9660,
+      "purchase_cost": 4481,
+      "hire_cost": 687,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 417,
+        "denominator": 417,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102301_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102302",
+      "seat": 0,
+      "final_cash": 8007,
+      "sales_revenue": 12520,
+      "purchase_cost": 5351,
+      "hire_cost": 1162,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 835,
+        "denominator": 835,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 21,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 6,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102302_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102302",
+      "seat": 1,
+      "final_cash": 9413,
+      "sales_revenue": 11800,
+      "purchase_cost": 4700,
+      "hire_cost": 687,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 442,
+        "denominator": 442,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 6,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102302_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102303",
+      "seat": 0,
+      "final_cash": 15679,
+      "sales_revenue": 18107,
+      "purchase_cost": 4572,
+      "hire_cost": 856,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 702,
+        "denominator": 702,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 21,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102303_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102303",
+      "seat": 1,
+      "final_cash": 5597,
+      "sales_revenue": 9116,
+      "purchase_cost": 4493,
+      "hire_cost": 1026,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 581,
+        "denominator": 581,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 11,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102303_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102304",
+      "seat": 0,
+      "final_cash": 11382,
+      "sales_revenue": 13399,
+      "purchase_cost": 4301,
+      "hire_cost": 716,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 515,
+        "denominator": 515,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102304_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102304",
+      "seat": 1,
+      "final_cash": 8133,
+      "sales_revenue": 9790,
+      "purchase_cost": 4193,
+      "hire_cost": 464,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 372,
+        "denominator": 372,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102304_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102305",
+      "seat": 0,
+      "final_cash": 13677,
+      "sales_revenue": 16027,
+      "purchase_cost": 4610,
+      "hire_cost": 740,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 496,
+        "denominator": 496,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102305_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102305",
+      "seat": 1,
+      "final_cash": 9184,
+      "sales_revenue": 11264,
+      "purchase_cost": 4394,
+      "hire_cost": 686,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 475,
+        "denominator": 475,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102305_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102306",
+      "seat": 0,
+      "final_cash": 7356,
+      "sales_revenue": 9601,
+      "purchase_cost": 4587,
+      "hire_cost": 658,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 429,
+        "denominator": 429,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 14,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102306_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102306",
+      "seat": 1,
+      "final_cash": 8349,
+      "sales_revenue": 10799,
+      "purchase_cost": 4750,
+      "hire_cost": 700,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 551,
+        "denominator": 551,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 8,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 6,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102306_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102307",
+      "seat": 0,
+      "final_cash": 6839,
+      "sales_revenue": 13513,
+      "purchase_cost": 7528,
+      "hire_cost": 1146,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 742,
+        "denominator": 742,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 21,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 10,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102307_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102307",
+      "seat": 1,
+      "final_cash": 8115,
+      "sales_revenue": 10306,
+      "purchase_cost": 4436,
+      "hire_cost": 755,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 415,
+        "denominator": 415,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 8,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102307_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102308",
+      "seat": 0,
+      "final_cash": 3985,
+      "sales_revenue": 5855,
+      "purchase_cost": 4194,
+      "hire_cost": 676,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 211,
+        "denominator": 211,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 1,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102308_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102308",
+      "seat": 1,
+      "final_cash": 11624,
+      "sales_revenue": 13578,
+      "purchase_cost": 4350,
+      "hire_cost": 604,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 422,
+        "denominator": 422,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 9,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102308_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102309",
+      "seat": 0,
+      "final_cash": 9002,
+      "sales_revenue": 12138,
+      "purchase_cost": 4246,
+      "hire_cost": 890,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 620,
+        "denominator": 620,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 11,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102309_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102309",
+      "seat": 1,
+      "final_cash": 11816,
+      "sales_revenue": 13700,
+      "purchase_cost": 4179,
+      "hire_cost": 705,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 503,
+        "denominator": 503,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 10,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102309_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102310",
+      "seat": 0,
+      "final_cash": 14923,
+      "sales_revenue": 17250,
+      "purchase_cost": 4567,
+      "hire_cost": 760,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 521,
+        "denominator": 521,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102310_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102310",
+      "seat": 1,
+      "final_cash": 4736,
+      "sales_revenue": 8617,
+      "purchase_cost": 4902,
+      "hire_cost": 979,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 946,
+        "denominator": 946,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 19,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 6,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102310_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102311",
+      "seat": 0,
+      "final_cash": 11715,
+      "sales_revenue": 15381,
+      "purchase_cost": 4661,
+      "hire_cost": 1005,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 770,
+        "denominator": 770,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 19,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102311_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102311",
+      "seat": 1,
+      "final_cash": 11660,
+      "sales_revenue": 13636,
+      "purchase_cost": 4370,
+      "hire_cost": 606,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 642,
+        "denominator": 642,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 4,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102311_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102312",
+      "seat": 0,
+      "final_cash": 10651,
+      "sales_revenue": 12845,
+      "purchase_cost": 4543,
+      "hire_cost": 651,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 478,
+        "denominator": 478,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 11,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102312_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102312",
+      "seat": 1,
+      "final_cash": 8119,
+      "sales_revenue": 11503,
+      "purchase_cost": 4374,
+      "hire_cost": 1010,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 751,
+        "denominator": 751,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 18,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102312_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102313",
+      "seat": 0,
+      "final_cash": 7429,
+      "sales_revenue": 9560,
+      "purchase_cost": 4512,
+      "hire_cost": 619,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 439,
+        "denominator": 439,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 14,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102313_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102313",
+      "seat": 1,
+      "final_cash": 7473,
+      "sales_revenue": 9802,
+      "purchase_cost": 4641,
+      "hire_cost": 688,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 442,
+        "denominator": 442,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 8,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102313_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102314",
+      "seat": 0,
+      "final_cash": 17493,
+      "sales_revenue": 20104,
+      "purchase_cost": 4648,
+      "hire_cost": 963,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 620,
+        "denominator": 620,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 15,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102314_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102314",
+      "seat": 1,
+      "final_cash": 7965,
+      "sales_revenue": 10339,
+      "purchase_cost": 4722,
+      "hire_cost": 652,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 509,
+        "denominator": 509,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 9,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 6,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102314_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102315",
+      "seat": 0,
+      "final_cash": 15858,
+      "sales_revenue": 19430,
+      "purchase_cost": 4609,
+      "hire_cost": 963,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 676,
+        "denominator": 676,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 12,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102315_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102315",
+      "seat": 1,
+      "final_cash": 6220,
+      "sales_revenue": 7984,
+      "purchase_cost": 4222,
+      "hire_cost": 542,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 548,
+        "denominator": 548,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102315_seat_1.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102316",
+      "seat": 0,
+      "final_cash": 6802,
+      "sales_revenue": 10649,
+      "purchase_cost": 4756,
+      "hire_cost": 1091,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 977,
+        "denominator": 977,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 26,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102316_seat_0.json.gz"
+    },
+    {
+      "anchor": "v122",
+      "seed": "2026102316",
+      "seat": 1,
+      "final_cash": 6856,
+      "sales_revenue": 11917,
+      "purchase_cost": 6064,
+      "hire_cost": 997,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 582,
+        "denominator": 582,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 8,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v122\\seed_2026102316_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102301",
+      "seat": 0,
+      "final_cash": 7318,
+      "sales_revenue": 10921,
+      "purchase_cost": 4742,
+      "hire_cost": 861,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 575,
+        "denominator": 575,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 14,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102301_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102301",
+      "seat": 1,
+      "final_cash": 7561,
+      "sales_revenue": 9668,
+      "purchase_cost": 4481,
+      "hire_cost": 626,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 409,
+        "denominator": 409,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102301_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102302",
+      "seat": 0,
+      "final_cash": 7210,
+      "sales_revenue": 11446,
+      "purchase_cost": 5257,
+      "hire_cost": 979,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 835,
+        "denominator": 835,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 19,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 6,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102302_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102302",
+      "seat": 1,
+      "final_cash": 9936,
+      "sales_revenue": 11952,
+      "purchase_cost": 4368,
+      "hire_cost": 648,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 431,
+        "denominator": 431,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 4,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102302_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102303",
+      "seat": 0,
+      "final_cash": 15661,
+      "sales_revenue": 18138,
+      "purchase_cost": 4648,
+      "hire_cost": 829,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 704,
+        "denominator": 704,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 20,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102303_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102303",
+      "seat": 1,
+      "final_cash": 7562,
+      "sales_revenue": 9410,
+      "purchase_cost": 4323,
+      "hire_cost": 525,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 405,
+        "denominator": 405,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 6,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102303_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102304",
+      "seat": 0,
+      "final_cash": 11868,
+      "sales_revenue": 13999,
+      "purchase_cost": 4381,
+      "hire_cost": 750,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 523,
+        "denominator": 523,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102304_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102304",
+      "seat": 1,
+      "final_cash": 8067,
+      "sales_revenue": 9790,
+      "purchase_cost": 4193,
+      "hire_cost": 530,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 376,
+        "denominator": 376,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102304_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102305",
+      "seat": 0,
+      "final_cash": 13669,
+      "sales_revenue": 16020,
+      "purchase_cost": 4610,
+      "hire_cost": 741,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 496,
+        "denominator": 496,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102305_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102305",
+      "seat": 1,
+      "final_cash": 10099,
+      "sales_revenue": 12008,
+      "purchase_cost": 4384,
+      "hire_cost": 525,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 488,
+        "denominator": 488,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 6,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102305_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102306",
+      "seat": 0,
+      "final_cash": 7481,
+      "sales_revenue": 9749,
+      "purchase_cost": 4597,
+      "hire_cost": 671,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 438,
+        "denominator": 438,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 15,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102306_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102306",
+      "seat": 1,
+      "final_cash": 10329,
+      "sales_revenue": 12828,
+      "purchase_cost": 4710,
+      "hire_cost": 789,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 548,
+        "denominator": 548,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 6,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 6,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102306_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102307",
+      "seat": 0,
+      "final_cash": 4321,
+      "sales_revenue": 14001,
+      "purchase_cost": 8610,
+      "hire_cost": 1070,
+      "land_cost": 3000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 735,
+        "denominator": 735,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 24,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 10,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102307_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102307",
+      "seat": 1,
+      "final_cash": 8298,
+      "sales_revenue": 10343,
+      "purchase_cost": 4426,
+      "hire_cost": 619,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 422,
+        "denominator": 422,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 7,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102307_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102308",
+      "seat": 0,
+      "final_cash": 3998,
+      "sales_revenue": 5855,
+      "purchase_cost": 4194,
+      "hire_cost": 663,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 210,
+        "denominator": 210,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 1,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102308_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102308",
+      "seat": 1,
+      "final_cash": 11643,
+      "sales_revenue": 13578,
+      "purchase_cost": 4350,
+      "hire_cost": 585,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 417,
+        "denominator": 417,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 9,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102308_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102309",
+      "seat": 0,
+      "final_cash": 8645,
+      "sales_revenue": 11874,
+      "purchase_cost": 4284,
+      "hire_cost": 945,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 556,
+        "denominator": 556,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 8,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102309_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102309",
+      "seat": 1,
+      "final_cash": 10329,
+      "sales_revenue": 15372,
+      "purchase_cost": 5897,
+      "hire_cost": 1146,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 922,
+        "denominator": 922,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 26,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 8,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102309_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102310",
+      "seat": 0,
+      "final_cash": 13813,
+      "sales_revenue": 16127,
+      "purchase_cost": 4567,
+      "hire_cost": 747,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 524,
+        "denominator": 524,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 8,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102310_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102310",
+      "seat": 1,
+      "final_cash": 5511,
+      "sales_revenue": 9189,
+      "purchase_cost": 4720,
+      "hire_cost": 958,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 964,
+        "denominator": 964,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 25,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102310_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102311",
+      "seat": 0,
+      "final_cash": 11975,
+      "sales_revenue": 14253,
+      "purchase_cost": 4571,
+      "hire_cost": 707,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 703,
+        "denominator": 703,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 18,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102311_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102311",
+      "seat": 1,
+      "final_cash": 12352,
+      "sales_revenue": 14329,
+      "purchase_cost": 4350,
+      "hire_cost": 627,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 639,
+        "denominator": 639,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 5,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102311_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102312",
+      "seat": 0,
+      "final_cash": 10672,
+      "sales_revenue": 12833,
+      "purchase_cost": 4543,
+      "hire_cost": 618,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 478,
+        "denominator": 478,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 11,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102312_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102312",
+      "seat": 1,
+      "final_cash": 7036,
+      "sales_revenue": 11331,
+      "purchase_cost": 5327,
+      "hire_cost": 968,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 602,
+        "denominator": 602,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 17,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102312_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102313",
+      "seat": 0,
+      "final_cash": 7395,
+      "sales_revenue": 9560,
+      "purchase_cost": 4512,
+      "hire_cost": 653,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 439,
+        "denominator": 439,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 14,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102313_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102313",
+      "seat": 1,
+      "final_cash": 7788,
+      "sales_revenue": 9997,
+      "purchase_cost": 4501,
+      "hire_cost": 708,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 436,
+        "denominator": 436,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 5,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102313_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102314",
+      "seat": 0,
+      "final_cash": 17478,
+      "sales_revenue": 20149,
+      "purchase_cost": 4708,
+      "hire_cost": 963,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 623,
+        "denominator": 623,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 15,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102314_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102314",
+      "seat": 1,
+      "final_cash": 7363,
+      "sales_revenue": 9853,
+      "purchase_cost": 4722,
+      "hire_cost": 768,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 482,
+        "denominator": 482,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 6,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102314_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102315",
+      "seat": 0,
+      "final_cash": 15962,
+      "sales_revenue": 19589,
+      "purchase_cost": 4609,
+      "hire_cost": 1018,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 687,
+        "denominator": 687,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 12,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102315_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102315",
+      "seat": 1,
+      "final_cash": 6553,
+      "sales_revenue": 8508,
+      "purchase_cost": 4282,
+      "hire_cost": 673,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 596,
+        "denominator": 596,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 10,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 4,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102315_seat_1.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102316",
+      "seat": 0,
+      "final_cash": 8026,
+      "sales_revenue": 10478,
+      "purchase_cost": 4570,
+      "hire_cost": 882,
+      "land_cost": 0,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 456,
+        "denominator": 456,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 10,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 5,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102316_seat_0.json.gz"
+    },
+    {
+      "anchor": "v124",
+      "seed": "2026102316",
+      "seat": 1,
+      "final_cash": 6709,
+      "sales_revenue": 11674,
+      "purchase_cost": 5934,
+      "hire_cost": 1031,
+      "land_cost": 1000,
+      "cash_reconciliation_error": 0,
+      "work_effect": {
+        "numerator": 606,
+        "denominator": 606,
+        "ratio": 1.0,
+        "unit": "issued non-move non-PASS actor command",
+        "day_boundary_terminal_unknown_count": 13,
+        "method": "independent fixed-engine immediate transition, not teacher imitation"
+      },
+      "animal_exits": 8,
+      "replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\development_panel_a2_expanded64\\replays\\v124\\seed_2026102316_seat_1.json.gz"
+    }
+  ]
+}

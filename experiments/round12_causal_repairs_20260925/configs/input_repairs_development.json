@@ -1,0 +1,19 @@
+{
+  "name": "round12_input_repairs_known_development",
+  "development_evidence_not_holdout": true,
+  "output": "metrics/input_repairs_development",
+  "arms": {
+    "P0M0_B1": "agents/P0M0_B1/main.py",
+    "P0_ledger_only": "agents/P0_ledger_only/main.py",
+    "P0_censor_only": "agents/P0_censor_only/main.py",
+    "P0_ledger_censor": "agents/P0_ledger_censor/main.py",
+    "P0M1_market": "agents/P0M1_market/main.py"
+  },
+  "opponents": {
+    "B1": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+    "v57": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py"
+  },
+  "seeds": [612609254, 612609264],
+  "seats": [0, 1],
+  "route_metric_arms": []
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "round11-holdout-hash-audit-v1",
+  "protocol_declared_hash": "98d374abdf6e28fcde76c1b2da06bef0e1f6da91c3906768c1d8a8d836e92c4a",
+  "actual_candidate_hashes_in_development_and_holdout": [
+    "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a"
+  ],
+  "current_candidate_hash": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+  "official_parity_candidate_hash": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+  "finding": "The protocol hash was transcribed incorrectly; the fixed path executed the same actual hash in development, official parity and holdout. Coverage correctly failed. No correction was used to reverse the REJECT decision."
+}

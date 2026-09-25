@@ -1,0 +1,78 @@
+[
+  {
+    "created_at_utc": "2026-09-22T07:48:46.537648+00:00",
+    "candidate": "arm_b_plan_v3",
+    "archive": "artifacts\\submissions\\learning_round7_20260922_arm_b_plan_v3.tar.gz",
+    "archive_sha256": "fe3b5bd9b14ec64208fc9360c38b9aaf5cc1b44547dca2b6eee3d24d0aaf1fca",
+    "members": [
+      {
+        "name": "actor_quantity.json",
+        "bytes": 595,
+        "sha256": "4f3f2e071f3501042cb831001cd1ac0d60e7a46f734f3571b1fc0b24b39d7fb5"
+      },
+      {
+        "name": "actor_quantity.npz",
+        "bytes": 187915,
+        "sha256": "a53ffa8e8aff1c388f98aaf7de4668a7f86e451d70da4650c307175865281461"
+      },
+      {
+        "name": "actor_token.json",
+        "bytes": 604,
+        "sha256": "465a53afee9d9705e10ba01f5263f027c08f66fadcfc66ac07d5ace9dafadd37"
+      },
+      {
+        "name": "actor_token.npz",
+        "bytes": 240657,
+        "sha256": "d63c7de780ca0b1d56430068d64737f75de7ac93ecfd4a9862247e4b9987e9b2"
+      },
+      {
+        "name": "common.py",
+        "bytes": 31364,
+        "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+      },
+      {
+        "name": "main.py",
+        "bytes": 381,
+        "sha256": "26bf0e3dfa704a64d349d8a6232e319ab0f9f7430824414028fd30901c2b15e0"
+      },
+      {
+        "name": "market_quantity.json",
+        "bytes": 600,
+        "sha256": "43bcb61aae60e11bf7aed0dff2f7555cd4f03cfc13a922820fd9e741279c479f"
+      },
+      {
+        "name": "market_quantity.npz",
+        "bytes": 131217,
+        "sha256": "d5edffaa4f98dc57bc375d654ad29956b02fa72d85c83414dcdf12e54573b252"
+      },
+      {
+        "name": "market_token.json",
+        "bytes": 602,
+        "sha256": "16d6774af570629cdf63303134c11e4444d32e07f28fda59f3898f9d78aa297e"
+      },
+      {
+        "name": "market_token.npz",
+        "bytes": 162366,
+        "sha256": "3d5b803f5920698ddf3322cb6ce44f4d020bdbe94a5d07a771b78d372d33f374"
+      },
+      {
+        "name": "model_compat.py",
+        "bytes": 2090,
+        "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+      },
+      {
+        "name": "policy.py",
+        "bytes": 12367,
+        "sha256": "b876b154af6146470a6535c1c643785e20cfbc87183ccb754bf4524033b5ec66"
+      },
+      {
+        "name": "runtime.py",
+        "bytes": 20280,
+        "sha256": "1c7fbc4a95b5d9d4f345a33266f4ffc24cf98ba1b3a78773aa20b4615cc2319c"
+      }
+    ],
+    "round6_weights_unchanged": false,
+    "model_source": "experiments\\learning_round7_20260922\\models\\arm_b_capacity",
+    "online_operations": 0
+  }
+]

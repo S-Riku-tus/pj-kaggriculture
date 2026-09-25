@@ -1,0 +1,26 @@
+{"event":"training_start","created_at_utc":"2026-09-22T12:27:53.255913+00:00","seed":20261024,"architecture":[1664,96,48,22],"train_rows":24309,"normalization":"fixed encoder semantics; mean=0 scale=1 including categorical/constant columns","feature_range":{"min":-4.520147323608398,"max":11.905521392822266,"constant_columns":386},"max_epochs":40,"patience":5,"class_weight_exponent":0.0}
+{"epoch":1,"train_weighted_loss":1.714468803972262,"validation_loss":1.4581092730648086,"validation_accuracy":0.5797816659189472,"optimizer_steps":48}
+{"epoch":2,"train_weighted_loss":1.3260066565053388,"validation_loss":1.3259443097965269,"validation_accuracy":0.6040077762823388,"optimizer_steps":96}
+{"epoch":3,"train_weighted_loss":1.194643242443803,"validation_loss":1.278199428754019,"validation_accuracy":0.6047554957379991,"optimizer_steps":144}
+{"epoch":4,"train_weighted_loss":1.1129081205396054,"validation_loss":1.1908438539797368,"validation_accuracy":0.6255420966053536,"optimizer_steps":192}
+{"epoch":5,"train_weighted_loss":1.0455543706062922,"validation_loss":1.1538804449164424,"validation_accuracy":0.6336174667264842,"optimizer_steps":240}
+{"epoch":6,"train_weighted_loss":0.9835181137600304,"validation_loss":1.1229016757678145,"validation_accuracy":0.6388515029161059,"optimizer_steps":288}
+{"epoch":7,"train_weighted_loss":0.9506424504455494,"validation_loss":1.0967285375308433,"validation_accuracy":0.6509645580978017,"optimizer_steps":336}
+{"epoch":8,"train_weighted_loss":0.9026745535668373,"validation_loss":1.0554948763692613,"validation_accuracy":0.658292208763272,"optimizer_steps":384}
+{"epoch":9,"train_weighted_loss":0.850547115434677,"validation_loss":1.0598307729783536,"validation_accuracy":0.6484223119485569,"optimizer_steps":432}
+{"epoch":10,"train_weighted_loss":0.8324514539137141,"validation_loss":1.0231847430765852,"validation_accuracy":0.6600867354568566,"optimizer_steps":480}
+{"epoch":11,"train_weighted_loss":0.8031443141155925,"validation_loss":1.0485553972493271,"validation_accuracy":0.6689098250336474,"optimizer_steps":528}
+{"epoch":12,"train_weighted_loss":0.7824037010409114,"validation_loss":1.0444743386187751,"validation_accuracy":0.6596381037834604,"optimizer_steps":576}
+{"epoch":13,"train_weighted_loss":0.7600241814113182,"validation_loss":0.9964524946958652,"validation_accuracy":0.6760879318079857,"optimizer_steps":624}
+{"epoch":14,"train_weighted_loss":0.743548264609992,"validation_loss":1.0459518512482242,"validation_accuracy":0.6593390160011964,"optimizer_steps":672}
+{"epoch":15,"train_weighted_loss":0.7257021187196132,"validation_loss":1.002113001147282,"validation_accuracy":0.676985195154778,"optimizer_steps":720}
+{"epoch":16,"train_weighted_loss":0.6988001504906153,"validation_loss":0.9900494896814716,"validation_accuracy":0.6763870195902497,"optimizer_steps":768}
+{"epoch":17,"train_weighted_loss":0.6930233238509271,"validation_loss":1.0145019604269478,"validation_accuracy":0.673994317332137,"optimizer_steps":816}
+{"epoch":18,"train_weighted_loss":0.6837774298153703,"validation_loss":0.9881835499383131,"validation_accuracy":0.6675639300134589,"optimizer_steps":864}
+{"epoch":19,"train_weighted_loss":0.6621844129151626,"validation_loss":1.0930937739503888,"validation_accuracy":0.6738447734410049,"optimizer_steps":912}
+{"epoch":20,"train_weighted_loss":0.6519783236890304,"validation_loss":0.9562524607564117,"validation_accuracy":0.6946313743083595,"optimizer_steps":960}
+{"epoch":21,"train_weighted_loss":0.6276015259276159,"validation_loss":0.9661184875387879,"validation_accuracy":0.6965754448930761,"optimizer_steps":1008}
+{"epoch":22,"train_weighted_loss":0.6250600377390045,"validation_loss":1.0391132485372738,"validation_accuracy":0.6811724241064753,"optimizer_steps":1056}
+{"epoch":23,"train_weighted_loss":0.6173720347444378,"validation_loss":0.9902500011683116,"validation_accuracy":0.6973231643487363,"optimizer_steps":1104}
+{"epoch":24,"train_weighted_loss":0.6059484606174829,"validation_loss":0.9587542541147936,"validation_accuracy":0.6919395842679826,"optimizer_steps":1152}
+{"epoch":25,"train_weighted_loss":0.5973174834154307,"validation_loss":0.977100069397712,"validation_accuracy":0.6874532675340213,"optimizer_steps":1200}

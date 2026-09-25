@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-09-22T04:32:36+00:00",
+  "candidate": "round6_sequence_bc_v1",
+  "diagnostic_inputs_available_before_freeze": [
+    "round6_full_action_bc lost all 48 development games",
+    "held-out joint-action exact match was 2.14%",
+    "quantity-and-token accuracy was 47.14% for actors and 28.41% for market orders",
+    "teacher-prefix continuation first diverged in within-turn hand allocation and quantity"
+  ],
+  "training": {
+    "teacher_submission": 56216119,
+    "split_unit": "episode_id using the unchanged 20260921 train/validation/test assignment",
+    "actor_target": "all farmer and variable-length hand operation/item tokens",
+    "market_target": "ordered autoregressive market tokens including EOS",
+    "actor_context_addition": "normalized counts and immediately preceding token for actions already decoded in the same joint action",
+    "quantity_target": "separate conditional exact-quantity classifiers for quantity-bearing actor and market tokens",
+    "actor_and_market_hidden_width": 96,
+    "quantity_hidden_width": 64,
+    "maximum_epochs": 10,
+    "early_stopping_patience": 2,
+    "batch_size": 2048,
+    "learning_rate": 0.0015,
+    "token_class_weight_exponent": 0.5,
+    "quantity_class_weight_exponent": 0.0,
+    "training_seed": 20260922
+  },
+  "execution": {
+    "legality_and_economic_corrections": "retained from the independent full-action BC archive",
+    "model_and_execution_stages": "kept separately observable",
+    "archive_loader_validation_required": true
+  },
+  "evaluation": {
+    "development_anchors": ["v122", "v123", "v124"],
+    "development_seeds": [2026102201, 2026102202, 2026102203, 2026102204, 2026102205, 2026102206, 2026102207, 2026102208],
+    "seats": [0, 1],
+    "final_confirmation_seeds": "remain sealed",
+    "promotion_rule": "do not promote on imitation metrics alone; require the preregistered anchor criteria"
+  },
+  "not_claimed": ["DAgger", "reactive teacher continuation", "Kaggle submission", "online validation"]
+}

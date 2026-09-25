@@ -1,0 +1,60 @@
+{
+  "games": 192,
+  "WLT": {
+    "W": 133,
+    "T": 30,
+    "L": 29
+  },
+  "points": 148.0,
+  "point_delta_vs_B1": 2.0,
+  "point_delta_vs_M20": 3.0,
+  "mean_margin": 252.55729166666666,
+  "mean_margin_delta_vs_B1": -4.125,
+  "mean_cash_self_delta_vs_B1": -5.052083333333333,
+  "mean_cash_opponent_delta_vs_B1": -0.9270833333333334,
+  "transitions_vs_B1": {
+    "W->W": 120,
+    "T->T": 28,
+    "L->L": 21,
+    "T->W": 12,
+    "W->L": 4,
+    "T->L": 4,
+    "L->T": 2,
+    "L->W": 1
+  },
+  "transitions_vs_M20": {
+    "W->W": 111,
+    "L->W": 22,
+    "W->T": 20,
+    "L->L": 17,
+    "W->L": 12,
+    "L->T": 6,
+    "T->T": 4
+  },
+  "policy_calls": 276096,
+  "by_opponent": {
+    "B1": {
+      "points_delta_vs_B1": 5.0,
+      "margin_delta_vs_B1": -9.958333333333334
+    },
+    "metav4": {
+      "points_delta_vs_B1": 0.0,
+      "margin_delta_vs_B1": 1.5416666666666667
+    },
+    "order_book": {
+      "points_delta_vs_B1": -4.0,
+      "margin_delta_vs_B1": -9.416666666666666
+    },
+    "v57": {
+      "points_delta_vs_B1": 1.0,
+      "margin_delta_vs_B1": 1.3333333333333333
+    }
+  },
+  "status": "POST_HOC_DIAGNOSTIC_NOT_PROMOTED",
+  "exact_seed_bootstrap_quantiles": {
+    "0.05": -0.036458333333333336,
+    "0.1": -0.026041666666666668,
+    "0.9": 0.046875,
+    "0.95": 0.052083333333333336
+  }
+}

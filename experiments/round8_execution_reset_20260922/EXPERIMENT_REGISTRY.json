@@ -1,0 +1,1030 @@
+{
+  "experiment": "round8_execution_reset_20260922",
+  "created_at_utc": "2026-09-22T12:46:34.468835+00:00",
+  "objective": "repair concrete execution defects, actually train a position-sensitive independent BC, and evaluate closed loop",
+  "safeguards": {
+    "kaggle_submissions_created": 0,
+    "sealed_seed_range_used": false,
+    "existing_success_archives_overwritten": false,
+    "existing_checkpoints_overwritten": false,
+    "dirty_changes_discarded": false
+  },
+  "input_audit": {
+    "zip": {
+      "path": "C:\\Users\\shiba\\Downloads\\Kaggriculture_Round7_Online_Reanalysis_and_Round8_20260922.zip",
+      "bytes": 1882294,
+      "sha256": "9303a2e36ac65e44044827f5679ff64f05eb1a9f8ffcba898058410f10c4eb09"
+    },
+    "report": {
+      "path": "C:\\Users\\shiba\\Kaggle\\round8_reanalysis_input_20260922\\round7_online_reanalysis\\REPORT_JA.md",
+      "bytes": 22650,
+      "sha256": "44775f0dbce91ab73999dcb49a0dbcb25d0e542297beed9620c92c4ef99ef129"
+    },
+    "findings": {
+      "path": "C:\\Users\\shiba\\Kaggle\\round8_reanalysis_input_20260922\\round7_online_reanalysis\\evidence\\findings.json",
+      "bytes": 4307,
+      "sha256": "309b5642c05e8f2c976769c7e0eee496d2d8e276bbc720b8eae71aa91ae11179"
+    },
+    "focused_checks": {
+      "path": "C:\\Users\\shiba\\Kaggle\\round8_reanalysis_input_20260922\\round7_online_reanalysis\\evidence\\focused_checks.json",
+      "bytes": 3709,
+      "sha256": "f06334014fed0f818ff11d5a24c4239074d62647c40765dca4baba3e399b19a0"
+    },
+    "artifact_identity": {
+      "path": "C:\\Users\\shiba\\Kaggle\\round8_reanalysis_input_20260922\\round7_online_reanalysis\\evidence\\artifact_identity.json",
+      "bytes": 969,
+      "sha256": "c1c58c760024ed2d91e20fd6c3a388f04a35a5dd108910ab655927a5a6a86890"
+    }
+  },
+  "frozen_references": {
+    "round1_b_reference": {
+      "path": "artifacts\\submissions\\learning_next_20260921_b_learned_fixed_v3.tar.gz",
+      "bytes": 1865363,
+      "sha256": "f1aede2a9f4a8ad0b8f3b3cd41d1f49708b713ca1cbc4221df472dcba1201105"
+    },
+    "round5_reference": {
+      "path": "artifacts\\submissions\\learning_round5_20260921_learned.tar.gz",
+      "bytes": 118773,
+      "sha256": "c1c158e0212827d6d6a367094a64eaa4f32450667a4ba4013366c9e886bf296b"
+    }
+  },
+  "fixed_engine": {
+    "version": "1.32.7",
+    "engine": {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+    },
+    "loader": {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\agent.py",
+      "bytes": 8090,
+      "sha256": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6"
+    },
+    "config": {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.json",
+      "bytes": 6002,
+      "sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+    },
+    "copied_engine": {
+      "path": "experiments\\round8_execution_reset_20260922\\fixed_engine\\kaggriculture.py",
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+    }
+  },
+  "criteria": {
+    "development": "v122/v124 x 2 seeds x both seats = 8 games per arm",
+    "promotion_to_32": "only candidates improved on development; none qualified",
+    "win_rate_language": "8 games are a diagnostic, not a statistically significant estimate",
+    "economic_and_win_promotion_separated": true
+  },
+  "contract_fixtures": {
+    "path": "experiments\\round8_execution_reset_20260922\\fixtures\\engine_contracts_v2.json",
+    "bytes": 18693,
+    "sha256": "8478cba5d78741d18dcd69c845fde7609c34e97b6c273848194039ef8a470ba2"
+  },
+  "arms": [
+    {
+      "arm": "f0_round7_original",
+      "hypothesis": "frozen Round7 behavior reference; no code or weight change",
+      "change_scope": "none",
+      "archive": {
+        "path": "artifacts\\submissions\\learning_round7_20260922_arm_b_plan_v3.tar.gz",
+        "bytes": 739997,
+        "sha256": "fe3b5bd9b14ec64208fc9360c38b9aaf5cc1b44547dca2b6eee3d24d0aaf1fca"
+      },
+      "engine": {
+        "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "bytes": 40356,
+        "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+      },
+      "opponents": {
+        "v122": {
+          "path": "artifacts\\submissions\\v122.tar.gz",
+          "bytes": 2970508,
+          "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+        },
+        "v124": {
+          "path": "artifacts\\submissions\\v124.tar.gz",
+          "bytes": 1716700,
+          "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+        }
+      },
+      "seeds": [
+        2026102201,
+        2026102202
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "evaluation": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_b_f0\\summary.json",
+          "bytes": 2354,
+          "sha256": "ff2a01f13e02f8210452444bb54291d210bb0e0e9e61595c777b23f6d690c4cc"
+        },
+        "games": 8,
+        "wins_draws_losses": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 8
+        },
+        "mean_our_cash": 28747.375,
+        "mean_margin": -127485.375,
+        "failures": 0,
+        "sealed_seeds_opened": false
+      },
+      "independent_reaggregation": {
+        "games": 8,
+        "all_cash_recounts_match": true,
+        "mean_cash": 28747.375,
+        "games_with_hire": 8,
+        "games_with_crop": 8,
+        "games_with_animal": 8,
+        "games_with_sale": 8,
+        "harvest_units": {
+          "WOOL": 115,
+          "MILK": 1318,
+          "WHEAT": 1178,
+          "CARROT": 228,
+          "MELON": 40,
+          "STRAWBERRY": 191,
+          "TOMATO": 11
+        },
+        "sell_units": {
+          "WHEAT": 628,
+          "FERTILIZER": 812,
+          "WOOL": 115,
+          "MILK": 1318,
+          "MELON": 37,
+          "STRAWBERRY": 187,
+          "CARROT": 198,
+          "TOMATO": 10
+        },
+        "work_effect_rate": 0.9255091473938557,
+        "no_effect_by_operation": {
+          "PICKUP": 48,
+          "CARE": 19,
+          "COLLECT_FERTILIZER": 53,
+          "PLANT": 129,
+          "WATER": 495,
+          "HARVEST": 264,
+          "FEED": 8,
+          "DIG": 63
+        },
+        "mean_plan_intervention_rate": 0.0
+      },
+      "promotion_eligible": false
+    },
+    {
+      "arm": "f1_harvest",
+      "hypothesis": "animal harvest inclusion plus mature-crop contract alone repairs lost yield opportunities",
+      "change_scope": "legality contract only; frozen Round7 checkpoints",
+      "archive": {
+        "path": "artifacts\\submissions\\round8_execution_reset_20260922_f1_harvest_v4.tar.gz",
+        "bytes": 744507,
+        "sha256": "6690aae61cdc6808da54279c30cb6c62863cc6b9bd4a4c0becae47950b305d96"
+      },
+      "engine": {
+        "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "bytes": 40356,
+        "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+      },
+      "opponents": {
+        "v122": {
+          "path": "artifacts\\submissions\\v122.tar.gz",
+          "bytes": 2970508,
+          "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+        },
+        "v124": {
+          "path": "artifacts\\submissions\\v124.tar.gz",
+          "bytes": 1716700,
+          "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+        }
+      },
+      "seeds": [
+        2026102201,
+        2026102202
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "evaluation": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_b_f1\\summary.json",
+          "bytes": 2356,
+          "sha256": "5f6edd446577bf5e2116cb8af49f7b41b8eed9c5811a26d2b63476413ca2f182"
+        },
+        "games": 8,
+        "wins_draws_losses": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 8
+        },
+        "mean_our_cash": 12180.5,
+        "mean_margin": -130892.75,
+        "failures": 0,
+        "sealed_seeds_opened": false
+      },
+      "independent_reaggregation": {
+        "games": 8,
+        "all_cash_recounts_match": true,
+        "mean_cash": 12180.5,
+        "games_with_hire": 8,
+        "games_with_crop": 8,
+        "games_with_animal": 8,
+        "games_with_sale": 8,
+        "harvest_units": {
+          "WOOL": 114,
+          "MILK": 896,
+          "WHEAT": 473,
+          "STRAWBERRY": 143,
+          "MELON": 60,
+          "CARROT": 97,
+          "TOMATO": 24
+        },
+        "sell_units": {
+          "WHEAT": 652,
+          "FERTILIZER": 522,
+          "WOOL": 106,
+          "MILK": 857,
+          "MELON": 48,
+          "STRAWBERRY": 143,
+          "CARROT": 86,
+          "TOMATO": 20
+        },
+        "work_effect_rate": 0.9360528024237178,
+        "no_effect_by_operation": {
+          "PICKUP": 11,
+          "WATER": 340,
+          "PLANT": 90,
+          "CARE": 17,
+          "COLLECT_FERTILIZER": 45,
+          "HARVEST": 59,
+          "DIG": 22,
+          "FEED": 2,
+          "BUILD_PASTURE": 3,
+          "PLACE": 1,
+          "FERTILIZE": 1
+        },
+        "mean_plan_intervention_rate": 0.8077190542420027
+      },
+      "promotion_eligible": false
+    },
+    {
+      "arm": "f2_consistent",
+      "hypothesis": "post-plan sequential resolution removes over-reservation and no-effect final actions",
+      "change_scope": "full contract, plan-endgame, sequential final resolver; frozen Round7 checkpoints",
+      "archive": {
+        "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_consistent_v4.tar.gz",
+        "bytes": 744509,
+        "sha256": "3e8a44d6568837dce493c88ac2464b6777d50c4c89587a6ac59472747c8821ff"
+      },
+      "engine": {
+        "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "bytes": 40356,
+        "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+      },
+      "opponents": {
+        "v122": {
+          "path": "artifacts\\submissions\\v122.tar.gz",
+          "bytes": 2970508,
+          "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+        },
+        "v124": {
+          "path": "artifacts\\submissions\\v124.tar.gz",
+          "bytes": 1716700,
+          "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+        }
+      },
+      "seeds": [
+        2026102201,
+        2026102202
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "evaluation": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_b_f2\\summary.json",
+          "bytes": 2358,
+          "sha256": "4af16228bc9258ed57349ee3aa36791cdd4a012150f97948081332aa01c305bd"
+        },
+        "games": 8,
+        "wins_draws_losses": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 8
+        },
+        "mean_our_cash": 6831.0,
+        "mean_margin": -150715.25,
+        "failures": 0,
+        "sealed_seeds_opened": false
+      },
+      "independent_reaggregation": {
+        "games": 8,
+        "all_cash_recounts_match": true,
+        "mean_cash": 6831.0,
+        "games_with_hire": 8,
+        "games_with_crop": 8,
+        "games_with_animal": 8,
+        "games_with_sale": 8,
+        "harvest_units": {
+          "WOOL": 44,
+          "MILK": 592,
+          "WHEAT": 139,
+          "MELON": 48,
+          "STRAWBERRY": 137,
+          "CARROT": 46
+        },
+        "sell_units": {
+          "WHEAT": 849,
+          "FERTILIZER": 330,
+          "WOOL": 44,
+          "MILK": 592,
+          "MELON": 43,
+          "STRAWBERRY": 135,
+          "CARROT": 33
+        },
+        "work_effect_rate": 1.0,
+        "no_effect_by_operation": {},
+        "mean_plan_intervention_rate": 0.7079276773296245
+      },
+      "promotion_eligible": false
+    },
+    {
+      "arm": "f2_no_plan",
+      "hypothesis": "separates repaired learned decoder from the handwritten livestock plan",
+      "change_scope": "F2 resolver with plan disabled; frozen Round7 checkpoints",
+      "archive": {
+        "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_no_plan_v4.tar.gz",
+        "bytes": 744525,
+        "sha256": "cf3587cb6c1e97c0b316ec6addbb70f74979db0e83485a89942b596c8cb9a276"
+      },
+      "engine": {
+        "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "bytes": 40356,
+        "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+      },
+      "opponents": {
+        "v122": {
+          "path": "artifacts\\submissions\\v122.tar.gz",
+          "bytes": 2970508,
+          "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+        },
+        "v124": {
+          "path": "artifacts\\submissions\\v124.tar.gz",
+          "bytes": 1716700,
+          "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+        }
+      },
+      "seeds": [
+        2026102201,
+        2026102202
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "evaluation": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_b_f2_no_plan\\summary.json",
+          "bytes": 2358,
+          "sha256": "f6d5df63cad921bc9eac69b92111f71accc27ac236ed1896d0323f5fc7fd6431"
+        },
+        "games": 8,
+        "wins_draws_losses": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 8
+        },
+        "mean_our_cash": 7138.875,
+        "mean_margin": -130529.75,
+        "failures": 0,
+        "sealed_seeds_opened": false
+      },
+      "independent_reaggregation": {
+        "games": 8,
+        "all_cash_recounts_match": true,
+        "mean_cash": 7138.875,
+        "games_with_hire": 8,
+        "games_with_crop": 8,
+        "games_with_animal": 8,
+        "games_with_sale": 8,
+        "harvest_units": {
+          "WHEAT": 808,
+          "MELON": 187,
+          "CARROT": 233,
+          "STRAWBERRY": 115,
+          "TOMATO": 9,
+          "WOOL": 5
+        },
+        "sell_units": {
+          "WHEAT": 1070,
+          "FERTILIZER": 41,
+          "MELON": 145,
+          "STRAWBERRY": 113,
+          "CARROT": 197,
+          "TOMATO": 6,
+          "WOOL": 5
+        },
+        "work_effect_rate": 1.0,
+        "no_effect_by_operation": {},
+        "mean_plan_intervention_rate": 0.0
+      },
+      "promotion_eligible": false
+    },
+    {
+      "arm": "spatial_pure_v6",
+      "hypothesis": "position-sensitive inputs plus target-task day-0 recovery can sustain an independent BC economy",
+      "change_scope": "new encoder, four newly trained heads, F2 decoder, plan disabled",
+      "archive": {
+        "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v6.tar.gz",
+        "bytes": 2678445,
+        "sha256": "0b579c006fbc002d2873b55d9c936c149049575383e47309c9d6c0887e1a6e30"
+      },
+      "engine": {
+        "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "bytes": 40356,
+        "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+      },
+      "opponents": {
+        "v122": {
+          "path": "artifacts\\submissions\\v122.tar.gz",
+          "bytes": 2970508,
+          "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+        },
+        "v124": {
+          "path": "artifacts\\submissions\\v124.tar.gz",
+          "bytes": 1716700,
+          "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+        }
+      },
+      "seeds": [
+        2026102201,
+        2026102202
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "evaluation": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\pilot_pure_v6\\summary.json",
+          "bytes": 2360,
+          "sha256": "01752fc5d252e0e2318a88235f1a7be92b553b24bee3fb4b3e4378864a90c31b"
+        },
+        "games": 8,
+        "wins_draws_losses": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 8
+        },
+        "mean_our_cash": 1411.875,
+        "mean_margin": -137263.375,
+        "failures": 0,
+        "sealed_seeds_opened": false
+      },
+      "independent_reaggregation": {
+        "games": 8,
+        "all_cash_recounts_match": true,
+        "mean_cash": 1411.875,
+        "games_with_hire": 8,
+        "games_with_crop": 8,
+        "games_with_animal": 8,
+        "games_with_sale": 8,
+        "harvest_units": {
+          "WHEAT": 36,
+          "MELON": 90
+        },
+        "sell_units": {
+          "WHEAT": 174,
+          "FERTILIZER": 52,
+          "MELON": 86
+        },
+        "work_effect_rate": 1.0,
+        "no_effect_by_operation": {},
+        "mean_plan_intervention_rate": 0.0
+      },
+      "promotion_eligible": false
+    },
+    {
+      "arm": "spatial_hybrid_v6",
+      "hypothesis": "same learned checkpoints with explicit handwritten livestock plan quantifies hybrid rescue",
+      "change_scope": "spatial pure plus handwritten livestock plan",
+      "archive": {
+        "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v6.tar.gz",
+        "bytes": 2678440,
+        "sha256": "dd568a4bbda514ae9ce1dfec42a4dd95bac776a2ae17739b1b134c42a1ace393"
+      },
+      "engine": {
+        "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+        "bytes": 40356,
+        "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+      },
+      "opponents": {
+        "v122": {
+          "path": "artifacts\\submissions\\v122.tar.gz",
+          "bytes": 2970508,
+          "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+        },
+        "v124": {
+          "path": "artifacts\\submissions\\v124.tar.gz",
+          "bytes": 1716700,
+          "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+        }
+      },
+      "seeds": [
+        2026102201,
+        2026102202
+      ],
+      "seats": [
+        0,
+        1
+      ],
+      "evaluation": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\pilot_hybrid_v6\\summary.json",
+          "bytes": 2362,
+          "sha256": "84c2db505861d04609e93104ef98985b1b0081529c7c3d4209e102084f2921ea"
+        },
+        "games": 8,
+        "wins_draws_losses": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 8
+        },
+        "mean_our_cash": 17696.5,
+        "mean_margin": -114612.125,
+        "failures": 0,
+        "sealed_seeds_opened": false
+      },
+      "independent_reaggregation": {
+        "games": 8,
+        "all_cash_recounts_match": true,
+        "mean_cash": 17696.5,
+        "games_with_hire": 8,
+        "games_with_crop": 8,
+        "games_with_animal": 8,
+        "games_with_sale": 8,
+        "harvest_units": {
+          "WHEAT": 111,
+          "WOOL": 534,
+          "MILK": 612,
+          "STRAWBERRY": 29,
+          "MELON": 5
+        },
+        "sell_units": {
+          "WHEAT": 183,
+          "FERTILIZER": 543,
+          "WOOL": 534,
+          "MILK": 612,
+          "STRAWBERRY": 29,
+          "MELON": 5
+        },
+        "work_effect_rate": 1.0,
+        "no_effect_by_operation": {},
+        "mean_plan_intervention_rate": 0.7772948539638387
+      },
+      "promotion_eligible": false
+    }
+  ],
+  "spatial_training": {
+    "teacher_submission": 56216119,
+    "teacher_family_count": 1,
+    "dataset": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\dataset_manifest.json",
+      "bytes": 23998,
+      "sha256": "acb3c740630a746fab2783d925ac4478a1b0d4b8920a95245cfc8c2ad6e72e13"
+    },
+    "split": {
+      "train_episodes": 12,
+      "validation_episodes": 4,
+      "test_episodes": 4
+    },
+    "overfit_v1_failed": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\overfit_probe\\result.json",
+      "bytes": 483,
+      "sha256": "a9924438d4bfc4b1046a895aed59f09c3cab43287878f598f26402a845b44c43"
+    },
+    "overfit_v2_passed": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\overfit_probe_v2\\result.json",
+      "bytes": 637,
+      "sha256": "c8f0206b22d7db73395ca574aa0005550f2b59895a634cef2986fc6834ffc701"
+    },
+    "model_runs": {
+      "20260922": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\models_v5\\seed_20260922\\training_summary.json",
+          "bytes": 147034,
+          "sha256": "7a2736f7522abda707b96dd746b029c8954bcae9419a597a9631a9b0dfebdacb"
+        },
+        "models": {
+          "actor_token": {
+            "checkpoint_sha256": "33b0df76cdca4773060874809b33de3ce7bc985295f79e302bc16a92144d9539",
+            "architecture": [
+              1871,
+              96,
+              48,
+              44
+            ],
+            "optimizer_steps_total": 1080,
+            "optimizer_steps_at_checkpoint": 880,
+            "best_epoch": 22,
+            "validation_accuracy": 0.5734835355285962,
+            "test_accuracy": 0.5816593886462882
+          },
+          "market_token": {
+            "checkpoint_sha256": "b73b73447033d55237e6fad4f6e2fabc04787ce41d720cb40013598166b39f52",
+            "architecture": [
+              1664,
+              96,
+              48,
+              22
+            ],
+            "optimizer_steps_total": 1392,
+            "optimizer_steps_at_checkpoint": 1152,
+            "best_epoch": 24,
+            "validation_accuracy": 0.7045012711230746,
+            "test_accuracy": 0.6954169797145003
+          },
+          "actor_quantity": {
+            "checkpoint_sha256": "579427032cfe480b5774a2d0588dd78b3193956e683df127235762451f76ebc3",
+            "architecture": [
+              1915,
+              96,
+              48,
+              12
+            ],
+            "optimizer_steps_total": 80,
+            "optimizer_steps_at_checkpoint": 78,
+            "best_epoch": 39,
+            "validation_accuracy": 0.6666666666666666,
+            "test_accuracy": 0.6901960784313725
+          },
+          "market_quantity": {
+            "checkpoint_sha256": "2b2da5a754efc3eb73709dbd728b1eb3460083ecb5b2e6d615e6c7d4311dadb2",
+            "architecture": [
+              1686,
+              96,
+              48,
+              37
+            ],
+            "optimizer_steps_total": 512,
+            "optimizer_steps_at_checkpoint": 432,
+            "best_epoch": 27,
+            "validation_accuracy": 0.6221461187214612,
+            "test_accuracy": 0.6094470046082949
+          }
+        },
+        "reload_and_inference": {
+          "actor_token": {
+            "classes": 44,
+            "layers": [
+              [
+                1871,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                44
+              ]
+            ],
+            "finite_probability": true
+          },
+          "market_token": {
+            "classes": 22,
+            "layers": [
+              [
+                1664,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                22
+              ]
+            ],
+            "finite_probability": true
+          },
+          "actor_quantity": {
+            "classes": 12,
+            "layers": [
+              [
+                1915,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                12
+              ]
+            ],
+            "finite_probability": true
+          },
+          "market_quantity": {
+            "classes": 37,
+            "layers": [
+              [
+                1686,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                37
+              ]
+            ],
+            "finite_probability": true
+          }
+        }
+      },
+      "20260923": {
+        "summary": {
+          "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\models_v5\\seed_20260923\\training_summary.json",
+          "bytes": 147103,
+          "sha256": "006a05effcf33da1b75529667412111cbb8a2878aa23cbd88c78b0f6d663f99d"
+        },
+        "models": {
+          "actor_token": {
+            "checkpoint_sha256": "73207a5eaa64e53b82145266ae87057b8e77914c90aa4e8a0f5c4c5f0f2a8767",
+            "architecture": [
+              1871,
+              96,
+              48,
+              44
+            ],
+            "optimizer_steps_total": 1040,
+            "optimizer_steps_at_checkpoint": 840,
+            "best_epoch": 21,
+            "validation_accuracy": 0.5727902946273831,
+            "test_accuracy": 0.5825327510917031
+          },
+          "market_token": {
+            "checkpoint_sha256": "b8f2bd5b009fae038678b527434ec3762bd88367574054fdf633329ed4650512",
+            "architecture": [
+              1664,
+              96,
+              48,
+              22
+            ],
+            "optimizer_steps_total": 1200,
+            "optimizer_steps_at_checkpoint": 960,
+            "best_epoch": 20,
+            "validation_accuracy": 0.6946313743083595,
+            "test_accuracy": 0.6823441021788129
+          },
+          "actor_quantity": {
+            "checkpoint_sha256": "1be891bab06aedc06602ab29b92d2f15131e8a9375d38baf971ed90aa3a15ec9",
+            "architecture": [
+              1915,
+              96,
+              48,
+              12
+            ],
+            "optimizer_steps_total": 70,
+            "optimizer_steps_at_checkpoint": 60,
+            "best_epoch": 30,
+            "validation_accuracy": 0.6590038314176245,
+            "test_accuracy": 0.7058823529411765
+          },
+          "market_quantity": {
+            "checkpoint_sha256": "a1ddbfcbe0f36ab8d9e6111f6ce57bff43d0c074be427bd89426eae7a43683e1",
+            "architecture": [
+              1686,
+              96,
+              48,
+              37
+            ],
+            "optimizer_steps_total": 576,
+            "optimizer_steps_at_checkpoint": 496,
+            "best_epoch": 31,
+            "validation_accuracy": 0.632800608828006,
+            "test_accuracy": 0.6148233486943164
+          }
+        },
+        "reload_and_inference": {
+          "actor_token": {
+            "classes": 44,
+            "layers": [
+              [
+                1871,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                44
+              ]
+            ],
+            "finite_probability": true
+          },
+          "market_token": {
+            "classes": 22,
+            "layers": [
+              [
+                1664,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                22
+              ]
+            ],
+            "finite_probability": true
+          },
+          "actor_quantity": {
+            "classes": 12,
+            "layers": [
+              [
+                1915,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                12
+              ]
+            ],
+            "finite_probability": true
+          },
+          "market_quantity": {
+            "classes": 37,
+            "layers": [
+              [
+                1686,
+                96
+              ],
+              [
+                96,
+                48
+              ],
+              [
+                48,
+                37
+              ]
+            ],
+            "finite_probability": true
+          }
+        }
+      }
+    },
+    "selected_archive_version": "v6",
+    "classification": {
+      "spatial_pure_v6": "independent BC plus execution-safety decoder",
+      "spatial_hybrid_v6": "hybrid; handwritten livestock plan materially controls actions"
+    }
+  },
+  "change_history": [
+    {
+      "version": "spatial v1/v2",
+      "result": "market trained only on even steps; step-1 HIRE omitted"
+    },
+    {
+      "version": "spatial v3",
+      "result": "all market steps, weighted token loss; extra initial animal orders"
+    },
+    {
+      "version": "spatial v4",
+      "result": "unweighted market token; HIRE repeated seven times"
+    },
+    {
+      "version": "spatial v5",
+      "result": "day-0 market recovery; actor diverged at record 2"
+    },
+    {
+      "version": "spatial v6",
+      "result": "day-0 actor+market recovery; selected development artifact"
+    }
+  ],
+  "excluded_non_candidates": [
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f1_harvest.tar.gz",
+      "bytes": 744230,
+      "sha256": "a229ba25c997054c94c9fca91e81e2d3420de4dc3521e601e37a89774a0cb6bc"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f1_harvest_v2.tar.gz",
+      "bytes": 744372,
+      "sha256": "2d75bfa9e81420f32b3e43ac7b65c3ad8372deb255bf612097bbbe60f8a21dd5"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f1_harvest_v3.tar.gz",
+      "bytes": 744395,
+      "sha256": "347d31efb90f650ce1b162d6e281d43b561ecc7a49650b4f4473783ffeb7c8af"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_consistent.tar.gz",
+      "bytes": 744234,
+      "sha256": "6b75fc01243b1966fbec6c465aae82206915e5d378e5749ee7c60102312f0250"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_consistent_v2.tar.gz",
+      "bytes": 744374,
+      "sha256": "5026ef2a18f35db7a23e4c2e7a00b3c5db8c8ebcfbbcc1dda96db231e915c656"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_consistent_v3.tar.gz",
+      "bytes": 744394,
+      "sha256": "92f905a481a676bf1e5589fe6d48bb285611e56ccc997c6b3c6d6e08d206b7f6"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_no_plan.tar.gz",
+      "bytes": 744249,
+      "sha256": "035e9559617ef8ac97c318e527f2a308ea82d003ae44fda63a213d7c0939fbb4"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_no_plan_v2.tar.gz",
+      "bytes": 744385,
+      "sha256": "4dcce10a157ebcde29834438dec6ed997cbadc0bb3f3ee269c7f44e260e3bbd0"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_execution_reset_20260922_f2_no_plan_v3.tar.gz",
+      "bytes": 744407,
+      "sha256": "a0463b3aa56e3c638986fd5e12ac805ac98ed97a3cd256265b5ad9d477d5f815"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v1.tar.gz",
+      "bytes": 2676106,
+      "sha256": "e63549d96aef7bbf78f89a95e191a06cc7ac174079e59aefb8da3a979d5eb4f9"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v2.tar.gz",
+      "bytes": 2676186,
+      "sha256": "e49af803c21234809278f9f16f004d8688f0c37fd896d9bf8e2644071e6b39d9"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v3.tar.gz",
+      "bytes": 2677295,
+      "sha256": "6592ae1768cff3b63a0246aad093240785a4a6e6f74e5641161d3a51d7bc1371"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v4.tar.gz",
+      "bytes": 2677788,
+      "sha256": "3636bf9e8f62c418f0025d5c524869f85f94cafb2d9981d11a02ffb07cf177ca"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v5.tar.gz",
+      "bytes": 2678302,
+      "sha256": "88dacefa7b296c533a071657fb3c65cbd65ba1efd9b59af915072cbc870c16c9"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v1.tar.gz",
+      "bytes": 2676107,
+      "sha256": "ce952b6333ca6188dc7f7346a3d833515ff7e3c47ace7560569e660bccdc2a0e"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v2.tar.gz",
+      "bytes": 2676199,
+      "sha256": "26b97504f6f64c1b53c167b2e93883166950429875b054540ae19205644b9b16"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v3.tar.gz",
+      "bytes": 2677291,
+      "sha256": "fe24653cd3aef1cbd2abbc57a47fd35e6d685ec71122c25ba691268a6ffec5d5"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v4.tar.gz",
+      "bytes": 2677788,
+      "sha256": "e40d271297ba4676fe1ed5bdcb131cb34f3a86bc37192feed5473d06462583e6"
+    },
+    {
+      "path": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v5.tar.gz",
+      "bytes": 2678294,
+      "sha256": "b4ffe2f955444a233a6c2ade14f3f32cec185e8b6e6da3b4ed51cf77f81875d5"
+    }
+  ],
+  "final_decisions": {
+    "implementation_success": true,
+    "learning_updates_performed": true,
+    "execution_consistency_improved": true,
+    "research_economic_improvement": "hybrid-only versus spatial pure; not versus F0",
+    "stronger_than_baseline": false,
+    "submission_ready": false
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "contract": "METRIC_CONTRACT.json",
+  "zero_denominator_rule": "ratio=null and status=NOT_APPLICABLE",
+  "teacher_positive_control": {
+    "source_episode": 109118332,
+    "environment_seed": 338650874,
+    "mapping": "observation steps[t] -> action steps[t+1] -> observation steps[t+1]",
+    "state_exact_match": {"numerator": 1440, "denominator": 1440, "ratio": 1.0, "unit": "state-seat record", "prediction_stage": "observed engine effect"},
+    "codec_roundtrip": {"numerator": 8824, "denominator": 8824, "ratio": 1.0, "unit": "actor command/market order/EOS", "unknown_label_count": 0, "prediction_stage": "codec"},
+    "recorded_and_replayed_rewards": [111530, 99333],
+    "classification": "REPRODUCTION_DIAGNOSTIC"
+  },
+  "teacher_through_decoder": {
+    "dataset_split": "single positive-control train episode",
+    "teacher_forcing": true,
+    "self_generated_physical_state": false,
+    "A0_frozen": {
+      "raw_requested_retention": {"numerator": 8648, "denominator": 8824, "ratio": 0.9800543970988214, "unit": "request"},
+      "final_joint_turn_exact": {"numerator": 608, "denominator": 719, "ratio": 0.8456189151599444, "unit": "joint turn"},
+      "official_state_effect_equivalence": {"numerator": 713, "denominator": 719, "ratio": 0.9916550764951322, "unit": "turn"}
+    },
+    "A1_prefix_legality_frozen_weights": {
+      "raw_requested_retention": {"numerator": 8648, "denominator": 8824, "ratio": 0.9800543970988214, "unit": "request"},
+      "final_joint_turn_exact": {"numerator": 608, "denominator": 719, "ratio": 0.8456189151599444, "unit": "joint turn"},
+      "official_state_effect_equivalence": {"numerator": 713, "denominator": 719, "ratio": 0.9916550764951322, "unit": "turn"}
+    },
+    "A2_unified_prefix_contract": {
+      "raw_requested_retention": {"numerator": 8659, "denominator": 8824, "ratio": 0.9813009972801451, "unit": "request"},
+      "final_joint_turn_exact": {"numerator": 612, "denominator": 719, "ratio": 0.8511821974965229, "unit": "joint turn"},
+      "official_state_effect_equivalence": {"numerator": 719, "denominator": 719, "ratio": 1.0, "unit": "turn"}
+    }
+  },
+  "negative_controls": {
+    "all_passed": true,
+    "controls": ["all_PASS", "movement_only", "delete_work", "replace_all_quantities_with_1", "shift_teacher_action_by_1"],
+    "all_pass_work_effect": {"numerator": 0, "denominator": 0, "ratio": null, "status": "NOT_APPLICABLE"},
+    "source": "contract_controls_v2/summary.json"
+  },
+  "selected_A2_checkpoint": {
+    "learning_seed": 20260924,
+    "selection_basis": "validation only; better actor-token, market-token, market-quantity accuracy and three of four validation losses than seed 20260923",
+    "validation": {
+      "actor_token": {"numerator": 13933, "denominator": 16691, "ratio": 0.8347612485770775, "unit": "actor token"},
+      "market_token": {"numerator": 4691, "denominator": 6650, "ratio": 0.7054135338345865, "unit": "market token including EOS"},
+      "actor_quantity_known": {"numerator": 935, "denominator": 1284, "ratio": 0.7281931464174455, "unit": "quantity row", "all_rows": 1286, "unknown_label_count": 2},
+      "market_quantity_known": {"numerator": 1641, "denominator": 2608, "ratio": 0.629217791411043, "unit": "quantity row", "all_rows": 2611, "unknown_label_count": 3}
+    },
+    "old_test_development_only": {
+      "actor_token": {"numerator": 13899, "denominator": 16692, "ratio": 0.8326743350107836},
+      "market_token": {"numerator": 4617, "denominator": 6714, "ratio": 0.6876675603217158},
+      "actor_quantity_known": {"numerator": 850, "denominator": 1205, "ratio": 0.7053941908713693, "all_rows": 1206, "unknown_label_count": 1},
+      "market_quantity_known": {"numerator": 1641, "denominator": 2669, "ratio": 0.6148370176095916, "all_rows": 2672, "unknown_label_count": 3}
+    },
+    "checkpoint_sha256": {
+      "actor_token": "d7997b9f818e5d2577be3b93a39df5b9c6aaf31a4077d6627209e78401e0f755",
+      "actor_quantity": "192a4c2de5f49413924dbd80850848ac6cf1c9f8bb82b0c98ab4c36e1809f1cc",
+      "market_token": "e6c83b91036da8a1b21a5694a6e8816f61765ccffcb539cf9e515d21c74f36af",
+      "market_quantity": "7b3d9e8bff8db7a5bac3af43442dfaa402a112c9f11dd8b1671753d0776bca94"
+    }
+  },
+  "single_trajectory_control": {
+    "episode": 109118332,
+    "learning_seed": 20260925,
+    "empirical_exact_input_label_ceiling": {"actor": 1.0, "market": 1.0},
+    "T1": {
+      "actor_token": {"numerator": 7089, "denominator": 7196, "ratio": 0.9851306281267371},
+      "actor_complete": {"numerator": 7087, "denominator": 7196, "ratio": 0.9848526959421902},
+      "market_token": {"numerator": 1601, "denominator": 1628, "ratio": 0.9834152334152334},
+      "ordered_market_list": {"numerator": 692, "denominator": 719, "ratio": 0.9624478442280946},
+      "joint_turn": {"numerator": 596, "denominator": 719, "ratio": 0.8289290681502086}
+    },
+    "T2": {
+      "actor_token": {"numerator": 6769, "denominator": 7196, "ratio": 0.9406614785992218},
+      "market_token": {"numerator": 1577, "denominator": 1628, "ratio": 0.9686732186732187},
+      "joint_turn": {"numerator": 460, "denominator": 719, "ratio": 0.6397774687065368},
+      "official_state_effect": {"numerator": 485, "denominator": 719, "ratio": 0.674547983310153}
+    },
+    "T3": {
+      "classification": "REPRODUCTION_DIAGNOSTIC_FIXED_RECORDED_OPPONENT",
+      "actor_token": {"numerator": 910, "denominator": 7196, "ratio": 0.1264591439688716},
+      "market_token": {"numerator": 883, "denominator": 1628, "ratio": 0.5423832923832924},
+      "joint_turn": {"numerator": 18, "denominator": 719, "ratio": 0.025034770514603615},
+      "state_record_exact": {"numerator": 16, "denominator": 720, "ratio": 0.022222222222222223},
+      "first_token_difference_step": 15,
+      "first_state_difference_record": 16,
+      "first_cash_difference_record": 17,
+      "first_work_failure_step": 319,
+      "first_sale_difference_step": 16,
+      "final_rewards": [4658, 116304]
+    }
+  },
+  "main_A2_on_control_episode": {
+    "T1_joint_turn": {"numerator": 14, "denominator": 719, "ratio": 0.019471488178025034},
+    "T2_joint_turn": {"numerator": 15, "denominator": 719, "ratio": 0.02086230876216968},
+    "T2_official_state_effect": {"numerator": 24, "denominator": 719, "ratio": 0.03337969401947149},
+    "T3_joint_turn": {"numerator": 3, "denominator": 719, "ratio": 0.004172461752433936},
+    "T3_state_record_exact": {"numerator": 2, "denominator": 720, "ratio": 0.002777777777777778},
+    "T3_final_rewards": [1353, 99364]
+  },
+  "real_opponent_panels": {
+    "A0_frozen_8": {"games": 8, "wins": 0, "draws": 0, "losses": 8, "mean_our_cash": 1411.875, "mean_margin": -137263.375},
+    "A1_frozen_weights_prefix_legality_8": {"games": 8, "wins": 0, "draws": 0, "losses": 8, "mean_our_cash": 648.25, "mean_margin": -146260.125},
+    "A2_final_v3_8": {"games": 8, "wins": 0, "draws": 0, "losses": 8, "mean_our_cash": 10787.75, "mean_margin": -128250.375},
+    "A2_v2_expanded_64": {"games": 64, "wins": 0, "draws": 0, "losses": 64, "mean_our_cash": 9604.546875, "mean_margin": -147861.125, "games_with_animal_yield": 62, "games_with_animal_harvest": 62},
+    "round8_hybrid_reference_8": {"games": 8, "wins": 0, "draws": 0, "losses": 8, "mean_our_cash": 17696.5, "mean_margin": -114612.125, "classification": "hybrid rescue reference, not independent learned policy"}
+  },
+  "economy_A2_expanded_64": {
+    "cash_reconciliation": {"numerator": 64, "denominator": 64, "ratio": 1.0, "absolute_error": 0},
+    "work_effect_rate": {"numerator": 35683, "denominator": 35683, "ratio": 1.0, "unit": "issued non-move non-PASS actor command", "day_boundary_terminal_unknown_count": 730},
+    "starting_cash": 192000,
+    "sales_revenue": 790105,
+    "purchase_cost": 301715,
+    "hire_cost": 49699,
+    "land_cost": 16000,
+    "ending_cash": 614691,
+    "actual_sold_units": {"WHEAT": 5536, "FERTILIZER": 2158, "MILK": 861, "MELON": 855, "WOOL": 421},
+    "harvested_units": {"WHEAT": 4478, "MILK": 861, "MELON": 924, "WOOL": 421}
+  },
+  "execution_counts": {
+    "new_training_runs": 3,
+    "new_head_fits": 12,
+    "new_real_opponent_games": 176,
+    "real_opponent_policy_calls": 126544,
+    "new_T3_fixed_tape_rollouts": 4,
+    "new_kaggle_submissions": 0,
+    "sealed_seeds_opened": 0
+  },
+  "final_archive": {
+    "path": "artifacts/submissions/round9_20260923_a2_prefix_bc_seed20260924_v3.tar.gz",
+    "sha256": "f5ac17a3b7db2d1311f066f9e19b1c8aa0ccf577d0955b7e2a78e03b8246811a",
+    "official_loader_selected_callable": "agent",
+    "external_extraction_reload_passed": true,
+    "consecutive_episode_reset_passed": true
+  }
+}

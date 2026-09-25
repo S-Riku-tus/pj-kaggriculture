@@ -1,0 +1,25 @@
+{
+  "user_archive": {
+    "path": "C:/Users/shiba/Downloads/Kaggriculture_Round8_Reconsidered_and_Round9_Revised_20260923.zip",
+    "sha256": "4a4f8c2748808e86a25f85b744264b095f40b42e59e6359b8303baf652f23d3c",
+    "extracted_read_only_copy": ".tmp/round9_input_20260923/Kaggriculture_Round8_Reconsidered_20260923"
+  },
+  "source_data": {
+    "teacher_submission": 56216119,
+    "locally_available_teacher_episodes": 579,
+    "source_manifest": {"path": "experiments/learning_next_20260921/source_manifest.json", "sha256": "4f4e4fbd4a322c3aaedf27d1b03aef47ceaff51ffda91c602be50130f47707be"},
+    "split_manifest": {"path": "experiments/learning_next_20260921/split_manifest.json", "sha256": "cb8aab7dc031166d31167397379dbe7aa233f1b096774d8342fa1af4d1d10376"},
+    "round9_dataset_manifest": {"path": "a2_prefix_bc/dataset_v1/dataset_manifest.json", "sha256": "89ca248845d58e9b543a165e657ac56040747d09f18359dd19e6930d5855415a"},
+    "positive_control_replay": {"path": "data/replays/submission_56216119/episode_109118332.json", "sha256": "94c21f59dd6fe86023fd986649fb28fc20e8eaafde0d0159418758a21d7a2a48"}
+  },
+  "archives": {
+    "A0_round8_spatial_pure_v6": {"path": "artifacts/submissions/round8_spatial_bc_20260922_seed20260922_pure_v6.tar.gz", "sha256": "0b579c006fbc002d2873b55d9c936c149049575383e47309c9d6c0887e1a6e30"},
+    "v122": {"path": "artifacts/submissions/v122.tar.gz", "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"},
+    "v124": {"path": "artifacts/submissions/v124.tar.gz", "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"},
+    "final_A2_v3": {"path": "artifacts/submissions/round9_20260923_a2_prefix_bc_seed20260924_v3.tar.gz", "sha256": "f5ac17a3b7db2d1311f066f9e19b1c8aa0ccf577d0955b7e2a78e03b8246811a"}
+  },
+  "network_fetches_this_round": 0,
+  "paid_api_calls": 0,
+  "kaggle_submissions": 0,
+  "sealed_ranges_opened": 0
+}

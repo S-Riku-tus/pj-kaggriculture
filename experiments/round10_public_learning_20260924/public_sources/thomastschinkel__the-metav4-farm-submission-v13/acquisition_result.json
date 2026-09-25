@@ -1,0 +1,37 @@
+{
+  "fetched_at_utc": "2026-09-24T00:54:05.705352+00:00",
+  "kernel": "thomastschinkel/the-metav4-farm-submission-v13",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/thomastschinkel/the-metav4-farm-submission-v13",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 1769892,
+  "response_sha256": "0b1a004ec7ddf431ed22f3220564bbbacadbddd525023f3157f6680ae644a6ce",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 874849,
+      "sha256": "715269c7a7bf738c010d9320552a01d9e8a5696a3e8691b65094ee39f52bdee1",
+      "main": {
+        "main_cells": 0,
+        "cell_ids": []
+      },
+      "decoded_sources": [
+        {
+          "source_path": "cell[5].string[0]",
+          "path": "decoded_main_1.py",
+          "bytes": 1004288,
+          "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "thomastschinkel/the-metav4-farm-submission-v13",
+    "title": "The Metav4 Farm: Submission v13",
+    "author": "Thomas Tschinkel",
+    "slug": "the-metav4-farm-submission-v13",
+    "lastRunTime": "2026-09-21T00:54:00.9008564Z"
+  }
+}

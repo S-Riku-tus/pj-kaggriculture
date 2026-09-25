@@ -1,0 +1,70 @@
+{
+  "schema": "round11-generated-arm-manifest-v1",
+  "baseline_path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+  "baseline_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+  "variants": [
+    {
+      "arm": "m20_multi_hypothesis",
+      "path": "experiments/round11_execution_20260924/arms/m20_multi_hypothesis/main.py",
+      "sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+      "bytes": 1034317,
+      "last_top_level_function": "opening_liquidity_agent",
+      "changes": [
+        "B1 forecast keeps up to three near-best trajectories; B1 opening retained"
+      ]
+    },
+    {
+      "arm": "m11_final_response",
+      "path": "experiments/round11_execution_20260924/arms/m11_final_response/main.py",
+      "sha256": "a08a19f9a2852f4e27ba0d082b70ce559f78fe5173f42011fd529fb25607ae73",
+      "bytes": 1036737,
+      "last_top_level_function": "m11_response_agent",
+      "changes": [
+        "one response to final B1 orders; fixed-price orders never advanced"
+      ]
+    },
+    {
+      "arm": "m11_robust_response",
+      "path": "experiments/round11_execution_20260924/arms/m11_robust_response/main.py",
+      "sha256": "0bea36c2040b5090be76f4b4bab54caafd424815c9d915d4b2ba40f21f28bbbd",
+      "bytes": 1036738,
+      "last_top_level_function": "m11_response_agent",
+      "changes": [
+        "one response robust to final and pre-CXD B1 order hypotheses"
+      ]
+    },
+    {
+      "arm": "m20_m11_final",
+      "path": "experiments/round11_execution_20260924/arms/m20_m11_final/main.py",
+      "sha256": "dd704f0a9fa9d3fa3a8eee171892ee3859d4ed3195b2168b5a88682f51558d4d",
+      "bytes": 1037295,
+      "last_top_level_function": "m11_response_agent",
+      "changes": [
+        "M20 multi-hypothesis forecast",
+        "M11 final-order response"
+      ]
+    },
+    {
+      "arm": "wool_gate_open_control",
+      "path": "experiments/round11_execution_20260924/arms/wool_gate_open_control/main.py",
+      "sha256": "5472e710d53c0ae66c91963e0453e88f57f936c610bced2d059d1741dedfe66a",
+      "bytes": 1034556,
+      "last_top_level_function": "wool_gate_open_agent",
+      "changes": [
+        "diagnostic control: V9_RACEGATE_BASE[WOOL]=0 on every decision"
+      ]
+    },
+    {
+      "arm": "cw1_conditional_wool",
+      "path": "experiments/round11_execution_20260924/arms/cw1_conditional_wool/main.py",
+      "sha256": "03ce209a821496fe33916a8c425fbedd4d4a13133820e720c99d1d845d51fbed",
+      "bytes": 1037709,
+      "last_top_level_function": "conditional_wool_agent",
+      "changes": [
+        "open WOOL reservation only with >=2 public-history trajectory votes",
+        "require conservative imminent lot >=8 after town demand and predicted quote loss >=5",
+        "preserve B1 reservation debt, stock, pickup, purchase, horizon and order-cap logic"
+      ]
+    }
+  ]
+}

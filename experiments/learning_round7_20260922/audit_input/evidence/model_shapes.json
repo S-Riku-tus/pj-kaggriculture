@@ -1,0 +1,126 @@
+[
+  {
+    "name": "actor_token",
+    "shapes": {
+      "mean": [
+        407
+      ],
+      "scale": [
+        407
+      ],
+      "w1": [
+        407,
+        96
+      ],
+      "b1": [
+        96
+      ],
+      "w2": [
+        96,
+        44
+      ],
+      "b2": [
+        44
+      ],
+      "classes": [
+        44
+      ]
+    },
+    "learned_parameters": 43436,
+    "test_accuracy": 0.7890661420184734,
+    "steps": 2840
+  },
+  {
+    "name": "market_token",
+    "shapes": {
+      "mean": [
+        256
+      ],
+      "scale": [
+        256
+      ],
+      "w1": [
+        256,
+        96
+      ],
+      "b1": [
+        96
+      ],
+      "w2": [
+        96,
+        22
+      ],
+      "b2": [
+        22
+      ],
+      "classes": [
+        22
+      ]
+    },
+    "learned_parameters": 26806,
+    "test_accuracy": 0.7715899816364007,
+    "steps": 1760
+  },
+  {
+    "name": "actor_quantity",
+    "shapes": {
+      "mean": [
+        451
+      ],
+      "scale": [
+        451
+      ],
+      "w1": [
+        451,
+        64
+      ],
+      "b1": [
+        64
+      ],
+      "w2": [
+        64,
+        27
+      ],
+      "b2": [
+        27
+      ],
+      "classes": [
+        27
+      ]
+    },
+    "learned_parameters": 30683,
+    "test_accuracy": 0.7880608222263938,
+    "steps": 130
+  },
+  {
+    "name": "market_quantity",
+    "shapes": {
+      "mean": [
+        278
+      ],
+      "scale": [
+        278
+      ],
+      "w1": [
+        278,
+        64
+      ],
+      "b1": [
+        64
+      ],
+      "w2": [
+        64,
+        56
+      ],
+      "b2": [
+        56
+      ],
+      "classes": [
+        56
+      ]
+    },
+    "learned_parameters": 21496,
+    "test_accuracy": 0.6716731087796798,
+    "steps": 620
+  }
+]

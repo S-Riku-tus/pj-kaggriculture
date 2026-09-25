@@ -1,0 +1,830 @@
+{
+  "created_at_utc": "2026-09-23T13:23:02.252618+00:00",
+  "source_episode": 109118332,
+  "source_replay": "data\\replays\\submission_56216119\\episode_109118332.json",
+  "source_replay_sha256": "94c21f59dd6fe86023fd986649fb28fc20e8eaafde0d0159418758a21d7a2a48",
+  "stages": {
+    "a2_seed20260924": {
+      "T1": {
+        "regime": "T1 teacher physical state + teacher causal actor/order prefix",
+        "teacher_forcing": true,
+        "self_generated_physical_state": false,
+        "actor": {
+          "token": {
+            "numerator": 4201,
+            "denominator": 7196,
+            "ratio": 0.5837965536409117
+          },
+          "quantity_all_applicable_rows": {
+            "numerator": 234,
+            "denominator": 314,
+            "ratio": 0.7452229299363057,
+            "unknown_label_count": 0
+          },
+          "complete_command_or_order": {
+            "numerator": 4135,
+            "denominator": 7196,
+            "ratio": 0.5746247915508615
+          },
+          "first_token_error_row": 9
+        },
+        "market": {
+          "token": {
+            "numerator": 1088,
+            "denominator": 1628,
+            "ratio": 0.6683046683046683
+          },
+          "quantity_all_applicable_rows": {
+            "numerator": 367,
+            "denominator": 618,
+            "ratio": 0.5938511326860841,
+            "unknown_label_count": 0
+          },
+          "complete_command_or_order": {
+            "numerator": 1026,
+            "denominator": 1628,
+            "ratio": 0.6302211302211302
+          },
+          "first_token_error_row": 7
+        },
+        "ordered_market_list": {
+          "numerator": 286,
+          "denominator": 719,
+          "ratio": 0.39777468706536856
+        },
+        "joint_turn": {
+          "numerator": 14,
+          "denominator": 719,
+          "ratio": 0.019471488178025034
+        },
+        "checkpoint_hashes": {
+          "actor_token": "d7997b9f818e5d2577be3b93a39df5b9c6aaf31a4077d6627209e78401e0f755",
+          "actor_quantity": "192a4c2de5f49413924dbd80850848ac6cf1c9f8bb82b0c98ab4c36e1809f1cc",
+          "market_token": "e6c83b91036da8a1b21a5694a6e8816f61765ccffcb539cf9e515d21c74f36af",
+          "market_quantity": "7b3d9e8bff8db7a5bac3af43442dfaa402a112c9f11dd8b1671753d0776bca94"
+        }
+      },
+      "T2": {
+        "regime": "T2 teacher physical state + self-generated same-turn prefix/history",
+        "teacher_forcing": "physical state only",
+        "self_generated_physical_state": false,
+        "actor_token": {
+          "numerator": 4033,
+          "denominator": 7196,
+          "ratio": 0.5604502501389661
+        },
+        "actor_complete_command": {
+          "numerator": 3975,
+          "denominator": 7196,
+          "ratio": 0.552390216787104
+        },
+        "market_token": {
+          "numerator": 1024,
+          "denominator": 1628,
+          "ratio": 0.628992628992629
+        },
+        "ordered_market_list": {
+          "numerator": 285,
+          "denominator": 719,
+          "ratio": 0.3963838664812239
+        },
+        "joint_turn": {
+          "numerator": 15,
+          "denominator": 719,
+          "ratio": 0.02086230876216968
+        },
+        "quantity_all_rows": {
+          "numerator": 187,
+          "denominator": 314,
+          "ratio": 0.5955414012738853
+        },
+        "issued_work_commands": 3972,
+        "state_effect_equivalence": {
+          "numerator": 24,
+          "denominator": 719,
+          "ratio": 0.03337969401947149,
+          "official_engine_isolated_differing_turns": 704
+        },
+        "first_token_difference": {
+          "step": 1,
+          "teacher": {
+            "farmer": [
+              "PICKUP",
+              "COW",
+              1
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                3
+              ]
+            ]
+          },
+          "predicted": {
+            "farmer": [
+              "PICKUP",
+              "COW",
+              1
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                3
+              ]
+            ]
+          }
+        },
+        "first_effect_difference": {
+          "step": 1,
+          "teacher": {
+            "farmer": [
+              "PICKUP",
+              "COW",
+              1
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                3
+              ]
+            ]
+          },
+          "predicted": {
+            "farmer": [
+              "PICKUP",
+              "COW",
+              1
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                3
+              ]
+            ]
+          }
+        },
+        "trace_file": "a2_seed20260924_t2_actions_and_trace.json.gz"
+      },
+      "T3": {
+        "regime": "T3 self-generated physical state/history against fixed recorded opponent tape",
+        "classification": "REPRODUCTION_DIAGNOSTIC; not unknown-opponent performance",
+        "teacher_forcing": false,
+        "self_generated_physical_state": true,
+        "actor_token": {
+          "numerator": 686,
+          "denominator": 7196,
+          "ratio": 0.09533073929961089
+        },
+        "actor_complete_command": {
+          "numerator": 660,
+          "denominator": 7196,
+          "ratio": 0.09171762090050027
+        },
+        "market_token": {
+          "numerator": 897,
+          "denominator": 1628,
+          "ratio": 0.550982800982801
+        },
+        "ordered_market_list": {
+          "numerator": 291,
+          "denominator": 719,
+          "ratio": 0.4047287899860918
+        },
+        "joint_turn": {
+          "numerator": 3,
+          "denominator": 719,
+          "ratio": 0.004172461752433936
+        },
+        "quantity_all_rows": {
+          "numerator": 26,
+          "denominator": 314,
+          "ratio": 0.08280254777070063
+        },
+        "issued_work_commands": 665,
+        "state_record_exact": {
+          "numerator": 2,
+          "denominator": 720,
+          "ratio": 0.002777777777777778
+        },
+        "horizons": {
+          "24": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 4.0,
+            "learner_cash": 33.0
+          },
+          "96": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 186.0,
+            "learner_cash": 469.0
+          },
+          "192": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 59.0,
+            "learner_cash": 0.0
+          },
+          "719": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 111530.0,
+            "learner_cash": 1353.0
+          }
+        },
+        "first_token_difference": {
+          "step": 1,
+          "teacher": {
+            "farmer": [
+              "PICKUP",
+              "COW",
+              1
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                3
+              ]
+            ]
+          },
+          "predicted": {
+            "farmer": [
+              "PICKUP",
+              "COW",
+              1
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                3
+              ]
+            ]
+          }
+        },
+        "first_state_difference": {
+          "record_index": 2,
+          "teacher_cash": 574.0,
+          "learner_cash": 577.0
+        },
+        "first_work_failure": {
+          "step": 61,
+          "actor": {
+            "actor_index": 1,
+            "action": [
+              "WATER"
+            ],
+            "success": false
+          }
+        },
+        "first_cash_difference": {
+          "record_index": 2,
+          "teacher_cash": 574.0,
+          "learner_cash": 577.0
+        },
+        "first_sale_difference": {
+          "step": 3,
+          "teacher_sell": [],
+          "learner_sell": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "final_rewards": [
+          1353.0,
+          99364.0
+        ],
+        "final_statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "recorded_teacher_rewards": [
+          111530.0,
+          99333.0
+        ],
+        "replay_file": "trajectory_t1_t2_t3_v2\\a2_seed20260924_t3_replay.json.gz",
+        "trace_file": "a2_seed20260924_t3_runtime_trace.json.gz"
+      }
+    },
+    "trajectory_memorizer_seed20260925": {
+      "T1": {
+        "regime": "T1 teacher physical state + teacher causal actor/order prefix",
+        "teacher_forcing": true,
+        "self_generated_physical_state": false,
+        "actor": {
+          "token": {
+            "numerator": 7089,
+            "denominator": 7196,
+            "ratio": 0.9851306281267371
+          },
+          "quantity_all_applicable_rows": {
+            "numerator": 312,
+            "denominator": 314,
+            "ratio": 0.9936305732484076,
+            "unknown_label_count": 0
+          },
+          "complete_command_or_order": {
+            "numerator": 7087,
+            "denominator": 7196,
+            "ratio": 0.9848526959421902
+          },
+          "first_token_error_row": 188
+        },
+        "market": {
+          "token": {
+            "numerator": 1601,
+            "denominator": 1628,
+            "ratio": 0.9834152334152334
+          },
+          "quantity_all_applicable_rows": {
+            "numerator": 618,
+            "denominator": 618,
+            "ratio": 1.0,
+            "unknown_label_count": 0
+          },
+          "complete_command_or_order": {
+            "numerator": 1601,
+            "denominator": 1628,
+            "ratio": 0.9834152334152334
+          },
+          "first_token_error_row": 59
+        },
+        "ordered_market_list": {
+          "numerator": 692,
+          "denominator": 719,
+          "ratio": 0.9624478442280946
+        },
+        "joint_turn": {
+          "numerator": 596,
+          "denominator": 719,
+          "ratio": 0.8289290681502086
+        },
+        "checkpoint_hashes": {
+          "actor_token": "94f5fc99e5320bcb1129b4e5e59b757cb75960c6e89ebc2606b9da1e260e7f7d",
+          "actor_quantity": "a955db1a04b74bd626a5c8a9e29b6ea1ce9cdd37e33a3fdb8155691c23020038",
+          "market_token": "157d560a6f8e3dc5714b8843025b6f9b1f71a5c13f968fced217706a70ede434",
+          "market_quantity": "c4aa46d05685bba54f59d010159e5a3dc1b6cdd82021dc0f63ece5e49835e915"
+        }
+      },
+      "T2": {
+        "regime": "T2 teacher physical state + self-generated same-turn prefix/history",
+        "teacher_forcing": "physical state only",
+        "self_generated_physical_state": false,
+        "actor_token": {
+          "numerator": 6769,
+          "denominator": 7196,
+          "ratio": 0.9406614785992218
+        },
+        "actor_complete_command": {
+          "numerator": 6766,
+          "denominator": 7196,
+          "ratio": 0.9402445803224013
+        },
+        "market_token": {
+          "numerator": 1577,
+          "denominator": 1628,
+          "ratio": 0.9686732186732187
+        },
+        "ordered_market_list": {
+          "numerator": 675,
+          "denominator": 719,
+          "ratio": 0.9388038942976356
+        },
+        "joint_turn": {
+          "numerator": 460,
+          "denominator": 719,
+          "ratio": 0.6397774687065368
+        },
+        "quantity_all_rows": {
+          "numerator": 304,
+          "denominator": 314,
+          "ratio": 0.9681528662420382
+        },
+        "issued_work_commands": 3641,
+        "state_effect_equivalence": {
+          "numerator": 485,
+          "denominator": 719,
+          "ratio": 0.674547983310153,
+          "official_engine_isolated_differing_turns": 259
+        },
+        "first_token_difference": {
+          "step": 15,
+          "teacher": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "predicted": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        "first_effect_difference": {
+          "step": 15,
+          "teacher": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "predicted": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        "trace_file": "trajectory_memorizer_seed20260925_t2_actions_and_trace.json.gz"
+      },
+      "T3": {
+        "regime": "T3 self-generated physical state/history against fixed recorded opponent tape",
+        "classification": "REPRODUCTION_DIAGNOSTIC; not unknown-opponent performance",
+        "teacher_forcing": false,
+        "self_generated_physical_state": true,
+        "actor_token": {
+          "numerator": 910,
+          "denominator": 7196,
+          "ratio": 0.1264591439688716
+        },
+        "actor_complete_command": {
+          "numerator": 902,
+          "denominator": 7196,
+          "ratio": 0.1253474152306837
+        },
+        "market_token": {
+          "numerator": 883,
+          "denominator": 1628,
+          "ratio": 0.5423832923832924
+        },
+        "ordered_market_list": {
+          "numerator": 297,
+          "denominator": 719,
+          "ratio": 0.41307371349095967
+        },
+        "joint_turn": {
+          "numerator": 18,
+          "denominator": 719,
+          "ratio": 0.025034770514603615
+        },
+        "quantity_all_rows": {
+          "numerator": 27,
+          "denominator": 314,
+          "ratio": 0.08598726114649681
+        },
+        "issued_work_commands": 593,
+        "state_record_exact": {
+          "numerator": 16,
+          "denominator": 720,
+          "ratio": 0.022222222222222223
+        },
+        "horizons": {
+          "24": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 4.0,
+            "learner_cash": 4.0
+          },
+          "96": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 186.0,
+            "learner_cash": 97.0
+          },
+          "192": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 59.0,
+            "learner_cash": 395.0
+          },
+          "719": {
+            "state_exact_at_horizon": false,
+            "teacher_cash": 111530.0,
+            "learner_cash": 4658.0
+          }
+        },
+        "first_token_difference": {
+          "step": 15,
+          "teacher": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "predicted": {
+            "farmer": [
+              "WATER"
+            ],
+            "hands": [
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "PLANT",
+                "WHEAT"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_SEED",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        "first_state_difference": {
+          "record_index": 16,
+          "teacher_cash": 26.0,
+          "learner_cash": 26.0
+        },
+        "first_work_failure": {
+          "step": 319,
+          "actor": {
+            "actor_index": 0,
+            "action": [
+              "DIG"
+            ],
+            "success": false
+          }
+        },
+        "first_cash_difference": {
+          "record_index": 17,
+          "teacher_cash": 16.0,
+          "learner_cash": 44.0
+        },
+        "first_sale_difference": {
+          "step": 16,
+          "teacher_sell": [],
+          "learner_sell": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "final_rewards": [
+          4658.0,
+          116304.0
+        ],
+        "final_statuses": [
+          "DONE",
+          "DONE"
+        ],
+        "recorded_teacher_rewards": [
+          111530.0,
+          99333.0
+        ],
+        "replay_file": "trajectory_t1_t2_t3_v2\\trajectory_memorizer_seed20260925_t3_replay.json.gz",
+        "trace_file": "trajectory_memorizer_seed20260925_t3_runtime_trace.json.gz"
+      }
+    }
+  },
+  "new_learning_runs": 0,
+  "new_real_opponent_games": 0,
+  "kaggle_submissions": 0
+}

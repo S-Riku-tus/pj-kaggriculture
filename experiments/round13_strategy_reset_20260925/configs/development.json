@@ -1,0 +1,37 @@
+{
+  "study": "round13_strategy_reset_development",
+  "evaluation_mode": "REACTIVE_FULLGAME",
+  "output": "metrics/development",
+  "arms": {
+    "D0_B1": "agents/D0_B1/main.py",
+    "M1_deadline_market": "agents/M1_deadline_market/main.py",
+    "P_EARLY4": "agents/P_EARLY4/main.py",
+    "P_ROTATE2": "agents/P_ROTATE2/main.py"
+  },
+  "opponents": {
+    "B1": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+    "v57": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+    "order_book": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+    "metav4": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py",
+    "barnyard": "experiments/round10_public_learning_20260924/public_agents/barnyard/main.py",
+    "melon_threshold": "experiments/round10_public_learning_20260924/public_agents/melon_threshold/main.py"
+  },
+  "families": {
+    "B1": "near_lineage",
+    "v57": "near_lineage",
+    "order_book": "near_lineage",
+    "metav4": "near_lineage",
+    "barnyard": "diverse_barnyard",
+    "melon_threshold": "diverse_melon"
+  },
+  "seeds": [812609251, 812609252, 812609253, 812609254],
+  "seats": [0, 1],
+  "route_metric_arms": ["P_EARLY4", "P_ROTATE2"],
+  "promotion_thresholds_preregistered": {
+    "practical_minimum_paired_score_gain": 0.03,
+    "allowed_major_family_score_degradation": -0.05,
+    "major_families": ["near_lineage", "diverse_barnyard", "diverse_melon"],
+    "illegal_or_crash_tolerance": 0,
+    "selection_rule": "No holdout unless development clears both score thresholds and execution validity."
+  }
+}

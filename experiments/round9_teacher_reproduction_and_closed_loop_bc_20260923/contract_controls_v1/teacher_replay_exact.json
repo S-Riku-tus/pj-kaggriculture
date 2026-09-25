@@ -1,0 +1,29 @@
+{
+  "name": "teacher_replay_state_exact_match",
+  "source_episode": 109118332,
+  "environment_seed": 338650874,
+  "states": 720,
+  "state_seat_numerator": 1440,
+  "state_seat_denominator": 1440,
+  "ratio": 1.0,
+  "first_mismatch": null,
+  "field_mismatches": {},
+  "recorded_rewards": [
+    111530.0,
+    99333.0
+  ],
+  "replayed_rewards": [
+    111530.0,
+    99333.0
+  ],
+  "recorded_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "replayed_statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "mapping": "observation at steps[t] -> action stored in steps[t+1] -> observation at steps[t+1]",
+  "classification": "REPRODUCTION_DIAGNOSTIC"
+}

@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-09-22T11:54:12.329028+00:00",
+  "purpose": "capacity/sanity check only; not evidence of generalization or game strength",
+  "episode_id": 109118332,
+  "interval": "steps 0..95",
+  "rows": 527,
+  "seed": 20260922,
+  "architecture": [
+    1871,
+    256,
+    128,
+    44
+  ],
+  "change_from_v1": "same rows and 98% criterion; batch 256->64, hidden 128/64->256/128, maximum updates increased because v1 loss was still falling",
+  "epochs": 140,
+  "optimizer_steps": 1260,
+  "final_loss": 0.09875670691821335,
+  "final_accuracy": 0.9829222011385199,
+  "passed_preregistered_98_percent": true
+}

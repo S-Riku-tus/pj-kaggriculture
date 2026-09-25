@@ -1,0 +1,55 @@
+{
+  "status": "Recount of authors published summary tables, not new games",
+  "v45": {
+    "reported_candidate": [
+      620,
+      20,
+      0
+    ],
+    "reported_control": [
+      489,
+      93,
+      58
+    ],
+    "candidate_strict_winrate": 0.96875,
+    "control_strict_winrate": 0.7640625,
+    "candidate_points": 0.96875,
+    "control_points": 0.809375,
+    "points_difference": 0.159375,
+    "warning": "32 world seeds, 10 rivals, 2 seats; 640 is not independent sample count."
+  },
+  "v57": {
+    "reported_candidate": [
+      102,
+      42,
+      16
+    ],
+    "reported_control": [
+      98,
+      42,
+      20
+    ],
+    "paired_conditions": 160,
+    "two_arm_games": 320,
+    "reported_better_equal_worse": [
+      30,
+      130,
+      0
+    ],
+    "strict_winrate_difference": 0.025,
+    "points_difference": 0.0125,
+    "warning": "30 better/equal/worse items cannot be read as 30 Loss->Win results: summary W/L/T only adds 4 wins and removes 4 ties. Raw pairwise records needed."
+  },
+  "order_book": {
+    "reported_control_wins": 191,
+    "reported_control_losses": 53,
+    "reported_n": 280,
+    "unaccounted_by_displayed_WL": 36,
+    "warning": "Displayed 191-53 has only 244 results. Do not repeat 89 Loss->Win literally without original per-game outcomes."
+  },
+  "new_training_runs": 0,
+  "new_full_agent_games": 0,
+  "new_submissions": 0,
+  "micro_model_cases_executed": 9,
+  "official_engine_micro_comparison": "NOT_RUN: dependency unavailable here"
+}

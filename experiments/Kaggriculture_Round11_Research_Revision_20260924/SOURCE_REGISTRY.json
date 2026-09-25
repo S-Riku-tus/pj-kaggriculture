@@ -1,0 +1,113 @@
+{
+  "research_date": "2026-09-24",
+  "mirror_commit": "fa7458c015982ec838cce9427b3268114ac1c784",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Kaggle公式・固定エンジン",
+      "url": "https://github.com/Kaggle/kaggle-environments/blob/302d8e20c83822b8d4572975cdea1180b792b748/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+      "status": "公式ソースの価格定数等を固定commitで読解",
+      "sha": "Git blob 3c202c7ee921da239356789e266b694635103fc4",
+      "role": "市場、植物、生産、順序、設定の規範。ライブの全runtimeを取得したとは扱わない"
+    },
+    {
+      "id": "S02",
+      "title": "Kaggle公式Overview/Timeline",
+      "url": "https://www.kaggle.com/competitions/kaggriculture/overview/citation",
+      "status": "公式本文取得",
+      "role": "最終提出2026-09-30、勝敗評価。相対表示の残り日数ではなく絶対日付を読む"
+    },
+    {
+      "id": "S03",
+      "title": "More Wheat, Smarter Sales",
+      "url": "https://www.kaggle.com/code/dmitriigluzdov/kaggriculture-more-wheat-smarter-sales",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/refresh_20260923T001052Z/extracted/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales.md",
+      "status": "原作者Markdownの公開保存版を全文読解。今回その完成方策は実行していない",
+      "sha": "Markdown Git blob 0004f025b2a6e01a90876773f51f796c08edb4c1",
+      "role": "近い3軌跡まで残す相手売却予測。原作者55対戦、25対応比較中5改善0悪化は作者報告"
+    },
+    {
+      "id": "S04",
+      "title": "Order Book v3 Response Improvement",
+      "url": "https://www.kaggle.com/code/arsgorynich/order-book-v3-response-improvement",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/arsgorynich__order-book-v3-response-improvement.md",
+      "status": "原作者Markdown・掲載された追加コードを読解。独立派生版であり元作者の公式v3ではない",
+      "sha": "Markdown Git blob f147ffdaf2f844c8f0480452eb109826a4af6298",
+      "role": "相手も最終並べ替えをすることへの一段の応答。掲載原版をB1上で丸ごと再現したわけではない"
+    },
+    {
+      "id": "S05",
+      "title": "The Moon Counts Melons",
+      "url": "https://www.kaggle.com/code/prvsiyan/kaggriculture-frontier-the-moon-counts-melons",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/refresh_20260923T001052Z/extracted/prvsiyan__kaggriculture-frontier-the-moon-counts-melons.md",
+      "status": "保存版の過去実験と最新section28を読解。作者の1008対戦を再実行していない",
+      "sha": "Markdown Git blob d6bea6aee5b6a6e4731192b7abe4958339ba6d2f; 記載された本体SHA256 178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "role": "最終注文列の最適化。前身比較のseed区間が0に接すること、正確な履歴に直しても悪化した反例"
+    },
+    {
+      "id": "S06",
+      "title": "Floor-aware Market Ledger",
+      "url": "https://www.kaggle.com/code/prvsiyan/kaggriculture-floor-aware-market-ledger-20260923",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/refresh_20260923T001052Z/extracted/prvsiyan__kaggriculture-floor-aware-market-ledger-20260923.md",
+      "status": "原作者保存版全文を読解。数式を今回の71実戦へ独立適用",
+      "sha": "Markdown Git blob 7e4bcdde4a32ca809e02ae00dcf9360d63755b6a",
+      "role": "価格床の観測打切り。作者560対戦の方策悪化は今回の対戦数に加えない"
+    },
+    {
+      "id": "S07",
+      "title": "v15stack submit / notebook",
+      "url": "https://www.kaggle.com/code/wzhengbiao/kaggriculture-v15stack-submit",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/refresh_20260923T001052Z/decoded/kaggriculture-v15stack-submit__d6565929be52.py",
+      "status": "公開研究の候補台帳・機能レビュー・回収済み本体の所在を確認。本体全体の再取得・実行は未実施",
+      "sha": "台帳記載の本体SHA256 d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "role": "完成方策の比較候補。scriptとnotebookの同一payloadを二重計数しない"
+    },
+    {
+      "id": "S08",
+      "title": "A Wonderful Life",
+      "url": "https://www.kaggle.com/code/hanifnoerrofiq/a-wonderful-life",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/hanifnoerrofiq__a-wonderful-life.md",
+      "status": "候補台帳と説明抽出ファイルを確認。説明ファイルは空。実行コードの独立確認は次工程",
+      "role": "完成方策候補。タイトル・掲載スコア・EarlyCycle説明だけからB1より強いとしない"
+    },
+    {
+      "id": "S09",
+      "title": "Pipe18 Six Layers",
+      "url": "https://www.kaggle.com/code/nathanjacob/kaggriculture-pipe18-six-layers",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/nathanjacob__kaggriculture-pipe18-six-layers.md",
+      "status": "原作者保存説明を読解。原版の650対戦を再実行していない",
+      "sha": "Markdown Git blob aaa6fd421682ca5414fcbc0f9fbb346af2e9ba2b",
+      "role": "差分抽出→単独比較→組合せ比較。E402/E410等はB1に実装済みであり新機能として再導入しない"
+    },
+    {
+      "id": "S10",
+      "title": "The 2965 Master Hybrid Engine",
+      "url": "https://www.kaggle.com/code/haideptry/the-2965-master-hybrid-engine",
+      "mirror": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/haideptry__the-2965-master-hybrid-engine.md",
+      "status": "原作者保存説明を読解。宣伝的な勝率表を独立検証していない",
+      "sha": "説明内本体SHA256 93831c18a43c49312a71fa67171224681c52c3fade0259403e8d8fae7973565f",
+      "role": "完成方策と余剰資材削減の比較候補。B1の実戦に大きな終盤種浪費があるという根拠にはならない"
+    },
+    {
+      "id": "S11",
+      "title": "公開研究addendum（候補探索の二次索引）",
+      "url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/KAGGRICULTURE_SCORE_WEIGHTED_EXECUTION_ADDENDUM.md",
+      "status": "2026-09-23 00:11 UTC付近の取得とされる保存版を読解",
+      "role": "候補の所在だけに用いる。9/24現在の順位、コードと掲載スコアの同一性、性能保証には使わない"
+    },
+    {
+      "id": "S12",
+      "title": "qeinstein current research EXP338/339",
+      "url": "https://github.com/qeinstein/kaggriculture",
+      "status": "公開README取得。portfolio等を今回のB1と対戦させていない",
+      "role": "35M RL/MoEより既存portfolioが良いという作者ローカル結果。以前提出したqeinstein_moev2と同一視しない"
+    },
+    {
+      "id": "S13",
+      "title": "Seyamalam V21 capital latch",
+      "url": "https://github.com/Seyamalam/Kaggriculture",
+      "status": "公開README取得。再現環境は1.32.4と記載されている",
+      "role": "古い環境の研究対照。currentというREADME表現だけで1.32.7上位候補へ昇格させない"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "output": "experiments/round10_public_learning_20260924/smoke/task_labels",
+  "development_evidence_not_holdout": true,
+  "candidate_limit_per_game": 1,
+  "opponents": {
+    "ahmed_v57": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+      "mode": "last_callable",
+      "family": "ahmed_route"
+    }
+  },
+  "seeds": [2026092418],
+  "seats": [0]
+}

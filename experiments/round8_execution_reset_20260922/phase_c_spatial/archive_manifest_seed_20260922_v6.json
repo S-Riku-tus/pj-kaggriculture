@@ -1,0 +1,168 @@
+[
+  {
+    "arm": "spatial_pure",
+    "classification": "independent_bc",
+    "seed": 20260922,
+    "created_at_utc": "2026-09-22T12:20:10.217444+00:00",
+    "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v6.tar.gz",
+    "archive_sha256": "0b579c006fbc002d2873b55d9c936c149049575383e47309c9d6c0887e1a6e30",
+    "training_summary": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\models_v5\\seed_20260922\\training_summary.json",
+    "training_summary_sha256": "7a2736f7522abda707b96dd746b029c8954bcae9419a597a9631a9b0dfebdacb",
+    "members": [
+      {
+        "name": "actor_quantity.json",
+        "bytes": 5667,
+        "sha256": "7488147bcfe81d3aedd60db2af979145e3aeccbeabb019ed0851d56384ec97a6"
+      },
+      {
+        "name": "actor_quantity.npz",
+        "bytes": 774302,
+        "sha256": "579427032cfe480b5774a2d0588dd78b3193956e683df127235762451f76ebc3"
+      },
+      {
+        "name": "actor_token.json",
+        "bytes": 52275,
+        "sha256": "a13172055037f2c8617e08da11935780eb9d27da15d937a2de8defcc59d13147"
+      },
+      {
+        "name": "actor_token.npz",
+        "bytes": 766398,
+        "sha256": "33b0df76cdca4773060874809b33de3ce7bc985295f79e302bc16a92144d9539"
+      },
+      {
+        "name": "common.py",
+        "bytes": 31364,
+        "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+      },
+      {
+        "name": "main.py",
+        "bytes": 648,
+        "sha256": "3bfce568625e90db445bae66f59f7b5a837acfc1c3f6d8dc07f2fb27fd9401e8"
+      },
+      {
+        "name": "market_quantity.json",
+        "bytes": 37096,
+        "sha256": "00c9f681eb1a80e458d51fb406a8eddcd5959a2459c5eb9c1594a3fd0fa3dc0a"
+      },
+      {
+        "name": "market_quantity.npz",
+        "bytes": 689634,
+        "sha256": "2b2da5a754efc3eb73709dbd728b1eb3460083ecb5b2e6d615e6c7d4311dadb2"
+      },
+      {
+        "name": "market_token.json",
+        "bytes": 15397,
+        "sha256": "3e3ad6034ab2d852d9524d2efb786e2a619b147d05f3f23266c26dcb18ce86b0"
+      },
+      {
+        "name": "market_token.npz",
+        "bytes": 679710,
+        "sha256": "b73b73447033d55237e6fad4f6e2fabc04787ce41d720cb40013598166b39f52"
+      },
+      {
+        "name": "model_compat.py",
+        "bytes": 2090,
+        "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+      },
+      {
+        "name": "policy.py",
+        "bytes": 5345,
+        "sha256": "0afc516b10f8d3ea4a099142bde1ba41c0982a19a8887ee5c7ed2836d65a8a78"
+      },
+      {
+        "name": "runtime.py",
+        "bytes": 44462,
+        "sha256": "80eb816cddd6f92a5c8fb0efa15d77341c305fb4bb9faf6253b5a4bd2294552c"
+      },
+      {
+        "name": "spatial.py",
+        "bytes": 10328,
+        "sha256": "4cf1e03d75bd48d7856cf49d2ac599feebd54fabbab49bcf4c907081aea943a4"
+      }
+    ],
+    "standalone_external_weight_dependency": false
+  },
+  {
+    "arm": "spatial_hybrid",
+    "classification": "hybrid_bc_plus_handwritten_livestock_plan",
+    "seed": 20260922,
+    "created_at_utc": "2026-09-22T12:20:10.684712+00:00",
+    "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v6.tar.gz",
+    "archive_sha256": "dd568a4bbda514ae9ce1dfec42a4dd95bac776a2ae17739b1b134c42a1ace393",
+    "training_summary": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\models_v5\\seed_20260922\\training_summary.json",
+    "training_summary_sha256": "7a2736f7522abda707b96dd746b029c8954bcae9419a597a9631a9b0dfebdacb",
+    "members": [
+      {
+        "name": "actor_quantity.json",
+        "bytes": 5667,
+        "sha256": "7488147bcfe81d3aedd60db2af979145e3aeccbeabb019ed0851d56384ec97a6"
+      },
+      {
+        "name": "actor_quantity.npz",
+        "bytes": 774302,
+        "sha256": "579427032cfe480b5774a2d0588dd78b3193956e683df127235762451f76ebc3"
+      },
+      {
+        "name": "actor_token.json",
+        "bytes": 52275,
+        "sha256": "a13172055037f2c8617e08da11935780eb9d27da15d937a2de8defcc59d13147"
+      },
+      {
+        "name": "actor_token.npz",
+        "bytes": 766398,
+        "sha256": "33b0df76cdca4773060874809b33de3ce7bc985295f79e302bc16a92144d9539"
+      },
+      {
+        "name": "common.py",
+        "bytes": 31364,
+        "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+      },
+      {
+        "name": "main.py",
+        "bytes": 641,
+        "sha256": "0d08aabda29b69215f71a79e454b4c1b419134f664993c090cdbf28d04bf245b"
+      },
+      {
+        "name": "market_quantity.json",
+        "bytes": 37096,
+        "sha256": "00c9f681eb1a80e458d51fb406a8eddcd5959a2459c5eb9c1594a3fd0fa3dc0a"
+      },
+      {
+        "name": "market_quantity.npz",
+        "bytes": 689634,
+        "sha256": "2b2da5a754efc3eb73709dbd728b1eb3460083ecb5b2e6d615e6c7d4311dadb2"
+      },
+      {
+        "name": "market_token.json",
+        "bytes": 15397,
+        "sha256": "3e3ad6034ab2d852d9524d2efb786e2a619b147d05f3f23266c26dcb18ce86b0"
+      },
+      {
+        "name": "market_token.npz",
+        "bytes": 679710,
+        "sha256": "b73b73447033d55237e6fad4f6e2fabc04787ce41d720cb40013598166b39f52"
+      },
+      {
+        "name": "model_compat.py",
+        "bytes": 2090,
+        "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+      },
+      {
+        "name": "policy.py",
+        "bytes": 5345,
+        "sha256": "0afc516b10f8d3ea4a099142bde1ba41c0982a19a8887ee5c7ed2836d65a8a78"
+      },
+      {
+        "name": "runtime.py",
+        "bytes": 44462,
+        "sha256": "80eb816cddd6f92a5c8fb0efa15d77341c305fb4bb9faf6253b5a4bd2294552c"
+      },
+      {
+        "name": "spatial.py",
+        "bytes": 10328,
+        "sha256": "4cf1e03d75bd48d7856cf49d2ac599feebd54fabbab49bcf4c907081aea943a4"
+      }
+    ],
+    "standalone_external_weight_dependency": false
+  }
+]

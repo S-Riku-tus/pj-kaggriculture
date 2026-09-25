@@ -1,0 +1,219 @@
+{
+  "counts": {
+    "games": 64,
+    "base_model_loads": 256,
+    "base_inference_calls": 493241,
+    "base_actor_decisions": 306692,
+    "base_market_decisions": 68034,
+    "base_quantity_decisions": 118515,
+    "base_legality_masks": 374726,
+    "base_resource_reservations": 22018,
+    "base_blocked_market_orders": 60032,
+    "steps": 46016,
+    "plan_disabled": 46016,
+    "plan_active": 0,
+    "plan_interventions": 0,
+    "final_equal_ledger_turns": 46016,
+    "actor_decisions": 306692,
+    "raw_top1_not_legal": 103922,
+    "raw_mask_token_change": 103922,
+    "illegal_to_movement": 98555,
+    "work_to_movement": 65180
+  },
+  "resolver_reasons": {
+    "schema_pass": 1162,
+    "quantity_clipped_to_available": 6853,
+    "executable": 289972,
+    "animal_placement": 317,
+    "engine_allows_without_same_day_feed": 1806,
+    "reserved_seed": 3066,
+    "shed_deposit": 1074,
+    "mature_or_animal_yield": 2442
+  },
+  "effect_counts": {
+    "status_OBSERVED": 44096,
+    "work_rows": 34951,
+    "work_success": 34466,
+    "status_UNKNOWN_DAY_BOUNDARY": 1856,
+    "status_PENDING_NEXT_OBSERVATION": 64
+  },
+  "top_raw_mask_changes": [
+    [
+      "WATER",
+      "EAST",
+      13595
+    ],
+    [
+      "NORTH",
+      "WEST",
+      9579
+    ],
+    [
+      "NORTH",
+      "EAST",
+      8245
+    ],
+    [
+      "HARVEST",
+      "EAST",
+      8216
+    ],
+    [
+      "HARVEST",
+      "WEST",
+      6521
+    ],
+    [
+      "WATER",
+      "WEST",
+      6482
+    ],
+    [
+      "WEST",
+      "NORTH",
+      5001
+    ],
+    [
+      "WATER",
+      "SOUTH",
+      3263
+    ],
+    [
+      "WATER",
+      "NORTH",
+      2986
+    ],
+    [
+      "WEST",
+      "SOUTH",
+      2160
+    ],
+    [
+      "HARVEST",
+      "SOUTH",
+      2131
+    ],
+    [
+      "HARVEST",
+      "NORTH",
+      2056
+    ],
+    [
+      "WEST",
+      "EAST",
+      1668
+    ],
+    [
+      "SOUTH",
+      "WEST",
+      1656
+    ],
+    [
+      "SOUTH",
+      "NORTH",
+      1599
+    ],
+    [
+      "PLANT:MELON",
+      "WEST",
+      1594
+    ],
+    [
+      "PLANT:WHEAT",
+      "BUILD_PASTURE",
+      1530
+    ],
+    [
+      "DROP",
+      "EAST",
+      1494
+    ],
+    [
+      "FEED",
+      "WEST",
+      1360
+    ],
+    [
+      "FEED",
+      "EAST",
+      1263
+    ],
+    [
+      "PICKUP:WHEAT",
+      "NORTH",
+      1261
+    ],
+    [
+      "EAST",
+      "SOUTH",
+      1193
+    ],
+    [
+      "PLANT:STRAWBERRY",
+      "SOUTH",
+      1186
+    ],
+    [
+      "PLANT:WHEAT",
+      "SOUTH",
+      1051
+    ],
+    [
+      "PLANT:WHEAT",
+      "WEST",
+      941
+    ],
+    [
+      "PLANT:MELON",
+      "NORTH",
+      936
+    ],
+    [
+      "PICKUP:WHEAT",
+      "SOUTH",
+      931
+    ],
+    [
+      "NORTH",
+      "SOUTH",
+      884
+    ],
+    [
+      "EAST",
+      "WEST",
+      701
+    ],
+    [
+      "DROP",
+      "WEST",
+      678
+    ]
+  ],
+  "top_illegal_raw": {
+    "BUILD_PASTURE": 161,
+    "FEED": 3113,
+    "PLACE:COW": 1706,
+    "WATER": 26861,
+    "WEST": 8955,
+    "NORTH": 18798,
+    "PICKUP:WHEAT": 2335,
+    "PLACE:FERTILIZER": 1452,
+    "PLANT:MELON": 4275,
+    "PLANT:STRAWBERRY": 1764,
+    "PLANT:WHEAT": 5032,
+    "SOUTH": 3319,
+    "DROP": 2521,
+    "HARVEST": 19210,
+    "PLACE:SHEEP": 535,
+    "COLLECT_FERTILIZER": 83,
+    "EAST": 2568,
+    "CARE": 324,
+    "PLACE:WOOL": 149,
+    "PLANT:CARROT": 39,
+    "PICKUP:GOOSE": 4,
+    "PICKUP:COW": 570,
+    "PLACE:GOOSE": 20,
+    "PLACE:MILK": 120,
+    "PICKUP:SHEEP": 8
+  }
+}

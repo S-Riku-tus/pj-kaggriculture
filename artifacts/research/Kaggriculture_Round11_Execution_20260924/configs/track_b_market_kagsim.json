@@ -1,0 +1,56 @@
+{
+  "engine": "kagsim",
+  "output": "experiments/round11_execution_20260924/track_b/market_kagsim",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "m20_multi_hypothesis": {
+      "path": "experiments/round11_execution_20260924/arms/m20_multi_hypothesis/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "m11_final_response": {
+      "path": "experiments/round11_execution_20260924/arms/m11_final_response/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "m11_robust_response": {
+      "path": "experiments/round11_execution_20260924/arms/m11_robust_response/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "m20_m11_final": {
+      "path": "experiments/round11_execution_20260924/arms/m20_m11_final/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    }
+  },
+  "opponents": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "family": "herd_safe"
+    },
+    "v57": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+      "mode": "last_callable",
+      "family": "public_router"
+    },
+    "order_book": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+      "mode": "last_callable",
+      "family": "order_book"
+    },
+    "metav4": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py",
+      "mode": "last_callable",
+      "family": "metav4"
+    }
+  },
+  "seeds": [522609241, 522609242, 522609243, 522609244],
+  "seats": [0, 1]
+}

@@ -1,0 +1,5168 @@
+{
+  "scope": "4 new reactive cppsim ledger diagnostic games, no modification, on exposed seeds",
+  "summaries": [
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "own_bad": 6,
+      "rival_inference_bad": 30,
+      "eligible": 3556,
+      "low_price_skip": 39,
+      "low_price_skipped_true_sale": 1,
+      "rewards": [
+        91761.0,
+        90387.0
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "own_bad": 4,
+      "rival_inference_bad": 27,
+      "eligible": 3558,
+      "low_price_skip": 37,
+      "low_price_skipped_true_sale": 1,
+      "rewards": [
+        90553.0,
+        91028.0
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "own_bad": 6,
+      "rival_inference_bad": 16,
+      "eligible": 3582,
+      "low_price_skip": 13,
+      "low_price_skipped_true_sale": 0,
+      "rewards": [
+        106502.0,
+        106492.0
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "own_bad": 8,
+      "rival_inference_bad": 20,
+      "eligible": 3580,
+      "low_price_skip": 15,
+      "low_price_skipped_true_sale": 1,
+      "rewards": [
+        105632.0,
+        106760.0
+      ]
+    }
+  ],
+  "mismatches": [
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 456,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": -6,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 479,
+      "item": "STRAWBERRY",
+      "price": 93,
+      "runtime_own": 0,
+      "true_own_fill": 6,
+      "true_opponent_fill": 6,
+      "inferred_opponent_fill": 12,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          6
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          6
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 480,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 504,
+      "item": "WOOL",
+      "price": 72,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 0,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 517,
+      "item": "STRAWBERRY",
+      "price": 20,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 523,
+      "item": "STRAWBERRY",
+      "price": 5,
+      "runtime_own": 16,
+      "true_own_fill": 16,
+      "true_opponent_fill": 16,
+      "inferred_opponent_fill": -14,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          16
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          16
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 528,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 11,
+      "true_own_fill": 11,
+      "true_opponent_fill": 11,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 529,
+      "item": "STRAWBERRY",
+      "price": 11,
+      "runtime_own": 13,
+      "true_own_fill": 13,
+      "true_opponent_fill": 13,
+      "inferred_opponent_fill": -8,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "MILK",
+          9
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          16
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          11
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "MILK",
+          9
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          16
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          11
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 543,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 552,
+      "item": "STRAWBERRY",
+      "price": 9,
+      "runtime_own": 0,
+      "true_own_fill": 13,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": 4,
+      "inferred_positive_event": true,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          17
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          17
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 555,
+      "item": "STRAWBERRY",
+      "price": 7,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 13,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 561,
+      "item": "WOOL",
+      "price": 66,
+      "runtime_own": 15,
+      "true_own_fill": 15,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -4,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ]
+      ],
+      "opponent_market": []
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 568,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 569,
+      "item": "WOOL",
+      "price": 24,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 15,
+      "inferred_opponent_fill": 4,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 576,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 576,
+      "item": "STRAWBERRY",
+      "price": 9,
+      "runtime_own": 0,
+      "true_own_fill": 18,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": 4,
+      "inferred_positive_event": true,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 577,
+      "item": "WOOL",
+      "price": 18,
+      "runtime_own": 5,
+      "true_own_fill": 5,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          1
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "SELL",
+          "CARROT",
+          7
+        ],
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 579,
+      "item": "STRAWBERRY",
+      "price": 7,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 18,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 584,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 3,
+      "true_own_fill": 3,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -1,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 586,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 9,
+      "true_own_fill": 9,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": -7,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 615,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": 6,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          7
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 618,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 9,
+      "true_own_fill": 9,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": -7,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 633,
+      "item": "STRAWBERRY",
+      "price": 32,
+      "runtime_own": 18,
+      "true_own_fill": 18,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "BUY_SEED",
+          "CARROT",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 644,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 18,
+      "inferred_opponent_fill": 6,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 672,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 0,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 8,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 672,
+      "item": "STRAWBERRY",
+      "price": 20,
+      "runtime_own": 3,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 693,
+      "item": "STRAWBERRY",
+      "price": 18,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 20,
+      "inferred_opponent_fill": 9,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          20
+        ],
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 694,
+      "item": "WOOL",
+      "price": 31,
+      "runtime_own": 0,
+      "true_own_fill": 3,
+      "true_opponent_fill": 2,
+      "inferred_opponent_fill": 5,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "MILK",
+          8
+        ],
+        [
+          "SELL",
+          "WOOL",
+          2
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 710,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 4,
+      "true_own_fill": 4,
+      "true_opponent_fill": 4,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "SELL",
+          "CARROT",
+          2
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "B1",
+      "step": 718,
+      "item": "WOOL",
+      "price": 24,
+      "runtime_own": 3,
+      "true_own_fill": 3,
+      "true_opponent_fill": 3,
+      "inferred_opponent_fill": 1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          6
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 456,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": -6,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 479,
+      "item": "STRAWBERRY",
+      "price": 93,
+      "runtime_own": 0,
+      "true_own_fill": 6,
+      "true_opponent_fill": 6,
+      "inferred_opponent_fill": 12,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          6
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          6
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 480,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 504,
+      "item": "WOOL",
+      "price": 72,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 0,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 517,
+      "item": "STRAWBERRY",
+      "price": 20,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 523,
+      "item": "STRAWBERRY",
+      "price": 5,
+      "runtime_own": 16,
+      "true_own_fill": 16,
+      "true_opponent_fill": 16,
+      "inferred_opponent_fill": -14,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          16
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          16
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 528,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 11,
+      "true_own_fill": 11,
+      "true_opponent_fill": 11,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 529,
+      "item": "STRAWBERRY",
+      "price": 11,
+      "runtime_own": 13,
+      "true_own_fill": 13,
+      "true_opponent_fill": 13,
+      "inferred_opponent_fill": -8,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "MILK",
+          9
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          16
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          11
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "MILK",
+          9
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          16
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          11
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 543,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 552,
+      "item": "STRAWBERRY",
+      "price": 9,
+      "runtime_own": 0,
+      "true_own_fill": 13,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": 4,
+      "inferred_positive_event": true,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          17
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          17
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 553,
+      "item": "STRAWBERRY",
+      "price": 7,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 13,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 561,
+      "item": "WOOL",
+      "price": 66,
+      "runtime_own": 15,
+      "true_own_fill": 15,
+      "true_opponent_fill": 15,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 568,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 576,
+      "item": "WOOL",
+      "price": 31,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 5,
+      "inferred_opponent_fill": -2,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 577,
+      "item": "STRAWBERRY",
+      "price": 16,
+      "runtime_own": 19,
+      "true_own_fill": 19,
+      "true_opponent_fill": 18,
+      "inferred_opponent_fill": -11,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          19
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "SELL",
+          "CARROT",
+          5
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 586,
+      "item": "WOOL",
+      "price": 18,
+      "runtime_own": 9,
+      "true_own_fill": 9,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": -5,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "SELL",
+          "CARROT",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 615,
+      "item": "WOOL",
+      "price": 31,
+      "runtime_own": 9,
+      "true_own_fill": 9,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -4,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          7
+        ],
+        [
+          "SELL",
+          "WOOL",
+          9
+        ]
+      ],
+      "opponent_market": []
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 618,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 9,
+      "true_own_fill": 9,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": -7,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 633,
+      "item": "STRAWBERRY",
+      "price": 32,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 18,
+      "inferred_opponent_fill": 16,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "BUY_SEED",
+          "CARROT",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 644,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 18,
+      "true_own_fill": 18,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -12,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ]
+      ],
+      "opponent_market": []
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 645,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 7,
+      "inferred_opponent_fill": 6,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 672,
+      "item": "WOOL",
+      "price": 43,
+      "runtime_own": 0,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 8,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 672,
+      "item": "STRAWBERRY",
+      "price": 20,
+      "runtime_own": 3,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 692,
+      "item": "STRAWBERRY",
+      "price": 12,
+      "runtime_own": 20,
+      "true_own_fill": 20,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -14,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          10
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          20
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 694,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 6,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ],
+        [
+          "SELL",
+          "WOOL",
+          6
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 710,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 4,
+      "true_own_fill": 4,
+      "true_opponent_fill": 4,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "SELL",
+          "CARROT",
+          2
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609254,
+      "arm": "m20_multi_hypothesis",
+      "step": 718,
+      "item": "WOOL",
+      "price": 24,
+      "runtime_own": 3,
+      "true_own_fill": 3,
+      "true_opponent_fill": 3,
+      "inferred_opponent_fill": 1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          6
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 408,
+      "item": "MILK",
+      "price": 112,
+      "runtime_own": 5,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -5,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 408,
+      "item": "WOOL",
+      "price": 183,
+      "runtime_own": 0,
+      "true_own_fill": 9,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": 18,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 456,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": -6,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 480,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 504,
+      "item": "WOOL",
+      "price": 72,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 0,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 528,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 11,
+      "true_own_fill": 11,
+      "true_opponent_fill": 11,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 561,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 15,
+      "true_own_fill": 15,
+      "true_opponent_fill": 15,
+      "inferred_opponent_fill": -1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 576,
+      "item": "MILK",
+      "price": 126,
+      "runtime_own": 9,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -9,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 576,
+      "item": "STRAWBERRY",
+      "price": 101,
+      "runtime_own": 0,
+      "true_own_fill": 18,
+      "true_opponent_fill": 18,
+      "inferred_opponent_fill": 36,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 577,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 5,
+      "true_own_fill": 5,
+      "true_opponent_fill": 5,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 593,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 11,
+      "true_own_fill": 11,
+      "true_opponent_fill": 11,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          11
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          11
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 608,
+      "item": "WOOL",
+      "price": 43,
+      "runtime_own": 7,
+      "true_own_fill": 7,
+      "true_opponent_fill": 7,
+      "inferred_opponent_fill": 1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 618,
+      "item": "WOOL",
+      "price": 31,
+      "runtime_own": 7,
+      "true_own_fill": 7,
+      "true_opponent_fill": 7,
+      "inferred_opponent_fill": -1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 672,
+      "item": "STRAWBERRY",
+      "price": 78,
+      "runtime_own": 3,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 691,
+      "item": "WOOL",
+      "price": 61,
+      "runtime_own": 8,
+      "true_own_fill": 8,
+      "true_opponent_fill": 8,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          8
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        []
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "B1",
+      "step": 718,
+      "item": "WOOL",
+      "price": 18,
+      "runtime_own": 4,
+      "true_own_fill": 4,
+      "true_opponent_fill": 4,
+      "inferred_opponent_fill": 0,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 408,
+      "item": "MILK",
+      "price": 112,
+      "runtime_own": 5,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -5,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 408,
+      "item": "WOOL",
+      "price": 172,
+      "runtime_own": 0,
+      "true_own_fill": 4,
+      "true_opponent_fill": 9,
+      "inferred_opponent_fill": 13,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 456,
+      "item": "WOOL",
+      "price": 37,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": -6,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          16
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 480,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 2,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 504,
+      "item": "WOOL",
+      "price": 72,
+      "runtime_own": 12,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 0,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 528,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 11,
+      "true_own_fill": 11,
+      "true_opponent_fill": 11,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 561,
+      "item": "WOOL",
+      "price": 77,
+      "runtime_own": 15,
+      "true_own_fill": 15,
+      "true_opponent_fill": 15,
+      "inferred_opponent_fill": -1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          15
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 576,
+      "item": "MILK",
+      "price": 126,
+      "runtime_own": 9,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -9,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 576,
+      "item": "STRAWBERRY",
+      "price": 101,
+      "runtime_own": 0,
+      "true_own_fill": 18,
+      "true_opponent_fill": 18,
+      "inferred_opponent_fill": 36,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 577,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 5,
+      "true_own_fill": 5,
+      "true_opponent_fill": 5,
+      "inferred_opponent_fill": 3,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          5
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          12
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 593,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 11,
+      "true_own_fill": 11,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          11
+        ]
+      ],
+      "opponent_market": []
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 614,
+      "item": "WOOL",
+      "price": 24,
+      "runtime_own": 0,
+      "true_own_fill": 0,
+      "true_opponent_fill": 7,
+      "inferred_opponent_fill": 4,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          7
+        ],
+        [
+          "SELL",
+          "WOOL",
+          7
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 618,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 7,
+      "true_own_fill": 7,
+      "true_opponent_fill": 7,
+      "inferred_opponent_fill": -5,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          22
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 645,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 0,
+      "true_own_fill": 7,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": 7,
+      "inferred_positive_event": true,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 645,
+      "item": "STRAWBERRY",
+      "price": 87,
+      "runtime_own": 0,
+      "true_own_fill": 13,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": 13,
+      "inferred_positive_event": true,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          13
+        ],
+        [
+          "SELL",
+          "WOOL",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ],
+      "opponent_market": [
+        [
+          "BUY_SEED",
+          "CARROT",
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 672,
+      "item": "WOOL",
+      "price": 49,
+      "runtime_own": 0,
+      "true_own_fill": 12,
+      "true_opponent_fill": 12,
+      "inferred_opponent_fill": 8,
+      "inferred_positive_event": true,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 672,
+      "item": "STRAWBERRY",
+      "price": 78,
+      "runtime_own": 3,
+      "true_own_fill": 0,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -3,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          12
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 691,
+      "item": "WOOL",
+      "price": 11,
+      "runtime_own": 9,
+      "true_own_fill": 9,
+      "true_opponent_fill": 0,
+      "inferred_opponent_fill": -7,
+      "inferred_positive_event": false,
+      "true_positive_event": false,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          9
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          20
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        []
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 711,
+      "item": "WOOL",
+      "price": 18,
+      "runtime_own": 3,
+      "true_own_fill": 3,
+      "true_opponent_fill": 3,
+      "inferred_opponent_fill": 1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          5
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "CARROT",
+          5
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "seed": 612609264,
+      "arm": "m20_multi_hypothesis",
+      "step": 718,
+      "item": "WOOL",
+      "price": 18,
+      "runtime_own": 3,
+      "true_own_fill": 3,
+      "true_opponent_fill": 3,
+      "inferred_opponent_fill": 1,
+      "inferred_positive_event": false,
+      "true_positive_event": true,
+      "final_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ],
+      "opponent_market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [
+          "SELL",
+          "CARROT",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          2
+        ]
+      ]
+    }
+  ]
+}

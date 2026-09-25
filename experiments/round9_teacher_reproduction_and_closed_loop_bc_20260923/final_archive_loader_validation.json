@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "archive": "artifacts\\submissions\\round9_20260923_a2_prefix_bc_seed20260924_v3.tar.gz",
+  "archive_sha256": "f5ac17a3b7db2d1311f066f9e19b1c8aa0ccf577d0955b7e2a78e03b8246811a",
+  "extraction_absolute_path": "C:\\tmp\\round9_a2_v3_loader_audit_20260923",
+  "repository_absolute_path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture",
+  "extraction_outside_repository": true,
+  "archive_members": [
+    "main.py",
+    "actor_quantity.json",
+    "actor_quantity.npz",
+    "actor_token.json",
+    "actor_token.npz",
+    "common.py",
+    "market_quantity.json",
+    "market_quantity.npz",
+    "market_token.json",
+    "market_token.npz",
+    "model_compat.py",
+    "runtime.py",
+    "spatial.py",
+    "spatial_policy.py"
+  ],
+  "official_loader_selected_callable": "agent",
+  "entrypoint": "main.py:agent",
+  "loaded_modules": {
+    "runtime": {
+      "absolute_path": "C:\\tmp\\round9_a2_v3_loader_audit_20260923\\runtime.py",
+      "inside_extraction": true,
+      "sha256": "a0896c13baf316eec9edecfe2d1c41b389c466aaf6226b41995ecafa7c904831"
+    },
+    "spatial_policy": {
+      "absolute_path": "C:\\tmp\\round9_a2_v3_loader_audit_20260923\\spatial_policy.py",
+      "inside_extraction": true,
+      "sha256": "adc0c01b95f4a126e4503bb14293b0ba6882981212b4bf3ad2877cd3b11dc72c"
+    },
+    "spatial": {
+      "absolute_path": "C:\\tmp\\round9_a2_v3_loader_audit_20260923\\spatial.py",
+      "inside_extraction": true,
+      "sha256": "4cf1e03d75bd48d7856cf49d2ac599feebd54fabbab49bcf4c907081aea943a4"
+    },
+    "model_compat": {
+      "absolute_path": "C:\\tmp\\round9_a2_v3_loader_audit_20260923\\model_compat.py",
+      "inside_extraction": true,
+      "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+    },
+    "common": {
+      "absolute_path": "C:\\tmp\\round9_a2_v3_loader_audit_20260923\\common.py",
+      "inside_extraction": true,
+      "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+    }
+  },
+  "weight_hashes": {
+    "actor_token": "d7997b9f818e5d2577be3b93a39df5b9c6aaf31a4077d6627209e78401e0f755",
+    "actor_quantity": "192a4c2de5f49413924dbd80850848ac6cf1c9f8bb82b0c98ab4c36e1809f1cc",
+    "market_token": "e6c83b91036da8a1b21a5694a6e8816f61765ccffcb539cf9e515d21c74f36af",
+    "market_quantity": "7b3d9e8bff8db7a5bac3af43442dfaa402a112c9f11dd8b1671753d0776bca94"
+  },
+  "consecutive_same_callable_runs": [
+    {
+      "seed": 2026092301,
+      "states": 4,
+      "decisions": 3,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "trace_first_step": 0,
+      "trace_steps": 3
+    },
+    {
+      "seed": 2026092302,
+      "states": 4,
+      "decisions": 3,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "trace_first_step": 0,
+      "trace_steps": 3
+    }
+  ],
+  "step_zero_reset_verified": true,
+  "first_actions": [
+    {
+      "farmer": [
+        "PASS"
+      ],
+      "hands": [],
+      "market": [
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          5
+        ]
+      ]
+    },
+    {
+      "farmer": [
+        "PASS"
+      ],
+      "hands": [],
+      "market": [
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          5
+        ]
+      ]
+    }
+  ],
+  "numpy_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\numpy\\__init__.py"
+}

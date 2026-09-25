@@ -1,0 +1,1605 @@
+{
+  "opponent": "B1",
+  "seed": 532609243,
+  "seat": 0,
+  "agent_entry": "conditional_wool_agent",
+  "policy_calls": 719,
+  "saved_action_mismatch_steps": [],
+  "events": [
+    {
+      "step": 668,
+      "price": 154,
+      "before": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ]
+      ],
+      "after": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ],
+        [
+          "SELL",
+          "WOOL",
+          3
+        ]
+      ],
+      "stack": [
+        {
+          "function": "conditional_wool_agent",
+          "line": 7139
+        },
+        {
+          "function": "opening_liquidity_agent",
+          "line": 7036
+        },
+        {
+          "function": "rescue_agent",
+          "line": 7022
+        },
+        {
+          "function": "e402_agent",
+          "line": 6980
+        },
+        {
+          "function": "e410_agent",
+          "line": 6925
+        },
+        {
+          "function": "_cxd_agent",
+          "line": 6909
+        },
+        {
+          "function": "_cxtb_agent",
+          "line": 6815
+        },
+        {
+          "function": "final_price_guard",
+          "line": 6643
+        },
+        {
+          "function": "agent",
+          "line": 6620
+        },
+        {
+          "function": "agent",
+          "line": 6547
+        },
+        {
+          "function": "agent",
+          "line": 6464
+        },
+        {
+          "function": "agent",
+          "line": 6412
+        },
+        {
+          "function": "_e335_agent",
+          "line": 6398
+        },
+        {
+          "function": "_e334_agent",
+          "line": 6364
+        },
+        {
+          "function": "_y_agent_shopherd",
+          "line": 6306
+        },
+        {
+          "function": "v44y_lockstep_agent",
+          "line": 6169
+        },
+        {
+          "function": "agent_v44y_preguard",
+          "line": 6017
+        },
+        {
+          "function": "agent",
+          "line": 5965
+        },
+        {
+          "function": "agent",
+          "line": 5877
+        },
+        {
+          "function": "agent",
+          "line": 5632
+        },
+        {
+          "function": "agent",
+          "line": 5492
+        },
+        {
+          "function": "agent",
+          "line": 5147
+        },
+        {
+          "function": "agent",
+          "line": 5031
+        },
+        {
+          "function": "agent",
+          "line": 4792
+        },
+        {
+          "function": "agent",
+          "line": 4590
+        },
+        {
+          "function": "agent",
+          "line": 4196
+        },
+        {
+          "function": "agent",
+          "line": 4115
+        },
+        {
+          "function": "agent",
+          "line": 4056
+        },
+        {
+          "function": "agent",
+          "line": 3959
+        },
+        {
+          "function": "agent",
+          "line": 3864
+        },
+        {
+          "function": "agent",
+          "line": 3717
+        },
+        {
+          "function": "agent",
+          "line": 3549
+        },
+        {
+          "function": "agent",
+          "line": 3382
+        },
+        {
+          "function": "agent",
+          "line": 3327
+        },
+        {
+          "function": "agent",
+          "line": 3240
+        },
+        {
+          "function": "agent",
+          "line": 3136
+        },
+        {
+          "function": "agent",
+          "line": 3024
+        },
+        {
+          "function": "agent",
+          "line": 2884
+        },
+        {
+          "function": "agent",
+          "line": 2754
+        },
+        {
+          "function": "agent",
+          "line": 2617
+        },
+        {
+          "function": "agent",
+          "line": 2513
+        },
+        {
+          "function": "agent",
+          "line": 2405
+        },
+        {
+          "function": "agent",
+          "line": 2360
+        },
+        {
+          "function": "agent",
+          "line": 2294
+        },
+        {
+          "function": "agent",
+          "line": 2138
+        },
+        {
+          "function": "agent",
+          "line": 2075
+        },
+        {
+          "function": "agent",
+          "line": 1937
+        },
+        {
+          "function": "agent",
+          "line": 1914
+        },
+        {
+          "function": "agent",
+          "line": 1733
+        },
+        {
+          "function": "_r36_reserve",
+          "line": 5843
+        }
+      ],
+      "returns": [
+        {
+          "function": "_r36_reserve",
+          "line": 5839,
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "SELL",
+              "WOOL",
+              3
+            ]
+          ]
+        },
+        {
+          "function": "_v224_sales_first",
+          "line": 1496,
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "SELL",
+              "WOOL",
+              3
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 1726,
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "SELL",
+              "WOOL",
+              3
+            ]
+          ]
+        },
+        {
+          "function": "_r37_reorder_sales",
+          "line": 1827,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 1891,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 1934,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v233_request",
+          "line": 1976,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v233_request",
+          "line": 4225,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v233_request",
+          "line": 4393,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v234_rescue",
+          "line": 2052,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v234_rescue",
+          "line": 4459,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2074,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2134,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r51_input_control",
+          "line": 2223,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2286,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r51_close_warehouse",
+          "line": 2308,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2359,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2402,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2509,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r85_feed",
+          "line": 2550,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r85_fertilizer",
+          "line": 2602,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2616,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r95_replenish",
+          "line": 2727,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2753,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r97_supply",
+          "line": 2811,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 2883,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v9_courier",
+          "line": 2943,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3016,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v9_carrot",
+          "line": 3056,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3128,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v9_herd",
+          "line": 3185,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3232,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v9_fert",
+          "line": 3271,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3324,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v9_opening",
+          "line": 3361,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3381,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v92_predict",
+          "line": 3499,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3543,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v92_predict2",
+          "line": 3670,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3711,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3849,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 3955,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 4052,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_ct_apply",
+          "line": 4086,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 4109,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_ov_apply",
+          "line": 4158,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 4195,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 4589,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 4791,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_ch_tape",
+          "line": 4987,
+          "market": [
+            [
+              "SELL",
+              "STRAWBERRY",
+              18
+            ],
+            [
+              "SELL",
+              "MILK",
+              9
+            ],
+            [
+              "SELL",
+              "STRAWBERRY",
+              8
+            ],
+            [
+              "SELL",
+              "MILK",
+              4
+            ],
+            [
+              "SELL",
+              "STRAWBERRY",
+              1
+            ],
+            [
+              "SELL",
+              "MILK",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_ch_tape",
+          "line": 4987,
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              997
+            ],
+            [
+              "SELL",
+              "MILK",
+              999
+            ],
+            [
+              "SELL",
+              "CARROT",
+              1000
+            ]
+          ]
+        },
+        {
+          "function": "_ch_tape",
+          "line": 4987,
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1000
+            ],
+            [
+              "SELL",
+              "MILK",
+              1000
+            ],
+            [
+              "SELL",
+              "CARROT",
+              1000
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 5030,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 5146,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 5491,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 5631,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 5849,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r127_last_hour",
+          "line": 5906,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_r127_priority",
+          "line": 5934,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 5964,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_y_preguard",
+          "line": 5995,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent_v44y_preguard",
+          "line": 6016,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_v44y_reorder",
+          "line": 6121,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "v44y_lockstep_agent",
+          "line": 6168,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_y_controller",
+          "line": 6226,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_y_agent_shopherd",
+          "line": 6305,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_e334_compact",
+          "line": 6372,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_e334_agent",
+          "line": 6361,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_e335_agent",
+          "line": 6397,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 6411,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 6460,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 6528,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "agent",
+          "line": 6616,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "final_price_guard",
+          "line": 6642,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_cxtb_agent",
+          "line": 6814,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_cxd_reorder",
+          "line": 6862,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "_cxd_agent",
+          "line": 6908,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "e410_agent",
+          "line": 6924,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "e402_agent",
+          "line": 6979,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "rescue_agent",
+          "line": 7021,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "opening_liquidity_agent",
+          "line": 7035,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        },
+        {
+          "function": "conditional_wool_agent",
+          "line": 7133,
+          "market": [
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ]
+          ]
+        }
+      ],
+      "final": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ]
+      ],
+      "debt_after": {
+        "673": {
+          "WOOL": 3
+        }
+      }
+    }
+  ],
+  "telemetry": {
+    "calls": 719,
+    "eligible": 719,
+    "open_attempts": 1,
+    "changes": 1,
+    "reserved_units": 3,
+    "errors": 0,
+    "mode": "conditional_wool_v1"
+  }
+}

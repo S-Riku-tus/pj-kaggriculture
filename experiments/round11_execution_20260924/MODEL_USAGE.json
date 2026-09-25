@@ -1,0 +1,11 @@
+{
+  "schema": "round11-model-usage-v1",
+  "training_performed": false,
+  "training_updates": 0,
+  "saved_weight_files": [],
+  "reload_tests": 0,
+  "model_inferences": 0,
+  "model_candidate_selections": 0,
+  "model_final_action_changes": 0,
+  "reason": "Executable rule-based interventions were available; prior inherited ranker had zero selections and the selected M20 rule failed holdout, so extending the old imbalanced model was not justified."
+}

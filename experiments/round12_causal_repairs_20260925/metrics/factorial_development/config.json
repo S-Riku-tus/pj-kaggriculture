@@ -1,0 +1,26 @@
+{
+  "name": "round12_2x2_new_development_not_holdout",
+  "development_evidence_not_holdout": true,
+  "output": "metrics/factorial_development",
+  "arms": {
+    "P0M0": "agents/P0M0_B1/main.py",
+    "P0M1": "agents/P0M1_market/main.py",
+    "P1M0": "agents/P1M0_strawberry_route/main.py",
+    "P1M1": "agents/P1M1_strawberry_route/main.py"
+  },
+  "opponents": {
+    "B1": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+    "v57": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+    "order_book": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+    "metav4": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py"
+  },
+  "seeds": [
+    712609243,
+    712609244
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "route_metric_arms": []
+}

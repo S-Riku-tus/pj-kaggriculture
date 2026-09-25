@@ -1,0 +1,81 @@
+{
+  "format": "round10-panel-v1",
+  "created_at_utc": "2026-09-24T12:04:12.404991+00:00",
+  "config": {
+    "engine": "kagsim",
+    "output": "experiments/round11_execution_20260924/holdout/m20_kagsim",
+    "development_evidence_not_holdout": false,
+    "frozen_candidate_sha256": "98d374abdf6e28fcde76c1b2da06bef0e1f6da91c3906768c1d8a8d836e92c4a",
+    "planned_seed_clusters": 24,
+    "planned_games": 384,
+    "acceptance_protocol": "experiments/round11_execution_20260924/holdout/ACCEPTANCE_PROTOCOL.json",
+    "arms": {
+      "B1": {
+        "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+        "mode": "last_callable",
+        "baseline_id": "B1"
+      },
+      "m20_multi_hypothesis": {
+        "path": "experiments/round11_execution_20260924/arms/m20_multi_hypothesis/main.py",
+        "mode": "last_callable",
+        "baseline_id": "B1"
+      }
+    },
+    "opponents": {
+      "B1": {
+        "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+        "mode": "last_callable",
+        "family": "herd_safe"
+      },
+      "v57": {
+        "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+        "mode": "last_callable",
+        "family": "public_router"
+      },
+      "order_book": {
+        "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+        "mode": "last_callable",
+        "family": "order_book"
+      },
+      "metav4": {
+        "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py",
+        "mode": "last_callable",
+        "family": "metav4"
+      }
+    },
+    "seeds": [
+      612609241,
+      612609242,
+      612609243,
+      612609244,
+      612609245,
+      612609246,
+      612609247,
+      612609248,
+      612609249,
+      612609250,
+      612609251,
+      612609252,
+      612609253,
+      612609254,
+      612609255,
+      612609256,
+      612609257,
+      612609258,
+      612609259,
+      612609260,
+      612609261,
+      612609262,
+      612609263,
+      612609264
+    ],
+    "seats": [
+      0,
+      1
+    ]
+  },
+  "engine_path": "experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim/kagsim.cp312-win_amd64.pyd",
+  "engine_sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92",
+  "tasks": 384,
+  "development_evidence_not_holdout": false
+}

@@ -1,0 +1,28 @@
+{
+  "saved_action_replays_audited": 876,
+  "official_python_saved_replays": 12,
+  "cpp_saved_replays": 864,
+  "full_player_observations_compared": 28784,
+  "paired_trajectories_independently_compared": 256,
+  "new_completed_reactive_cppsim_executions": 212,
+  "reactive_execution_groups": {
+    "initial_diagnostics": 16,
+    "expanded_single_ablation": 192,
+    "runtime_ledger_probes": 4
+  },
+  "unique_seed_opponent_seat_arm_cells": 204,
+  "new_reactive_policy_calls_for_completed_games": 304856,
+  "teacher_forced_checks": "CW1 full719 calls; B1 representative prefix669 calls, repeated for source tracing; not included in reactive games",
+  "new_official_python_games": 0,
+  "training_updates": 0,
+  "kaggle_submissions": 0,
+  "candidate_archives_created": 0,
+  "promotion": "KEEP_B1",
+  "limitations": [
+    "All new diagnostic cases were already exposed Round11 cases; no fresh holdout.",
+    "Twelve original official-Python records were replayed in C++, not freshly executed in the official runtime.",
+    "Only20 saved traces received full gameplay-observation comparisons; all876 had terminal fixed-action replay checks.",
+    "Completed execution counts include repeated diagnostic cells; exploratory interrupted debugging runs are not complete games.",
+    "The per-product ledger binding exports existing engine counters and changes no simulator dynamics."
+  ]
+}

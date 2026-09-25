@@ -1,0 +1,397 @@
+# Round12 runtime-input repair and conservative market candidate layer.
+# This fragment is appended to the immutable B1 source by build_round12_agents.py.
+# The three booleans below are injected by the builder immediately above it.
+
+from copy import deepcopy as _r12_deepcopy
+
+_R12_ITEMS = tuple(_V92_P_ITEMS)
+_R12_REPORT = {
+    "ledger_finalized": 0,
+    "ledger_errors": 0,
+    "inference_exact": 0,
+    "inference_censored": 0,
+    "inference_lower_bound": 0,
+    "inference_interval": 0,
+    "inference_unknown": 0,
+    "proposal_generated": 0,
+    "candidate_different_from_baseline_final": 0,
+    "candidate_survived_finalization": 0,
+    "actual_fill_different": 0,
+    "future_state_different": 0,
+    "terminal_value_delta": 0,
+    "selected_wait": 0,
+    "selected_baseline": 0,
+    "redundant_with_baseline": 0,
+    "overwritten_during_finalization": 0,
+    "guard_not_met": 0,
+    "invalid_action": 0,
+    "unfilled": 0,
+    "no_value": 0,
+    "undetermined": 0,
+    "decisions": [],
+}
+_R12_CAPTURE = {}
+_R12_M_STATE = {}
+
+
+def _r12_positive_int(value):
+    try:
+        return max(0, int(value))
+    except (TypeError, ValueError):
+        return 0
+
+
+def _r12_sell_totals(action):
+    totals = {}
+    for order in (action.get("market") or [])[:10]:
+        if isinstance(order, list) and len(order) >= 3 and order[0] == "SELL":
+            qty = _r12_positive_int(order[2])
+            totals[order[1]] = totals.get(order[1], 0) + qty
+    return totals
+
+
+def _r12_post_field_shed(observation, action):
+    """Pure public-state projection after final unit actions, before market.
+
+    B1's pinned projected_shed implements the official sequential PICKUP, DROP and
+    non-animal PLACE semantics, including shed capacity and same-turn deposits.
+    HARVEST goes to a worker inventory and therefore cannot be sold in that turn.
+    """
+    return dict(projected_shed(_r12_deepcopy(action), FarmView(observation)))
+
+
+def _r12_effective_sell_fills(observation, action):
+    """Exact own fills for premium products from public state and final action.
+
+    Premium products cannot be bought back. Their SELL fill is consequently
+    independent of the opponent: final post-field stock is consumed sequentially
+    by valid SELL orders in the first ten market slots. Duplicate orders and
+    over-sized requests are handled explicitly.
+    """
+    stock = _r12_post_field_shed(observation, action)
+    fills = {item: 0 for item in _R12_ITEMS}
+    for order in (action.get("market") or [])[:10]:
+        if not (isinstance(order, list) and len(order) >= 3 and order[0] == "SELL"):
+            continue
+        item = order[1]
+        if item not in fills:
+            continue
+        qty = min(_r12_positive_int(order[2]), max(0, int(stock.get(item, 0))))
+        fills[item] += qty
+        stock[item] = max(0, int(stock.get(item, 0)) - qty)
+    return fills, stock
+
+
+def _r12_market_params(observation):
+    params = {key: dict(value) for key, value in _R37_MARKET_PARAMS.items()}
+    for key, patch in ((observation.get("market") or {}).get("params") or {}).items():
+        if key in params and isinstance(patch, dict):
+            params[key].update(patch)
+    return params
+
+
+def _r12_rival_interval(observation, previous, item, own_interval=None):
+    """Return only information identifiable from public observations.
+
+    The next observation is after town consumption. visible_total reconstructs
+    the market-inventory increments made by above-floor sales. At the $1 floor,
+    filled sales consume shed stock but stop increasing market inventory, so an
+    exact quantity is not identifiable. The result never uses opponent private
+    stock or controller state.
+    """
+    result = {
+        "item": item,
+        "confidence": "unknown",
+        "lower": None,
+        "upper": None,
+        "censored": False,
+        "visible_total": None,
+        "own_lower": None,
+        "own_upper": None,
+    }
+    try:
+        step = int(previous["step"])
+        draw = _v9_town_draw(previous.get("shops") or [], step).get(item, 0)
+        current_inventory = int(observation["market"]["inventory"][item])
+        start_inventory = int(previous["inventory"][item])
+        visible_total = current_inventory - start_inventory + int(draw)
+        result["visible_total"] = visible_total
+        if own_interval is None:
+            own = _r12_positive_int((previous.get("own") or {}).get(item, 0))
+            own_lower = own_upper = own
+        else:
+            own_lower, own_upper = own_interval
+            own_lower = _r12_positive_int(own_lower)
+            own_upper = _r12_positive_int(own_upper)
+        result["own_lower"], result["own_upper"] = own_lower, own_upper
+        if visible_total < 0 or own_lower > own_upper:
+            return result
+        params = _r12_market_params(observation)
+        post_market_inventory = current_inventory + int(draw)
+        at_floor = _r37_market_price(item, post_market_inventory, params) <= 1
+        if own_lower != own_upper:
+            result.update(
+                confidence="interval",
+                lower=max(0, visible_total - own_upper),
+                upper=min(100, max(0, visible_total - own_lower)),
+                censored=at_floor,
+            )
+            return result
+        if not at_floor:
+            rival = visible_total - own_lower
+            if rival < 0 or rival > 100:
+                return result
+            result.update(confidence="exact", lower=rival, upper=rival)
+            return result
+        lower = max(0, visible_total - own_upper)
+        if lower > 100:
+            return result
+        result.update(confidence="censored", lower=lower, upper=100, censored=True)
+        return result
+    except (KeyError, TypeError, ValueError, IndexError):
+        return result
+
+
+def _r12_censored_update(observation, state):
+    player, step = int(observation["player"]), int(observation["step"])
+    race = _V9_RACE.get(player) or {}
+    previous = race.get("prev")
+    if not previous or previous.get("step") != step - 1:
+        return
+    metadata = state.setdefault("obs_meta", {})
+    for index, item in enumerate(_R12_ITEMS):
+        interval = _r12_rival_interval(observation, previous, item)
+        metadata[(step - 1, index)] = interval
+        confidence = interval["confidence"]
+        counter = "inference_" + confidence
+        if counter in _R12_REPORT:
+            _R12_REPORT[counter] += 1
+        # Exact events and censor-safe lower bounds may train/drive the predictor.
+        # Ambiguous intervals crossing the event threshold are not labeled zero.
+        lower = interval.get("lower")
+        if confidence == "exact" and lower is not None and lower >= 2:
+            state["obs"][(step - 1, index)] = int(lower)
+        elif confidence in ("censored", "lower_bound") and lower is not None and lower >= 2:
+            state["obs"][(step - 1, index)] = int(lower)
+
+
+_R12_ORIGINAL_PREDICT = _v92_predict
+
+
+def _r12_capturing_predict(observation, action, state):
+    before = _r12_deepcopy(action)
+    result = _R12_ORIGINAL_PREDICT(observation, action, state)
+    player, step = int(observation["player"]), int(observation["step"])
+    before_totals = _r12_sell_totals(before)
+    after_totals = _r12_sell_totals(result)
+    increments = {
+        item: max(0, after_totals.get(item, 0) - before_totals.get(item, 0))
+        for item in _R12_ITEMS
+    }
+    _R12_CAPTURE[(player, step)] = {
+        "before": before,
+        "after": _r12_deepcopy(result),
+        "increments": {item: qty for item, qty in increments.items() if qty > 0},
+    }
+    return result
+
+
+def _r12_remove_sell(action, item, quantity):
+    result = _r12_deepcopy(action)
+    remaining = max(0, int(quantity))
+    market = []
+    for order in result.get("market") or []:
+        order = list(order)
+        if remaining and len(order) >= 3 and order[0] == "SELL" and order[1] == item:
+            removed = min(remaining, _r12_positive_int(order[2]))
+            order[2] = _r12_positive_int(order[2]) - removed
+            remaining -= removed
+            if order[2] <= 0:
+                continue
+        market.append(order)
+    result["market"] = market
+    return result
+
+
+def _r12_move_increment_to_back(action, item, quantity):
+    result = _r12_remove_sell(action, item, quantity)
+    if quantity > 0 and len(result.get("market") or []) < 10:
+        result.setdefault("market", []).append(["SELL", item, int(quantity)])
+    return result
+
+
+def _r12_distinct_support(observation, state, item):
+    """Score trajectory clusters; identical event streams count once."""
+    step = int(observation["step"])
+    shops = tuple(observation["town"]["unlocked_shops"][:2])
+    candidates = _v92_p_pair(shops)
+    seen = state.get("obs") or {}
+    lo = step - 240
+    recent = [(tick, idx) for (tick, idx) in seen if tick >= lo]
+    clustered = {}
+    for episode, events in candidates:
+        signature = tuple(sorted((int(t), int(i), int(q)) for (t, i), q in events.items()))
+        match = false_positive = 0
+        for (tick, index), _qty in events.items():
+            if lo <= tick < step - 1:
+                if (tick, index) in seen or (tick - 1, index) in seen or (tick + 1, index) in seen:
+                    match += 1
+                else:
+                    false_positive += 1
+        miss = sum(
+            1
+            for tick, index in recent
+            if (tick, index) not in events and (tick - 1, index) not in events and (tick + 1, index) not in events
+        )
+        score = match - 0.5 * false_positive - 0.5 * miss
+        previous = clustered.get(signature)
+        if previous is None or score > previous[0]:
+            clustered[signature] = (score, events, episode)
+    index = _R12_ITEMS.index(item)
+    ranked = sorted(clustered.values(), key=lambda value: (-value[0], value[2]))[:5]
+    quantities = [
+        int(events.get((step + 1, index), 0) + events.get((step + 2, index), 0))
+        for _score, events, _episode in ranked
+    ]
+    supporting = [qty for qty in quantities if qty >= _V92_P_K]
+    return {
+        "distinct_trajectories": len(ranked),
+        "support": len(supporting),
+        "support_quantities": supporting,
+        "max_supported_quantity": max(supporting) if supporting else 0,
+    }
+
+
+def _r12_sale_revenue(observation, item, inventory, own_quantity, rival_quantity=0):
+    params = _r12_market_params(observation)
+    inventory = int(inventory)
+    own_quantity, rival_quantity = int(own_quantity), int(rival_quantity)
+    revenue = 0
+    for unit in range(max(own_quantity, rival_quantity)):
+        quote = _r37_market_price(item, inventory, params)
+        if unit < own_quantity:
+            revenue += quote
+            if quote > 1:
+                inventory += 1
+        if unit < rival_quantity and quote > 1:
+            inventory += 1
+    return revenue
+
+
+def _r12_evaluate_market_candidates(observation, baseline_action, capture, predictor_state):
+    """Pure candidate construction and local value decomposition.
+
+    No reservation, debt, predictor history or live action is modified here.
+    The caller commits exactly one returned action after this function returns.
+    """
+    baseline = _r12_deepcopy(baseline_action)
+    increments = dict((capture or {}).get("increments") or {})
+    if not increments:
+        return baseline, {"classification": "guard_not_met", "candidates": []}
+    item, quantity = sorted(increments.items(), key=lambda pair: (-pair[1], pair[0]))[0]
+    before_total = _r12_sell_totals((capture or {}).get("before") or {}).get(item, 0)
+    final_total = _r12_sell_totals(baseline).get(item, 0)
+    if final_total <= before_total:
+        return baseline, {"classification": "overwritten_during_finalization", "item": item, "candidates": []}
+    surviving = min(int(quantity), final_total - before_total)
+    wait = _r12_remove_sell(baseline, item, surviving)
+    partial_qty = max(1, surviving // 2) if surviving > 1 else surviving
+    partial = _r12_remove_sell(baseline, item, surviving - partial_qty)
+    back = _r12_move_increment_to_back(wait, item, surviving)
+    support = _r12_distinct_support(observation, predictor_state, item)
+    inventory = int(observation["market"]["inventory"][item])
+    draw = int(_v9_town_draw(observation["town"]["unlocked_shops"], int(observation["step"])).get(item, 0))
+    wait_inventory = inventory - draw
+    rival_adverse = support["max_supported_quantity"]
+    now_revenue = _r12_sale_revenue(observation, item, inventory, surviving, 0)
+    partial_revenue = _r12_sale_revenue(observation, item, inventory, partial_qty, 0)
+    wait_best = _r12_sale_revenue(observation, item, wait_inventory, surviving, 0)
+    wait_adverse = _r12_sale_revenue(observation, item, wait_inventory, surviving, rival_adverse)
+    downside = max(0, wait_best - now_revenue)
+    money = float(observation["farms"][int(observation["player"])]["money"])
+    risk_limit = max(100.0, 0.02 * money)
+    choose_now = support["support"] >= 2 and now_revenue >= wait_adverse and downside <= risk_limit
+    selected = baseline if choose_now else wait
+    candidates = [
+        {"name": "sell_now_full_front", "quantity": surviving, "local_self_cash": now_revenue},
+        {"name": "sell_now_partial_front", "quantity": partial_qty, "local_self_cash": partial_revenue},
+        {"name": "sell_now_full_back", "quantity": surviving, "local_self_cash": now_revenue},
+        {"name": "wait_one_or_native_slot", "quantity": 0, "local_self_cash": 0},
+    ]
+    return selected, {
+        "classification": "selected_baseline" if choose_now else "selected_wait",
+        "item": item,
+        "quantity": surviving,
+        "support": support,
+        "now_revenue": now_revenue,
+        "wait_best_revenue": wait_best,
+        "wait_adverse_revenue": wait_adverse,
+        "downside_risk": downside,
+        "risk_limit": risk_limit,
+        "candidates": candidates,
+    }
+
+
+def _r12_finalize_ledger(observation, action):
+    player, step = int(observation["player"]), int(observation["step"])
+    state = _V9_RACE.get(player)
+    if state is None:
+        return
+    fills, left = _r12_effective_sell_fills(observation, action)
+    stock = _r12_post_field_shed(observation, action)
+    state["prev"] = {
+        "step": step,
+        "inventory": dict(observation["market"]["inventory"]),
+        "prices": dict(observation["market"]["prices"]),
+        "own": fills,
+        "left": {item: max(0, int(left.get(item, stock.get(item, 0)))) for item in _R12_ITEMS},
+        "shops": list(observation["town"]["unlocked_shops"]),
+        "ledger_source": "round12_final_action_exact_premium_fill",
+    }
+    _R12_REPORT["ledger_finalized"] += 1
+
+
+if _R12_ENABLE_CENSOR:
+    _v92_p_update = _r12_censored_update
+if _R12_ENABLE_MARKET:
+    _v92_predict = _r12_capturing_predict
+
+_R12_PARENT = opening_liquidity_agent
+
+
+def round12_agent(observation, configuration=None):
+    player, step = int(observation["player"]), int(observation["step"])
+    if step == 0:
+        _R12_CAPTURE.clear()
+        _R12_M_STATE[player] = {"step": -1, "last": None}
+        for key in list(_R12_REPORT):
+            if key == "decisions":
+                _R12_REPORT[key] = []
+            elif isinstance(_R12_REPORT[key], int):
+                _R12_REPORT[key] = 0
+    action = _R12_PARENT(observation, configuration)
+    if _R12_ENABLE_MARKET:
+        capture = _R12_CAPTURE.get((player, step))
+        predictor_state = _V92_P.get(player) or {"obs": {}}
+        selected, decision = _r12_evaluate_market_candidates(observation, action, capture, predictor_state)
+        if capture and capture.get("increments"):
+            _R12_REPORT["proposal_generated"] += 1
+            different = selected != action
+            _R12_REPORT["candidate_different_from_baseline_final"] += int(different)
+            _R12_REPORT["candidate_survived_finalization"] += int(decision.get("classification") not in ("overwritten_during_finalization", "guard_not_met"))
+        classification = decision.get("classification", "undetermined")
+        if classification in _R12_REPORT:
+            _R12_REPORT[classification] += 1
+        if len(_R12_REPORT["decisions"]) < 256 and decision.get("item"):
+            _R12_REPORT["decisions"].append(dict(step=step, **decision))
+        _R12_M_STATE[player] = {"step": step, "last": _r12_deepcopy(decision)}
+        action = selected
+    if _R12_ENABLE_LEDGER:
+        try:
+            _r12_finalize_ledger(observation, action)
+        except Exception:
+            _R12_REPORT["ledger_errors"] += 1
+    return action
+
+
+round12_agent.telemetry = _R12_REPORT

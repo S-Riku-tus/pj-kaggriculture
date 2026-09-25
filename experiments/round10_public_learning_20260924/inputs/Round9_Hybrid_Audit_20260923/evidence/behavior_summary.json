@@ -1,0 +1,461 @@
+{
+  "A2": {
+    "games": 64,
+    "actor_actions": {
+      "PASS": 1162,
+      "PICKUP": 6853,
+      "BUILD_PASTURE": 2537,
+      "PLACE": 1391,
+      "NORTH": 64574,
+      "WEST": 81548,
+      "FEED": 1628,
+      "CARE": 1806,
+      "PLANT": 3066,
+      "WATER": 10226,
+      "EAST": 72198,
+      "SOUTH": 51527,
+      "COLLECT_FERTILIZER": 2197,
+      "DROP": 1696,
+      "HARVEST": 2442,
+      "DIG": 1749,
+      "BUILD_COOP": 53,
+      "FERTILIZE": 39
+    },
+    "market_order_counts": {
+      "BUY_ANIMAL:COW": 143,
+      "BUY_PRODUCT:WHEAT": 1346,
+      "SELL:WHEAT": 3158,
+      "HIRE": 11478,
+      "BUY_ANIMAL:SHEEP": 75,
+      "BUY_SEED:MELON": 214,
+      "BUY_SEED:WHEAT": 2529,
+      "SELL:FERTILIZER": 1975,
+      "SELL:MILK": 454,
+      "SELL:MELON": 384,
+      "SELL:WOOL": 237,
+      "BUY_LAND": 16,
+      "BUY_SEED:STRAWBERRY": 4,
+      "BUY_SEED:TOMATO": 5
+    },
+    "movement": 269847,
+    "backtracks": 10512,
+    "stationary_moves": 0,
+    "work_commands": 35683,
+    "days_with_work_mean": 21.90625,
+    "perday": {
+      "0": {
+        "total_actions": 7168,
+        "work": 3104,
+        "moves": 3872,
+        "pass": 192
+      },
+      "1": {
+        "total_actions": 7392,
+        "work": 1622,
+        "moves": 5764,
+        "pass": 6
+      },
+      "2": {
+        "total_actions": 8264,
+        "work": 2968,
+        "moves": 5240,
+        "pass": 56
+      },
+      "3": {
+        "total_actions": 9384,
+        "work": 2204,
+        "moves": 7176,
+        "pass": 4
+      },
+      "4": {
+        "total_actions": 10188,
+        "work": 2490,
+        "moves": 7694,
+        "pass": 4
+      },
+      "5": {
+        "total_actions": 8408,
+        "work": 1494,
+        "moves": 6910,
+        "pass": 4
+      },
+      "6": {
+        "total_actions": 9804,
+        "work": 2152,
+        "moves": 7496,
+        "pass": 156
+      },
+      "7": {
+        "total_actions": 10504,
+        "work": 2294,
+        "moves": 8198,
+        "pass": 12
+      },
+      "8": {
+        "total_actions": 11248,
+        "work": 2232,
+        "moves": 9016,
+        "pass": 0
+      },
+      "9": {
+        "total_actions": 12950,
+        "work": 2002,
+        "moves": 10930,
+        "pass": 18
+      },
+      "10": {
+        "total_actions": 12110,
+        "work": 1658,
+        "moves": 10452,
+        "pass": 0
+      },
+      "11": {
+        "total_actions": 11786,
+        "work": 1442,
+        "moves": 10344,
+        "pass": 0
+      },
+      "12": {
+        "total_actions": 11588,
+        "work": 1214,
+        "moves": 10170,
+        "pass": 204
+      },
+      "13": {
+        "total_actions": 12032,
+        "work": 1880,
+        "moves": 10146,
+        "pass": 6
+      },
+      "14": {
+        "total_actions": 11172,
+        "work": 1360,
+        "moves": 9801,
+        "pass": 11
+      },
+      "15": {
+        "total_actions": 12001,
+        "work": 1326,
+        "moves": 10665,
+        "pass": 10
+      },
+      "16": {
+        "total_actions": 11770,
+        "work": 819,
+        "moves": 10941,
+        "pass": 10
+      },
+      "17": {
+        "total_actions": 11769,
+        "work": 728,
+        "moves": 11032,
+        "pass": 9
+      },
+      "18": {
+        "total_actions": 11616,
+        "work": 260,
+        "moves": 11356,
+        "pass": 0
+      },
+      "19": {
+        "total_actions": 10926,
+        "work": 444,
+        "moves": 10474,
+        "pass": 8
+      },
+      "20": {
+        "total_actions": 10866,
+        "work": 267,
+        "moves": 10599,
+        "pass": 0
+      },
+      "21": {
+        "total_actions": 10988,
+        "work": 403,
+        "moves": 10585,
+        "pass": 0
+      },
+      "22": {
+        "total_actions": 8256,
+        "work": 268,
+        "moves": 7985,
+        "pass": 3
+      },
+      "23": {
+        "total_actions": 9159,
+        "work": 372,
+        "moves": 8733,
+        "pass": 54
+      },
+      "24": {
+        "total_actions": 10800,
+        "work": 290,
+        "moves": 10509,
+        "pass": 1
+      },
+      "25": {
+        "total_actions": 9842,
+        "work": 227,
+        "moves": 9614,
+        "pass": 1
+      },
+      "26": {
+        "total_actions": 8021,
+        "work": 60,
+        "moves": 7961,
+        "pass": 0
+      },
+      "27": {
+        "total_actions": 5751,
+        "work": 28,
+        "moves": 5618,
+        "pass": 105
+      },
+      "28": {
+        "total_actions": 9718,
+        "work": 24,
+        "moves": 9593,
+        "pass": 101
+      },
+      "29": {
+        "total_actions": 11211,
+        "work": 51,
+        "moves": 10973,
+        "pass": 187
+      }
+    }
+  },
+  "opponent": {
+    "games": 64,
+    "actor_actions": {
+      "PASS": 30981,
+      "NORTH": 58672,
+      "SOUTH": 32629,
+      "PICKUP": 12292,
+      "BUILD_PASTURE": 934,
+      "PLACE": 6494,
+      "WEST": 55466,
+      "CARE": 25972,
+      "PLANT": 15321,
+      "WATER": 71332,
+      "FEED": 22714,
+      "COLLECT_FERTILIZER": 23960,
+      "EAST": 37990,
+      "HARVEST": 30797,
+      "DROP": 2855,
+      "DIG": 2301,
+      "BUILD_COOP": 282,
+      "FERTILIZE": 5234
+    },
+    "market_order_counts": {
+      "BUY_PRODUCT:WHEAT": 3042,
+      "SELL:WHEAT": 3762,
+      "HIRE": 17159,
+      "BUY_ANIMAL:COW": 354,
+      "BUY_ANIMAL:SHEEP": 308,
+      "BUY_SEED:MELON": 448,
+      "BUY_SEED:WHEAT": 8417,
+      "SELL:FERTILIZER": 5796,
+      "BUY_SEED:STRAWBERRY": 1600,
+      "SELL:WOOL": 2031,
+      "BUY_LAND": 134,
+      "BUY_PRODUCT:FERTILIZER": 1412,
+      "SELL:MILK": 3084,
+      "SELL:MELON": 448,
+      "SELL:STRAWBERRY": 2550,
+      "BUY_SEED:CARROT": 1553,
+      "SELL:CARROT": 591,
+      "BUY_ANIMAL:GOOSE": 106,
+      "SELL:EGG": 1030,
+      "BUY_SEED:TOMATO": 6,
+      "SELL:TOMATO": 65
+    },
+    "movement": 184757,
+    "backtracks": 802,
+    "stationary_moves": 2,
+    "work_commands": 220488,
+    "days_with_work_mean": 30.0,
+    "perday": {
+      "0": {
+        "total_actions": 8576,
+        "work": 3648,
+        "moves": 2368,
+        "pass": 2560
+      },
+      "1": {
+        "total_actions": 5952,
+        "work": 1792,
+        "moves": 1728,
+        "pass": 2432
+      },
+      "2": {
+        "total_actions": 7424,
+        "work": 2880,
+        "moves": 2496,
+        "pass": 2048
+      },
+      "3": {
+        "total_actions": 8896,
+        "work": 3264,
+        "moves": 3904,
+        "pass": 1728
+      },
+      "4": {
+        "total_actions": 7424,
+        "work": 2560,
+        "moves": 3392,
+        "pass": 1472
+      },
+      "5": {
+        "total_actions": 7360,
+        "work": 3584,
+        "moves": 2752,
+        "pass": 1024
+      },
+      "6": {
+        "total_actions": 11840,
+        "work": 5896,
+        "moves": 5056,
+        "pass": 888
+      },
+      "7": {
+        "total_actions": 12260,
+        "work": 5302,
+        "moves": 5848,
+        "pass": 1110
+      },
+      "8": {
+        "total_actions": 13730,
+        "work": 6252,
+        "moves": 5596,
+        "pass": 1882
+      },
+      "9": {
+        "total_actions": 13620,
+        "work": 6758,
+        "moves": 6122,
+        "pass": 740
+      },
+      "10": {
+        "total_actions": 17600,
+        "work": 7434,
+        "moves": 8512,
+        "pass": 1654
+      },
+      "11": {
+        "total_actions": 16244,
+        "work": 8966,
+        "moves": 6702,
+        "pass": 576
+      },
+      "12": {
+        "total_actions": 14784,
+        "work": 6957,
+        "moves": 6071,
+        "pass": 1756
+      },
+      "13": {
+        "total_actions": 15028,
+        "work": 8129,
+        "moves": 6370,
+        "pass": 529
+      },
+      "14": {
+        "total_actions": 15092,
+        "work": 8625,
+        "moves": 5756,
+        "pass": 711
+      },
+      "15": {
+        "total_actions": 16436,
+        "work": 9035,
+        "moves": 7084,
+        "pass": 317
+      },
+      "16": {
+        "total_actions": 17908,
+        "work": 9487,
+        "moves": 7962,
+        "pass": 459
+      },
+      "17": {
+        "total_actions": 17600,
+        "work": 8386,
+        "moves": 8600,
+        "pass": 614
+      },
+      "18": {
+        "total_actions": 18172,
+        "work": 9917,
+        "moves": 7686,
+        "pass": 569
+      },
+      "19": {
+        "total_actions": 16758,
+        "work": 8850,
+        "moves": 7122,
+        "pass": 786
+      },
+      "20": {
+        "total_actions": 18040,
+        "work": 10188,
+        "moves": 7414,
+        "pass": 438
+      },
+      "21": {
+        "total_actions": 17752,
+        "work": 9656,
+        "moves": 7725,
+        "pass": 371
+      },
+      "22": {
+        "total_actions": 17073,
+        "work": 9435,
+        "moves": 7219,
+        "pass": 419
+      },
+      "23": {
+        "total_actions": 16961,
+        "work": 9922,
+        "moves": 6714,
+        "pass": 325
+      },
+      "24": {
+        "total_actions": 17189,
+        "work": 10512,
+        "moves": 6251,
+        "pass": 426
+      },
+      "25": {
+        "total_actions": 16817,
+        "work": 9681,
+        "moves": 6489,
+        "pass": 647
+      },
+      "26": {
+        "total_actions": 17145,
+        "work": 9894,
+        "moves": 6592,
+        "pass": 659
+      },
+      "27": {
+        "total_actions": 17474,
+        "work": 10327,
+        "moves": 6606,
+        "pass": 541
+      },
+      "28": {
+        "total_actions": 18243,
+        "work": 7967,
+        "moves": 8912,
+        "pass": 1364
+      },
+      "29": {
+        "total_actions": 16828,
+        "work": 5184,
+        "moves": 9708,
+        "pass": 1936
+      }
+    }
+  }
+}

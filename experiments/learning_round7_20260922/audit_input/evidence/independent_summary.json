@@ -1,0 +1,271 @@
+{
+  "scope": "Independent reanalysis of saved evidence, no training/model inference/new games.",
+  "input_zip_sha256": "35d34590656e9e1b10e84e3b6a420c80c9a37302b02bcba267cf03e480f72af3",
+  "development_integrity": {
+    "n_games": 144,
+    "hash_ok": 144,
+    "seed_ok": 144,
+    "states_ok": 144,
+    "status_ok": 144,
+    "cash_ok": 144
+  },
+  "runtime_replay_checks": [
+    {
+      "seat": 0,
+      "hash_match": true,
+      "stored_states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "seed": 2026102201
+    },
+    {
+      "seat": 1,
+      "hash_match": true,
+      "stored_states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "seed": 2026102201
+    }
+  ],
+  "arm_outcomes": [
+    {
+      "arm": "round5_learned",
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "losses": 48,
+      "mean_cash": 8640.645833333334,
+      "mean_margin": -141562.91666666666
+    },
+    {
+      "arm": "round6_full_action_bc",
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "losses": 48,
+      "mean_cash": 1570.8333333333333,
+      "mean_margin": -150261.375
+    },
+    {
+      "arm": "round6_sequence_bc_v1",
+      "games": 48,
+      "wins": 0,
+      "draws": 0,
+      "losses": 48,
+      "mean_cash": 8401.8125,
+      "mean_margin": -143519.85416666666
+    }
+  ],
+  "quantity_buckets": [
+    {
+      "head": "actor_quantity",
+      "bucket": "all",
+      "support": 5327,
+      "correct": 4198,
+      "accuracy": 0.7880608222263938
+    },
+    {
+      "head": "actor_quantity",
+      "bucket": "1",
+      "support": 2248,
+      "correct": 2195,
+      "accuracy": 0.9764234875444839
+    },
+    {
+      "head": "actor_quantity",
+      "bucket": ">=2",
+      "support": 3079,
+      "correct": 2003,
+      "accuracy": 0.6505358882754141
+    },
+    {
+      "head": "actor_quantity",
+      "bucket": ">=10",
+      "support": 36,
+      "correct": 1,
+      "accuracy": 0.027777777777777776
+    },
+    {
+      "head": "actor_quantity",
+      "bucket": ">=15",
+      "support": 12,
+      "correct": 1,
+      "accuracy": 0.08333333333333333
+    },
+    {
+      "head": "market_quantity",
+      "bucket": "all",
+      "support": 27165,
+      "correct": 18246,
+      "accuracy": 0.6716731087796798
+    },
+    {
+      "head": "market_quantity",
+      "bucket": "1",
+      "support": 13297,
+      "correct": 12783,
+      "accuracy": 0.9613446642099722
+    },
+    {
+      "head": "market_quantity",
+      "bucket": ">=2",
+      "support": 13868,
+      "correct": 5463,
+      "accuracy": 0.3939284684164984
+    },
+    {
+      "head": "market_quantity",
+      "bucket": ">=10",
+      "support": 2580,
+      "correct": 310,
+      "accuracy": 0.12015503875968993
+    },
+    {
+      "head": "market_quantity",
+      "bucket": ">=15",
+      "support": 939,
+      "correct": 28,
+      "accuracy": 0.029818956336528223
+    }
+  ],
+  "new_bc_structural": {
+    "games": 48,
+    "never_extra_land": 29,
+    "first_extra_land_mean_conditional_on_acquisition": 354.7368421052632,
+    "first_extra_land_n_acquirers": 19,
+    "opponent_first_extra_land_mean": 151.0,
+    "animal_exits": 245,
+    "opponent_animal_exits": 8,
+    "animal_days_mean": 26.961805555555582,
+    "opponent_animal_days_mean": 396.96874999999926,
+    "max_simultaneous_animals_mean": 2.4375,
+    "opponent_max_simultaneous_animals_mean": 16.75,
+    "snapshot_means": {
+      "96": {
+        "learner": {
+          "cash": 792.9375,
+          "land": 1.0,
+          "animals": 0.6875,
+          "crops": 18.375
+        },
+        "opponent": {
+          "cash": 287.5,
+          "land": 1.0,
+          "animals": 6.0,
+          "crops": 19.0
+        }
+      },
+      "192": {
+        "learner": {
+          "cash": 71.75,
+          "land": 1.0,
+          "animals": 1.0625,
+          "crops": 18.1875
+        },
+        "opponent": {
+          "cash": 703.3125,
+          "land": 2.0,
+          "animals": 10.0,
+          "crops": 37.0
+        }
+      },
+      "240": {
+        "learner": {
+          "cash": 67.375,
+          "land": 1.0,
+          "animals": 0.375,
+          "crops": 15.6875
+        },
+        "opponent": {
+          "cash": 3248.9375,
+          "land": 2.0,
+          "animals": 13.0,
+          "crops": 37.0
+        }
+      },
+      "288": {
+        "learner": {
+          "cash": 616.5,
+          "land": 1.0625,
+          "animals": 0.625,
+          "crops": 16.4375
+        },
+        "opponent": {
+          "cash": 18562.25,
+          "land": 3.0,
+          "animals": 16.75,
+          "crops": 53.0
+        }
+      },
+      "360": {
+        "learner": {
+          "cash": 1579.375,
+          "land": 1.3958333333333333,
+          "animals": 1.2291666666666667,
+          "crops": 21.166666666666668
+        },
+        "opponent": {
+          "cash": 30362.666666666668,
+          "land": 3.0,
+          "animals": 16.75,
+          "crops": 57.0
+        }
+      },
+      "480": {
+        "learner": {
+          "cash": 2529.2291666666665,
+          "land": 1.4375,
+          "animals": 1.0,
+          "crops": 22.083333333333332
+        },
+        "opponent": {
+          "cash": 65712.20833333333,
+          "land": 3.1458333333333335,
+          "animals": 16.666666666666668,
+          "crops": 59.458333333333336
+        }
+      },
+      "600": {
+        "learner": {
+          "cash": 4630.354166666667,
+          "land": 1.4791666666666667,
+          "animals": 0.625,
+          "crops": 21.333333333333332
+        },
+        "opponent": {
+          "cash": 105560.91666666667,
+          "land": 3.1458333333333335,
+          "animals": 16.666666666666668,
+          "crops": 59.458333333333336
+        }
+      },
+      "719": {
+        "learner": {
+          "cash": 8401.8125,
+          "land": 1.5416666666666667,
+          "animals": 0.3333333333333333,
+          "crops": 16.375
+        },
+        "opponent": {
+          "cash": 151921.66666666666,
+          "land": 3.1458333333333335,
+          "animals": 16.583333333333332,
+          "crops": 1.4583333333333333
+        }
+      }
+    },
+    "all_exits_day_boundary_unfed_pattern": true,
+    "pre_refresh_age_below_first_yield_threshold": 170,
+    "threshold_note": "Age before daily refresh. Includes exits immediately before first scheduled production. Derived using published rule thresholds, not a new counterfactual."
+  },
+  "statistics_planning": {
+    "hoeffding_one_sided_95_penalty_32_blocks": 0.21635229782528567,
+    "lower_at_60_percent_32_blocks": 0.38364770217471433,
+    "strict_n_greater_than_for_lower_above_50_at_60": 149.7866136776995,
+    "note": "Conservative planning illustration, not a revised preregistered promotion rule."
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "created_at_utc": "2026-09-22T05:59:13.587229+00:00",
+  "git": {
+    "head": "0631a91e65d808cab70baad722ef8ac144b1c44a",
+    "status_short": [
+      "A  agents/learning_round6_20260922_v1/main.py",
+      "A  experiments/learning_round6_20260922/FINAL_STATUS.json",
+      "A  experiments/learning_round6_20260922/REPORT_JA.md",
+      "A  experiments/learning_round6_20260922/anchor_identity.json",
+      "A  experiments/learning_round6_20260922/candidate_v1_archive_manifest.json",
+      "A  experiments/learning_round6_20260922/candidate_v1_offline_metrics.json",
+      "A  experiments/learning_round6_20260922/candidate_v1_preregistration.json",
+      "A  experiments/learning_round6_20260922/candidate_v1_runtime_validation/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/candidate_v1_runtime_validation/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/candidate_v1_runtime_validation/summary.json",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations/episode_109590135_prefix_96_horizon_192.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations/episode_109590135_prefix_96_horizon_24.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations/episode_109590135_prefix_96_horizon_48.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations/episode_109590135_prefix_96_horizon_623.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations/episode_109590135_prefix_96_horizon_96.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations/summary.json",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations_round6_sequence_bc_v1/episode_109590135_prefix_96_horizon_192.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations_round6_sequence_bc_v1/episode_109590135_prefix_96_horizon_24.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations_round6_sequence_bc_v1/episode_109590135_prefix_96_horizon_48.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations_round6_sequence_bc_v1/episode_109590135_prefix_96_horizon_623.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations_round6_sequence_bc_v1/episode_109590135_prefix_96_horizon_96.json.gz",
+      "A  experiments/learning_round6_20260922/closed_loop_continuations_round6_sequence_bc_v1/summary.json",
+      "A  experiments/learning_round6_20260922/datasets/sequence_bc_v1/actor_prefix_test.npy",
+      "A  experiments/learning_round6_20260922/datasets/sequence_bc_v1/actor_prefix_train.npy",
+      "A  experiments/learning_round6_20260922/datasets/sequence_bc_v1/actor_prefix_validation.npy",
+      "A  experiments/learning_round6_20260922/datasets/sequence_bc_v1/dataset_manifest.json",
+      "A  experiments/learning_round6_20260922/development_evaluation/evaluation_manifest.json",
+      "A  experiments/learning_round6_20260922/development_evaluation/games.csv",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v122/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v123/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round5_learned/v124/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v122/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v123/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_full_action_bc/v124/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v122/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v123/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102201_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102201_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102202_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102202_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102203_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102203_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102204_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102204_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102205_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102205_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102206_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102206_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102207_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102207_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102208_seat_0.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/replays/round6_sequence_bc_v1/v124/seed_2026102208_seat_1.json.gz",
+      "A  experiments/learning_round6_20260922/development_evaluation/shop_histories.json",
+      "A  experiments/learning_round6_20260922/development_evaluation/summary.json",
+      "A  experiments/learning_round6_20260922/imitation_episodes.csv",
+      "A  experiments/learning_round6_20260922/imitation_episodes_round6_sequence_bc_v1.csv",
+      "A  experiments/learning_round6_20260922/imitation_metrics.json",
+      "A  experiments/learning_round6_20260922/imitation_metrics_round6_sequence_bc_v1.json",
+      "A  experiments/learning_round6_20260922/loader_validation.json",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/actor_quantity.json",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/actor_quantity.npz",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/actor_token.json",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/actor_token.npz",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/market_quantity.json",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/market_quantity.npz",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/market_token.json",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/market_token.npz",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/training_logs/actor_quantity.jsonl",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/training_logs/actor_token.jsonl",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/training_logs/market_quantity.jsonl",
+      "A  experiments/learning_round6_20260922/models/sequence_bc_v1/training_logs/market_token.jsonl",
+      "A  experiments/learning_round6_20260922/preregistration.json",
+      "A  scripts/evaluate_round6_anchors.py",
+      "A  scripts/evaluate_round6_continuations.py",
+      "A  scripts/evaluate_round6_imitation.py",
+      "M  scripts/learning_next_evaluate.py",
+      "A  scripts/train_round6_sequence_bc.py",
+      "A  scripts/validate_round6_candidate_runtime.py",
+      "A  tests/test_round6_anchor_evaluation.py",
+      "A  tests/test_round6_continuations.py",
+      "A  tests/test_round6_imitation.py",
+      "A  tests/test_round6_sequence_bc.py",
+      "?? experiments/learning_round7_20260922/",
+      "?? scripts/audit_round7_phase0.py"
+    ]
+  },
+  "python": {
+    "version": "3.12.10",
+    "executable": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Scripts\\python.exe"
+  },
+  "engine": {
+    "distribution": "kaggle-environments==1.32.7",
+    "source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "expected_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "matches_expected": true,
+    "loader_source": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\agent.py",
+    "loader_sha256": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6"
+  },
+  "archives": {
+    "learning_round6_20260922_sequence_bc_v1.tar.gz": {
+      "path": "artifacts\\submissions\\learning_round6_20260922_sequence_bc_v1.tar.gz",
+      "bytes": 482014,
+      "sha256": "f8d1bc6ea5d69ef8777013995c63aa88e83f8a5c1402b184f356153d2d372434",
+      "expected_sha256": "f8d1bc6ea5d69ef8777013995c63aa88e83f8a5c1402b184f356153d2d372434",
+      "matches_expected": true,
+      "members": [
+        {
+          "name": "actor_quantity.json",
+          "bytes": 597,
+          "sha256": "9d200ff1977f5eaa1063d6d661ad75cf9f192f423dc7bb265c35b8167fb9d8c2"
+        },
+        {
+          "name": "actor_quantity.npz",
+          "bytes": 128250,
+          "sha256": "dd946f9605055491d8966a7079b89ade511e6040e7f9f789f1b1e13ba88be89b"
+        },
+        {
+          "name": "actor_token.json",
+          "bytes": 602,
+          "sha256": "73c5a189c70d9fd0dc10d6acc7bc0c89f61e1d74a99072d74901987c09eb5e9d"
+        },
+        {
+          "name": "actor_token.npz",
+          "bytes": 181862,
+          "sha256": "9f949c614d684a7828cd8882534e18c20cdc05681351d98323d9c49ad0037ed0"
+        },
+        {
+          "name": "common.py",
+          "bytes": 31364,
+          "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+        },
+        {
+          "name": "main.py",
+          "bytes": 12367,
+          "sha256": "b876b154af6146470a6535c1c643785e20cfbc87183ccb754bf4524033b5ec66"
+        },
+        {
+          "name": "market_quantity.json",
+          "bytes": 603,
+          "sha256": "b87538f9baa7164d9da748ea322c01ba45a147c3b574a27549bf676835bc4522"
+        },
+        {
+          "name": "market_quantity.npz",
+          "bytes": 90350,
+          "sha256": "2eeb4c7b59524ac29b9af5187af0aca82637588d0db30ef64894bbe81d405b75"
+        },
+        {
+          "name": "market_token.json",
+          "bytes": 600,
+          "sha256": "6a2f6dbdd65d691d4df35f5436efed662f3bbf95dc24e5db7dc8a483dc293bc7"
+        },
+        {
+          "name": "market_token.npz",
+          "bytes": 112902,
+          "sha256": "521e23bd7c0d8cb2eb0083b07162ebcb19fdc871a7dab710aec33ed9932f3398"
+        }
+      ]
+    },
+    "v122.tar.gz": {
+      "path": "artifacts\\submissions\\v122.tar.gz",
+      "bytes": 2970508,
+      "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c",
+      "expected_sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c",
+      "matches_expected": true,
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 615,
+          "sha256": "bdd666b385b400f26895b7f8ba6732246c163df3913c7eb77761c6c5a4b9bcb8"
+        },
+        {
+          "name": "main.py",
+          "bytes": 2739,
+          "sha256": "dec59846bc5d71534ff47039442459e7dffbea55eb78216badcf4fc9f078bd38"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model.json.gz",
+          "bytes": 2992350,
+          "sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 33356,
+          "sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        }
+      ]
+    },
+    "v123.tar.gz": {
+      "path": "artifacts\\submissions\\v123.tar.gz",
+      "bytes": 2973314,
+      "sha256": "0d5296587b1ba6f68cbd7bd5943f164269071b03b852ee3982ce22958edc33f6",
+      "expected_sha256": "0d5296587b1ba6f68cbd7bd5943f164269071b03b852ee3982ce22958edc33f6",
+      "matches_expected": true,
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 270,
+          "sha256": "66f3d71ab7ca285a58308e47dc45090f107eefe288f2b1ac0d85b625befff9d9"
+        },
+        {
+          "name": "main.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model.json.gz",
+          "bytes": 2992350,
+          "sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 33356,
+          "sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        }
+      ]
+    },
+    "v124.tar.gz": {
+      "path": "artifacts\\submissions\\v124.tar.gz",
+      "bytes": 1716700,
+      "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc",
+      "expected_sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc",
+      "matches_expected": true,
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07"
+        },
+        {
+          "name": "main.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02"
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589"
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91"
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471"
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac"
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d"
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba"
+        }
+      ]
+    }
+  },
+  "round6_files": [
+    {
+      "path": "agents\\learning_round6_20260922_v1\\main.py",
+      "bytes": 12367,
+      "sha256": "b876b154af6146470a6535c1c643785e20cfbc87183ccb754bf4524033b5ec66"
+    },
+    {
+      "path": "agents\\learning_next_20260921\\common.py",
+      "bytes": 31364,
+      "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+    },
+    {
+      "path": "scripts\\train_round6_sequence_bc.py",
+      "bytes": 22753,
+      "sha256": "c447609169dc5c14b2cdb8468fa7a1363940816826edbe69de854fff5927ef59"
+    },
+    {
+      "path": "experiments\\learning_next_20260921\\source_manifest.json",
+      "bytes": 347977,
+      "sha256": "4f4e4fbd4a322c3aaedf27d1b03aef47ceaff51ffda91c602be50130f47707be"
+    },
+    {
+      "path": "experiments\\learning_next_20260921\\split_manifest.json",
+      "bytes": 23814,
+      "sha256": "cb8aab7dc031166d31167397379dbe7aa233f1b096774d8342fa1af4d1d10376"
+    },
+    {
+      "path": "experiments\\learning_next_20260921\\datasets\\bc\\dataset_manifest.json",
+      "bytes": 7463,
+      "sha256": "695a3fb75f2b422935cf3697ee2f503a9e900351007d451fb8db7072005d2ac3"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 519,
+      "sha256": "52830c814c602ab1ab4810c96dabaa5c5006c56ea4b258c3e85763fb1637c98d"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 419394,
+      "sha256": "b7d9c62fa5270f09846de679f59a756484fddb911822ed23dfb530887162cb43"
+    },
+    {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+    },
+    {
+      "path": ".venv\\Lib\\site-packages\\kaggle_environments\\agent.py",
+      "bytes": 8090,
+      "sha256": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6"
+    }
+  ],
+  "teacher_corpus": {
+    "manifest_path": "experiments\\learning_next_20260921\\source_manifest.json",
+    "teacher_submission": 56216119,
+    "episode_seat_files": 579,
+    "seat0": 292,
+    "seat1": 287,
+    "missing_files": [],
+    "size_mismatches": [],
+    "all_existence_and_size_checks_passed": true,
+    "all_content_hashes_recomputed": false,
+    "content_hash_scope": "manifest plus causal episode 109590135; all other replay hashes are carried from source_manifest",
+    "causal_episode": {
+      "submission_id": 56216119,
+      "episode_id": 109590135,
+      "seat": 1,
+      "result": "loss",
+      "own_reward": 107896.0,
+      "opponent_reward": 108466.0,
+      "step_count": 720,
+      "path": "data\\replays\\submission_56216119\\episode_109590135.json",
+      "bytes": 31525778,
+      "sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+      "recomputed_sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+      "hash_matches_manifest": true
+    }
+  },
+  "missing_or_distinguished": {
+    "learning_round6_20260922_zip_present": false,
+    "note": "The analysis ZIP named in the audit is absent. The repository contains its resulting Round6 directory, source, models, replays, and manifests; these are not claimed to have been members of the audit attachment."
+  },
+  "isolated_archive_root": "C:\\Users\\shiba\\Kaggle\\round7_round6_archive_peyldfl1",
+  "official_path_loader_probe": {
+    "loader": "kaggle_environments.make(...).run([absolute_main_path, 'pass'])",
+    "cwd": "C:\\Users\\shiba\\Kaggle\\round7_round6_archive_peyldfl1",
+    "repository_on_cwd": false,
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "OpenSpiel exception: Unknown game 'universal_poker'. Available games are:\n2048\nadd_noise\namazons\namazons_proxy\nant_foraging_arena\nantichess\nbackgammon\nbackgammon_proxy\nbanqi\nbargaining\nbargaining_proxy\nbattleship\nblackjack\nblotto\nbreakthrough\nbreakthrough_proxy\nbridge\nbridge_arena\nbridge_uncontested_bidding\ncached_tree\ncapture_the_flag\ncapture_the_flag_proxy\ncatch\nchat_game\ncheckers\ncheckers_proxy\nchess\nchinese_checkers\ncliff_walking\nclobber\nclobber_proxy\ncoin_game\ncoin_game_arena\ncoin_game_proxy\ncolored_trails\nconnect_four\nconnect_four_proxy\ncoop_box_pushing\ncoop_to_1p\ncoordinated_mp\ncrazy_eights\ncrazyhouse\ncribbage\ncrossword\ncursor_go\ndark_chess\ndark_hex\ndark_hex_ir\ndark_hex_proxy\ndeep_sea\ndots_and_boxes\ndots_and_boxes_proxy\ndou_dizhu\nefg_game\neinstein_wurfelt_nicht\neuchre\nfirst_sealed_auction\ngin_rummy\ngin_rummy_proxy\ngo\ngo_fish\ngo_fish_proxy\ngo_proxy\ngomoku\ngoofspiel\nhavannah\nhavannah_proxy\nhearts\nhex\nhive\nhive_proxy\nkriegspiel\nkuhn_poker\nlaser_tag\nlatent_ttt\nleduc_poker\nlewis_signaling\nliars_dice\nliars_dice_ir\nlines_of_action\nlines_of_action_proxy\nmaedn\nmancala\nmancala_proxy\nmarkov_soccer\nmarkov_soccer_proxy\nmatching_pennies_3p\nmatrix_bos\nmatrix_brps\nmatrix_cd\nmatrix_coordination\nmatrix_mp\nmatrix_pd\nmatrix_rps\nmatrix_rpsw\nmatrix_sh\nmatrix_shapleys_game\nmfg_crowd_modelling\nmfg_crowd_modelling_2d\nmfg_dynamic_routing\nmfg_garnet\nmisere\nmnk\nmorpion_solitaire\nnegotiation\nnegotiation_proxy\nnfg_game\nnim\nnine_mens_morris\nnine_mens_morris_proxy\nnormal_form_extensive_game\noh_hell\noshi_zumo\noshi_zumo_proxy\nothello\nothello_proxy\noware\npathfinding\npentago\nphantom_go\nphantom_ttt\nphantom_ttt_ir\npig\npython_ant_foraging\npython_ant_foraging_proxy\npython_block_dominoes\npython_dynamic_routing\npython_hangman\npython_iterated_prisoners_dilemma\npython_kuhn_poker\npython_liars_poker\npython_pokerkit_wrapper\npython_pokerkit_wrapper_acpc_style\npython_repeated_pokerkit\npython_team_dominoes\npython_tic_tac_toe\nquoridor\nrbc\nrepeated_game\nrepeated_leduc_poker\nrestricted_nash_response\nsheriff\nshogi\nshogi_proxy\nskat\nsnake\nsnake_proxy\nsocial_deduction\nsolitaire\nspades\nstart_at\nstones_and_gems\ntarok\ntic_tac_toe\ntiny_bridge_2p\ntiny_bridge_4p\ntiny_hanabi\ntrade_comm\nturn_based_simultaneous_game\ntwixt\nultimate_tic_tac_toe\nultimate_tic_tac_toe_proxy\nxiangqi\ny\ny_proxy\nyacht\nzerosum\nOpenSpiel exception: Unknown game 'repeated_poker'. Available games are:\n2048\nadd_noise\namazons\namazons_proxy\nant_foraging_arena\nantichess\nbackgammon\nbackgammon_proxy\nbanqi\nbargaining\nbargaining_proxy\nbattleship\nblackjack\nblotto\nbreakthrough\nbreakthrough_proxy\nbridge\nbridge_arena\nbridge_uncontested_bidding\ncached_tree\ncapture_the_flag\ncapture_the_flag_proxy\ncatch\nchat_game\ncheckers\ncheckers_proxy\nchess\nchinese_checkers\ncliff_walking\nclobber\nclobber_proxy\ncoin_game\ncoin_game_arena\ncoin_game_proxy\ncolored_trails\nconnect_four\nconnect_four_proxy\ncoop_box_pushing\ncoop_to_1p\ncoordinated_mp\ncrazy_eights\ncrazyhouse\ncribbage\ncrossword\ncursor_go\ndark_chess\ndark_hex\ndark_hex_ir\ndark_hex_proxy\ndeep_sea\ndots_and_boxes\ndots_and_boxes_proxy\ndou_dizhu\nefg_game\neinstein_wurfelt_nicht\neuchre\nfirst_sealed_auction\ngin_rummy\ngin_rummy_proxy\ngo\ngo_fish\ngo_fish_proxy\ngo_proxy\ngomoku\ngoofspiel\nhavannah\nhavannah_proxy\nhearts\nhex\nhive\nhive_proxy\nkriegspiel\nkuhn_poker\nlaser_tag\nlatent_ttt\nleduc_poker\nlewis_signaling\nliars_dice\nliars_dice_ir\nlines_of_action\nlines_of_action_proxy\nmaedn\nmancala\nmancala_proxy\nmarkov_soccer\nmarkov_soccer_proxy\nmatching_pennies_3p\nmatrix_bos\nmatrix_brps\nmatrix_cd\nmatrix_coordination\nmatrix_mp\nmatrix_pd\nmatrix_rps\nmatrix_rpsw\nmatrix_sh\nmatrix_shapleys_game\nmfg_crowd_modelling\nmfg_crowd_modelling_2d\nmfg_dynamic_routing\nmfg_garnet\nmisere\nmnk\nmorpion_solitaire\nnegotiation\nnegotiation_proxy\nnfg_game\nnim\nnine_mens_morris\nnine_mens_morris_proxy\nnormal_form_extensive_game\noh_hell\noshi_zumo\noshi_zumo_proxy\nothello\nothello_proxy\noware\npathfinding\npentago\nphantom_go\nphantom_ttt\nphantom_ttt_ir\npig\npython_ant_foraging\npython_ant_foraging_proxy\npython_block_dominoes\npython_dynamic_routing\npython_hangman\npython_iterated_prisoners_dilemma\npython_kuhn_poker\npython_liars_poker\npython_pokerkit_wrapper\npython_pokerkit_wrapper_acpc_style\npython_repeated_pokerkit\npython_team_dominoes\npython_tic_tac_toe\nquoridor\nrbc\nrepeated_game\nrepeated_leduc_poker\nrestricted_nash_response\nsheriff\nshogi\nshogi_proxy\nskat\nsnake\nsnake_proxy\nsocial_deduction\nsolitaire\nspades\nstart_at\nstones_and_gems\ntarok\ntic_tac_toe\ntiny_bridge_2p\ntiny_bridge_4p\ntiny_hanabi\ntrade_comm\nturn_based_simultaneous_game\ntwixt\nultimate_tic_tac_toe\nultimate_tic_tac_toe_proxy\nxiangqi\ny\ny_proxy\nyacht\nzerosum\nTraceback (most recent call last):\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\agent.py\", line 57, in get_last_callable\n    exec(code_object, env)\n  File \"C:\\Users\\shiba\\Kaggle\\round7_round6_archive_peyldfl1\\main.py\", line 13, in <module>\n    from .common import (\nKeyError: \"'__name__' not in globals\"\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\core.py\", line 327, in run\n    actions, logs = runner.act()\n                    ^^^^^^^^^^^^\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\core.py\", line 745, in act\n    results = list(map(act_agent, act_args))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\core.py\", line 180, in act_agent\n    return agent.act(state[\"observation\"])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\agent.py\", line 180, in act\n    action = self.agent(*args)\n             ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\agent.py\", line 149, in callable_agent\n    agent = get_last_callable(raw_agent, path=raw) or raw_agent\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\agent.py\", line 72, in get_last_callable\n    raise InvalidArgument(\"Invalid raw Python: \" + repr(e))\nkaggle_environments.errors.InvalidArgument: Invalid raw Python: KeyError(\"'__name__' not in globals\")\n",
+    "elapsed_seconds": 1.107526,
+    "passed": false
+  }
+}

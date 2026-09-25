@@ -1,0 +1,2142 @@
+{
+  "created_at_utc": "2026-09-22T08:05:34.148001+00:00",
+  "archive": "artifacts\\submissions\\learning_round7_20260922_arm_b_plan_v3.tar.gz",
+  "archive_sha256": "fe3b5bd9b14ec64208fc9360c38b9aaf5cc1b44547dca2b6eee3d24d0aaf1fca",
+  "evaluation_status": "diagnostic_development_old_test_not_checkpoint_selection",
+  "teacher_forced_previous_action_history": true,
+  "reactive_opponent_or_closed_loop": false,
+  "stage_definitions": {
+    "raw": "unmasked learned argmax with learned quantity decode",
+    "policy_corrected": "frozen learned policy legality/resource/economic correction",
+    "round7_final": "packaged Round7 ledger and optional task-plan output"
+  },
+  "metrics": {
+    "policy_corrected:actor_action": {
+      "total": 57665,
+      "exact": 45650,
+      "accuracy": 0.7916413769184081
+    },
+    "policy_corrected:actor_operation:BUILD_COOP": {
+      "total": 12,
+      "exact": 12,
+      "accuracy": 1.0
+    },
+    "policy_corrected:actor_operation:BUILD_PASTURE": {
+      "total": 106,
+      "exact": 104,
+      "accuracy": 0.9811320754716981
+    },
+    "policy_corrected:actor_operation:CARE": {
+      "total": 2270,
+      "exact": 2033,
+      "accuracy": 0.8955947136563877
+    },
+    "policy_corrected:actor_operation:COLLECT_FERTILIZER": {
+      "total": 2663,
+      "exact": 2562,
+      "accuracy": 0.9620728501689824
+    },
+    "policy_corrected:actor_operation:DIG": {
+      "total": 282,
+      "exact": 253,
+      "accuracy": 0.8971631205673759
+    },
+    "policy_corrected:actor_operation:DROP": {
+      "total": 606,
+      "exact": 580,
+      "accuracy": 0.9570957095709571
+    },
+    "policy_corrected:actor_operation:EAST": {
+      "total": 5517,
+      "exact": 3850,
+      "accuracy": 0.6978430306325901
+    },
+    "policy_corrected:actor_operation:FEED": {
+      "total": 2179,
+      "exact": 2088,
+      "accuracy": 0.9582377237264801
+    },
+    "policy_corrected:actor_operation:FERTILIZE": {
+      "total": 1242,
+      "exact": 1107,
+      "accuracy": 0.8913043478260869
+    },
+    "policy_corrected:actor_operation:HARVEST": {
+      "total": 3972,
+      "exact": 2768,
+      "accuracy": 0.6968781470292045
+    },
+    "policy_corrected:actor_operation:NORTH": {
+      "total": 8984,
+      "exact": 6252,
+      "accuracy": 0.6959038290293855
+    },
+    "policy_corrected:actor_operation:PASS": {
+      "total": 432,
+      "exact": 328,
+      "accuracy": 0.7592592592592593
+    },
+    "policy_corrected:actor_operation:PICKUP:COW": {
+      "total": 158,
+      "exact": 91,
+      "accuracy": 0.5759493670886076
+    },
+    "policy_corrected:actor_operation:PICKUP:GOOSE": {
+      "total": 29,
+      "exact": 12,
+      "accuracy": 0.41379310344827586
+    },
+    "policy_corrected:actor_operation:PICKUP:SHEEP": {
+      "total": 24,
+      "exact": 22,
+      "accuracy": 0.9166666666666666
+    },
+    "policy_corrected:actor_operation:PICKUP:WHEAT": {
+      "total": 1310,
+      "exact": 1157,
+      "accuracy": 0.883206106870229
+    },
+    "policy_corrected:actor_operation:PLACE:COW": {
+      "total": 101,
+      "exact": 100,
+      "accuracy": 0.9900990099009901
+    },
+    "policy_corrected:actor_operation:PLACE:FERTILIZER": {
+      "total": 484,
+      "exact": 478,
+      "accuracy": 0.987603305785124
+    },
+    "policy_corrected:actor_operation:PLACE:GOOSE": {
+      "total": 14,
+      "exact": 14,
+      "accuracy": 1.0
+    },
+    "policy_corrected:actor_operation:PLACE:MELON": {
+      "total": 1,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "policy_corrected:actor_operation:PLACE:MILK": {
+      "total": 227,
+      "exact": 218,
+      "accuracy": 0.960352422907489
+    },
+    "policy_corrected:actor_operation:PLACE:SHEEP": {
+      "total": 24,
+      "exact": 24,
+      "accuracy": 1.0
+    },
+    "policy_corrected:actor_operation:PLACE:WOOL": {
+      "total": 40,
+      "exact": 37,
+      "accuracy": 0.925
+    },
+    "policy_corrected:actor_operation:PLANT:CARROT": {
+      "total": 731,
+      "exact": 657,
+      "accuracy": 0.8987688098495212
+    },
+    "policy_corrected:actor_operation:PLANT:MELON": {
+      "total": 98,
+      "exact": 93,
+      "accuracy": 0.9489795918367347
+    },
+    "policy_corrected:actor_operation:PLANT:STRAWBERRY": {
+      "total": 279,
+      "exact": 249,
+      "accuracy": 0.8924731182795699
+    },
+    "policy_corrected:actor_operation:PLANT:TOMATO": {
+      "total": 46,
+      "exact": 36,
+      "accuracy": 0.782608695652174
+    },
+    "policy_corrected:actor_operation:PLANT:WHEAT": {
+      "total": 1153,
+      "exact": 975,
+      "accuracy": 0.8456201214223764
+    },
+    "policy_corrected:actor_operation:SOUTH": {
+      "total": 5558,
+      "exact": 3503,
+      "accuracy": 0.6302626844188557
+    },
+    "policy_corrected:actor_operation:WATER": {
+      "total": 11454,
+      "exact": 10835,
+      "accuracy": 0.9459577440195565
+    },
+    "policy_corrected:actor_operation:WEST": {
+      "total": 7669,
+      "exact": 5592,
+      "accuracy": 0.7291693832311905
+    },
+    "policy_corrected:actor_position:0": {
+      "total": 5752,
+      "exact": 4474,
+      "accuracy": 0.777816411682893
+    },
+    "policy_corrected:actor_position:1": {
+      "total": 5504,
+      "exact": 4267,
+      "accuracy": 0.7752543604651163
+    },
+    "policy_corrected:actor_position:10": {
+      "total": 3710,
+      "exact": 2889,
+      "accuracy": 0.7787061994609165
+    },
+    "policy_corrected:actor_position:11": {
+      "total": 3146,
+      "exact": 2283,
+      "accuracy": 0.7256834075015893
+    },
+    "policy_corrected:actor_position:2": {
+      "total": 5502,
+      "exact": 4455,
+      "accuracy": 0.8097055616139586
+    },
+    "policy_corrected:actor_position:3": {
+      "total": 5481,
+      "exact": 4346,
+      "accuracy": 0.7929209998175515
+    },
+    "policy_corrected:actor_position:4": {
+      "total": 5475,
+      "exact": 4344,
+      "accuracy": 0.7934246575342466
+    },
+    "policy_corrected:actor_position:5": {
+      "total": 5144,
+      "exact": 4074,
+      "accuracy": 0.7919906687402799
+    },
+    "policy_corrected:actor_position:6": {
+      "total": 5098,
+      "exact": 4260,
+      "accuracy": 0.8356218124754806
+    },
+    "policy_corrected:actor_position:7": {
+      "total": 4408,
+      "exact": 3507,
+      "accuracy": 0.7955989110707804
+    },
+    "policy_corrected:actor_position:8": {
+      "total": 4408,
+      "exact": 3535,
+      "accuracy": 0.801950998185118
+    },
+    "policy_corrected:actor_position:9": {
+      "total": 4037,
+      "exact": 3216,
+      "accuracy": 0.7966311617537776
+    },
+    "policy_corrected:actor_quantity:1": {
+      "total": 1074,
+      "exact": 909,
+      "accuracy": 0.8463687150837989
+    },
+    "policy_corrected:actor_quantity:10-14": {
+      "total": 10,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "policy_corrected:actor_quantity:2-9": {
+      "total": 1325,
+      "exact": 864,
+      "accuracy": 0.6520754716981132
+    },
+    "policy_corrected:actor_quantity:>=15": {
+      "total": 3,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "policy_corrected:actor_token": {
+      "total": 57665,
+      "exact": 46030,
+      "accuracy": 0.7982311627503685
+    },
+    "policy_corrected:joint": {
+      "total": 5752,
+      "exact": 780,
+      "accuracy": 0.1356050069541029
+    },
+    "policy_corrected:market_operation:BUY_ANIMAL:COW": {
+      "total": 92,
+      "exact": 52,
+      "accuracy": 0.5652173913043478
+    },
+    "policy_corrected:market_operation:BUY_ANIMAL:GOOSE": {
+      "total": 12,
+      "exact": 6,
+      "accuracy": 0.5
+    },
+    "policy_corrected:market_operation:BUY_ANIMAL:SHEEP": {
+      "total": 8,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "policy_corrected:market_operation:BUY_LAND": {
+      "total": 35,
+      "exact": 1,
+      "accuracy": 0.02857142857142857
+    },
+    "policy_corrected:market_operation:BUY_PRODUCT:WHEAT": {
+      "total": 261,
+      "exact": 104,
+      "accuracy": 0.39846743295019155
+    },
+    "policy_corrected:market_operation:BUY_SEED:CARROT": {
+      "total": 124,
+      "exact": 20,
+      "accuracy": 0.16129032258064516
+    },
+    "policy_corrected:market_operation:BUY_SEED:MELON": {
+      "total": 67,
+      "exact": 31,
+      "accuracy": 0.4626865671641791
+    },
+    "policy_corrected:market_operation:BUY_SEED:STRAWBERRY": {
+      "total": 329,
+      "exact": 135,
+      "accuracy": 0.41033434650455924
+    },
+    "policy_corrected:market_operation:BUY_SEED:TOMATO": {
+      "total": 48,
+      "exact": 13,
+      "accuracy": 0.2708333333333333
+    },
+    "policy_corrected:market_operation:BUY_SEED:WHEAT": {
+      "total": 1079,
+      "exact": 653,
+      "accuracy": 0.6051899907321594
+    },
+    "policy_corrected:market_operation:EOS": {
+      "total": 7281,
+      "exact": 5752,
+      "accuracy": 0.7900013734377146
+    },
+    "policy_corrected:market_operation:HIRE": {
+      "total": 2303,
+      "exact": 1785,
+      "accuracy": 0.7750759878419453
+    },
+    "policy_corrected:market_operation:SELL:CARROT": {
+      "total": 172,
+      "exact": 78,
+      "accuracy": 0.45348837209302323
+    },
+    "policy_corrected:market_operation:SELL:EGG": {
+      "total": 67,
+      "exact": 33,
+      "accuracy": 0.4925373134328358
+    },
+    "policy_corrected:market_operation:SELL:FERTILIZER": {
+      "total": 702,
+      "exact": 535,
+      "accuracy": 0.7621082621082621
+    },
+    "policy_corrected:market_operation:SELL:MELON": {
+      "total": 78,
+      "exact": 49,
+      "accuracy": 0.6282051282051282
+    },
+    "policy_corrected:market_operation:SELL:MILK": {
+      "total": 650,
+      "exact": 70,
+      "accuracy": 0.1076923076923077
+    },
+    "policy_corrected:market_operation:SELL:STRAWBERRY": {
+      "total": 438,
+      "exact": 135,
+      "accuracy": 0.3082191780821918
+    },
+    "policy_corrected:market_operation:SELL:TOMATO": {
+      "total": 74,
+      "exact": 26,
+      "accuracy": 0.35135135135135137
+    },
+    "policy_corrected:market_operation:SELL:WHEAT": {
+      "total": 571,
+      "exact": 284,
+      "accuracy": 0.4973730297723292
+    },
+    "policy_corrected:market_operation:SELL:WOOL": {
+      "total": 219,
+      "exact": 52,
+      "accuracy": 0.2374429223744292
+    },
+    "policy_corrected:market_order": {
+      "total": 14610,
+      "exact": 9450,
+      "accuracy": 0.6468172484599589
+    },
+    "policy_corrected:market_position:0": {
+      "total": 5752,
+      "exact": 3262,
+      "accuracy": 0.5671070931849791
+    },
+    "policy_corrected:market_position:1": {
+      "total": 4014,
+      "exact": 2480,
+      "accuracy": 0.6178375685102142
+    },
+    "policy_corrected:market_position:10": {
+      "total": 140,
+      "exact": 140,
+      "accuracy": 1.0
+    },
+    "policy_corrected:market_position:2": {
+      "total": 2077,
+      "exact": 1587,
+      "accuracy": 0.7640828117477131
+    },
+    "policy_corrected:market_position:3": {
+      "total": 818,
+      "exact": 612,
+      "accuracy": 0.7481662591687042
+    },
+    "policy_corrected:market_position:4": {
+      "total": 471,
+      "exact": 338,
+      "accuracy": 0.7176220806794055
+    },
+    "policy_corrected:market_position:5": {
+      "total": 365,
+      "exact": 270,
+      "accuracy": 0.7397260273972602
+    },
+    "policy_corrected:market_position:6": {
+      "total": 315,
+      "exact": 256,
+      "accuracy": 0.8126984126984127
+    },
+    "policy_corrected:market_position:7": {
+      "total": 256,
+      "exact": 234,
+      "accuracy": 0.9140625
+    },
+    "policy_corrected:market_position:8": {
+      "total": 210,
+      "exact": 185,
+      "accuracy": 0.8809523809523809
+    },
+    "policy_corrected:market_position:9": {
+      "total": 192,
+      "exact": 86,
+      "accuracy": 0.4479166666666667
+    },
+    "policy_corrected:market_quantity:1": {
+      "total": 2549,
+      "exact": 1268,
+      "accuracy": 0.4974499803844645
+    },
+    "policy_corrected:market_quantity:10-14": {
+      "total": 211,
+      "exact": 41,
+      "accuracy": 0.1943127962085308
+    },
+    "policy_corrected:market_quantity:2-9": {
+      "total": 2111,
+      "exact": 597,
+      "accuracy": 0.2828043581241118
+    },
+    "policy_corrected:market_quantity:>=15": {
+      "total": 120,
+      "exact": 6,
+      "accuracy": 0.05
+    },
+    "policy_corrected:market_sequence": {
+      "total": 5752,
+      "exact": 2778,
+      "accuracy": 0.4829624478442281
+    },
+    "policy_corrected:market_token": {
+      "total": 14610,
+      "exact": 9814,
+      "accuracy": 0.6717316906228611
+    },
+    "raw:actor_action": {
+      "total": 57665,
+      "exact": 46390,
+      "accuracy": 0.8044741177490679
+    },
+    "raw:actor_operation:BUILD_COOP": {
+      "total": 12,
+      "exact": 12,
+      "accuracy": 1.0
+    },
+    "raw:actor_operation:BUILD_PASTURE": {
+      "total": 106,
+      "exact": 104,
+      "accuracy": 0.9811320754716981
+    },
+    "raw:actor_operation:CARE": {
+      "total": 2270,
+      "exact": 2212,
+      "accuracy": 0.9744493392070485
+    },
+    "raw:actor_operation:COLLECT_FERTILIZER": {
+      "total": 2663,
+      "exact": 2543,
+      "accuracy": 0.9549380398047315
+    },
+    "raw:actor_operation:DIG": {
+      "total": 282,
+      "exact": 251,
+      "accuracy": 0.8900709219858156
+    },
+    "raw:actor_operation:DROP": {
+      "total": 606,
+      "exact": 578,
+      "accuracy": 0.9537953795379538
+    },
+    "raw:actor_operation:EAST": {
+      "total": 5517,
+      "exact": 3827,
+      "accuracy": 0.693674098241798
+    },
+    "raw:actor_operation:FEED": {
+      "total": 2179,
+      "exact": 2066,
+      "accuracy": 0.9481413492427719
+    },
+    "raw:actor_operation:FERTILIZE": {
+      "total": 1242,
+      "exact": 1108,
+      "accuracy": 0.8921095008051529
+    },
+    "raw:actor_operation:HARVEST": {
+      "total": 3972,
+      "exact": 3443,
+      "accuracy": 0.8668177240684793
+    },
+    "raw:actor_operation:NORTH": {
+      "total": 8984,
+      "exact": 6151,
+      "accuracy": 0.6846616206589492
+    },
+    "raw:actor_operation:PASS": {
+      "total": 432,
+      "exact": 323,
+      "accuracy": 0.7476851851851852
+    },
+    "raw:actor_operation:PICKUP:COW": {
+      "total": 158,
+      "exact": 148,
+      "accuracy": 0.9367088607594937
+    },
+    "raw:actor_operation:PICKUP:GOOSE": {
+      "total": 29,
+      "exact": 29,
+      "accuracy": 1.0
+    },
+    "raw:actor_operation:PICKUP:SHEEP": {
+      "total": 24,
+      "exact": 22,
+      "accuracy": 0.9166666666666666
+    },
+    "raw:actor_operation:PICKUP:WHEAT": {
+      "total": 1310,
+      "exact": 1173,
+      "accuracy": 0.8954198473282443
+    },
+    "raw:actor_operation:PLACE:COW": {
+      "total": 101,
+      "exact": 100,
+      "accuracy": 0.9900990099009901
+    },
+    "raw:actor_operation:PLACE:FERTILIZER": {
+      "total": 484,
+      "exact": 478,
+      "accuracy": 0.987603305785124
+    },
+    "raw:actor_operation:PLACE:GOOSE": {
+      "total": 14,
+      "exact": 14,
+      "accuracy": 1.0
+    },
+    "raw:actor_operation:PLACE:MELON": {
+      "total": 1,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "raw:actor_operation:PLACE:MILK": {
+      "total": 227,
+      "exact": 218,
+      "accuracy": 0.960352422907489
+    },
+    "raw:actor_operation:PLACE:SHEEP": {
+      "total": 24,
+      "exact": 24,
+      "accuracy": 1.0
+    },
+    "raw:actor_operation:PLACE:WOOL": {
+      "total": 40,
+      "exact": 36,
+      "accuracy": 0.9
+    },
+    "raw:actor_operation:PLANT:CARROT": {
+      "total": 731,
+      "exact": 649,
+      "accuracy": 0.8878248974008208
+    },
+    "raw:actor_operation:PLANT:MELON": {
+      "total": 98,
+      "exact": 93,
+      "accuracy": 0.9489795918367347
+    },
+    "raw:actor_operation:PLANT:STRAWBERRY": {
+      "total": 279,
+      "exact": 253,
+      "accuracy": 0.9068100358422939
+    },
+    "raw:actor_operation:PLANT:TOMATO": {
+      "total": 46,
+      "exact": 36,
+      "accuracy": 0.782608695652174
+    },
+    "raw:actor_operation:PLANT:WHEAT": {
+      "total": 1153,
+      "exact": 973,
+      "accuracy": 0.8438855160450998
+    },
+    "raw:actor_operation:SOUTH": {
+      "total": 5558,
+      "exact": 3473,
+      "accuracy": 0.6248650593738755
+    },
+    "raw:actor_operation:WATER": {
+      "total": 11454,
+      "exact": 10831,
+      "accuracy": 0.9456085210406845
+    },
+    "raw:actor_operation:WEST": {
+      "total": 7669,
+      "exact": 5594,
+      "accuracy": 0.7294301734254792
+    },
+    "raw:actor_position:0": {
+      "total": 5752,
+      "exact": 4592,
+      "accuracy": 0.7983310152990264
+    },
+    "raw:actor_position:1": {
+      "total": 5504,
+      "exact": 4388,
+      "accuracy": 0.7972383720930233
+    },
+    "raw:actor_position:10": {
+      "total": 3710,
+      "exact": 2939,
+      "accuracy": 0.7921832884097035
+    },
+    "raw:actor_position:11": {
+      "total": 3146,
+      "exact": 2374,
+      "accuracy": 0.7546090273363001
+    },
+    "raw:actor_position:2": {
+      "total": 5502,
+      "exact": 4506,
+      "accuracy": 0.8189749182115594
+    },
+    "raw:actor_position:3": {
+      "total": 5481,
+      "exact": 4440,
+      "accuracy": 0.8100711548987412
+    },
+    "raw:actor_position:4": {
+      "total": 5475,
+      "exact": 4407,
+      "accuracy": 0.804931506849315
+    },
+    "raw:actor_position:5": {
+      "total": 5144,
+      "exact": 4132,
+      "accuracy": 0.8032659409020217
+    },
+    "raw:actor_position:6": {
+      "total": 5098,
+      "exact": 4307,
+      "accuracy": 0.8448411141624166
+    },
+    "raw:actor_position:7": {
+      "total": 4408,
+      "exact": 3522,
+      "accuracy": 0.7990018148820327
+    },
+    "raw:actor_position:8": {
+      "total": 4408,
+      "exact": 3557,
+      "accuracy": 0.8069419237749547
+    },
+    "raw:actor_position:9": {
+      "total": 4037,
+      "exact": 3226,
+      "accuracy": 0.7991082486995293
+    },
+    "raw:actor_quantity:1": {
+      "total": 1074,
+      "exact": 991,
+      "accuracy": 0.9227188081936686
+    },
+    "raw:actor_quantity:10-14": {
+      "total": 10,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "raw:actor_quantity:2-9": {
+      "total": 1325,
+      "exact": 879,
+      "accuracy": 0.6633962264150943
+    },
+    "raw:actor_quantity:>=15": {
+      "total": 3,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "raw:actor_token": {
+      "total": 57665,
+      "exact": 46762,
+      "accuracy": 0.8109251712477239
+    },
+    "raw:joint": {
+      "total": 5752,
+      "exact": 882,
+      "accuracy": 0.15333796940194716
+    },
+    "raw:market_operation:BUY_ANIMAL:COW": {
+      "total": 92,
+      "exact": 62,
+      "accuracy": 0.6739130434782609
+    },
+    "raw:market_operation:BUY_ANIMAL:GOOSE": {
+      "total": 12,
+      "exact": 6,
+      "accuracy": 0.5
+    },
+    "raw:market_operation:BUY_ANIMAL:SHEEP": {
+      "total": 8,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "raw:market_operation:BUY_LAND": {
+      "total": 35,
+      "exact": 9,
+      "accuracy": 0.2571428571428571
+    },
+    "raw:market_operation:BUY_PRODUCT:WHEAT": {
+      "total": 261,
+      "exact": 153,
+      "accuracy": 0.5862068965517241
+    },
+    "raw:market_operation:BUY_SEED:CARROT": {
+      "total": 124,
+      "exact": 20,
+      "accuracy": 0.16129032258064516
+    },
+    "raw:market_operation:BUY_SEED:MELON": {
+      "total": 67,
+      "exact": 35,
+      "accuracy": 0.5223880597014925
+    },
+    "raw:market_operation:BUY_SEED:STRAWBERRY": {
+      "total": 329,
+      "exact": 174,
+      "accuracy": 0.5288753799392097
+    },
+    "raw:market_operation:BUY_SEED:TOMATO": {
+      "total": 48,
+      "exact": 13,
+      "accuracy": 0.2708333333333333
+    },
+    "raw:market_operation:BUY_SEED:WHEAT": {
+      "total": 1079,
+      "exact": 665,
+      "accuracy": 0.6163113994439295
+    },
+    "raw:market_operation:EOS": {
+      "total": 7567,
+      "exact": 5752,
+      "accuracy": 0.7601427249900885
+    },
+    "raw:market_operation:HIRE": {
+      "total": 2303,
+      "exact": 1802,
+      "accuracy": 0.7824576639166305
+    },
+    "raw:market_operation:SELL:CARROT": {
+      "total": 172,
+      "exact": 77,
+      "accuracy": 0.4476744186046512
+    },
+    "raw:market_operation:SELL:EGG": {
+      "total": 67,
+      "exact": 34,
+      "accuracy": 0.5074626865671642
+    },
+    "raw:market_operation:SELL:FERTILIZER": {
+      "total": 702,
+      "exact": 534,
+      "accuracy": 0.7606837606837606
+    },
+    "raw:market_operation:SELL:MELON": {
+      "total": 78,
+      "exact": 49,
+      "accuracy": 0.6282051282051282
+    },
+    "raw:market_operation:SELL:MILK": {
+      "total": 650,
+      "exact": 69,
+      "accuracy": 0.10615384615384615
+    },
+    "raw:market_operation:SELL:STRAWBERRY": {
+      "total": 438,
+      "exact": 135,
+      "accuracy": 0.3082191780821918
+    },
+    "raw:market_operation:SELL:TOMATO": {
+      "total": 74,
+      "exact": 26,
+      "accuracy": 0.35135135135135137
+    },
+    "raw:market_operation:SELL:WHEAT": {
+      "total": 571,
+      "exact": 284,
+      "accuracy": 0.4973730297723292
+    },
+    "raw:market_operation:SELL:WOOL": {
+      "total": 219,
+      "exact": 51,
+      "accuracy": 0.2328767123287671
+    },
+    "raw:market_order": {
+      "total": 14896,
+      "exact": 9523,
+      "accuracy": 0.6392991407089151
+    },
+    "raw:market_position:0": {
+      "total": 5752,
+      "exact": 3201,
+      "accuracy": 0.5565020862308763
+    },
+    "raw:market_position:1": {
+      "total": 4074,
+      "exact": 2493,
+      "accuracy": 0.6119293078055965
+    },
+    "raw:market_position:10": {
+      "total": 142,
+      "exact": 142,
+      "accuracy": 1.0
+    },
+    "raw:market_position:2": {
+      "total": 2156,
+      "exact": 1616,
+      "accuracy": 0.7495361781076066
+    },
+    "raw:market_position:3": {
+      "total": 878,
+      "exact": 625,
+      "accuracy": 0.7118451025056948
+    },
+    "raw:market_position:4": {
+      "total": 518,
+      "exact": 366,
+      "accuracy": 0.7065637065637066
+    },
+    "raw:market_position:5": {
+      "total": 391,
+      "exact": 296,
+      "accuracy": 0.7570332480818415
+    },
+    "raw:market_position:6": {
+      "total": 324,
+      "exact": 270,
+      "accuracy": 0.8333333333333334
+    },
+    "raw:market_position:7": {
+      "total": 259,
+      "exact": 241,
+      "accuracy": 0.9305019305019305
+    },
+    "raw:market_position:8": {
+      "total": 210,
+      "exact": 185,
+      "accuracy": 0.8809523809523809
+    },
+    "raw:market_position:9": {
+      "total": 192,
+      "exact": 88,
+      "accuracy": 0.4583333333333333
+    },
+    "raw:market_quantity:1": {
+      "total": 2549,
+      "exact": 1334,
+      "accuracy": 0.523342487249902
+    },
+    "raw:market_quantity:10-14": {
+      "total": 211,
+      "exact": 34,
+      "accuracy": 0.16113744075829384
+    },
+    "raw:market_quantity:2-9": {
+      "total": 2111,
+      "exact": 588,
+      "accuracy": 0.2785409758408337
+    },
+    "raw:market_quantity:>=15": {
+      "total": 120,
+      "exact": 4,
+      "accuracy": 0.03333333333333333
+    },
+    "raw:market_sequence": {
+      "total": 5752,
+      "exact": 2739,
+      "accuracy": 0.47618219749652296
+    },
+    "raw:market_token": {
+      "total": 14896,
+      "exact": 9950,
+      "accuracy": 0.6679645542427497
+    },
+    "round7_final:actor_action": {
+      "total": 57665,
+      "exact": 36632,
+      "accuracy": 0.6352553542009884
+    },
+    "round7_final:actor_operation:BUILD_COOP": {
+      "total": 12,
+      "exact": 7,
+      "accuracy": 0.5833333333333334
+    },
+    "round7_final:actor_operation:BUILD_PASTURE": {
+      "total": 106,
+      "exact": 94,
+      "accuracy": 0.8867924528301887
+    },
+    "round7_final:actor_operation:CARE": {
+      "total": 2270,
+      "exact": 1295,
+      "accuracy": 0.5704845814977973
+    },
+    "round7_final:actor_operation:COLLECT_FERTILIZER": {
+      "total": 2663,
+      "exact": 1941,
+      "accuracy": 0.7288772061584678
+    },
+    "round7_final:actor_operation:DIG": {
+      "total": 282,
+      "exact": 184,
+      "accuracy": 0.6524822695035462
+    },
+    "round7_final:actor_operation:DROP": {
+      "total": 606,
+      "exact": 349,
+      "accuracy": 0.5759075907590759
+    },
+    "round7_final:actor_operation:EAST": {
+      "total": 5517,
+      "exact": 3390,
+      "accuracy": 0.6144643828167482
+    },
+    "round7_final:actor_operation:FEED": {
+      "total": 2179,
+      "exact": 1921,
+      "accuracy": 0.8815970628728774
+    },
+    "round7_final:actor_operation:FERTILIZE": {
+      "total": 1242,
+      "exact": 871,
+      "accuracy": 0.7012882447665056
+    },
+    "round7_final:actor_operation:HARVEST": {
+      "total": 3972,
+      "exact": 2212,
+      "accuracy": 0.5568982880161127
+    },
+    "round7_final:actor_operation:NORTH": {
+      "total": 8984,
+      "exact": 5079,
+      "accuracy": 0.5653383793410508
+    },
+    "round7_final:actor_operation:PASS": {
+      "total": 432,
+      "exact": 304,
+      "accuracy": 0.7037037037037037
+    },
+    "round7_final:actor_operation:PICKUP:COW": {
+      "total": 158,
+      "exact": 74,
+      "accuracy": 0.46835443037974683
+    },
+    "round7_final:actor_operation:PICKUP:GOOSE": {
+      "total": 29,
+      "exact": 10,
+      "accuracy": 0.3448275862068966
+    },
+    "round7_final:actor_operation:PICKUP:SHEEP": {
+      "total": 24,
+      "exact": 22,
+      "accuracy": 0.9166666666666666
+    },
+    "round7_final:actor_operation:PICKUP:WHEAT": {
+      "total": 1310,
+      "exact": 1071,
+      "accuracy": 0.8175572519083969
+    },
+    "round7_final:actor_operation:PLACE:COW": {
+      "total": 101,
+      "exact": 88,
+      "accuracy": 0.8712871287128713
+    },
+    "round7_final:actor_operation:PLACE:FERTILIZER": {
+      "total": 484,
+      "exact": 351,
+      "accuracy": 0.7252066115702479
+    },
+    "round7_final:actor_operation:PLACE:GOOSE": {
+      "total": 14,
+      "exact": 9,
+      "accuracy": 0.6428571428571429
+    },
+    "round7_final:actor_operation:PLACE:MELON": {
+      "total": 1,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "round7_final:actor_operation:PLACE:MILK": {
+      "total": 227,
+      "exact": 227,
+      "accuracy": 1.0
+    },
+    "round7_final:actor_operation:PLACE:SHEEP": {
+      "total": 24,
+      "exact": 22,
+      "accuracy": 0.9166666666666666
+    },
+    "round7_final:actor_operation:PLACE:WOOL": {
+      "total": 40,
+      "exact": 40,
+      "accuracy": 1.0
+    },
+    "round7_final:actor_operation:PLANT:CARROT": {
+      "total": 731,
+      "exact": 458,
+      "accuracy": 0.6265389876880985
+    },
+    "round7_final:actor_operation:PLANT:MELON": {
+      "total": 98,
+      "exact": 85,
+      "accuracy": 0.8673469387755102
+    },
+    "round7_final:actor_operation:PLANT:STRAWBERRY": {
+      "total": 279,
+      "exact": 222,
+      "accuracy": 0.7956989247311828
+    },
+    "round7_final:actor_operation:PLANT:TOMATO": {
+      "total": 46,
+      "exact": 25,
+      "accuracy": 0.5434782608695652
+    },
+    "round7_final:actor_operation:PLANT:WHEAT": {
+      "total": 1153,
+      "exact": 523,
+      "accuracy": 0.4535993061578491
+    },
+    "round7_final:actor_operation:SOUTH": {
+      "total": 5558,
+      "exact": 3007,
+      "accuracy": 0.5410219503418496
+    },
+    "round7_final:actor_operation:WATER": {
+      "total": 11454,
+      "exact": 8558,
+      "accuracy": 0.747162563296665
+    },
+    "round7_final:actor_operation:WEST": {
+      "total": 7669,
+      "exact": 5036,
+      "accuracy": 0.6566697092189334
+    },
+    "round7_final:actor_position:0": {
+      "total": 5752,
+      "exact": 3508,
+      "accuracy": 0.6098748261474269
+    },
+    "round7_final:actor_position:1": {
+      "total": 5504,
+      "exact": 3244,
+      "accuracy": 0.5893895348837209
+    },
+    "round7_final:actor_position:10": {
+      "total": 3710,
+      "exact": 2583,
+      "accuracy": 0.6962264150943396
+    },
+    "round7_final:actor_position:11": {
+      "total": 3146,
+      "exact": 1916,
+      "accuracy": 0.6090273363000636
+    },
+    "round7_final:actor_position:2": {
+      "total": 5502,
+      "exact": 3775,
+      "accuracy": 0.6861141403126136
+    },
+    "round7_final:actor_position:3": {
+      "total": 5481,
+      "exact": 3107,
+      "accuracy": 0.5668673599708083
+    },
+    "round7_final:actor_position:4": {
+      "total": 5475,
+      "exact": 3636,
+      "accuracy": 0.6641095890410958
+    },
+    "round7_final:actor_position:5": {
+      "total": 5144,
+      "exact": 3088,
+      "accuracy": 0.6003110419906688
+    },
+    "round7_final:actor_position:6": {
+      "total": 5098,
+      "exact": 2830,
+      "accuracy": 0.5551196547665751
+    },
+    "round7_final:actor_position:7": {
+      "total": 4408,
+      "exact": 3160,
+      "accuracy": 0.7168784029038112
+    },
+    "round7_final:actor_position:8": {
+      "total": 4408,
+      "exact": 2718,
+      "accuracy": 0.6166061705989111
+    },
+    "round7_final:actor_position:9": {
+      "total": 4037,
+      "exact": 3067,
+      "accuracy": 0.7597225662620758
+    },
+    "round7_final:actor_quantity:1": {
+      "total": 1074,
+      "exact": 713,
+      "accuracy": 0.6638733705772812
+    },
+    "round7_final:actor_quantity:10-14": {
+      "total": 10,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "round7_final:actor_quantity:2-9": {
+      "total": 1325,
+      "exact": 358,
+      "accuracy": 0.270188679245283
+    },
+    "round7_final:actor_quantity:>=15": {
+      "total": 3,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "round7_final:actor_token": {
+      "total": 57665,
+      "exact": 37475,
+      "accuracy": 0.6498742738229428
+    },
+    "round7_final:joint": {
+      "total": 5752,
+      "exact": 167,
+      "accuracy": 0.029033379694019472
+    },
+    "round7_final:market_operation:BUY_ANIMAL:COW": {
+      "total": 92,
+      "exact": 52,
+      "accuracy": 0.5652173913043478
+    },
+    "round7_final:market_operation:BUY_ANIMAL:GOOSE": {
+      "total": 12,
+      "exact": 6,
+      "accuracy": 0.5
+    },
+    "round7_final:market_operation:BUY_ANIMAL:SHEEP": {
+      "total": 8,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "round7_final:market_operation:BUY_LAND": {
+      "total": 35,
+      "exact": 1,
+      "accuracy": 0.02857142857142857
+    },
+    "round7_final:market_operation:BUY_PRODUCT:WHEAT": {
+      "total": 261,
+      "exact": 121,
+      "accuracy": 0.46360153256704983
+    },
+    "round7_final:market_operation:BUY_SEED:CARROT": {
+      "total": 124,
+      "exact": 7,
+      "accuracy": 0.056451612903225805
+    },
+    "round7_final:market_operation:BUY_SEED:MELON": {
+      "total": 67,
+      "exact": 31,
+      "accuracy": 0.4626865671641791
+    },
+    "round7_final:market_operation:BUY_SEED:STRAWBERRY": {
+      "total": 329,
+      "exact": 131,
+      "accuracy": 0.3981762917933131
+    },
+    "round7_final:market_operation:BUY_SEED:TOMATO": {
+      "total": 48,
+      "exact": 1,
+      "accuracy": 0.020833333333333332
+    },
+    "round7_final:market_operation:BUY_SEED:WHEAT": {
+      "total": 1079,
+      "exact": 223,
+      "accuracy": 0.20667284522706209
+    },
+    "round7_final:market_operation:EOS": {
+      "total": 12264,
+      "exact": 5752,
+      "accuracy": 0.4690150032615786
+    },
+    "round7_final:market_operation:HIRE": {
+      "total": 2303,
+      "exact": 1562,
+      "accuracy": 0.678245766391663
+    },
+    "round7_final:market_operation:SELL:CARROT": {
+      "total": 172,
+      "exact": 42,
+      "accuracy": 0.2441860465116279
+    },
+    "round7_final:market_operation:SELL:EGG": {
+      "total": 67,
+      "exact": 17,
+      "accuracy": 0.2537313432835821
+    },
+    "round7_final:market_operation:SELL:FERTILIZER": {
+      "total": 702,
+      "exact": 433,
+      "accuracy": 0.6168091168091168
+    },
+    "round7_final:market_operation:SELL:MELON": {
+      "total": 78,
+      "exact": 28,
+      "accuracy": 0.358974358974359
+    },
+    "round7_final:market_operation:SELL:MILK": {
+      "total": 650,
+      "exact": 201,
+      "accuracy": 0.30923076923076925
+    },
+    "round7_final:market_operation:SELL:STRAWBERRY": {
+      "total": 438,
+      "exact": 17,
+      "accuracy": 0.03881278538812785
+    },
+    "round7_final:market_operation:SELL:TOMATO": {
+      "total": 74,
+      "exact": 13,
+      "accuracy": 0.17567567567567569
+    },
+    "round7_final:market_operation:SELL:WHEAT": {
+      "total": 571,
+      "exact": 93,
+      "accuracy": 0.1628721541155867
+    },
+    "round7_final:market_operation:SELL:WOOL": {
+      "total": 219,
+      "exact": 101,
+      "accuracy": 0.4611872146118721
+    },
+    "round7_final:market_order": {
+      "total": 19593,
+      "exact": 8479,
+      "accuracy": 0.432756596743735
+    },
+    "round7_final:market_position:0": {
+      "total": 5752,
+      "exact": 1778,
+      "accuracy": 0.30910987482614743
+    },
+    "round7_final:market_position:1": {
+      "total": 4884,
+      "exact": 1441,
+      "accuracy": 0.29504504504504503
+    },
+    "round7_final:market_position:10": {
+      "total": 183,
+      "exact": 183,
+      "accuracy": 1.0
+    },
+    "round7_final:market_position:2": {
+      "total": 3768,
+      "exact": 1672,
+      "accuracy": 0.4437367303609342
+    },
+    "round7_final:market_position:3": {
+      "total": 2304,
+      "exact": 1399,
+      "accuracy": 0.6072048611111112
+    },
+    "round7_final:market_position:4": {
+      "total": 1122,
+      "exact": 805,
+      "accuracy": 0.7174688057040999
+    },
+    "round7_final:market_position:5": {
+      "total": 540,
+      "exact": 428,
+      "accuracy": 0.7925925925925926
+    },
+    "round7_final:market_position:6": {
+      "total": 333,
+      "exact": 261,
+      "accuracy": 0.7837837837837838
+    },
+    "round7_final:market_position:7": {
+      "total": 270,
+      "exact": 228,
+      "accuracy": 0.8444444444444444
+    },
+    "round7_final:market_position:8": {
+      "total": 230,
+      "exact": 201,
+      "accuracy": 0.8739130434782608
+    },
+    "round7_final:market_position:9": {
+      "total": 207,
+      "exact": 83,
+      "accuracy": 0.40096618357487923
+    },
+    "round7_final:market_quantity:1": {
+      "total": 2549,
+      "exact": 806,
+      "accuracy": 0.3162024323264025
+    },
+    "round7_final:market_quantity:10-14": {
+      "total": 211,
+      "exact": 22,
+      "accuracy": 0.10426540284360189
+    },
+    "round7_final:market_quantity:2-9": {
+      "total": 2111,
+      "exact": 333,
+      "accuracy": 0.15774514448128849
+    },
+    "round7_final:market_quantity:>=15": {
+      "total": 120,
+      "exact": 3,
+      "accuracy": 0.025
+    },
+    "round7_final:market_sequence": {
+      "total": 5752,
+      "exact": 1402,
+      "accuracy": 0.2437413073713491
+    },
+    "round7_final:market_token": {
+      "total": 19593,
+      "exact": 8832,
+      "accuracy": 0.45077323533915176
+    }
+  },
+  "transition_counts": {
+    "policy_corrected->round7_final:actor": {
+      "round7_ledger_or_task_plan": 12510,
+      "quantity:1->1": 10994,
+      "position:6": 1761,
+      "position:3": 1609,
+      "position:0": 1527,
+      "position:1": 1496,
+      "position:5": 1365,
+      "operation:WATER->EAST": 1312,
+      "position:8": 1051,
+      "position:4": 1045,
+      "operation:PICKUP:WHEAT->PICKUP:WHEAT": 1038,
+      "position:2": 900,
+      "operation:NORTH->WEST": 820,
+      "operation:WATER->WEST": 732,
+      "position:11": 600,
+      "operation:WEST->EAST": 599,
+      "operation:EAST->WEST": 505,
+      "operation:SOUTH->EAST": 494,
+      "quantity:2-9->10-14": 488,
+      "position:7": 469,
+      "position:10": 441,
+      "operation:NORTH->EAST": 417,
+      "operation:HARVEST->EAST": 368,
+      "operation:CARE->WEST": 319,
+      "quantity:1->2-9": 319,
+      "operation:NORTH->SOUTH": 287,
+      "quantity:2-9->2-9": 279,
+      "operation:PLANT:WHEAT->EAST": 276,
+      "operation:WATER->SOUTH": 262,
+      "operation:SOUTH->WEST": 251,
+      "operation:HARVEST->WEST": 247,
+      "position:9": 246,
+      "operation:COLLECT_FERTILIZER->WEST": 219,
+      "operation:CARE->NORTH": 212,
+      "operation:WEST->NORTH": 201,
+      "quantity:2-9->>=15": 195,
+      "operation:CARE->EAST": 170,
+      "operation:COLLECT_FERTILIZER->NORTH": 161,
+      "operation:WEST->FEED": 156,
+      "operation:WATER->NORTH": 154,
+      "quantity:2-9->1": 148,
+      "operation:EAST->SOUTH": 147,
+      "operation:EAST->NORTH": 144,
+      "operation:FERTILIZE->WEST": 142,
+      "operation:FERTILIZE->EAST": 132,
+      "operation:COLLECT_FERTILIZER->EAST": 130,
+      "operation:PLANT:CARROT->EAST": 120,
+      "operation:SOUTH->NORTH": 110,
+      "operation:WEST->SOUTH": 107,
+      "operation:HARVEST->SOUTH": 96,
+      "operation:EAST->FEED": 95,
+      "operation:PLANT:WHEAT->WEST": 92,
+      "operation:DROP->PLACE:MILK": 90,
+      "operation:FEED->WEST": 88,
+      "operation:PLANT:WHEAT->NORTH": 84,
+      "operation:NORTH->FEED": 80,
+      "operation:PLANT:CARROT->WEST": 78,
+      "operation:PICKUP:WHEAT->NORTH": 73,
+      "quantity:1->10-14": 65,
+      "operation:FEED->EAST": 63,
+      "operation:FERTILIZE->SOUTH": 63,
+      "operation:NORTH->PICKUP:WHEAT": 61,
+      "operation:COLLECT_FERTILIZER->SOUTH": 61,
+      "operation:DIG->WEST": 61,
+      "operation:COLLECT_FERTILIZER->PICKUP:WHEAT": 60,
+      "operation:CARE->SOUTH": 50,
+      "operation:PLACE:FERTILIZER->PICKUP:WHEAT": 46,
+      "operation:DROP->PLACE:WOOL": 46,
+      "operation:FEED->NORTH": 45,
+      "operation:COLLECT_FERTILIZER->HARVEST": 44,
+      "operation:WEST->HARVEST": 44,
+      "operation:NORTH->HARVEST": 43,
+      "operation:DIG->EAST": 39,
+      "operation:HARVEST->NORTH": 38,
+      "operation:DROP->PLACE:EGG": 38,
+      "operation:PASS->EAST": 33,
+      "operation:PLACE:FERTILIZER->WEST": 32,
+      "operation:SOUTH->FEED": 28,
+      "operation:PLANT:CARROT->SOUTH": 28,
+      "operation:PLANT:WHEAT->SOUTH": 27,
+      "operation:PLACE:FERTILIZER->NORTH": 26,
+      "operation:PLANT:TOMATO->EAST": 26,
+      "operation:COLLECT_FERTILIZER->FEED": 24,
+      "operation:FEED->SOUTH": 23,
+      "operation:EAST->HARVEST": 23,
+      "operation:PICKUP:WHEAT->EAST": 23,
+      "operation:DIG->SOUTH": 22,
+      "operation:WEST->CARE": 21,
+      "operation:PLANT:STRAWBERRY->EAST": 21,
+      "operation:DROP->WEST": 21,
+      "operation:PLANT:CARROT->NORTH": 18,
+      "operation:PASS->WEST": 17,
+      "operation:DROP->NORTH": 17,
+      "operation:PLACE:MILK->PLACE:MILK": 17,
+      "operation:PICKUP:WHEAT->WEST": 15,
+      "operation:DROP->EAST": 14,
+      "quantity:1->>=15": 14,
+      "operation:DROP->FEED": 13,
+      "operation:PLANT:STRAWBERRY->WEST": 11,
+      "operation:EAST->CARE": 10,
+      "operation:PICKUP:COW->NORTH": 10,
+      "operation:DROP->SOUTH": 10,
+      "operation:PLACE:FERTILIZER->FEED": 9,
+      "operation:SOUTH->HARVEST": 9,
+      "operation:PLANT:MELON->EAST": 8,
+      "operation:PLANT:STRAWBERRY->SOUTH": 7,
+      "quantity:10-14->2-9": 7,
+      "operation:PLACE:FERTILIZER->SOUTH": 7,
+      "operation:FERTILIZE->NORTH": 7,
+      "operation:PICKUP:COW->WEST": 7,
+      "operation:PICKUP:COW->PICKUP:WHEAT": 6,
+      "operation:PASS->SOUTH": 6,
+      "operation:PLACE:FERTILIZER->EAST": 6,
+      "operation:WEST->PICKUP:WHEAT": 5,
+      "operation:PLACE:COW->EAST": 5,
+      "operation:PICKUP:WHEAT->CARE": 5,
+      "operation:PLACE:WOOL->PLACE:WOOL": 5,
+      "operation:NORTH->CARE": 4,
+      "operation:PLACE:COW->SOUTH": 4,
+      "operation:DIG->NORTH": 4,
+      "operation:PLACE:COW->WEST": 4,
+      "operation:PASS->NORTH": 4,
+      "operation:PLANT:TOMATO->NORTH": 4,
+      "operation:BUILD_PASTURE->NORTH": 3,
+      "operation:PLACE:COW->NORTH": 3,
+      "operation:BUILD_COOP->WEST": 3,
+      "operation:PLACE:GOOSE->WEST": 3,
+      "operation:FEED->HARVEST": 3,
+      "operation:BUILD_PASTURE->WEST": 3,
+      "operation:WEST->PLACE:MILK": 3,
+      "operation:PLACE:SHEEP->SOUTH": 2,
+      "operation:PLACE:FERTILIZER->PLACE:FERTILIZER": 2,
+      "operation:NORTH->PLACE:MILK": 2,
+      "operation:PICKUP:GOOSE->NORTH": 2,
+      "operation:BUILD_COOP->EAST": 2,
+      "operation:PLACE:GOOSE->EAST": 2,
+      "operation:PLANT:TOMATO->WEST": 2,
+      "operation:WEST->PLACE:EGG": 2,
+      "operation:BUILD_PASTURE->SOUTH": 2,
+      "operation:BUILD_PASTURE->EAST": 2,
+      "operation:COLLECT_FERTILIZER->PLACE:MILK": 2,
+      "operation:PICKUP:COW->SOUTH": 1,
+      "operation:DIG->PLACE:WOOL": 1,
+      "operation:PLANT:MELON->SOUTH": 1,
+      "operation:SOUTH->PICKUP:WHEAT": 1,
+      "operation:PICKUP:COW->EAST": 1,
+      "operation:PLACE:FERTILIZER->CARE": 1,
+      "operation:PICKUP:MELON->EAST": 1,
+      "quantity:>=15->1": 1,
+      "operation:COLLECT_FERTILIZER->CARE": 1,
+      "operation:PLACE:FERTILIZER->PLACE:EGG": 1,
+      "operation:PICKUP:COW->PICKUP:COW": 1,
+      "operation:EAST->PLACE:WOOL": 1
+    },
+    "raw->policy_corrected:actor": {
+      "legality_inventory_economic_or_sequence_mask": 1767,
+      "quantity:1->1": 1558,
+      "operation:HARVEST->NORTH": 370,
+      "position:1": 250,
+      "position:5": 192,
+      "position:0": 177,
+      "operation:HARVEST->WEST": 170,
+      "position:4": 167,
+      "position:3": 164,
+      "position:11": 152,
+      "position:2": 147,
+      "position:6": 129,
+      "position:10": 128,
+      "quantity:1->2-9": 125,
+      "operation:HARVEST->EAST": 113,
+      "position:8": 112,
+      "operation:HARVEST->PICKUP:WHEAT": 95,
+      "position:9": 75,
+      "position:7": 74,
+      "operation:CARE->WEST": 56,
+      "operation:HARVEST->SOUTH": 53,
+      "operation:HARVEST->COLLECT_FERTILIZER": 51,
+      "operation:CARE->SOUTH": 42,
+      "operation:PICKUP:WHEAT->PICKUP:WHEAT": 42,
+      "quantity:2-9->2-9": 41,
+      "operation:WEST->NORTH": 41,
+      "operation:WEST->SOUTH": 40,
+      "quantity:2-9->1": 39,
+      "operation:CARE->NORTH": 37,
+      "operation:CARE->COLLECT_FERTILIZER": 37,
+      "operation:CARE->FEED": 35,
+      "operation:PICKUP:WHEAT->NORTH": 34,
+      "operation:CARE->EAST": 28,
+      "operation:PICKUP:COW->NORTH": 28,
+      "operation:EAST->NORTH": 24,
+      "operation:NORTH->WEST": 23,
+      "operation:NORTH->SOUTH": 18,
+      "operation:NORTH->EAST": 18,
+      "operation:WEST->EAST": 17,
+      "operation:WEST->WATER": 15,
+      "operation:PLANT:STRAWBERRY->PASS": 14,
+      "operation:SOUTH->NORTH": 14,
+      "operation:PICKUP:COW->PICKUP:WHEAT": 13,
+      "operation:WEST->COLLECT_FERTILIZER": 13,
+      "operation:CARE->PICKUP:WHEAT": 12,
+      "operation:SOUTH->WEST": 10,
+      "operation:PICKUP:COW->WEST": 9,
+      "operation:PLANT:CARROT->PLANT:WHEAT": 9,
+      "operation:PICKUP:GOOSE->NORTH": 9,
+      "operation:COLLECT_FERTILIZER->NORTH": 8,
+      "operation:EAST->WEST": 8,
+      "operation:COLLECT_FERTILIZER->EAST": 7,
+      "operation:PICKUP:WHEAT->SOUTH": 7,
+      "operation:WATER->WEST": 7,
+      "operation:PICKUP:GOOSE->EAST": 7,
+      "operation:PICKUP:WHEAT->WEST": 7,
+      "operation:WEST->PICKUP:COW": 6,
+      "operation:PLACE:FERTILIZER->WEST": 6,
+      "operation:PLANT:TOMATO->PLANT:CARROT": 6,
+      "operation:PICKUP:WHEAT->DROP": 5,
+      "operation:EAST->SOUTH": 5,
+      "operation:PICKUP:COW->SOUTH": 5,
+      "operation:WEST->PICKUP:WHEAT": 5,
+      "operation:HARVEST->WATER": 5,
+      "operation:PLANT:WHEAT->EAST": 5,
+      "operation:PLANT:WHEAT->PLANT:CARROT": 5,
+      "operation:SOUTH->EAST": 4,
+      "operation:DROP->EAST": 4,
+      "operation:COLLECT_FERTILIZER->WEST": 4,
+      "operation:PLANT:CARROT->PASS": 4,
+      "operation:PASS->NORTH": 4,
+      "operation:SOUTH->PLACE:COW": 4,
+      "operation:PICKUP:COW->EAST": 4,
+      "operation:PLANT:WHEAT->SOUTH": 4,
+      "operation:WATER->SOUTH": 3,
+      "operation:PLACE:MILK->WEST": 3,
+      "operation:PLANT:TOMATO->PLANT:WHEAT": 3,
+      "operation:WATER->HARVEST": 3,
+      "operation:NORTH->HARVEST": 3,
+      "operation:PLANT:WHEAT->WEST": 3,
+      "operation:DIG->NORTH": 3,
+      "operation:COLLECT_FERTILIZER->SOUTH": 3,
+      "operation:NORTH->WATER": 3,
+      "operation:PLANT:STRAWBERRY->EAST": 3,
+      "operation:HARVEST->FEED": 3,
+      "operation:DROP->NORTH": 3,
+      "operation:PLANT:WHEAT->PASS": 3,
+      "operation:PASS->SOUTH": 3,
+      "operation:WATER->FERTILIZE": 2,
+      "operation:SOUTH->HARVEST": 2,
+      "operation:NORTH->PICKUP:WHEAT": 2,
+      "operation:FEED->EAST": 2,
+      "operation:PLANT:CARROT->EAST": 2,
+      "operation:DIG->WEST": 2,
+      "operation:DROP->WEST": 2,
+      "operation:PLANT:STRAWBERRY->PLANT:WHEAT": 2,
+      "operation:NORTH->COLLECT_FERTILIZER": 2,
+      "operation:EAST->DIG": 2,
+      "operation:FEED->WEST": 2,
+      "operation:COLLECT_FERTILIZER->PICKUP:WHEAT": 2,
+      "operation:WEST->HARVEST": 2,
+      "operation:PICKUP:WHEAT->COLLECT_FERTILIZER": 2,
+      "operation:PLANT:STRAWBERRY->PLANT:CARROT": 2,
+      "operation:WEST->PASS": 2,
+      "quantity:10-14->1": 2,
+      "operation:DROP->SOUTH": 2,
+      "operation:PASS->WEST": 2,
+      "operation:PLANT:WHEAT->PLANT:STRAWBERRY": 2,
+      "operation:FEED->NORTH": 2,
+      "operation:CARE->PASS": 2,
+      "operation:PICKUP:GOOSE->SOUTH": 2,
+      "operation:PLACE:FERTILIZER->DROP": 1,
+      "operation:BUILD_PASTURE->NORTH": 1,
+      "operation:WEST->PLANT:STRAWBERRY": 1,
+      "operation:PLACE:COW->NORTH": 1,
+      "operation:WEST->DIG": 1,
+      "operation:FERTILIZE->HARVEST": 1,
+      "operation:WATER->NORTH": 1,
+      "operation:PLANT:CARROT->WEST": 1,
+      "operation:PLANT:CARROT->NORTH": 1,
+      "operation:PLANT:MELON->PASS": 1,
+      "operation:EAST->DROP": 1,
+      "operation:EAST->WATER": 1,
+      "operation:PLANT:CARROT->SOUTH": 1,
+      "operation:PLANT:STRAWBERRY->PLANT:TOMATO": 1,
+      "operation:PLANT:CARROT->PLANT:STRAWBERRY": 1,
+      "operation:FERTILIZE->EAST": 1,
+      "operation:NORTH->DIG": 1,
+      "operation:PLANT:WHEAT->NORTH": 1,
+      "operation:FERTILIZE->NORTH": 1,
+      "operation:PLANT:MELON->SOUTH": 1,
+      "operation:PICKUP:COW->PICKUP:GOOSE": 1,
+      "operation:CARE->WATER": 1,
+      "operation:PLACE:FERTILIZER->PICKUP:COW": 1,
+      "operation:NORTH->CARE": 1,
+      "operation:PASS->PLANT:CARROT": 1,
+      "operation:PASS->EAST": 1,
+      "operation:PLANT:CARROT->WATER": 1,
+      "operation:PLANT:TOMATO->NORTH": 1,
+      "operation:WEST->PLANT:CARROT": 1,
+      "operation:NORTH->PLANT:CARROT": 1,
+      "operation:FERTILIZE->WATER": 1,
+      "operation:EAST->PLANT:WHEAT": 1,
+      "operation:SOUTH->WATER": 1,
+      "operation:PICKUP:COW->PICKUP:MELON": 1,
+      "quantity:1->>=15": 1,
+      "operation:PLACE:FERTILIZER->SOUTH": 1,
+      "operation:PLACE:MILK->COLLECT_FERTILIZER": 1,
+      "operation:PLACE:MILK->SOUTH": 1,
+      "operation:EAST->COLLECT_FERTILIZER": 1,
+      "operation:BUILD_PASTURE->SOUTH": 1,
+      "operation:FERTILIZE->WEST": 1,
+      "operation:PASS->PLANT:WHEAT": 1,
+      "operation:FEED->COLLECT_FERTILIZER": 1,
+      "operation:EAST->HARVEST": 1,
+      "operation:NORTH->FERTILIZE": 1,
+      "operation:WEST->FERTILIZE": 1,
+      "operation:EAST->CARE": 1,
+      "operation:PICKUP:GOOSE->WEST": 1,
+      "operation:PICKUP:COW->CARE": 1,
+      "operation:WEST->CARE": 1,
+      "quantity:10-14->2-9": 1,
+      "operation:EAST->FERTILIZE": 1,
+      "operation:PLANT:TOMATO->EAST": 1,
+      "operation:NORTH->FEED": 1,
+      "operation:WEST->FEED": 1,
+      "operation:PLACE:MILK->PLACE:WOOL": 1,
+      "operation:WATER->EAST": 1
+    },
+    "raw->policy_corrected:market": {
+      "legality_inventory_economic_or_sequence_mask": 909,
+      "quantity:1->1": 379,
+      "position:0": 248,
+      "position:1": 247,
+      "quantity:2-9->1": 242,
+      "position:2": 176,
+      "operation:BUY_PRODUCT:WHEAT->EOS": 138,
+      "quantity:2-9->2-9": 103,
+      "position:3": 96,
+      "operation:HIRE->EOS": 91,
+      "operation:BUY_SEED:STRAWBERRY->EOS": 60,
+      "position:4": 55,
+      "operation:BUY_LAND->EOS": 51,
+      "quantity:10-14->1": 49,
+      "quantity:1->2-9": 42,
+      "operation:SELL:CARROT->SELL:CARROT": 40,
+      "operation:SELL:WHEAT->EOS": 38,
+      "operation:SELL:WHEAT->SELL:WHEAT": 36,
+      "position:5": 35,
+      "operation:EOS->HIRE": 35,
+      "quantity:10-14->2-9": 34,
+      "operation:SELL:FERTILIZER->EOS": 31,
+      "operation:SELL:CARROT->EOS": 27,
+      "position:6": 22,
+      "operation:BUY_SEED:WHEAT->EOS": 22,
+      "operation:SELL:MILK->EOS": 20,
+      "quantity:>=15->1": 18,
+      "operation:SELL:EGG->EOS": 18,
+      "operation:BUY_SEED:MELON->EOS": 17,
+      "operation:SELL:STRAWBERRY->SELL:STRAWBERRY": 15,
+      "operation:BUY_ANIMAL:COW->EOS": 13,
+      "position:8": 13,
+      "operation:SELL:FERTILIZER->SELL:FERTILIZER": 13,
+      "operation:SELL:TOMATO->EOS": 13,
+      "operation:SELL:MILK->SELL:MILK": 13,
+      "operation:BUY_PRODUCT:WHEAT->HIRE": 12,
+      "operation:SELL:EGG->SELL:EGG": 12,
+      "position:9": 11,
+      "operation:SELL:WOOL->EOS": 10,
+      "quantity:10-14->10-14": 10,
+      "operation:BUY_LAND->BUY_PRODUCT:WHEAT": 9,
+      "operation:SELL:WOOL->SELL:WOOL": 9,
+      "operation:SELL:TOMATO->SELL:TOMATO": 9,
+      "quantity:>=15->>=15": 9,
+      "quantity:>=15->10-14": 8,
+      "operation:SELL:FERTILIZER->HIRE": 7,
+      "operation:BUY_ANIMAL:COW->BUY_SEED:STRAWBERRY": 6,
+      "quantity:1->10-14": 6,
+      "position:7": 6,
+      "operation:SELL:WHEAT->SELL:TOMATO": 6,
+      "operation:SELL:WHEAT->SELL:FERTILIZER": 5,
+      "operation:SELL:STRAWBERRY->EOS": 5,
+      "operation:SELL:WHEAT->SELL:CARROT": 5,
+      "quantity:>=15->2-9": 4,
+      "operation:SELL:WOOL->BUY_PRODUCT:WHEAT": 4,
+      "operation:SELL:EGG->SELL:FERTILIZER": 4,
+      "operation:EOS->BUY_PRODUCT:WHEAT": 3,
+      "operation:SELL:EGG->SELL:MELON": 3,
+      "operation:SELL:MILK->SELL:WOOL": 3,
+      "operation:SELL:WHEAT->SELL:MILK": 3,
+      "operation:SELL:TOMATO->HIRE": 3,
+      "operation:SELL:CARROT->SELL:FERTILIZER": 3,
+      "operation:SELL:MELON->SELL:MELON": 3,
+      "operation:SELL:EGG->SELL:STRAWBERRY": 3,
+      "operation:SELL:WHEAT->SELL:EGG": 3,
+      "operation:SELL:WHEAT->SELL:MELON": 3,
+      "operation:BUY_ANIMAL:SHEEP->EOS": 2,
+      "operation:BUY_SEED:STRAWBERRY->BUY_SEED:WHEAT": 2,
+      "operation:SELL:WOOL->HIRE": 2,
+      "quantity:2-9->>=15": 2,
+      "operation:EOS->SELL:STRAWBERRY": 2,
+      "operation:SELL:TOMATO->SELL:STRAWBERRY": 2,
+      "operation:SELL:FERTILIZER->SELL:WHEAT": 2,
+      "operation:SELL:CARROT->SELL:WHEAT": 2,
+      "operation:SELL:FERTILIZER->SELL:CARROT": 2,
+      "operation:SELL:STRAWBERRY->BUY_SEED:WHEAT": 2,
+      "operation:SELL:FERTILIZER->SELL:WOOL": 2,
+      "operation:HIRE->SELL:WHEAT": 2,
+      "quantity:2-9->10-14": 2,
+      "operation:SELL:MILK->HIRE": 2,
+      "operation:BUY_SEED:WHEAT->SELL:WHEAT": 2,
+      "operation:SELL:FERTILIZER->BUY_PRODUCT:WHEAT": 2,
+      "operation:BUY_ANIMAL:COW->BUY_PRODUCT:WHEAT": 2,
+      "operation:SELL:WOOL->SELL:FERTILIZER": 2,
+      "operation:SELL:FERTILIZER->SELL:MILK": 2,
+      "operation:SELL:WHEAT->SELL:STRAWBERRY": 2,
+      "operation:SELL:FERTILIZER->BUY_SEED:WHEAT": 2,
+      "operation:SELL:TOMATO->SELL:MILK": 2,
+      "operation:BUY_LAND->BUY_SEED:STRAWBERRY": 1,
+      "operation:SELL:WOOL->BUY_ANIMAL:COW": 1,
+      "operation:BUY_ANIMAL:COW->BUY_ANIMAL:GOOSE": 1,
+      "operation:BUY_ANIMAL:COW->SELL:WOOL": 1,
+      "operation:BUY_SEED:TOMATO->EOS": 1,
+      "operation:SELL:MELON->SELL:WHEAT": 1,
+      "operation:EOS->SELL:WHEAT": 1,
+      "operation:SELL:CARROT->HIRE": 1,
+      "operation:SELL:TOMATO->SELL:FERTILIZER": 1,
+      "operation:SELL:CARROT->SELL:STRAWBERRY": 1,
+      "operation:SELL:STRAWBERRY->SELL:FERTILIZER": 1,
+      "operation:SELL:CARROT->BUY_SEED:WHEAT": 1,
+      "operation:SELL:CARROT->SELL:MILK": 1,
+      "operation:EOS->SELL:MILK": 1,
+      "operation:BUY_PRODUCT:WHEAT->BUY_SEED:STRAWBERRY": 1,
+      "operation:BUY_ANIMAL:COW->BUY_SEED:WHEAT": 1,
+      "operation:BUY_PRODUCT:WHEAT->BUY_SEED:WHEAT": 1,
+      "operation:SELL:MELON->BUY_SEED:STRAWBERRY": 1,
+      "quantity:1->>=15": 1,
+      "operation:SELL:CARROT->BUY_SEED:CARROT": 1,
+      "operation:BUY_SEED:MELON->BUY_PRODUCT:WHEAT": 1,
+      "operation:BUY_PRODUCT:WHEAT->SELL:MILK": 1,
+      "operation:SELL:MELON->BUY_SEED:WHEAT": 1,
+      "operation:EOS->BUY_SEED:WHEAT": 1,
+      "operation:SELL:WOOL->BUY_SEED:STRAWBERRY": 1,
+      "operation:SELL:MILK->SELL:WHEAT": 1,
+      "operation:HIRE->BUY_PRODUCT:WHEAT": 1,
+      "operation:SELL:MILK->SELL:EGG": 1,
+      "operation:EOS->BUY_SEED:CARROT": 1,
+      "operation:EOS->BUY_SEED:TOMATO": 1,
+      "operation:SELL:EGG->SELL:CARROT": 1,
+      "operation:EOS->SELL:TOMATO": 1,
+      "operation:SELL:CARROT->SELL:EGG": 1,
+      "operation:BUY_SEED:MELON->SELL:WHEAT": 1,
+      "operation:SELL:MILK->BUY_PRODUCT:WHEAT": 1,
+      "operation:SELL:TOMATO->SELL:WHEAT": 1,
+      "operation:SELL:MILK->SELL:STRAWBERRY": 1,
+      "operation:SELL:FERTILIZER->SELL:TOMATO": 1,
+      "operation:EOS->SELL:CARROT": 1,
+      "operation:SELL:WOOL->SELL:WHEAT": 1,
+      "operation:BUY_SEED:WHEAT->BUY_SEED:STRAWBERRY": 1,
+      "operation:SELL:MELON->SELL:FERTILIZER": 1,
+      "operation:SELL:FERTILIZER->SELL:EGG": 1,
+      "operation:SELL:EGG->SELL:WHEAT": 1,
+      "operation:SELL:MELON->SELL:CARROT": 1,
+      "operation:SELL:MELON->EOS": 1
+    },
+    "policy_corrected->round7_final:market": {
+      "round7_ledger_or_task_plan": 9564,
+      "quantity:1->2-9": 3770,
+      "position:0": 3384,
+      "position:1": 3044,
+      "operation:EOS->SELL:MILK": 1959,
+      "position:2": 1918,
+      "quantity:1->1": 1809,
+      "quantity:1->>=15": 1290,
+      "operation:EOS->BUY_SEED:WHEAT": 1124,
+      "quantity:1->10-14": 1038,
+      "operation:EOS->SELL:WOOL": 978,
+      "position:3": 792,
+      "operation:BUY_SEED:WHEAT->SELL:WOOL": 725,
+      "quantity:2-9->2-9": 713,
+      "operation:EOS->SELL:EGG": 647,
+      "quantity:2-9->>=15": 358,
+      "operation:EOS->SELL:WHEAT": 354,
+      "operation:SELL:WHEAT->SELL:WOOL": 324,
+      "operation:BUY_SEED:WHEAT->SELL:MILK": 316,
+      "operation:EOS->BUY_PRODUCT:WHEAT": 306,
+      "quantity:2-9->10-14": 280,
+      "operation:SELL:STRAWBERRY->SELL:WOOL": 264,
+      "position:4": 214,
+      "operation:EOS->SELL:STRAWBERRY": 187,
+      "operation:EOS->BUY_SEED:CARROT": 159,
+      "operation:EOS->HIRE": 155,
+      "operation:SELL:MILK->SELL:WOOL": 111,
+      "position:9": 105,
+      "operation:SELL:WHEAT->SELL:MILK": 104,
+      "operation:HIRE->SELL:FERTILIZER": 102,
+      "operation:EOS->BUY_SEED:TOMATO": 91,
+      "operation:EOS->SELL:CARROT": 91,
+      "operation:SELL:FERTILIZER->SELL:WOOL": 87,
+      "operation:BUY_SEED:CARROT->SELL:MILK": 87,
+      "quantity:2-9->1": 87,
+      "operation:SELL:FERTILIZER->SELL:MILK": 70,
+      "operation:HIRE->SELL:MILK": 68,
+      "operation:SELL:CARROT->SELL:MILK": 62,
+      "operation:EOS->SELL:FERTILIZER": 61,
+      "quantity:10-14->2-9": 60,
+      "operation:SELL:CARROT->SELL:WOOL": 55,
+      "operation:BUY_SEED:WHEAT->SELL:WHEAT": 48,
+      "operation:BUY_SEED:CARROT->SELL:WOOL": 47,
+      "operation:SELL:EGG->SELL:WOOL": 47,
+      "quantity:10-14->>=15": 44,
+      "operation:BUY_SEED:WHEAT->SELL:EGG": 39,
+      "quantity:10-14->1": 36,
+      "operation:EOS->SELL:MELON": 35,
+      "operation:BUY_PRODUCT:WHEAT->HIRE": 35,
+      "operation:BUY_SEED:TOMATO->SELL:MILK": 33,
+      "operation:EOS->SELL:TOMATO": 33,
+      "quantity:>=15->2-9": 32,
+      "quantity:10-14->10-14": 32,
+      "operation:HIRE->SELL:STRAWBERRY": 32,
+      "operation:SELL:MELON->SELL:WOOL": 31,
+      "operation:BUY_SEED:TOMATO->SELL:WOOL": 30,
+      "position:5": 28,
+      "operation:SELL:STRAWBERRY->SELL:MILK": 28,
+      "position:7": 28,
+      "position:8": 27,
+      "operation:SELL:MILK->SELL:STRAWBERRY": 27,
+      "operation:HIRE->SELL:WHEAT": 27,
+      "operation:HIRE->SELL:EGG": 26,
+      "position:6": 24,
+      "operation:EOS->BUY_SEED:STRAWBERRY": 24,
+      "operation:SELL:EGG->SELL:MILK": 22,
+      "operation:SELL:WHEAT->SELL:WHEAT": 21,
+      "operation:SELL:TOMATO->SELL:WOOL": 21,
+      "operation:SELL:WHEAT->SELL:CARROT": 20,
+      "operation:HIRE->SELL:CARROT": 19,
+      "operation:SELL:TOMATO->SELL:MILK": 18,
+      "operation:BUY_SEED:WHEAT->SELL:STRAWBERRY": 17,
+      "operation:SELL:MELON->SELL:MILK": 17,
+      "operation:BUY_SEED:TOMATO->BUY_SEED:WHEAT": 17,
+      "operation:BUY_SEED:WHEAT->SELL:FERTILIZER": 16,
+      "operation:SELL:MILK->SELL:WHEAT": 15,
+      "operation:BUY_SEED:STRAWBERRY->BUY_SEED:WHEAT": 15,
+      "operation:SELL:WHEAT->SELL:EGG": 14,
+      "operation:SELL:WHEAT->SELL:STRAWBERRY": 13,
+      "operation:SELL:CARROT->SELL:WHEAT": 13,
+      "operation:SELL:WOOL->SELL:MILK": 11,
+      "operation:HIRE->EOS": 11,
+      "operation:SELL:FERTILIZER->SELL:EGG": 11,
+      "operation:BUY_SEED:CARROT->SELL:EGG": 10,
+      "operation:BUY_SEED:CARROT->BUY_SEED:WHEAT": 10,
+      "operation:HIRE->SELL:WOOL": 9,
+      "operation:HIRE->SELL:TOMATO": 9,
+      "operation:SELL:FERTILIZER->SELL:MELON": 9,
+      "operation:SELL:FERTILIZER->SELL:STRAWBERRY": 9,
+      "operation:BUY_PRODUCT:WHEAT->SELL:MILK": 8,
+      "operation:SELL:MELON->SELL:EGG": 8,
+      "quantity:>=15->>=15": 7,
+      "operation:SELL:MILK->SELL:CARROT": 7,
+      "operation:SELL:MILK->SELL:EGG": 7,
+      "operation:SELL:CARROT->SELL:CARROT": 7,
+      "quantity:>=15->10-14": 7,
+      "operation:SELL:STRAWBERRY->SELL:WHEAT": 6,
+      "operation:SELL:FERTILIZER->SELL:WHEAT": 6,
+      "operation:SELL:TOMATO->SELL:WHEAT": 6,
+      "operation:SELL:WHEAT->SELL:TOMATO": 6,
+      "operation:BUY_SEED:STRAWBERRY->SELL:MILK": 5,
+      "operation:SELL:STRAWBERRY->SELL:STRAWBERRY": 5,
+      "operation:BUY_SEED:TOMATO->SELL:STRAWBERRY": 5,
+      "operation:SELL:EGG->SELL:STRAWBERRY": 5,
+      "operation:SELL:EGG->SELL:WHEAT": 5,
+      "operation:SELL:CARROT->SELL:EGG": 5,
+      "operation:BUY_ANIMAL:COW->SELL:WOOL": 4,
+      "operation:EOS->BUY_ANIMAL:COW": 4,
+      "operation:SELL:MILK->SELL:FERTILIZER": 4,
+      "operation:SELL:CARROT->SELL:STRAWBERRY": 4,
+      "operation:SELL:WHEAT->SELL:MELON": 3,
+      "operation:BUY_SEED:CARROT->SELL:STRAWBERRY": 3,
+      "operation:BUY_PRODUCT:WHEAT->SELL:MELON": 3,
+      "operation:SELL:STRAWBERRY->SELL:EGG": 3,
+      "operation:BUY_SEED:CARROT->SELL:WHEAT": 3,
+      "operation:SELL:TOMATO->SELL:CARROT": 3,
+      "operation:BUY_SEED:WHEAT->SELL:MELON": 3,
+      "operation:SELL:STRAWBERRY->SELL:MELON": 3,
+      "operation:BUY_SEED:STRAWBERRY->SELL:FERTILIZER": 2,
+      "operation:BUY_PRODUCT:WHEAT->EOS": 2,
+      "operation:BUY_PRODUCT:WHEAT->SELL:FERTILIZER": 2,
+      "operation:HIRE->SELL:MELON": 2,
+      "operation:BUY_SEED:TOMATO->SELL:EGG": 2,
+      "operation:SELL:EGG->SELL:EGG": 2,
+      "operation:SELL:TOMATO->SELL:STRAWBERRY": 2,
+      "operation:SELL:WOOL->SELL:EGG": 2,
+      "operation:SELL:TOMATO->SELL:EGG": 2,
+      "operation:BUY_SEED:TOMATO->BUY_SEED:CARROT": 2,
+      "operation:SELL:EGG->SELL:CARROT": 2,
+      "operation:SELL:MILK->SELL:TOMATO": 2,
+      "operation:SELL:MILK->SELL:MILK": 2,
+      "operation:SELL:FERTILIZER->SELL:CARROT": 2,
+      "operation:SELL:WOOL->SELL:FERTILIZER": 2,
+      "operation:BUY_SEED:WHEAT->BUY_ANIMAL:COW": 1,
+      "operation:BUY_SEED:STRAWBERRY->SELL:WOOL": 1,
+      "quantity:>=15->1": 1,
+      "operation:SELL:WOOL->SELL:WHEAT": 1,
+      "operation:SELL:STRAWBERRY->SELL:TOMATO": 1,
+      "operation:SELL:WOOL->SELL:STRAWBERRY": 1,
+      "operation:BUY_PRODUCT:WHEAT->SELL:WOOL": 1,
+      "operation:BUY_SEED:STRAWBERRY->SELL:MELON": 1,
+      "operation:BUY_SEED:TOMATO->SELL:WHEAT": 1,
+      "operation:BUY_PRODUCT:WHEAT->BUY_ANIMAL:COW": 1,
+      "operation:SELL:MELON->SELL:STRAWBERRY": 1,
+      "operation:BUY_SEED:CARROT->SELL:FERTILIZER": 1,
+      "operation:SELL:WOOL->SELL:CARROT": 1,
+      "operation:SELL:MELON->SELL:WHEAT": 1,
+      "operation:SELL:TOMATO->SELL:TOMATO": 1,
+      "operation:SELL:WHEAT->EOS": 1,
+      "operation:SELL:MELON->SELL:MELON": 1,
+      "operation:SELL:CARROT->SELL:FERTILIZER": 1,
+      "operation:BUY_SEED:STRAWBERRY->BUY_PRODUCT:WHEAT": 1,
+      "operation:SELL:CARROT->EOS": 1,
+      "operation:SELL:WHEAT->BUY_PRODUCT:WHEAT": 1,
+      "operation:BUY_ANIMAL:COW->EOS": 1,
+      "operation:SELL:MILK->SELL:MELON": 1,
+      "operation:BUY_SEED:TOMATO->SELL:FERTILIZER": 1,
+      "operation:BUY_ANIMAL:SHEEP->SELL:MILK": 1,
+      "operation:EOS->BUY_ANIMAL:SHEEP": 1,
+      "operation:SELL:STRAWBERRY->SELL:FERTILIZER": 1,
+      "operation:SELL:STRAWBERRY->SELL:CARROT": 1
+    }
+  },
+  "episodes": [
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "source": "data\\replays\\submission_56216119\\episode_109590135.json",
+      "source_sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.08762169680111266,
+      "policy_corrected_joint_accuracy": 0.08623087621696801,
+      "round7_final_joint_accuracy": 0.02086230876216968
+    },
+    {
+      "episode_id": 110444190,
+      "seat": 1,
+      "source": "data\\replays\\submission_56216119\\episode_110444190.json",
+      "source_sha256": "5896c0bd7f7fbc693fc259c6e21447b74f4e52a4a1d8d6596abf4000ef5c9ff5",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.13073713490959665,
+      "policy_corrected_joint_accuracy": 0.10987482614742698,
+      "round7_final_joint_accuracy": 0.01808066759388039
+    },
+    {
+      "episode_id": 108848633,
+      "seat": 0,
+      "source": "data\\replays\\submission_56216119\\episode_108848633.json",
+      "source_sha256": "d8846ecb02273294780c0d44e054e4e5ef7ba3d5c4059065c1cdb556459f16e6",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.08066759388038942,
+      "policy_corrected_joint_accuracy": 0.07510431154381085,
+      "round7_final_joint_accuracy": 0.016689847009735744
+    },
+    {
+      "episode_id": 109564919,
+      "seat": 1,
+      "source": "data\\replays\\submission_56216119\\episode_109564919.json",
+      "source_sha256": "221ea1bffadce9ecbc699dece16b1d20ac42aed61d44474035c3826cd168c7a1",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.25312934631432543,
+      "policy_corrected_joint_accuracy": 0.21557719054242003,
+      "round7_final_joint_accuracy": 0.04172461752433936
+    },
+    {
+      "episode_id": 110282687,
+      "seat": 0,
+      "source": "data\\replays\\submission_56216119\\episode_110282687.json",
+      "source_sha256": "f4dc619124515d7bbbe91697c417c258e5846b73976a4cc9a72284ddc434374a",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.2141863699582754,
+      "policy_corrected_joint_accuracy": 0.18636995827538247,
+      "round7_final_joint_accuracy": 0.04033379694019471
+    },
+    {
+      "episode_id": 110768104,
+      "seat": 1,
+      "source": "data\\replays\\submission_56216119\\episode_110768104.json",
+      "source_sha256": "ae9eb5e5707845d75e52987c26dda38f61d75cf4fe9f77fc4067f3db42f33b4b",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.16689847009735745,
+      "policy_corrected_joint_accuracy": 0.14464534075104313,
+      "round7_final_joint_accuracy": 0.04172461752433936
+    },
+    {
+      "episode_id": 108722171,
+      "seat": 0,
+      "source": "data\\replays\\submission_56216119\\episode_108722171.json",
+      "source_sha256": "3bb7ed5657fe1ec04af3096ef43d531f9fd08510b6228c80961bd327acd745b0",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.22253129346314326,
+      "policy_corrected_joint_accuracy": 0.19888734353268428,
+      "round7_final_joint_accuracy": 0.037552155771905425
+    },
+    {
+      "episode_id": 109461814,
+      "seat": 1,
+      "source": "data\\replays\\submission_56216119\\episode_109461814.json",
+      "source_sha256": "8b3285497e089124324e6a08398dc0c131b565efe459a87ba356bc8352ac1e0e",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.07093184979137691,
+      "policy_corrected_joint_accuracy": 0.06815020862308763,
+      "round7_final_joint_accuracy": 0.015299026425591099
+    }
+  ],
+  "learned_weight_runtime_evidence": {
+    "actor_feature_sha256": "2a23bf3ebb56af94c93906daf3b78279eaec7819d57740d5da8e15542b338f95",
+    "actor_probability_sha256": "c2c2556ce1e2ce0e776c374e07e3deaa63a3a00102d7043a49fd4afb4adcd151",
+    "actor_selected_class": "PASS",
+    "actor_selected_probability": 0.9461160898208618,
+    "models": {
+      "actor_token": {
+        "path_inside_fresh_extraction": "actor_token.npz",
+        "sha256": "d63c7de780ca0b1d56430068d64737f75de7ac93ecfd4a9862247e4b9987e9b2",
+        "loader_class": "SavedMLP",
+        "weight_shapes": [
+          [
+            407,
+            128
+          ],
+          [
+            128,
+            64
+          ],
+          [
+            64,
+            44
+          ]
+        ]
+      },
+      "market_token": {
+        "path_inside_fresh_extraction": "market_token.npz",
+        "sha256": "3d5b803f5920698ddf3322cb6ce44f4d020bdbe94a5d07a771b78d372d33f374",
+        "loader_class": "SavedMLP",
+        "weight_shapes": [
+          [
+            256,
+            128
+          ],
+          [
+            128,
+            64
+          ],
+          [
+            64,
+            22
+          ]
+        ]
+      },
+      "actor_quantity": {
+        "path_inside_fresh_extraction": "actor_quantity.npz",
+        "sha256": "a53ffa8e8aff1c388f98aaf7de4668a7f86e451d70da4650c307175865281461",
+        "loader_class": "SavedMLP",
+        "weight_shapes": [
+          [
+            451,
+            96
+          ],
+          [
+            96,
+            48
+          ],
+          [
+            48,
+            27
+          ]
+        ]
+      },
+      "market_quantity": {
+        "path_inside_fresh_extraction": "market_quantity.npz",
+        "sha256": "d5edffaa4f98dc57bc375d654ad29956b02fa72d85c83414dcdf12e54573b252",
+        "loader_class": "SavedMLP",
+        "weight_shapes": [
+          [
+            278,
+            96
+          ],
+          [
+            96,
+            48
+          ],
+          [
+            48,
+            56
+          ]
+        ]
+      }
+    }
+  }
+}

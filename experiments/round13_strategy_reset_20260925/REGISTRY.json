@@ -1,0 +1,115 @@
+{
+  "schema": "round13-registry-v1",
+  "cycle": "round13_strategy_reset_20260925",
+  "status": "KEEP_B1",
+  "immutable_parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+  "engine": {
+    "name": "destbreso/kaggriculture-cppsim",
+    "version": "1.32.7",
+    "binary_sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92",
+    "repo_head": "f0084b916343c37bbcbdc7de9d833dc96caff78f",
+    "official_reference_git_blob": "302d8e20c83822b8d4572975cdea1180b792b748",
+    "official_reference_match": true
+  },
+  "configs": {
+    "development": {
+      "path": "configs/development.json",
+      "sha256": "dbb18e75fc0dfd2865f160b439c6171a1f6d845a2ed01703d5b5668dd3c380bc",
+      "seeds": [812609251, 812609252, 812609253, 812609254],
+      "seats": [0, 1],
+      "conditions_per_arm": 48,
+      "evaluation_mode": "REACTIVE_FULLGAME"
+    },
+    "independent_holdout": {
+      "executed": false,
+      "seeds": [],
+      "reason": "No candidate cleared the preregistered development gate."
+    }
+  },
+  "candidates": [
+    {
+      "id": "D0_B1",
+      "path": "agents/D0_B1/main.py",
+      "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "entrypoint": "opening_liquidity_agent",
+      "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "stage": "frozen_baseline",
+      "result": "KEEP_B1"
+    },
+    {
+      "id": "M1_deadline_market",
+      "path": "agents/M1_deadline_market/main.py",
+      "sha256": "37a57f21fb6a36aa18869c9b9edb3d284b690de1d666bca78bbfb3f4bec93485",
+      "entrypoint": "round13_agent",
+      "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "stage": "development_48_reactive_games",
+      "result": "RESEARCH_ONLY",
+      "paired_score_delta": -0.3541666666666667
+    },
+    {
+      "id": "P_EARLY4",
+      "path": "agents/P_EARLY4/main.py",
+      "sha256": "df127da9c91662908ffdc48987ce37df44d4901b51be6a029628dc2655318c3c",
+      "entrypoint": "round13_agent",
+      "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "stage": "development_48_reactive_games_after_two_worker_assignment_refinements",
+      "result": "RESEARCH_ONLY",
+      "paired_score_delta": -0.6666666666666666
+    },
+    {
+      "id": "P_ROTATE2",
+      "path": "agents/P_ROTATE2/main.py",
+      "sha256": "30909d1b89154351bf2a7f88c18bb763fa252d48648a861db376ac035c2aaaed",
+      "entrypoint": "round13_agent",
+      "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "stage": "development_48_reactive_games",
+      "result": "RESEARCH_ONLY",
+      "paired_score_delta": -0.4583333333333333
+    },
+    {
+      "id": "C_EARLY4_M1",
+      "path": "agents/C_EARLY4_M1/main.py",
+      "sha256": "c14e71a996294062d732d9b20647800bfde1cc21056dcb3c98468054ebc9e7e9",
+      "entrypoint": "round13_agent",
+      "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "stage": "built_loader_and_contract_tested_not_panel_evaluated",
+      "result": "RESEARCH_ONLY",
+      "reason": "Both individual mechanisms failed their development gates; composition was not selected after inspecting those results."
+    }
+  ],
+  "sale_forecast": {
+    "path": "models/sale_forecast.json",
+    "sha256": "29f94111c3c92e3de9bcc74ef975672e066c841957e1f1fab2a961c355d78138",
+    "bytes": 28740,
+    "reload_verified": true,
+    "policy_integration": false,
+    "result": "OFFLINE_MODEL_ONLY"
+  },
+  "development_opponents": [
+    {"id": "B1", "family": "near_lineage", "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02", "bytes": 1040805},
+    {"id": "v57", "family": "near_lineage", "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f", "bytes": 1067076},
+    {"id": "order_book", "family": "near_lineage", "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab", "bytes": 1026965},
+    {"id": "metav4", "family": "near_lineage", "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9", "bytes": 1004288},
+    {"id": "barnyard", "family": "diverse_barnyard", "sha256": "baf79b4ebc104ce1f342124e9ffbf3dfef77886086274168f29cc9c345d2ef6b", "bytes": 27730},
+    {"id": "melon_threshold", "family": "diverse_melon", "sha256": "26e21e006e1d87042709a658c44fd44878f7a6415add558cbd2c71f4f8772b12", "bytes": 342050}
+  ],
+  "public_policy_inventory_initial_12": [
+    {"id": "herd_safe", "author": "Dmitrii Gluzdov", "version": 2, "license": "Apache-2.0", "artifact_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02", "entrypoint": "opening_liquidity_agent", "acquisition": "reused_round10_registry", "reactive_evaluation": "baseline_48"},
+    {"id": "ahmed_v57", "author": "ahmedberatozer", "version": 3, "license": "Apache-2.0", "artifact_sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f", "entrypoint": "last_callable_loader", "acquisition": "reused_round10_registry", "reactive_evaluation": "opponent_32_near_lineage_group"},
+    {"id": "order_book", "author": "shiiin9", "version": 2, "license": "Apache-2.0", "artifact_sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab", "entrypoint": "last_callable_loader", "acquisition": "reused_round10_registry", "reactive_evaluation": "opponent_32_near_lineage_group"},
+    {"id": "metav4", "author": "Thomas Tschinkel", "version": 2, "license": "Apache-2.0", "artifact_sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9", "entrypoint": "last_callable_loader", "acquisition": "reused_round10_registry", "reactive_evaluation": "opponent_32_near_lineage_group"},
+    {"id": "barnyard", "author": "Roman Rozen", "version": 7, "license": "NOT_ESTABLISHED", "artifact_sha256": "baf79b4ebc104ce1f342124e9ffbf3dfef77886086274168f29cc9c345d2ef6b", "entrypoint": "last_callable_loader", "acquisition": "reused_round10_registry", "reactive_evaluation": "opponent_8", "realized_structure": "day-7 strawberry, no carrot, doubled melon planting relative to B1 on this panel"},
+    {"id": "melon_threshold", "author": "goodpjw2008", "version": 1, "license": "Apache-2.0", "artifact_sha256": "26e21e006e1d87042709a658c44fd44878f7a6415add558cbd2c71f4f8772b12", "entrypoint": "last_callable_loader", "acquisition": "reused_round10_registry", "reactive_evaluation": "opponent_8"},
+    {"id": "ahmed_v56", "author": "ahmedberatozer", "version": 1, "license": "Apache-2.0", "artifact_sha256": "a1ad0fd1d174477ee2cbdd561a812bcb7029647ce34599e79d6b79e9057eff6c", "entrypoint": "last_callable_loader", "acquisition": "reused_round10_registry", "reactive_evaluation": "not_selected_near_duplicate_of_v57"},
+    {"id": "ggmljs_snapshot", "author": "ggmljs", "version": "current_20260910", "license": "Apache-2.0", "artifact_sha256": "c04d2f267e3b78ae74d9cb6e74bc4216128e22fc70093638860ed13f0599c7ca", "entrypoint": "agent", "acquisition": "preexisting_local_opponent_pool", "reactive_evaluation": "not_run_this_cycle"},
+    {"id": "mooman_kaito_v56_e052a", "author": "MMN", "version": "e052a/current_20260910", "license": "MIT", "artifact_sha256": "546f22355746aaee30cc1f8035fb5e7fb6b133dccba802d30c90f4708c5e872d", "entrypoint": "agent_entry", "acquisition": "preexisting_local_opponent_pool", "reactive_evaluation": "not_run_this_cycle"},
+    {"id": "qeinstein_sub_009_moev2", "author": "qeinstein", "version": "sub-009/current_20260910", "license": "UNKNOWN_NOT_FOUND", "artifact_sha256": "45fa89710e66327379fb27dfa3569b153abf8ead9f5f9be0da02dbe9e792105c", "entrypoint": "agent", "acquisition": "preexisting_local_opponent_pool", "reactive_evaluation": "not_run_this_cycle"},
+    {"id": "mooman_shop_router_0908", "author": "MMN", "version": "0908", "license": "MIT", "artifact_sha256": "cec3d03192814962b4f52c888bdfbf32c5ea2cf4dafede32ecdf58481ed05de2", "entrypoint": "archive main.py plus model/actions/observation", "acquisition": "preexisting_local_opponent_pool", "reactive_evaluation": "not_run_this_cycle"},
+    {"id": "mooman_sr0908_live_k6", "author": "MMN", "version": "0908_live_k6", "license": "MIT", "artifact_sha256": "8645c4710a08464fff05e89a0a7bb6f50d3d4c3670de11b887b29e47642376f2", "entrypoint": "archive main.py plus router/model/actions/observation", "acquisition": "preexisting_local_opponent_pool", "reactive_evaluation": "not_run_this_cycle"}
+  ],
+  "failed_or_unselected": [
+    {"id": "harvest_ledger", "status": "prior_404", "replacement": "barnyard"},
+    {"id": "external_inventory_not_run", "count": 5, "reason": "Stop after six executable independent/development panel entries; own M/P candidates continued regardless."}
+  ],
+  "realized_production_evidence": "analysis/opponent_production_audit.json"
+}

@@ -1,0 +1,227 @@
+{
+  "created_at_utc": "2026-09-23T13:55:17.247797+00:00",
+  "classification": "RECOVERY_LABEL_DIAGNOSTIC_NOT_TRAINED_NOT_DAGGER",
+  "source_replay": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_t1_t2_t3_v2\\a2_seed20260924_t3_replay.json.gz",
+  "source_replay_sha256": "6e5faf49ef0da4d16dfcc828180d763d189a11fc7c0d0a8d4e8324f174b9dcf9",
+  "states": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\recovery_states_v1\\states.json.gz",
+  "states_sha256": "e1fc61375f0901f1dc0ecc8ae56b77cd06bc161981f53bb51f5c6f51ec256d30",
+  "snapshot_count": 6,
+  "validated_local_labels": [
+    {
+      "record_index": 192,
+      "category": "zero_cash_reinvestment_stall",
+      "label": {
+        "market": [
+          [
+            "SELL",
+            "WHEAT",
+            13
+          ]
+        ]
+      },
+      "source_label_kind": "search",
+      "search_scope": "one-step, focal market order, opponent market empty, no future state/action",
+      "validation": {
+        "before": {
+          "cash": 0.0,
+          "private": {
+            "shed": {
+              "WHEAT": 13,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 6,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            },
+            "inventories": [
+              {}
+            ]
+          }
+        },
+        "after": {
+          "cash": 417.0,
+          "private": {
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 6,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            },
+            "inventories": [
+              {}
+            ]
+          }
+        },
+        "changed": true
+      },
+      "validated_effect": true
+    },
+    {
+      "record_index": 319,
+      "category": "carried_goods_far_from_shed",
+      "label": {
+        "actor_index": 0,
+        "action": [
+          "EAST"
+        ]
+      },
+      "source_label_kind": "search",
+      "search_scope": "one-step legal movement minimizing Manhattan distance to a shed access tile",
+      "validation": {
+        "before_position": [
+          3,
+          0
+        ],
+        "after_position": [
+          4,
+          0
+        ],
+        "before_distance_to_shed_access": 5,
+        "after_distance_to_shed_access": 4,
+        "changed": true
+      },
+      "validated_effect": true
+    },
+    {
+      "record_index": 718,
+      "category": "last_executable_liquidation_window",
+      "label": {
+        "market": [
+          [
+            "SELL",
+            "MELON",
+            5
+          ]
+        ]
+      },
+      "source_label_kind": "search",
+      "search_scope": "last executable one-step liquidation, opponent market empty, no future state/action",
+      "validation": {
+        "before": {
+          "cash": 1353.0,
+          "private": {
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 5,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 6,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            },
+            "inventories": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        },
+        "after": {
+          "cash": 2507.0,
+          "private": {
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 6,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            },
+            "inventories": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        },
+        "changed": true
+      },
+      "validated_effect": true
+    }
+  ],
+  "unlabeled_categories": [
+    {
+      "record_index": 24,
+      "category": "day_boundary_actor_slot_change",
+      "reason": "no trusted day-level objective label was established; a stale original-teacher time label was not copied"
+    },
+    {
+      "record_index": 61,
+      "category": "first_observed_work_failure_context",
+      "reason": "the failed work is documented, but a one-step alternative does not establish task ownership/completion"
+    },
+    {
+      "record_index": 96,
+      "category": "seed_shortage_with_saleable_stock",
+      "reason": "buy-versus-sell-versus-harvest requires a multi-step economic objective; no unverified self-label was used"
+    }
+  ],
+  "added_to_a2_training_rows": 0,
+  "dagger_claim": false,
+  "private_or_future_opponent_input_used": false
+}

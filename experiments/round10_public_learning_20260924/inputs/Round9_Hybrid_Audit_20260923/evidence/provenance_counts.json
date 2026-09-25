@@ -1,0 +1,58 @@
+{
+  "actor": {
+    "columns": [
+      "episode",
+      "record_index",
+      "observation_step",
+      "actor_index",
+      "market_slot",
+      "day",
+      "hour",
+      "operation",
+      "item",
+      "quantity",
+      "source_teacher",
+      "source_label_kind",
+      "partition"
+    ],
+    "rows": 83844,
+    "partition_counts": {
+      "train": 50461,
+      "test": 16692,
+      "validation": 16691
+    },
+    "episode_counts": {
+      "test": 4,
+      "train": 12,
+      "validation": 4
+    }
+  },
+  "market": {
+    "columns": [
+      "episode",
+      "record_index",
+      "observation_step",
+      "actor_index",
+      "market_slot",
+      "day",
+      "hour",
+      "operation",
+      "item",
+      "quantity",
+      "source_teacher",
+      "source_label_kind",
+      "partition"
+    ],
+    "rows": 33402,
+    "partition_counts": {
+      "train": 20038,
+      "test": 6714,
+      "validation": 6650
+    },
+    "episode_counts": {
+      "test": 4,
+      "train": 12,
+      "validation": 4
+    }
+  }
+}

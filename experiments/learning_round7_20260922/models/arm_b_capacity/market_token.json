@@ -1,0 +1,22 @@
+{
+  "task": "Round7 arm_b_capacity full-action behavioral cloning",
+  "architecture": [
+    256,
+    128,
+    64,
+    22
+  ],
+  "seed": 20261024,
+  "train_rows": 359837,
+  "validation_rows": 78382,
+  "diagnostic_test_rows": 78416,
+  "optimizer_steps": 3696,
+  "best_epoch": 16,
+  "best_validation_loss": 0.5019447151649933,
+  "parameter_count": 42582,
+  "class_weight_exponent": 0.5,
+  "parameter_change_l2": 21.822352148260237,
+  "training_seconds": 103.78662949998397,
+  "round6_epoch10_comparison": null,
+  "old_test_role": "diagnostic_development; not checkpoint selection"
+}

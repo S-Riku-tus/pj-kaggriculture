@@ -1,0 +1,36 @@
+{
+  "sealed_seed_status": "UNOPENED",
+  "decisions": [
+    {
+      "order": 1,
+      "decision": "Run Phase 0 and fixed engine-contract fixtures before retraining.",
+      "basis": "Round6 loader and day1 causal failures had not been separated."
+    },
+    {
+      "order": 2,
+      "decision": "Retain arm_a_extended only as an excluded failed reproduction and rerun as arm_a_extended_v1.",
+      "basis": "The first implementation restarted its batch RNG after initialization; v1 exactly reproduced every Round6 epoch-10 array before extending training."
+    },
+    {
+      "order": 3,
+      "decision": "Evaluate capacity and quantity-ledger changes separately.",
+      "basis": "Arm B improved old diagnostic-test metrics, while the ledger-only archive still failed the causal day1 feed."
+    },
+    {
+      "order": 4,
+      "decision": "Add the explicitly classified task-completion executor.",
+      "basis": "Pure Arm A/B/C did not turn the learned pickup into feed completion; this arm is not reported as pure BC."
+    },
+    {
+      "order": 5,
+      "decision": "Create V3 after the V2 development pilot by changing only the livestock service budget.",
+      "basis": "V2 completed livestock work but consumed too much workforce and suppressed crop/land work. V3 uses all workers only when there are at most two; otherwise it reserves roughly two thirds for the learned non-livestock policy.",
+      "status": "post-pilot development change; not preregistered before the V2 pilot"
+    },
+    {
+      "order": 6,
+      "decision": "Run the preregistered 48-game development set for V3, then stop.",
+      "basis": "V3 improved V2 pilot lifecycle metrics, but the 48-game result was 0 wins, 0 draws, 48 losses; the sealed gate was not met."
+    }
+  ]
+}

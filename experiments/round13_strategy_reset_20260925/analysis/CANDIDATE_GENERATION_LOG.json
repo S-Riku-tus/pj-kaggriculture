@@ -1,0 +1,59 @@
+{
+  "method_note": "Code-space response-oracle inspiration was used only as an iterative generate-run-revise workflow, not as evidence of strength. No paid or external LLM call was made.",
+  "iterations": [
+    {
+      "candidate": "P_EARLY4_v0",
+      "stage": "single_reactive_smoke",
+      "implementation": "Any nearest worker could be redirected to an owned early-strawberry job.",
+      "observed_terminal_cash": {"self": 379, "opponent": 204436},
+      "status": "INVALID_IMPLEMENTATION",
+      "cause": "Moving B1 workers were stolen, changing their next locations and collapsing unrelated feed/harvest logistics.",
+      "artifact_limit": "Console diagnostic only; opponent/seed and raw replay were not retained as structured output.",
+      "next_change": "Allow only an on-site actor or a genuinely PASS actor to take a plan job."
+    },
+    {
+      "candidate": "P_EARLY4_v1",
+      "stage": "single_reactive_smoke",
+      "implementation": "Only on-site or PASS actors could be assigned; plan still managed its own delivery.",
+      "observed_terminal_cash": {"self": 75838, "opponent": 165674},
+      "status": "INVALID_IMPLEMENTATION",
+      "cause": "The plan's delivery ownership still displaced B1's broader movement/logistics tape.",
+      "artifact_limit": "Console diagnostic only; opponent/seed and raw replay were not retained as structured output.",
+      "next_change": "Use only already-on-target actors and return harvested-goods delivery ownership to B1."
+    },
+    {
+      "candidate": "P_EARLY4_v2_frozen",
+      "stage": "single_reactive_smoke_then_48_game_development",
+      "implementation": "Only on-target actors are changed; B1 owns delivery. Four early plants and four day-5 seed suppressions were required.",
+      "smoke_terminal_cash": {"self": 102522, "opponent": 118372},
+      "development_execution": {"games": 48, "early_starts": 48, "early_plants": 192, "day5_seed_units_suppressed": 192, "first_strawberry_day_range": [2, 2]},
+      "development_outcome": {"paired_score_delta": -0.6666666666666666, "mean_delta_self": -3796.9583333333335, "mean_delta_opp": 13293.6875},
+      "status": "RESEARCH_ONLY",
+      "learning": "The corrected plan does execute and sell, but the opportunity cost and changed official shop/RNG trajectory overwhelm the four-day head start in this panel. Early planting alone is not a promotion direction."
+    },
+    {
+      "candidate": "P_ROTATE2_frozen",
+      "stage": "single_reactive_smoke_then_48_game_development",
+      "smoke_terminal_cash": {"self": 97467, "opponent": 111349},
+      "development_execution": {"games": 48, "triggered": 24, "converted": 24, "not_triggered": 24, "replacement_crop_seen": "TOMATO", "tomato_first_plant_day_range": [18, 21]},
+      "development_outcome": {"paired_score_delta_all": -0.4583333333333333, "paired_score_delta_triggered": -0.9166666666666666, "triggered_mean_delta_self": -11552.75, "triggered_mean_delta_opp": 6893.25},
+      "status": "RESEARCH_ONLY",
+      "learning": "Facility removal and replacement production complete, so this is a tactical negative rather than an untested idea. Two drained sheep still have substantial continuation/interaction value; the day18-21 tomato replacement is far too early and broad."
+    },
+    {
+      "candidate": "M1_DEADLINE_MARKET_frozen",
+      "stage": "single_reactive_smoke_then_48_game_development",
+      "smoke_terminal_cash": {"self": 106884, "opponent": 107560},
+      "development_execution": {"games": 48, "changed_final_actions": 2774, "reservations_created": 872, "reservations_filled": 833, "reservations_expired": 39, "games_all_created_deadlines_filled": 28},
+      "development_outcome": {"paired_score_delta": -0.3541666666666667, "mean_delta_self": -166.0625, "mean_delta_opp": 482.4166666666667},
+      "status": "RESEARCH_ONLY",
+      "learning": "The fixed-deadline mechanism avoids Round12's indefinite WAIT bug, but it fires far too often and benefits the opponent's price more than self. A future version must condition on paired self/other price impact and limit repeated reservations."
+    }
+  ],
+  "overlap_and_novelty": {
+    "existing_B1_overlap": "All candidates preserve B1 outside explicit ownership. B1 already has temporary wheat, livestock comparisons, tomato expansion, purchase limits, and endgame liquidation.",
+    "new_realized_production": ["Four strawberries first planted on day 2 with explicit funding/deduplication", "Two sheep facilities exited, dug, replaced by tomatoes, harvested and sold"],
+    "labor_work": "P-LABOR was implemented as the deadline/onsite ownership scheduler shared by both production plans, and was the focus of two P_EARLY revisions; it was not counted as a third independent production economy.",
+    "next_generation": ["M1: one reservation per product/day, require estimated opponent harm not to exceed self benefit", "P_EARLY: search 1-2 plants or defer only after observable cash surplus; preserve shop-RNG as a diagnostic only", "P_ROTATE: trigger no earlier than a measured remaining-lifetime value threshold and consider one animal before a pair"]
+  }
+}

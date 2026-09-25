@@ -1,0 +1,723 @@
+{
+  "created_at_utc": "2026-09-22T12:08:06.511604+00:00",
+  "task": "position-sensitive independent structured behavioral cloning",
+  "teacher_submission": 56216119,
+  "teacher_family_count": 1,
+  "source_manifest": "experiments\\learning_next_20260921\\source_manifest.json",
+  "source_manifest_sha256": "4f4e4fbd4a322c3aaedf27d1b03aef47ceaff51ffda91c602be50130f47707be",
+  "source_split_manifest": "experiments\\learning_next_20260921\\split_manifest.json",
+  "source_split_manifest_sha256": "cb8aab7dc031166d31167397379dbe7aa233f1b096774d8342fa1af4d1d10376",
+  "selection": "SHA256(round8-spatial:episode_id), first N within pre-existing episode split",
+  "limits": {
+    "train": 12,
+    "validation": 4,
+    "test": 4
+  },
+  "excluded_public_development_episodes": [
+    111952429,
+    111953595,
+    111954710
+  ],
+  "mapping": "replay state/observation[t] -> saved action[t+1]",
+  "change_from_dataset_v1": "market rows are now retained at every decision step; v1 sampled only even steps and omitted the step-1 hire sequence, which caused closed-loop repetition of the step-0 purchases",
+  "format_verified": "720 saved states / 719 decisions per episode",
+  "seat_clock": "step reconstructed as day*24+hour for both seats",
+  "episode_separated": true,
+  "overfit_probe_episode": 109118332,
+  "feature_schema": {
+    "board_shape": [
+      2,
+      26,
+      10,
+      10
+    ],
+    "roles": [
+      "self",
+      "other_public"
+    ],
+    "grid_channels": [
+      "kind:EMPTY",
+      "kind:LOCKED",
+      "kind:WEED",
+      "kind:PLANT",
+      "kind:COOP",
+      "kind:PASTURE",
+      "resource:WHEAT",
+      "resource:CARROT",
+      "resource:TOMATO",
+      "resource:STRAWBERRY",
+      "resource:MELON",
+      "resource:GOOSE",
+      "resource:COW",
+      "resource:SHEEP",
+      "yield",
+      "age",
+      "mature",
+      "watered_today",
+      "fertilized_now",
+      "fed_today",
+      "cared_today",
+      "fertilizer_available",
+      "consecutive_unwatered",
+      "consecutive_unfed",
+      "pending_care_bonus",
+      "remaining_lifespan"
+    ],
+    "compression": "orthonormal DCT, first 4x4 coefficients per channel",
+    "grid_width": 832,
+    "max_actor_slots": 32,
+    "self_actor_fields": [
+      "present",
+      "x",
+      "y",
+      "inventory:WHEAT",
+      "inventory:CARROT",
+      "inventory:TOMATO",
+      "inventory:STRAWBERRY",
+      "inventory:MELON",
+      "inventory:EGG",
+      "inventory:MILK",
+      "inventory:WOOL",
+      "inventory:FERTILIZER",
+      "inventory:GOOSE",
+      "inventory:COW",
+      "inventory:SHEEP"
+    ],
+    "other_actor_fields": [
+      "present",
+      "x",
+      "y"
+    ],
+    "roster_width": 576,
+    "prefix_extra_width": 56,
+    "runtime_private_inputs": "self private only; opponent private, future shop/action, and result are absent"
+  },
+  "actor_feature_width": 1871,
+  "market_feature_width": 1664,
+  "normalization": "semantic bounded/log features from common.py and spatial.py; categorical one-hot; training does not divide categorical/constant columns by empirical tiny std",
+  "runtime_inputs_excluded": [
+    "opponent private state",
+    "future shop",
+    "future action",
+    "outcome/win/loss"
+  ],
+  "same_turn_prefix": "token, raw requested quantity, target identity/generation, fixed-engine effect",
+  "market_order_and_eos_preserved": true,
+  "raw_request_quantity_preserved": true,
+  "actual_fill_not_substituted_for_request": true,
+  "roundtrip_failures": {},
+  "max_actor_count": 12,
+  "clock_checks": {
+    "states": 14380,
+    "seat1_without_saved_step": 7909
+  },
+  "label_counts": {
+    "actor:train": {
+      "PASS": 168,
+      "PICKUP:COW": 38,
+      "BUILD_PASTURE": 39,
+      "PICKUP:SHEEP": 22,
+      "PLACE:COW": 28,
+      "NORTH": 2775,
+      "WEST": 2285,
+      "PICKUP:WHEAT": 419,
+      "FEED": 777,
+      "PLACE:SHEEP": 18,
+      "CARE": 791,
+      "SOUTH": 1632,
+      "PLANT:MELON": 41,
+      "WATER": 3380,
+      "PLANT:WHEAT": 349,
+      "COLLECT_FERTILIZER": 878,
+      "PLACE:FERTILIZER": 161,
+      "EAST": 1707,
+      "HARVEST": 1220,
+      "PLANT:STRAWBERRY": 78,
+      "PLACE:MILK": 52,
+      "PLACE:WOOL": 29,
+      "PLANT:TOMATO": 14,
+      "FERTILIZE": 382,
+      "DROP": 169,
+      "DIG": 78,
+      "PLANT:CARROT": 243,
+      "BUILD_COOP": 4,
+      "PICKUP:GOOSE": 8,
+      "PLACE:GOOSE": 4
+    },
+    "market:train": {
+      "BUY_ANIMAL:COW": 108,
+      "BUY_PRODUCT:WHEAT": 369,
+      "EOS": 8628,
+      "SELL:WHEAT": 850,
+      "HIRE": 3455,
+      "BUY_ANIMAL:SHEEP": 68,
+      "BUY_SEED:MELON": 90,
+      "BUY_SEED:WHEAT": 1657,
+      "SELL:FERTILIZER": 1037,
+      "BUY_SEED:STRAWBERRY": 419,
+      "SELL:WOOL": 827,
+      "BUY_LAND": 42,
+      "SELL:MILK": 879,
+      "BUY_SEED:TOMATO": 88,
+      "SELL:MELON": 138,
+      "SELL:STRAWBERRY": 655,
+      "SELL:TOMATO": 132,
+      "BUY_SEED:CARROT": 192,
+      "SELL:CARROT": 286,
+      "BUY_ANIMAL:GOOSE": 12,
+      "SELL:EGG": 58
+    },
+    "market:validation": {
+      "BUY_ANIMAL:COW": 39,
+      "BUY_PRODUCT:WHEAT": 115,
+      "EOS": 2876,
+      "SELL:WHEAT": 297,
+      "HIRE": 1164,
+      "BUY_ANIMAL:SHEEP": 20,
+      "BUY_SEED:MELON": 31,
+      "BUY_SEED:WHEAT": 606,
+      "SELL:FERTILIZER": 348,
+      "BUY_SEED:STRAWBERRY": 141,
+      "SELL:WOOL": 242,
+      "BUY_LAND": 19,
+      "SELL:MILK": 307,
+      "SELL:MELON": 47,
+      "SELL:STRAWBERRY": 193,
+      "BUY_SEED:CARROT": 56,
+      "BUY_SEED:TOMATO": 27,
+      "SELL:CARROT": 83,
+      "SELL:TOMATO": 45,
+      "BUY_ANIMAL:GOOSE": 4,
+      "SELL:EGG": 27
+    },
+    "actor:validation": {
+      "PASS": 52,
+      "NORTH": 913,
+      "PICKUP:SHEEP": 7,
+      "WEST": 780,
+      "PICKUP:WHEAT": 137,
+      "PLANT:MELON": 14,
+      "PLANT:WHEAT": 132,
+      "SOUTH": 500,
+      "EAST": 569,
+      "COLLECT_FERTILIZER": 291,
+      "WATER": 1072,
+      "FEED": 233,
+      "CARE": 254,
+      "PLACE:FERTILIZER": 45,
+      "HARVEST": 355,
+      "PLANT:STRAWBERRY": 29,
+      "DROP": 69,
+      "DIG": 24,
+      "PICKUP:COW": 19,
+      "PLACE:COW": 12,
+      "PLACE:MILK": 20,
+      "BUILD_PASTURE": 16,
+      "PLACE:MELON": 1,
+      "PLACE:SHEEP": 5,
+      "FERTILIZE": 147,
+      "PLANT:TOMATO": 7,
+      "PLANT:CARROT": 51,
+      "PLACE:GOOSE": 1,
+      "PLACE:WOOL": 12,
+      "PICKUP:GOOSE": 2,
+      "BUILD_COOP": 1
+    },
+    "market:test": {
+      "BUY_ANIMAL:COW": 40,
+      "BUY_PRODUCT:WHEAT": 132,
+      "EOS": 2876,
+      "SELL:WHEAT": 295,
+      "HIRE": 1165,
+      "BUY_ANIMAL:SHEEP": 10,
+      "BUY_SEED:MELON": 31,
+      "BUY_SEED:WHEAT": 604,
+      "SELL:FERTILIZER": 345,
+      "BUY_SEED:STRAWBERRY": 123,
+      "SELL:WOOL": 152,
+      "BUY_LAND": 8,
+      "SELL:MILK": 334,
+      "SELL:MELON": 46,
+      "BUY_SEED:TOMATO": 52,
+      "SELL:STRAWBERRY": 212,
+      "SELL:TOMATO": 56,
+      "BUY_SEED:CARROT": 56,
+      "SELL:CARROT": 63,
+      "BUY_ANIMAL:GOOSE": 8,
+      "SELL:EGG": 47
+    },
+    "actor:test": {
+      "PICKUP:COW": 17,
+      "NORTH": 889,
+      "WEST": 724,
+      "BUILD_PASTURE": 13,
+      "FEED": 244,
+      "CARE": 272,
+      "PLANT:MELON": 12,
+      "WATER": 1067,
+      "PLANT:WHEAT": 121,
+      "PASS": 53,
+      "COLLECT_FERTILIZER": 302,
+      "PLACE:FERTILIZER": 54,
+      "PICKUP:WHEAT": 136,
+      "EAST": 544,
+      "PLANT:STRAWBERRY": 20,
+      "SOUTH": 498,
+      "HARVEST": 426,
+      "DROP": 58,
+      "PLACE:COW": 7,
+      "PLACE:MILK": 22,
+      "FERTILIZE": 119,
+      "PLACE:WOOL": 9,
+      "PLANT:TOMATO": 9,
+      "DIG": 29,
+      "PLANT:CARROT": 69,
+      "PICKUP:GOOSE": 4,
+      "PLACE:GOOSE": 3,
+      "PICKUP:SHEEP": 3,
+      "PLACE:SHEEP": 1
+    }
+  },
+  "episodes": [
+    {
+      "episode_id": 109118332,
+      "seat": 0,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_109118332.json",
+      "sha256": "94c21f59dd6fe86023fd986649fb28fc20e8eaafde0d0159418758a21d7a2a48"
+    },
+    {
+      "episode_id": 109374469,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_109374469.json",
+      "sha256": "d7de875cd5b873811bd203d377c48754ccfcc7edb092955c82f52e7ecec7019c"
+    },
+    {
+      "episode_id": 108710643,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_108710643.json",
+      "sha256": "d7cbb5702de161a13b503b0023915da0ca34296612c2432d91107b77a13a25c1"
+    },
+    {
+      "episode_id": 109928284,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_109928284.json",
+      "sha256": "d0c9a4d5099cbd81cd2e00dc1f0f1a433128c8e7dd89ac23c3b582ca3156103e"
+    },
+    {
+      "episode_id": 109510532,
+      "seat": 0,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_109510532.json",
+      "sha256": "b434724669ea148bf3cbfa9ab27416d9e35f39cffd263b0e858586f2ffb77726"
+    },
+    {
+      "episode_id": 108716795,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_108716795.json",
+      "sha256": "d165268886b1d27cdef03960734f00b7acd8c769dbd3037b8545b82f25a30375"
+    },
+    {
+      "episode_id": 110712446,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110712446.json",
+      "sha256": "14975ad58453c214b402ead484894f85497cf7f76fc366390be526c8ed4c6d46"
+    },
+    {
+      "episode_id": 110218088,
+      "seat": 0,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110218088.json",
+      "sha256": "41726b044c3fe1052469e251d133870db542f3d3930915d1a6c035c195a52218"
+    },
+    {
+      "episode_id": 110378190,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110378190.json",
+      "sha256": "8918686c3c7d64a16f9ea422569e60807b3f5c7652f25020c6b76252a3a773a1"
+    },
+    {
+      "episode_id": 108765366,
+      "seat": 0,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_108765366.json",
+      "sha256": "4a96976ee0653c8179a30877d1e63d5c008cfc111c42cc0d7d89d600c314e4d2"
+    },
+    {
+      "episode_id": 110481975,
+      "seat": 0,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110481975.json",
+      "sha256": "c2c88bb0d612f3ff094c38551699eaa0b16ce3d9ff715ce26aae8a7df68d933f"
+    },
+    {
+      "episode_id": 108916488,
+      "seat": 1,
+      "partition": "train",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_108916488.json",
+      "sha256": "fa9b8623f10b3eec4d34de5c3c093c4ef925a6cd843729dc4647f4eb13e8851d"
+    },
+    {
+      "episode_id": 110241660,
+      "seat": 1,
+      "partition": "validation",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110241660.json",
+      "sha256": "2d6f7038a8368bb063af3b0c073f2cf29fb8adfdf0d6580226342143638f4b25"
+    },
+    {
+      "episode_id": 108724105,
+      "seat": 1,
+      "partition": "validation",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_108724105.json",
+      "sha256": "223d816d1d00961fff9c4bcb33356698b28b2ed35ce32f5f54a18e4f916404e9"
+    },
+    {
+      "episode_id": 110495009,
+      "seat": 1,
+      "partition": "validation",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110495009.json",
+      "sha256": "799c6806a9b8eb96e34fe8abc648cfc95500e5ffc63bcfc5a7ee48b6ce09e579"
+    },
+    {
+      "episode_id": 110668628,
+      "seat": 0,
+      "partition": "validation",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110668628.json",
+      "sha256": "69c3bcd3f84aaa743109e84c715af89ea808a50ca76a66a957bebf17e1904fe5"
+    },
+    {
+      "episode_id": 110185534,
+      "seat": 1,
+      "partition": "test",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110185534.json",
+      "sha256": "0532311eba65cbd63dfd1db36d4c1f3bf50dc8af44b82f4dff0b27d84549a81e"
+    },
+    {
+      "episode_id": 109155294,
+      "seat": 0,
+      "partition": "test",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_109155294.json",
+      "sha256": "df3a1a3d6277ffe19ee1b973f17a9785cc7b690935854d6416222f6e5978dd2b"
+    },
+    {
+      "episode_id": 109360663,
+      "seat": 0,
+      "partition": "test",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_109360663.json",
+      "sha256": "0b97fa2120cfd0612d7fdd3bad7855cada23603aa5299707fae8f6f209d4930c"
+    },
+    {
+      "episode_id": 110705635,
+      "seat": 0,
+      "partition": "test",
+      "states": 720,
+      "decisions": 719,
+      "path": "data\\replays\\submission_56216119\\episode_110705635.json",
+      "sha256": "c03ed56c0b47dc91c13343464717b3f9ce3e858e50f002124743bab95be123b1"
+    }
+  ],
+  "files": {
+    "actor_x_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_x_train.npy",
+      "sha256": "162c8c2a9045924e44d69ee668c40028f13aa0d4444b8a311a89b9143ad42438",
+      "shape": [
+        17789,
+        1871
+      ]
+    },
+    "actor_y_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_y_train.npy",
+      "sha256": "705c0321d475e0c86cbb4281df35a51f680a755e2a4ce808773ade094272cb40",
+      "shape": [
+        17789
+      ]
+    },
+    "actor_q_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_q_train.npy",
+      "sha256": "94f6576ec52c1ab0e067064803a15e9c8abd27a0170342f6cdb77c6c4648bfc5",
+      "shape": [
+        17789
+      ]
+    },
+    "actor_episode_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_episode_train.npy",
+      "sha256": "8ca5acf4cb4972c12d590a3bb10697cbe0fab379918eb8084449fbc886d05f33",
+      "shape": [
+        17789
+      ]
+    },
+    "actor_step_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_step_train.npy",
+      "sha256": "ef183285decd400d0ee19b6b1d6bfaae5644633d2d02947ecff95f2241c103b2",
+      "shape": [
+        17789
+      ]
+    },
+    "actor_index_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_index_train.npy",
+      "sha256": "101117c3865c0eb3082fc9002024b36db7cc4c3d06c5584aa933821dd2e65f07",
+      "shape": [
+        17789
+      ]
+    },
+    "market_x_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_x_train.npy",
+      "sha256": "5b930793d6574a3bded07fb472132e505143d9ee25139db20c197e74bdc501e4",
+      "shape": [
+        19990,
+        1664
+      ]
+    },
+    "market_y_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_y_train.npy",
+      "sha256": "e3ddf3f181f0ebf2c21e447858f9333b9be7e7d60b87c68e312e64981d205b5b",
+      "shape": [
+        19990
+      ]
+    },
+    "market_q_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_q_train.npy",
+      "sha256": "38ed369401ddc3fe0a2cebc853289d9341beb292c3edba02ffc0db62c25c5697",
+      "shape": [
+        19990
+      ]
+    },
+    "market_episode_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_episode_train.npy",
+      "sha256": "b29f2baaeeac0cd45fe3ea9b83bbab038d8b1b3a50ab3f503f21ccd9119b0f84",
+      "shape": [
+        19990
+      ]
+    },
+    "market_step_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_step_train.npy",
+      "sha256": "d4d95cd1cde87c35188ac78a7f0adf028427599bace871b67a56e98880adddb1",
+      "shape": [
+        19990
+      ]
+    },
+    "market_slot_train": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_slot_train.npy",
+      "sha256": "d273b8f854f485af8bc627dcf1bf13bd76318cf7726cf4f1b92a12460a8f98cf",
+      "shape": [
+        19990
+      ]
+    },
+    "actor_x_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_x_validation.npy",
+      "sha256": "947b3f51662d1bcec6f441bc66a3c8571cc945ac7f782f6e80a2c2a61aae9310",
+      "shape": [
+        5770,
+        1871
+      ]
+    },
+    "actor_y_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_y_validation.npy",
+      "sha256": "9dc10966e75251e9cde55291e9d53476242edea7530c327e1a1b5634c45b53ed",
+      "shape": [
+        5770
+      ]
+    },
+    "actor_q_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_q_validation.npy",
+      "sha256": "5182db7495e33242c0c1d04750657223d4f60ffeefd65e8ad4eb223ae75283c9",
+      "shape": [
+        5770
+      ]
+    },
+    "actor_episode_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_episode_validation.npy",
+      "sha256": "83ee7da6f4e39de73c16a753f6c5d252ffd0c5938a7715895ef077330b5814ed",
+      "shape": [
+        5770
+      ]
+    },
+    "actor_step_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_step_validation.npy",
+      "sha256": "ebca048345d15f2561aacdd0ff919636302554dffb5b30b9ac9c4181d1188131",
+      "shape": [
+        5770
+      ]
+    },
+    "actor_index_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_index_validation.npy",
+      "sha256": "1e37319d08872d50468159582b16b195e4caf2f7e0025a8ad7ee9f82c6650886",
+      "shape": [
+        5770
+      ]
+    },
+    "market_x_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_x_validation.npy",
+      "sha256": "00e388746a020c1b319fa36a626df1c4e7b1604789bedc34650420689645be8a",
+      "shape": [
+        6687,
+        1664
+      ]
+    },
+    "market_y_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_y_validation.npy",
+      "sha256": "176fd06c88f94f590f1c01954d47dcd467d3dceb30bd5dbf18c3c9e279c1cdf6",
+      "shape": [
+        6687
+      ]
+    },
+    "market_q_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_q_validation.npy",
+      "sha256": "f9a84896c0d34e79c277517529584288d5b2b9e7b2be4fbadc146452dc039d42",
+      "shape": [
+        6687
+      ]
+    },
+    "market_episode_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_episode_validation.npy",
+      "sha256": "f4b20f4a515747ba6a03728304f4305d875d4ca68fe4eeb5012270a6e91ba19a",
+      "shape": [
+        6687
+      ]
+    },
+    "market_step_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_step_validation.npy",
+      "sha256": "3e73248ea44d4dcc6ef0afede4ecf92e7e8782cd81d39ec8f74c23070aa9d802",
+      "shape": [
+        6687
+      ]
+    },
+    "market_slot_validation": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_slot_validation.npy",
+      "sha256": "1f88f2f400213f151158805a41881240745c04b63947287fe406e8e35e6ba250",
+      "shape": [
+        6687
+      ]
+    },
+    "actor_x_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_x_test.npy",
+      "sha256": "ae145cbf14e11e214f69fee471fd9d711bdabe0ba6e83fd65c1c4a07e53d5616",
+      "shape": [
+        5725,
+        1871
+      ]
+    },
+    "actor_y_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_y_test.npy",
+      "sha256": "1040c2620ddc88a162dffa810a5e0c672b46af7c7a00510de3856fed7cced63b",
+      "shape": [
+        5725
+      ]
+    },
+    "actor_q_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_q_test.npy",
+      "sha256": "2b703ff7b4b08a1cce0319674312b501a4b6fb30322de482c4816f723341244e",
+      "shape": [
+        5725
+      ]
+    },
+    "actor_episode_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_episode_test.npy",
+      "sha256": "a62aac4b9f55705e2b1d0a43ffaaa2b9d5733100372940def13c13979bcb7619",
+      "shape": [
+        5725
+      ]
+    },
+    "actor_step_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_step_test.npy",
+      "sha256": "d87919ffc723920d84844c193fcf392e38b2186f933d7217ccc4dcd1a274d5c2",
+      "shape": [
+        5725
+      ]
+    },
+    "actor_index_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\actor_index_test.npy",
+      "sha256": "c57ddd2db27e7884e12acd53b7da0ab3be6cb844633298bf8a17287540b397a9",
+      "shape": [
+        5725
+      ]
+    },
+    "market_x_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_x_test.npy",
+      "sha256": "92744392b01166d80acdf7b156175348d84a59e9c68ac3517841cae6593b3fc3",
+      "shape": [
+        6655,
+        1664
+      ]
+    },
+    "market_y_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_y_test.npy",
+      "sha256": "63723a8c3429bc138186da977a50a6c2bba904319c03cad9a3a9f08cd528d471",
+      "shape": [
+        6655
+      ]
+    },
+    "market_q_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_q_test.npy",
+      "sha256": "e879358c9498719fe81eb5a28a2dbce3c6906f0dda9053c1ddcada8290234e64",
+      "shape": [
+        6655
+      ]
+    },
+    "market_episode_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_episode_test.npy",
+      "sha256": "680525a529ae51c69d5888fbf501608d039127a21d5b52802749462e049f808c",
+      "shape": [
+        6655
+      ]
+    },
+    "market_step_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_step_test.npy",
+      "sha256": "b71cdf32fcb6f1f7b99e140f3d24c8599450f477ea696b505be63e7fd32f92eb",
+      "shape": [
+        6655
+      ]
+    },
+    "market_slot_test": {
+      "path": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\dataset_v2\\market_slot_test.npy",
+      "sha256": "cd4811d933ca82fde0be8ec22823e30f6a8754d44425890be4154e345b179797",
+      "shape": [
+        6655
+      ]
+    }
+  }
+}

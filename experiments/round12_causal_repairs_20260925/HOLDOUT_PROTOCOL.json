@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN_FOR_FUTURE_RUN; no holdout seeds generated",
+  "freeze_date": "2026-09-25",
+  "development_gate": {
+    "oracle_score_delta_gt": 0,
+    "candidate_score_delta_gt": 0,
+    "all_opponent_score_delta_gte": 0
+  },
+  "planned_holdout": {
+    "seed_count": 12,
+    "seed_generation": "deterministic SHA-256 after candidate hash and this protocol are frozen",
+    "opponents": [
+      "B1",
+      "v57",
+      "order_book",
+      "metav4"
+    ],
+    "seats": [
+      0,
+      1
+    ],
+    "primary_metric": "win=1,tie=0.5,loss=0"
+  },
+  "acceptance": {
+    "paired_score_delta_gt": 0,
+    "one_sided_90_seed_cluster_bootstrap_lower_gt": 0,
+    "each_opponent_score_delta_gte": 0,
+    "w_to_l_lte_l_to_w": true,
+    "critical_collapse_count": 0
+  },
+  "family_warning": "the four public opponents are related and are not treated as four independent families"
+}

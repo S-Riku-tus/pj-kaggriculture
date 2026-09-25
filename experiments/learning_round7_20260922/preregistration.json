@@ -1,0 +1,73 @@
+{
+  "created_before_training": true,
+  "created_at_local_date": "2026-09-22",
+  "sealed_seed_status": "UNOPENED",
+  "diagnostic_development_sets": [
+    "Round6 train/validation/test split (old test is no longer final test)",
+    "Round6 day1 seed 2026102201 seat1 failure",
+    "Round6 development seeds 2026102201..2026102208"
+  ],
+  "arm_a": {
+    "change": "training duration only",
+    "inputs_targets_decoder_split": "identical to round6_sequence_bc_v1",
+    "architecture": {
+      "actor_token": [407, 96, 44],
+      "market_token": [256, 96, 22],
+      "actor_quantity": [451, 64, 27],
+      "market_quantity": [278, 64, 56]
+    },
+    "maximum_epochs": 50,
+    "early_stopping_patience": 5,
+    "minimum_validation_loss_delta": 0.00001,
+    "batch_size": 2048,
+    "learning_rate": 0.0015,
+    "training_seed": 20260922,
+    "checkpoint_rule": "minimum validation cross-entropy independently per head",
+    "old_test_used_for_checkpoint_selection": false
+  },
+  "arm_b": {
+    "change": "capacity only relative to Arm A",
+    "architecture": {
+      "actor_token": [407, 128, 64, 44],
+      "market_token": [256, 128, 64, 22],
+      "actor_quantity": [451, 96, 48, 27],
+      "market_quantity": [278, 96, 48, 56]
+    },
+    "maximum_epochs": 50,
+    "early_stopping_patience": 5,
+    "batch_size": 2048,
+    "learning_rate": 0.0015,
+    "training_seeds": [20261022],
+    "selection": "single preregistered seed; no best-of-seeds selection"
+  },
+  "arm_c": {
+    "change": "quantity-aware actor ledger and sequential market ledger only",
+    "weights": "Arm A checkpoint if trained, otherwise frozen Round6 weights as explicitly named control",
+    "unknown_opponent_market_orders": "not observed; only the $1 guaranteed sale floor is credited for later fixed-cost purchases",
+    "no_claim": "non-differentiable correction is not backpropagated through"
+  },
+  "phase3_plan": {
+    "activation": "only after learned full-action output emits livestock-related PICKUP, PLACE, BUY_ANIMAL, FEED, CARE, or COLLECT_FERTILIZER",
+    "state": "farm-level goal persists; actor assignment is rebuilt from each observation and is not a permanent cross-day worker ID",
+    "completion": "feed, care, first/later collection, shed delivery, sale",
+    "interrupt": "no animals, violated prerequisites, or day >= 28",
+    "classification": "task-completion executor arm; not claimed as pure BC improvement"
+  },
+  "pilot": {
+    "seeds": [2026102201, 2026102202],
+    "anchors": ["v122", "v124"],
+    "seats": [0, 1],
+    "games": 8,
+    "purpose": "first production and reinvestment diagnostic, not win-rate estimation",
+    "v123_omitted": true
+  },
+  "promotion": {
+    "development_anchors": ["v122", "v123", "v124"],
+    "development_games_per_candidate": 48,
+    "point_estimate_threshold_each_anchor": 0.6,
+    "one_sided_95_lower_bound_threshold": 0.5,
+    "method": "seed block bootstrap reported descriptively plus preregistered Hoeffding lower bound",
+    "power_warning": "32 independent blocks cannot put a 60% point estimate above 50% with a one-sided 95% Hoeffding lower bound; about 150 blocks are required",
+    "sealed_seeds": "2026110701..2026110732 remain unopened until all candidate, metric, and sample-size conditions are frozen"
+  }
+}

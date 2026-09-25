@@ -1,0 +1,803 @@
+{
+  "created_at_utc": "2026-09-22T04:47:32.924311+00:00",
+  "engine": {
+    "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "configuration": {
+      "episodeSteps": 720,
+      "seed": null,
+      "actTimeout": 1,
+      "runTimeout": 1200,
+      "boardSize": 10,
+      "startingMoney": 3000,
+      "maxMarketOrdersPerTurn": 10,
+      "turnsPerDay": 24,
+      "shedCapacity": 100,
+      "weedSpawnChance": 0.005,
+      "townShopUnlockInterval": 3,
+      "townShopSellInterval": 4,
+      "townCenterSellInterval": 24,
+      "farmHandCostMult": 1,
+      "marketParams": {}
+    }
+  },
+  "anchors": {
+    "v122": {
+      "archive": "artifacts/submissions/v122.tar.gz",
+      "historical_submission_ids": [
+        56330890,
+        56330893
+      ],
+      "historical_note": "previous local analysis records 102 games started at rating >=1600 and an approximately even 52-50 result; not a current fixed rating",
+      "bytes": 2970508,
+      "archive_sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 615,
+          "sha256": "bdd666b385b400f26895b7f8ba6732246c163df3913c7eb77761c6c5a4b9bcb8",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 2739,
+          "sha256": "dec59846bc5d71534ff47039442459e7dffbea55eb78216badcf4fc9f078bd38",
+          "is_file": true
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+          "is_file": true
+        },
+        {
+          "name": "model.json.gz",
+          "bytes": 2992350,
+          "sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831",
+          "is_file": true
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 33356,
+          "sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076",
+          "is_file": true
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+          "is_file": true
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+          "is_file": true
+        }
+      ],
+      "working_tree_comparison": {
+        "manifest": "agents\\v122\\submission_manifest.json",
+        "files": [
+          {
+            "source": "agents\\v122\\main.py",
+            "target": "main.py",
+            "source_sha256": "dec59846bc5d71534ff47039442459e7dffbea55eb78216badcf4fc9f078bd38",
+            "archive_sha256": "dec59846bc5d71534ff47039442459e7dffbea55eb78216badcf4fc9f078bd38",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\main.py",
+            "target": "v121_sparse.py",
+            "source_sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+            "archive_sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+            "matches": true
+          },
+          {
+            "source": "agents\\v120\\main.py",
+            "target": "v120_base.py",
+            "source_sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+            "archive_sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121_market\\main.py",
+            "target": "market_overlay.py",
+            "source_sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+            "archive_sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\model.json.gz",
+            "target": "model.json.gz",
+            "source_sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831",
+            "archive_sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\model_metadata.json",
+            "target": "model_metadata.json",
+            "source_sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076",
+            "archive_sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076",
+            "matches": true
+          },
+          {
+            "source": "agents\\v122\\NOTICE.md",
+            "target": "NOTICE.md",
+            "source_sha256": "bdd666b385b400f26895b7f8ba6732246c163df3913c7eb77761c6c5a4b9bcb8",
+            "archive_sha256": "bdd666b385b400f26895b7f8ba6732246c163df3913c7eb77761c6c5a4b9bcb8",
+            "matches": true
+          }
+        ],
+        "all_files_match": true
+      },
+      "frozen_artifact_status": "MATCHES_LOCAL_SUBMISSION_MANIFEST"
+    },
+    "v123": {
+      "archive": "artifacts/submissions/v123.tar.gz",
+      "historical_submission_ids": [
+        56346060,
+        56346090
+      ],
+      "historical_note": "two live-submission log sets are recorded locally; current rating is not independently rechecked",
+      "bytes": 2973314,
+      "archive_sha256": "0d5296587b1ba6f68cbd7bd5943f164269071b03b852ee3982ce22958edc33f6",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 270,
+          "sha256": "66f3d71ab7ca285a58308e47dc45090f107eefe288f2b1ac0d85b625befff9d9",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+          "is_file": true
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+          "is_file": true
+        },
+        {
+          "name": "model.json.gz",
+          "bytes": 2992350,
+          "sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831",
+          "is_file": true
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 33356,
+          "sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076",
+          "is_file": true
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+          "is_file": true
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+          "is_file": true
+        }
+      ],
+      "working_tree_comparison": {
+        "manifest": "agents\\v123\\submission_manifest.json",
+        "files": [
+          {
+            "source": "agents\\v123\\main.py",
+            "target": "main.py",
+            "source_sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+            "archive_sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\main.py",
+            "target": "v121_sparse.py",
+            "source_sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+            "archive_sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+            "matches": true
+          },
+          {
+            "source": "agents\\v120\\main.py",
+            "target": "v120_base.py",
+            "source_sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+            "archive_sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121_market\\main.py",
+            "target": "market_overlay.py",
+            "source_sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+            "archive_sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\model.json.gz",
+            "target": "model.json.gz",
+            "source_sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831",
+            "archive_sha256": "d19430bb2e45edafaa7ff1f9c819cd7b5f7cc581ae1c6c0fed00fce8dfcc6831",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\model_metadata.json",
+            "target": "model_metadata.json",
+            "source_sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076",
+            "archive_sha256": "a3aab7697b950e18aa97ec7220a47494d5c0b66df7966d709ffb21e4f5c19076",
+            "matches": true
+          },
+          {
+            "source": "agents\\v123\\NOTICE.md",
+            "target": "NOTICE.md",
+            "source_sha256": "66f3d71ab7ca285a58308e47dc45090f107eefe288f2b1ac0d85b625befff9d9",
+            "archive_sha256": "66f3d71ab7ca285a58308e47dc45090f107eefe288f2b1ac0d85b625befff9d9",
+            "matches": true
+          }
+        ],
+        "all_files_match": true
+      },
+      "frozen_artifact_status": "MATCHES_LOCAL_SUBMISSION_MANIFEST"
+    },
+    "v124": {
+      "archive": "artifacts/submissions/v124.tar.gz",
+      "historical_submission_ids": [
+        56357320,
+        56360233
+      ],
+      "historical_terminal_ratings": [
+        1654.9613,
+        1571.7205
+      ],
+      "historical_note": "terminal values in saved analysis, not current fixed ratings",
+      "bytes": 1716700,
+      "archive_sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f",
+          "is_file": true
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+          "is_file": true
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589",
+          "is_file": true
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91",
+          "is_file": true
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+          "is_file": true
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+          "is_file": true
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+          "is_file": true
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+          "is_file": true
+        }
+      ],
+      "working_tree_comparison": {
+        "manifest": "agents\\v124\\submission_manifest.json",
+        "files": [
+          {
+            "source": "agents\\v124\\main.py",
+            "target": "main.py",
+            "source_sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f",
+            "archive_sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f",
+            "matches": true
+          },
+          {
+            "source": "agents\\v123\\main.py",
+            "target": "v123_base.py",
+            "source_sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+            "archive_sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121\\main.py",
+            "target": "v121_sparse.py",
+            "source_sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+            "archive_sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+            "matches": true
+          },
+          {
+            "source": "agents\\v120\\main.py",
+            "target": "v120_base.py",
+            "source_sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+            "archive_sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+            "matches": true
+          },
+          {
+            "source": "agents\\v121_market\\main.py",
+            "target": "market_overlay.py",
+            "source_sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+            "archive_sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+            "matches": true
+          },
+          {
+            "source": "agents\\v124\\policy_model.json.gz",
+            "target": "policy_model.json.gz",
+            "source_sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+            "archive_sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+            "matches": true
+          },
+          {
+            "source": "agents\\v124\\opponent_sell_model.json",
+            "target": "opponent_sell_model.json",
+            "source_sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91",
+            "archive_sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91",
+            "matches": true
+          },
+          {
+            "source": "agents\\v124\\model_metadata.json",
+            "target": "model_metadata.json",
+            "source_sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589",
+            "archive_sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589",
+            "matches": true
+          },
+          {
+            "source": "agents\\v124\\NOTICE.md",
+            "target": "NOTICE.md",
+            "source_sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07",
+            "archive_sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07",
+            "matches": true
+          }
+        ],
+        "all_files_match": true
+      },
+      "frozen_artifact_status": "MATCHES_LOCAL_SUBMISSION_MANIFEST"
+    }
+  },
+  "arms": {
+    "round6_full_action_bc": {
+      "archive": "artifacts/submissions/learning_next_20260921_independent_bc.tar.gz",
+      "role": "primary full-action learned candidate",
+      "bytes": 95112,
+      "archive_sha256": "7b3da3332199124ebdf9639b2efb6b3736edcf50afa8972af4f8991dc6df23f0",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "bc_actor_model.json",
+          "bytes": 504,
+          "sha256": "bf3dd329c2e3b063de4b190e590fff5ab6570ee7aa60d8aea10dd361be6c455d",
+          "is_file": true
+        },
+        {
+          "name": "bc_actor_model.npz",
+          "bytes": 54182,
+          "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4",
+          "is_file": true
+        },
+        {
+          "name": "bc_market_model.json",
+          "bytes": 503,
+          "sha256": "53fd6e431eb3bfe770ef10b81993e29ccc3ef4a6b782b26c7face7f044b20fe4",
+          "is_file": true
+        },
+        {
+          "name": "bc_market_model.npz",
+          "bytes": 41478,
+          "sha256": "f47c654329811e01272b0befdbcdb12e0e2b416d07860cd52f4930fc7f563a62",
+          "is_file": true
+        },
+        {
+          "name": "bc_quantities.json",
+          "bytes": 1693,
+          "sha256": "377f4106c18ca10d7b85a51d3c96d0c3c7767671dd8647d0a00b2520d9361e20",
+          "is_file": true
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 9213,
+          "sha256": "0be64207b3679670190940e959d348a94a0373a1b12461b4e1b0d931628beb57",
+          "is_file": true
+        }
+      ]
+    },
+    "round5_learned": {
+      "archive": "artifacts/submissions/learning_round5_20260921_learned.tar.gz",
+      "role": "old learned comparator on the same new anchors",
+      "bytes": 118773,
+      "archive_sha256": "c1c158e0212827d6d6a367094a64eaa4f32450667a4ba4013366c9e886bf296b",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "action_codec.py",
+          "bytes": 1157,
+          "sha256": "6c668e534a0abfa9875cdd0e7c28072ced1e2b64795bc12f359dd684685ccd70",
+          "is_file": true
+        },
+        {
+          "name": "bc_actor_model.json",
+          "bytes": 504,
+          "sha256": "bf3dd329c2e3b063de4b190e590fff5ab6570ee7aa60d8aea10dd361be6c455d",
+          "is_file": true
+        },
+        {
+          "name": "bc_actor_model.npz",
+          "bytes": 54182,
+          "sha256": "3e64068852c8dca9da7f6399c43632daf098968b5576e25a05387742d835a5b4",
+          "is_file": true
+        },
+        {
+          "name": "bc_agent.py",
+          "bytes": 9213,
+          "sha256": "0be64207b3679670190940e959d348a94a0373a1b12461b4e1b0d931628beb57",
+          "is_file": true
+        },
+        {
+          "name": "bc_market_model.json",
+          "bytes": 503,
+          "sha256": "53fd6e431eb3bfe770ef10b81993e29ccc3ef4a6b782b26c7face7f044b20fe4",
+          "is_file": true
+        },
+        {
+          "name": "bc_market_model.npz",
+          "bytes": 41478,
+          "sha256": "f47c654329811e01272b0befdbcdb12e0e2b416d07860cd52f4930fc7f563a62",
+          "is_file": true
+        },
+        {
+          "name": "bc_quantities.json",
+          "bytes": 1693,
+          "sha256": "377f4106c18ca10d7b85a51d3c96d0c3c7767671dd8647d0a00b2520d9361e20",
+          "is_file": true
+        },
+        {
+          "name": "common.py",
+          "bytes": 31364,
+          "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95",
+          "is_file": true
+        },
+        {
+          "name": "contracts.py",
+          "bytes": 22478,
+          "sha256": "9b859e6d8feee8500496ad4b4319077aaca503511ef39ea0435aa131e4e31dbd",
+          "is_file": true
+        },
+        {
+          "name": "executor.py",
+          "bytes": 43676,
+          "sha256": "b4806d68f55d37fc70a99be49e0664af4c609b65ba9ae66a43876a4ecc1bdf5b",
+          "is_file": true
+        },
+        {
+          "name": "features.py",
+          "bytes": 8510,
+          "sha256": "346724223be2d5d66d73f9649a9d26db84110a0c505c4a03dfa60d533684171f",
+          "is_file": true
+        },
+        {
+          "name": "learned_main.py",
+          "bytes": 374,
+          "sha256": "e901b2e1fca5004e81796431288f8ccf97d4612a55a43446962f438fd95b4ed8",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 472,
+          "sha256": "75695dd2e06216e4025503a1a5e9b3b19cbefc3467e282a119cb4c4e3123fa4d",
+          "is_file": true
+        },
+        {
+          "name": "policy_runtime.py",
+          "bytes": 6279,
+          "sha256": "c9301c5533687b4ae650426154f4618f211ef64a0d5d03adc4a9cab0b8b230d0",
+          "is_file": true
+        },
+        {
+          "name": "selector.py",
+          "bytes": 2454,
+          "sha256": "a37aef22aea81a6f44b4fb6e13f8c0b85e0be82af8be7e33966277dff0abe1af",
+          "is_file": true
+        },
+        {
+          "name": "strategy_model.json",
+          "bytes": 7888,
+          "sha256": "6e61e6f56ff6134acef068f4ffa57a4ec987c81755daa8dfe8518c7828a99c66",
+          "is_file": true
+        }
+      ]
+    },
+    "round6_b_learned": {
+      "archive": "artifacts/submissions/learning_next_20260921_b_learned.tar.gz",
+      "role": "auxiliary learned opponent-sale overlay; not evidence that full-action BC succeeded",
+      "bytes": 1772232,
+      "archive_sha256": "de65eafe156a937718c583b4c4963bbe2c0f54a1462283dffcb20693ebf3fd51",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07",
+          "is_file": true
+        },
+        {
+          "name": "arm_config.json",
+          "bytes": 27,
+          "sha256": "8c6d08b28ea50e3f60fbfff3c3abb03b3ce9710516dfbc74ca9cafcac8721a6d",
+          "is_file": true
+        },
+        {
+          "name": "b_model.json",
+          "bytes": 505,
+          "sha256": "4a267da2c628b2defaa13356bb4aaab68834785ded67ad9d89631c0082dabe99",
+          "is_file": true
+        },
+        {
+          "name": "b_model.npz",
+          "bytes": 46254,
+          "sha256": "0f4d1ec50314658d32d52a17d47f6f20be3bb5b414a764a679c9e1724b767df5",
+          "is_file": true
+        },
+        {
+          "name": "b_simple_model.json",
+          "bytes": 91208,
+          "sha256": "9995d868ce5f6afde67552ec8b90d4f51acf69dafd3d499ea1037e31049eec95",
+          "is_file": true
+        },
+        {
+          "name": "c0_main.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8",
+          "is_file": true
+        },
+        {
+          "name": "common.py",
+          "bytes": 30581,
+          "sha256": "1713865129d9a08453237ce2088bfd7893b5c35876c4215d9e69861ccadfb8c9",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 8991,
+          "sha256": "1bd6f01a8ddaacfc60a93399cf36f3503edf8a41eb963ddecac3b5c708878732",
+          "is_file": true
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+          "is_file": true
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589",
+          "is_file": true
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91",
+          "is_file": true
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+          "is_file": true
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+          "is_file": true
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+          "is_file": true
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+          "is_file": true
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f",
+          "is_file": true
+        }
+      ]
+    },
+    "round6_sequence_bc_v1": {
+      "archive": "artifacts/submissions/learning_round6_20260922_sequence_bc_v1.tar.gz",
+      "role": "preregistered next full-action candidate with within-turn actor context and conditional quantity heads",
+      "bytes": 482014,
+      "archive_sha256": "f8d1bc6ea5d69ef8777013995c63aa88e83f8a5c1402b184f356153d2d372434",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "actor_quantity.json",
+          "bytes": 597,
+          "sha256": "9d200ff1977f5eaa1063d6d661ad75cf9f192f423dc7bb265c35b8167fb9d8c2",
+          "is_file": true
+        },
+        {
+          "name": "actor_quantity.npz",
+          "bytes": 128250,
+          "sha256": "dd946f9605055491d8966a7079b89ade511e6040e7f9f789f1b1e13ba88be89b",
+          "is_file": true
+        },
+        {
+          "name": "actor_token.json",
+          "bytes": 602,
+          "sha256": "73c5a189c70d9fd0dc10d6acc7bc0c89f61e1d74a99072d74901987c09eb5e9d",
+          "is_file": true
+        },
+        {
+          "name": "actor_token.npz",
+          "bytes": 181862,
+          "sha256": "9f949c614d684a7828cd8882534e18c20cdc05681351d98323d9c49ad0037ed0",
+          "is_file": true
+        },
+        {
+          "name": "common.py",
+          "bytes": 31364,
+          "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 12367,
+          "sha256": "b876b154af6146470a6535c1c643785e20cfbc87183ccb754bf4524033b5ec66",
+          "is_file": true
+        },
+        {
+          "name": "market_quantity.json",
+          "bytes": 603,
+          "sha256": "b87538f9baa7164d9da748ea322c01ba45a147c3b574a27549bf676835bc4522",
+          "is_file": true
+        },
+        {
+          "name": "market_quantity.npz",
+          "bytes": 90350,
+          "sha256": "2eeb4c7b59524ac29b9af5187af0aca82637588d0db30ef64894bbe81d405b75",
+          "is_file": true
+        },
+        {
+          "name": "market_token.json",
+          "bytes": 600,
+          "sha256": "6a2f6dbdd65d691d4df35f5436efed662f3bbf95dc24e5db7dc8a483dc293bc7",
+          "is_file": true
+        },
+        {
+          "name": "market_token.npz",
+          "bytes": 112902,
+          "sha256": "521e23bd7c0d8cb2eb0083b07162ebcb19fdc871a7dab710aec33ed9932f3398",
+          "is_file": true
+        }
+      ]
+    },
+    "c0": {
+      "archive": "artifacts/submissions/v126_control_candidate.tar.gz",
+      "role": "non-primary frozen execution control",
+      "bytes": 3237877,
+      "archive_sha256": "472eb013183d4d7bc320fb25532ace0d6ab6d2af46d914e0ae158486f39e8452",
+      "entrypoint": "main.py",
+      "members": [
+        {
+          "name": "NOTICE.md",
+          "bytes": 338,
+          "sha256": "8e1356af00cdc563f50a81f475223a10ede8f2fd278d2c04b3eafa8dcb52ff07",
+          "is_file": true
+        },
+        {
+          "name": "main.py",
+          "bytes": 59317,
+          "sha256": "5c662f81c8a87b5e538291c1ad2a0b234a603fafacffbc08c806d4f7b7a45c2d",
+          "is_file": true
+        },
+        {
+          "name": "market_overlay.py",
+          "bytes": 13888,
+          "sha256": "1b50a1efa5f9d68734da8b6e86094e6939b72337081b90cee8227fc4780c5b02",
+          "is_file": true
+        },
+        {
+          "name": "model_metadata.json",
+          "bytes": 9595,
+          "sha256": "992b6c30a7e6b1559ae17d76d6e8178ca192d23cc31c4b31ac4a054250a09589",
+          "is_file": true
+        },
+        {
+          "name": "opening_routes.json.gz",
+          "bytes": 1529958,
+          "sha256": "93e0ef61cfc78ba8d381ec46e451110cb9a9bb22890d80d783c11475f3863530",
+          "is_file": true
+        },
+        {
+          "name": "opponent_sell_model.json",
+          "bytes": 12249,
+          "sha256": "76a600a09350c9d490ecdcadfe2c11057f7b8b0d94df7e2e4e835235c8a23b91",
+          "is_file": true
+        },
+        {
+          "name": "policy_model.json.gz",
+          "bytes": 1720997,
+          "sha256": "fbc51e4ca157e73aa8c55b65048b57b3d46d7e0d7a1f89e9d8be84c0d9fc5471",
+          "is_file": true
+        },
+        {
+          "name": "v120_base.py",
+          "bytes": 10546,
+          "sha256": "e352c51430e2569597a1d1ac174cd085cc9d747c773ecc2fa451684ab88b92ac",
+          "is_file": true
+        },
+        {
+          "name": "v121_sparse.py",
+          "bytes": 9937,
+          "sha256": "26bf5e564644dcb908784fdcda22d3a7be5bfd28c2257d4a41a2128e6859f91d",
+          "is_file": true
+        },
+        {
+          "name": "v123_base.py",
+          "bytes": 14490,
+          "sha256": "1558efee1b15edb2adb6e70f91ed88df0c2d3f0ffb1697ee485e2e0a855dfdba",
+          "is_file": true
+        },
+        {
+          "name": "v124_base.py",
+          "bytes": 19414,
+          "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f",
+          "is_file": true
+        },
+        {
+          "name": "v125_exec_base.py",
+          "bytes": 6491,
+          "sha256": "6d013b9410741a861841077bb31969c315530637d92190448db16d2cfe7f59e8",
+          "is_file": true
+        }
+      ]
+    }
+  },
+  "online_identity_limit": "submission IDs and historical ratings come from saved local analyses; the exact bytes uploaded to Kaggle were not downloaded again in this run"
+}

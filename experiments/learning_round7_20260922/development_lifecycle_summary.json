@@ -1,0 +1,26 @@
+{
+  "source": "experiments/learning_round7_20260922/development_evaluation_arm_b_plan_v3/games.csv",
+  "scope": "48 development games; seeds 2026102201..2026102208, both seats, v122/v123/v124",
+  "games": 48,
+  "games_with_first_animal_yield": 48,
+  "games_with_first_animal_harvest": 48,
+  "games_with_land_expansion": 42,
+  "mean_first_land_record_among_expanded_games": 285.452381,
+  "mean_state192": {
+    "land": 1.0,
+    "crop_cells": 10.6875,
+    "animals": 4.5
+  },
+  "mean_final": {
+    "land": 2.770833,
+    "crop_cells": 10.145833,
+    "animals": 6.75
+  },
+  "mean_successful_actions": {
+    "feed": 152.8125,
+    "care": 132.5625
+  },
+  "mean_animal_exits": 1.416667,
+  "runtime_exception_games": 0,
+  "interpretation": "Production and expansion failures from Round6 were reduced but not eliminated; all 48 official-cash outcomes remained losses."
+}

@@ -1,0 +1,26 @@
+{
+  "engine": "official",
+  "output": "experiments/round11_execution_20260924/phase0/m20_official_parity",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "m20_multi_hypothesis": {
+      "path": "experiments/round11_execution_20260924/arms/m20_multi_hypothesis/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    }
+  },
+  "opponents": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "family": "herd_safe"
+    }
+  },
+  "seeds": [522609241],
+  "seats": [0, 1]
+}

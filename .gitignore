@@ -29,6 +29,12 @@ data/summaries/*
 data/training/*
 !data/training/.gitkeep
 
+# Generated experiment datasets, compressed replays, and packaged snapshots.
+# Keep these local (or publish them as release/object-storage artifacts), not in Git.
+*.npy
+*.gz
+*.zip
+
 # Large reproducible V126 evaluation traces; keep compact summaries tracked.
 experiments/research_20260920_v126/known_case_replays/
 experiments/research_20260920_v126/four_arm_development/replays/

@@ -1,0 +1,118 @@
+{
+  "schema": "round11-experiment-coverage-v1",
+  "new_cppsim_games": 864,
+  "new_official_python_games": 12,
+  "panels": {
+    "track_a_public_originals": {
+      "path": "experiments/round11_execution_20260924/track_a/screen_kagsim",
+      "games": 224,
+      "unique_cells": 224,
+      "errors": 0,
+      "engines": [
+        "kagsim"
+      ],
+      "agent_hashes": [
+        "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+        "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+        "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+        "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+        "caf490d382731dce2ce85b227b407ddef70c5df88f0773ebe017b695226d3e6d",
+        "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd"
+      ],
+      "opponent_hashes": [
+        "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+        "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+        "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      ]
+    },
+    "track_b_market_2x2": {
+      "path": "experiments/round11_execution_20260924/track_b/market_kagsim",
+      "games": 160,
+      "unique_cells": 160,
+      "errors": 0,
+      "engines": [
+        "kagsim"
+      ],
+      "agent_hashes": [
+        "0bea36c2040b5090be76f4b4bab54caafd424815c9d915d4b2ba40f21f28bbbd",
+        "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+        "a08a19f9a2852f4e27ba0d082b70ce559f78fe5173f42011fd529fb25607ae73",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+        "dd704f0a9fa9d3fa3a8eee171892ee3859d4ed3195b2168b5a88682f51558d4d"
+      ],
+      "opponent_hashes": [
+        "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+        "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+        "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      ]
+    },
+    "track_b_conditional_wool": {
+      "path": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim",
+      "games": 96,
+      "unique_cells": 96,
+      "errors": 0,
+      "engines": [
+        "kagsim"
+      ],
+      "agent_hashes": [
+        "03ce209a821496fe33916a8c425fbedd4d4a13133820e720c99d1d845d51fbed",
+        "5472e710d53c0ae66c91963e0453e88f57f936c610bced2d059d1741dedfe66a",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      ],
+      "opponent_hashes": [
+        "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+        "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+        "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      ]
+    },
+    "holdout_m20": {
+      "path": "experiments/round11_execution_20260924/holdout/m20_kagsim",
+      "games": 384,
+      "unique_cells": 384,
+      "errors": 0,
+      "engines": [
+        "kagsim"
+      ],
+      "agent_hashes": [
+        "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      ],
+      "opponent_hashes": [
+        "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+        "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+        "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      ]
+    }
+  },
+  "official_panels": {
+    "no_change_official": {
+      "games": 4,
+      "errors": 0,
+      "path": "experiments/round11_execution_20260924/phase0/no_change_official"
+    },
+    "more_wheat_official_parity": {
+      "games": 4,
+      "errors": 0,
+      "path": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity"
+    },
+    "m20_official_parity": {
+      "games": 4,
+      "errors": 0,
+      "path": "experiments/round11_execution_20260924/phase0/m20_official_parity"
+    }
+  },
+  "inherited_revision_panel": {
+    "games": 128,
+    "unique_complete_games": 128,
+    "status": "package verify PASS; treated as development evidence, never reused as holdout"
+  },
+  "training_runs": 0,
+  "kaggle_submissions": 0,
+  "notebook_publications": 0,
+  "external_pushes": 0
+}

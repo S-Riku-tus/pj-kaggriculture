@@ -1,0 +1,1179 @@
+[
+  {
+    "replay_record": 25,
+    "observation_step": 24,
+    "day": 1,
+    "hour": 0,
+    "farmer_before": [
+      4,
+      4
+    ],
+    "farmer_inventory": {},
+    "shed_wheat_before": 1,
+    "action": {
+      "farmer": [
+        "COLLECT_FERTILIZER"
+      ],
+      "hands": [],
+      "market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          2
+        ]
+      ]
+    },
+    "farmer_after": [
+      4,
+      4
+    ],
+    "farmer_inventory_after": {
+      "FERTILIZER": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 26,
+    "observation_step": 25,
+    "day": 1,
+    "hour": 1,
+    "farmer_before": [
+      4,
+      4
+    ],
+    "farmer_inventory": {
+      "FERTILIZER": 1
+    },
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "PLACE",
+        "FERTILIZER",
+        1
+      ],
+      "hands": [
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      4,
+      4
+    ],
+    "farmer_inventory_after": {},
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 27,
+    "observation_step": 26,
+    "day": 1,
+    "hour": 2,
+    "farmer_before": [
+      4,
+      4
+    ],
+    "farmer_inventory": {},
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        1
+      ],
+      "hands": [
+        [
+          "WEST"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "COLLECT_FERTILIZER"
+        ],
+        [
+          "WEST"
+        ]
+      ],
+      "market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          2
+        ]
+      ]
+    },
+    "farmer_after": [
+      4,
+      4
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 28,
+    "observation_step": 27,
+    "day": 1,
+    "hour": 3,
+    "farmer_before": [
+      4,
+      4
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 4,
+    "action": {
+      "farmer": [
+        "WEST"
+      ],
+      "hands": [
+        [
+          "WEST"
+        ],
+        [
+          "PLANT",
+          "MELON"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "NORTH"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      3,
+      4
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 29,
+    "observation_step": 28,
+    "day": 1,
+    "hour": 4,
+    "farmer_before": [
+      3,
+      4
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 4,
+    "action": {
+      "farmer": [
+        "WEST"
+      ],
+      "hands": [
+        [
+          "PLANT",
+          "MELON"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "WEST"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      4
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 30,
+    "observation_step": 29,
+    "day": 1,
+    "hour": 5,
+    "farmer_before": [
+      2,
+      4
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 4,
+    "action": {
+      "farmer": [
+        "PLANT",
+        "MELON"
+      ],
+      "hands": [
+        [
+          "WATER"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      4
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 31,
+    "observation_step": 30,
+    "day": 1,
+    "hour": 6,
+    "farmer_before": [
+      2,
+      4
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 4,
+    "action": {
+      "farmer": [
+        "WATER"
+      ],
+      "hands": [
+        [
+          "WEST"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "NORTH"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      4
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 32,
+    "observation_step": 31,
+    "day": 1,
+    "hour": 7,
+    "farmer_before": [
+      2,
+      4
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 4,
+    "action": {
+      "farmer": [
+        "NORTH"
+      ],
+      "hands": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    "farmer_after": [
+      2,
+      3
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 33,
+    "observation_step": 32,
+    "day": 1,
+    "hour": 8,
+    "farmer_before": [
+      2,
+      3
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "WATER"
+      ],
+      "hands": [
+        [
+          "WATER"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      3
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 34,
+    "observation_step": 33,
+    "day": 1,
+    "hour": 9,
+    "farmer_before": [
+      2,
+      3
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "NORTH"
+      ],
+      "hands": [
+        [
+          "NORTH"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": [
+        [
+          "BUY_SEED",
+          "MELON",
+          2
+        ]
+      ]
+    },
+    "farmer_after": [
+      2,
+      2
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 35,
+    "observation_step": 34,
+    "day": 1,
+    "hour": 10,
+    "farmer_before": [
+      2,
+      2
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "WEST"
+      ],
+      "hands": [
+        [
+          "WEST"
+        ],
+        [
+          "PLANT",
+          "MELON"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "PLANT",
+          "MELON"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      1,
+      2
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 36,
+    "observation_step": 35,
+    "day": 1,
+    "hour": 11,
+    "farmer_before": [
+      1,
+      2
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "WATER"
+      ],
+      "hands": [
+        [
+          "WATER"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "market": [
+        [
+          "BUY_SEED",
+          "MELON",
+          2
+        ]
+      ]
+    },
+    "farmer_after": [
+      1,
+      2
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 37,
+    "observation_step": 36,
+    "day": 1,
+    "hour": 12,
+    "farmer_before": [
+      1,
+      2
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 3,
+    "action": {
+      "farmer": [
+        "NORTH"
+      ],
+      "hands": [
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "NORTH"
+        ]
+      ],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    "farmer_after": [
+      1,
+      1
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 38,
+    "observation_step": 37,
+    "day": 1,
+    "hour": 13,
+    "farmer_before": [
+      1,
+      1
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 2,
+    "action": {
+      "farmer": [
+        "PLANT",
+        "MELON"
+      ],
+      "hands": [
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PLANT",
+          "MELON"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      1,
+      1
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 39,
+    "observation_step": 38,
+    "day": 1,
+    "hour": 14,
+    "farmer_before": [
+      1,
+      1
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 2,
+    "action": {
+      "farmer": [
+        "WATER"
+      ],
+      "hands": [
+        [
+          "WATER"
+        ],
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "PLANT",
+          "WHEAT"
+        ]
+      ],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          1
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          1
+        ]
+      ]
+    },
+    "farmer_after": [
+      1,
+      1
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 40,
+    "observation_step": 39,
+    "day": 1,
+    "hour": 15,
+    "farmer_before": [
+      1,
+      1
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 1,
+    "action": {
+      "farmer": [
+        "NORTH"
+      ],
+      "hands": [
+        [
+          "NORTH"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          1
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          1
+        ]
+      ]
+    },
+    "farmer_after": [
+      1,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 41,
+    "observation_step": 40,
+    "day": 1,
+    "hour": 16,
+    "farmer_before": [
+      1,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "PLANT",
+        "MELON"
+      ],
+      "hands": [
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "WEST"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "EAST"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      1,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 42,
+    "observation_step": 41,
+    "day": 1,
+    "hour": 17,
+    "farmer_before": [
+      1,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "WATER"
+      ],
+      "hands": [
+        [
+          "WATER"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "PLANT",
+          "WHEAT"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      1,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 43,
+    "observation_step": 42,
+    "day": 1,
+    "hour": 18,
+    "farmer_before": [
+      1,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "EAST"
+      ],
+      "hands": [
+        [
+          "EAST"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 44,
+    "observation_step": 43,
+    "day": 1,
+    "hour": 19,
+    "farmer_before": [
+      2,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "PLANT",
+        "WHEAT"
+      ],
+      "hands": [
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "SOUTH"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 45,
+    "observation_step": 44,
+    "day": 1,
+    "hour": 20,
+    "farmer_before": [
+      2,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "WATER"
+      ],
+      "hands": [
+        [
+          "WATER"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "SOUTH"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 46,
+    "observation_step": 45,
+    "day": 1,
+    "hour": 21,
+    "farmer_before": [
+      2,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "PASS"
+      ],
+      "hands": [
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "SOUTH"
+        ],
+        [
+          "SOUTH"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 47,
+    "observation_step": 46,
+    "day": 1,
+    "hour": 22,
+    "farmer_before": [
+      2,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "PASS"
+      ],
+      "hands": [
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      2,
+      0
+    ],
+    "farmer_inventory_after": {
+      "WHEAT": 1
+    },
+    "animals_before": 2,
+    "animals_after": 2
+  },
+  {
+    "replay_record": 48,
+    "observation_step": 47,
+    "day": 1,
+    "hour": 23,
+    "farmer_before": [
+      2,
+      0
+    ],
+    "farmer_inventory": {
+      "WHEAT": 1
+    },
+    "shed_wheat_before": 0,
+    "action": {
+      "farmer": [
+        "PASS"
+      ],
+      "hands": [
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "NORTH"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "market": []
+    },
+    "farmer_after": [
+      4,
+      4
+    ],
+    "farmer_inventory_after": {},
+    "animals_before": 2,
+    "animals_after": 0
+  }
+]

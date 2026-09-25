@@ -1,0 +1,625 @@
+{
+  "created_at_utc": "2026-09-22T08:06:50.748314+00:00",
+  "archive": "artifacts\\submissions\\learning_round7_20260922_arm_b_plan_v3.tar.gz",
+  "archive_sha256": "fe3b5bd9b14ec64208fc9360c38b9aaf5cc1b44547dca2b6eee3d24d0aaf1fca",
+  "source_split": "old test, now diagnostic_development",
+  "independent_cases": 4,
+  "same_episode_multi_horizon_claimed": false,
+  "reactive_opponent_claimed": false,
+  "sealed_seeds_opened": false,
+  "all_prefixes_exact": true,
+  "results": [
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "seed": 769964722,
+      "prefix": 48,
+      "horizon": 24,
+      "prefix_exact": true,
+      "prefix_state_sha256": "e27c386d9e21640f18dd97963432412616b885ee7989f998666f361fe771b31b",
+      "teacher_prefix_state_sha256": "e27c386d9e21640f18dd97963432412616b885ee7989f998666f361fe771b31b",
+      "warmup": "candidate called on observations 0..prefix-1 only; emitted warmup actions discarded",
+      "warmup_reachability_limit": "candidate internal state is observation-warmed on a teacher trajectory and is not claimed reachable under the candidate's discarded warmup actions",
+      "opponent_after_branch": "fixed saved action tape; non-reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 48,
+        "learner": {
+          "farmer": [
+            "PICKUP",
+            "WHEAT",
+            1
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              4
+            ]
+          ]
+        },
+        "teacher": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 71.0,
+        "land_quadrants": 1,
+        "shed": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 3
+        },
+        "animal_yield_units": 0,
+        "crops": {
+          "WHEAT": 7,
+          "MELON": 12
+        }
+      },
+      "teacher_end": {
+        "money": 21.0,
+        "land_quadrants": 1,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 8,
+          "WOOL": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 3
+        },
+        "animal_yield_units": 0,
+        "crops": {
+          "STRAWBERRY": 2,
+          "MELON": 12,
+          "WHEAT": 6
+        }
+      },
+      "delta_self_money": 50.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "counterfactual_replay": "experiments\\learning_round7_20260922\\prefix_diagnostics_arm_b_plan_v3\\episode_109590135_p48_h24.json.gz",
+      "counterfactual_replay_sha256": "fc8c01fd63c03c96f99da3f1c4649978d25b6d01ca3b5a387cc7430c7ce22073"
+    },
+    {
+      "episode_id": 110444190,
+      "seat": 1,
+      "seed": 1197092448,
+      "prefix": 192,
+      "horizon": 48,
+      "prefix_exact": true,
+      "prefix_state_sha256": "ae74730c44b528edaecdbb6f1265e64748519a29b7e4cac4d7e818ba25feb19f",
+      "teacher_prefix_state_sha256": "ae74730c44b528edaecdbb6f1265e64748519a29b7e4cac4d7e818ba25feb19f",
+      "warmup": "candidate called on observations 0..prefix-1 only; emitted warmup actions discarded",
+      "warmup_reachability_limit": "candidate internal state is observation-warmed on a teacher trajectory and is not claimed reachable under the candidate's discarded warmup actions",
+      "opponent_after_branch": "fixed saved action tape; non-reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 192,
+        "learner": {
+          "farmer": [
+            "PICKUP",
+            "WHEAT",
+            11
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        },
+        "teacher": {
+          "farmer": [
+            "HARVEST"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 2335.0,
+        "land_quadrants": 2,
+        "shed": {
+          "WHEAT": 21,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 5,
+          "GOOSE": 0,
+          "COW": 2,
+          "SHEEP": 0
+        },
+        "animals": {
+          "COW": 4,
+          "SHEEP": 3,
+          "GOOSE": 4
+        },
+        "animal_yield_units": 19,
+        "crops": {
+          "STRAWBERRY": 15,
+          "MELON": 7,
+          "WHEAT": 2
+        }
+      },
+      "teacher_end": {
+        "money": 157.0,
+        "land_quadrants": 3,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 3,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 26,
+          "WOOL": 4
+        },
+        "animals": {
+          "COW": 7,
+          "SHEEP": 3,
+          "GOOSE": 4
+        },
+        "animal_yield_units": 20,
+        "crops": {
+          "STRAWBERRY": 24,
+          "MELON": 11,
+          "WHEAT": 21
+        }
+      },
+      "delta_self_money": 2178.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "counterfactual_replay": "experiments\\learning_round7_20260922\\prefix_diagnostics_arm_b_plan_v3\\episode_110444190_p192_h48.json.gz",
+      "counterfactual_replay_sha256": "35ce5dbcadf1599592ba67b3dbeee95971cf22108c3e2e97b37b4b20f7832717"
+    },
+    {
+      "episode_id": 108848633,
+      "seat": 0,
+      "seed": 209639387,
+      "prefix": 384,
+      "horizon": 96,
+      "prefix_exact": true,
+      "prefix_state_sha256": "52a3dcddfbf784fee7d29b1578a10f37e9c279d982bdba0f61ce833d00707106",
+      "teacher_prefix_state_sha256": "52a3dcddfbf784fee7d29b1578a10f37e9c279d982bdba0f61ce833d00707106",
+      "warmup": "candidate called on observations 0..prefix-1 only; emitted warmup actions discarded",
+      "warmup_reachability_limit": "candidate internal state is observation-warmed on a teacher trajectory and is not claimed reachable under the candidate's discarded warmup actions",
+      "opponent_after_branch": "fixed saved action tape; non-reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 384,
+        "learner": {
+          "farmer": [
+            "PICKUP",
+            "WHEAT",
+            13
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "MILK",
+              1
+            ],
+            [
+              "SELL",
+              "WOOL",
+              3
+            ],
+            [
+              "SELL",
+              "FERTILIZER",
+              2
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        },
+        "teacher": {
+          "farmer": [
+            "HARVEST"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              2
+            ],
+            [
+              "SELL",
+              "TOMATO",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 24970.0,
+        "land_quadrants": 3,
+        "shed": {
+          "WHEAT": 7,
+          "CARROT": 7,
+          "TOMATO": 0,
+          "STRAWBERRY": 17,
+          "MELON": 1,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 4,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "animals": {
+          "COW": 8,
+          "SHEEP": 3,
+          "GOOSE": 2
+        },
+        "animal_yield_units": 41,
+        "crops": {
+          "CARROT": 12,
+          "WHEAT": 7,
+          "STRAWBERRY": 2,
+          "TOMATO": 2
+        }
+      },
+      "teacher_end": {
+        "money": 37745.0,
+        "land_quadrants": 3,
+        "shed": {
+          "CARROT": 29,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 4,
+          "GOOSE": 0,
+          "MELON": 6,
+          "MILK": 7,
+          "SHEEP": 0,
+          "STRAWBERRY": 4,
+          "TOMATO": 1,
+          "WHEAT": 25,
+          "WOOL": 9
+        },
+        "animals": {
+          "COW": 7,
+          "SHEEP": 3,
+          "GOOSE": 2
+        },
+        "animal_yield_units": 35,
+        "crops": {
+          "CARROT": 32,
+          "STRAWBERRY": 13,
+          "TOMATO": 2,
+          "WHEAT": 13
+        }
+      },
+      "delta_self_money": -12775.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "counterfactual_replay": "experiments\\learning_round7_20260922\\prefix_diagnostics_arm_b_plan_v3\\episode_108848633_p384_h96.json.gz",
+      "counterfactual_replay_sha256": "0659ed755dece682f334eb100d85d10f78a05c5e98a5f330040670e9b50651fd"
+    },
+    {
+      "episode_id": 110282687,
+      "seat": 0,
+      "seed": 114546073,
+      "prefix": 96,
+      "horizon": 192,
+      "prefix_exact": true,
+      "prefix_state_sha256": "4dc07a2f4f7d64fe6a7ca4f34bc0d8719eef26bafc019efc2144faeba6a6e74b",
+      "teacher_prefix_state_sha256": "4dc07a2f4f7d64fe6a7ca4f34bc0d8719eef26bafc019efc2144faeba6a6e74b",
+      "warmup": "candidate called on observations 0..prefix-1 only; emitted warmup actions discarded",
+      "warmup_reachability_limit": "candidate internal state is observation-warmed on a teacher trajectory and is not claimed reachable under the candidate's discarded warmup actions",
+      "opponent_after_branch": "fixed saved action tape; non-reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 96,
+        "learner": {
+          "farmer": [
+            "PICKUP",
+            "WHEAT",
+            5
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        },
+        "teacher": {
+          "farmer": [
+            "COLLECT_FERTILIZER"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              3
+            ]
+          ]
+        }
+      },
+      "learner_end": {
+        "money": 3943.0,
+        "land_quadrants": 2,
+        "shed": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 4,
+          "SHEEP": 0
+        },
+        "animals": {
+          "COW": 6,
+          "SHEEP": 3
+        },
+        "animal_yield_units": 18,
+        "crops": {
+          "STRAWBERRY": 2,
+          "WHEAT": 2
+        }
+      },
+      "teacher_end": {
+        "money": 10683.0,
+        "land_quadrants": 3,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 8,
+          "GOOSE": 0,
+          "MELON": 24,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 24,
+          "WOOL": 0
+        },
+        "animals": {
+          "COW": 6,
+          "SHEEP": 3,
+          "GOOSE": 4
+        },
+        "animal_yield_units": 34,
+        "crops": {
+          "STRAWBERRY": 29,
+          "MELON": 2,
+          "CARROT": 6,
+          "WHEAT": 22
+        }
+      },
+      "delta_self_money": -6740.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "counterfactual_replay": "experiments\\learning_round7_20260922\\prefix_diagnostics_arm_b_plan_v3\\episode_110282687_p96_h192.json.gz",
+      "counterfactual_replay_sha256": "b0539695c82fe94c991d0e4060ca694493b1922449e15e9794e195266fec6f6c"
+    }
+  ]
+}

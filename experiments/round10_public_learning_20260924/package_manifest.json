@@ -1,0 +1,85 @@
+{
+  "submitted": false,
+  "published": false,
+  "champion_replaced": false,
+  "packages": [
+    {
+      "name": "B1_herd_safe",
+      "archive": "artifacts/submissions/round10_20260924_b1_herd_safe.tar.gz",
+      "archive_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+      "archive_bytes": 630757,
+      "status": "selected local baseline; not submitted",
+      "files": [
+        {
+          "path": "main.py",
+          "bytes": 1040805,
+          "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+        }
+      ],
+      "round_trip_verified": true,
+      "python_compile_verified": true
+    },
+    {
+      "name": "B2_buy10_sell5",
+      "archive": "artifacts/submissions/round10_20260924_b2_buy10_sell5.tar.gz",
+      "archive_sha256": "70ede751deac2688a2e822f65f10069e3b98d9db9d6dd0278d7574e13acb651a",
+      "archive_bytes": 631355,
+      "status": "opening stress candidate; not submitted; mixed B1 regression",
+      "files": [
+        {
+          "path": "NOTICE.md",
+          "bytes": 575,
+          "sha256": "fa37e12f109e7d2d7d747d4da5e485f0e100834570f6f33073d3eca2661de056"
+        },
+        {
+          "path": "base_main.py",
+          "bytes": 1040805,
+          "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+        },
+        {
+          "path": "main.py",
+          "bytes": 604,
+          "sha256": "b9808856254b67a786277f83d90b1ac0a6e4200e1f9b27fe1d373f2151ee3489"
+        }
+      ],
+      "round_trip_verified": true,
+      "python_compile_verified": true
+    },
+    {
+      "name": "learned_diagnostic",
+      "archive": "artifacts/submissions/round10_20260924_learned_diagnostic.tar.gz",
+      "archive_sha256": "f0e1d9012b1cf2e9556302a299c8ac459990466cd3d0a3b6cd26fa45e95c636e",
+      "archive_bytes": 637248,
+      "status": "trained diagnostic; learning contribution not established; not submitted",
+      "files": [
+        {
+          "path": "NOTICE.md",
+          "bytes": 575,
+          "sha256": "fa37e12f109e7d2d7d747d4da5e485f0e100834570f6f33073d3eca2661de056"
+        },
+        {
+          "path": "base_main.py",
+          "bytes": 1040805,
+          "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+        },
+        {
+          "path": "main.py",
+          "bytes": 292,
+          "sha256": "7b6e77b551356643595b4f55f7fe1115c8e7077c21b40ab1dbcccdb50986eabf"
+        },
+        {
+          "path": "model.json",
+          "bytes": 3591,
+          "sha256": "4629a2137737ee6982e2f8a0ebf1e639e415e83aadd977a1b5263d326ad0ad5f"
+        },
+        {
+          "path": "policy_runtime.py",
+          "bytes": 18125,
+          "sha256": "e47f5a078babfbf019ef3c563759c1cebb3fb056f1eb187b101e77740673fef6"
+        }
+      ],
+      "round_trip_verified": true,
+      "python_compile_verified": true
+    }
+  ]
+}

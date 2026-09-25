@@ -1,0 +1,227 @@
+[
+  {
+    "arm": "f1_harvest",
+    "created_at_utc": "2026-09-22T11:12:36.186402+00:00",
+    "archive": "artifacts\\submissions\\round8_execution_reset_20260922_f1_harvest_v3.tar.gz",
+    "archive_sha256": "347d31efb90f650ce1b162d6e281d43b561ecc7a49650b4f4473783ffeb7c8af",
+    "members": [
+      {
+        "name": "actor_quantity.json",
+        "bytes": 595,
+        "sha256": "4f3f2e071f3501042cb831001cd1ac0d60e7a46f734f3571b1fc0b24b39d7fb5"
+      },
+      {
+        "name": "actor_quantity.npz",
+        "bytes": 187915,
+        "sha256": "a53ffa8e8aff1c388f98aaf7de4668a7f86e451d70da4650c307175865281461"
+      },
+      {
+        "name": "actor_token.json",
+        "bytes": 604,
+        "sha256": "465a53afee9d9705e10ba01f5263f027c08f66fadcfc66ac07d5ace9dafadd37"
+      },
+      {
+        "name": "actor_token.npz",
+        "bytes": 240657,
+        "sha256": "d63c7de780ca0b1d56430068d64737f75de7ac93ecfd4a9862247e4b9987e9b2"
+      },
+      {
+        "name": "common.py",
+        "bytes": 31364,
+        "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+      },
+      {
+        "name": "main.py",
+        "bytes": 616,
+        "sha256": "3590ff25071829cddcd4e2fa4191ceec781e5406464d0492d42a9482072f8c3f"
+      },
+      {
+        "name": "market_quantity.json",
+        "bytes": 600,
+        "sha256": "43bcb61aae60e11bf7aed0dff2f7555cd4f03cfc13a922820fd9e741279c479f"
+      },
+      {
+        "name": "market_quantity.npz",
+        "bytes": 131217,
+        "sha256": "d5edffaa4f98dc57bc375d654ad29956b02fa72d85c83414dcdf12e54573b252"
+      },
+      {
+        "name": "market_token.json",
+        "bytes": 602,
+        "sha256": "16d6774af570629cdf63303134c11e4444d32e07f28fda59f3898f9d78aa297e"
+      },
+      {
+        "name": "market_token.npz",
+        "bytes": 162366,
+        "sha256": "3d5b803f5920698ddf3322cb6ce44f4d020bdbe94a5d07a771b78d372d33f374"
+      },
+      {
+        "name": "model_compat.py",
+        "bytes": 2090,
+        "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+      },
+      {
+        "name": "policy.py",
+        "bytes": 12295,
+        "sha256": "897cf33589076c5bce22121d36128e9ef7218f10de3ca76a325098092b92e3de"
+      },
+      {
+        "name": "runtime.py",
+        "bytes": 42946,
+        "sha256": "505c74ed08c956b0f437265b72adc634c77cd9685268f3dc5be72659ef207eef"
+      }
+    ],
+    "frozen_checkpoint_source": "experiments\\learning_round7_20260922\\models\\arm_b_capacity",
+    "checkpoint_files_unchanged": true
+  },
+  {
+    "arm": "f2_consistent",
+    "created_at_utc": "2026-09-22T11:12:36.249436+00:00",
+    "archive": "artifacts\\submissions\\round8_execution_reset_20260922_f2_consistent_v3.tar.gz",
+    "archive_sha256": "92f905a481a676bf1e5589fe6d48bb285611e56ccc997c6b3c6d6e08d206b7f6",
+    "members": [
+      {
+        "name": "actor_quantity.json",
+        "bytes": 595,
+        "sha256": "4f3f2e071f3501042cb831001cd1ac0d60e7a46f734f3571b1fc0b24b39d7fb5"
+      },
+      {
+        "name": "actor_quantity.npz",
+        "bytes": 187915,
+        "sha256": "a53ffa8e8aff1c388f98aaf7de4668a7f86e451d70da4650c307175865281461"
+      },
+      {
+        "name": "actor_token.json",
+        "bytes": 604,
+        "sha256": "465a53afee9d9705e10ba01f5263f027c08f66fadcfc66ac07d5ace9dafadd37"
+      },
+      {
+        "name": "actor_token.npz",
+        "bytes": 240657,
+        "sha256": "d63c7de780ca0b1d56430068d64737f75de7ac93ecfd4a9862247e4b9987e9b2"
+      },
+      {
+        "name": "common.py",
+        "bytes": 31364,
+        "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+      },
+      {
+        "name": "main.py",
+        "bytes": 626,
+        "sha256": "66a4895604915f36b96b1721da1377ca96d2b5b16f4cafa74af225cf63560cb5"
+      },
+      {
+        "name": "market_quantity.json",
+        "bytes": 600,
+        "sha256": "43bcb61aae60e11bf7aed0dff2f7555cd4f03cfc13a922820fd9e741279c479f"
+      },
+      {
+        "name": "market_quantity.npz",
+        "bytes": 131217,
+        "sha256": "d5edffaa4f98dc57bc375d654ad29956b02fa72d85c83414dcdf12e54573b252"
+      },
+      {
+        "name": "market_token.json",
+        "bytes": 602,
+        "sha256": "16d6774af570629cdf63303134c11e4444d32e07f28fda59f3898f9d78aa297e"
+      },
+      {
+        "name": "market_token.npz",
+        "bytes": 162366,
+        "sha256": "3d5b803f5920698ddf3322cb6ce44f4d020bdbe94a5d07a771b78d372d33f374"
+      },
+      {
+        "name": "model_compat.py",
+        "bytes": 2090,
+        "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+      },
+      {
+        "name": "policy.py",
+        "bytes": 12295,
+        "sha256": "897cf33589076c5bce22121d36128e9ef7218f10de3ca76a325098092b92e3de"
+      },
+      {
+        "name": "runtime.py",
+        "bytes": 42946,
+        "sha256": "505c74ed08c956b0f437265b72adc634c77cd9685268f3dc5be72659ef207eef"
+      }
+    ],
+    "frozen_checkpoint_source": "experiments\\learning_round7_20260922\\models\\arm_b_capacity",
+    "checkpoint_files_unchanged": true
+  },
+  {
+    "arm": "f2_no_plan",
+    "created_at_utc": "2026-09-22T11:12:36.312978+00:00",
+    "archive": "artifacts\\submissions\\round8_execution_reset_20260922_f2_no_plan_v3.tar.gz",
+    "archive_sha256": "a0463b3aa56e3c638986fd5e12ac805ac98ed97a3cd256265b5ad9d477d5f815",
+    "members": [
+      {
+        "name": "actor_quantity.json",
+        "bytes": 595,
+        "sha256": "4f3f2e071f3501042cb831001cd1ac0d60e7a46f734f3571b1fc0b24b39d7fb5"
+      },
+      {
+        "name": "actor_quantity.npz",
+        "bytes": 187915,
+        "sha256": "a53ffa8e8aff1c388f98aaf7de4668a7f86e451d70da4650c307175865281461"
+      },
+      {
+        "name": "actor_token.json",
+        "bytes": 604,
+        "sha256": "465a53afee9d9705e10ba01f5263f027c08f66fadcfc66ac07d5ace9dafadd37"
+      },
+      {
+        "name": "actor_token.npz",
+        "bytes": 240657,
+        "sha256": "d63c7de780ca0b1d56430068d64737f75de7ac93ecfd4a9862247e4b9987e9b2"
+      },
+      {
+        "name": "common.py",
+        "bytes": 31364,
+        "sha256": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95"
+      },
+      {
+        "name": "main.py",
+        "bytes": 632,
+        "sha256": "40a772d649379bca64718a5d4087a4a0ec9b9ac986f148a2abe4c86d8b1eb3a6"
+      },
+      {
+        "name": "market_quantity.json",
+        "bytes": 600,
+        "sha256": "43bcb61aae60e11bf7aed0dff2f7555cd4f03cfc13a922820fd9e741279c479f"
+      },
+      {
+        "name": "market_quantity.npz",
+        "bytes": 131217,
+        "sha256": "d5edffaa4f98dc57bc375d654ad29956b02fa72d85c83414dcdf12e54573b252"
+      },
+      {
+        "name": "market_token.json",
+        "bytes": 602,
+        "sha256": "16d6774af570629cdf63303134c11e4444d32e07f28fda59f3898f9d78aa297e"
+      },
+      {
+        "name": "market_token.npz",
+        "bytes": 162366,
+        "sha256": "3d5b803f5920698ddf3322cb6ce44f4d020bdbe94a5d07a771b78d372d33f374"
+      },
+      {
+        "name": "model_compat.py",
+        "bytes": 2090,
+        "sha256": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d"
+      },
+      {
+        "name": "policy.py",
+        "bytes": 12295,
+        "sha256": "897cf33589076c5bce22121d36128e9ef7218f10de3ca76a325098092b92e3de"
+      },
+      {
+        "name": "runtime.py",
+        "bytes": 42946,
+        "sha256": "505c74ed08c956b0f437265b72adc634c77cd9685268f3dc5be72659ef207eef"
+      }
+    ],
+    "frozen_checkpoint_source": "experiments\\learning_round7_20260922\\models\\arm_b_capacity",
+    "checkpoint_files_unchanged": true
+  }
+]

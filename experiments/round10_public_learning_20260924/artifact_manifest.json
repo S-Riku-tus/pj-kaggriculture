@@ -1,0 +1,837 @@
+{
+  "generated_at_utc": "2026-09-24T02:35:04.971266+00:00",
+  "scope": "Round10 reproducibility and integrity manifest",
+  "external_input_archives": [
+    {
+      "path": "C:\\Users\\shiba\\Downloads\\Kaggriculture_Public_Research_20260924.zip",
+      "exists": true,
+      "required": true,
+      "bytes": 44365,
+      "sha256": "c6ee169bbef3e03a097dcf5014284d0d39b4324933c0d3db3c4423376580cefa"
+    },
+    {
+      "path": "C:\\Users\\shiba\\Downloads\\Round9_Hybrid_Audit_20260923.zip",
+      "exists": true,
+      "required": true,
+      "bytes": 183382,
+      "sha256": "c38f9cac00b9a2f95255b53fc216fc7baeb6d7425bf9ca7001609964caaa686c"
+    }
+  ],
+  "baselines": {
+    "B0": {
+      "identity": "v124 repository source",
+      "source": {
+        "path": "agents/v124/main.py",
+        "exists": true,
+        "required": true,
+        "bytes": 19414,
+        "sha256": "0f0c95d52e82840488078a2feecf9ca4d3c59e9337d3273bf7c64ca572c0e51f"
+      },
+      "archive": {
+        "path": "artifacts/submissions/v124.tar.gz",
+        "exists": true,
+        "required": true,
+        "bytes": 1716700,
+        "sha256": "cdc74eb6ae47c53e9c2edfeea45dc55603c67ebfdba48164081458f79c4f46fc"
+      }
+    },
+    "retained_v122": {
+      "identity": "v122 repository source; retained but not an independent family claim",
+      "source": {
+        "path": "agents/v122/main.py",
+        "exists": true,
+        "required": true,
+        "bytes": 2739,
+        "sha256": "dec59846bc5d71534ff47039442459e7dffbea55eb78216badcf4fc9f078bd38"
+      },
+      "archive": {
+        "path": "artifacts/submissions/v122.tar.gz",
+        "exists": true,
+        "required": true,
+        "bytes": 2970508,
+        "sha256": "edf5b32565f8c4530959b94df36858a6a64c651d4b42b7aa612ddaca02e9a88c"
+      }
+    },
+    "B1": {
+      "identity": "fetched herd-safe source selected by local interactive comparison",
+      "source": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+        "exists": true,
+        "required": true,
+        "bytes": 1040805,
+        "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+      },
+      "archive": {
+        "path": "artifacts/submissions/round10_20260924_b1_herd_safe.tar.gz",
+        "exists": true,
+        "required": true,
+        "bytes": 630757,
+        "sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986"
+      }
+    }
+  },
+  "public_sources": {
+    "generated_at_utc": "2026-09-24T02:11:50.450287+00:00",
+    "records": [
+      {
+        "id": "ahmed_v56",
+        "author": "Ahmed Berat Özer",
+        "original_url": "https://www.kaggle.com/code/ahmedberatozer/kaggriculture-v56-smarter-seeds-and-fertilizer",
+        "kernel_ref": "ahmedberatozer/kaggriculture-v56-smarter-seeds-and-fertilizer",
+        "kernel_id": 135260056,
+        "notebook_current_version_number": 1,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:54:05.472644+00:00",
+        "public_last_run_time": "2026-09-21T00:54:00.7267646Z",
+        "public_description_date": null,
+        "license": "Apache-2.0",
+        "notebook_sha256": "de231713ca88ebb780560c01425344bca978f931df34b7ecf0e92a78b5aa9cce",
+        "api_response_sha256": "62afb02bb68bb65e42d32a492993d8b112296e241ed3d418e53fd1c04d359b95",
+        "original_embedded_source_sha256": null,
+        "original_embedded_source_hash_scope": "not recorded",
+        "executed_local_agent_sha256": "a1ad0fd1d174477ee2cbdd561a812bcb7029647ce34599e79d6b79e9057eff6c",
+        "executed_local_agent_bytes": 1056142,
+        "executed_local_agent_lines": 6750,
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "itertools",
+          "json",
+          "math",
+          "os",
+          "random",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": null,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "large shared public lineage; V57 is a later Ahmed variant",
+        "main_change": "seed purchases tied to remaining planting opportunities; fertilizer pruning",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      },
+      {
+        "id": "ahmed_v57",
+        "author": "Ahmed Berat Özer",
+        "original_url": "https://www.kaggle.com/code/ahmedberatozer/kaggriculture-v57-funding-order-invariant",
+        "kernel_ref": "ahmedberatozer/kaggriculture-v57-funding-order-invariant",
+        "kernel_id": 135369205,
+        "notebook_current_version_number": 3,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:53:03.861890+00:00",
+        "public_last_run_time": "2026-09-21T00:52:59.198144Z",
+        "public_description_date": null,
+        "license": "Apache-2.0",
+        "notebook_sha256": "60dedb3792a8bd632d76c05acd32d7eb9b318cb5d4fd546e53606f0baf2d06bb",
+        "api_response_sha256": "eec5eb71bd4fae63aaa7f2b961804d3e24d307d61778c24b689aa3291236360a",
+        "original_embedded_source_sha256": null,
+        "original_embedded_source_hash_scope": "not recorded",
+        "executed_local_agent_sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+        "executed_local_agent_bytes": 1067076,
+        "executed_local_agent_lines": 6986,
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "itertools",
+          "json",
+          "math",
+          "os",
+          "random",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": null,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "Ahmed V56/shared public lineage",
+        "main_change": "funding-order invariant opening and purchase ordering",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      },
+      {
+        "id": "order_book",
+        "author": "shiiin9",
+        "original_url": "https://www.kaggle.com/code/shiiin9/your-market-list-is-an-order-book",
+        "kernel_ref": "shiiin9/your-market-list-is-an-order-book",
+        "kernel_id": 135277846,
+        "notebook_current_version_number": 2,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:54:05.038594+00:00",
+        "public_last_run_time": "2026-09-21T00:54:00.3663181Z",
+        "public_description_date": null,
+        "license": "Apache-2.0",
+        "notebook_sha256": "bcd3503d92b1685b8bbf0ea04f4430334693cde716aaf151b92b1d6dc1f3a468",
+        "api_response_sha256": "1cd1c32bf4d1302a7a2c8d2217fa8fcaa770ad7f4dd9e69341c8160edd221b78",
+        "original_embedded_source_sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "original_embedded_source_hash_scope": "decoded archive member before text newline normalization",
+        "executed_local_agent_sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "executed_local_agent_bytes": 1026965,
+        "executed_local_agent_lines": 6917,
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "itertools",
+          "json",
+          "math",
+          "os",
+          "random",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": null,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "shared public production/runtime lineage",
+        "main_change": "ordered market-list and relative price-impact logic",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      },
+      {
+        "id": "metav4",
+        "author": "Thomas Tschinkel",
+        "original_url": "https://www.kaggle.com/code/thomastschinkel/the-metav4-farm-submission-v13",
+        "kernel_ref": "thomastschinkel/the-metav4-farm-submission-v13",
+        "kernel_id": 135070592,
+        "notebook_current_version_number": 2,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:54:05.705352+00:00",
+        "public_last_run_time": "2026-09-21T00:54:00.9008564Z",
+        "public_description_date": null,
+        "license": "Apache-2.0",
+        "notebook_sha256": "715269c7a7bf738c010d9320552a01d9e8a5696a3e8691b65094ee39f52bdee1",
+        "api_response_sha256": "0b1a004ec7ddf431ed22f3220564bbbacadbddd525023f3157f6680ae644a6ce",
+        "original_embedded_source_sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+        "original_embedded_source_hash_scope": "decoded archive member before text newline normalization",
+        "executed_local_agent_sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+        "executed_local_agent_bytes": 1004288,
+        "executed_local_agent_lines": 6466,
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "itertools",
+          "json",
+          "math",
+          "os",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": null,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "Metav4 public submission lineage",
+        "main_change": "submission-v13 integrated farm policy",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      },
+      {
+        "id": "herd_safe",
+        "author": "Dmitrii Gluzdov",
+        "original_url": "https://www.kaggle.com/code/dmitriigluzdov/kaggriculture-herd-safe-sale-window-lb-2700",
+        "kernel_ref": "dmitriigluzdov/kaggriculture-herd-safe-sale-window-lb-2700",
+        "kernel_id": 133835800,
+        "notebook_current_version_number": 2,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:54:05.772529+00:00",
+        "public_last_run_time": "2026-09-21T00:54:01.0472372Z",
+        "public_description_date": null,
+        "license": "Apache-2.0",
+        "notebook_sha256": "8210223a8671eb30604b3f9189ad2b58e022614488bcd3e58c8f2a8ed6901515",
+        "api_response_sha256": "3127108ce2db2fbdb869ad4e89b9140c96e0bd21d0d7f7799cd5d9386a63bf1e",
+        "original_embedded_source_sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+        "original_embedded_source_hash_scope": "decoded archive member before text newline normalization",
+        "executed_local_agent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+        "executed_local_agent_bytes": 1040805,
+        "executed_local_agent_lines": 7141,
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "itertools",
+          "json",
+          "math",
+          "os",
+          "random",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": 2700,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "public V39 plus Dmitrii Gluzdov v9 layers and shared public lineage",
+        "main_change": "herd-safe sale window and opening-liquidity layer",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      },
+      {
+        "id": "melon_threshold",
+        "author": "goodpjw2008",
+        "original_url": "https://www.kaggle.com/code/goodpjw2008/kaggriculture-melon-threshold-squeeze-2749",
+        "kernel_ref": "goodpjw2008/kaggriculture-melon-threshold-squeeze-2749",
+        "kernel_id": 134921597,
+        "notebook_current_version_number": 1,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:54:05.029047+00:00",
+        "public_last_run_time": "2026-09-21T00:54:00.8008536Z",
+        "public_description_date": null,
+        "license": "Apache-2.0",
+        "notebook_sha256": "ae34db0ef30bb7f858532ded3bbed229678c2db804f117d8fe5cdbad1e5d6eed",
+        "api_response_sha256": "8494730cfadae052a703414edd2eba7b86d3704fc0dc4c78d6e03ba09d4fe4ad",
+        "original_embedded_source_sha256": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+        "original_embedded_source_hash_scope": "concatenated notebook main cell before text newline normalization",
+        "executed_local_agent_sha256": "26e21e006e1d87042709a658c44fd44878f7a6415add558cbd2c71f4f8772b12",
+        "executed_local_agent_bytes": 342050,
+        "executed_local_agent_lines": 3777,
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "itertools",
+          "json",
+          "math",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": 2749,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "Ahmed V45-derived/shared public lineage",
+        "main_change": "melon threshold and first-turn squeeze/counter logic",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      },
+      {
+        "id": "barnyard",
+        "author": "Roman Rozen",
+        "original_url": "https://www.kaggle.com/code/romanrozen/strong-barnyard-economist/notebook",
+        "kernel_ref": "romanrozen/strong-barnyard-economist",
+        "kernel_id": 129253091,
+        "notebook_current_version_number": 7,
+        "script_version_id": null,
+        "script_version_id_note": "not returned by the saved unauthenticated kernels/pull response",
+        "acquired_at_utc": "2026-09-24T00:57:51.545897+00:00",
+        "public_last_run_time": "2026-09-21T00:57:47.452744Z",
+        "public_description_date": null,
+        "license": "not established",
+        "notebook_sha256": "baf566c50a76599c7ccd050cd809143c2fe8f29c4029cc691cff395a30cb25b1",
+        "api_response_sha256": "d7cb86cfe8cc50dbaeb2983f349b31db55238385189f744630608ce817418c1a",
+        "original_embedded_source_sha256": "997e6bfc5234534e246e945bc61c87858ebf997ab85b0a5c9427dd4ed710f1b6",
+        "original_embedded_source_hash_scope": "decoded archive member before text newline normalization",
+        "executed_local_agent_sha256": "baf79b4ebc104ce1f342124e9ffbf3dfef77886086274168f29cc9c345d2ef6b",
+        "executed_local_agent_bytes": 27730,
+        "executed_local_agent_lines": 486,
+        "imports": [
+          "base64",
+          "copy",
+          "json",
+          "math",
+          "zlib"
+        ],
+        "score_fields": {
+          "title_score_claim": null,
+          "historical_best_score": null,
+          "current_display_score": null,
+          "score_at_match_time": null
+        },
+        "base_ancestor": "not established from the fetched payload",
+        "main_change": "replacement seventh candidate after Harvest Ledger returned 404",
+        "unconfirmed": [
+          "current leaderboard strength",
+          "Kaggle deployed submission artifact identity",
+          "exact correspondence between any title score and this fetched source"
+        ],
+        "acquisition_status": 200
+      }
+    ],
+    "failed_acquisitions": [
+      {
+        "kernel": "haodou092/notebookdb6965aa8e",
+        "url": "https://www.kaggle.com/code/haodou092/notebookdb6965aa8e",
+        "http_status": 404,
+        "acquired_at_utc": "2026-09-24T00:54:04.454101+00:00",
+        "replacement": "romanrozen/strong-barnyard-economist"
+      }
+    ],
+    "score_note": "title, historical best, current display, and score-at-match are deliberately separate"
+  },
+  "engines": {
+    "official_python": {
+      "path": ".venv/Lib/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+      "exists": true,
+      "required": true,
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "package_version": "1.32.7",
+      "reference_official_commit": "302d8e20c83822b8d4572975cdea1180b792b748",
+      "commit_correspondence_verified": false
+    },
+    "cpp_accelerator": {
+      "commit": "f0084b916343c37bbcbdc7de9d833dc96caff78f",
+      "source_tree": "experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim",
+      "extension": {
+        "path": "experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim/kagsim.cp312-win_amd64.pyd",
+        "exists": true,
+        "required": true,
+        "bytes": 324608,
+        "sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92"
+      },
+      "local_setup_patch_record": {
+        "path": "experiments/round10_public_learning_20260924/validation/engine_validation.json",
+        "exists": true,
+        "required": true,
+        "bytes": 11857,
+        "sha256": "01e71929ed96b1ddd4e128693f0ede257f15262c8b8bb6a6ff886186004a2514"
+      }
+    }
+  },
+  "core_artifacts": [
+    {
+      "path": "experiments/round10_public_learning_20260924/source_registry.json",
+      "exists": true,
+      "required": true,
+      "bytes": 14508,
+      "sha256": "dba635ec1d90ccdbfc5c2ee1edfaf698ee3a47f93393a5832654730483c3568d"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/package_manifest.json",
+      "exists": true,
+      "required": true,
+      "bytes": 2946,
+      "sha256": "289499be47ee0d9278fcb4f20ce30d050dbb7275eff1e36d9da93616dd598018"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/package_validation/archive_loader_results.json",
+      "exists": true,
+      "required": true,
+      "bytes": 3131,
+      "sha256": "b677d69fc1b4fe67267e1676038ed0f520892ca535d1c85ead76c2479e0f6de7"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/validation/engine_validation.json",
+      "exists": true,
+      "required": true,
+      "bytes": 11857,
+      "sha256": "01e71929ed96b1ddd4e128693f0ede257f15262c8b8bb6a6ff886186004a2514"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/validation/official_vs_kagsim_agent.json",
+      "exists": true,
+      "required": true,
+      "bytes": 860,
+      "sha256": "7544211038ccab70407bb8d531fcde91db592a6b7ebfa13d7b6e27cd3ba252cf"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/validation/task_null_control_exact.json",
+      "exists": true,
+      "required": true,
+      "bytes": 3306,
+      "sha256": "48147987a5f5e70f269497ffd6a1907b45430a58275d7e2284d111f1f8cc4973"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/validation/kaggle_access_probe.json",
+      "exists": true,
+      "required": true,
+      "bytes": 642,
+      "sha256": "013f3685d2692c4f5ed96490d2d7fd94bcdda029b73f8caafe8e5ae5e9489502"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/analysis/opening_funding_stress_summary.json",
+      "exists": true,
+      "required": true,
+      "bytes": 4798,
+      "sha256": "ca75b487b95f23767e356c28235be38190a0bcfc0c68202b27ad035b8f879417"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/analysis/opening_candidate_isolation_summary.json",
+      "exists": true,
+      "required": true,
+      "bytes": 7011,
+      "sha256": "814182faffb0d76f1abaf93f1c48b2c8f1b6e908f553844b1962f28167f3a345"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/analysis/opening_b2_confirmation_summary.json",
+      "exists": true,
+      "required": true,
+      "bytes": 8466,
+      "sha256": "fb1d8fb9a4e5976d31ad5d9cd1509b5f3bd3939a83d7c6eb78420c87f476a22e"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/analysis/b1_task_opportunities.json",
+      "exists": true,
+      "required": true,
+      "bytes": 355232,
+      "sha256": "578314fcd9edc93ff04969c529c86c992699ad52acc575a16dd90d101f398001"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/analysis/task_selector_seed_holdout_summary.json",
+      "exists": true,
+      "required": true,
+      "bytes": 12862,
+      "sha256": "fa243408c192880cc3730018cd09347115af1e6b0d36a03d42c914fae1721ea6"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/analysis/task_diagnostic_examples.json",
+      "exists": true,
+      "required": true,
+      "bytes": 17045,
+      "sha256": "f0ce220e1c0b8a1687010df8278330de80fb780a1b3d18158b2d37464f63dbe0"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/training/ranker_training_report.json",
+      "exists": true,
+      "required": true,
+      "bytes": 10598,
+      "sha256": "329714a8561d6e30c9481ba6ab3ac814a9b01886a000beae16047b684889047d"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/training/ranker_predictions.csv",
+      "exists": true,
+      "required": true,
+      "bytes": 9522,
+      "sha256": "4798921d683cbb20c38b1c71d583de6763ac92eab10d7e2c01b1bdc0f2b21754"
+    },
+    {
+      "path": "agents/round10_task_learning_20260924/model.json",
+      "exists": true,
+      "required": true,
+      "bytes": 3591,
+      "sha256": "4629a2137737ee6982e2f8a0ebf1e639e415e83aadd977a1b5263d326ad0ad5f"
+    },
+    {
+      "path": "agents/round10_task_learning_20260924/policy_runtime.py",
+      "exists": true,
+      "required": true,
+      "bytes": 18125,
+      "sha256": "e47f5a078babfbf019ef3c563759c1cebb3fb056f1eb187b101e77740673fef6"
+    },
+    {
+      "path": "agents/round10_opening_b2_20260924/main.py",
+      "exists": true,
+      "required": true,
+      "bytes": 604,
+      "sha256": "b9808856254b67a786277f83d90b1ac0a6e4200e1f9b27fe1d373f2151ee3489"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/RESULTS_JA.md",
+      "exists": true,
+      "required": true,
+      "bytes": 8467,
+      "sha256": "b51dfac9206fb3c931ca327a238d07c6accbb9e35df443aa123387173331c51b"
+    },
+    {
+      "path": "experiments/round10_public_learning_20260924/REPRODUCE.md",
+      "exists": true,
+      "required": true,
+      "bytes": 9135,
+      "sha256": "7699893bbbb273be97cedface8fc421f4aa704bb86065a6ecf1da01e8a00150b"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "scripts/acquire_round10_public_sources.py",
+      "exists": true,
+      "required": true,
+      "bytes": 4918,
+      "sha256": "d86b8210a01e91009752e1267481e7ae4f97e0093fe7c45efa3f7b293223ad17"
+    },
+    {
+      "path": "scripts/analyze_round10_opening_funding.py",
+      "exists": true,
+      "required": true,
+      "bytes": 7086,
+      "sha256": "f4a1b2c53a1d714a6305f3aa73a747b8ec52e345978bb5debf9698b3c49069d3"
+    },
+    {
+      "path": "scripts/analyze_round10_task_opportunities.py",
+      "exists": true,
+      "required": true,
+      "bytes": 6941,
+      "sha256": "0580b1bb22dc2d08c7256baff240dabc5205bde53ed17691927ec1bac5004487"
+    },
+    {
+      "path": "scripts/build_round10_artifact_manifest.py",
+      "exists": true,
+      "required": true,
+      "bytes": 8749,
+      "sha256": "4674ab8de66b44aaa6fdfb146e894065dcdcb513d88fdc9a7e1166204041d999"
+    },
+    {
+      "path": "scripts/build_round10_source_registry.py",
+      "exists": true,
+      "required": true,
+      "bytes": 8434,
+      "sha256": "c68d2500da86ca1e881ac1d5bcde3337e90cd384691628dc862c2ed1697e84db"
+    },
+    {
+      "path": "scripts/build_round10_task_diagnostics.py",
+      "exists": true,
+      "required": true,
+      "bytes": 5976,
+      "sha256": "edc9446e6f21d2c6ace91e77d7f1c9271192c377ca525f031f05c6bb0e809c87"
+    },
+    {
+      "path": "scripts/collect_round10_task_labels.py",
+      "exists": true,
+      "required": true,
+      "bytes": 16991,
+      "sha256": "7da02377762ce6cc0c0e17e92aad26ff30be884793d106f510fe344cbdeff6d8"
+    },
+    {
+      "path": "scripts/compare_round10_engine_runs.py",
+      "exists": true,
+      "required": true,
+      "bytes": 2185,
+      "sha256": "23e2beb8a29bc2720b1082d38a2349b3083a98e2e35c12a50df7139891caa7fc"
+    },
+    {
+      "path": "scripts/evaluate_round10_panel.py",
+      "exists": true,
+      "required": true,
+      "bytes": 15967,
+      "sha256": "0b754fbedcc40cafe6d90de05c3e3c9867faf4a749238585b8d4223c7abcbb2a"
+    },
+    {
+      "path": "scripts/extract_round10_public_agents.py",
+      "exists": true,
+      "required": true,
+      "bytes": 5883,
+      "sha256": "f06722df04f052dcbc8a90b4504cf75a20e1150a71ee5b498f5e190c443988c8"
+    },
+    {
+      "path": "scripts/package_round10_candidates.py",
+      "exists": true,
+      "required": true,
+      "bytes": 4975,
+      "sha256": "0a77c7eb83de6b36c4aa9de5430db03460c8c97a8f471033b31ec91146508baa"
+    },
+    {
+      "path": "scripts/record_round10_engine_validation.py",
+      "exists": true,
+      "required": true,
+      "bytes": 3799,
+      "sha256": "ee111621814c5d3a595fe2a6f68525640b6072f26f4cd0965e85e61aaade660b"
+    },
+    {
+      "path": "scripts/summarize_round10_panel.py",
+      "exists": true,
+      "required": true,
+      "bytes": 5863,
+      "sha256": "965062c2a5ae246accb4401c3144ab013912fce8a0d4f9a2e8589eb223b3b022"
+    },
+    {
+      "path": "scripts/train_round10_task_ranker.py",
+      "exists": true,
+      "required": true,
+      "bytes": 13484,
+      "sha256": "484248210c9e07b33980135f7124532ab2beec640fba0cfdc20c34b525c48492"
+    },
+    {
+      "path": "scripts/validate_round10_archives.py",
+      "exists": true,
+      "required": true,
+      "bytes": 6169,
+      "sha256": "2bb0918fe5af4f03972d51ddaf048fb84a52143634110ef2c7db8b62772c0697"
+    },
+    {
+      "path": "scripts/verify_round10_null_control.py",
+      "exists": true,
+      "required": true,
+      "bytes": 2729,
+      "sha256": "9513a5a62e9a69021948921befac3ef1ac2a6abdcd0d531f399683d600bba22a"
+    }
+  ],
+  "evaluation_replay_audit": {
+    "csv_reports": [
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/b1_regression/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 258905,
+        "sha256": "e1d7456ff38019db273cf0fab8962db99b2a3ae880346d62d77927a758a56fe3",
+        "rows": 64,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/herd_safe_confirmation/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 65242,
+        "sha256": "df0a909d6c1f7ac9ec268de52be6fba4286bd5d4d0eebfa33663d9b9a1fa762d",
+        "rows": 16,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/opening_b2_confirmation/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 389892,
+        "sha256": "bd83a0744305cca4d4b3f0aaca234068c471b518050a5c4e1646039b59f84522",
+        "rows": 96,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/opening_candidate_isolation/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 245316,
+        "sha256": "d70028161d7df70932ff116737b01762b140ac62a915850cfff373fbcfde9700",
+        "rows": 60,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/opening_funding_stress/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 197861,
+        "sha256": "53d022fb4f3409809529be0d0b6190e84fe378cc32f21b38a35d60d488e8c399",
+        "rows": 48,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/public_candidate_selection/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 244750,
+        "sha256": "c2e8cd1153d63b579d5b49d29bfbfaa2fbb74781225d79f816f8e657e824c382",
+        "rows": 60,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/public_preliminary/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 227263,
+        "sha256": "f27f1d94676af781c6fe07d1f88c52eef5704486a94827f5e91ed08519f3969d",
+        "rows": 56,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/task_null_control/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 34150,
+        "sha256": "466bc42166aa5a9c9d169a2069e44e85edb1d0c41a2ec125472a52a259a2d26c",
+        "rows": 8,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/evaluations/task_selector_seed_holdout/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 501606,
+        "sha256": "bcd37b2a6aa3ffeea937e4fa00e40aa1512f7af5d217c2a081afda4a3bc83df9",
+        "rows": 96,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/smoke/task_labels/baseline_games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 350,
+        "sha256": "8a7879bfd4257eb52d51c1ccdf4072c255a72d16dd3765986ed9cd6245191578",
+        "rows": 1,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/training/task_labels/baseline_games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 6064,
+        "sha256": "d1d4887931cf12063a881dc05ea83de2107aad16c7e6473cd8bae8c399cbfcbc",
+        "rows": 24,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/validation/kagsim_agent_crosscheck/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 8562,
+        "sha256": "0d0b29b10f241c549c2929aab544afbb1b532fb7e7ce5774808fb0c6759868ca",
+        "rows": 2,
+        "rows_with_errors": 0
+      },
+      {
+        "path": "experiments/round10_public_learning_20260924/validation/official_agent_crosscheck/games.csv",
+        "exists": true,
+        "required": true,
+        "bytes": 3282,
+        "sha256": "20721b289bc9f50b7d0c18bc3901e7dba9a35c37b5c0c27c5005b9f7cf5e26b9",
+        "rows": 2,
+        "rows_with_errors": 0
+      }
+    ],
+    "rows": 533,
+    "unique_replays": 533,
+    "rows_with_errors": 0,
+    "missing_replays": [],
+    "sha256_mismatches": [],
+    "conflicting_sha256_claims": [],
+    "passed": true
+  },
+  "task_fork_audit": {
+    "path": "experiments/round10_public_learning_20260924/training/task_labels/task_labels.csv",
+    "exists": true,
+    "required": true,
+    "bytes": 275250,
+    "sha256": "dac760feaa671130dfd1d32192cfadbf19f08d037c52d76fa86cd229179f5279",
+    "rows": 72,
+    "prefix_matches": 72,
+    "execution_established": 72,
+    "contract_failures": 0,
+    "missing_replays": [],
+    "treatment_sha256_mismatches": [],
+    "passed": true
+  },
+  "integrity_passed": true,
+  "external_actions": {
+    "kaggle_submitted": false,
+    "notebook_published": false,
+    "champion_replaced": false
+  }
+}

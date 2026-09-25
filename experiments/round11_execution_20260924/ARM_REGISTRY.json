@@ -1,0 +1,301 @@
+{
+  "schema": "round11-arm-registry-v1",
+  "baseline_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+  "arms": [
+    {
+      "arm": "B1",
+      "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "last_callable": "opening_liquidity_agent",
+      "status": "retained baseline / final local choice",
+      "effective_diff": "none"
+    },
+    {
+      "arm": "m20_multi_hypothesis",
+      "path": "experiments/round11_execution_20260924/arms/m20_multi_hypothesis/main.py",
+      "sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+      "bytes": 1034317,
+      "last_top_level_function": "opening_liquidity_agent",
+      "changes": [
+        "B1 forecast keeps up to three near-best trajectories; B1 opening retained"
+      ],
+      "last_callable": "opening_liquidity_agent",
+      "effective_diff": [
+        "B1 forecast keeps up to three near-best trajectories; B1 opening retained"
+      ],
+      "status": "REJECT: failed frozen substantive holdout gates",
+      "development": {
+        "score_rate": 0.8125,
+        "mean_delta_points_vs_b1": 0.15625,
+        "mean_delta_margin_vs_b1": 251.25
+      },
+      "final_action_changed_decisions": 244,
+      "holdout": {
+        "schema": "round11-holdout-decision-v1",
+        "protocol": "experiments/round11_execution_20260924/holdout/ACCEPTANCE_PROTOCOL.json",
+        "candidate": "m20_multi_hypothesis",
+        "candidate_sha256": "98d374abdf6e28fcde76c1b2da06bef0e1f6da91c3906768c1d8a8d836e92c4a",
+        "decision": "REJECT",
+        "gates": {
+          "coverage": false,
+          "primary": false,
+          "cluster_uncertainty": false,
+          "opponent_guardrail": false,
+          "margin_guardrail": true,
+          "large_regression_guardrail": true,
+          "transition_guardrail": false,
+          "effective_change": true,
+          "official_parity_precondition": true
+        },
+        "metrics": {
+          "games": 384,
+          "paired_candidate_games": 192,
+          "seed_clusters": 24,
+          "baseline_points": 146.0,
+          "candidate_points": 145.0,
+          "candidate_minus_baseline_points": -1.0,
+          "mean_paired_point_delta": -0.005208333333333333,
+          "seed_cluster_mean_point_delta": -0.005208333333333333,
+          "one_sided_90pct_bootstrap_lower": -0.06770833333333333,
+          "bootstrap_draws": 100000,
+          "paired_points_by_opponent": {
+            "B1": 10.0,
+            "metav4": 0.0,
+            "order_book": -7.0,
+            "v57": -4.0
+          },
+          "mean_paired_margin_delta": 153.83333333333334,
+          "minimum_paired_margin_delta": -1849.0,
+          "transitions": {
+            "L->L": 19,
+            "L->W": 5,
+            "T->L": 10,
+            "T->T": 4,
+            "T->W": 30,
+            "W->L": 16,
+            "W->W": 108
+          },
+          "changed_final_action_decisions": 3234,
+          "alternate_forecast_fires": 578.0,
+          "policy_errors": 0.0,
+          "replay_lengths_ok": true,
+          "order_caps_ok": true,
+          "frozen_hashes_ok": false
+        },
+        "limitations": [
+          "Opponent families are public-source relatives and are not independent samples.",
+          "The interval resamples 24 world-seed clusters, not 192 individual games.",
+          "This local result is not a public-rating or 2500/3000 forecast."
+        ]
+      }
+    },
+    {
+      "arm": "m11_final_response",
+      "path": "experiments/round11_execution_20260924/arms/m11_final_response/main.py",
+      "sha256": "a08a19f9a2852f4e27ba0d082b70ce559f78fe5173f42011fd529fb25607ae73",
+      "bytes": 1036737,
+      "last_top_level_function": "m11_response_agent",
+      "changes": [
+        "one response to final B1 orders; fixed-price orders never advanced"
+      ],
+      "last_callable": "m11_response_agent",
+      "effective_diff": [
+        "one response to final B1 orders; fixed-price orders never advanced"
+      ],
+      "status": "diagnostic only / not promoted",
+      "development": {
+        "score_rate": 0.71875,
+        "mean_delta_points_vs_b1": 0.0625,
+        "mean_delta_margin_vs_b1": 3.0
+      },
+      "final_action_changed_decisions": 36
+    },
+    {
+      "arm": "m11_robust_response",
+      "path": "experiments/round11_execution_20260924/arms/m11_robust_response/main.py",
+      "sha256": "0bea36c2040b5090be76f4b4bab54caafd424815c9d915d4b2ba40f21f28bbbd",
+      "bytes": 1036738,
+      "last_top_level_function": "m11_response_agent",
+      "changes": [
+        "one response robust to final and pre-CXD B1 order hypotheses"
+      ],
+      "last_callable": "m11_response_agent",
+      "effective_diff": [
+        "one response robust to final and pre-CXD B1 order hypotheses"
+      ],
+      "status": "diagnostic only / not promoted",
+      "development": {
+        "score_rate": 0.65625,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": 0.0
+      },
+      "final_action_changed_decisions": 0
+    },
+    {
+      "arm": "m20_m11_final",
+      "path": "experiments/round11_execution_20260924/arms/m20_m11_final/main.py",
+      "sha256": "dd704f0a9fa9d3fa3a8eee171892ee3859d4ed3195b2168b5a88682f51558d4d",
+      "bytes": 1037295,
+      "last_top_level_function": "m11_response_agent",
+      "changes": [
+        "M20 multi-hypothesis forecast",
+        "M11 final-order response"
+      ],
+      "last_callable": "m11_response_agent",
+      "effective_diff": [
+        "M20 multi-hypothesis forecast",
+        "M11 final-order response"
+      ],
+      "status": "diagnostic only / not promoted",
+      "development": {
+        "score_rate": 0.8125,
+        "mean_delta_points_vs_b1": 0.15625,
+        "mean_delta_margin_vs_b1": 256.0
+      },
+      "final_action_changed_decisions": 272
+    },
+    {
+      "arm": "wool_gate_open_control",
+      "path": "experiments/round11_execution_20260924/arms/wool_gate_open_control/main.py",
+      "sha256": "5472e710d53c0ae66c91963e0453e88f57f936c610bced2d059d1741dedfe66a",
+      "bytes": 1034556,
+      "last_top_level_function": "wool_gate_open_agent",
+      "changes": [
+        "diagnostic control: V9_RACEGATE_BASE[WOOL]=0 on every decision"
+      ],
+      "last_callable": "wool_gate_open_agent",
+      "effective_diff": [
+        "diagnostic control: V9_RACEGATE_BASE[WOOL]=0 on every decision"
+      ],
+      "status": "REJECT: unconditional diagnostic reduced development score",
+      "development": {
+        "score_rate": 0.625,
+        "mean_delta_points_vs_b1": -0.0625,
+        "mean_delta_margin_vs_b1": 197.625
+      },
+      "final_action_changed_decisions": 1320
+    },
+    {
+      "arm": "cw1_conditional_wool",
+      "path": "experiments/round11_execution_20260924/arms/cw1_conditional_wool/main.py",
+      "sha256": "03ce209a821496fe33916a8c425fbedd4d4a13133820e720c99d1d845d51fbed",
+      "bytes": 1037709,
+      "last_top_level_function": "conditional_wool_agent",
+      "changes": [
+        "open WOOL reservation only with >=2 public-history trajectory votes",
+        "require conservative imminent lot >=8 after town demand and predicted quote loss >=5",
+        "preserve B1 reservation debt, stock, pickup, purchase, horizon and order-cap logic"
+      ],
+      "last_callable": "conditional_wool_agent",
+      "effective_diff": [
+        "open WOOL reservation only with >=2 public-history trajectory votes",
+        "require conservative imminent lot >=8 after town demand and predicted quote loss >=5",
+        "preserve B1 reservation debt, stock, pickup, purchase, horizon and order-cap logic"
+      ],
+      "status": "REJECT: internal reservations fired but final actions remained identical",
+      "development": {
+        "score_rate": 0.6875,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": 0.0
+      },
+      "final_action_changed_decisions": 0
+    }
+  ],
+  "public_original_arms": [
+    {
+      "arm": "more_wheat",
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+      "status": "not promoted",
+      "track_a": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "score_rate": 0.8125,
+        "mean_margin": 592.875,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": 271.125,
+        "decision": "not promoted"
+      }
+    },
+    {
+      "arm": "order_book_v3",
+      "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+      "status": "not promoted",
+      "track_a": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "score_rate": 0.8125,
+        "mean_margin": 132.25,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": -189.5,
+        "decision": "not promoted"
+      }
+    },
+    {
+      "arm": "moon",
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "status": "not promoted",
+      "track_a": {
+        "games": 32,
+        "wins": 22,
+        "losses": 10,
+        "ties": 0,
+        "score_rate": 0.6875,
+        "mean_margin": 861.1875,
+        "mean_delta_points_vs_b1": -0.125,
+        "mean_delta_margin_vs_b1": 539.4375,
+        "decision": "not promoted"
+      }
+    },
+    {
+      "arm": "v15stack",
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "status": "not promoted",
+      "track_a": {
+        "games": 32,
+        "wins": 22,
+        "losses": 10,
+        "ties": 0,
+        "score_rate": 0.6875,
+        "mean_margin": 480.0,
+        "mean_delta_points_vs_b1": -0.125,
+        "mean_delta_margin_vs_b1": 158.25,
+        "decision": "not promoted"
+      }
+    },
+    {
+      "arm": "wonderful",
+      "sha256": "caf490d382731dce2ce85b227b407ddef70c5df88f0773ebe017b695226d3e6d",
+      "status": "not promoted",
+      "track_a": {
+        "games": 32,
+        "wins": 0,
+        "losses": 32,
+        "ties": 0,
+        "score_rate": 0.0,
+        "mean_margin": -1517.875,
+        "mean_delta_points_vs_b1": -0.8125,
+        "mean_delta_margin_vs_b1": -1839.625,
+        "decision": "not promoted"
+      }
+    },
+    {
+      "arm": "master_hybrid",
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+      "status": "not promoted",
+      "track_a": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "score_rate": 0.8125,
+        "mean_margin": 273.875,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": -47.875,
+        "decision": "not promoted"
+      }
+    }
+  ]
+}

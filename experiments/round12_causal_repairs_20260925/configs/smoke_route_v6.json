@@ -1,0 +1,13 @@
+{
+  "name": "round12_route_smoke_v6_known_development",
+  "development_evidence_not_holdout": true,
+  "output": "metrics/smoke_route_v6",
+  "arms": {
+    "P1M0": "agents/P1M0_strawberry_route/main.py",
+    "P1M1": "agents/P1M1_strawberry_route/main.py"
+  },
+  "opponents": {
+    "B1": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py"
+  },
+  "seeds": [712609241, 712609242]
+}

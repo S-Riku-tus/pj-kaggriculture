@@ -1,0 +1,34 @@
+{
+  "role": "new small development panel, not promotion/holdout",
+  "arms": [
+    "B1",
+    "wool_gate_open",
+    "final_response",
+    "combined"
+  ],
+  "seeds": [
+    402609241,
+    402609242,
+    402609243,
+    402609244
+  ],
+  "opponents": [
+    "B1",
+    "v57",
+    "order_book",
+    "metav4"
+  ],
+  "seats": [
+    0,
+    1
+  ],
+  "planned_games": 128,
+  "independent_seed_blocks": 4,
+  "simulator": "supplied cppsim; matched three online raw trajectories before evaluation; official Python runtime not available",
+  "selection": "all four arms, all planned cells retained, no candidate selection within this panel",
+  "primary": "paired change in win+0.5*draw points",
+  "secondary": "cash margin, farm/action and town-sequence differences",
+  "wool_gate_open": "V9_RACEGATE_BASE[WOOL]=0 only, remaining original gates retained",
+  "final_response": "restricted all-SELL 2..6 orders; final-list mirror proxy; independent new diagnostic inspired by Order Book v3, not its exact source",
+  "combined": "both interventions, not presumed additive"
+}

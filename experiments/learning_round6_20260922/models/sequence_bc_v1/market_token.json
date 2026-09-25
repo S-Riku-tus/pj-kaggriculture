@@ -1,0 +1,15 @@
+{
+  "task": "round6 sequence-aware full-action behavioral cloning",
+  "architecture": "256-96-22 ReLU MLP",
+  "seed": 20260924,
+  "train_rows": 359837,
+  "validation_rows": 78382,
+  "test_rows": 78416,
+  "optimizer_steps": 1760,
+  "best_validation_loss": 0.5987015675733108,
+  "class_weight_exponent": 0.5,
+  "parameter_change_l2": 18.27789721799483,
+  "checkpoint": "experiments\\learning_round6_20260922\\models\\sequence_bc_v1\\market_token.npz",
+  "sha256": "521e23bd7c0d8cb2eb0083b07162ebcb19fdc871a7dab710aec33ed9932f3398",
+  "saved_at_utc": "2026-09-22T04:46:54.292368+00:00"
+}

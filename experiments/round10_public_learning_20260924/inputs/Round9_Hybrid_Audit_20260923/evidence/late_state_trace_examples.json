@@ -1,0 +1,2477 @@
+{
+  "480": {
+    "step": 480,
+    "day": 20,
+    "hour": 0,
+    "decoder": {
+      "actors": [
+        {
+          "actor_index": 0,
+          "position": [
+            4,
+            4
+          ],
+          "raw_model": {
+            "token": "WEST",
+            "quantity": 1,
+            "top5": [
+              [
+                "WEST",
+                0.7263655662536621
+              ],
+              [
+                "NORTH",
+                0.21619895100593567
+              ],
+              [
+                "DROP",
+                0.026226654648780823
+              ],
+              [
+                "PICKUP:WHEAT",
+                0.00974210724234581
+              ],
+              [
+                "WATER",
+                0.005784881301224232
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "NORTH",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "WEST",
+            "quantity": 1
+          },
+          "ledger": [
+            "WEST"
+          ],
+          "target": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market": [
+        {
+          "slot": 0,
+          "raw_model": {
+            "token": "SELL:STRAWBERRY",
+            "quantity": 2
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": [
+            {
+              "token": "SELL:STRAWBERRY",
+              "reason": "not_executable"
+            },
+            {
+              "token": "SELL:WHEAT",
+              "reason": "not_executable"
+            },
+            {
+              "token": "SELL:WOOL",
+              "reason": "not_executable"
+            },
+            {
+              "token": "SELL:FERTILIZER",
+              "reason": "not_executable"
+            }
+          ]
+        },
+        {
+          "slot": 1,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 2,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 3,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 4,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 5,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 6,
+          "raw_model": {
+            "token": "EOS",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "EOS",
+            "quantity": 1
+          },
+          "rejected": []
+        }
+      ],
+      "reservations": {}
+    },
+    "ledger_action": {
+      "farmer": [
+        "WEST"
+      ],
+      "hands": [],
+      "market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "plan": {
+      "active": false,
+      "interventions": [],
+      "disabled": true
+    },
+    "plan_action": {
+      "farmer": [
+        "WEST"
+      ],
+      "hands": [],
+      "market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "final_resolution": {
+      "actors": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "WEST"
+          ],
+          "final": [
+            "WEST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              3,
+              4
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              3,
+              4
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market": [
+        {
+          "slot": 0,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 7727.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 1,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 7726.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 2,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 7725.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 3,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 7723.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 4,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 7720.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 5,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 7715.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        }
+      ],
+      "shadow_summary": {
+        "money": 7707.0,
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        }
+      }
+    },
+    "final_action": {
+      "farmer": [
+        "WEST"
+      ],
+      "hands": [],
+      "market": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "effect": {
+      "status": "OBSERVED",
+      "actors": [
+        {
+          "actor_index": 0,
+          "action": [
+            "WEST"
+          ],
+          "success": true
+        }
+      ]
+    }
+  },
+  "600": {
+    "step": 600,
+    "day": 25,
+    "hour": 0,
+    "decoder": {
+      "actors": [
+        {
+          "actor_index": 0,
+          "position": [
+            4,
+            4
+          ],
+          "raw_model": {
+            "token": "PICKUP:WHEAT",
+            "quantity": 2,
+            "top5": [
+              [
+                "PICKUP:WHEAT",
+                0.7756728529930115
+              ],
+              [
+                "PLACE:WOOL",
+                0.15525370836257935
+              ],
+              [
+                "SOUTH",
+                0.026589469984173775
+              ],
+              [
+                "WEST",
+                0.0170625988394022
+              ],
+              [
+                "PLACE:MILK",
+                0.011268045753240585
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "NORTH",
+            "PASS",
+            "PICKUP:WHEAT",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "PICKUP:WHEAT",
+            "quantity": 2
+          },
+          "ledger": [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          "target": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market": [
+        {
+          "slot": 0,
+          "raw_model": {
+            "token": "SELL:WHEAT",
+            "quantity": 14
+          },
+          "ledger": {
+            "token": "SELL:WHEAT",
+            "quantity": 4
+          },
+          "rejected": []
+        },
+        {
+          "slot": 1,
+          "raw_model": {
+            "token": "SELL:FERTILIZER",
+            "quantity": 2
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": [
+            {
+              "token": "SELL:FERTILIZER",
+              "reason": "not_executable"
+            },
+            {
+              "token": "SELL:WOOL",
+              "reason": "not_executable"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 3,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 4,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 5,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 6,
+          "raw_model": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "HIRE",
+            "quantity": 1
+          },
+          "rejected": []
+        },
+        {
+          "slot": 7,
+          "raw_model": {
+            "token": "EOS",
+            "quantity": 1
+          },
+          "ledger": {
+            "token": "EOS",
+            "quantity": 1
+          },
+          "rejected": []
+        }
+      ],
+      "reservations": {
+        "shed:WHEAT": 2
+      }
+    },
+    "ledger_action": {
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        2
+      ],
+      "hands": [],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "plan": {
+      "active": false,
+      "interventions": [],
+      "disabled": true
+    },
+    "plan_action": {
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        2
+      ],
+      "hands": [],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "final_resolution": {
+      "actors": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          "final": [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          "reason": "quantity_clipped_to_available",
+          "model_requested_quantity": 2,
+          "executable_quantity": 2,
+          "expected_effect": {
+            "moved": 2
+          },
+          "before_inventory": {},
+          "after_inventory": {
+            "WHEAT": 2
+          },
+          "before_shed": {
+            "WHEAT": 6,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 4,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market": [
+        {
+          "slot": 0,
+          "requested": [
+            "SELL",
+            "WHEAT",
+            4
+          ],
+          "final": [
+            "SELL",
+            "WHEAT",
+            4
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 4,
+          "before": {
+            "money": 6451.0,
+            "shed": {
+              "WHEAT": 4,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          },
+          "money_after": 6622.0
+        },
+        {
+          "slot": 1,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 6622.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 2,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 6621.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 3,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 6620.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 4,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 6618.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 5,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 6615.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        },
+        {
+          "slot": 6,
+          "requested": [
+            "HIRE"
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 6610.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 1,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          }
+        }
+      ],
+      "shadow_summary": {
+        "money": 6602.0,
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 1,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        }
+      }
+    },
+    "final_action": {
+      "farmer": [
+        "PICKUP",
+        "WHEAT",
+        2
+      ],
+      "hands": [],
+      "market": [
+        [
+          "SELL",
+          "WHEAT",
+          4
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ]
+      ]
+    },
+    "effect": {
+      "status": "OBSERVED",
+      "actors": [
+        {
+          "actor_index": 0,
+          "action": [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          "success": true
+        }
+      ]
+    }
+  },
+  "718": {
+    "step": 718,
+    "day": 29,
+    "hour": 22,
+    "decoder": {
+      "actors": [
+        {
+          "actor_index": 0,
+          "position": [
+            4,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.8277783393859863
+              ],
+              [
+                "NORTH",
+                0.09247692674398422
+              ],
+              [
+                "HARVEST",
+                0.05912097170948982
+              ],
+              [
+                "WEST",
+                0.006134389899671078
+              ],
+              [
+                "DROP",
+                0.004747106693685055
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 1,
+          "position": [
+            3,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.8919094204902649
+              ],
+              [
+                "NORTH",
+                0.0454631969332695
+              ],
+              [
+                "HARVEST",
+                0.0447913222014904
+              ],
+              [
+                "WATER",
+                0.004635919351130724
+              ],
+              [
+                "DROP",
+                0.0043479884043335915
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              3,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 2,
+          "position": [
+            4,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.9094871282577515
+              ],
+              [
+                "NORTH",
+                0.04706988111138344
+              ],
+              [
+                "HARVEST",
+                0.02224176563322544
+              ],
+              [
+                "DROP",
+                0.009740302339196205
+              ],
+              [
+                "WEST",
+                0.0032595759257674217
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 3,
+          "position": [
+            6,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.8118872046470642
+              ],
+              [
+                "HARVEST",
+                0.0547206848859787
+              ],
+              [
+                "NORTH",
+                0.047014109790325165
+              ],
+              [
+                "BUILD_PASTURE",
+                0.02827388606965542
+              ],
+              [
+                "PLANT:WHEAT",
+                0.02654823288321495
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "BUILD_COOP",
+            "BUILD_PASTURE",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              6,
+              0
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 4,
+          "position": [
+            3,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.8864920139312744
+              ],
+              [
+                "HARVEST",
+                0.0478183887898922
+              ],
+              [
+                "NORTH",
+                0.04778410494327545
+              ],
+              [
+                "WATER",
+                0.004595845937728882
+              ],
+              [
+                "DROP",
+                0.003949308767914772
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              3,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 5,
+          "position": [
+            3,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.8845973014831543
+              ],
+              [
+                "NORTH",
+                0.05028592422604561
+              ],
+              [
+                "HARVEST",
+                0.047400154173374176
+              ],
+              [
+                "WATER",
+                0.004659606609493494
+              ],
+              [
+                "WEST",
+                0.003900713287293911
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              3,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 6,
+          "position": [
+            4,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.9047462344169617
+              ],
+              [
+                "NORTH",
+                0.05088471621274948
+              ],
+              [
+                "HARVEST",
+                0.023349491879343987
+              ],
+              [
+                "DROP",
+                0.008710937574505806
+              ],
+              [
+                "SOUTH",
+                0.003640189301222563
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 7,
+          "position": [
+            1,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.7729588150978088
+              ],
+              [
+                "HARVEST",
+                0.16232478618621826
+              ],
+              [
+                "NORTH",
+                0.045242272317409515
+              ],
+              [
+                "WATER",
+                0.009446629323065281
+              ],
+              [
+                "WEST",
+                0.004394456744194031
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              1,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 8,
+          "position": [
+            4,
+            0
+          ],
+          "raw_model": {
+            "token": "EAST",
+            "quantity": 1,
+            "top5": [
+              [
+                "EAST",
+                0.9028460383415222
+              ],
+              [
+                "NORTH",
+                0.052121251821517944
+              ],
+              [
+                "HARVEST",
+                0.023769212886691093
+              ],
+              [
+                "DROP",
+                0.00898020900785923
+              ],
+              [
+                "SOUTH",
+                0.003861170494928956
+              ]
+            ]
+          },
+          "mask_candidates": [
+            "DIG",
+            "EAST",
+            "PASS",
+            "SOUTH",
+            "WEST"
+          ],
+          "mask": {
+            "token": "EAST",
+            "quantity": 1
+          },
+          "ledger": [
+            "EAST"
+          ],
+          "target": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market": [
+        {
+          "slot": 0,
+          "raw_model": {
+            "token": "SELL:WHEAT",
+            "quantity": 4
+          },
+          "ledger": {
+            "token": "EOS",
+            "quantity": 1
+          },
+          "rejected": [
+            {
+              "token": "SELL:WHEAT",
+              "reason": "not_executable"
+            }
+          ]
+        }
+      ],
+      "reservations": {}
+    },
+    "ledger_action": {
+      "farmer": [
+        "EAST"
+      ],
+      "hands": [
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ]
+      ],
+      "market": []
+    },
+    "plan": {
+      "active": false,
+      "interventions": [],
+      "disabled": true
+    },
+    "plan_action": {
+      "farmer": [
+        "EAST"
+      ],
+      "hands": [
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ]
+      ],
+      "market": []
+    },
+    "final_resolution": {
+      "actors": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              5,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              5,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              4,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              3,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 2,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              5,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              5,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 3,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              7,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              6,
+              0
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              7,
+              0
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 4,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              4,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              3,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 5,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              4,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              3,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 6,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              5,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              5,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 7,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              2,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              2,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 8,
+          "requested": [
+            "EAST"
+          ],
+          "final": [
+            "EAST"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "position": [
+              5,
+              0
+            ]
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              5,
+              0
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market": [],
+      "shadow_summary": {
+        "money": 7318.0,
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        }
+      }
+    },
+    "final_action": {
+      "farmer": [
+        "EAST"
+      ],
+      "hands": [
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ],
+        [
+          "EAST"
+        ]
+      ],
+      "market": []
+    },
+    "effect": {
+      "status": "PENDING_NEXT_OBSERVATION"
+    }
+  }
+}

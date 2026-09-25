@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "created_before_round9_training": false,
+  "pretraining_version_preserved_in": "repository history is unavailable for the untracked experiment; preregistered initial counts remain documented in PREREGISTRATION.md",
+  "teacher_submission": 56216119,
+  "teacher_family_count": 1,
+  "source_manifest": "experiments/learning_next_20260921/source_manifest.json",
+  "split_manifest": "experiments/learning_next_20260921/split_manifest.json",
+  "old_test_status": "development diagnostic only; it was already consulted during Round8 and is not a fresh final holdout",
+  "stages": [
+    {"stage": "source_appearances", "count": 864, "unit": "replay appearance", "reason": "all three locally indexed public submission views"},
+    {"stage": "deduplicated", "count": 850, "unit": "unique episode", "removed": 14, "reason": "duplicate episode appearances"},
+    {"stage": "teacher_family_56216119", "count": 579, "unit": "episode", "removed": 271, "reason": "other teacher families excluded for the controlled experiment"},
+    {"stage": "preexisting_episode_split_train", "count": 403, "unit": "episode"},
+    {"stage": "preexisting_episode_split_validation", "count": 88, "unit": "episode"},
+    {"stage": "preexisting_episode_split_old_test", "count": 88, "unit": "episode"},
+    {"stage": "round9_selected", "count": 20, "unit": "episode", "breakdown": {"train": 12, "validation": 4, "old_test": 4}, "reason": "first deterministic SHA256-ranked episodes within the pre-existing episode split; availability was verified"},
+    {"stage": "round9_aligned_decisions", "count": 14380, "unit": "decision", "breakdown": {"train": 8628, "validation": 2876, "old_test": 2876}, "mapping": "observation steps[t] -> action steps[t+1]"},
+    {"stage": "round9_normalized_actor_commands", "count": 144015, "unit": "actor command", "breakdown": {"train": 86421, "validation": 28831, "old_test": 28763}, "unknown_label_count": 0},
+    {"stage": "round9_sampled_actor_rows", "count": 83844, "unit": "row", "breakdown": {"train": 50461, "validation": 16691, "old_test": 16692}, "removed": 60171, "reason": "movement/PASS only, deterministic hash-stratified 1/8 sampling; every work command and quantity>=2 retained"},
+    {"stage": "round9_market_rows_including_eos", "count": 33402, "unit": "row", "breakdown": {"train": 20038, "validation": 6650, "old_test": 6714}, "removed": 0},
+    {"stage": "round9_actor_quantity_optimizer_rows", "count": 50461, "unit": "train row", "quantity_ge_2": 2137, "unknown_label_count": 0},
+    {"stage": "round9_market_quantity_optimizer_rows", "count": 20038, "unit": "train row", "quantity_ge_2": 3821, "unknown_label_count": 0},
+    {"stage": "trajectory_control_selected", "count": 1, "unit": "episode", "episode_id": 109118332},
+    {"stage": "trajectory_control_optimizer_rows", "count": 8824, "unit": "row", "breakdown": {"actor": 7196, "market_including_eos": 1628}, "removed": 0}
+  ],
+  "row_provenance_fields": ["episode", "record_index", "observation_step", "actor_index", "market_slot", "day", "hour", "operation", "item", "quantity", "source_teacher", "source_label_kind", "partition"],
+  "row_provenance_files": {
+    "actor": "a2_prefix_bc/dataset_v1/actor_row_provenance.csv.gz",
+    "market": "a2_prefix_bc/dataset_v1/market_row_provenance.csv.gz"
+  },
+  "sampling_contract": {
+    "actor": "all work and quantity>=2; movement/PASS hash-stratified 1/8 by episode/day/hour/actor/token",
+    "market": "all ordered tokens and EOS",
+    "fixed_stride": false,
+    "sampling_weight_saved": true
+  },
+  "train_actor_phase_adoption": {
+    "all": {"candidate": 86421, "selected": 50461, "ratio": 0.5838992832802212},
+    "day0": {"candidate": 1344, "selected": 789, "ratio": 0.5870535714285714},
+    "day_boundary": {"candidate": 360, "selected": 298, "ratio": 0.8277777777777777},
+    "day1plus": {"candidate": 85077, "selected": 49672, "ratio": 0.5838376980878507},
+    "quantity_ge_2": {"candidate": 2137, "selected": 2137, "ratio": 1.0},
+    "hire": {"candidate": 0, "selected": 0, "ratio": null, "status": "NOT_APPLICABLE_TO_ACTOR_HEAD"},
+    "land": {"candidate": 0, "selected": 0, "ratio": null, "status": "NOT_APPLICABLE_TO_ACTOR_HEAD"}
+  },
+  "market_prefix_resolution": {
+    "accepted_orders": 18634,
+    "requested_quantity": 46717,
+    "accepted_quantity": 45538,
+    "insufficient_funds": 55,
+    "not_executable": 210,
+    "unavailable_or_insufficient_funds": 35,
+    "partial_fill": 88
+  },
+  "normalization": {"mean": 0.0, "scale": 1.0},
+  "roundtrip_failures": 0,
+  "source_label_kind": "original_teacher",
+  "recovery_rows_added_to_training": 0,
+  "recovery_reason": "learner-state snapshots are retained for a later recovery-label experiment; no unverified self-label or stale teacher-at-time label was added"
+}

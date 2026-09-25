@@ -1,0 +1,107 @@
+{
+  "schema": "round11-official-cppsim-decision-parity-v1",
+  "pairs": 4,
+  "all_exact": true,
+  "rows": [
+    {
+      "arm": "B1",
+      "opponent": "B1",
+      "seed": 522609241,
+      "seat": 0,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        113698.0,
+        113698.0
+      ],
+      "fast_rewards": [
+        113698.0,
+        113698.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    },
+    {
+      "arm": "B1",
+      "opponent": "B1",
+      "seed": 522609241,
+      "seat": 1,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        113698.0,
+        113698.0
+      ],
+      "fast_rewards": [
+        113698.0,
+        113698.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    },
+    {
+      "arm": "m20_multi_hypothesis",
+      "opponent": "B1",
+      "seed": 522609241,
+      "seat": 0,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        113628.0,
+        113241.0
+      ],
+      "fast_rewards": [
+        113628.0,
+        113241.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    },
+    {
+      "arm": "m20_multi_hypothesis",
+      "opponent": "B1",
+      "seed": 522609241,
+      "seat": 1,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        113241.0,
+        113628.0
+      ],
+      "fast_rewards": [
+        113241.0,
+        113628.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+# Round13 transactional market and production planning layer.
+# Appended to the immutable B1 by scripts/build_agents.py.
+
+from copy import deepcopy as _r13_deepcopy
+
+_R13_PRODUCTS = ("WHEAT", "CARROT", "TOMATO", "STRAWBERRY", "MELON", "EGG", "MILK", "WOOL", "FERTILIZER")
+_R13_PREMIUM = ("STRAWBERRY", "MELON", "EGG", "MILK", "WOOL")
+_R13_CROP_COST = {"WHEAT": 10, "CARROT": 20, "TOMATO": 50, "STRAWBERRY": 100, "MELON": 80}
+_R13_ANIMAL_COST = {"GOOSE": 300, "COW": 400, "SHEEP": 500}
+_R13_SHOPS = {
+    "BAKERY": ("EGG", "WHEAT"),
+    "PIZZA_SHOP": ("MILK", "TOMATO", "WHEAT"),
+    "BRUNCH_SPOT": ("EGG", "WHEAT", "STRAWBERRY"),
+    "YARN_STORE": ("WOOL",),
+    "ICE_CREAM_SHOP": ("STRAWBERRY", "MILK", "WHEAT"),
+    "PET_CAFE": ("CARROT",),
+    "SMOOTHIE_SHOP": ("STRAWBERRY", "MILK"),
+    "FARMERS_MARKET": ("WHEAT", "CARROT", "TOMATO", "STRAWBERRY"),
+}
+_R13_STATE = {}
+_R13_REPORT = {
+    "mode": _R13_MODE,
+    "calls": 0,
+    "baseline_calls": 0,
+    "baseline_selected": 0,
+    "changed_final_actions": 0,
+    "invalid_candidates": 0,
+    "ledger_exact_zero": 0,
+    "ledger_exact_positive": 0,
+    "ledger_interval": 0,
+    "ledger_unknown": 0,
+    "market_reservations_created": 0,
+    "market_reservations_due": 0,
+    "market_reservations_filled": 0,
+    "market_reservations_expired": 0,
+    "early_started": 0,
+    "early_plants": 0,
+    "early_purchase_units_suppressed": 0,
+    "early_owned_commands": 0,
+    "rotate_started": 0,
+    "rotate_feed_blocks": 0,
+    "rotate_digs": 0,
+    "rotate_plants": 0,
+    "rotate_owned_commands": 0,
+    "decisions": [],
+}
+
+
+def _r13_int(value, default=0):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _r13_initial_state():
+    return {
+        "last_step": -1,
+        "ledger_previous": None,
+        "opponent_ledger": {item: {"status": "UNKNOWN", "lower": None, "upper": None} for item in _R13_PRODUCTS},
+        "reservations": {},
+        "early": {
+            "phase": "DORMANT",
+            "targets": [],
+            "planted": 0,
+            "suppressed_seed_units": 0,
+            "start_step": None,
+            "failure": None,
+        },
+        "rotate": {
+            "phase": "DORMANT",
+            "targets": [],
+            "crop": None,
+            "start_step": None,
+            "harvested_units": 0,
+            "failure": None,
+        },
+    }
+
+
+def _r13_reset_report():
+    for key, value in list(_R13_REPORT.items()):
+        if key == "mode":
+            continue
+        if key == "decisions":
+            _R13_REPORT[key] = []
+        elif isinstance(value, int):
+            _R13_REPORT[key] = 0
+
+
+def _r13_units(action):
+    return [list(action.get("farmer") or ["PASS"]), *[list(command) for command in action.get("hands") or []]]
+
+
+def _r13_with_units(action, commands):
+    result = _r13_deepcopy(action)
+    result["farmer"] = list(commands[0]) if commands else ["PASS"]
+    result["hands"] = [list(command) for command in commands[1:]]
+    return result
+
+
+def _r13_positions(observation):
+    farm = observation["farms"][int(observation["player"])]
+    return [list(farm["farmer"]), *[list(position) for position in farm.get("hands") or []]]
+
+
+def _r13_home(position):
+    homes = ((4, 4), (5, 4), (4, 5), (5, 5))
+    return min(homes, key=lambda target: (abs(position[0] - target[0]) + abs(position[1] - target[1]), target))
+
+
+def _r13_walk(position, target):
+    x, y = position
+    tx, ty = target
+    if x != tx:
+        return ["EAST" if x < tx else "WEST"]
+    if y != ty:
+        return ["SOUTH" if y < ty else "NORTH"]
+    return None
+
+
+def _r13_fib(index):
+    a, b = 1, 1
+    for _ in range(max(0, index)):
+        a, b = b, a + b
+    return a
+
+
+def _r13_market_price(observation, item, inventory):
+    try:
+        params = {key: dict(value) for key, value in _R37_MARKET_PARAMS.items()}
+        for key, patch in ((observation.get("market") or {}).get("params") or {}).items():
+            if key in params and isinstance(patch, dict):
+                params[key].update(patch)
+        return int(_r37_market_price(item, int(inventory), params))
+    except Exception:
+        return int(observation["market"]["prices"][item])
+
+
+def _r13_projected_shed(observation, action):
+    try:
+        return {key: max(0, _r13_int(value)) for key, value in projected_shed(_r13_deepcopy(action), FarmView(observation)).items()}
+    except Exception:
+        return {key: max(0, _r13_int(value)) for key, value in observation["private"]["shed"].items()}
+
+
+def _r13_sell_totals(action):
+    totals = {}
+    for order in (action.get("market") or [])[:10]:
+        if isinstance(order, list) and len(order) >= 3 and order[0] == "SELL":
+            totals[order[1]] = totals.get(order[1], 0) + max(0, _r13_int(order[2]))
+    return totals
+
+
+def _r13_remove_sell(action, item, quantity):
+    result = _r13_deepcopy(action)
+    remaining = max(0, _r13_int(quantity))
+    market = []
+    for original in result.get("market") or []:
+        order = list(original)
+        if remaining and len(order) >= 3 and order[0] == "SELL" and order[1] == item:
+            removed = min(remaining, max(0, _r13_int(order[2])))
+            order[2] = max(0, _r13_int(order[2])) - removed
+            remaining -= removed
+            if order[2] <= 0:
+                continue
+        market.append(order)
+    result["market"] = market
+    return result
+
+
+def _r13_add_sell(action, item, quantity, front=False):
+    quantity = max(0, _r13_int(quantity))
+    if not quantity:
+        return _r13_deepcopy(action)
+    result = _r13_deepcopy(action)
+    market = [list(order) for order in result.get("market") or []]
+    for order in market:
+        if len(order) >= 3 and order[:2] == ["SELL", item]:
+            order[2] = max(0, _r13_int(order[2])) + quantity
+            result["market"] = market
+            return result
+    if len(market) >= 10:
+        return result
+    order = ["SELL", item, quantity]
+    market = [order, *market] if front else [*market, order]
+    result["market"] = market
+    return result
+
+
+def _r13_add_seed_order(action, crop, quantity):
+    quantity = max(0, _r13_int(quantity))
+    result = _r13_deepcopy(action)
+    market = [list(order) for order in result.get("market") or []]
+    if not quantity:
+        return result
+    for order in market:
+        if len(order) >= 3 and order[:2] == ["BUY_SEED", crop]:
+            order[2] = max(0, _r13_int(order[2])) + quantity
+            result["market"] = market
+            return result
+    if len(market) < 10:
+        market.append(["BUY_SEED", crop, quantity])
+    result["market"] = market
+    return result
+
+
+def _r13_reduce_seed_orders(action, crop, quantity):
+    result = _r13_deepcopy(action)
+    remaining = max(0, _r13_int(quantity))
+    removed_total = 0
+    market = []
+    for original in result.get("market") or []:
+        order = list(original)
+        if remaining and len(order) >= 3 and order[:2] == ["BUY_SEED", crop]:
+            removed = min(remaining, max(0, _r13_int(order[2])))
+            order[2] = max(0, _r13_int(order[2])) - removed
+            remaining -= removed
+            removed_total += removed
+            if order[2] <= 0:
+                continue
+        market.append(order)
+    result["market"] = market
+    return result, removed_total
+
+
+def _r13_validate_action(observation, action):
+    farm = observation["farms"][int(observation["player"])]
+    if len(action.get("hands") or []) != len(farm.get("hands") or []):
+        return False, "hand_count"
+    market = action.get("market") or []
+    if len(market) > 10:
+        return False, "market_slots"
+    stock = _r13_projected_shed(observation, action)
+    seeds = {key: max(0, _r13_int(value)) for key, value in observation["private"]["seeds"].items()}
+    money = float(farm.get("money", 0))
+    capacity = sum(stock.values())
+    inventories = {key: _r13_int(value) for key, value in observation["market"]["inventory"].items()}
+    hires = _r13_int(farm.get("hires_today", 0))
+    land_index = max(0, len(farm.get("unlocked_quadrants") or []) - 1)
+    for slot, order in enumerate(market):
+        if not isinstance(order, list) or not order:
+            return False, "malformed_order"
+        op = order[0]
+        if op in ("HIRE", "BUY_LAND"):
+            if op == "HIRE":
+                cost = _r13_fib(hires)
+                hires += 1
+            else:
+                cost = (1000, 2000, 4000)[min(land_index, 2)]
+                land_index += 1
+            if money < cost:
+                return False, "unfunded_fixed_slot_%d" % slot
+            money -= cost
+            continue
+        if len(order) < 3 or _r13_int(order[2]) <= 0:
+            return False, "nonpositive_order"
+        item, quantity = order[1], _r13_int(order[2])
+        if op == "SELL":
+            fill = min(quantity, stock.get(item, 0))
+            stock[item] = stock.get(item, 0) - fill
+            capacity -= fill
+            for _ in range(fill):
+                price = _r13_market_price(observation, item, inventories[item])
+                money += price
+                if price > 1:
+                    inventories[item] += 1
+        elif op == "BUY_SEED" and item in _R13_CROP_COST:
+            cost = _R13_CROP_COST[item] * quantity
+            if money < cost:
+                return False, "unfunded_seed_slot_%d" % slot
+            money -= cost
+            seeds[item] = seeds.get(item, 0) + quantity
+        elif op == "BUY_ANIMAL" and item in _R13_ANIMAL_COST:
+            cost = _R13_ANIMAL_COST[item] * quantity
+            if money < cost or capacity + quantity > 100:
+                return False, "unfunded_or_full_animal_slot_%d" % slot
+            money -= cost
+            stock[item] = stock.get(item, 0) + quantity
+            capacity += quantity
+        elif op == "BUY_PRODUCT" and item in ("WHEAT", "FERTILIZER"):
+            for _ in range(quantity):
+                price = _r13_market_price(observation, item, inventories[item] - 1)
+                if money < price or capacity >= 100:
+                    return False, "unfunded_or_full_product_slot_%d" % slot
+                money -= price
+                inventories[item] -= 1
+                stock[item] = stock.get(item, 0) + 1
+                capacity += 1
+        else:
+            return False, "invalid_market_op"
+    return True, "ok"
+
+
+def _r13_own_fill_bounds(observation, action):
+    stock = _r13_projected_shed(observation, action)
+    lower_stock = dict(stock)
+    upper_stock = dict(stock)
+    lower = {item: 0 for item in _R13_PRODUCTS}
+    upper = {item: 0 for item in _R13_PRODUCTS}
+    ambiguous = set()
+    for order in (action.get("market") or [])[:10]:
+        if not isinstance(order, list) or not order:
+            continue
+        if order[0] == "BUY_PRODUCT" and len(order) >= 3 and order[1] in ("WHEAT", "FERTILIZER"):
+            item, quantity = order[1], max(0, _r13_int(order[2]))
+            upper_stock[item] = upper_stock.get(item, 0) + quantity
+            ambiguous.add(item)
+        elif order[0] == "SELL" and len(order) >= 3 and order[1] in lower:
+            item, quantity = order[1], max(0, _r13_int(order[2]))
+            lo = min(quantity, lower_stock.get(item, 0))
+            hi = min(quantity, upper_stock.get(item, 0))
+            lower[item] += lo
+            upper[item] += hi
+            lower_stock[item] = max(0, lower_stock.get(item, 0) - lo)
+            upper_stock[item] = max(0, upper_stock.get(item, 0) - hi)
+    return lower, upper, ambiguous
+
+
+def _r13_town_draw(shops, step):
+    try:
+        return dict(_v9_town_draw(list(shops), int(step)))
+    except Exception:
+        draw = {item: 0 for item in _R13_PRODUCTS}
+        if int(step) % 24 == 0:
+            for item in _R13_PRODUCTS:
+                if item != "FERTILIZER":
+                    draw[item] += 1
+        if int(step) % 4 == 0:
+            for shop in shops:
+                products = _R13_SHOPS.get(shop, ())
+                for item in products:
+                    draw[item] += 2 if len(products) == 1 else 1
+        return draw
+
+
+def _r13_reconcile_ledger(observation, state):
+    previous = state.get("ledger_previous")
+    step = int(observation["step"])
+    if not previous or previous.get("step") != step - 1:
+        return
+    draw = _r13_town_draw(previous.get("shops") or [], previous["step"])
+    for item in _R13_PRODUCTS:
+        result = {"status": "UNKNOWN", "lower": None, "upper": None, "source_step": previous["step"]}
+        try:
+            visible = (
+                int(observation["market"]["inventory"][item])
+                - int(previous["inventory"][item])
+                + int(draw.get(item, 0))
+            )
+            own_lower = int(previous["own_lower"][item])
+            own_upper = int(previous["own_upper"][item])
+            post_market_inventory = int(observation["market"]["inventory"][item]) + int(draw.get(item, 0))
+            floor = _r13_market_price(observation, item, post_market_inventory) <= 1
+            if visible < 0 or own_lower > own_upper:
+                pass
+            elif not floor and own_lower == own_upper and item not in previous.get("ambiguous", ()):
+                rival = visible - own_lower
+                if rival == 0:
+                    result.update(status="EXACT_ZERO", lower=0, upper=0)
+                elif 0 < rival <= 100:
+                    result.update(status="EXACT_POSITIVE", lower=rival, upper=rival)
+            else:
+                lower = max(0, visible - own_upper)
+                upper = 100
+                if lower <= upper:
+                    result.update(status="INTERVAL", lower=lower, upper=upper)
+        except (KeyError, TypeError, ValueError):
+            pass
+        state["opponent_ledger"][item] = result
+        key = "ledger_" + result["status"].lower()
+        if key in _R13_REPORT:
+            _R13_REPORT[key] += 1
+
+
+def _r13_finalize_ledger(observation, action, state):
+    lower, upper, ambiguous = _r13_own_fill_bounds(observation, action)
+    state["ledger_previous"] = {
+        "step": int(observation["step"]),
+        "inventory": dict(observation["market"]["inventory"]),
+        "prices": dict(observation["market"]["prices"]),
+        "shops": list(observation["town"]["unlocked_shops"]),
+        "own_lower": lower,
+        "own_upper": upper,
+        "ambiguous": sorted(ambiguous),
+    }
+
+
+def _r13_forecast_signal(state, item):
+    value = (state.get("opponent_ledger") or {}).get(item) or {"status": "UNKNOWN"}
+    if value["status"] == "EXACT_POSITIVE":
+        return {"known": True, "event": True, "lower": value["lower"], "upper": value["upper"]}
+    if value["status"] == "EXACT_ZERO":
+        return {"known": True, "event": False, "lower": 0, "upper": 0}
+    if value["status"] == "INTERVAL":
+        return {"known": False, "event": None, "lower": value["lower"], "upper": value["upper"]}
+    return {"known": False, "event": None, "lower": None, "upper": None}
+
+
+def _r13_future_known_draw(observation, item, horizon=4):
+    step = int(observation["step"])
+    shops = list(observation["town"]["unlocked_shops"])
+    total = 0
+    for future in range(step + 1, step + horizon + 1):
+        total += int(_r13_town_draw(shops, future).get(item, 0))
+    return total
+
+
+def _r13_market_candidate(observation, baseline, state):
+    next_state = _r13_deepcopy(state)
+    action = _r13_deepcopy(baseline)
+    step = int(observation["step"])
+    stock = _r13_projected_shed(observation, action)
+    reservations = next_state["reservations"]
+    event = None
+    for item in sorted(list(reservations)):
+        reservation = reservations[item]
+        quantity = min(int(reservation["quantity"]), int(stock.get(item, 0)))
+        due = step >= int(reservation["due_step"])
+        improved = int(observation["market"]["prices"][item]) > int(reservation["created_price"])
+        if not due and not improved:
+            action = _r13_remove_sell(action, item, quantity)
+            continue
+        if quantity > 0:
+            action = _r13_remove_sell(action, item, quantity)
+            action = _r13_add_sell(action, item, quantity, front=False)
+            event = {"type": "reservation_due", "item": item, "quantity": quantity, "due_step": reservation["due_step"]}
+            del reservations[item]
+        else:
+            event = {"type": "reservation_expired", "item": item, "quantity": 0, "due_step": reservation["due_step"]}
+            del reservations[item]
+        break
+    if event is None and not reservations and step < 704:
+        totals = _r13_sell_totals(action)
+        fixed_purchase = any(order and order[0] in ("HIRE", "BUY_LAND", "BUY_SEED", "BUY_ANIMAL", "BUY_PRODUCT") for order in action.get("market") or [])
+        capacity = sum(stock.values())
+        for item in _R13_PREMIUM:
+            quantity = min(int(totals.get(item, 0)), int(stock.get(item, 0)))
+            signal = _r13_forecast_signal(state, item)
+            draw = _r13_future_known_draw(observation, item, 4)
+            price = int(observation["market"]["prices"][item])
+            cautious_information = signal["known"] or signal["lower"] is not None
+            if quantity < 4 or fixed_purchase or capacity >= 85 or draw <= 0 or not cautious_information:
+                continue
+            future_price = _r13_market_price(observation, item, int(observation["market"]["inventory"][item]) - draw)
+            if future_price < price and price > 1:
+                continue
+            reserve = max(1, quantity // 2)
+            action = _r13_remove_sell(action, item, reserve)
+            due_step = step + 4
+            reservations[item] = {
+                "quantity": reserve,
+                "due_step": due_step,
+                "created_step": step,
+                "created_price": price,
+                "funding_reserve": 0,
+                "capacity_reserve": reserve,
+                "expiry_action": "SELL_AVAILABLE",
+            }
+            event = {"type": "reservation_created", "item": item, "quantity": reserve, "due_step": due_step, "future_price": future_price}
+            break
+    return action, next_state, event
+
+
+def _r13_replace_initial_cow_with_seeds(action):
+    result = _r13_deepcopy(action)
+    market = []
+    changed = False
+    for original in result.get("market") or []:
+        order = list(original)
+        if not changed and len(order) >= 3 and order[:2] == ["BUY_ANIMAL", "COW"] and _r13_int(order[2]) >= 2:
+            order[2] = _r13_int(order[2]) - 1
+            changed = True
+        market.append(order)
+    if changed and len(market) < 10:
+        market.append(["BUY_SEED", "STRAWBERRY", 4])
+    result["market"] = market
+    return result, changed
+
+
+def _r13_assign_owned_jobs(
+    observation,
+    action,
+    targets,
+    crop,
+    allow_plant=True,
+    allow_remote_idle=True,
+    manage_delivery=True,
+):
+    result = _r13_deepcopy(action)
+    commands = _r13_units(result)
+    positions = _r13_positions(observation)
+    inventories = observation["private"]["inventories"]
+    farm = observation["farms"][int(observation["player"])]
+    target_set = {tuple(target) for target in targets}
+    jobs = []
+    for target in target_set:
+        x, y = target
+        tile = farm["tiles"][y][x]
+        if isinstance(tile, dict) and tile.get("kind") == "WEED":
+            jobs.append((0, target, ["DIG"]))
+        elif isinstance(tile, dict) and tile.get("kind") in ("PASTURE", "COOP") and not tile.get("animal"):
+            jobs.append((0, target, ["DIG"]))
+        elif tile is None and allow_plant:
+            jobs.append((1, target, ["PLANT", crop]))
+        elif isinstance(tile, dict) and tile.get("kind") == "PLANT" and tile.get("crop") == crop:
+            if not tile.get("watered_today", False):
+                priority = 0 if int(tile.get("consecutive_unwatered", 0)) >= 1 else 2
+                jobs.append((priority, target, ["WATER"]))
+            elif int(tile.get("yield_units", 0)) > 0:
+                jobs.append((1, target, ["HARVEST"]))
+    used = set()
+    assignments = []
+    # Delivery has the earliest deadline because inventory disappears into the
+    # shed only from a shed-adjacent DROP or at the end of day.
+    for actor, position in enumerate(positions):
+        if not manage_delivery:
+            break
+        inventory = inventories[actor] if actor < len(inventories) else {}
+        if int(inventory.get(crop, 0)) <= 0:
+            continue
+        home = _r13_home(position)
+        command = _r13_walk(position, home) or ["DROP"]
+        commands[actor] = command
+        used.add(actor)
+        assignments.append((actor, "DELIVER", tuple(position), tuple(home)))
+    for priority, target, onsite_command in sorted(jobs, key=lambda value: (value[0], value[1][1], value[1][0])):
+        choices = []
+        for actor, position in enumerate(positions):
+            if actor in used:
+                continue
+            current = commands[actor][0] if commands[actor] else "PASS"
+            onsite = tuple(position) == tuple(target)
+            # Revision after the first reactive smoke: repeatedly stealing a
+            # moving B1 worker changed its downstream location and collapsed
+            # feed/harvest work.  Non-local jobs may use only a genuinely idle
+            # worker; an on-site worker is always preferred.  A missed job can
+            # become urgent next turn, but does not grant authority over B1's
+            # unrelated moving actors.
+            eligible = onsite or (allow_remote_idle and current == "PASS")
+            if not eligible:
+                continue
+            distance = abs(position[0] - target[0]) + abs(position[1] - target[1])
+            choices.append((0 if onsite else 1, distance, actor))
+        if not choices:
+            continue
+        _onsite_rank, _distance, actor = min(choices)
+        command = _r13_walk(positions[actor], target) or list(onsite_command)
+        commands[actor] = command
+        used.add(actor)
+        assignments.append((actor, onsite_command[0], tuple(positions[actor]), tuple(target)))
+    # The plan owns its cells: baseline commands based on the old tile type may
+    # not DIG/replant/harvest them behind the continuation's back.
+    for actor, position in enumerate(positions):
+        if actor in used or tuple(position) not in target_set:
+            continue
+        if commands[actor][0] in ("DIG", "PLANT", "HARVEST", "FEED", "CARE", "PLACE"):
+            commands[actor] = ["PASS"]
+    return _r13_with_units(result, commands), assignments
+
+
+def _r13_early_candidate(observation, baseline, state):
+    next_state = _r13_deepcopy(state)
+    plan = next_state["early"]
+    step, day = int(observation["step"]), int(observation["day"])
+    action = _r13_deepcopy(baseline)
+    event = None
+    if plan["phase"] == "DORMANT" and step == 1:
+        action, changed = _r13_replace_initial_cow_with_seeds(action)
+        if changed:
+            plan.update(phase="FUNDED", start_step=step)
+            event = {"type": "early_started", "funding": "one initial COW delayed until native day2 repurchase", "seed_units": 4}
+        else:
+            plan.update(phase="EXPIRED", failure="start_precondition")
+    if plan["phase"] in ("FUNDED", "ACTIVE"):
+        commands = _r13_units(action)
+        positions = _r13_positions(observation)
+        available = max(0, int(observation["private"]["seeds"].get("STRAWBERRY", 0)))
+        added = []
+        if 2 <= day <= 3 and plan["planted"] < 4 and available > 0:
+            farm = observation["farms"][int(observation["player"])]
+            for actor, command in enumerate(commands):
+                if plan["planted"] + len(added) >= 4 or len(added) >= available:
+                    break
+                if command == ["PLANT", "WHEAT"] and actor < len(positions):
+                    x, y = positions[actor]
+                    if farm["tiles"][y][x] is None and [x, y] not in plan["targets"]:
+                        commands[actor] = ["PLANT", "STRAWBERRY"]
+                        added.append([x, y])
+            if added:
+                action = _r13_with_units(action, commands)
+                plan["targets"].extend(added)
+                plan["planted"] += len(added)
+                plan["phase"] = "ACTIVE" if plan["planted"] >= 4 else "FUNDED"
+                event = {"type": "early_planted", "targets": added, "total": plan["planted"]}
+        if day >= 5 and plan["suppressed_seed_units"] < 4:
+            action, removed = _r13_reduce_seed_orders(action, "STRAWBERRY", 4 - plan["suppressed_seed_units"])
+            if removed:
+                plan["suppressed_seed_units"] += removed
+                event = {"type": "early_day5_dedup", "removed_seed_units": removed, "total": plan["suppressed_seed_units"]}
+        if plan["targets"]:
+            # These cells are former native wheat cells.  Keep the B1 spatial
+            # tape intact: use only workers already standing on an owned cell,
+            # and let B1's existing return-to-shed logistics carry harvests.
+            action, assignments = _r13_assign_owned_jobs(
+                observation,
+                action,
+                plan["targets"],
+                "STRAWBERRY",
+                allow_remote_idle=False,
+                manage_delivery=False,
+            )
+            if assignments:
+                event = event or {"type": "early_owned_work", "assignments": assignments}
+            projected = _r13_projected_shed(observation, action)
+            sell_gap = max(0, int(projected.get("STRAWBERRY", 0)) - int(_r13_sell_totals(action).get("STRAWBERRY", 0)))
+            if sell_gap and (int(observation["market"]["prices"]["STRAWBERRY"]) > 1 or step >= 704):
+                action = _r13_add_sell(action, "STRAWBERRY", sell_gap)
+    if plan["phase"] == "FUNDED" and step >= 96 and plan["planted"] < 4:
+        plan.update(phase="INVALID", failure="plant_deadline")
+        event = {"type": "early_invalid", "reason": "plant_deadline", "planted": plan["planted"]}
+    return action, next_state, event
+
+
+def _r13_adjacent_sheep_pair(observation):
+    farm = observation["farms"][int(observation["player"])]
+    sheep = []
+    for y, row in enumerate(farm["tiles"]):
+        for x, tile in enumerate(row):
+            if isinstance(tile, dict) and tile.get("animal") == "SHEEP":
+                sheep.append((x, y, tile))
+    pairs = []
+    for index, left in enumerate(sheep):
+        for right in sheep[index + 1 :]:
+            if abs(left[0] - right[0]) + abs(left[1] - right[1]) != 1:
+                continue
+            drained = all(int(value[2].get("yield_units", 0)) == 0 and not value[2].get("fertilizer_available", False) for value in (left, right))
+            pairs.append((0 if drained else 1, left[1] + right[1], left[0] + right[0], left, right))
+    return min(pairs) if pairs else None
+
+
+def _r13_choose_rotation_crop(observation):
+    day = int(observation["day"])
+    candidates = {"WHEAT": (4, 6), "CARROT": (3, 4), "TOMATO": (8, max(1, 30 - day - 8))}
+    opponent = observation["farms"][1 - int(observation["player"])]
+    scores = {}
+    for crop, (delay, units) in candidates.items():
+        if day + delay >= 30:
+            scores[crop] = -10**9
+            continue
+        rival_tiles = sum(isinstance(tile, dict) and tile.get("crop") == crop for row in opponent["tiles"] for tile in row)
+        demand = sum(crop in _R13_SHOPS.get(shop, ()) for shop in observation["town"]["unlocked_shops"])
+        projected_inventory = int(observation["market"]["inventory"][crop]) - (delay * (1 + demand)) + rival_tiles * units
+        price = _r13_market_price(observation, crop, projected_inventory)
+        scores[crop] = units * price - _R13_CROP_COST[crop]
+    return max(sorted(scores), key=lambda crop: scores[crop])
+
+
+def _r13_rotation_candidate(observation, baseline, state):
+    next_state = _r13_deepcopy(state)
+    plan = next_state["rotate"]
+    step, day, hour = int(observation["step"]), int(observation["day"]), int(observation["hour"])
+    action = _r13_deepcopy(baseline)
+    event = None
+    if plan["phase"] == "DORMANT" and 18 <= day <= 21 and hour >= 18 and int(observation["market"]["prices"]["WOOL"]) <= 30:
+        pair = _r13_adjacent_sheep_pair(observation)
+        if pair and pair[0] == 0:
+            left, right = pair[-2], pair[-1]
+            targets = [[left[0], left[1]], [right[0], right[1]]]
+            plan.update(phase="EXIT", targets=targets, crop=_r13_choose_rotation_crop(observation), start_step=step)
+            event = {"type": "rotate_started", "targets": targets, "crop": plan["crop"], "wool_price": observation["market"]["prices"]["WOOL"]}
+    if plan["phase"] in ("EXIT", "CULTIVATE"):
+        commands = _r13_units(action)
+        positions = _r13_positions(observation)
+        target_set = {tuple(value) for value in plan["targets"]}
+        farm = observation["farms"][int(observation["player"])]
+        animals_left = 0
+        blocked = 0
+        for target in target_set:
+            tile = farm["tiles"][target[1]][target[0]]
+            animals_left += int(isinstance(tile, dict) and tile.get("animal") == "SHEEP")
+        for actor, position in enumerate(positions):
+            if tuple(position) in target_set and commands[actor][0] in ("FEED", "CARE", "PLACE"):
+                commands[actor] = ["PASS"]
+                blocked += 1
+        action = _r13_with_units(action, commands)
+        if animals_left == 0:
+            plan["phase"] = "CULTIVATE"
+            crop = plan["crop"]
+            empty_need = 0
+            for target in target_set:
+                tile = farm["tiles"][target[1]][target[0]]
+                empty_need += int(tile is None)
+            owned_plants = sum(
+                isinstance(farm["tiles"][target[1]][target[0]], dict)
+                and farm["tiles"][target[1]][target[0]].get("crop") == crop
+                for target in target_set
+            )
+            seed_have = int(observation["private"]["seeds"].get(crop, 0))
+            needed = max(0, empty_need - seed_have)
+            if needed and (crop != "TOMATO" or day <= 21) and (crop != "WHEAT" or day <= 26) and (crop != "CARROT" or day <= 27):
+                action = _r13_add_seed_order(action, crop, needed)
+            allow_plant = (crop == "TOMATO" and day <= 21) or (crop == "WHEAT" and day <= 26) or (crop == "CARROT" and day <= 27)
+            action, assignments = _r13_assign_owned_jobs(observation, action, plan["targets"], crop, allow_plant=allow_plant)
+            projected = _r13_projected_shed(observation, action)
+            sell_gap = max(0, int(projected.get(crop, 0)) - int(_r13_sell_totals(action).get(crop, 0)))
+            if sell_gap and (int(observation["market"]["prices"][crop]) > 1 or step >= 704):
+                action = _r13_add_sell(action, crop, sell_gap)
+            if assignments:
+                event = event or {"type": "rotate_owned_work", "assignments": assignments, "crop": crop, "owned_plants": owned_plants}
+        elif blocked:
+            event = event or {"type": "rotate_exit_work", "feed_blocks": blocked, "animals_left": animals_left}
+    return action, next_state, event
+
+
+def _r13_candidate(name, action, next_state, event, baseline):
+    valid, reason = _r13_validate_action(_R13_CURRENT_OBSERVATION, action)
+    return {
+        "name": name,
+        "action": action,
+        "next_state": next_state,
+        "event": event,
+        "valid": valid,
+        "validation": reason,
+        "different": action != baseline,
+    }
+
+
+def _r13_commit(state, candidate):
+    state.clear()
+    state.update(candidate["next_state"])
+    event = candidate.get("event") or {}
+    event_type = event.get("type")
+    if event_type == "reservation_created":
+        _R13_REPORT["market_reservations_created"] += 1
+    elif event_type == "reservation_due":
+        _R13_REPORT["market_reservations_due"] += 1
+        _R13_REPORT["market_reservations_filled"] += int(event.get("quantity", 0) > 0)
+    elif event_type == "reservation_expired":
+        _R13_REPORT["market_reservations_expired"] += 1
+    elif event_type == "early_started":
+        _R13_REPORT["early_started"] += 1
+    elif event_type == "early_planted":
+        _R13_REPORT["early_plants"] += len(event.get("targets") or [])
+    elif event_type == "early_day5_dedup":
+        _R13_REPORT["early_purchase_units_suppressed"] += int(event.get("removed_seed_units", 0))
+    elif event_type == "early_owned_work":
+        _R13_REPORT["early_owned_commands"] += len(event.get("assignments") or [])
+    elif event_type == "rotate_started":
+        _R13_REPORT["rotate_started"] += 1
+    elif event_type == "rotate_exit_work":
+        _R13_REPORT["rotate_feed_blocks"] += int(event.get("feed_blocks", 0))
+    elif event_type == "rotate_owned_work":
+        assignments = event.get("assignments") or []
+        _R13_REPORT["rotate_owned_commands"] += len(assignments)
+        _R13_REPORT["rotate_digs"] += sum(value[1] == "DIG" and value[2] == value[3] for value in assignments)
+        _R13_REPORT["rotate_plants"] += sum(value[1] == "PLANT" and value[2] == value[3] for value in assignments)
+
+
+_R13_PARENT = opening_liquidity_agent
+_R13_CURRENT_OBSERVATION = None
+
+
+def round13_agent(observation, configuration=None):
+    global _R13_CURRENT_OBSERVATION
+    player, step = int(observation["player"]), int(observation["step"])
+    state = _R13_STATE.get(player)
+    if state is None or step <= int(state.get("last_step", -1)):
+        state = _r13_initial_state()
+        _R13_STATE[player] = state
+        if step == 0:
+            _r13_reset_report()
+    _R13_CURRENT_OBSERVATION = observation
+    _r13_reconcile_ledger(observation, state)
+    baseline = _R13_PARENT(observation, configuration)
+    _R13_REPORT["calls"] += 1
+    _R13_REPORT["baseline_calls"] += 1
+    candidates = [_r13_candidate("KEEP_B1", _r13_deepcopy(baseline), _r13_deepcopy(state), None, baseline)]
+    if _R13_MODE in ("M1_DEADLINE_MARKET", "C_EARLY4_M1"):
+        action, next_state, event = _r13_market_candidate(observation, baseline, state)
+        candidates.append(_r13_candidate("M1_DEADLINE_MARKET", action, next_state, event, baseline))
+    if _R13_MODE in ("P_EARLY4", "C_EARLY4_M1"):
+        parent = candidates[-1]["action"] if _R13_MODE == "C_EARLY4_M1" and candidates[-1]["valid"] else baseline
+        parent_state = candidates[-1]["next_state"] if _R13_MODE == "C_EARLY4_M1" and candidates[-1]["valid"] else state
+        action, next_state, event = _r13_early_candidate(observation, parent, parent_state)
+        candidates.append(_r13_candidate("P_EARLY4" if _R13_MODE == "P_EARLY4" else "C_EARLY4_M1", action, next_state, event, baseline))
+    if _R13_MODE == "P_ROTATE2":
+        action, next_state, event = _r13_rotation_candidate(observation, baseline, state)
+        candidates.append(_r13_candidate("P_ROTATE2", action, next_state, event, baseline))
+    selected = candidates[0]
+    for candidate in candidates[1:]:
+        if not candidate["valid"]:
+            _R13_REPORT["invalid_candidates"] += 1
+            continue
+        selected = candidate
+    if selected["name"] == "KEEP_B1":
+        _R13_REPORT["baseline_selected"] += 1
+    _R13_REPORT["changed_final_actions"] += int(selected["action"] != baseline)
+    _r13_commit(state, selected)
+    state["last_step"] = step
+    _r13_finalize_ledger(observation, selected["action"], state)
+    event = selected.get("event")
+    if event and len(_R13_REPORT["decisions"]) < 512:
+        _R13_REPORT["decisions"].append({"step": step, "candidate": selected["name"], "validation": selected["validation"], **event})
+    return selected["action"]
+
+
+round13_agent.telemetry = _R13_REPORT

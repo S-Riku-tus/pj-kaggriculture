@@ -1,0 +1,74 @@
+{
+  "actor_token": {
+    "rows": 16692,
+    "initial_accuracy": 0.005212077641984184,
+    "accuracy": 0.8326743350107836,
+    "stored_confusion_exact": true,
+    "checkpoint_hash_ok": true,
+    "groups": {
+      "all": {
+        "correct": 13899,
+        "rows": 16692,
+        "accuracy": 0.8326743350107836
+      },
+      "movement": {
+        "correct": 490,
+        "rows": 1697,
+        "accuracy": 0.2887448438420743
+      },
+      "movement_pass": {
+        "correct": 497,
+        "rows": 1725,
+        "accuracy": 0.2881159420289855
+      },
+      "work": {
+        "correct": 13402,
+        "rows": 14967,
+        "accuracy": 0.8954366272466092
+      }
+    },
+    "normalization_mean_zero": true,
+    "normalization_scale_one": true,
+    "sampling_reweighted_accuracy_estimate": 0.6040949699308236
+  },
+  "market_token": {
+    "rows": 6714,
+    "initial_accuracy": 0.05108728030980042,
+    "accuracy": 0.6876675603217158,
+    "stored_confusion_exact": true,
+    "checkpoint_hash_ok": true,
+    "groups": {
+      "all": {
+        "correct": 4617,
+        "rows": 6714,
+        "accuracy": 0.6876675603217158
+      },
+      "eos_hire": {
+        "correct": 3642,
+        "rows": 4028,
+        "accuracy": 0.9041708043694141
+      },
+      "non_eos_hire": {
+        "correct": 975,
+        "rows": 2686,
+        "accuracy": 0.36299329858525686
+      },
+      "sell": {
+        "correct": 477,
+        "rows": 1615,
+        "accuracy": 0.2953560371517028
+      },
+      "investment": {
+        "correct": 498,
+        "rows": 1071,
+        "accuracy": 0.4649859943977591
+      }
+    },
+    "normalization_mean_zero": true,
+    "normalization_scale_one": true,
+    "non_eos_hire_predicted_eos": {
+      "count": 1071,
+      "denominator": 2686
+    }
+  }
+}

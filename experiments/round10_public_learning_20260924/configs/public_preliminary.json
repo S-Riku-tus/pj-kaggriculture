@@ -1,0 +1,51 @@
+{
+  "engine": "kagsim",
+  "output": "experiments/round10_public_learning_20260924/evaluations/public_preliminary",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "B0_v124": {
+      "path": "agents/v124/main.py",
+      "mode": "module_agent",
+      "baseline_id": "B0_v124_source"
+    }
+  },
+  "opponents": {
+    "ahmed_v56": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v56/main.py",
+      "mode": "last_callable",
+      "family": "ahmed_route"
+    },
+    "ahmed_v57": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+      "mode": "last_callable",
+      "family": "ahmed_route"
+    },
+    "order_book": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/order_book/main.py",
+      "mode": "last_callable",
+      "family": "order_book"
+    },
+    "metav4": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/metav4/main.py",
+      "mode": "last_callable",
+      "family": "metav4"
+    },
+    "herd_safe": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+      "mode": "last_callable",
+      "family": "herd_safe"
+    },
+    "melon_threshold": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/melon_threshold/main.py",
+      "mode": "last_callable",
+      "family": "melon_threshold"
+    },
+    "barnyard": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/barnyard/main.py",
+      "mode": "last_callable",
+      "family": "barnyard"
+    }
+  },
+  "seeds": [2026092401, 2026092402, 2026092403, 2026092404],
+  "seats": [0, 1]
+}

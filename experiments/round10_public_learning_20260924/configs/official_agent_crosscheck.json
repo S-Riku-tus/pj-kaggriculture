@@ -1,0 +1,21 @@
+{
+  "engine": "official",
+  "output": "experiments/round10_public_learning_20260924/validation/official_agent_crosscheck",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "B1_herd_safe": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1_public_source"
+    }
+  },
+  "opponents": {
+    "ahmed_v57": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+      "mode": "last_callable",
+      "family": "ahmed_route"
+    }
+  },
+  "seeds": [2026092401],
+  "seats": [0, 1]
+}

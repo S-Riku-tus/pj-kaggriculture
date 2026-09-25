@@ -1,0 +1,152 @@
+[
+  {
+    "decision_step": 590,
+    "changed_commands": [
+      {
+        "actor": 2,
+        "baseline": [
+          "FEED"
+        ],
+        "candidate": [
+          "PASS"
+        ]
+      }
+    ],
+    "baseline_prices": {
+      "WHEAT": 40,
+      "CARROT": 37,
+      "TOMATO": 68,
+      "STRAWBERRY": 26,
+      "MELON": 108,
+      "EGG": 68,
+      "MILK": 24,
+      "WOOL": 37,
+      "FERTILIZER": 18
+    },
+    "candidate_prices": {
+      "WHEAT": 40,
+      "CARROT": 37,
+      "TOMATO": 68,
+      "STRAWBERRY": 26,
+      "MELON": 108,
+      "EGG": 68,
+      "MILK": 24,
+      "WOOL": 11,
+      "FERTILIZER": 18
+    },
+    "baseline_market": [
+      [
+        "BUY_SEED",
+        "WHEAT",
+        1
+      ]
+    ],
+    "candidate_market": [
+      [
+        "BUY_SEED",
+        "WHEAT",
+        1
+      ]
+    ]
+  },
+  {
+    "decision_step": 632,
+    "changed_commands": [
+      {
+        "actor": 11,
+        "baseline": [
+          "PASS"
+        ],
+        "candidate": [
+          "FEED"
+        ]
+      }
+    ],
+    "baseline_prices": {
+      "WHEAT": 39,
+      "CARROT": 37,
+      "TOMATO": 69,
+      "STRAWBERRY": 34,
+      "MELON": 113,
+      "EGG": 71,
+      "MILK": 45,
+      "WOOL": 24,
+      "FERTILIZER": 8
+    },
+    "candidate_prices": {
+      "WHEAT": 39,
+      "CARROT": 37,
+      "TOMATO": 69,
+      "STRAWBERRY": 34,
+      "MELON": 113,
+      "EGG": 71,
+      "MILK": 45,
+      "WOOL": 31,
+      "FERTILIZER": 8
+    },
+    "baseline_market": [
+      [
+        "BUY_SEED",
+        "CARROT",
+        2
+      ]
+    ],
+    "candidate_market": [
+      [
+        "BUY_SEED",
+        "CARROT",
+        2
+      ]
+    ]
+  },
+  {
+    "decision_step": 652,
+    "changed_commands": [
+      {
+        "actor": 5,
+        "baseline": [
+          "FEED"
+        ],
+        "candidate": [
+          "PASS"
+        ]
+      }
+    ],
+    "baseline_prices": {
+      "WHEAT": 39,
+      "CARROT": 37,
+      "TOMATO": 70,
+      "STRAWBERRY": 7,
+      "MELON": 115,
+      "EGG": 75,
+      "MILK": 30,
+      "WOOL": 18,
+      "FERTILIZER": 5
+    },
+    "candidate_prices": {
+      "WHEAT": 39,
+      "CARROT": 37,
+      "TOMATO": 70,
+      "STRAWBERRY": 7,
+      "MELON": 115,
+      "EGG": 75,
+      "MILK": 30,
+      "WOOL": 18,
+      "FERTILIZER": 4
+    },
+    "baseline_market": [
+      [
+        "BUY_SEED",
+        "WHEAT",
+        2
+      ]
+    ],
+    "candidate_market": [
+      [
+        "BUY_SEED",
+        "WHEAT",
+        2
+      ]
+    ]
+  }
+]

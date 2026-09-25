@@ -1,0 +1,2608 @@
+{
+  "created_at_utc": "2026-09-23T13:15:42.301318+00:00",
+  "engine": "kaggle-environments 1.32.7",
+  "fixture_count": 15,
+  "passed": 15,
+  "failed": 0,
+  "full_state_fields": [
+    "position",
+    "money",
+    "tile kind/resource/generation/yield",
+    "inventory",
+    "shed",
+    "seeds",
+    "market"
+  ],
+  "fixtures": [
+    {
+      "name": "PLANT_WHEAT_then_WATER",
+      "requested": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "final": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "expected": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "WATER"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PLANT",
+            "WHEAT"
+          ],
+          "final": [
+            "PLANT",
+            "WHEAT"
+          ],
+          "reason": "reserved_seed",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "generation": 0
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 1
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "WATER"
+          ],
+          "final": [
+            "WATER"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "watered_today": true
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 1
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 1
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 0,
+        "watered_today": true,
+        "consecutive_unwatered": 1,
+        "yield_units": 1,
+        "max_lifespan_step": 120,
+        "fertilized_until_day": -1
+      },
+      "final_inventories": [
+        {},
+        {}
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "HARVEST_then_PLANT_CARROT",
+      "requested": [
+        [
+          "HARVEST"
+        ],
+        [
+          "PLANT",
+          "CARROT"
+        ]
+      ],
+      "final": [
+        [
+          "HARVEST"
+        ],
+        [
+          "PLANT",
+          "CARROT"
+        ]
+      ],
+      "expected": [
+        [
+          "HARVEST"
+        ],
+        [
+          "PLANT",
+          "CARROT"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "HARVEST"
+          ],
+          "final": [
+            "HARVEST"
+          ],
+          "reason": "mature_or_animal_yield",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "product": "WHEAT",
+            "units": 4
+          },
+          "before_inventory": {},
+          "after_inventory": {
+            "WHEAT": 4
+          },
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 4
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "PLANT",
+            "CARROT"
+          ],
+          "final": [
+            "PLANT",
+            "CARROT"
+          ],
+          "reason": "reserved_seed",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "generation": 4
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "CARROT",
+            "generation": 4,
+            "yield_units": 1
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": {
+        "kind": "PLANT",
+        "crop": "CARROT",
+        "planted_day": 4,
+        "watered_today": false,
+        "consecutive_unwatered": 1,
+        "yield_units": 1,
+        "max_lifespan_step": 192,
+        "fertilized_until_day": -1
+      },
+      "final_inventories": [
+        {
+          "WHEAT": 4
+        },
+        {}
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "BUILD_PASTURE_then_PLACE_COW",
+      "requested": [
+        [
+          "BUILD_PASTURE"
+        ],
+        [
+          "PLACE",
+          "COW",
+          1
+        ]
+      ],
+      "final": [
+        [
+          "BUILD_PASTURE"
+        ],
+        [
+          "PLACE",
+          "COW",
+          1
+        ]
+      ],
+      "expected": [
+        [
+          "BUILD_PASTURE"
+        ],
+        [
+          "PLACE",
+          "COW",
+          1
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "BUILD_PASTURE"
+          ],
+          "final": [
+            "BUILD_PASTURE"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "built": true
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "PLACE",
+            "COW",
+            1
+          ],
+          "final": [
+            "PLACE",
+            "COW",
+            1
+          ],
+          "reason": "animal_placement",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "placed": 1
+          },
+          "before_inventory": {
+            "COW": 1
+          },
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 0,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": false,
+        "cared_today": false,
+        "fertilizer_available": false,
+        "pending_care_bonus": 0
+      },
+      "final_inventories": [
+        {},
+        {}
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "PLACE_WHEAT5_then_PICKUP_WHEAT5",
+      "requested": [
+        [
+          "PLACE",
+          "WHEAT",
+          5
+        ],
+        [
+          "PICKUP",
+          "WHEAT",
+          5
+        ]
+      ],
+      "final": [
+        [
+          "PLACE",
+          "WHEAT",
+          5
+        ],
+        [
+          "PICKUP",
+          "WHEAT",
+          5
+        ]
+      ],
+      "expected": [
+        [
+          "PLACE",
+          "WHEAT",
+          5
+        ],
+        [
+          "PICKUP",
+          "WHEAT",
+          5
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PLACE",
+            "WHEAT",
+            5
+          ],
+          "final": [
+            "PLACE",
+            "WHEAT",
+            5
+          ],
+          "reason": "shed_deposit",
+          "model_requested_quantity": 5,
+          "executable_quantity": 5,
+          "expected_effect": {
+            "moved": 5
+          },
+          "before_inventory": {
+            "WHEAT": 5
+          },
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 5,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "PICKUP",
+            "WHEAT",
+            5
+          ],
+          "final": [
+            "PICKUP",
+            "WHEAT",
+            5
+          ],
+          "reason": "quantity_clipped_to_available",
+          "model_requested_quantity": 5,
+          "executable_quantity": 5,
+          "expected_effect": {
+            "moved": 5
+          },
+          "before_inventory": {},
+          "after_inventory": {
+            "WHEAT": 5
+          },
+          "before_shed": {
+            "WHEAT": 5,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        4,
+        4
+      ],
+      "final_money": 3000.0,
+      "final_tile": null,
+      "final_inventories": [
+        {},
+        {
+          "WHEAT": 5
+        }
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "duplicate_FEED_then_valid_CARE",
+      "requested": [
+        [
+          "FEED"
+        ],
+        [
+          "FEED"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "final": [
+        [
+          "FEED"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "expected": [
+        [
+          "FEED"
+        ],
+        [
+          "PASS"
+        ],
+        [
+          "CARE"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "FEED"
+          ],
+          "final": [
+            "FEED"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "fed_today": true
+          },
+          "before_inventory": {
+            "WHEAT": 1
+          },
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "FEED"
+          ],
+          "final": [
+            "PASS"
+          ],
+          "reason": "not_executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 0,
+          "expected_effect": {},
+          "before_inventory": {
+            "WHEAT": 1
+          },
+          "after_inventory": {
+            "WHEAT": 1
+          },
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          }
+        },
+        {
+          "actor_index": 2,
+          "requested": [
+            "CARE"
+          ],
+          "final": [
+            "CARE"
+          ],
+          "reason": "engine_allows_without_same_day_feed",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "cared_today": true
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PASTURE",
+            "resource": "COW",
+            "generation": 0,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": {
+        "kind": "PASTURE",
+        "animal": "COW",
+        "placed_day": 0,
+        "yield_units": 0,
+        "consecutive_unfed": 0,
+        "fed_today": true,
+        "cared_today": true,
+        "fertilizer_available": false,
+        "pending_care_bonus": 0
+      },
+      "final_inventories": [
+        {},
+        {
+          "WHEAT": 1
+        },
+        {}
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "WATER_then_HARVEST",
+      "requested": [
+        [
+          "WATER"
+        ],
+        [
+          "HARVEST"
+        ]
+      ],
+      "final": [
+        [
+          "WATER"
+        ],
+        [
+          "HARVEST"
+        ]
+      ],
+      "expected": [
+        [
+          "WATER"
+        ],
+        [
+          "HARVEST"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "WATER"
+          ],
+          "final": [
+            "WATER"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "watered_today": true
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 3
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 4
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "HARVEST"
+          ],
+          "final": [
+            "HARVEST"
+          ],
+          "reason": "mature_or_animal_yield",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "product": "WHEAT",
+            "units": 4
+          },
+          "before_inventory": {},
+          "after_inventory": {
+            "WHEAT": 4
+          },
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 4
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": null,
+      "final_inventories": [
+        {},
+        {
+          "WHEAT": 4
+        }
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "FERTILIZE_WATER_HARVEST",
+      "requested": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "HARVEST"
+        ]
+      ],
+      "final": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "HARVEST"
+        ]
+      ],
+      "expected": [
+        [
+          "FERTILIZE"
+        ],
+        [
+          "WATER"
+        ],
+        [
+          "HARVEST"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "FERTILIZE"
+          ],
+          "final": [
+            "FERTILIZE"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "until_day": 6
+          },
+          "before_inventory": {
+            "FERTILIZER": 1
+          },
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 3
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 3
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "WATER"
+          ],
+          "final": [
+            "WATER"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "watered_today": true
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 3
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 5
+          }
+        },
+        {
+          "actor_index": 2,
+          "requested": [
+            "HARVEST"
+          ],
+          "final": [
+            "HARVEST"
+          ],
+          "reason": "mature_or_animal_yield",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "product": "WHEAT",
+            "units": 5
+          },
+          "before_inventory": {},
+          "after_inventory": {
+            "WHEAT": 5
+          },
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 5
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": null,
+      "final_inventories": [
+        {},
+        {},
+        {
+          "WHEAT": 5
+        }
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "same_turn_seed_shortage",
+      "requested": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "PLANT",
+          "WHEAT"
+        ]
+      ],
+      "final": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "expected": [
+        [
+          "PLANT",
+          "WHEAT"
+        ],
+        [
+          "PASS"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PLANT",
+            "WHEAT"
+          ],
+          "final": [
+            "PLANT",
+            "WHEAT"
+          ],
+          "reason": "reserved_seed",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "generation": 0
+          },
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": "PLANT",
+            "resource": "WHEAT",
+            "generation": 0,
+            "yield_units": 1
+          }
+        },
+        {
+          "actor_index": 1,
+          "requested": [
+            "PLANT",
+            "WHEAT"
+          ],
+          "final": [
+            "PASS"
+          ],
+          "reason": "not_executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 0,
+          "expected_effect": {},
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              2,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              2,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        1,
+        1
+      ],
+      "final_money": 3000.0,
+      "final_tile": {
+        "kind": "PLANT",
+        "crop": "WHEAT",
+        "planted_day": 0,
+        "watered_today": false,
+        "consecutive_unwatered": 1,
+        "yield_units": 1,
+        "max_lifespan_step": 120,
+        "fertilized_until_day": -1
+      },
+      "final_inventories": [
+        {},
+        {}
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "partial_PICKUP",
+      "requested": [
+        [
+          "PICKUP",
+          "WHEAT",
+          5
+        ]
+      ],
+      "final": [
+        [
+          "PICKUP",
+          "WHEAT",
+          3
+        ]
+      ],
+      "expected": [
+        [
+          "PICKUP",
+          "WHEAT",
+          3
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PICKUP",
+            "WHEAT",
+            5
+          ],
+          "final": [
+            "PICKUP",
+            "WHEAT",
+            3
+          ],
+          "reason": "quantity_clipped_to_available",
+          "model_requested_quantity": 5,
+          "executable_quantity": 3,
+          "expected_effect": {
+            "moved": 3
+          },
+          "before_inventory": {},
+          "after_inventory": {
+            "WHEAT": 3
+          },
+          "before_shed": {
+            "WHEAT": 3,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        4,
+        4
+      ],
+      "final_money": 3000.0,
+      "final_tile": null,
+      "final_inventories": [
+        {
+          "WHEAT": 3
+        }
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "full_shed_DROP_discards_overflow",
+      "requested": [
+        [
+          "DROP"
+        ]
+      ],
+      "final": [
+        [
+          "DROP"
+        ]
+      ],
+      "expected": [
+        [
+          "DROP"
+        ]
+      ],
+      "full_farm_private_engine_exact": true,
+      "trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "DROP"
+          ],
+          "final": [
+            "DROP"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "deposited": {}
+          },
+          "before_inventory": {
+            "WHEAT": 5
+          },
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 100,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 100,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "final_position": [
+        4,
+        4
+      ],
+      "final_money": 3000.0,
+      "final_tile": null,
+      "final_inventories": [
+        {}
+      ],
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 100,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      }
+    },
+    {
+      "name": "partial_BUY_PRODUCT",
+      "actor_requested": [
+        [
+          "PASS"
+        ]
+      ],
+      "actor_final": [
+        [
+          "PASS"
+        ]
+      ],
+      "market_requested": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          20
+        ]
+      ],
+      "market_final": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          2
+        ]
+      ],
+      "full_money_inventory_seed_market_engine_exact": true,
+      "actor_trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PASS"
+          ],
+          "final": [
+            "PASS"
+          ],
+          "reason": "schema_pass",
+          "model_requested_quantity": 1,
+          "executable_quantity": 0,
+          "expected_effect": {},
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market_trace": [
+        {
+          "slot": 0,
+          "requested": [
+            "BUY_PRODUCT",
+            "WHEAT",
+            20
+          ],
+          "final": [
+            "BUY_PRODUCT",
+            "WHEAT",
+            2
+          ],
+          "reason": "partial_fill",
+          "accepted_quantity": 2,
+          "before": {
+            "money": 55.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          },
+          "money_after": 3.0
+        }
+      ],
+      "final_money": 3,
+      "final_shed": {
+        "WHEAT": 2,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "final_seeds": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0
+      }
+    },
+    {
+      "name": "SELL_then_BUY",
+      "actor_requested": [
+        [
+          "PASS"
+        ]
+      ],
+      "actor_final": [
+        [
+          "PASS"
+        ]
+      ],
+      "market_requested": [
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          1
+        ]
+      ],
+      "market_final": [
+        [
+          "SELL",
+          "WHEAT",
+          2
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          1
+        ]
+      ],
+      "full_money_inventory_seed_market_engine_exact": true,
+      "actor_trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "PASS"
+          ],
+          "final": [
+            "PASS"
+          ],
+          "reason": "schema_pass",
+          "model_requested_quantity": 1,
+          "executable_quantity": 0,
+          "expected_effect": {},
+          "before_inventory": {},
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 2,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 2,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              1,
+              1
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market_trace": [
+        {
+          "slot": 0,
+          "requested": [
+            "SELL",
+            "WHEAT",
+            2
+          ],
+          "final": [
+            "SELL",
+            "WHEAT",
+            2
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 2,
+          "before": {
+            "money": 0.0,
+            "shed": {
+              "WHEAT": 2,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          },
+          "money_after": 49.0
+        },
+        {
+          "slot": 1,
+          "requested": [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          "final": [
+            "BUY_PRODUCT",
+            "WHEAT",
+            1
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 1,
+          "before": {
+            "money": 49.0,
+            "shed": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          },
+          "money_after": 25.0
+        }
+      ],
+      "final_money": 25,
+      "final_shed": {
+        "WHEAT": 1,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "final_seeds": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0
+      }
+    },
+    {
+      "name": "actor_DROP_then_SELL",
+      "actor_requested": [
+        [
+          "DROP"
+        ]
+      ],
+      "actor_final": [
+        [
+          "DROP"
+        ]
+      ],
+      "market_requested": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ]
+      ],
+      "market_final": [
+        [
+          "SELL",
+          "WHEAT",
+          5
+        ]
+      ],
+      "full_money_inventory_seed_market_engine_exact": true,
+      "actor_trace": [
+        {
+          "actor_index": 0,
+          "requested": [
+            "DROP"
+          ],
+          "final": [
+            "DROP"
+          ],
+          "reason": "executable",
+          "model_requested_quantity": 1,
+          "executable_quantity": 1,
+          "expected_effect": {
+            "deposited": {
+              "WHEAT": 5
+            }
+          },
+          "before_inventory": {
+            "WHEAT": 5
+          },
+          "after_inventory": {},
+          "before_shed": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "after_shed": {
+            "WHEAT": 5,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0,
+            "EGG": 0,
+            "MILK": 0,
+            "WOOL": 0,
+            "FERTILIZER": 0,
+            "GOOSE": 0,
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "target_before": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          },
+          "target_after": {
+            "position": [
+              4,
+              4
+            ],
+            "kind": null,
+            "resource": null,
+            "generation": null,
+            "yield_units": 0
+          }
+        }
+      ],
+      "market_trace": [
+        {
+          "slot": 0,
+          "requested": [
+            "SELL",
+            "WHEAT",
+            5
+          ],
+          "final": [
+            "SELL",
+            "WHEAT",
+            5
+          ],
+          "reason": "accepted",
+          "accepted_quantity": 5,
+          "before": {
+            "money": 3000.0,
+            "shed": {
+              "WHEAT": 5,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0,
+              "EGG": 0,
+              "MILK": 0,
+              "WOOL": 0,
+              "FERTILIZER": 0,
+              "GOOSE": 0,
+              "COW": 0,
+              "SHEEP": 0
+            },
+            "seeds": {
+              "WHEAT": 0,
+              "CARROT": 0,
+              "TOMATO": 0,
+              "STRAWBERRY": 0,
+              "MELON": 0
+            }
+          },
+          "money_after": 3121.0
+        }
+      ],
+      "final_money": 3121.0,
+      "final_shed": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "final_seeds": {
+        "WHEAT": 0,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0
+      }
+    },
+    {
+      "name": "day_boundary_actor_regeneration_and_market_order",
+      "source_episode": 109118332,
+      "observation_step": 23,
+      "record_index": 24,
+      "action": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [
+          [
+            "PASS"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "PASS"
+          ],
+          [
+            "PASS"
+          ]
+        ],
+        "market": []
+      },
+      "complete_official_next_state_exact": true,
+      "status": "ACTIVE",
+      "next_day": 1,
+      "next_hour": 0
+    },
+    {
+      "name": "terminal_last_executable_decision",
+      "source_episode": 109118332,
+      "observation_step": 718,
+      "record_index": 719,
+      "action": {
+        "farmer": [
+          "NORTH"
+        ],
+        "hands": [
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WEST"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "FERTILIZER",
+            1
+          ]
+        ]
+      },
+      "complete_official_next_state_exact": true,
+      "status": "DONE",
+      "next_day": 29,
+      "next_hour": 23
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "engine": "kagsim",
+  "output": "experiments/round11_execution_20260924/track_a/screen_kagsim",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "more_wheat": {
+      "path": "experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extracted_agent_1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "order_book_v3": {
+      "path": "experiments/round11_execution_20260924/sources/extracted_static/order_book_v3/extracted_agent_1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "moon": {
+      "path": "experiments/round11_execution_20260924/sources/extracted_static/moon/extracted_agent_1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "v15stack": {
+      "path": "experiments/round11_execution_20260924/sources/extracted_static/v15stack/extracted_agent_1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "wonderful": {
+      "path": "experiments/round11_execution_20260924/sources/extracted_static/wonderful/extracted_agent_1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "master_hybrid": {
+      "path": "experiments/round11_execution_20260924/sources/extracted_static/master_hybrid/extracted_agent_1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    }
+  },
+  "opponents": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "family": "herd_safe"
+    },
+    "v57": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+      "mode": "last_callable",
+      "family": "public_router"
+    },
+    "order_book": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+      "mode": "last_callable",
+      "family": "order_book"
+    },
+    "metav4": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py",
+      "mode": "last_callable",
+      "family": "metav4"
+    }
+  },
+  "seeds": [512609241, 512609242, 512609243, 512609244],
+  "seats": [0, 1]
+}

@@ -1,0 +1,67 @@
+{
+  "paired_trajectories": 256,
+  "metric_mismatches": 0,
+  "holdout_transitions": {
+    "W->W": 108,
+    "T->W": 30,
+    "L->L": 19,
+    "W->L": 16,
+    "T->L": 10,
+    "L->W": 5,
+    "T->T": 4
+  },
+  "holdout_changes": {
+    "own_action_changed_decisions": 3234,
+    "own_field_changed_decisions": 736,
+    "own_market_changed_decisions": 2592,
+    "opponent_action_changed_decisions": 2974
+  },
+  "holdout_identical": 28,
+  "holdout_points_delta": -1.0,
+  "holdout_mean_margin_delta": 153.83333333333334,
+  "seed_clusters": 24,
+  "seed_delta_points": {
+    "612609241": -0.375,
+    "612609242": -0.125,
+    "612609243": 0.375,
+    "612609244": -0.125,
+    "612609245": 0.0,
+    "612609246": 0.125,
+    "612609247": 0.125,
+    "612609248": -0.25,
+    "612609249": -0.125,
+    "612609250": 0.125,
+    "612609251": 0.125,
+    "612609252": 0.125,
+    "612609253": 0.125,
+    "612609254": -0.125,
+    "612609255": 0.0,
+    "612609256": 0.125,
+    "612609257": 0.125,
+    "612609258": 0.125,
+    "612609259": 0.125,
+    "612609260": 0.125,
+    "612609261": 0.125,
+    "612609262": -0.125,
+    "612609263": 0.125,
+    "612609264": -0.875
+  },
+  "bootstrap_quantiles": {
+    "0.05": -0.08854166666666667,
+    "0.1": -0.07291666666666667,
+    "0.5": 0.0,
+    "0.9": 0.057291666666666664,
+    "0.95": 0.06770833333333333
+  },
+  "win_to_loss_unique_worlds": 6,
+  "win_to_loss_worlds": [
+    612609241,
+    612609244,
+    612609248,
+    612609249,
+    612609254,
+    612609264
+  ],
+  "cw1_identical": 32,
+  "limitations": "Bootstrap covers supplied related opponents, not source-family generalization; former holdout is now development evidence."
+}

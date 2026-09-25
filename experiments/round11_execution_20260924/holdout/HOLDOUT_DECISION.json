@@ -1,0 +1,58 @@
+{
+  "schema": "round11-holdout-decision-v1",
+  "protocol": "experiments/round11_execution_20260924/holdout/ACCEPTANCE_PROTOCOL.json",
+  "candidate": "m20_multi_hypothesis",
+  "candidate_sha256": "98d374abdf6e28fcde76c1b2da06bef0e1f6da91c3906768c1d8a8d836e92c4a",
+  "decision": "REJECT",
+  "gates": {
+    "coverage": false,
+    "primary": false,
+    "cluster_uncertainty": false,
+    "opponent_guardrail": false,
+    "margin_guardrail": true,
+    "large_regression_guardrail": true,
+    "transition_guardrail": false,
+    "effective_change": true,
+    "official_parity_precondition": true
+  },
+  "metrics": {
+    "games": 384,
+    "paired_candidate_games": 192,
+    "seed_clusters": 24,
+    "baseline_points": 146.0,
+    "candidate_points": 145.0,
+    "candidate_minus_baseline_points": -1.0,
+    "mean_paired_point_delta": -0.005208333333333333,
+    "seed_cluster_mean_point_delta": -0.005208333333333333,
+    "one_sided_90pct_bootstrap_lower": -0.06770833333333333,
+    "bootstrap_draws": 100000,
+    "paired_points_by_opponent": {
+      "B1": 10.0,
+      "metav4": 0.0,
+      "order_book": -7.0,
+      "v57": -4.0
+    },
+    "mean_paired_margin_delta": 153.83333333333334,
+    "minimum_paired_margin_delta": -1849.0,
+    "transitions": {
+      "L->L": 19,
+      "L->W": 5,
+      "T->L": 10,
+      "T->T": 4,
+      "T->W": 30,
+      "W->L": 16,
+      "W->W": 108
+    },
+    "changed_final_action_decisions": 3234,
+    "alternate_forecast_fires": 578.0,
+    "policy_errors": 0.0,
+    "replay_lengths_ok": true,
+    "order_caps_ok": true,
+    "frozen_hashes_ok": false
+  },
+  "limitations": [
+    "Opponent families are public-source relatives and are not independent samples.",
+    "The interval resamples 24 world-seed clusters, not 192 individual games.",
+    "This local result is not a public-rating or 2500/3000 forecast."
+  ]
+}

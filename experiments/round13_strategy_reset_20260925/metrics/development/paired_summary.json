@@ -1,0 +1,236 @@
+{
+  "evaluation_mode": "REACTIVE_FULLGAME",
+  "baseline": "D0_B1",
+  "games": 192,
+  "paired_rows": 144,
+  "thresholds_preregistered": {
+    "practical_minimum_paired_score_gain": 0.03,
+    "allowed_major_family_score_degradation": -0.05,
+    "major_families": [
+      "near_lineage",
+      "diverse_barnyard",
+      "diverse_melon"
+    ],
+    "illegal_or_crash_tolerance": 0,
+    "selection_rule": "No holdout unless development clears both score thresholds and execution validity."
+  },
+  "summaries": [
+    {
+      "arm": "M1_deadline_market",
+      "games": 48,
+      "baseline_wdl": {
+        "D": 6,
+        "L": 5,
+        "W": 37
+      },
+      "candidate_wdl": {
+        "L": 25,
+        "W": 23
+      },
+      "baseline_mean_score": 0.8333333333333334,
+      "candidate_mean_score": 0.4791666666666667,
+      "paired_score_delta": -0.3541666666666667,
+      "equal_family_weighted_score_delta": -0.17708333333333334,
+      "seed_bootstrap_95pct": [
+        -0.5416666666666667,
+        -0.10416666666666667
+      ],
+      "baseline_mean_self_cash": 98837.70833333333,
+      "candidate_mean_self_cash": 98671.64583333333,
+      "baseline_mean_opp_cash": 92318.52083333333,
+      "candidate_mean_opp_cash": 92800.9375,
+      "mean_delta_self": -166.0625,
+      "mean_delta_opp": 482.4166666666667,
+      "mean_delta_margin": -648.4791666666666,
+      "transitions": {
+        "D->L": 6,
+        "L->L": 5,
+        "W->L": 14,
+        "W->W": 23
+      },
+      "execution_valid_games": 28,
+      "completion_statuses": {
+        "DEADLINES_FILLED": 28,
+        "DEADLINE_UNFILLED": 20
+      },
+      "triggered_games": 48,
+      "triggered_mean_delta_score": -0.3541666666666667,
+      "triggered_mean_delta_self": -166.0625,
+      "triggered_mean_delta_opp": 482.4166666666667,
+      "triggered_mean_delta_margin": -648.4791666666666,
+      "families": {
+        "diverse_barnyard": {
+          "games": 8,
+          "condition_weight": 0.16666666666666666,
+          "mean_delta_score": 0.0,
+          "mean_delta_self": 238.25,
+          "mean_delta_opp": 686.0,
+          "mean_delta_margin": -447.75
+        },
+        "diverse_melon": {
+          "games": 8,
+          "condition_weight": 0.16666666666666666,
+          "mean_delta_score": 0.0,
+          "mean_delta_self": -14.0,
+          "mean_delta_opp": 358.375,
+          "mean_delta_margin": -372.375
+        },
+        "near_lineage": {
+          "games": 32,
+          "condition_weight": 0.6666666666666666,
+          "mean_delta_score": -0.53125,
+          "mean_delta_self": -305.15625,
+          "mean_delta_opp": 462.53125,
+          "mean_delta_margin": -767.6875
+        }
+      },
+      "development_gate_pass": false,
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "arm": "P_EARLY4",
+      "games": 48,
+      "baseline_wdl": {
+        "D": 6,
+        "L": 5,
+        "W": 37
+      },
+      "candidate_wdl": {
+        "L": 40,
+        "W": 8
+      },
+      "baseline_mean_score": 0.8333333333333334,
+      "candidate_mean_score": 0.16666666666666666,
+      "paired_score_delta": -0.6666666666666666,
+      "equal_family_weighted_score_delta": -0.5520833333333334,
+      "seed_bootstrap_95pct": [
+        -0.75,
+        -0.5
+      ],
+      "baseline_mean_self_cash": 98837.70833333333,
+      "candidate_mean_self_cash": 95040.75,
+      "baseline_mean_opp_cash": 92318.52083333333,
+      "candidate_mean_opp_cash": 105612.20833333333,
+      "mean_delta_self": -3796.9583333333335,
+      "mean_delta_opp": 13293.6875,
+      "mean_delta_margin": -17090.645833333332,
+      "transitions": {
+        "D->L": 6,
+        "L->L": 5,
+        "W->L": 29,
+        "W->W": 8
+      },
+      "execution_valid_games": 48,
+      "completion_statuses": {
+        "EARLY4_SOLD": 48
+      },
+      "triggered_games": 48,
+      "triggered_mean_delta_score": -0.6666666666666666,
+      "triggered_mean_delta_self": -3796.9583333333335,
+      "triggered_mean_delta_opp": 13293.6875,
+      "triggered_mean_delta_margin": -17090.645833333332,
+      "families": {
+        "diverse_barnyard": {
+          "games": 8,
+          "condition_weight": 0.16666666666666666,
+          "mean_delta_score": 0.0,
+          "mean_delta_self": -10425.75,
+          "mean_delta_opp": 10487.75,
+          "mean_delta_margin": -20913.5
+        },
+        "diverse_melon": {
+          "games": 8,
+          "condition_weight": 0.16666666666666666,
+          "mean_delta_score": -0.875,
+          "mean_delta_self": -2150.625,
+          "mean_delta_opp": 14987.0,
+          "mean_delta_margin": -17137.625
+        },
+        "near_lineage": {
+          "games": 32,
+          "condition_weight": 0.6666666666666666,
+          "mean_delta_score": -0.78125,
+          "mean_delta_self": -2551.34375,
+          "mean_delta_opp": 13571.84375,
+          "mean_delta_margin": -16123.1875
+        }
+      },
+      "development_gate_pass": false,
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "arm": "P_ROTATE2",
+      "games": 48,
+      "baseline_wdl": {
+        "D": 6,
+        "L": 5,
+        "W": 37
+      },
+      "candidate_wdl": {
+        "D": 2,
+        "L": 29,
+        "W": 17
+      },
+      "baseline_mean_score": 0.8333333333333334,
+      "candidate_mean_score": 0.375,
+      "paired_score_delta": -0.4583333333333333,
+      "equal_family_weighted_score_delta": -0.4791666666666667,
+      "seed_bootstrap_95pct": [
+        -0.8333333333333333,
+        -0.08333333333333333
+      ],
+      "baseline_mean_self_cash": 98837.70833333333,
+      "candidate_mean_self_cash": 93061.33333333333,
+      "baseline_mean_opp_cash": 92318.52083333333,
+      "candidate_mean_opp_cash": 95765.14583333333,
+      "mean_delta_self": -5776.375,
+      "mean_delta_opp": 3446.625,
+      "mean_delta_margin": -9223.0,
+      "transitions": {
+        "D->D": 2,
+        "D->L": 4,
+        "L->L": 5,
+        "W->L": 20,
+        "W->W": 17
+      },
+      "execution_valid_games": 48,
+      "completion_statuses": {
+        "NOT_TRIGGERED": 24,
+        "ROTATE2_CONVERTED": 24
+      },
+      "triggered_games": 24,
+      "triggered_mean_delta_score": -0.9166666666666666,
+      "triggered_mean_delta_self": -11552.75,
+      "triggered_mean_delta_opp": 6893.25,
+      "triggered_mean_delta_margin": -18446.0,
+      "families": {
+        "diverse_barnyard": {
+          "games": 8,
+          "condition_weight": 0.16666666666666666,
+          "mean_delta_score": -0.5,
+          "mean_delta_self": -17749.5,
+          "mean_delta_opp": 10322.0,
+          "mean_delta_margin": -28071.5
+        },
+        "diverse_melon": {
+          "games": 8,
+          "condition_weight": 0.16666666666666666,
+          "mean_delta_score": -0.5,
+          "mean_delta_self": -3795.5,
+          "mean_delta_opp": 1418.25,
+          "mean_delta_margin": -5213.75
+        },
+        "near_lineage": {
+          "games": 32,
+          "condition_weight": 0.6666666666666666,
+          "mean_delta_score": -0.4375,
+          "mean_delta_self": -3278.3125,
+          "mean_delta_opp": 2234.875,
+          "mean_delta_margin": -5513.1875
+        }
+      },
+      "development_gate_pass": false,
+      "status": "RESEARCH_ONLY"
+    }
+  ]
+}

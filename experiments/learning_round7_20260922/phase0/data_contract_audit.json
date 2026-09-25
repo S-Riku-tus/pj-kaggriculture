@@ -1,0 +1,366 @@
+{
+  "temporal_contract": "observation/state t -> action stored at record t+1 -> state t+1",
+  "feature_parity": {
+    "actor": {
+      "test": {
+        "episode_id": 111063979,
+        "seat": 0,
+        "step": 2,
+        "actor_index": 3,
+        "base_equal": true,
+        "prefix_equal": true,
+        "runtime_concat_equal": true,
+        "runtime_sha256": "7962612f2b5d6b984acefe3956726d4aa5458286bd4f421757723265cd805d82"
+      },
+      "train": {
+        "episode_id": 111058336,
+        "seat": 0,
+        "step": 3,
+        "actor_index": 1,
+        "base_equal": true,
+        "prefix_equal": true,
+        "runtime_concat_equal": true,
+        "runtime_sha256": "655b9f4f6ebfa62bae6acd9c6b9b8d4b45ec38ed2b6f0f846e29d2b41504c2ad"
+      },
+      "validation": {
+        "episode_id": 110989428,
+        "seat": 0,
+        "step": 2,
+        "actor_index": 4,
+        "base_equal": true,
+        "prefix_equal": true,
+        "runtime_concat_equal": true,
+        "runtime_sha256": "10c8693a178f3e174a8ec030cb5e92533891f227845a1fd82676311b535885a5"
+      }
+    },
+    "market": {
+      "test": {
+        "episode_id": 111063979,
+        "seat": 0,
+        "step": 0,
+        "equal": true,
+        "runtime_sha256": "0adb4cce65d45eb7c915ef3a82a626ae67550d7e3db9e41ee448a6f50eb1f2f4"
+      },
+      "train": {
+        "episode_id": 111058336,
+        "seat": 0,
+        "step": 0,
+        "equal": true,
+        "runtime_sha256": "0adb4cce65d45eb7c915ef3a82a626ae67550d7e3db9e41ee448a6f50eb1f2f4"
+      },
+      "validation": {
+        "episode_id": 110989428,
+        "seat": 0,
+        "step": 0,
+        "equal": true,
+        "runtime_sha256": "0adb4cce65d45eb7c915ef3a82a626ae67550d7e3db9e41ee448a6f50eb1f2f4"
+      }
+    },
+    "all_equal": true
+  },
+  "encode_decode": {
+    "diagnostic_episode_seats": 8,
+    "counts": {
+      "actor_rows": 57665,
+      "actor_formal_exact": 57665,
+      "actor_semantic_canonical_exact": 57665,
+      "market_rows": 7329,
+      "market_formal_exact": 7329
+    },
+    "legality_by_token": {
+      "actor:PASS:rows": 432,
+      "actor:PASS:legal": 432,
+      "actor:PICKUP:COW:rows": 158,
+      "actor:PICKUP:COW:legal": 101,
+      "actor:BUILD_PASTURE:rows": 106,
+      "actor:BUILD_PASTURE:legal": 106,
+      "actor:PICKUP:SHEEP:rows": 24,
+      "actor:PICKUP:SHEEP:legal": 24,
+      "actor:PLACE:COW:rows": 101,
+      "actor:PLACE:COW:legal": 101,
+      "actor:NORTH:rows": 8984,
+      "actor:NORTH:legal": 8984,
+      "actor:WEST:rows": 7669,
+      "actor:WEST:legal": 7669,
+      "actor:PICKUP:WHEAT:rows": 1310,
+      "actor:PICKUP:WHEAT:legal": 1288,
+      "actor:FEED:rows": 2179,
+      "actor:FEED:legal": 2179,
+      "actor:PLACE:SHEEP:rows": 24,
+      "actor:PLACE:SHEEP:legal": 24,
+      "actor:CARE:rows": 2270,
+      "actor:CARE:legal": 2044,
+      "actor:SOUTH:rows": 5558,
+      "actor:SOUTH:legal": 5558,
+      "actor:PLANT:MELON:rows": 98,
+      "actor:PLANT:MELON:legal": 98,
+      "actor:WATER:rows": 11454,
+      "actor:WATER:legal": 11454,
+      "actor:PLANT:WHEAT:rows": 1153,
+      "actor:PLANT:WHEAT:legal": 1153,
+      "actor:EAST:rows": 5517,
+      "actor:EAST:legal": 5517,
+      "actor:COLLECT_FERTILIZER:rows": 2663,
+      "actor:COLLECT_FERTILIZER:legal": 2663,
+      "actor:PLACE:FERTILIZER:rows": 484,
+      "actor:PLACE:FERTILIZER:legal": 484,
+      "actor:HARVEST:rows": 3972,
+      "actor:HARVEST:legal": 3182,
+      "actor:PLANT:STRAWBERRY:rows": 279,
+      "actor:PLANT:STRAWBERRY:legal": 279,
+      "actor:DROP:rows": 606,
+      "actor:DROP:legal": 606,
+      "actor:PLACE:WOOL:rows": 40,
+      "actor:PLACE:WOOL:legal": 40,
+      "actor:PLACE:MILK:rows": 227,
+      "actor:PLACE:MILK:legal": 227,
+      "actor:FERTILIZE:rows": 1242,
+      "actor:FERTILIZE:legal": 1242,
+      "actor:DIG:rows": 282,
+      "actor:DIG:legal": 282,
+      "actor:PLANT:CARROT:rows": 731,
+      "actor:PLANT:CARROT:legal": 731,
+      "actor:PLANT:TOMATO:rows": 46,
+      "actor:PLANT:TOMATO:legal": 46,
+      "actor:PICKUP:GOOSE:rows": 29,
+      "actor:PICKUP:GOOSE:legal": 12,
+      "actor:BUILD_COOP:rows": 12,
+      "actor:BUILD_COOP:legal": 12,
+      "actor:PLACE:GOOSE:rows": 14,
+      "actor:PLACE:GOOSE:legal": 14,
+      "actor:PLACE:MELON:rows": 1,
+      "actor:PLACE:MELON:legal": 1
+    },
+    "invalid_teacher_examples": [
+      {
+        "episode_id": 109590135,
+        "step": 7,
+        "actor_index": 1,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 29,
+        "actor_index": 3,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 30,
+        "actor_index": 0,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 53,
+        "actor_index": 3,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 78,
+        "actor_index": 3,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 99,
+        "actor_index": 1,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 102,
+        "actor_index": 3,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 126,
+        "actor_index": 3,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 138,
+        "actor_index": 3,
+        "action": [
+          "PICKUP",
+          "WHEAT",
+          1
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 142,
+        "actor_index": 3,
+        "action": [
+          "PICKUP",
+          "WHEAT",
+          1
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 146,
+        "actor_index": 4,
+        "action": [
+          "HARVEST"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 147,
+        "actor_index": 1,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 152,
+        "actor_index": 0,
+        "action": [
+          "HARVEST"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 154,
+        "actor_index": 2,
+        "action": [
+          "HARVEST"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 159,
+        "actor_index": 2,
+        "action": [
+          "PICKUP",
+          "COW",
+          1
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 159,
+        "actor_index": 3,
+        "action": [
+          "PICKUP",
+          "COW",
+          1
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 159,
+        "actor_index": 4,
+        "action": [
+          "PICKUP",
+          "COW",
+          1
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 159,
+        "actor_index": 5,
+        "action": [
+          "PICKUP",
+          "COW",
+          1
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 177,
+        "actor_index": 2,
+        "action": [
+          "CARE"
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      },
+      {
+        "episode_id": 109590135,
+        "step": 179,
+        "actor_index": 9,
+        "action": [
+          "PICKUP",
+          "WHEAT",
+          3
+        ],
+        "reason": "teacher_request_not_in_pre_action_legal_mask"
+      }
+    ],
+    "note": "Teacher requests outside the pre-action mask are retained as teacher requests, not redefined as legal ground truth."
+  },
+  "leakage_and_quantity": {
+    "forbidden_identity_and_future_fields_ignored": true,
+    "runtime_inputs": "public farms/market/town plus focal private state and own emitted-order history",
+    "opponent_private_used": false,
+    "farm_order": "absolute farm0 then farm1; player bit is explicit; self/opponent are not canonicalized",
+    "same_token_different_quantity_prefix_equal": true,
+    "quantity_collapse": {
+      "prefix_a": [
+        {
+          "token": "PICKUP:WHEAT",
+          "quantity": 1
+        }
+      ],
+      "prefix_b": [
+        {
+          "token": "PICKUP:WHEAT",
+          "quantity": 7
+        }
+      ],
+      "feature_sha256": "738ed114353cee96f07e97e1195df096d43bedcc7e8aea81de91148a086d4254",
+      "consequence": "next actor cannot distinguish the two quantities from the added 88 prefix features alone"
+    }
+  },
+  "split": {
+    "unit": "episode_id",
+    "unique_episodes": 850,
+    "cross_partition_episode_ids": [],
+    "duplicate_views_cross_partitions": false,
+    "counts": {
+      "train": 595,
+      "validation": 127,
+      "test": 128
+    }
+  }
+}

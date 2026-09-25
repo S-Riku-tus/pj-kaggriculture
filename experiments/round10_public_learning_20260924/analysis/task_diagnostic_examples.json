@@ -1,0 +1,480 @@
+{
+  "pipeline": [
+    "observation",
+    "candidate_contract",
+    "model_score",
+    "threshold_correction",
+    "actual_execution",
+    "completion_check",
+    "terminal_training_label"
+  ],
+  "information_boundary": {
+    "features": "current public observation, own executed state/history, and candidate specification",
+    "excluded_from_agent": [
+      "opponent private state",
+      "future shop sequence",
+      "future opponent actions",
+      "terminal fork label"
+    ],
+    "oracle": "terminal labels are diagnostic/training data only"
+  },
+  "examples": [
+    {
+      "name": "largest_positive_teacher_fork",
+      "identity": {
+        "candidate_id": "fertilize_then_water:s131:a3:x0y3",
+        "group_id": "melon_threshold:2026092413",
+        "seed": 2026092413,
+        "seat": 0,
+        "opponent_id": "melon_threshold",
+        "split": "train"
+      },
+      "observation_features": {
+        "crop_WHEAT": 1.0,
+        "crop_CARROT": 0.0,
+        "crop_TOMATO": 0.0,
+        "crop_STRAWBERRY": 0.0,
+        "crop_MELON": 0.0,
+        "day_29": 0.1724137931034483,
+        "hour_23": 0.4782608695652174,
+        "crop_age_12": 0.16666666666666666,
+        "yield_fraction": 0.16666666666666666,
+        "consecutive_unwatered_2": 0.0,
+        "fertilizer_carried_5": 0.2,
+        "fertilizer_shed_20": 0.0,
+        "own_money_10000": 0.0623,
+        "cash_lead_10000": -0.0006,
+        "crop_price_300": 0.1,
+        "fertilizer_price_150": 0.6133333333333333,
+        "price_advantage_300": -0.20666666666666667,
+        "unlocked_quadrants_4": 0.25,
+        "actor_6": 0.5,
+        "x_9": 0.0,
+        "y_9": 0.3333333333333333,
+        "remaining_steps_720": 0.8166666666666667,
+        "crop_market_inventory_delta_400": -0.055,
+        "fert_market_inventory_delta_400": 0.095,
+        "unlocked_shops_4": 0.25
+      },
+      "candidate_contract": {
+        "target_identity": {
+          "type": "crop",
+          "coordinate": [
+            0,
+            3
+          ],
+          "resource": "WHEAT",
+          "generation_or_placement_day": 3
+        },
+        "required_carried": {
+          "FERTILIZER": 1
+        },
+        "reserved_resources": {
+          "actor": 3,
+          "FERTILIZER": 1,
+          "target": [
+            0,
+            3
+          ]
+        },
+        "start_condition": "baseline WATER; production due; unfertilized; carried FERTILIZER; no harmful same-target predecessor",
+        "planned_actions": [
+          [
+            "FERTILIZE"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "completion": "fertilized_until_day >= day+2 and watered_today true on the same crop generation",
+        "failure": "actor/target/day changed or either engine effect was not observed",
+        "recovery": "return to freshly computed base action after checking the real remaining WATER obligation"
+      },
+      "model_scoring": {
+        "probability": 0.7109440801584915,
+        "threshold": 0.95,
+        "learned_selected": false,
+        "rule_selected": false,
+        "correction": "abstain_to_B1"
+      },
+      "forced_teacher_execution": {
+        "events": [
+          {
+            "event": "fertilize_committed",
+            "step": 131,
+            "candidate_id": "fertilize_then_water:s131:a3:x0y3",
+            "actor": 3,
+            "target": [
+              0,
+              3
+            ],
+            "features": {
+              "crop_WHEAT": 1.0,
+              "crop_CARROT": 0.0,
+              "crop_TOMATO": 0.0,
+              "crop_STRAWBERRY": 0.0,
+              "crop_MELON": 0.0,
+              "day_29": 0.1724137931034483,
+              "hour_23": 0.4782608695652174,
+              "crop_age_12": 0.16666666666666666,
+              "yield_fraction": 0.16666666666666666,
+              "consecutive_unwatered_2": 0.0,
+              "fertilizer_carried_5": 0.2,
+              "fertilizer_shed_20": 0.0,
+              "own_money_10000": 0.0623,
+              "cash_lead_10000": -0.0006,
+              "crop_price_300": 0.1,
+              "fertilizer_price_150": 0.6133333333333333,
+              "price_advantage_300": -0.20666666666666667,
+              "unlocked_quadrants_4": 0.25,
+              "actor_6": 0.5,
+              "x_9": 0.0,
+              "y_9": 0.3333333333333333,
+              "remaining_steps_720": 0.8166666666666667,
+              "crop_market_inventory_delta_400": -0.055,
+              "fert_market_inventory_delta_400": 0.095,
+              "unlocked_shops_4": 0.25
+            },
+            "probability": null
+          },
+          {
+            "event": "water_committed",
+            "step": 132,
+            "candidate_id": "fertilize_then_water:s131:a3:x0y3",
+            "actor": 3
+          },
+          {
+            "event": "task_completed",
+            "step": 133,
+            "candidate_id": "fertilize_then_water:s131:a3:x0y3"
+          }
+        ],
+        "tasks_started": 1,
+        "tasks_completed": 1,
+        "contract_failures": 0,
+        "remaining_obligations": {},
+        "prefix_match": true
+      },
+      "terminal_label": {
+        "baseline_margin": 2909.0,
+        "treatment_margin": 15101.0,
+        "margin_delta": 12192.0,
+        "win_delta": 0,
+        "future_result_is_training_label_only": true
+      },
+      "evidence": {
+        "baseline_replay": "experiments/round10_public_learning_20260924/training/task_labels/replays/baseline/melon_threshold/seed_2026092413_seat_0.json.gz",
+        "treatment_replay": "experiments/round10_public_learning_20260924/training/task_labels/replays/treatment/melon_threshold/seed_2026092413_seat_0_fertilize_then_water_s131_a3_x0y3.json.gz",
+        "treatment_replay_sha256": "e1ff6b8485a617159357a64db7be507ccbf9e4ded69b4154ea55c81a31ac1fa3"
+      }
+    },
+    {
+      "name": "highest_scored_negative",
+      "identity": {
+        "candidate_id": "fertilize_then_water:s131:a3:x0y3",
+        "group_id": "metav4:2026092413",
+        "seed": 2026092413,
+        "seat": 1,
+        "opponent_id": "metav4",
+        "split": "test"
+      },
+      "observation_features": {
+        "crop_WHEAT": 1.0,
+        "crop_CARROT": 0.0,
+        "crop_TOMATO": 0.0,
+        "crop_STRAWBERRY": 0.0,
+        "crop_MELON": 0.0,
+        "day_29": 0.1724137931034483,
+        "hour_23": 0.4782608695652174,
+        "crop_age_12": 0.16666666666666666,
+        "yield_fraction": 0.16666666666666666,
+        "consecutive_unwatered_2": 0.0,
+        "fertilizer_carried_5": 0.2,
+        "fertilizer_shed_20": 0.0,
+        "own_money_10000": 0.0625,
+        "cash_lead_10000": -0.0002,
+        "crop_price_300": 0.1,
+        "fertilizer_price_150": 0.6133333333333333,
+        "price_advantage_300": -0.20666666666666667,
+        "unlocked_quadrants_4": 0.25,
+        "actor_6": 0.5,
+        "x_9": 0.0,
+        "y_9": 0.3333333333333333,
+        "remaining_steps_720": 0.8166666666666667,
+        "crop_market_inventory_delta_400": -0.055,
+        "fert_market_inventory_delta_400": 0.095,
+        "unlocked_shops_4": 0.25
+      },
+      "candidate_contract": {
+        "target_identity": {
+          "type": "crop",
+          "coordinate": [
+            0,
+            3
+          ],
+          "resource": "WHEAT",
+          "generation_or_placement_day": 3
+        },
+        "required_carried": {
+          "FERTILIZER": 1
+        },
+        "reserved_resources": {
+          "actor": 3,
+          "FERTILIZER": 1,
+          "target": [
+            0,
+            3
+          ]
+        },
+        "start_condition": "baseline WATER; production due; unfertilized; carried FERTILIZER; no harmful same-target predecessor",
+        "planned_actions": [
+          [
+            "FERTILIZE"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "completion": "fertilized_until_day >= day+2 and watered_today true on the same crop generation",
+        "failure": "actor/target/day changed or either engine effect was not observed",
+        "recovery": "return to freshly computed base action after checking the real remaining WATER obligation"
+      },
+      "model_scoring": {
+        "probability": 0.7109025854089975,
+        "threshold": 0.95,
+        "learned_selected": false,
+        "rule_selected": false,
+        "correction": "abstain_to_B1"
+      },
+      "forced_teacher_execution": {
+        "events": [
+          {
+            "event": "fertilize_committed",
+            "step": 131,
+            "candidate_id": "fertilize_then_water:s131:a3:x0y3",
+            "actor": 3,
+            "target": [
+              0,
+              3
+            ],
+            "features": {
+              "crop_WHEAT": 1.0,
+              "crop_CARROT": 0.0,
+              "crop_TOMATO": 0.0,
+              "crop_STRAWBERRY": 0.0,
+              "crop_MELON": 0.0,
+              "day_29": 0.1724137931034483,
+              "hour_23": 0.4782608695652174,
+              "crop_age_12": 0.16666666666666666,
+              "yield_fraction": 0.16666666666666666,
+              "consecutive_unwatered_2": 0.0,
+              "fertilizer_carried_5": 0.2,
+              "fertilizer_shed_20": 0.0,
+              "own_money_10000": 0.0625,
+              "cash_lead_10000": -0.0002,
+              "crop_price_300": 0.1,
+              "fertilizer_price_150": 0.6133333333333333,
+              "price_advantage_300": -0.20666666666666667,
+              "unlocked_quadrants_4": 0.25,
+              "actor_6": 0.5,
+              "x_9": 0.0,
+              "y_9": 0.3333333333333333,
+              "remaining_steps_720": 0.8166666666666667,
+              "crop_market_inventory_delta_400": -0.055,
+              "fert_market_inventory_delta_400": 0.095,
+              "unlocked_shops_4": 0.25
+            },
+            "probability": null
+          },
+          {
+            "event": "water_committed",
+            "step": 132,
+            "candidate_id": "fertilize_then_water:s131:a3:x0y3",
+            "actor": 3
+          },
+          {
+            "event": "task_completed",
+            "step": 133,
+            "candidate_id": "fertilize_then_water:s131:a3:x0y3"
+          }
+        ],
+        "tasks_started": 1,
+        "tasks_completed": 1,
+        "contract_failures": 0,
+        "remaining_obligations": {},
+        "prefix_match": true
+      },
+      "terminal_label": {
+        "baseline_margin": 151.0,
+        "treatment_margin": -1198.0,
+        "margin_delta": -1349.0,
+        "win_delta": -2,
+        "future_result_is_training_label_only": true
+      },
+      "evidence": {
+        "baseline_replay": "experiments/round10_public_learning_20260924/training/task_labels/replays/baseline/metav4/seed_2026092413_seat_1.json.gz",
+        "treatment_replay": "experiments/round10_public_learning_20260924/training/task_labels/replays/treatment/metav4/seed_2026092413_seat_1_fertilize_then_water_s131_a3_x0y3.json.gz",
+        "treatment_replay_sha256": "f721e41afe2c8c21bfa8e4b0ffe26ab5a6a68d65e44bfbdc07a18b399b711a43"
+      }
+    },
+    {
+      "name": "most_harmful_rule_selected_fork",
+      "identity": {
+        "candidate_id": "fertilize_then_water:s175:a0:x1y4",
+        "group_id": "ahmed_v57:2026092413",
+        "seed": 2026092413,
+        "seat": 0,
+        "opponent_id": "ahmed_v57",
+        "split": "train"
+      },
+      "observation_features": {
+        "crop_WHEAT": 0.0,
+        "crop_CARROT": 0.0,
+        "crop_TOMATO": 0.0,
+        "crop_STRAWBERRY": 0.0,
+        "crop_MELON": 1.0,
+        "day_29": 0.2413793103448276,
+        "hour_23": 0.30434782608695654,
+        "crop_age_12": 0.5833333333333334,
+        "yield_fraction": 0.3333333333333333,
+        "consecutive_unwatered_2": 0.0,
+        "fertilizer_carried_5": 0.2,
+        "fertilizer_shed_20": 0.05,
+        "own_money_10000": 0.0999,
+        "cash_lead_10000": -0.0202,
+        "crop_price_300": 0.8966666666666666,
+        "fertilizer_price_150": 0.58,
+        "price_advantage_300": 0.6066666666666667,
+        "unlocked_quadrants_4": 0.5,
+        "actor_6": 0.0,
+        "x_9": 0.1111111111111111,
+        "y_9": 0.4444444444444444,
+        "remaining_steps_720": 0.7555555555555555,
+        "crop_market_inventory_delta_400": -0.02,
+        "fert_market_inventory_delta_400": 0.16,
+        "unlocked_shops_4": 0.5
+      },
+      "candidate_contract": {
+        "target_identity": {
+          "type": "crop",
+          "coordinate": [
+            1,
+            4
+          ],
+          "resource": "MELON",
+          "generation_or_placement_day": 0
+        },
+        "required_carried": {
+          "FERTILIZER": 1
+        },
+        "reserved_resources": {
+          "actor": 0,
+          "FERTILIZER": 1,
+          "target": [
+            1,
+            4
+          ]
+        },
+        "start_condition": "baseline WATER; production due; unfertilized; carried FERTILIZER; no harmful same-target predecessor",
+        "planned_actions": [
+          [
+            "FERTILIZE"
+          ],
+          [
+            "WATER"
+          ]
+        ],
+        "completion": "fertilized_until_day >= day+2 and watered_today true on the same crop generation",
+        "failure": "actor/target/day changed or either engine effect was not observed",
+        "recovery": "return to freshly computed base action after checking the real remaining WATER obligation"
+      },
+      "model_scoring": {
+        "probability": 0.3813490077731055,
+        "threshold": 0.95,
+        "learned_selected": false,
+        "rule_selected": true,
+        "correction": "abstain_to_B1"
+      },
+      "forced_teacher_execution": {
+        "events": [
+          {
+            "event": "fertilize_committed",
+            "step": 175,
+            "candidate_id": "fertilize_then_water:s175:a0:x1y4",
+            "actor": 0,
+            "target": [
+              1,
+              4
+            ],
+            "features": {
+              "crop_WHEAT": 0.0,
+              "crop_CARROT": 0.0,
+              "crop_TOMATO": 0.0,
+              "crop_STRAWBERRY": 0.0,
+              "crop_MELON": 1.0,
+              "day_29": 0.2413793103448276,
+              "hour_23": 0.30434782608695654,
+              "crop_age_12": 0.5833333333333334,
+              "yield_fraction": 0.3333333333333333,
+              "consecutive_unwatered_2": 0.0,
+              "fertilizer_carried_5": 0.2,
+              "fertilizer_shed_20": 0.05,
+              "own_money_10000": 0.0999,
+              "cash_lead_10000": -0.0202,
+              "crop_price_300": 0.8966666666666666,
+              "fertilizer_price_150": 0.58,
+              "price_advantage_300": 0.6066666666666667,
+              "unlocked_quadrants_4": 0.5,
+              "actor_6": 0.0,
+              "x_9": 0.1111111111111111,
+              "y_9": 0.4444444444444444,
+              "remaining_steps_720": 0.7555555555555555,
+              "crop_market_inventory_delta_400": -0.02,
+              "fert_market_inventory_delta_400": 0.16,
+              "unlocked_shops_4": 0.5
+            },
+            "probability": null
+          },
+          {
+            "event": "water_committed",
+            "step": 176,
+            "candidate_id": "fertilize_then_water:s175:a0:x1y4",
+            "actor": 0
+          },
+          {
+            "event": "task_completed",
+            "step": 177,
+            "candidate_id": "fertilize_then_water:s175:a0:x1y4"
+          }
+        ],
+        "tasks_started": 1,
+        "tasks_completed": 1,
+        "contract_failures": 0,
+        "remaining_obligations": {},
+        "prefix_match": true
+      },
+      "terminal_label": {
+        "baseline_margin": -4.0,
+        "treatment_margin": -892.0,
+        "margin_delta": -888.0,
+        "win_delta": 0,
+        "future_result_is_training_label_only": true
+      },
+      "evidence": {
+        "baseline_replay": "experiments/round10_public_learning_20260924/training/task_labels/replays/baseline/ahmed_v57/seed_2026092413_seat_0.json.gz",
+        "treatment_replay": "experiments/round10_public_learning_20260924/training/task_labels/replays/treatment/ahmed_v57/seed_2026092413_seat_0_fertilize_then_water_s175_a0_x1y4.json.gz",
+        "treatment_replay_sha256": "6d4855e9f74bbdcfd126bedb68c8e254b5fab6bfc8d4140a4e689cf08f00d47e"
+      }
+    }
+  ],
+  "fresh_interactive_evaluation": {
+    "games": 24,
+    "model_loaded_games": 24,
+    "model_calls": 1344,
+    "model_selected_tasks": 0,
+    "model_changed_final_actions": 0,
+    "contract_failures": 0,
+    "conclusion": "model loaded and scored candidates, but abstained in every fresh game"
+  },
+  "honest_status": "learning contribution not established because the learned selector changed zero fresh actions"
+}

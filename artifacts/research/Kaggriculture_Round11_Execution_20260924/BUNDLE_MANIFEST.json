@@ -1,0 +1,1244 @@
+{
+  "schema": "kaggriculture-round11-final-bundle-manifest-v1",
+  "created_at_utc": "2026-09-24T12:41:28.439895+00:00",
+  "decision": "KEEP_B1",
+  "new_candidate_archive_included": false,
+  "retained_baseline_archive_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+  "files_excluding_this_manifest": 176,
+  "bytes_excluding_this_manifest": 80195676,
+  "files": [
+    {
+      "path": "ARM_REGISTRY.json",
+      "source": "experiments/round11_execution_20260924/ARM_REGISTRY.json",
+      "category": "final-document",
+      "bytes": 10894,
+      "sha256": "8263eae06933e2381ed0a6d0f7909f500b52c1f727e97711943eb31bc73bd85f"
+    },
+    {
+      "path": "EFFECTIVE_DIFFS.md",
+      "source": "experiments/round11_execution_20260924/EFFECTIVE_DIFFS.md",
+      "category": "final-document",
+      "bytes": 1904,
+      "sha256": "407eb62a50027e09bffbbbe523da1e31e409257395015321f67e7efe084fb1e0"
+    },
+    {
+      "path": "EXPERIMENT_COVERAGE.json",
+      "source": "experiments/round11_execution_20260924/EXPERIMENT_COVERAGE.json",
+      "category": "final-document",
+      "bytes": 4715,
+      "sha256": "f7c2968f1d546126e916f609ef2f80037029fbe15169e749fcda6edb47d29d6e"
+    },
+    {
+      "path": "FINAL_STATUS.json",
+      "source": "experiments/round11_execution_20260924/FINAL_STATUS.json",
+      "category": "final-document",
+      "bytes": 2649,
+      "sha256": "b1612e1a1c1bab633354f582feeb634a2f4ec615e5dabd74ae82e785616942b6"
+    },
+    {
+      "path": "HASH_AUDIT.json",
+      "source": "experiments/round11_execution_20260924/HASH_AUDIT.json",
+      "category": "final-document",
+      "bytes": 723,
+      "sha256": "a197351877e2fc176dc2df5dad44e6fc02ac90e0f8ad377f213bcf95b9af3a93"
+    },
+    {
+      "path": "MODEL_USAGE.json",
+      "source": "experiments/round11_execution_20260924/MODEL_USAGE.json",
+      "category": "final-document",
+      "bytes": 461,
+      "sha256": "9cb48e006f8a13468ea50ec845427a4bec6645aa45739bffc9924e60c600bfdb"
+    },
+    {
+      "path": "README.md",
+      "source": "experiments/round11_execution_20260924/README.md",
+      "category": "final-document",
+      "bytes": 347,
+      "sha256": "7957b24ccb58c53f8c83deb7fe8f3d969d15636adfb5b624280ebb0f308df626"
+    },
+    {
+      "path": "REPORT_JA.md",
+      "source": "experiments/round11_execution_20260924/REPORT_JA.md",
+      "category": "final-document",
+      "bytes": 10499,
+      "sha256": "94c8d7e2c26f5bf5de615628a9846d25e6e7f35ca5fafaada79fbc8d9d9e1520"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "source": "experiments/round11_execution_20260924/REPRODUCE.md",
+      "category": "final-document",
+      "bytes": 6362,
+      "sha256": "100e803235eba217f880c01fe5b524c99db8b0a59b35b9d4c18c15ae815ae39b"
+    },
+    {
+      "path": "SOURCE_REGISTRY.json",
+      "source": "experiments/round11_execution_20260924/SOURCE_REGISTRY.json",
+      "category": "final-document",
+      "bytes": 17327,
+      "sha256": "d5e1cc8ffa03e14ddf79a9213c5e1938711a053d3ee22b227f1ab31e2a0f1e00"
+    },
+    {
+      "path": "arms/cw1_conditional_wool/main.py",
+      "source": "experiments/round11_execution_20260924/arms/cw1_conditional_wool/main.py",
+      "category": "experimental-arm",
+      "bytes": 1037709,
+      "sha256": "03ce209a821496fe33916a8c425fbedd4d4a13133820e720c99d1d845d51fbed"
+    },
+    {
+      "path": "arms/generated_manifest.json",
+      "source": "experiments/round11_execution_20260924/arms/generated_manifest.json",
+      "category": "experimental-arm",
+      "bytes": 2958,
+      "sha256": "7a647d93501d721294e21a3ef998d0be363cd2af0a14e52030dcd4728b0ff418"
+    },
+    {
+      "path": "arms/m11_final_response/main.py",
+      "source": "experiments/round11_execution_20260924/arms/m11_final_response/main.py",
+      "category": "experimental-arm",
+      "bytes": 1036737,
+      "sha256": "a08a19f9a2852f4e27ba0d082b70ce559f78fe5173f42011fd529fb25607ae73"
+    },
+    {
+      "path": "arms/m11_robust_response/main.py",
+      "source": "experiments/round11_execution_20260924/arms/m11_robust_response/main.py",
+      "category": "experimental-arm",
+      "bytes": 1036738,
+      "sha256": "0bea36c2040b5090be76f4b4bab54caafd424815c9d915d4b2ba40f21f28bbbd"
+    },
+    {
+      "path": "arms/m20_m11_final/main.py",
+      "source": "experiments/round11_execution_20260924/arms/m20_m11_final/main.py",
+      "category": "experimental-arm",
+      "bytes": 1037295,
+      "sha256": "dd704f0a9fa9d3fa3a8eee171892ee3859d4ed3195b2168b5a88682f51558d4d"
+    },
+    {
+      "path": "arms/m20_multi_hypothesis/main.py",
+      "source": "experiments/round11_execution_20260924/arms/m20_multi_hypothesis/main.py",
+      "category": "experimental-arm",
+      "bytes": 1034317,
+      "sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a"
+    },
+    {
+      "path": "arms/no_change/__pycache__/main.cpython-312.pyc",
+      "source": "experiments/round11_execution_20260924/arms/no_change/__pycache__/main.cpython-312.pyc",
+      "category": "experimental-arm",
+      "bytes": 1623,
+      "sha256": "d9163618a20064619a4566ccb6bce12fe218d89e31757d78c836607cd6c8e9d8"
+    },
+    {
+      "path": "arms/no_change/main.py",
+      "source": "experiments/round11_execution_20260924/arms/no_change/main.py",
+      "category": "experimental-arm",
+      "bytes": 848,
+      "sha256": "5fb645270e0da771a84245c97f6c819cb92b74844369460e51db9209cf0de690"
+    },
+    {
+      "path": "arms/wool_gate_open_control/main.py",
+      "source": "experiments/round11_execution_20260924/arms/wool_gate_open_control/main.py",
+      "category": "experimental-arm",
+      "bytes": 1034556,
+      "sha256": "5472e710d53c0ae66c91963e0453e88f57f936c610bced2d059d1741dedfe66a"
+    },
+    {
+      "path": "configs/holdout_m20_kagsim.json",
+      "source": "experiments/round11_execution_20260924/configs/holdout_m20_kagsim.json",
+      "category": "experiment-config",
+      "bytes": 1838,
+      "sha256": "3e46531bfac672dd90b22851920bb6fdb51b4a9d94d3330081465bbc8434a488"
+    },
+    {
+      "path": "configs/phase0_m20_official_parity.json",
+      "source": "experiments/round11_execution_20260924/configs/phase0_m20_official_parity.json",
+      "category": "experiment-config",
+      "bytes": 766,
+      "sha256": "7831ea66fb4129efc45d2cddb0ce56d9cafb1605835c7395eac45edbef7c9bbf"
+    },
+    {
+      "path": "configs/phase0_more_wheat_official_parity.json",
+      "source": "experiments/round11_execution_20260924/configs/phase0_more_wheat_official_parity.json",
+      "category": "experiment-config",
+      "bytes": 786,
+      "sha256": "d72cecc4679a0b23edabf749580f210b2ee019f899b49b1bc97d6594dd4c14fd"
+    },
+    {
+      "path": "configs/phase0_no_change_official.json",
+      "source": "experiments/round11_execution_20260924/configs/phase0_no_change_official.json",
+      "category": "experiment-config",
+      "bytes": 735,
+      "sha256": "4b082591a7fa167f0125e8b9a93b10033593d96416811d7c8879333c0ed91b24"
+    },
+    {
+      "path": "configs/track_a_screen_kagsim.json",
+      "source": "experiments/round11_execution_20260924/configs/track_a_screen_kagsim.json",
+      "category": "experiment-config",
+      "bytes": 2340,
+      "sha256": "5db984d58074ac465a9cebbe3a7d06339ef7f98c2e21413180cd349cbbced9af"
+    },
+    {
+      "path": "configs/track_b_conditional_wool_kagsim.json",
+      "source": "experiments/round11_execution_20260924/configs/track_b_conditional_wool_kagsim.json",
+      "category": "experiment-config",
+      "bytes": 1733,
+      "sha256": "f3bfd31889dbe421a7dd85028da8bdf5b227374c8672f9580afe900d57b7572a"
+    },
+    {
+      "path": "configs/track_b_market_kagsim.json",
+      "source": "experiments/round11_execution_20260924/configs/track_b_market_kagsim.json",
+      "category": "experiment-config",
+      "bytes": 1880,
+      "sha256": "49b01f1e04dff463795e4d6b9b876a6778c2bc283b9e0865ac6aca98165d7cba"
+    },
+    {
+      "path": "input_revision/CHECKLIST_JA.md",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/CHECKLIST_JA.md",
+      "category": "input-revision",
+      "bytes": 3879,
+      "sha256": "9261a0ae96e648ced5d4940d5f59e2899aefbfebefef0b1a73305fa5c64fedc3"
+    },
+    {
+      "path": "input_revision/EXPERIMENT_PLAN_JA.md",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/EXPERIMENT_PLAN_JA.md",
+      "category": "input-revision",
+      "bytes": 6430,
+      "sha256": "662efb584c82b7d88aa5913269eac3f93a506bfd40963769a3c6a5804958beab"
+    },
+    {
+      "path": "input_revision/NOTICE.txt",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/NOTICE.txt",
+      "category": "input-revision",
+      "bytes": 1750,
+      "sha256": "c08756855f30154b9fc2cf9e95462f12287751fc302c3284663133d6b753bff2"
+    },
+    {
+      "path": "input_revision/README_JA.md",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/README_JA.md",
+      "category": "input-revision",
+      "bytes": 3308,
+      "sha256": "1be19f0d9a617c9ee95600134e418a3873e10d4c64cdb06805d4d7e035710515"
+    },
+    {
+      "path": "input_revision/REPORT_JA.md",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/REPORT_JA.md",
+      "category": "input-revision",
+      "bytes": 21815,
+      "sha256": "f2a5a53018f24fc2935c0d731046157b2739d33798b03e81d339c422a79a4688"
+    },
+    {
+      "path": "input_revision/SOURCE_MAP_JA.md",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/SOURCE_MAP_JA.md",
+      "category": "input-revision",
+      "bytes": 9533,
+      "sha256": "cc452f63379ce9ee81845514e87e487c22eb5fcbbb771835bb2b28a03b25048d"
+    },
+    {
+      "path": "input_revision/THIRD_PARTY_APACHE_2_LICENSE.txt",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/THIRD_PARTY_APACHE_2_LICENSE.txt",
+      "category": "input-revision",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "path": "input_revision/evidence/EXECUTION_SCOPE.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/EXECUTION_SCOPE.json",
+      "category": "input-evidence",
+      "bytes": 580,
+      "sha256": "afab14d8df983536d61e3a0e0575b3d660ab3dd1a268a9eef65de2113402ad21"
+    },
+    {
+      "path": "input_revision/evidence/case_112752873_cost_decomposition.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/case_112752873_cost_decomposition.csv",
+      "category": "input-evidence",
+      "bytes": 139,
+      "sha256": "134f991367f1ed9709bdc3c0a7985de7023af71c3dd7f7a633188a8ee0b2bfe6"
+    },
+    {
+      "path": "input_revision/evidence/case_112752873_growth_and_cash.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/case_112752873_growth_and_cash.csv",
+      "category": "input-evidence",
+      "bytes": 2347,
+      "sha256": "e00e7d7078366ba5f114b5c3960768b643bc2804e2a2dfee6cebe9cbc411ac88"
+    },
+    {
+      "path": "input_revision/evidence/case_112752873_revenue_decomposition.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/case_112752873_revenue_decomposition.csv",
+      "category": "input-evidence",
+      "bytes": 988,
+      "sha256": "bf4ea0c1811a8c364d732d8d04e64967038108cb8583ce760fd4c48a7381270e"
+    },
+    {
+      "path": "input_revision/evidence/cppsim_raw_parity_3.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/cppsim_raw_parity_3.json",
+      "category": "input-evidence",
+      "bytes": 697,
+      "sha256": "aae92fe3fd8bd6268b8ae0d1caf0035af6384234ad05496bf2baa89d52e76d8b"
+    },
+    {
+      "path": "input_revision/evidence/development_game_results.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/development_game_results.csv",
+      "category": "input-evidence",
+      "bytes": 54728,
+      "sha256": "7cb48bbb233c8e648053ce148a7e162531042d4dee7e7a09ac9fbfe1f1823ce2"
+    },
+    {
+      "path": "input_revision/evidence/development_paired_comparisons.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/development_paired_comparisons.csv",
+      "category": "input-evidence",
+      "bytes": 8130,
+      "sha256": "a0ef965192212319dae385b0f51dd96dd60c2aa4c8632c64206a628709994570"
+    },
+    {
+      "path": "input_revision/evidence/development_panel_summary.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/development_panel_summary.csv",
+      "category": "input-evidence",
+      "bytes": 542,
+      "sha256": "c23c3f36ef4aff28dd61a8b14fa0db16c268840f9568e2adc0fcb476780d2e66"
+    },
+    {
+      "path": "input_revision/evidence/development_protocol.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/development_protocol.json",
+      "category": "input-evidence",
+      "bytes": 1051,
+      "sha256": "88e7b48ee6ec727a83ac310bc138d75587f114ffb95211ff42d265e2c22d0297"
+    },
+    {
+      "path": "input_revision/evidence/development_summary.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/development_summary.json",
+      "category": "input-evidence",
+      "bytes": 2348,
+      "sha256": "b4f7768cd43e93ef58311215547119986897f11c050175318231ee741fed3de8"
+    },
+    {
+      "path": "input_revision/evidence/land_and_crop_route_check.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/land_and_crop_route_check.json",
+      "category": "input-evidence",
+      "bytes": 321,
+      "sha256": "7122993652dbcace2a609b00bcc464ee1936e12d0804a974f85d22a30233f346"
+    },
+    {
+      "path": "input_revision/evidence/online_extended_summary.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/online_extended_summary.json",
+      "category": "input-evidence",
+      "bytes": 561,
+      "sha256": "5d89c3cdd950b6a5c6b191e2d2ce034aad463126ffd8956db135398c5424fd76"
+    },
+    {
+      "path": "input_revision/evidence/online_floor_cases.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/online_floor_cases.csv",
+      "category": "input-evidence",
+      "bytes": 78955,
+      "sha256": "ef678d2dac5915ac79c556f603dd17f677fa8f62404c840dab6896cc9a657276"
+    },
+    {
+      "path": "input_revision/evidence/online_floor_ledger_by_item.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/evidence/online_floor_ledger_by_item.csv",
+      "category": "input-evidence",
+      "bytes": 432,
+      "sha256": "475890a818adf9da7156b02292e854e9e82f667e5042e6ddc18f4effd386fb6a"
+    },
+    {
+      "path": "input_revision/inputs/agent_manifest.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agent_manifest.json",
+      "category": "input-revision",
+      "bytes": 968,
+      "sha256": "b42d55e0deb2d7fab9beb2490dea99f151e17445842343641ec7fd21c53bff6c"
+    },
+    {
+      "path": "input_revision/inputs/agents/B1.py",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "category": "input-agent",
+      "bytes": 1040805,
+      "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+    },
+    {
+      "path": "input_revision/inputs/agents/metav4.py",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py",
+      "category": "input-agent",
+      "bytes": 1004288,
+      "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9"
+    },
+    {
+      "path": "input_revision/inputs/agents/order_book.py",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+      "category": "input-agent",
+      "bytes": 1026965,
+      "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab"
+    },
+    {
+      "path": "input_revision/inputs/agents/v57.py",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+      "category": "input-agent",
+      "bytes": 1067076,
+      "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f"
+    },
+    {
+      "path": "input_revision/inputs/prior_audit/case_112748339_prices_and_quantities.csv",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/prior_audit/case_112748339_prices_and_quantities.csv",
+      "category": "input-evidence",
+      "bytes": 613,
+      "sha256": "b72a5a9149e96945a64ec7632e286f63723d3f46a735265e4eab495eec4c3307"
+    },
+    {
+      "path": "input_revision/inputs/prior_audit/case_112748339_three_turn_fixed_action_window.json",
+      "source": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/prior_audit/case_112748339_three_turn_fixed_action_window.json",
+      "category": "input-evidence",
+      "bytes": 1519,
+      "sha256": "9610c6c64e5008eb5d79d60ed39cbf0206b9d11122c865266f1c4d41791cce42"
+    },
+    {
+      "path": "representative_replays/m20_improvement_baseline.json.gz",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/replays/B1/B1/seed_612609250_seat_1.json.gz",
+      "category": "representative-replay",
+      "bytes": 438666,
+      "sha256": "9eff92e7f8329e9ea9fa8c72389f0c1ce622d44b2fef09675bacd17637fdc96d"
+    },
+    {
+      "path": "representative_replays/m20_improvement_candidate.json.gz",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/replays/m20_multi_hypothesis/B1/seed_612609250_seat_1.json.gz",
+      "category": "representative-replay",
+      "bytes": 440270,
+      "sha256": "242cf219c464b90a48f08f958bdf05337dd976bbc5b70e78df1bb96409aebd8d"
+    },
+    {
+      "path": "representative_replays/m20_no_effect_baseline.json.gz",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/replays/B1/B1/seed_612609245_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 439527,
+      "sha256": "02ea21671aff9cafb04a2d3001de8292de2703c8983c87883acbfc0ea4b3da8a"
+    },
+    {
+      "path": "representative_replays/m20_no_effect_candidate.json.gz",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/replays/m20_multi_hypothesis/B1/seed_612609245_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 439527,
+      "sha256": "05ada8a3bac288330a6824faeb9ad343cd0fc8658cabe045e0f69f8453008fff"
+    },
+    {
+      "path": "representative_replays/m20_regression_baseline.json.gz",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/replays/B1/v57/seed_612609254_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 454105,
+      "sha256": "f7a2bfaa70c543582c0d33d6f5b21c34647972cc79c888f8aa5fac0a28793800"
+    },
+    {
+      "path": "representative_replays/m20_regression_candidate.json.gz",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/replays/m20_multi_hypothesis/v57/seed_612609254_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 453752,
+      "sha256": "90cd1b5432285340d3b4ba32be4978cf6ee348dcd901b24f4843f85355971c28"
+    },
+    {
+      "path": "representative_replays/production_b1.json.gz",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/replays/B1/B1/seed_512609241_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 456248,
+      "sha256": "1dad2e6b58ec4264c036e401b9202fb36d8364330fb985f5ba1163af95022f62"
+    },
+    {
+      "path": "representative_replays/production_wonderful_rejected.json.gz",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/replays/wonderful/B1/seed_512609241_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 470716,
+      "sha256": "93089b14d99fb55d4f616e824d243be89aba21cc9838ef41590ebd6508a948f8"
+    },
+    {
+      "path": "representative_replays/wool_baseline.json.gz",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/replays/B1/B1/seed_532609243_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 462702,
+      "sha256": "2191331b1af393855c0ae3b2476010d9140c48bd2462f38b82e89f175759d94e"
+    },
+    {
+      "path": "representative_replays/wool_conditional_no_final_effect.json.gz",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/replays/cw1_conditional_wool/B1/seed_532609243_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 462702,
+      "sha256": "60dd8bfc047e62a16ddd6b3cf26ff15eced1e87f3be94ddb767fe0951118e0f7"
+    },
+    {
+      "path": "representative_replays/wool_unconditional_regression.json.gz",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/replays/wool_gate_open_control/B1/seed_532609243_seat_0.json.gz",
+      "category": "representative-replay",
+      "bytes": 463465,
+      "sha256": "803c7cfafc69bc05c0bd848db2a1577c9a2f3e785e3de7e64e2c4d6bef3a2560"
+    },
+    {
+      "path": "results/holdout_m20/ACCEPTANCE_PROTOCOL.json",
+      "source": "experiments/round11_execution_20260924/holdout/ACCEPTANCE_PROTOCOL.json",
+      "category": "protocol",
+      "bytes": 2313,
+      "sha256": "b0b2302d24549188c1537e069cded712409b75973ad3efd74e0b97ed63862d99"
+    },
+    {
+      "path": "results/holdout_m20/HOLDOUT_DECISION.json",
+      "source": "experiments/round11_execution_20260924/holdout/HOLDOUT_DECISION.json",
+      "category": "decision",
+      "bytes": 1892,
+      "sha256": "afc47092480ffc9b7e914cd1330bb280fcca46ba39891e5271e18b73c9ac8388"
+    },
+    {
+      "path": "results/holdout_m20/games.csv",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/games.csv",
+      "category": "result-table",
+      "bytes": 1704183,
+      "sha256": "c4d1b0bf694ba330f921fbbccee14d74262d215b743047f50edb2b4811744a28"
+    },
+    {
+      "path": "results/holdout_m20/paired_results.csv",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/paired_results.csv",
+      "category": "result-table",
+      "bytes": 18755,
+      "sha256": "d89b2e2727ebbfa4d88f00df4286077331a9f502e77bd0763894309950bc24c1"
+    },
+    {
+      "path": "results/holdout_m20/panel_summary.csv",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/panel_summary.csv",
+      "category": "result-table",
+      "bytes": 634,
+      "sha256": "2222d331ab9d1a6f9bbec9c47b017d6c74bf9618f28e56c634f1e1eb24594ee3"
+    },
+    {
+      "path": "results/holdout_m20/preregistration.json",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/preregistration.json",
+      "category": "result-table",
+      "bytes": 2528,
+      "sha256": "31d9a06d82ac3bd71f81a96a6a281a22b6f1281cdeb67f122141036d9caef868"
+    },
+    {
+      "path": "results/holdout_m20/seed_block_summary.csv",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/seed_block_summary.csv",
+      "category": "result-table",
+      "bytes": 1509,
+      "sha256": "f1c861cb3ce078a2eeba04246f4ccb44ba16fb4f1fa29f27dcc91e9a2d21237d"
+    },
+    {
+      "path": "results/holdout_m20/summary.csv",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/summary.csv",
+      "category": "result-table",
+      "bytes": 776,
+      "sha256": "65619c1ccc199abd55ba76418d3a9cd382b03be09576af147c2ad5973a6c4400"
+    },
+    {
+      "path": "results/holdout_m20/telemetry_summary.csv",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/telemetry_summary.csv",
+      "category": "result-table",
+      "bytes": 2608,
+      "sha256": "6fd48350b9ef39dd6f40c8311bae093507cf79efd6d62b2763999db5b57aedd4"
+    },
+    {
+      "path": "results/holdout_m20/telemetry_summary.json",
+      "source": "experiments/round11_execution_20260924/holdout/m20_kagsim/telemetry_summary.json",
+      "category": "result-table",
+      "bytes": 2077,
+      "sha256": "19be12ad3aafd5bf1086db7e2fa2f30864caa8fb4f3528d200fa4222bc84244e"
+    },
+    {
+      "path": "results/phase0/m20_official_cppsim_parity.json",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_cppsim_parity.json",
+      "category": "phase0-evidence",
+      "bytes": 2303,
+      "sha256": "e1fa9bdd6c20e49700eeeb2e545a33982aa2464249c5366747d456e0d127265d"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/games.csv",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/games.csv",
+      "category": "phase0-evidence",
+      "bytes": 7777,
+      "sha256": "247c81a593b98f75515a919530eca15c590b88227c270ae0dd438d0c5af22688"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/preregistration.json",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/preregistration.json",
+      "category": "phase0-evidence",
+      "bytes": 1234,
+      "sha256": "a9703082966f5eb80f4d9f53688b9cf61674d2da21409ab2c6364f21678367cb"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/replays/B1/B1/seed_522609241_seat_0.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/replays/B1/B1/seed_522609241_seat_0.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 473068,
+      "sha256": "8b60db5ab78d2a52aad2ba51a1eaea292dac9f9a5b6ffc7da12d840f340e8fb4"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/replays/B1/B1/seed_522609241_seat_1.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/replays/B1/B1/seed_522609241_seat_1.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 473068,
+      "sha256": "ab97b60db5e8d4b3dfb3cd911072fd2cfae2d5603bd027657a4af8713421290c"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/replays/m20_multi_hypothesis/B1/seed_522609241_seat_0.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/replays/m20_multi_hypothesis/B1/seed_522609241_seat_0.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 473832,
+      "sha256": "a73cf4664017d3c3a982540738d5829eda147a07528407cca26c07a7bc58eee5"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/replays/m20_multi_hypothesis/B1/seed_522609241_seat_1.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/replays/m20_multi_hypothesis/B1/seed_522609241_seat_1.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 473816,
+      "sha256": "db4ae2f78edfc5fc3ebe5d960f44516395c5594bdf11ae5405efc0570a467e15"
+    },
+    {
+      "path": "results/phase0/m20_official_parity/summary.csv",
+      "source": "experiments/round11_execution_20260924/phase0/m20_official_parity/summary.csv",
+      "category": "phase0-evidence",
+      "bytes": 197,
+      "sha256": "314ffeb8acf88647ae018e98a5af3152106eaa0eef2045e4a30a5c962e8e3567"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_cppsim_parity.json",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_cppsim_parity.json",
+      "category": "phase0-evidence",
+      "bytes": 2267,
+      "sha256": "54b79b1a53259ca05ff2aa1d857b440aec26d234cb17f3b102ee96b40094e11a"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/games.csv",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/games.csv",
+      "category": "phase0-evidence",
+      "bytes": 5978,
+      "sha256": "e63665ab375570a8f99c48d1306223db1a443e4cd6a3c678812aca1d57c3169f"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/preregistration.json",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/preregistration.json",
+      "category": "phase0-evidence",
+      "bytes": 1254,
+      "sha256": "bc12eedac18cf38419e5190e2cf56fcab81af54fd35981eb350b53c6242890b4"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/replays/B1/B1/seed_512609244_seat_0.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/replays/B1/B1/seed_512609244_seat_0.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 472181,
+      "sha256": "0bc2900e6d2467ad775868dcb093259f6820dcaf85248f88f2e8758d6d30e310"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/replays/B1/B1/seed_512609244_seat_1.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/replays/B1/B1/seed_512609244_seat_1.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 472180,
+      "sha256": "f79f00201ee2cf65405ae637f9da0f100bf73b27da64078376a0a7ea31f7b5ef"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/replays/more_wheat/B1/seed_512609244_seat_0.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/replays/more_wheat/B1/seed_512609244_seat_0.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 473967,
+      "sha256": "e44c86dd6191a69ec89e2c6517799c1d94857437fd6ee399a08074bb2b3156ec"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/replays/more_wheat/B1/seed_512609244_seat_1.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/replays/more_wheat/B1/seed_512609244_seat_1.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 473893,
+      "sha256": "28ff3ac7e1ce0130c18137e72887cd12017c6a188a1c6d494fede9e84b137443"
+    },
+    {
+      "path": "results/phase0/more_wheat_official_parity/summary.csv",
+      "source": "experiments/round11_execution_20260924/phase0/more_wheat_official_parity/summary.csv",
+      "category": "phase0-evidence",
+      "bytes": 184,
+      "sha256": "da127ac282d495d8f71d1f40e93e51a11f0baa50645b0828255545a0a89decb5"
+    },
+    {
+      "path": "results/phase0/no_change_identity.json",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_identity.json",
+      "category": "phase0-evidence",
+      "bytes": 583,
+      "sha256": "d699ed95ed8ae21675e0b7fdd8ee4c2fe823a9f6826eee68c05c09fc57d9aa2c"
+    },
+    {
+      "path": "results/phase0/no_change_official/games.csv",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/games.csv",
+      "category": "phase0-evidence",
+      "bytes": 6111,
+      "sha256": "860b63c69bde4c2d406e1bece5962adb637334d78460fbfb6aaaa7068a5ff587"
+    },
+    {
+      "path": "results/phase0/no_change_official/preregistration.json",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/preregistration.json",
+      "category": "phase0-evidence",
+      "bytes": 1203,
+      "sha256": "f15e3b17a2848923a9cd076c48f2e5526b986950d4c258ca07dba77812961076"
+    },
+    {
+      "path": "results/phase0/no_change_official/replays/B1/B1/seed_402609241_seat_0.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/replays/B1/B1/seed_402609241_seat_0.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 474030,
+      "sha256": "f204694c861b9c6b7b5bf6c6ffafc59357e46b6a6e2a3e4d57168ddc430a10d2"
+    },
+    {
+      "path": "results/phase0/no_change_official/replays/B1/B1/seed_402609241_seat_1.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/replays/B1/B1/seed_402609241_seat_1.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 474030,
+      "sha256": "b0d20cee42e021b92d9b8b5264c97f2e8238d0dad69700def27567cd7ea5b3f5"
+    },
+    {
+      "path": "results/phase0/no_change_official/replays/NO_CHANGE/B1/seed_402609241_seat_0.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/replays/NO_CHANGE/B1/seed_402609241_seat_0.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 474030,
+      "sha256": "5fa7036fa509c127f6e8dba986f7f6d276ac8c0ba9297f23c31c192016c4c502"
+    },
+    {
+      "path": "results/phase0/no_change_official/replays/NO_CHANGE/B1/seed_402609241_seat_1.json.gz",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/replays/NO_CHANGE/B1/seed_402609241_seat_1.json.gz",
+      "category": "phase0-evidence",
+      "bytes": 474030,
+      "sha256": "779e126778d8648f77e506e6a05525e5e1326fa7d66a39211f986c933cc52c9a"
+    },
+    {
+      "path": "results/phase0/no_change_official/summary.csv",
+      "source": "experiments/round11_execution_20260924/phase0/no_change_official/summary.csv",
+      "category": "phase0-evidence",
+      "bytes": 184,
+      "sha256": "12a27f3f412ac786ba71362055b449c211d718adcd85162b8182bcc0fdf62425"
+    },
+    {
+      "path": "results/track_a/games.csv",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/games.csv",
+      "category": "result-table",
+      "bytes": 905568,
+      "sha256": "2284cd587e2197171ad358625a6e4f10f5ad80572bbea27f1fd6c2d66761327c"
+    },
+    {
+      "path": "results/track_a/paired_results.csv",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/paired_results.csv",
+      "category": "result-table",
+      "bytes": 17479,
+      "sha256": "d8d4b87a8cda3e2d47b7112a1442d7f0619c38602ef7480913909b1655d99b22"
+    },
+    {
+      "path": "results/track_a/panel_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/panel_summary.csv",
+      "category": "result-table",
+      "bytes": 1032,
+      "sha256": "19d01554216543b7bf6d66d29cfcfaae2c84cf8c7e58a88109cd8ed1c35b0dbd"
+    },
+    {
+      "path": "results/track_a/preregistration.json",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/preregistration.json",
+      "category": "result-table",
+      "bytes": 2972,
+      "sha256": "73f7efa598bd56ccbce80cdccbe555dcdaf868dad4e0c5bffd9b4be43e3bbe2a"
+    },
+    {
+      "path": "results/track_a/production_routes_per_game.csv",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/production_routes_per_game.csv",
+      "category": "result-table",
+      "bytes": 31496,
+      "sha256": "86958e20bd05971c38f53b2714bfc273ca6f7167aa351c58f543288c16bba414"
+    },
+    {
+      "path": "results/track_a/production_routes_summary.json",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/production_routes_summary.json",
+      "category": "result-table",
+      "bytes": 5263,
+      "sha256": "65ec7342e2152bf633cd049478be502b61737ed61bc575408353eafe6fcfad10"
+    },
+    {
+      "path": "results/track_a/seed_block_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/seed_block_summary.csv",
+      "category": "result-table",
+      "bytes": 1302,
+      "sha256": "f2e15795ae1593156d59c22481e94e6b2c07369f5575fbe0dbcf68fe55dd33b1"
+    },
+    {
+      "path": "results/track_a/summary.csv",
+      "source": "experiments/round11_execution_20260924/track_a/screen_kagsim/summary.csv",
+      "category": "result-table",
+      "bytes": 1623,
+      "sha256": "3ad99eef87e7eee2b40b90cb58c366ec69dde305878ad33a36355ac73a2e2ed2"
+    },
+    {
+      "path": "results/track_b_conditional_wool/games.csv",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/games.csv",
+      "category": "result-table",
+      "bytes": 403680,
+      "sha256": "18fa65154774fd076a9a6f4a4910bee987cd7ec3687f3165e339243f7a5ed13a"
+    },
+    {
+      "path": "results/track_b_conditional_wool/paired_results.csv",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/paired_results.csv",
+      "category": "result-table",
+      "bytes": 6391,
+      "sha256": "e31d934f2dbc27be6459eb224ea42bc8a7cfeb5e407d72b13757f8864ba4531c"
+    },
+    {
+      "path": "results/track_b_conditional_wool/panel_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/panel_summary.csv",
+      "category": "result-table",
+      "bytes": 633,
+      "sha256": "7bb31ee4a7be3fa69beed4d73c483918aa44b08d91e38358a7ffa45ede251a7a"
+    },
+    {
+      "path": "results/track_b_conditional_wool/preregistration.json",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/preregistration.json",
+      "category": "result-table",
+      "bytes": 2307,
+      "sha256": "c8524f746d71826d388926d8d024d13f201b447484bfe3d57fa444abca597966"
+    },
+    {
+      "path": "results/track_b_conditional_wool/seed_block_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/seed_block_summary.csv",
+      "category": "result-table",
+      "bytes": 546,
+      "sha256": "ffe20a1d99e3da0033655d16abb74f3ab7fc746947726cac997cd2ee258113dc"
+    },
+    {
+      "path": "results/track_b_conditional_wool/summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/summary.csv",
+      "category": "result-table",
+      "bytes": 800,
+      "sha256": "6e5f00d39b7efa3dea87022fb43805482027198b9f4fae7dd121b3fcc2b5f147"
+    },
+    {
+      "path": "results/track_b_conditional_wool/telemetry_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/telemetry_summary.csv",
+      "category": "result-table",
+      "bytes": 1216,
+      "sha256": "43d993288d7cdd992723f1e4ac6669bec2d0a6e5c51c4702195fd87faba02555"
+    },
+    {
+      "path": "results/track_b_conditional_wool/telemetry_summary.json",
+      "source": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim/telemetry_summary.json",
+      "category": "result-table",
+      "bytes": 1409,
+      "sha256": "fb8c563d4c4f9660a97e66e06d09df15695c0c62a6d9c8ab855b972298eaa261"
+    },
+    {
+      "path": "results/track_b_market/games.csv",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/games.csv",
+      "category": "result-table",
+      "bytes": 687120,
+      "sha256": "6a157b35804860ce5144c3247982e1cd412a225a267862dc8e73b2f5554c9e4d"
+    },
+    {
+      "path": "results/track_b_market/paired_results.csv",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/paired_results.csv",
+      "category": "result-table",
+      "bytes": 11903,
+      "sha256": "0c0443e147284e520d4939f7ab8b001ff179a7d74a0e5199040b453410312fd6"
+    },
+    {
+      "path": "results/track_b_market/panel_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/panel_summary.csv",
+      "category": "result-table",
+      "bytes": 840,
+      "sha256": "a25f4db1fdd9f009a6e0d1545c0686b87b5a62791752fe06966f0dd976f3371f"
+    },
+    {
+      "path": "results/track_b_market/preregistration.json",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/preregistration.json",
+      "category": "result-table",
+      "bytes": 2482,
+      "sha256": "4e67c082f9cfbfd86faf16231ff3517b8d8ff87b195a0e4ab24090a2e7728d94"
+    },
+    {
+      "path": "results/track_b_market/seed_block_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/seed_block_summary.csv",
+      "category": "result-table",
+      "bytes": 950,
+      "sha256": "975712944692028632c8c074936f3605ebaebbc4ce8ce55e6c3226837c25639e"
+    },
+    {
+      "path": "results/track_b_market/summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/summary.csv",
+      "category": "result-table",
+      "bytes": 1319,
+      "sha256": "125137af15c506cc26127d3cc4361653ddd599b6c1ff707e4e1faf871ac4b31d"
+    },
+    {
+      "path": "results/track_b_market/telemetry_summary.csv",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/telemetry_summary.csv",
+      "category": "result-table",
+      "bytes": 3098,
+      "sha256": "a2dcfe94b5c32ebda20487c366d8a4e7ef3b8099d34a415889fb3331948f952a"
+    },
+    {
+      "path": "results/track_b_market/telemetry_summary.json",
+      "source": "experiments/round11_execution_20260924/track_b/market_kagsim/telemetry_summary.json",
+      "category": "result-table",
+      "bytes": 2931,
+      "sha256": "60d0edce027989696c506ee8b2f9d7c71e2a184515ed71868c59cafd5d2007df"
+    },
+    {
+      "path": "retained_baseline/round10_20260924_b1_herd_safe.tar.gz",
+      "source": "artifacts/submissions/round10_20260924_b1_herd_safe.tar.gz",
+      "category": "retained-baseline",
+      "bytes": 630757,
+      "sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986"
+    },
+    {
+      "path": "retained_baseline/round10_b1_herd_safe_submission_56509493.zip",
+      "source": "data/submissions/round10_b1_herd_safe_submission_56509493.zip",
+      "category": "public-submission-raw",
+      "bytes": 27982204,
+      "sha256": "af0f67733ca8c0b612903d55064efa5ad79f1d2ab979ec1fc9a414c0570cfbab"
+    },
+    {
+      "path": "scripts/acquire_round11_public_sources.py",
+      "source": "scripts/acquire_round11_public_sources.py",
+      "category": "reproduction-script",
+      "bytes": 4789,
+      "sha256": "82cafd7a53c0280500be608d3aa6b4b6b2f90283cbe2345c3c6980f242453c27"
+    },
+    {
+      "path": "scripts/analyze_round11_production_routes.py",
+      "source": "scripts/analyze_round11_production_routes.py",
+      "category": "reproduction-script",
+      "bytes": 6210,
+      "sha256": "a0df133cfc09e0017af1befaf4721c8267e6a7a9385041dc000e47a5ffb02e6b"
+    },
+    {
+      "path": "scripts/audit_round11_agents.py",
+      "source": "scripts/audit_round11_agents.py",
+      "category": "reproduction-script",
+      "bytes": 4264,
+      "sha256": "8af3fb5311f53675fc6cad53648e9c87db565cf09357ef4c367eec9ff1a5e3af"
+    },
+    {
+      "path": "scripts/build_round11_final_bundle.py",
+      "source": "scripts/build_round11_final_bundle.py",
+      "category": "reproduction-script",
+      "bytes": 9777,
+      "sha256": "3bedae64ecf70652a230bf973b338804b77edbde284bb83d365fd90ed28c0d01"
+    },
+    {
+      "path": "scripts/build_round11_registries.py",
+      "source": "scripts/build_round11_registries.py",
+      "category": "reproduction-script",
+      "bytes": 14279,
+      "sha256": "462f10f0742a26f14ace20cba60563b02f3b65098c409f6e2b75e39ad8e73fea"
+    },
+    {
+      "path": "scripts/build_round11_variants.py",
+      "source": "scripts/build_round11_variants.py",
+      "category": "reproduction-script",
+      "bytes": 13522,
+      "sha256": "bd7f96664f4a149b67b9a7bf1a7266e22bff01ec6f0b7cb8bf6deab4b780e941"
+    },
+    {
+      "path": "scripts/decide_round11_holdout.py",
+      "source": "scripts/decide_round11_holdout.py",
+      "category": "reproduction-script",
+      "bytes": 7448,
+      "sha256": "e740a531203b88d2e4b98579c35a1f02ed8527a7e8414c4899f30300da6a5498"
+    },
+    {
+      "path": "scripts/evaluate_round10_panel.py",
+      "source": "scripts/evaluate_round10_panel.py",
+      "category": "reproduction-script",
+      "bytes": 16379,
+      "sha256": "85a467aaf241c4420cf049e2de4e64da78457b9013aca4f7faa5ac7235fa37e2"
+    },
+    {
+      "path": "scripts/extract_round11_public_agents.py",
+      "source": "scripts/extract_round11_public_agents.py",
+      "category": "reproduction-script",
+      "bytes": 7530,
+      "sha256": "c20900b4a47106863a45d6199f49b32061b6e3e83cc5ed8b0f175d6ed2cec0f4"
+    },
+    {
+      "path": "scripts/summarize_round11_panel.py",
+      "source": "scripts/summarize_round11_panel.py",
+      "category": "reproduction-script",
+      "bytes": 7517,
+      "sha256": "60bbcfcbcf7292dbc0da66e2b587e07804919ab324d5d5532aae16c14a10d77f"
+    },
+    {
+      "path": "scripts/summarize_round11_telemetry.py",
+      "source": "scripts/summarize_round11_telemetry.py",
+      "category": "reproduction-script",
+      "bytes": 3121,
+      "sha256": "322d7f463d823cc8d7490825d24e62df305a466448531a62ee7efda5aed56438"
+    },
+    {
+      "path": "scripts/verify_round11_engine_parity.py",
+      "source": "scripts/verify_round11_engine_parity.py",
+      "category": "reproduction-script",
+      "bytes": 3983,
+      "sha256": "3b1a8a24c7900022c7fd44811b44b1212e8978ecfbe6160d3988c9e59b9dfeed"
+    },
+    {
+      "path": "scripts/verify_round11_final_bundle.py",
+      "source": "scripts/verify_round11_final_bundle.py",
+      "category": "reproduction-script",
+      "bytes": 6041,
+      "sha256": "d14a9462a0e6544d48d4cfbb1bb850906b8f5cb87cf63f29c88b37d5f5e0c0df"
+    },
+    {
+      "path": "scripts/verify_round11_no_change.py",
+      "source": "scripts/verify_round11_no_change.py",
+      "category": "reproduction-script",
+      "bytes": 2687,
+      "sha256": "c7de07171aea712c6794c59f0bb5b908333d966ac028f5082cc9bc9c71faaf23"
+    },
+    {
+      "path": "sources/STATIC_AUDIT.json",
+      "source": "experiments/round11_execution_20260924/sources/STATIC_AUDIT.json",
+      "category": "source-audit",
+      "bytes": 8129,
+      "sha256": "0cf0c4d82f6c40dbbebbc66b07f7679898dc7addde14d9cf5b8ae14256d09779"
+    },
+    {
+      "path": "sources/extracted_static/master_hybrid/extracted_agent_1.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/master_hybrid/extracted_agent_1.py",
+      "category": "public-source-extracted",
+      "bytes": 1031606,
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f"
+    },
+    {
+      "path": "sources/extracted_static/master_hybrid/extraction_result.json",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/master_hybrid/extraction_result.json",
+      "category": "public-source-extracted",
+      "bytes": 6130,
+      "sha256": "e6ca262fe3d4ff16ea5d92227f70fec5a83713a5d3fc48fc8d1ad9d6547edf01"
+    },
+    {
+      "path": "sources/extracted_static/moon/extracted_agent_1.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/moon/extracted_agent_1.py",
+      "category": "public-source-extracted",
+      "bytes": 1046403,
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a"
+    },
+    {
+      "path": "sources/extracted_static/moon/extraction_result.json",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/moon/extraction_result.json",
+      "category": "public-source-extracted",
+      "bytes": 6901,
+      "sha256": "97561e957f43fbe6a231b373934782456ce77c06547cec3f161aa300ba42103c"
+    },
+    {
+      "path": "sources/extracted_static/more_wheat/extracted_agent_1.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extracted_agent_1.py",
+      "category": "public-source-extracted",
+      "bytes": 1040401,
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35"
+    },
+    {
+      "path": "sources/extracted_static/more_wheat/extracted_agent_2.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extracted_agent_2.py",
+      "category": "public-source-extracted",
+      "bytes": 40356,
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+    },
+    {
+      "path": "sources/extracted_static/more_wheat/extracted_agent_3.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extracted_agent_3.py",
+      "category": "public-source-extracted",
+      "bytes": 1345,
+      "sha256": "15feb82a21849d8bb07d0bad806dc287992af24bc8d0370031f40c4b1b856a54"
+    },
+    {
+      "path": "sources/extracted_static/more_wheat/extraction_result.json",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extraction_result.json",
+      "category": "public-source-extracted",
+      "bytes": 15947,
+      "sha256": "fc9b478d073969eef1b33e6814868e97913989f6ac25d3603accde4f1a0b83c7"
+    },
+    {
+      "path": "sources/extracted_static/order_book_v3/extracted_agent_1.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/order_book_v3/extracted_agent_1.py",
+      "category": "public-source-extracted",
+      "bytes": 1030005,
+      "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad"
+    },
+    {
+      "path": "sources/extracted_static/order_book_v3/extraction_result.json",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/order_book_v3/extraction_result.json",
+      "category": "public-source-extracted",
+      "bytes": 6138,
+      "sha256": "3d98b45046f357ed9d81a9e031d65dfe7275b2d6fb07f22ccca53315d68b39e5"
+    },
+    {
+      "path": "sources/extracted_static/v15stack/extracted_agent_1.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/v15stack/extracted_agent_1.py",
+      "category": "public-source-extracted",
+      "bytes": 1057901,
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd"
+    },
+    {
+      "path": "sources/extracted_static/v15stack/extraction_result.json",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/v15stack/extraction_result.json",
+      "category": "public-source-extracted",
+      "bytes": 7049,
+      "sha256": "923b607ab19925a5ac344b6f0b5a80b1a90f088674ce739ac96ab8387168ea37"
+    },
+    {
+      "path": "sources/extracted_static/wonderful/extracted_agent_1.py",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/wonderful/extracted_agent_1.py",
+      "category": "public-source-extracted",
+      "bytes": 866704,
+      "sha256": "caf490d382731dce2ce85b227b407ddef70c5df88f0773ebe017b695226d3e6d"
+    },
+    {
+      "path": "sources/extracted_static/wonderful/extraction_result.json",
+      "source": "experiments/round11_execution_20260924/sources/extracted_static/wonderful/extraction_result.json",
+      "category": "public-source-extracted",
+      "bytes": 4952,
+      "sha256": "7eb0667c9c4d38b7af6d49771526e3719df4d0e87f71275481dd473be8df92a0"
+    },
+    {
+      "path": "sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/acquisition_result.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/acquisition_result.json",
+      "category": "public-source-raw",
+      "bytes": 1155,
+      "sha256": "6ac059ea5f18bbce09c9748e2bcb60516b493b47a00723350c470069fe317d1c"
+    },
+    {
+      "path": "sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/kernels_pull_response.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/kernels_pull_response.json",
+      "category": "public-source-raw",
+      "bytes": 1878923,
+      "sha256": "d440442e70270ee59988920f8a06cd7adff68be246b495c99b2224e5ae6f196a"
+    },
+    {
+      "path": "sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/payload_1.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/payload_1.ipynb",
+      "category": "public-source-raw",
+      "bytes": 795419,
+      "sha256": "9a3dda5be337e2ec7b8e546cf69a1146d6db53e1b9f2163614335afaf599569c"
+    },
+    {
+      "path": "sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/payload_2.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/payload_2.ipynb",
+      "category": "public-source-raw",
+      "bytes": 795419,
+      "sha256": "9a3dda5be337e2ec7b8e546cf69a1146d6db53e1b9f2163614335afaf599569c"
+    },
+    {
+      "path": "sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/acquisition_result.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/acquisition_result.json",
+      "category": "public-source-raw",
+      "bytes": 1190,
+      "sha256": "6ae3973c91c73323f38484d02a7da1f72f2d50c59986804d4206194fadd70b53"
+    },
+    {
+      "path": "sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/kernels_pull_response.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/kernels_pull_response.json",
+      "category": "public-source-raw",
+      "bytes": 1954019,
+      "sha256": "6d495afac7122057b9ae73eb1c4cb7e179eceba03c155a5c50bb5cd7fcc89c60"
+    },
+    {
+      "path": "sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/payload_1.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/payload_1.ipynb",
+      "category": "public-source-raw",
+      "bytes": 965241,
+      "sha256": "24c3c73cc845ea9ee6d19cf818a703cdc2ee206420d0f4218810f46b714985e7"
+    },
+    {
+      "path": "sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/payload_2.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/payload_2.ipynb",
+      "category": "public-source-raw",
+      "bytes": 965241,
+      "sha256": "24c3c73cc845ea9ee6d19cf818a703cdc2ee206420d0f4218810f46b714985e7"
+    },
+    {
+      "path": "sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/acquisition_result.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/acquisition_result.json",
+      "category": "public-source-raw",
+      "bytes": 1122,
+      "sha256": "fffe1d644155b754e2cd83010b127d1ce5dfd38ebe0afaf1b452bfe8397f6e4e"
+    },
+    {
+      "path": "sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/kernels_pull_response.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/kernels_pull_response.json",
+      "category": "public-source-raw",
+      "bytes": 1720851,
+      "sha256": "2ede360621a1d6156c6f0a5d7dd916c9962d6b01b3639be6643cd76515eb52dd"
+    },
+    {
+      "path": "sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/payload_1.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/payload_1.ipynb",
+      "category": "public-source-raw",
+      "bytes": 857156,
+      "sha256": "5b8eadbe6e57979f6b54320b4af49003c2efb9a31751944b72c3f23fc6a3875f"
+    },
+    {
+      "path": "sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/payload_2.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/payload_2.ipynb",
+      "category": "public-source-raw",
+      "bytes": 857156,
+      "sha256": "5b8eadbe6e57979f6b54320b4af49003c2efb9a31751944b72c3f23fc6a3875f"
+    },
+    {
+      "path": "sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/acquisition_result.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/acquisition_result.json",
+      "category": "public-source-raw",
+      "bytes": 1079,
+      "sha256": "714aaf5374b76ad0f758d0aa8bec8383c0e886bf0f6364a2993c23a3341c95ea"
+    },
+    {
+      "path": "sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/kernels_pull_response.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/kernels_pull_response.json",
+      "category": "public-source-raw",
+      "bytes": 1547332,
+      "sha256": "19ee6b83f1d8199f8dcf28afb21ba558ab6fbc63f36ebf46388a0667d96dc194"
+    },
+    {
+      "path": "sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/payload_1.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/payload_1.ipynb",
+      "category": "public-source-raw",
+      "bytes": 655214,
+      "sha256": "54fa074dab44dc66c411409a45af3ef928cab5a2c3ab63f2fe00dab4dd7295ee"
+    },
+    {
+      "path": "sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/payload_2.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/payload_2.ipynb",
+      "category": "public-source-raw",
+      "bytes": 655214,
+      "sha256": "54fa074dab44dc66c411409a45af3ef928cab5a2c3ab63f2fe00dab4dd7295ee"
+    },
+    {
+      "path": "sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/acquisition_result.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/acquisition_result.json",
+      "category": "public-source-raw",
+      "bytes": 1201,
+      "sha256": "8d2c9701cccc9f429db4792e8d16018c04ec9fde427cb8206ffab1b20b69e32e"
+    },
+    {
+      "path": "sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/kernels_pull_response.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/kernels_pull_response.json",
+      "category": "public-source-raw",
+      "bytes": 2330206,
+      "sha256": "d89424face17f8e42a0cd1e1350a3f52060a0d562d19d20398a72b7330409423"
+    },
+    {
+      "path": "sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/payload_1.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/payload_1.ipynb",
+      "category": "public-source-raw",
+      "bytes": 998395,
+      "sha256": "959210dbf54402319d7a66729c8d68fddb8118f360597d3bd377c75486a324da"
+    },
+    {
+      "path": "sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/payload_2.ipynb",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/payload_2.ipynb",
+      "category": "public-source-raw",
+      "bytes": 998395,
+      "sha256": "959210dbf54402319d7a66729c8d68fddb8118f360597d3bd377c75486a324da"
+    },
+    {
+      "path": "sources/raw/kaggle/wzhengbiao__kaggriculture-v15stack-submit/acquisition_result.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/wzhengbiao__kaggriculture-v15stack-submit/acquisition_result.json",
+      "category": "public-source-raw",
+      "bytes": 721,
+      "sha256": "a75e4d678883e253067394c729dda3f1cee62fa161f97cfa103e9eb18c31a458"
+    },
+    {
+      "path": "sources/raw/kaggle/wzhengbiao__kaggriculture-v15stack-submit/kernels_pull_response.json",
+      "source": "experiments/round11_execution_20260924/sources/raw/kaggle/wzhengbiao__kaggriculture-v15stack-submit/kernels_pull_response.json",
+      "category": "public-source-raw",
+      "bytes": 2158769,
+      "sha256": "ba904aae3300e07ec933db7fbae287bc39140bbd58f53c382948084db6e57c72"
+    }
+  ],
+  "replay_scope": "All result tables and hashes; selected raw good/bad/no-effect/production replays. Full 864-game raw replay tree remains in the workspace."
+}

@@ -1,0 +1,68 @@
+{
+  "episode_id": 112748339,
+  "start_record": 568,
+  "end_record": 570,
+  "baseline_transition_checks": [
+    {
+      "record": 568,
+      "farms_match": true,
+      "private_match": true
+    },
+    {
+      "record": 569,
+      "farms_match": true,
+      "private_match": true
+    },
+    {
+      "record": 570,
+      "farms_match": true,
+      "private_match": true
+    }
+  ],
+  "endpoint_farms_excluding_cash_equal": true,
+  "endpoint_private_equal": true,
+  "endpoint_market_inventory_equal": true,
+  "own_cash_change": 286.0,
+  "opponent_cash_change": -551.0,
+  "margin_change": 837.0,
+  "counterfactual_own_cash": 72317.0,
+  "baseline_own_cash": 72031.0,
+  "counterfactual_opponent_cash": 72684.0,
+  "baseline_opponent_cash": 73235.0,
+  "exogenous_inventory_deltas": {
+    "568": {
+      "CARROT": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 0,
+      "WOOL": 0
+    },
+    "569": {
+      "CARROT": -5,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "MELON": 0,
+      "MILK": -2,
+      "STRAWBERRY": -3,
+      "TOMATO": -1,
+      "WHEAT": -1,
+      "WOOL": -4
+    },
+    "570": {
+      "CARROT": 0,
+      "EGG": 0,
+      "FERTILIZER": 0,
+      "MELON": 0,
+      "MILK": 0,
+      "STRAWBERRY": 0,
+      "TOMATO": 0,
+      "WHEAT": 0,
+      "WOOL": 0
+    }
+  },
+  "scope": "Three transitions with both action streams fixed after the single change; exogenous town effects reused from baseline. Not reactive full-game evaluation."
+}

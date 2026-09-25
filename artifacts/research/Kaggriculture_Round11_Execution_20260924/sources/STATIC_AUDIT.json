@@ -1,0 +1,270 @@
+{
+  "schema": "round11-static-agent-audit-v1",
+  "agents": [
+    {
+      "path": "C:/Users/shiba/Kaggle/pj-kaggriculture/experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extracted_agent_1.py",
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+      "bytes": 1040401,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_io_imports": [],
+      "risky_calls": [
+        {
+          "line": 3602,
+          "call": "open"
+        }
+      ],
+      "dynamic_execution": [
+        {
+          "line": 1020,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 12009,
+          "literal_sha256": "c03e8c5cd10466c229ee0a44dece9a3943c10bff135d96a7822ffe75d6922724"
+        },
+        {
+          "line": 1022,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 22861,
+          "literal_sha256": "0516696da984cf8efce5a649219f9a213b62af9a52f667bc5002909fca17b002"
+        }
+      ],
+      "top_level_function_count": 213,
+      "last_top_level_function": "rescue_agent",
+      "static_audit_pass": false
+    },
+    {
+      "path": "C:/Users/shiba/Kaggle/pj-kaggriculture/experiments/round11_execution_20260924/sources/extracted_static/order_book_v3/extracted_agent_1.py",
+      "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+      "bytes": 1030005,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_io_imports": [],
+      "risky_calls": [
+        {
+          "line": 3592,
+          "call": "open"
+        }
+      ],
+      "dynamic_execution": [
+        {
+          "line": 1020,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 12009,
+          "literal_sha256": "c03e8c5cd10466c229ee0a44dece9a3943c10bff135d96a7822ffe75d6922724"
+        },
+        {
+          "line": 1022,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 22861,
+          "literal_sha256": "0516696da984cf8efce5a649219f9a213b62af9a52f667bc5002909fca17b002"
+        }
+      ],
+      "top_level_function_count": 211,
+      "last_top_level_function": "orderbook_response_agent",
+      "static_audit_pass": false
+    },
+    {
+      "path": "C:/Users/shiba/Kaggle/pj-kaggriculture/experiments/round11_execution_20260924/sources/extracted_static/moon/extracted_agent_1.py",
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "bytes": 1046403,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_io_imports": [],
+      "risky_calls": [
+        {
+          "line": 3596,
+          "call": "open"
+        }
+      ],
+      "dynamic_execution": [
+        {
+          "line": 1024,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 12009,
+          "literal_sha256": "c03e8c5cd10466c229ee0a44dece9a3943c10bff135d96a7822ffe75d6922724"
+        },
+        {
+          "line": 1026,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 22861,
+          "literal_sha256": "0516696da984cf8efce5a649219f9a213b62af9a52f667bc5002909fca17b002"
+        }
+      ],
+      "top_level_function_count": 223,
+      "last_top_level_function": "_final_sell_block_reorder_entrypoint",
+      "static_audit_pass": false
+    },
+    {
+      "path": "C:/Users/shiba/Kaggle/pj-kaggriculture/experiments/round11_execution_20260924/sources/extracted_static/v15stack/extracted_agent_1.py",
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "bytes": 1057901,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_io_imports": [],
+      "risky_calls": [
+        {
+          "line": 3592,
+          "call": "open"
+        }
+      ],
+      "dynamic_execution": [
+        {
+          "line": 1020,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 12009,
+          "literal_sha256": "c03e8c5cd10466c229ee0a44dece9a3943c10bff135d96a7822ffe75d6922724"
+        },
+        {
+          "line": 1022,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 22861,
+          "literal_sha256": "0516696da984cf8efce5a649219f9a213b62af9a52f667bc5002909fca17b002"
+        }
+      ],
+      "top_level_function_count": 246,
+      "last_top_level_function": "v15_submission_entry",
+      "static_audit_pass": false
+    },
+    {
+      "path": "C:/Users/shiba/Kaggle/pj-kaggriculture/experiments/round11_execution_20260924/sources/extracted_static/wonderful/extracted_agent_1.py",
+      "sha256": "caf490d382731dce2ce85b227b407ddef70c5df88f0773ebe017b695226d3e6d",
+      "bytes": 866704,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_io_imports": [],
+      "risky_calls": [
+        {
+          "line": 3591,
+          "call": "open"
+        }
+      ],
+      "dynamic_execution": [
+        {
+          "line": 1019,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 12009,
+          "literal_sha256": "c03e8c5cd10466c229ee0a44dece9a3943c10bff135d96a7822ffe75d6922724"
+        },
+        {
+          "line": 1021,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 22861,
+          "literal_sha256": "0516696da984cf8efce5a649219f9a213b62af9a52f667bc5002909fca17b002"
+        }
+      ],
+      "top_level_function_count": 167,
+      "last_top_level_function": "agent",
+      "static_audit_pass": false
+    },
+    {
+      "path": "C:/Users/shiba/Kaggle/pj-kaggriculture/experiments/round11_execution_20260924/sources/extracted_static/master_hybrid/extracted_agent_1.py",
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+      "bytes": 1031606,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_io_imports": [],
+      "risky_calls": [
+        {
+          "line": 3593,
+          "call": "open"
+        }
+      ],
+      "dynamic_execution": [
+        {
+          "line": 1021,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 12009,
+          "literal_sha256": "c03e8c5cd10466c229ee0a44dece9a3943c10bff135d96a7822ffe75d6922724"
+        },
+        {
+          "line": 1023,
+          "call": "exec",
+          "literal": true,
+          "literal_parseable_python": true,
+          "literal_bytes": 22861,
+          "literal_sha256": "0516696da984cf8efce5a649219f9a213b62af9a52f667bc5002909fca17b002"
+        }
+      ],
+      "top_level_function_count": 214,
+      "last_top_level_function": "agent",
+      "static_audit_pass": false
+    }
+  ],
+  "all_pass": false
+}

@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-09-22T04:45:45.031172+00:00",
+  "teacher_submission": 56216119,
+  "source_split_manifest_sha256": "cb8aab7dc031166d31167397379dbe7aa233f1b096774d8342fa1af4d1d10376",
+  "source_dataset_manifest_sha256": "695a3fb75f2b422935cf3697ee2f503a9e900351007d451fb8db7072005d2ac3",
+  "rows": {
+    "train": 579777,
+    "validation": 126799,
+    "test": 126561
+  },
+  "feature_width": 88,
+  "features": "normalized same-turn decoded-token counts plus immediately preceding decoded token",
+  "both_seats": {
+    "test:seat0": 41,
+    "train:seat0": 208,
+    "train:seat1": 195,
+    "validation:seat0": 43,
+    "test:seat1": 47,
+    "validation:seat1": 45
+  },
+  "alignment_verified_against_original_actor_labels": true
+}

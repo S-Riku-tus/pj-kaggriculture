@@ -1,0 +1,48 @@
+{
+  "schema": "round11-telemetry-summary-v1",
+  "arms": {
+    "B1": {
+      "games": 32,
+      "games_with_reported_changes": 0,
+      "totals": {
+        "opening_calls": 32.0,
+        "opening_stock_ok": 32.0,
+        "parent.fertilizer.capped": 16.0,
+        "parent.fertilizer.covered": 40.0,
+        "parent.fertilizer.errors": 0.0,
+        "parent.fertilizer.skips": 56.0,
+        "parent.rescue.aborted": 0.0,
+        "parent.rescue.accepted": 16.0,
+        "parent.rescue.changed_steps": 100.0,
+        "parent.rescue.errors": 0.0,
+        "parent.rescue.max_planning_ms": 1038.5987000190653,
+        "parent.rescue.planning_calls": 32.0,
+        "parent.rescue.shadow_declines": 16.0,
+        "parent.seed_budget.changed_turns": 200.0,
+        "parent.seed_budget.cut_units": 1008.0,
+        "parent.seed_budget.errors": 0.0,
+        "parent.seed_budget.saved_cost": 20160.0
+      }
+    },
+    "cw1_conditional_wool": {
+      "games": 32,
+      "games_with_reported_changes": 8,
+      "totals": {
+        "calls": 23008.0,
+        "changes": 8.0,
+        "eligible": 23008.0,
+        "errors": 0.0,
+        "open_attempts": 8.0,
+        "reserved_units": 24.0
+      }
+    },
+    "wool_gate_open_control": {
+      "games": 32,
+      "games_with_reported_changes": 0,
+      "totals": {
+        "calls": 23008.0,
+        "errors": 0.0
+      }
+    }
+  }
+}

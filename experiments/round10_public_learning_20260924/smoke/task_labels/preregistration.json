@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-09-24T01:50:17.335791+00:00",
+  "config": {
+    "output": "experiments/round10_public_learning_20260924/smoke/task_labels",
+    "development_evidence_not_holdout": true,
+    "candidate_limit_per_game": 1,
+    "opponents": {
+      "ahmed_v57": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+        "mode": "last_callable",
+        "family": "ahmed_route"
+      }
+    },
+    "seeds": [
+      2026092418
+    ],
+    "seats": [
+      0
+    ]
+  },
+  "config_sha256": "73042ac0bdfcfa68bf054aea260d8b0b5ba2716f41f20bceb31b975001ea12b6",
+  "engine": "kagsim L1 pinned/validated against official 1.32.7",
+  "fork_method": "restart both agents from step 0; no snapshot/clone",
+  "label": "paired terminal margin delta; future outcome excluded from runtime features"
+}

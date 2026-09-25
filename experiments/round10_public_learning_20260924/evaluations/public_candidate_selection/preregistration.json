@@ -1,0 +1,65 @@
+{
+  "format": "round10-panel-v1",
+  "created_at_utc": "2026-09-24T01:21:43.076201+00:00",
+  "config": {
+    "engine": "kagsim",
+    "output": "experiments/round10_public_learning_20260924/evaluations/public_candidate_selection",
+    "development_evidence_not_holdout": true,
+    "arms": {
+      "melon_threshold": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/melon_threshold/main.py",
+        "mode": "last_callable",
+        "baseline_id": "public_candidate"
+      },
+      "ahmed_v57": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+        "mode": "last_callable",
+        "baseline_id": "public_candidate"
+      },
+      "metav4": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/metav4/main.py",
+        "mode": "last_callable",
+        "baseline_id": "public_candidate"
+      }
+    },
+    "opponents": {
+      "melon_threshold": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/melon_threshold/main.py",
+        "mode": "last_callable",
+        "family": "melon_threshold"
+      },
+      "ahmed_v57": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+        "mode": "last_callable",
+        "family": "ahmed_route"
+      },
+      "metav4": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/metav4/main.py",
+        "mode": "last_callable",
+        "family": "metav4"
+      },
+      "order_book": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/order_book/main.py",
+        "mode": "last_callable",
+        "family": "order_book"
+      },
+      "herd_safe": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+        "mode": "last_callable",
+        "family": "herd_safe"
+      }
+    },
+    "seeds": [
+      2026092405,
+      2026092406
+    ],
+    "seats": [
+      0,
+      1
+    ]
+  },
+  "engine_path": "experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim/kagsim.cp312-win_amd64.pyd",
+  "engine_sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92",
+  "tasks": 60,
+  "development_evidence_not_holdout": true
+}

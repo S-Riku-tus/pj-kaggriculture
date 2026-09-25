@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "panels": ["development_panel_a2_v2", "development_panel_a2_v3"],
+  "games": 8,
+  "comparison": "all actions and observations after excluding timing-only duration/remainingOverageTime fields, plus rewards and statuses",
+  "semantic_steps_rewards_statuses_exact": true,
+  "csv_core_fields_exact": ["anchor", "seed", "seat", "score", "our_cash", "opponent_cash", "margin", "statuses", "states"],
+  "expected_code_difference": "v3 adds step-zero runtime reset; it must not alter an isolated game's policy trajectory",
+  "raw_gzip_or_full_json_byte_equality": false,
+  "raw_difference_reason": "runtime timing metadata is intentionally not stable"
+}

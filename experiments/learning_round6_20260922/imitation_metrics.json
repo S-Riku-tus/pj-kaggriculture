@@ -1,0 +1,1178 @@
+{
+  "created_at_utc": "2026-09-22T04:24:05.172384+00:00",
+  "candidate": "round6_full_action_bc",
+  "archive": "artifacts/submissions/learning_next_20260921_independent_bc.tar.gz",
+  "archive_sha256": "7b3da3332199124ebdf9639b2efb6b3736edcf50afa8972af4f8991dc6df23f0",
+  "extraction_root": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.tmp\\kaggriculture-round6-g0hxfr0x",
+  "teacher_submission": 56216119,
+  "split": "test",
+  "selection_rule": "eight teacher episodes with lowest SHA-256 of round6-imitation:<episode_id>",
+  "teacher_forced_history": true,
+  "future_or_identity_runtime_inputs": false,
+  "episodes": [
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "source_path": "data\\replays\\submission_56216119\\episode_109590135.json",
+      "source_sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.012517385257301807,
+      "final_joint_accuracy": 0.016689847009735744,
+      "raw_to_final_changed_turns": 300
+    },
+    {
+      "episode_id": 110444190,
+      "seat": 1,
+      "source_path": "data\\replays\\submission_56216119\\episode_110444190.json",
+      "source_sha256": "5896c0bd7f7fbc693fc259c6e21447b74f4e52a4a1d8d6596abf4000ef5c9ff5",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.016689847009735744,
+      "final_joint_accuracy": 0.016689847009735744,
+      "raw_to_final_changed_turns": 333
+    },
+    {
+      "episode_id": 108848633,
+      "seat": 0,
+      "source_path": "data\\replays\\submission_56216119\\episode_108848633.json",
+      "source_sha256": "d8846ecb02273294780c0d44e054e4e5ef7ba3d5c4059065c1cdb556459f16e6",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.025034770514603615,
+      "final_joint_accuracy": 0.027816411682892908,
+      "raw_to_final_changed_turns": 330
+    },
+    {
+      "episode_id": 109564919,
+      "seat": 1,
+      "source_path": "data\\replays\\submission_56216119\\episode_109564919.json",
+      "source_sha256": "221ea1bffadce9ecbc699dece16b1d20ac42aed61d44474035c3826cd168c7a1",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.02364394993045897,
+      "final_joint_accuracy": 0.025034770514603615,
+      "raw_to_final_changed_turns": 306
+    },
+    {
+      "episode_id": 110282687,
+      "seat": 0,
+      "source_path": "data\\replays\\submission_56216119\\episode_110282687.json",
+      "source_sha256": "f4dc619124515d7bbbe91697c417c258e5846b73976a4cc9a72284ddc434374a",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.027816411682892908,
+      "final_joint_accuracy": 0.02364394993045897,
+      "raw_to_final_changed_turns": 304
+    },
+    {
+      "episode_id": 110768104,
+      "seat": 1,
+      "source_path": "data\\replays\\submission_56216119\\episode_110768104.json",
+      "source_sha256": "ae9eb5e5707845d75e52987c26dda38f61d75cf4fe9f77fc4067f3db42f33b4b",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.015299026425591099,
+      "final_joint_accuracy": 0.016689847009735744,
+      "raw_to_final_changed_turns": 323
+    },
+    {
+      "episode_id": 108722171,
+      "seat": 0,
+      "source_path": "data\\replays\\submission_56216119\\episode_108722171.json",
+      "source_sha256": "3bb7ed5657fe1ec04af3096ef43d531f9fd08510b6228c80961bd327acd745b0",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.02642559109874826,
+      "final_joint_accuracy": 0.025034770514603615,
+      "raw_to_final_changed_turns": 287
+    },
+    {
+      "episode_id": 109461814,
+      "seat": 1,
+      "source_path": "data\\replays\\submission_56216119\\episode_109461814.json",
+      "source_sha256": "8b3285497e089124324e6a08398dc0c131b565efe459a87ba356bc8352ac1e0e",
+      "decisions": 719,
+      "raw_joint_accuracy": 0.02364394993045897,
+      "final_joint_accuracy": 0.019471488178025034,
+      "raw_to_final_changed_turns": 320
+    }
+  ],
+  "stratified_exact_match": {
+    "stage:final:market_order_sequence": {
+      "total": 5752,
+      "exact": 2099,
+      "accuracy": 0.36491655076495133
+    },
+    "stage:final_archive:cash:not_pressured": {
+      "total": 4083,
+      "exact": 26,
+      "accuracy": 0.006367866764633847
+    },
+    "stage:final_archive:cash:pressured": {
+      "total": 1669,
+      "exact": 97,
+      "accuracy": 0.05811863391252247
+    },
+    "stage:final_archive:importance:collection": {
+      "total": 3391,
+      "exact": 42,
+      "accuracy": 0.012385726924211147
+    },
+    "stage:final_archive:importance:exit_or_conversion": {
+      "total": 249,
+      "exact": 1,
+      "accuracy": 0.004016064257028112
+    },
+    "stage:final_archive:importance:feed_procurement": {
+      "total": 261,
+      "exact": 3,
+      "accuracy": 0.011494252873563218
+    },
+    "stage:final_archive:importance:hire": {
+      "total": 431,
+      "exact": 9,
+      "accuracy": 0.02088167053364269
+    },
+    "stage:final_archive:importance:reinvestment": {
+      "total": 1595,
+      "exact": 23,
+      "accuracy": 0.014420062695924765
+    },
+    "stage:final_archive:importance:routine_or_pass": {
+      "total": 16,
+      "exact": 14,
+      "accuracy": 0.875
+    },
+    "stage:final_archive:importance:sale": {
+      "total": 2145,
+      "exact": 10,
+      "accuracy": 0.004662004662004662
+    },
+    "stage:final_archive:importance:transport": {
+      "total": 5611,
+      "exact": 99,
+      "accuracy": 0.017643913740866157
+    },
+    "stage:final_archive:inventory:not_pressured": {
+      "total": 5185,
+      "exact": 123,
+      "accuracy": 0.023722275795564126
+    },
+    "stage:final_archive:inventory:pressured": {
+      "total": 567,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "stage:final_archive:joint_action": {
+      "total": 5752,
+      "exact": 123,
+      "accuracy": 0.021383866481223923
+    },
+    "stage:final_archive:phase:early": {
+      "total": 1920,
+      "exact": 101,
+      "accuracy": 0.05260416666666667
+    },
+    "stage:final_archive:phase:late": {
+      "total": 1912,
+      "exact": 9,
+      "accuracy": 0.004707112970711297
+    },
+    "stage:final_archive:phase:mid": {
+      "total": 1920,
+      "exact": 13,
+      "accuracy": 0.0067708333333333336
+    },
+    "stage:final_archive:shop:addition_turn": {
+      "total": 64,
+      "exact": 4,
+      "accuracy": 0.0625
+    },
+    "stage:final_archive:shop:after_first": {
+      "total": 5176,
+      "exact": 72,
+      "accuracy": 0.013910355486862442
+    },
+    "stage:final_archive:shop:before_first": {
+      "total": 576,
+      "exact": 51,
+      "accuracy": 0.08854166666666667
+    },
+    "stage:raw:market_order_sequence": {
+      "total": 5752,
+      "exact": 2003,
+      "accuracy": 0.3482267037552156
+    },
+    "stage:raw_decode:cash:not_pressured": {
+      "total": 4083,
+      "exact": 31,
+      "accuracy": 0.007592456527063434
+    },
+    "stage:raw_decode:cash:pressured": {
+      "total": 1669,
+      "exact": 92,
+      "accuracy": 0.05512282804074296
+    },
+    "stage:raw_decode:importance:collection": {
+      "total": 3391,
+      "exact": 43,
+      "accuracy": 0.012680625184311413
+    },
+    "stage:raw_decode:importance:exit_or_conversion": {
+      "total": 249,
+      "exact": 1,
+      "accuracy": 0.004016064257028112
+    },
+    "stage:raw_decode:importance:feed_procurement": {
+      "total": 261,
+      "exact": 4,
+      "accuracy": 0.01532567049808429
+    },
+    "stage:raw_decode:importance:hire": {
+      "total": 431,
+      "exact": 9,
+      "accuracy": 0.02088167053364269
+    },
+    "stage:raw_decode:importance:reinvestment": {
+      "total": 1595,
+      "exact": 30,
+      "accuracy": 0.018808777429467086
+    },
+    "stage:raw_decode:importance:routine_or_pass": {
+      "total": 16,
+      "exact": 13,
+      "accuracy": 0.8125
+    },
+    "stage:raw_decode:importance:sale": {
+      "total": 2145,
+      "exact": 9,
+      "accuracy": 0.004195804195804196
+    },
+    "stage:raw_decode:importance:transport": {
+      "total": 5611,
+      "exact": 100,
+      "accuracy": 0.017822135091783996
+    },
+    "stage:raw_decode:inventory:not_pressured": {
+      "total": 5185,
+      "exact": 123,
+      "accuracy": 0.023722275795564126
+    },
+    "stage:raw_decode:inventory:pressured": {
+      "total": 567,
+      "exact": 0,
+      "accuracy": 0.0
+    },
+    "stage:raw_decode:joint_action": {
+      "total": 5752,
+      "exact": 123,
+      "accuracy": 0.021383866481223923
+    },
+    "stage:raw_decode:phase:early": {
+      "total": 1920,
+      "exact": 101,
+      "accuracy": 0.05260416666666667
+    },
+    "stage:raw_decode:phase:late": {
+      "total": 1912,
+      "exact": 10,
+      "accuracy": 0.005230125523012552
+    },
+    "stage:raw_decode:phase:mid": {
+      "total": 1920,
+      "exact": 12,
+      "accuracy": 0.00625
+    },
+    "stage:raw_decode:shop:addition_turn": {
+      "total": 64,
+      "exact": 4,
+      "accuracy": 0.0625
+    },
+    "stage:raw_decode:shop:after_first": {
+      "total": 5176,
+      "exact": 72,
+      "accuracy": 0.013910355486862442
+    },
+    "stage:raw_decode:shop:before_first": {
+      "total": 576,
+      "exact": 51,
+      "accuracy": 0.08854166666666667
+    }
+  },
+  "actor_by_teacher_class": {
+    "final:BUILD_COOP": {
+      "total": 12,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:BUILD_PASTURE": {
+      "total": 106,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:CARE": {
+      "total": 2270,
+      "token_accuracy": 0.8951541850220265,
+      "full_action_accuracy": 0.8951541850220265,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:COLLECT_FERTILIZER": {
+      "total": 2663,
+      "token_accuracy": 0.883589936162223,
+      "full_action_accuracy": 0.883589936162223,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:DIG": {
+      "total": 282,
+      "token_accuracy": 0.7446808510638298,
+      "full_action_accuracy": 0.7446808510638298,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:DROP": {
+      "total": 606,
+      "token_accuracy": 0.9141914191419142,
+      "full_action_accuracy": 0.9141914191419142,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:EAST": {
+      "total": 5517,
+      "token_accuracy": 0.47978974080116005,
+      "full_action_accuracy": 0.47978974080116005,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:FEED": {
+      "total": 2179,
+      "token_accuracy": 0.9481413492427719,
+      "full_action_accuracy": 0.9481413492427719,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:FERTILIZE": {
+      "total": 1242,
+      "token_accuracy": 0.8236714975845411,
+      "full_action_accuracy": 0.8236714975845411,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:HARVEST": {
+      "total": 3972,
+      "token_accuracy": 0.7197885196374623,
+      "full_action_accuracy": 0.7197885196374623,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:NORTH": {
+      "total": 8984,
+      "token_accuracy": 0.5273820124666073,
+      "full_action_accuracy": 0.5273820124666073,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PASS": {
+      "total": 432,
+      "token_accuracy": 0.7916666666666666,
+      "full_action_accuracy": 0.7916666666666666,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PICKUP:COW": {
+      "total": 158,
+      "token_accuracy": 0.4936708860759494,
+      "full_action_accuracy": 0.4936708860759494,
+      "quantity_applicable": 158,
+      "quantity_and_token_accuracy": 0.4936708860759494,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:PICKUP:GOOSE": {
+      "total": 29,
+      "token_accuracy": 0.41379310344827586,
+      "full_action_accuracy": 0.41379310344827586,
+      "quantity_applicable": 29,
+      "quantity_and_token_accuracy": 0.41379310344827586,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:PICKUP:SHEEP": {
+      "total": 24,
+      "token_accuracy": 0.6666666666666666,
+      "full_action_accuracy": 0.6666666666666666,
+      "quantity_applicable": 24,
+      "quantity_and_token_accuracy": 0.6666666666666666,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:PICKUP:WHEAT": {
+      "total": 1310,
+      "token_accuracy": 0.8206106870229007,
+      "full_action_accuracy": 0.23893129770992366,
+      "quantity_applicable": 1310,
+      "quantity_and_token_accuracy": 0.23893129770992366,
+      "quantity_accuracy_given_token_correct": 0.2911627906976744
+    },
+    "final:PLACE:COW": {
+      "total": 101,
+      "token_accuracy": 0.9801980198019802,
+      "full_action_accuracy": 0.9801980198019802,
+      "quantity_applicable": 101,
+      "quantity_and_token_accuracy": 0.9801980198019802,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:PLACE:FERTILIZER": {
+      "total": 484,
+      "token_accuracy": 0.9648760330578512,
+      "full_action_accuracy": 0.9566115702479339,
+      "quantity_applicable": 484,
+      "quantity_and_token_accuracy": 0.9566115702479339,
+      "quantity_accuracy_given_token_correct": 0.9914346895074947
+    },
+    "final:PLACE:GOOSE": {
+      "total": 14,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 14,
+      "quantity_and_token_accuracy": 1.0,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:PLACE:MELON": {
+      "total": 1,
+      "token_accuracy": 0.0,
+      "full_action_accuracy": 0.0,
+      "quantity_applicable": 1,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PLACE:MILK": {
+      "total": 227,
+      "token_accuracy": 0.9691629955947136,
+      "full_action_accuracy": 0.4008810572687225,
+      "quantity_applicable": 227,
+      "quantity_and_token_accuracy": 0.4008810572687225,
+      "quantity_accuracy_given_token_correct": 0.41363636363636364
+    },
+    "final:PLACE:SHEEP": {
+      "total": 24,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 24,
+      "quantity_and_token_accuracy": 1.0,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:PLACE:WOOL": {
+      "total": 40,
+      "token_accuracy": 0.925,
+      "full_action_accuracy": 0.675,
+      "quantity_applicable": 40,
+      "quantity_and_token_accuracy": 0.675,
+      "quantity_accuracy_given_token_correct": 0.7297297297297297
+    },
+    "final:PLANT:CARROT": {
+      "total": 731,
+      "token_accuracy": 0.8303693570451436,
+      "full_action_accuracy": 0.8303693570451436,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PLANT:MELON": {
+      "total": 98,
+      "token_accuracy": 0.9897959183673469,
+      "full_action_accuracy": 0.9897959183673469,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PLANT:STRAWBERRY": {
+      "total": 279,
+      "token_accuracy": 0.8530465949820788,
+      "full_action_accuracy": 0.8530465949820788,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PLANT:TOMATO": {
+      "total": 46,
+      "token_accuracy": 0.7391304347826086,
+      "full_action_accuracy": 0.7391304347826086,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:PLANT:WHEAT": {
+      "total": 1153,
+      "token_accuracy": 0.7814397224631396,
+      "full_action_accuracy": 0.7814397224631396,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:SOUTH": {
+      "total": 5558,
+      "token_accuracy": 0.575566750629723,
+      "full_action_accuracy": 0.575566750629723,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:WATER": {
+      "total": 11454,
+      "token_accuracy": 0.9370525580583202,
+      "full_action_accuracy": 0.9370525580583202,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:WEST": {
+      "total": 7669,
+      "token_accuracy": 0.45625244490807143,
+      "full_action_accuracy": 0.45625244490807143,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:BUILD_COOP": {
+      "total": 12,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:BUILD_PASTURE": {
+      "total": 106,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:CARE": {
+      "total": 2270,
+      "token_accuracy": 0.9431718061674009,
+      "full_action_accuracy": 0.9431718061674009,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:COLLECT_FERTILIZER": {
+      "total": 2663,
+      "token_accuracy": 0.8745775441231693,
+      "full_action_accuracy": 0.8745775441231693,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:DIG": {
+      "total": 282,
+      "token_accuracy": 0.7446808510638298,
+      "full_action_accuracy": 0.7446808510638298,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:DROP": {
+      "total": 606,
+      "token_accuracy": 0.9026402640264026,
+      "full_action_accuracy": 0.9026402640264026,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:EAST": {
+      "total": 5517,
+      "token_accuracy": 0.45115098785571867,
+      "full_action_accuracy": 0.45115098785571867,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:FEED": {
+      "total": 2179,
+      "token_accuracy": 0.9371271225332721,
+      "full_action_accuracy": 0.9371271225332721,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:FERTILIZE": {
+      "total": 1242,
+      "token_accuracy": 0.822061191626409,
+      "full_action_accuracy": 0.822061191626409,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:HARVEST": {
+      "total": 3972,
+      "token_accuracy": 0.858257804632427,
+      "full_action_accuracy": 0.858257804632427,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:NORTH": {
+      "total": 8984,
+      "token_accuracy": 0.4996660730186999,
+      "full_action_accuracy": 0.4996660730186999,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PASS": {
+      "total": 432,
+      "token_accuracy": 0.7337962962962963,
+      "full_action_accuracy": 0.7337962962962963,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PICKUP:COW": {
+      "total": 158,
+      "token_accuracy": 0.9177215189873418,
+      "full_action_accuracy": 0.9177215189873418,
+      "quantity_applicable": 158,
+      "quantity_and_token_accuracy": 0.9177215189873418,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:PICKUP:GOOSE": {
+      "total": 29,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 29,
+      "quantity_and_token_accuracy": 1.0,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:PICKUP:SHEEP": {
+      "total": 24,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 24,
+      "quantity_and_token_accuracy": 1.0,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:PICKUP:WHEAT": {
+      "total": 1310,
+      "token_accuracy": 0.8290076335877863,
+      "full_action_accuracy": 0.23587786259541985,
+      "quantity_applicable": 1310,
+      "quantity_and_token_accuracy": 0.23587786259541985,
+      "quantity_accuracy_given_token_correct": 0.2845303867403315
+    },
+    "raw:PLACE:COW": {
+      "total": 101,
+      "token_accuracy": 0.9801980198019802,
+      "full_action_accuracy": 0.9801980198019802,
+      "quantity_applicable": 101,
+      "quantity_and_token_accuracy": 0.9801980198019802,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:PLACE:FERTILIZER": {
+      "total": 484,
+      "token_accuracy": 0.9648760330578512,
+      "full_action_accuracy": 0.9566115702479339,
+      "quantity_applicable": 484,
+      "quantity_and_token_accuracy": 0.9566115702479339,
+      "quantity_accuracy_given_token_correct": 0.9914346895074947
+    },
+    "raw:PLACE:GOOSE": {
+      "total": 14,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 14,
+      "quantity_and_token_accuracy": 1.0,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:PLACE:MELON": {
+      "total": 1,
+      "token_accuracy": 0.0,
+      "full_action_accuracy": 0.0,
+      "quantity_applicable": 1,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PLACE:MILK": {
+      "total": 227,
+      "token_accuracy": 0.9691629955947136,
+      "full_action_accuracy": 0.4008810572687225,
+      "quantity_applicable": 227,
+      "quantity_and_token_accuracy": 0.4008810572687225,
+      "quantity_accuracy_given_token_correct": 0.41363636363636364
+    },
+    "raw:PLACE:SHEEP": {
+      "total": 24,
+      "token_accuracy": 1.0,
+      "full_action_accuracy": 1.0,
+      "quantity_applicable": 24,
+      "quantity_and_token_accuracy": 1.0,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:PLACE:WOOL": {
+      "total": 40,
+      "token_accuracy": 0.925,
+      "full_action_accuracy": 0.675,
+      "quantity_applicable": 40,
+      "quantity_and_token_accuracy": 0.675,
+      "quantity_accuracy_given_token_correct": 0.7297297297297297
+    },
+    "raw:PLANT:CARROT": {
+      "total": 731,
+      "token_accuracy": 0.8221614227086184,
+      "full_action_accuracy": 0.8221614227086184,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PLANT:MELON": {
+      "total": 98,
+      "token_accuracy": 0.9897959183673469,
+      "full_action_accuracy": 0.9897959183673469,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PLANT:STRAWBERRY": {
+      "total": 279,
+      "token_accuracy": 0.8637992831541219,
+      "full_action_accuracy": 0.8637992831541219,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PLANT:TOMATO": {
+      "total": 46,
+      "token_accuracy": 0.7391304347826086,
+      "full_action_accuracy": 0.7391304347826086,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:PLANT:WHEAT": {
+      "total": 1153,
+      "token_accuracy": 0.7675628794449263,
+      "full_action_accuracy": 0.7675628794449263,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:SOUTH": {
+      "total": 5558,
+      "token_accuracy": 0.5554156171284634,
+      "full_action_accuracy": 0.5554156171284634,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:WATER": {
+      "total": 11454,
+      "token_accuracy": 0.9336476340143182,
+      "full_action_accuracy": 0.9336476340143182,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:WEST": {
+      "total": 7669,
+      "token_accuracy": 0.41856826183335505,
+      "full_action_accuracy": 0.41856826183335505,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    }
+  },
+  "actor_macro": {
+    "raw": {
+      "token_macro_accuracy": 0.8207476643163567,
+      "full_action_macro_accuracy": 0.7749516587638318,
+      "classes": 31
+    },
+    "final": {
+      "token_macro_accuracy": 0.7782157532481927,
+      "full_action_macro_accuracy": 0.7327891148466157,
+      "classes": 31
+    }
+  },
+  "actor_micro": {
+    "raw": {
+      "total": 57665,
+      "token_accuracy": 0.6954998699384375,
+      "full_action_accuracy": 0.679545651608428,
+      "quantity_applicable": 2412,
+      "quantity_and_token_accuracy": 0.50787728026534
+    },
+    "final": {
+      "total": 57665,
+      "token_accuracy": 0.6987253966877656,
+      "full_action_accuracy": 0.6830313014827019,
+      "quantity_applicable": 2412,
+      "quantity_and_token_accuracy": 0.47139303482587064
+    }
+  },
+  "market_by_teacher_class": {
+    "final:BUY_ANIMAL:COW": {
+      "total": 92,
+      "token_accuracy": 0.5217391304347826,
+      "full_order_accuracy": 0.5217391304347826,
+      "quantity_applicable": 92,
+      "quantity_and_token_accuracy": 0.5217391304347826,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:BUY_ANIMAL:GOOSE": {
+      "total": 12,
+      "token_accuracy": 0.4166666666666667,
+      "full_order_accuracy": 0.4166666666666667,
+      "quantity_applicable": 12,
+      "quantity_and_token_accuracy": 0.4166666666666667,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:BUY_ANIMAL:SHEEP": {
+      "total": 8,
+      "token_accuracy": 0.0,
+      "full_order_accuracy": 0.0,
+      "quantity_applicable": 8,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:BUY_LAND": {
+      "total": 35,
+      "token_accuracy": 0.02857142857142857,
+      "full_order_accuracy": 0.02857142857142857,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:BUY_PRODUCT:WHEAT": {
+      "total": 261,
+      "token_accuracy": 0.3793103448275862,
+      "full_order_accuracy": 0.05747126436781609,
+      "quantity_applicable": 261,
+      "quantity_and_token_accuracy": 0.05747126436781609,
+      "quantity_accuracy_given_token_correct": 0.15151515151515152
+    },
+    "final:BUY_SEED:CARROT": {
+      "total": 124,
+      "token_accuracy": 0.20967741935483872,
+      "full_order_accuracy": 0.20967741935483872,
+      "quantity_applicable": 124,
+      "quantity_and_token_accuracy": 0.20967741935483872,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:BUY_SEED:MELON": {
+      "total": 67,
+      "token_accuracy": 0.40298507462686567,
+      "full_order_accuracy": 0.23880597014925373,
+      "quantity_applicable": 67,
+      "quantity_and_token_accuracy": 0.23880597014925373,
+      "quantity_accuracy_given_token_correct": 0.5925925925925926
+    },
+    "final:BUY_SEED:STRAWBERRY": {
+      "total": 329,
+      "token_accuracy": 0.46504559270516715,
+      "full_order_accuracy": 0.46504559270516715,
+      "quantity_applicable": 329,
+      "quantity_and_token_accuracy": 0.46504559270516715,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:BUY_SEED:TOMATO": {
+      "total": 48,
+      "token_accuracy": 0.25,
+      "full_order_accuracy": 0.25,
+      "quantity_applicable": 48,
+      "quantity_and_token_accuracy": 0.25,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "final:BUY_SEED:WHEAT": {
+      "total": 1079,
+      "token_accuracy": 0.567191844300278,
+      "full_order_accuracy": 0.5495829471733086,
+      "quantity_applicable": 1079,
+      "quantity_and_token_accuracy": 0.5495829471733086,
+      "quantity_accuracy_given_token_correct": 0.9689542483660131
+    },
+    "final:EOS": {
+      "total": 8291,
+      "token_accuracy": 0.6937643227596189,
+      "full_order_accuracy": 0.6937643227596189,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:HIRE": {
+      "total": 2303,
+      "token_accuracy": 0.7108119843682154,
+      "full_order_accuracy": 0.7108119843682154,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "final:SELL:CARROT": {
+      "total": 172,
+      "token_accuracy": 0.5058139534883721,
+      "full_order_accuracy": 0.14534883720930233,
+      "quantity_applicable": 172,
+      "quantity_and_token_accuracy": 0.14534883720930233,
+      "quantity_accuracy_given_token_correct": 0.28735632183908044
+    },
+    "final:SELL:EGG": {
+      "total": 67,
+      "token_accuracy": 0.4626865671641791,
+      "full_order_accuracy": 0.08955223880597014,
+      "quantity_applicable": 67,
+      "quantity_and_token_accuracy": 0.08955223880597014,
+      "quantity_accuracy_given_token_correct": 0.1935483870967742
+    },
+    "final:SELL:FERTILIZER": {
+      "total": 702,
+      "token_accuracy": 0.7279202279202279,
+      "full_order_accuracy": 0.4886039886039886,
+      "quantity_applicable": 702,
+      "quantity_and_token_accuracy": 0.4886039886039886,
+      "quantity_accuracy_given_token_correct": 0.6712328767123288
+    },
+    "final:SELL:MELON": {
+      "total": 78,
+      "token_accuracy": 0.6410256410256411,
+      "full_order_accuracy": 0.4358974358974359,
+      "quantity_applicable": 78,
+      "quantity_and_token_accuracy": 0.4358974358974359,
+      "quantity_accuracy_given_token_correct": 0.68
+    },
+    "final:SELL:MILK": {
+      "total": 650,
+      "token_accuracy": 0.12923076923076923,
+      "full_order_accuracy": 0.04461538461538461,
+      "quantity_applicable": 650,
+      "quantity_and_token_accuracy": 0.04461538461538461,
+      "quantity_accuracy_given_token_correct": 0.34523809523809523
+    },
+    "final:SELL:STRAWBERRY": {
+      "total": 438,
+      "token_accuracy": 0.3287671232876712,
+      "full_order_accuracy": 0.0502283105022831,
+      "quantity_applicable": 438,
+      "quantity_and_token_accuracy": 0.0502283105022831,
+      "quantity_accuracy_given_token_correct": 0.1527777777777778
+    },
+    "final:SELL:TOMATO": {
+      "total": 74,
+      "token_accuracy": 0.32432432432432434,
+      "full_order_accuracy": 0.1891891891891892,
+      "quantity_applicable": 74,
+      "quantity_and_token_accuracy": 0.1891891891891892,
+      "quantity_accuracy_given_token_correct": 0.5833333333333334
+    },
+    "final:SELL:WHEAT": {
+      "total": 571,
+      "token_accuracy": 0.4098073555166375,
+      "full_order_accuracy": 0.09106830122591944,
+      "quantity_applicable": 571,
+      "quantity_and_token_accuracy": 0.09106830122591944,
+      "quantity_accuracy_given_token_correct": 0.2222222222222222
+    },
+    "final:SELL:WOOL": {
+      "total": 219,
+      "token_accuracy": 0.2328767123287671,
+      "full_order_accuracy": 0.1141552511415525,
+      "quantity_applicable": 219,
+      "quantity_and_token_accuracy": 0.1141552511415525,
+      "quantity_accuracy_given_token_correct": 0.49019607843137253
+    },
+    "raw:BUY_ANIMAL:COW": {
+      "total": 92,
+      "token_accuracy": 0.5978260869565217,
+      "full_order_accuracy": 0.5978260869565217,
+      "quantity_applicable": 92,
+      "quantity_and_token_accuracy": 0.5978260869565217,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:BUY_ANIMAL:GOOSE": {
+      "total": 12,
+      "token_accuracy": 0.4166666666666667,
+      "full_order_accuracy": 0.4166666666666667,
+      "quantity_applicable": 12,
+      "quantity_and_token_accuracy": 0.4166666666666667,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:BUY_ANIMAL:SHEEP": {
+      "total": 8,
+      "token_accuracy": 0.0,
+      "full_order_accuracy": 0.0,
+      "quantity_applicable": 8,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:BUY_LAND": {
+      "total": 35,
+      "token_accuracy": 0.34285714285714286,
+      "full_order_accuracy": 0.34285714285714286,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:BUY_PRODUCT:WHEAT": {
+      "total": 261,
+      "token_accuracy": 0.5210727969348659,
+      "full_order_accuracy": 0.06896551724137931,
+      "quantity_applicable": 261,
+      "quantity_and_token_accuracy": 0.06896551724137931,
+      "quantity_accuracy_given_token_correct": 0.1323529411764706
+    },
+    "raw:BUY_SEED:CARROT": {
+      "total": 124,
+      "token_accuracy": 0.20967741935483872,
+      "full_order_accuracy": 0.20967741935483872,
+      "quantity_applicable": 124,
+      "quantity_and_token_accuracy": 0.20967741935483872,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:BUY_SEED:MELON": {
+      "total": 67,
+      "token_accuracy": 0.4626865671641791,
+      "full_order_accuracy": 0.23880597014925373,
+      "quantity_applicable": 67,
+      "quantity_and_token_accuracy": 0.23880597014925373,
+      "quantity_accuracy_given_token_correct": 0.5161290322580645
+    },
+    "raw:BUY_SEED:STRAWBERRY": {
+      "total": 329,
+      "token_accuracy": 0.6170212765957447,
+      "full_order_accuracy": 0.6170212765957447,
+      "quantity_applicable": 329,
+      "quantity_and_token_accuracy": 0.6170212765957447,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:BUY_SEED:TOMATO": {
+      "total": 48,
+      "token_accuracy": 0.25,
+      "full_order_accuracy": 0.25,
+      "quantity_applicable": 48,
+      "quantity_and_token_accuracy": 0.25,
+      "quantity_accuracy_given_token_correct": 1.0
+    },
+    "raw:BUY_SEED:WHEAT": {
+      "total": 1079,
+      "token_accuracy": 0.5699721964782206,
+      "full_order_accuracy": 0.5523632993512512,
+      "quantity_applicable": 1079,
+      "quantity_and_token_accuracy": 0.5523632993512512,
+      "quantity_accuracy_given_token_correct": 0.9691056910569106
+    },
+    "raw:EOS": {
+      "total": 8618,
+      "token_accuracy": 0.6674402413553029,
+      "full_order_accuracy": 0.6674402413553029,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:HIRE": {
+      "total": 2303,
+      "token_accuracy": 0.7012592270950934,
+      "full_order_accuracy": 0.7012592270950934,
+      "quantity_applicable": 0,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:SELL:CARROT": {
+      "total": 172,
+      "token_accuracy": 0.5116279069767442,
+      "full_order_accuracy": 0.029069767441860465,
+      "quantity_applicable": 172,
+      "quantity_and_token_accuracy": 0.029069767441860465,
+      "quantity_accuracy_given_token_correct": 0.056818181818181816
+    },
+    "raw:SELL:EGG": {
+      "total": 67,
+      "token_accuracy": 0.4626865671641791,
+      "full_order_accuracy": 0.0,
+      "quantity_applicable": 67,
+      "quantity_and_token_accuracy": 0.0,
+      "quantity_accuracy_given_token_correct": 0.0
+    },
+    "raw:SELL:FERTILIZER": {
+      "total": 702,
+      "token_accuracy": 0.7165242165242165,
+      "full_order_accuracy": 0.47863247863247865,
+      "quantity_applicable": 702,
+      "quantity_and_token_accuracy": 0.47863247863247865,
+      "quantity_accuracy_given_token_correct": 0.6679920477137177
+    },
+    "raw:SELL:MELON": {
+      "total": 78,
+      "token_accuracy": 0.6025641025641025,
+      "full_order_accuracy": 0.4230769230769231,
+      "quantity_applicable": 78,
+      "quantity_and_token_accuracy": 0.4230769230769231,
+      "quantity_accuracy_given_token_correct": 0.7021276595744681
+    },
+    "raw:SELL:MILK": {
+      "total": 650,
+      "token_accuracy": 0.12923076923076923,
+      "full_order_accuracy": 0.043076923076923075,
+      "quantity_applicable": 650,
+      "quantity_and_token_accuracy": 0.043076923076923075,
+      "quantity_accuracy_given_token_correct": 0.3333333333333333
+    },
+    "raw:SELL:STRAWBERRY": {
+      "total": 438,
+      "token_accuracy": 0.319634703196347,
+      "full_order_accuracy": 0.03881278538812785,
+      "quantity_applicable": 438,
+      "quantity_and_token_accuracy": 0.03881278538812785,
+      "quantity_accuracy_given_token_correct": 0.12142857142857143
+    },
+    "raw:SELL:TOMATO": {
+      "total": 74,
+      "token_accuracy": 0.35135135135135137,
+      "full_order_accuracy": 0.10810810810810811,
+      "quantity_applicable": 74,
+      "quantity_and_token_accuracy": 0.10810810810810811,
+      "quantity_accuracy_given_token_correct": 0.3076923076923077
+    },
+    "raw:SELL:WHEAT": {
+      "total": 571,
+      "token_accuracy": 0.3975481611208406,
+      "full_order_accuracy": 0.05779334500875657,
+      "quantity_applicable": 571,
+      "quantity_and_token_accuracy": 0.05779334500875657,
+      "quantity_accuracy_given_token_correct": 0.14537444933920704
+    },
+    "raw:SELL:WOOL": {
+      "total": 219,
+      "token_accuracy": 0.2328767123287671,
+      "full_order_accuracy": 0.1095890410958904,
+      "quantity_applicable": 219,
+      "quantity_and_token_accuracy": 0.1095890410958904,
+      "quantity_accuracy_given_token_correct": 0.47058823529411764
+    }
+  },
+  "market_micro": {
+    "raw": {
+      "total": 15947,
+      "token_accuracy": 0.6056938609142786,
+      "full_order_accuracy": 0.5514516837022637,
+      "quantity_applicable": 4991,
+      "quantity_and_token_accuracy": 0.2835103185734322
+    },
+    "final": {
+      "total": 15620,
+      "token_accuracy": 0.6138284250960307,
+      "full_order_accuracy": 0.5638924455825864,
+      "quantity_applicable": 4991,
+      "quantity_and_token_accuracy": 0.2841114005209377
+    }
+  },
+  "stage_limit": "raw argmax and raw quantity decode are separately measured; the frozen archive combines legality and economic corrections internally, so those two correction sub-stages cannot be disaggregated without creating a different artifact",
+  "representation_oracle_is_not_model_accuracy": true
+}

@@ -1,0 +1,43 @@
+{
+  "official_blob": "3c202c7ee921da239356789e266b694635103fc4",
+  "same_expected_source": true,
+  "scope": "Market-only settlement, not full-agent validation",
+  "cases": [
+    {
+      "name": "isolated70",
+      "passed": true
+    },
+    {
+      "name": "mirror70",
+      "passed": true
+    },
+    {
+      "name": "small10_vs70",
+      "passed": true
+    },
+    {
+      "name": "large70_vs10",
+      "passed": true
+    },
+    {
+      "name": "squeeze90",
+      "passed": true
+    },
+    {
+      "name": "sell_hire",
+      "passed": true
+    },
+    {
+      "name": "hire_sell",
+      "passed": true
+    },
+    {
+      "name": "seed159",
+      "passed": true
+    },
+    {
+      "name": "seed160",
+      "passed": true
+    }
+  ]
+}

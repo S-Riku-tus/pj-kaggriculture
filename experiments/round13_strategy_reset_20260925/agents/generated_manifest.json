@@ -1,0 +1,37 @@
+{
+  "C_EARLY4_M1": {
+    "entrypoint": "round13_agent",
+    "mode": "C_EARLY4_M1",
+    "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "path": "agents/C_EARLY4_M1/main.py",
+    "sha256": "c14e71a996294062d732d9b20647800bfde1cc21056dcb3c98468054ebc9e7e9"
+  },
+  "D0_B1": {
+    "entrypoint": "opening_liquidity_agent",
+    "mode": "B1_FROZEN",
+    "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "path": "agents/D0_B1/main.py",
+    "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02"
+  },
+  "M1_deadline_market": {
+    "entrypoint": "round13_agent",
+    "mode": "M1_DEADLINE_MARKET",
+    "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "path": "agents/M1_deadline_market/main.py",
+    "sha256": "37a57f21fb6a36aa18869c9b9edb3d284b690de1d666bca78bbfb3f4bec93485"
+  },
+  "P_EARLY4": {
+    "entrypoint": "round13_agent",
+    "mode": "P_EARLY4",
+    "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "path": "agents/P_EARLY4/main.py",
+    "sha256": "df127da9c91662908ffdc48987ce37df44d4901b51be6a029628dc2655318c3c"
+  },
+  "P_ROTATE2": {
+    "entrypoint": "round13_agent",
+    "mode": "P_ROTATE2",
+    "parent_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "path": "agents/P_ROTATE2/main.py",
+    "sha256": "30909d1b89154351bf2a7f88c18bb763fa252d48648a861db376ac035c2aaaed"
+  }
+}

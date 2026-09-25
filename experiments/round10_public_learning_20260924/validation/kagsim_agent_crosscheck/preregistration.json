@@ -1,0 +1,34 @@
+{
+  "format": "round10-panel-v1",
+  "created_at_utc": "2026-09-24T02:18:06.028594+00:00",
+  "config": {
+    "engine": "kagsim",
+    "output": "experiments/round10_public_learning_20260924/validation/kagsim_agent_crosscheck",
+    "development_evidence_not_holdout": true,
+    "arms": {
+      "B1_herd_safe": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+        "mode": "last_callable",
+        "baseline_id": "B1_public_source"
+      }
+    },
+    "opponents": {
+      "ahmed_v57": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+        "mode": "last_callable",
+        "family": "ahmed_route"
+      }
+    },
+    "seeds": [
+      2026092401
+    ],
+    "seats": [
+      0,
+      1
+    ]
+  },
+  "engine_path": "experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim/kagsim.cp312-win_amd64.pyd",
+  "engine_sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92",
+  "tasks": 2,
+  "development_evidence_not_holdout": true
+}

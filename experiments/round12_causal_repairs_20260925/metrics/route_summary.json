@@ -1,0 +1,82 @@
+{
+  "scope": "8 reactive C++ full games, 2 disclosed development seeds x 2 seats x 2 market modes; not holdout",
+  "games": 8,
+  "wins": 0,
+  "losses": 8,
+  "ties": 0,
+  "first_strawberry_day_values": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "peak_strawberry_values": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "harvest_strawberry_values": [
+    63,
+    63,
+    63,
+    63,
+    63,
+    63,
+    63,
+    63
+  ],
+  "sold_strawberry_values": [
+    63,
+    63,
+    63,
+    63,
+    63,
+    63,
+    63,
+    63
+  ],
+  "strawberry_revenue_values": [
+    15164,
+    15164,
+    5452,
+    8235,
+    15164,
+    15164,
+    5474,
+    8265
+  ],
+  "terminal_cash_values": [
+    17356.0,
+    17356.0,
+    6906.0,
+    9689.0,
+    17358.0,
+    17358.0,
+    6929.0,
+    9720.0
+  ],
+  "drop_failures": 0,
+  "continuing_crop_loss_units_inferred": [
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9
+  ],
+  "loss_inference": "plants_created minus terminal continuing plants; controller never DIGs a live strawberry",
+  "route_complete_all_games": true,
+  "maintenance_clean_all_games": false,
+  "decision": "REJECT_STRENGTH_AND_MAINTENANCE; retained as executable independent production path"
+}

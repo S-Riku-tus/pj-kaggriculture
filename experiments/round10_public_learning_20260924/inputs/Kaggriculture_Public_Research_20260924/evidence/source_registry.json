@@ -1,0 +1,199 @@
+[
+  {
+    "id": "S01",
+    "title": "Kaggriculture official overview / timeline",
+    "url": "https://www.kaggle.com/competitions/kaggriculture/overview/citation",
+    "evidence_level": "公式ページ検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "最終提出日2026-09-30。ゲーム目的・決済の概要。",
+    "limitation": "相対日付・残り日数は検索キャッシュが古い。最新Leaderboard行は取得できていない。"
+  },
+  {
+    "id": "S02",
+    "title": "Official engine, pinned source",
+    "url": "https://github.com/Kaggle/kaggle-environments/blob/302d8e20c83822b8d4572975cdea1180b792b748/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "evidence_level": "公式コードの該当関数を直接読解",
+    "reviewed_on": "2026-09-24",
+    "use": "価格式、単位同時見積り、購入/売却、雇用、作物期間。",
+    "limitation": "ソース確認であり、Kaggle本番配備版との同一性は別途必要。コード全体の再実行は未実施。",
+    "mirror_git_blob_sha": "3c202c7ee921da239356789e266b694635103fc4"
+  },
+  {
+    "id": "S03",
+    "title": "kaggriculture-cppsim README",
+    "url": "https://github.com/destbreso/kaggriculture-cppsim/blob/f0084b916343c37bbcbdc7de9d833dc96caff78f/README.md",
+    "evidence_level": "作者の説明本文を直接読解",
+    "reviewed_on": "2026-09-24",
+    "use": "1.32.7対応C++エンジン、L0固定列、L1対話API、失敗計測。",
+    "limitation": "速度・同等性結果は作者報告。こちらではビルド・対戦を実行していない。"
+  },
+  {
+    "id": "S04",
+    "title": "cppsim ROADMAP",
+    "url": "https://github.com/destbreso/kaggriculture-cppsim/blob/f0084b916343c37bbcbdc7de9d833dc96caff78f/ROADMAP.md",
+    "evidence_level": "作者の説明本文を直接読解",
+    "reviewed_on": "2026-09-24",
+    "use": "L1実装済み、L2テンソル一括API未実装。",
+    "limitation": "Game APIの存在を、snapshot/clone APIの存在と読み替えない。"
+  },
+  {
+    "id": "S05",
+    "title": "cppsim L1 parity test",
+    "url": "https://github.com/destbreso/kaggriculture-cppsim/blob/f0084b916343c37bbcbdc7de9d833dc96caff78f/tests/test_l1.py",
+    "evidence_level": "テストコードを直接読解",
+    "reviewed_on": "2026-09-24",
+    "use": "両seat観測のfarm/market/town/private等と終局報酬の比較方式。",
+    "limitation": "同梱の有限トレース試験であり全状態同等性の証明ではない。"
+  },
+  {
+    "id": "S06",
+    "title": "Ahmed V45: First-Turn Wheat Round Trip",
+    "url": "https://www.kaggle.com/code/ahmedberatozer/kaggriculture-v45-first-turn-wheat-round-trip",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "初手数量・注文slotで相手の初日資金を変える。作者報告620勝20敗/640。",
+    "limitation": "10相手・32seed・両seatの関連した比較。今日の3000帯実力ではない。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/ahmedberatozer__kaggriculture-v45-first-turn-wheat-round-trip.md",
+    "mirror_git_blob_sha": "2ea81bf1b647aa140ef91d3e976d12d7996643ea"
+  },
+  {
+    "id": "S07",
+    "title": "Melon Threshold / Step-1 Squeeze",
+    "url": "https://www.kaggle.com/code/goodpjw2008/kaggriculture-melon-threshold-squeeze-2749",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "10対70、step1追加買戻し、種購入の閾値、逆counter。",
+    "limitation": "2749は作者の過去到達報告。private上位には効かないと作者自身が限定。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/goodpjw2008__kaggriculture-melon-threshold-squeeze-2749.md",
+    "mirror_git_blob_sha": "d608cd54e83806801d9ffc749ba61d9dbb09dd20"
+  },
+  {
+    "id": "S08",
+    "title": "The Metav4 Farm, submission v13",
+    "url": "https://www.kaggle.com/code/thomastschinkel/the-metav4-farm-submission-v13",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "公共基準への強さと実上位への差、労働費、投入/搬入、予測更新、負の結果。",
+    "limitation": "作者報告。本文のトマト3日等は公式定数と不一致。報告の数値を無条件で一般化しない。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/thomastschinkel__the-metav4-farm-submission-v13.md",
+    "mirror_git_blob_sha": "32d14baafb94bdd12e3a0ad7752f4eace3240e50"
+  },
+  {
+    "id": "S09",
+    "title": "V56: Smarter Seeds and Fertilizer",
+    "url": "https://www.kaggle.com/code/ahmedberatozer/kaggriculture-v56-smarter-seeds-and-fertilizer",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "残り植付機会に種購入を合わせ、予定収穫を変えない追加施肥を削る。",
+    "limitation": "比較対象は前のV56でV55ではない。全文ソースの同一性・対戦は未再検証。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/ahmedberatozer__kaggriculture-v56-smarter-seeds-and-fertilizer.md",
+    "mirror_git_blob_sha": "401ece03e4b7ee15fc4121b9411ea0bc0420d320"
+  },
+  {
+    "id": "S10",
+    "title": "V57: Funding-Order Invariant",
+    "url": "https://www.kaggle.com/code/ahmedberatozer/kaggriculture-v57-funding-order-invariant",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "売却資金より先にHIRE/BUYを動かす不具合を防ぐ。",
+    "limitation": "320ゲーム=160対条件。30betterは30敗戦救済ではなく、W/L/Tの変化は4勝増・4分減。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/ahmedberatozer__kaggriculture-v57-funding-order-invariant.md",
+    "mirror_git_blob_sha": "7344f87b1442a63cee26f8c955bc877907718a22"
+  },
+  {
+    "id": "S11",
+    "title": "Herd-Safe Sale Window, Sept 22",
+    "url": "https://www.kaggle.com/code/dmitriigluzdov/kaggriculture-herd-safe-sale-window-lb-2700",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "資材保護、7turn最終回収、統合方策の再評価。",
+    "limitation": "タイトル2700は旧版。作者報告で16/64にガチョウ退出が残る。相手共通祖先も明示。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/refresh_20260923T001052Z/extracted/dmitriigluzdov__kaggriculture-herd-safe-sale-window-lb-2700.md",
+    "mirror_git_blob_sha": "07e703b0626d185f3d14fac848831fd34d0654a5"
+  },
+  {
+    "id": "S12",
+    "title": "Your Market List Is an Order Book",
+    "url": "https://www.kaggle.com/code/shiiin9/your-market-list-is-an-order-book",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "候補注文列の相対価格影響、将来市場在庫でトマト投資を評価。",
+    "limitation": "191-53は244件で280に36件足りない。89敗→勝を未検算のまま採用しない。評価器の有限資金制約も別確認。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/shiiin9__your-market-list-is-an-order-book.md",
+    "mirror_git_blob_sha": "e661757ccf7d2edb40f692fc1aff6d31971afe38"
+  },
+  {
+    "id": "S13",
+    "title": "Public Meta Atlas, Sept 22",
+    "url": "https://www.kaggle.com/code/leoprovorov/kaggriculture-public-meta-atlas-v2",
+    "evidence_level": "原作者Notebook説明の公開ミラーを読解",
+    "reviewed_on": "2026-09-24",
+    "use": "4公開agentのAST比較。共通194関数という作者独自集計。",
+    "limitation": "私の再計算ではない。サンプル内のコード重複は全体の方策同一性ではない。 原サイトの本文を直接取得できない箇所は、公開ミラーとの一致を未保証。",
+    "inspected_mirror_url": "https://github.com/5thDimension-Sean/kaggriculture-master/blob/fa7458c015982ec838cce9427b3268114ac1c784/evidence/extracted/leoprovorov__kaggriculture-public-meta-atlas-v2.md",
+    "mirror_git_blob_sha": "21786a2d0fd3b92332fc1eb05c967ef87d68bdde"
+  },
+  {
+    "id": "S14",
+    "title": "DAgger original paper",
+    "url": "https://proceedings.mlr.press/v15/ross11a.html",
+    "evidence_level": "原論文ページ",
+    "reviewed_on": "2026-09-24",
+    "use": "自己生成状態で学ぶ必要性を説明する理論背景。",
+    "limitation": "この論文はKaggricultureでの性能保証ではない。"
+  },
+  {
+    "id": "S15",
+    "title": "RL of Meta Agent: 960 Matchups and a PPO Plateau",
+    "url": "https://www.kaggle.com/competitions/kaggriculture/discussion/736439",
+    "evidence_level": "作者投稿の検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "高レベル選択のPPOでも相手間トレードオフが出た参加者実験。",
+    "limitation": "今回のページ直開きは失敗。以前の保存分析と検索取得を分離。新規ゲームの再現なし。"
+  },
+  {
+    "id": "S16",
+    "title": "How are people making RL work in Kaggriculture?",
+    "url": "https://www.kaggle.com/competitions/kaggriculture/discussion/740792",
+    "evidence_level": "作者投稿の検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "RL継続研究の存在と、適応的なログだけから学習済みと判断できない点。",
+    "limitation": "RL不可能とも3000達成とも証明しない。"
+  },
+  {
+    "id": "S17",
+    "title": "X-ray your agent",
+    "url": "https://www.kaggle.com/code/destbreso/x-ray-your-agent",
+    "evidence_level": "公式Notebookメタデータ検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "意思決定言語・作業・資金診断の候補ツール。",
+    "limitation": "最新版全コードの実行は未実施。"
+  },
+  {
+    "id": "S18",
+    "title": "Harvest Ledger V54",
+    "url": "https://www.kaggle.com/code/haodou092/notebookdb6965aa8e",
+    "evidence_level": "公式Notebookメタデータ検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "公開スコア2684.2/V54という取得表示。比較候補。",
+    "limitation": "以後の版も他作者資料に登場するため、V54を最新と断言しない。元版と実行物の対応が必要。"
+  },
+  {
+    "id": "S19",
+    "title": "Barnyard Economist",
+    "url": "https://www.kaggle.com/code/romanrozen/strong-barnyard-economist/notebook",
+    "evidence_level": "公式Notebookメタデータ検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "検索表示Public/Best3034.8 V7という歴史的候補。",
+    "limitation": "検索キャッシュが数週間前で、現在の3000帯対戦能力の確認ではない。"
+  },
+  {
+    "id": "S20",
+    "title": "Kaito v43 Sparse Shop Hybrid",
+    "url": "https://www.kaggle.com/code/kaitofukami/103-128-fresh-public-v43-sparse-shop-hybrid",
+    "evidence_level": "公式Notebookメタデータ検索取得",
+    "reviewed_on": "2026-09-24",
+    "use": "過去の疎な分岐方策。今回の新規戦略の中核にはしない。",
+    "limitation": "過去の3009/3090のBestを別版の現在レートとして混同しない。"
+  }
+]

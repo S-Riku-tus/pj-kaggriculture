@@ -1,0 +1,91 @@
+{
+  "round": "learning_round7_20260922",
+  "implementation": {
+    "status": "completed_for_executed_round7_scope",
+    "completed": [
+      "Phase 0 frozen-asset, loader, timeline, encoder, leakage, split, and correction audit",
+      "Phase 1 engine-state contract fixtures",
+      "Arm A duration-only training with reproducibility repair",
+      "Arm B capacity-only training",
+      "Arm C quantity/resource ledger",
+      "task-completion executor V1/V2/V3 development",
+      "multi-episode prefix diagnostics",
+      "8-game normal-start pilot",
+      "48-game development evaluation",
+      "fresh official-loader validation and agent-only latency/RSS benchmark"
+    ],
+    "not_executed": [
+      "new recovery-label collection or DAgger",
+      "GRU or learned task-plan training",
+      "PPO or other reinforcement learning",
+      "multiple Arm B training seeds",
+      "sealed final confirmation",
+      "Kaggle submission"
+    ]
+  },
+  "research": {
+    "improvement_confirmed": true,
+    "scope": "closed-loop development lifecycle metrics versus frozen Round6 sequence BC",
+    "round6_mean_cash": 8401.81,
+    "round7_mean_cash": 17895.9375,
+    "mean_cash_delta": 9494.1275,
+    "round6_mean_margin": -143519.85,
+    "round7_mean_margin": -133928.35416666666,
+    "mean_margin_delta": 9591.495833333334,
+    "round7_first_animal_yield_games": 48,
+    "round7_first_animal_harvest_games": 48,
+    "round6_land_expansion_games": 19,
+    "round7_land_expansion_games": 42,
+    "pure_full_action_bc_improvement_claimed": false,
+    "reason": "The selected candidate adds an explicit task-completion executor; pure Arm B and ledger-only Arm C did not close the day1 feed sequence."
+  },
+  "promotion": {
+    "eligible": false,
+    "competitive_goal_met": false,
+    "decision": "DO_NOT_PROMOTE",
+    "reason": "0 wins, 0 draws, 48 losses against v122/v123/v124 on the development set",
+    "each_anchor_point_rate_at_least_0_60": false,
+    "each_anchor_one_sided_95_lower_above_0_50": false
+  },
+  "selected_candidate": {
+    "name": "learning_round7_20260922_arm_b_plan_v3",
+    "archive": "artifacts/submissions/learning_round7_20260922_arm_b_plan_v3.tar.gz",
+    "sha256": "fe3b5bd9b14ec64208fc9360c38b9aaf5cc1b44547dca2b6eee3d24d0aaf1fca",
+    "classification": "learned full-action Arm B plus quantity/resource ledger plus explicit livestock task-completion executor",
+    "official_path_loader_passed": true,
+    "isolated_fresh_reload_passed": true,
+    "day1_pickup_two_then_feed_passed": true
+  },
+  "development_evaluation": {
+    "games": 48,
+    "seeds": "2026102201..2026102208",
+    "seats": [0, 1],
+    "anchors": ["v122", "v123", "v124"],
+    "wins": 0,
+    "draws": 0,
+    "losses": 48,
+    "mean_our_cash": 17895.9375,
+    "mean_margin": -133928.35416666666,
+    "failures_or_exclusions": 0,
+    "runtime_exception_games": 0,
+    "v122_v123_identical_on_this_set": true
+  },
+  "sealed_evaluation": {
+    "seed_range": "2026110701..2026110732",
+    "opened": false,
+    "reason": "development promotion gate was not met"
+  },
+  "external_actions": {
+    "kaggle_submissions": 0,
+    "network_downloads": 0,
+    "external_account_changes": 0,
+    "paid_compute_used": false
+  },
+  "known_unresolved": [
+    "all development games still lost on official final cash",
+    "large actor and market quantities remain weak",
+    "long prefix horizons still lose crop and land production base",
+    "selected improvement depends on a hand-authored executor rather than learned multi-turn task state",
+    "old test is diagnostic development and no new teacher holdout was opened"
+  ]
+}

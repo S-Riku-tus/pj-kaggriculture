@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-09-22T05:10:56+00:00",
+  "study": "Round6 anchor addendum execution",
+  "full_action_training_executed": {
+    "status": "EXECUTED",
+    "candidate": "round6_sequence_bc_v1",
+    "scope": "all farmer, variable-length hands, ordered market tokens, and conditional quantities",
+    "archive_sha256": "f8d1bc6ea5d69ef8777013995c63aa88e83f8a5c1402b184f356153d2d372434"
+  },
+  "archive_runtime_validation": {
+    "status": "PASS",
+    "both_seats": true,
+    "fresh_process_per_game": true,
+    "stored_states_each": 720,
+    "max_inference_seconds": 0.2550805999781005,
+    "act_timeout_seconds": 1.0
+  },
+  "teacher_imitation_result": {
+    "status": "MEASURED_IMPROVED_BUT_INSUFFICIENT",
+    "heldout_episodes": 8,
+    "heldout_decisions": 5752,
+    "final_joint_action_accuracy": 0.07006258692628652,
+    "baseline_final_joint_action_accuracy": 0.021383866481223923,
+    "final_actor_token_micro_accuracy": 0.7591953524668343,
+    "final_actor_quantity_and_token_accuracy": 0.6820066334991708,
+    "final_market_token_micro_accuracy": 0.6418406703019018,
+    "final_market_quantity_and_token_accuracy": 0.3438188739731517,
+    "final_market_order_sequence_accuracy": 0.422461752433936
+  },
+  "closed_loop_execution_result": {
+    "status": "MEASURED_LONG_HORIZON_COLLAPSE",
+    "prefix_exact": true,
+    "prefix_steps": 96,
+    "money_delta_at_horizons": {
+      "24": -164.0,
+      "48": -105.0,
+      "96": 156.0,
+      "192": -6990.0,
+      "623_remaining_all": -104789.0
+    },
+    "opponent_after_branch": "fixed saved replay actions; not reactive",
+    "dagger_claimed": false
+  },
+  "internal_anchor_comparison": {
+    "status": "FAIL_TARGET_NOT_MET",
+    "development_games": 48,
+    "by_anchor": {
+      "v122": {"wins": 0, "draws": 0, "losses": 16, "point_rate": 0.0, "mean_cash": 8866.9375, "mean_margin": -143314.125},
+      "v123": {"wins": 0, "draws": 0, "losses": 16, "point_rate": 0.0, "mean_cash": 8866.9375, "mean_margin": -143314.125},
+      "v124": {"wins": 0, "draws": 0, "losses": 16, "point_rate": 0.0, "mean_cash": 7471.5625, "mean_margin": -143931.3125}
+    },
+    "p_internal": 0.0,
+    "bootstrap_note": "all seed blocks were zero, so the percentile bootstrap is degenerate and is not treated as certainty",
+    "conservative_two_sided_95_each_anchor": [0.0, 0.48016139565996035]
+  },
+  "external_generalization_check": {
+    "status": "NOT_RUN",
+    "reason": "qeinstein_moev2 and smart_farm remained auxiliary; the decisive internal-anchor failure made them non-blocking diagnostics"
+  },
+  "online_validation": {
+    "status": "NOT_RUN",
+    "kaggle_submissions_created": 0,
+    "external_account_operations": 0
+  },
+  "research_continuation": {
+    "status": "CONTINUE",
+    "next_hypothesis": "joint resource-allocation and multi-step intent/recovery modeling are required; higher teacher-forced token accuracy alone is insufficient"
+  },
+  "candidate_promotion": {
+    "status": "REJECTED",
+    "reason": "0-48 against the three internal anchors and long-horizon closed-loop collapse",
+    "final_confirmation_seeds_opened": false
+  }
+}

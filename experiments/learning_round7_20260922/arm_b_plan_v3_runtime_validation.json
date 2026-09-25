@@ -1,0 +1,126 @@
+{
+  "created_at_utc": "2026-09-22T07:49:40.150757+00:00",
+  "engine_version": "1.32.7",
+  "work_root_was_outside_repo": true,
+  "day1_replay": "experiments\\learning_round6_20260922\\development_evaluation\\replays\\round6_sequence_bc_v1\\v122\\seed_2026102201_seat_1.json.gz",
+  "candidates": [
+    {
+      "archive": "artifacts\\submissions\\learning_round7_20260922_arm_b_plan_v3.tar.gz",
+      "archive_sha256": "fe3b5bd9b14ec64208fc9360c38b9aaf5cc1b44547dca2b6eee3d24d0aaf1fca",
+      "isolated_extraction": "C:\\Users\\shiba\\Kaggle\\.round7_tmp\\kaggriculture_round7_validate_yx46u833\\learning_round7_20260922_arm_b_plan_v3",
+      "member_hashes": {
+        "actor_quantity.json": "4f3f2e071f3501042cb831001cd1ac0d60e7a46f734f3571b1fc0b24b39d7fb5",
+        "actor_quantity.npz": "a53ffa8e8aff1c388f98aaf7de4668a7f86e451d70da4650c307175865281461",
+        "actor_token.json": "465a53afee9d9705e10ba01f5263f027c08f66fadcfc66ac07d5ace9dafadd37",
+        "actor_token.npz": "d63c7de780ca0b1d56430068d64737f75de7ac93ecfd4a9862247e4b9987e9b2",
+        "common.py": "704dd202a5ae3e0cca6a31717353ebdf28a55a98e57721fd7ff6168cd10a9b95",
+        "main.py": "26bf0e3dfa704a64d349d8a6232e319ab0f9f7430824414028fd30901c2b15e0",
+        "market_quantity.json": "43bcb61aae60e11bf7aed0dff2f7555cd4f03cfc13a922820fd9e741279c479f",
+        "market_quantity.npz": "d5edffaa4f98dc57bc375d654ad29956b02fa72d85c83414dcdf12e54573b252",
+        "market_token.json": "16d6774af570629cdf63303134c11e4444d32e07f28fda59f3898f9d78aa297e",
+        "market_token.npz": "3d5b803f5920698ddf3322cb6ce44f4d020bdbe94a5d07a771b78d372d33f374",
+        "model_compat.py": "908159895e45d880db8e36f312933394c16f347710ef9131921b84033eeccd4d",
+        "policy.py": "b876b154af6146470a6535c1c643785e20cfbc87183ccb754bf4524033b5ec66",
+        "runtime.py": "1c7fbc4a95b5d9d4f345a33266f4ffc24cf98ba1b3a78773aa20b4615cc2319c"
+      },
+      "official_path_loader": {
+        "passed": true,
+        "initial_action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "error": null,
+        "configuration": {},
+        "loader": "fixed kaggle_environments.agent.build_agent(path, {}, 'kaggriculture')",
+        "exec_globals_contract": "empty dict inside fixed loader",
+        "fixed_agent_py_sha256": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+        "elapsed_seconds": 0.8081848999718204
+      },
+      "fresh_import": {
+        "passed": true,
+        "error": null,
+        "elapsed_seconds": 0.40472010005032644
+      },
+      "day1_causal_trace": {
+        "seat": 1,
+        "records_replayed": 28,
+        "record27_action": {
+          "farmer": [
+            "PICKUP",
+            "WHEAT",
+            2
+          ],
+          "hands": [
+            [
+              "WEST"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "COLLECT_FERTILIZER"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": [
+            [
+              "SELL",
+              "FERTILIZER",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "record28_action": {
+          "farmer": [
+            "FEED"
+          ],
+          "hands": [
+            [
+              "WEST"
+            ],
+            [
+              "EAST"
+            ],
+            [
+              "WEST"
+            ],
+            [
+              "SOUTH"
+            ],
+            [
+              "WEST"
+            ]
+          ],
+          "market": []
+        },
+        "farmer_picked_up_two_wheat": true,
+        "farmer_fed_next_record": true
+      },
+      "total_elapsed_seconds": 1.4091366999782622
+    }
+  ]
+}

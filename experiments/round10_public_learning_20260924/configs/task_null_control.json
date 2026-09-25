@@ -1,0 +1,26 @@
+{
+  "engine": "kagsim",
+  "output": "experiments/round10_public_learning_20260924/evaluations/task_null_control",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "B1_original": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1_public_source"
+    },
+    "B1_wrapper_null": {
+      "path": "agents/round10_task_learning_20260924/baseline_main.py",
+      "mode": "module_agent",
+      "baseline_id": "B1_wrapper_null"
+    }
+  },
+  "opponents": {
+    "ahmed_v57": {
+      "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+      "mode": "last_callable",
+      "family": "ahmed_route"
+    }
+  },
+  "seeds": [2026092416, 2026092417],
+  "seats": [0, 1]
+}

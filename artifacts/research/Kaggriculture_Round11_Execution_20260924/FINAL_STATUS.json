@@ -1,0 +1,61 @@
+{
+  "schema": "kaggriculture-round11-final-status-v1",
+  "date": "2026-09-24",
+  "decision": "KEEP_B1",
+  "new_candidate_promoted": false,
+  "final_local_agent": {
+    "name": "B1",
+    "archive": "artifacts/submissions/round10_20260924_b1_herd_safe.tar.gz",
+    "archive_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+    "main_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "last_callable": "opening_liquidity_agent"
+  },
+  "candidate_archive_created": false,
+  "candidate_archive_reason": "No new arm passed all holdout gates.",
+  "main_rejection": {
+    "arm": "m20_multi_hypothesis",
+    "actual_sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+    "development_score_delta_points": 5.0,
+    "holdout_baseline_points": 146.0,
+    "holdout_candidate_points": 145.0,
+    "holdout_score_delta_points": -1.0,
+    "holdout_mean_margin_delta": 153.83333333333334,
+    "loss_to_win": 5,
+    "win_to_loss": 16,
+    "decision": "REJECT"
+  },
+  "execution": {
+    "new_cppsim_games": 864,
+    "new_official_python_games": 12,
+    "errors": 0,
+    "inherited_development_games_verified": 128,
+    "training_runs": 0,
+    "kaggle_submissions": 0,
+    "notebook_publications": 0,
+    "external_pushes": 0,
+    "paid_compute": 0
+  },
+  "completed": [
+    "revision package and major CSV/JSON data inspected",
+    "B1 archive/main/entry/wrapper and official engine hashes fixed",
+    "NO_CHANGE full official trajectory identity",
+    "official Python versus cppsim full parity on changed actions",
+    "six named public original policies acquired, statically extracted, reviewed and executed",
+    "B1-based multi-hypothesis and final-order response 2x2 development panel",
+    "conditional WOOL gate and unconditional diagnostic comparison",
+    "raw-replay production-route measurement",
+    "24-world-seed paired holdout with seed-cluster uncertainty",
+    "source, arm, coverage, model-usage and hash registries"
+  ],
+  "not_completed": [
+    "reacting source policy for the early-strawberry opponent in episode 112752873",
+    "new model training because no justified effective intervention label set was available",
+    "Kaggle submission or publication",
+    "public rating 2500/3000 validation"
+  ],
+  "limitations": [
+    "The four holdout opponent implementations have related public-source lineage.",
+    "The holdout protocol contains a transcribed candidate-hash typo; actual development, parity and holdout hashes are identical and the candidate fails substantive gates independently.",
+    "Local results do not predict a Kaggle public rating."
+  ]
+}

@@ -1,0 +1,7103 @@
+[
+  {
+    "label": "local_margin_improvement_not_score_improvement",
+    "arm": "M1_deadline_market",
+    "opponent": "v57",
+    "seed": 812609254,
+    "seat": 1,
+    "interpretation": "Both branches remain wins; margin improves because the opponent loses more cash than self. This is not a score promotion signal.",
+    "evaluation_mode": "REACTIVE_FULLGAME",
+    "candidate_replay": "metrics/development/replays/M1_deadline_market/v57/seed_812609254_seat_1.json.gz",
+    "baseline_replay": "metrics/development/replays/D0_B1/v57/seed_812609254_seat_1.json.gz",
+    "different_action_steps": 126,
+    "candidate_terminal": {
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "self_cash": 85778.0,
+      "opponent_cash": 82673.0,
+      "margin": 3105.0,
+      "result": "W",
+      "final_public_shops": [
+        "ICE_CREAM_SHOP",
+        "BAKERY",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    "baseline_terminal": {
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "self_cash": 86325.0,
+      "opponent_cash": 84198.0,
+      "margin": 2127.0,
+      "result": "W",
+      "final_public_shops": [
+        "ICE_CREAM_SHOP",
+        "BAKERY",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    "agent_telemetry": {
+      "mode": "M1_DEADLINE_MARKET",
+      "calls": 719,
+      "baseline_calls": 719,
+      "baseline_selected": 60,
+      "changed_final_actions": 69,
+      "invalid_candidates": 60,
+      "ledger_exact_zero": 5934,
+      "ledger_exact_positive": 260,
+      "ledger_interval": 71,
+      "ledger_unknown": 197,
+      "market_reservations_created": 23,
+      "market_reservations_due": 23,
+      "market_reservations_filled": 23,
+      "market_reservations_expired": 0,
+      "early_started": 0,
+      "early_plants": 0,
+      "early_purchase_units_suppressed": 0,
+      "early_owned_commands": 0,
+      "rotate_started": 0,
+      "rotate_feed_blocks": 0,
+      "rotate_digs": 0,
+      "rotate_plants": 0,
+      "rotate_owned_commands": 0,
+      "decisions": [
+        {
+          "step": 257,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 6,
+          "due_step": 261,
+          "future_price": 211
+        },
+        {
+          "step": 261,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 261
+        },
+        {
+          "step": 293,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "WOOL",
+          "quantity": 4,
+          "due_step": 297,
+          "future_price": 174
+        },
+        {
+          "step": 297,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "WOOL",
+          "quantity": 4,
+          "due_step": 297
+        },
+        {
+          "step": 298,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 302,
+          "future_price": 196
+        },
+        {
+          "step": 302,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 302
+        },
+        {
+          "step": 338,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 342,
+          "future_price": 185
+        },
+        {
+          "step": 342,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 342
+        },
+        {
+          "step": 359,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 363,
+          "future_price": 145
+        },
+        {
+          "step": 363,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 363
+        },
+        {
+          "step": 371,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 375,
+          "future_price": 122
+        },
+        {
+          "step": 375,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 375
+        },
+        {
+          "step": 391,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 395,
+          "future_price": 82
+        },
+        {
+          "step": 395,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 395
+        },
+        {
+          "step": 397,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 401,
+          "future_price": 78
+        },
+        {
+          "step": 401,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 3,
+          "due_step": 401
+        },
+        {
+          "step": 429,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 5,
+          "due_step": 433,
+          "future_price": 190
+        },
+        {
+          "step": 433,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 3,
+          "due_step": 433
+        },
+        {
+          "step": 437,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "EGG",
+          "quantity": 2,
+          "due_step": 441,
+          "future_price": 53
+        },
+        {
+          "step": 441,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "EGG",
+          "quantity": 2,
+          "due_step": 441
+        },
+        {
+          "step": 452,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 5,
+          "due_step": 456,
+          "future_price": 183
+        },
+        {
+          "step": 456,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 5,
+          "due_step": 456
+        },
+        {
+          "step": 461,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "EGG",
+          "quantity": 2,
+          "due_step": 465,
+          "future_price": 53
+        },
+        {
+          "step": 465,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "EGG",
+          "quantity": 2,
+          "due_step": 465
+        },
+        {
+          "step": 477,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 4,
+          "due_step": 481,
+          "future_price": 172
+        },
+        {
+          "step": 481,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 4,
+          "due_step": 481
+        },
+        {
+          "step": 496,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 3,
+          "due_step": 500,
+          "future_price": 159
+        },
+        {
+          "step": 500,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 3,
+          "due_step": 500
+        },
+        {
+          "step": 508,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "EGG",
+          "quantity": 3,
+          "due_step": 512,
+          "future_price": 53
+        },
+        {
+          "step": 512,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "EGG",
+          "quantity": 3,
+          "due_step": 512
+        },
+        {
+          "step": 534,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "WOOL",
+          "quantity": 2,
+          "due_step": 538,
+          "future_price": 129
+        },
+        {
+          "step": 538,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "WOOL",
+          "quantity": 2,
+          "due_step": 538
+        },
+        {
+          "step": 542,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 2,
+          "due_step": 546,
+          "future_price": 11
+        },
+        {
+          "step": 545,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 2,
+          "due_step": 546
+        },
+        {
+          "step": 556,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "MILK",
+          "quantity": 4,
+          "due_step": 560,
+          "future_price": 53
+        },
+        {
+          "step": 560,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "MILK",
+          "quantity": 4,
+          "due_step": 560
+        },
+        {
+          "step": 581,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "EGG",
+          "quantity": 2,
+          "due_step": 585,
+          "future_price": 51
+        },
+        {
+          "step": 585,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "EGG",
+          "quantity": 2,
+          "due_step": 585
+        },
+        {
+          "step": 587,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 4,
+          "due_step": 591,
+          "future_price": 16
+        },
+        {
+          "step": 591,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 4,
+          "due_step": 591
+        },
+        {
+          "step": 597,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "WOOL",
+          "quantity": 3,
+          "due_step": 601,
+          "future_price": 43
+        },
+        {
+          "step": 601,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "WOOL",
+          "quantity": 3,
+          "due_step": 601
+        },
+        {
+          "step": 602,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "WOOL",
+          "quantity": 2,
+          "due_step": 606,
+          "future_price": 11
+        },
+        {
+          "step": 606,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "WOOL",
+          "quantity": 2,
+          "due_step": 606
+        },
+        {
+          "step": 645,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_created",
+          "item": "STRAWBERRY",
+          "quantity": 10,
+          "due_step": 649,
+          "future_price": 82
+        },
+        {
+          "step": 649,
+          "candidate": "M1_DEADLINE_MARKET",
+          "validation": "ok",
+          "type": "reservation_due",
+          "item": "STRAWBERRY",
+          "quantity": 10,
+          "due_step": 649
+        }
+      ]
+    },
+    "first_difference": {
+      "pre_state": {
+        "step": 257,
+        "day": 10,
+        "hour": 17,
+        "money": 13692.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            1,
+            4
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "shed": {
+          "WHEAT": 48,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "inventories": [
+          {
+            "MILK": 9
+          },
+          {
+            "SHEEP": 1,
+            "WHEAT": 1
+          },
+          {},
+          {
+            "GOOSE": 1,
+            "WHEAT": 1
+          },
+          {
+            "MILK": 3
+          },
+          {},
+          {},
+          {},
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 3
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          },
+          {
+            "WHEAT": 2,
+            "FERTILIZER": 3
+          },
+          {
+            "GOOSE": 1,
+            "WHEAT": 1
+          }
+        ],
+        "market_prices": {
+          "WHEAT": 40,
+          "CARROT": 38,
+          "TOMATO": 61,
+          "STRAWBERRY": 184,
+          "MELON": 131,
+          "EGG": 52,
+          "MILK": 211,
+          "WOOL": 151,
+          "FERTILIZER": 77
+        },
+        "market_inventory": {
+          "WHEAT": 9783,
+          "CARROT": 9967,
+          "TOMATO": 9989,
+          "STRAWBERRY": 9942,
+          "MELON": 10109,
+          "EGG": 9960,
+          "MILK": 9966,
+          "WOOL": 10029,
+          "FERTILIZER": 10115
+        },
+        "shops": [
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "PET_CAFE"
+        ]
+      },
+      "candidate_final_action": {
+        "farmer": [
+          "PLACE",
+          "MILK",
+          9
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "PLACE",
+            "MILK",
+            3
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "FEED"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "MILK",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ]
+        ]
+      },
+      "baseline_final_action": {
+        "farmer": [
+          "PLACE",
+          "MILK",
+          9
+        ],
+        "hands": [
+          [
+            "BUILD_PASTURE"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "PLACE",
+            "MILK",
+            3
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "CARE"
+          ],
+          [
+            "FEED"
+          ],
+          [
+            "NORTH"
+          ]
+        ],
+        "market": [
+          [
+            "SELL",
+            "MILK",
+            12
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ]
+        ]
+      },
+      "candidate_next_state": {
+        "step": 258,
+        "day": 10,
+        "hour": 18,
+        "money": 15053.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            1,
+            4
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "shed": {
+          "WHEAT": 45,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 6,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "inventories": [
+          {},
+          {
+            "SHEEP": 1,
+            "WHEAT": 1
+          },
+          {},
+          {
+            "GOOSE": 1,
+            "WHEAT": 1
+          },
+          {},
+          {},
+          {},
+          {},
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 4
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 3
+          },
+          {
+            "GOOSE": 1,
+            "WHEAT": 1
+          }
+        ],
+        "market_prices": {
+          "WHEAT": 40,
+          "CARROT": 38,
+          "TOMATO": 61,
+          "STRAWBERRY": 184,
+          "MELON": 131,
+          "EGG": 52,
+          "MILK": 201,
+          "WOOL": 151,
+          "FERTILIZER": 77
+        },
+        "market_inventory": {
+          "WHEAT": 9789,
+          "CARROT": 9967,
+          "TOMATO": 9989,
+          "STRAWBERRY": 9942,
+          "MELON": 10109,
+          "EGG": 9960,
+          "MILK": 9978,
+          "WOOL": 10029,
+          "FERTILIZER": 10115
+        },
+        "shops": [
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "PET_CAFE"
+        ]
+      },
+      "baseline_next_state": {
+        "step": 258,
+        "day": 10,
+        "hour": 18,
+        "money": 16244.0,
+        "farmer": [
+          4,
+          4
+        ],
+        "hands": [
+          [
+            1,
+            4
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "shed": {
+          "WHEAT": 45,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "inventories": [
+          {},
+          {
+            "SHEEP": 1,
+            "WHEAT": 1
+          },
+          {},
+          {
+            "GOOSE": 1,
+            "WHEAT": 1
+          },
+          {},
+          {},
+          {},
+          {},
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 4
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 3
+          },
+          {
+            "GOOSE": 1,
+            "WHEAT": 1
+          }
+        ],
+        "market_prices": {
+          "WHEAT": 40,
+          "CARROT": 38,
+          "TOMATO": 61,
+          "STRAWBERRY": 184,
+          "MELON": 131,
+          "EGG": 52,
+          "MILK": 195,
+          "WOOL": 151,
+          "FERTILIZER": 77
+        },
+        "market_inventory": {
+          "WHEAT": 9789,
+          "CARROT": 9967,
+          "TOMATO": 9989,
+          "STRAWBERRY": 9942,
+          "MELON": 10109,
+          "EGG": 9960,
+          "MILK": 9984,
+          "WOOL": 10029,
+          "FERTILIZER": 10115
+        },
+        "shops": [
+          "ICE_CREAM_SHOP",
+          "BAKERY",
+          "PET_CAFE"
+        ]
+      }
+    }
+  },
+  {
+    "label": "clear_worsening",
+    "arm": "P_ROTATE2",
+    "opponent": "barnyard",
+    "seed": 812609252,
+    "seat": 0,
+    "interpretation": "The completed conversion changes W to L and destroys both self cash and margin.",
+    "evaluation_mode": "REACTIVE_FULLGAME",
+    "candidate_replay": "metrics/development/replays/P_ROTATE2/barnyard/seed_812609252_seat_0.json.gz",
+    "baseline_replay": "metrics/development/replays/D0_B1/barnyard/seed_812609252_seat_0.json.gz",
+    "different_action_steps": 220,
+    "candidate_terminal": {
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "self_cash": 78241.0,
+      "opponent_cash": 109299.0,
+      "margin": -31058.0,
+      "result": "L",
+      "final_public_shops": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET"
+      ]
+    },
+    "baseline_terminal": {
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "self_cash": 113797.0,
+      "opponent_cash": 85282.0,
+      "margin": 28515.0,
+      "result": "W",
+      "final_public_shops": [
+        "BAKERY",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ]
+    },
+    "agent_telemetry": {
+      "mode": "P_ROTATE2",
+      "calls": 719,
+      "baseline_calls": 719,
+      "baseline_selected": 67,
+      "changed_final_actions": 148,
+      "invalid_candidates": 67,
+      "ledger_exact_zero": 5930,
+      "ledger_exact_positive": 146,
+      "ledger_interval": 71,
+      "ledger_unknown": 315,
+      "market_reservations_created": 0,
+      "market_reservations_due": 0,
+      "market_reservations_filled": 0,
+      "market_reservations_expired": 0,
+      "early_started": 0,
+      "early_plants": 0,
+      "early_purchase_units_suppressed": 0,
+      "early_owned_commands": 0,
+      "rotate_started": 1,
+      "rotate_feed_blocks": 4,
+      "rotate_digs": 2,
+      "rotate_plants": 8,
+      "rotate_owned_commands": 321,
+      "decisions": [
+        {
+          "step": 450,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_started",
+          "targets": [
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "crop": "WHEAT",
+          "wool_price": 1
+        },
+        {
+          "step": 465,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_exit_work",
+          "feed_blocks": 1,
+          "animals_left": 2
+        },
+        {
+          "step": 466,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_exit_work",
+          "feed_blocks": 1,
+          "animals_left": 2
+        },
+        {
+          "step": 468,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_exit_work",
+          "feed_blocks": 1,
+          "animals_left": 2
+        },
+        {
+          "step": 469,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_exit_work",
+          "feed_blocks": 1,
+          "animals_left": 2
+        },
+        {
+          "step": 481,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              4,
+              "DIG",
+              [
+                4,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 482,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              6,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "DELIVER",
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              9,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 483,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              4,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              10,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 484,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DIG",
+              [
+                4,
+                5
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 486,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DIG",
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 491,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DIG",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 492,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DIG",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "PLANT",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 493,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ],
+            [
+              7,
+              "PLANT",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 494,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 495,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 496,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              8,
+              "DELIVER",
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 497,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                1
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 498,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 499,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 500,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              11,
+              "DELIVER",
+              [
+                0,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 502,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                1,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              11,
+              "DELIVER",
+              [
+                1,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 503,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                2,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              11,
+              "DELIVER",
+              [
+                2,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 505,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 506,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              4,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 510,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 511,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 512,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 513,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                0,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 514,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                1,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 515,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 516,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                2,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "DELIVER",
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 517,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 518,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 519,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 520,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                7
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 521,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 522,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 523,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 524,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 525,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 526,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 527,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 530,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              4,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              9,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 531,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              2,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              6,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              7,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              1,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 532,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 533,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                6,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 534,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 535,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 536,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "PLANT",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 537,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 538,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 539,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ],
+            [
+              5,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 540,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ],
+            [
+              5,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 541,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 543,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                2,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                6,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 544,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              2,
+              "PLANT",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 545,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              2,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 546,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                7
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 547,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 548,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 550,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                0,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 551,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                1,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 554,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              2,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              4,
+              "DELIVER",
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              6,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              7,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 556,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 561,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 562,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 563,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 564,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 565,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ],
+            [
+              6,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 566,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              6,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 567,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              6,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 568,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              6,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 570,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 571,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 572,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 574,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "PLANT",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 575,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 578,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 579,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              6,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 580,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 581,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 582,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "WATER",
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 583,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 584,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 585,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 586,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 587,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 588,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              8,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 589,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              8,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 590,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              8,
+              "DELIVER",
+              [
+                6,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              11,
+              "PLANT",
+              [
+                7,
+                2
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 591,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 592,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              11,
+              "PLANT",
+              [
+                7,
+                2
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 594,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 595,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                0
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 596,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                1
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              8,
+              "PLANT",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 598,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "PLANT",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              8,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 599,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              8,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 602,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              1,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              4,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 603,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              3,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 604,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 605,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "WATER",
+              [
+                5,
+                3
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 606,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 608,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              3,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              11,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 609,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              11,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 610,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              11,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 611,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              11,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 612,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 613,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 614,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                0,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              1,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 616,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 617,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 618,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 619,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 620,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 621,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              5,
+              "HARVEST",
+              [
+                8,
+                0
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 622,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                0,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              8,
+              "HARVEST",
+              [
+                7,
+                1
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 623,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                1,
+                9
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 625,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "WATER",
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 628,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              4,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              9,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 629,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              8,
+              "WATER",
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            [
+              7,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 630,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              7,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 631,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                6,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              3,
+              "PLANT",
+              [
+                8,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 632,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 633,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              7,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 634,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              1,
+              "PLANT",
+              [
+                0,
+                5
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 642,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "PLANT",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 643,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 644,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              9,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 646,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              6,
+              "DELIVER",
+              [
+                1,
+                7
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              9,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 647,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              6,
+              "DELIVER",
+              [
+                2,
+                7
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              9,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ],
+            [
+              11,
+              "WATER",
+              [
+                8,
+                0
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 650,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              1,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              4,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              9,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 651,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              3,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              7,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 660,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 661,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 664,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "DELIVER",
+              [
+                8,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              3,
+              "WATER",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 665,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "DELIVER",
+              [
+                7,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              3,
+              "HARVEST",
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 2
+        },
+        {
+          "step": 666,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                6,
+                2
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                6,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 667,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              0,
+              "HARVEST",
+              [
+                3,
+                9
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 668,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              0,
+              "HARVEST",
+              [
+                4,
+                9
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 675,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              11,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 676,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 678,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              0,
+              "DELIVER",
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 683,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "WATER",
+              [
+                4,
+                2
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 699,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "WATER",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 700,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "HARVEST",
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 1
+        },
+        {
+          "step": 701,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                6,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 702,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              3,
+              "DELIVER",
+              [
+                2,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 703,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              2,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              3,
+              "DELIVER",
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 704,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              8,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "DELIVER",
+              [
+                4,
+                7
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 705,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              3,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              10,
+              "DELIVER",
+              [
+                4,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 706,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            [
+              10,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 707,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 708,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        },
+        {
+          "step": 718,
+          "candidate": "P_ROTATE2",
+          "validation": "ok",
+          "type": "rotate_owned_work",
+          "assignments": [
+            [
+              4,
+              "DELIVER",
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              5,
+              "DELIVER",
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "crop": "WHEAT",
+          "owned_plants": 0
+        }
+      ]
+    },
+    "first_difference": {
+      "pre_state": {
+        "step": 465,
+        "day": 19,
+        "hour": 9,
+        "money": 54270.0,
+        "farmer": [
+          6,
+          2
+        ],
+        "hands": [
+          [
+            3,
+            4
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 17,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 6,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 2,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "inventories": [
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          },
+          {
+            "FERTILIZER": 1
+          },
+          {
+            "FERTILIZER": 2
+          },
+          {
+            "FERTILIZER": 4
+          },
+          {},
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          },
+          {
+            "WHEAT": 4
+          },
+          {
+            "WHEAT": 2,
+            "FERTILIZER": 1
+          },
+          {
+            "STRAWBERRY": 4
+          },
+          {
+            "WHEAT": 3,
+            "FERTILIZER": 1,
+            "MILK": 3
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          }
+        ],
+        "market_prices": {
+          "WHEAT": 43,
+          "CARROT": 37,
+          "TOMATO": 62,
+          "STRAWBERRY": 221,
+          "MELON": 96,
+          "EGG": 61,
+          "MILK": 82,
+          "WOOL": 5,
+          "FERTILIZER": 40
+        },
+        "market_inventory": {
+          "WHEAT": 9682,
+          "CARROT": 9980,
+          "TOMATO": 9980,
+          "STRAWBERRY": 9856,
+          "MELON": 10124,
+          "EGG": 9820,
+          "MILK": 10037,
+          "WOOL": 10058,
+          "FERTILIZER": 10298
+        },
+        "shops": [
+          "BAKERY",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "ICE_CREAM_SHOP"
+        ]
+      },
+      "candidate_final_action": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "HARVEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "PLACE",
+            "MILK",
+            3
+          ],
+          [
+            "HARVEST"
+          ]
+        ],
+        "market": []
+      },
+      "baseline_final_action": {
+        "farmer": [
+          "FEED"
+        ],
+        "hands": [
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "HARVEST"
+          ],
+          [
+            "NORTH"
+          ],
+          [
+            "WATER"
+          ],
+          [
+            "COLLECT_FERTILIZER"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "WEST"
+          ],
+          [
+            "EAST"
+          ],
+          [
+            "PLACE",
+            "MILK",
+            3
+          ],
+          [
+            "HARVEST"
+          ]
+        ],
+        "market": []
+      },
+      "candidate_next_state": {
+        "step": 466,
+        "day": 19,
+        "hour": 10,
+        "money": 54270.0,
+        "farmer": [
+          6,
+          2
+        ],
+        "hands": [
+          [
+            3,
+            4
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 17,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 3,
+          "WOOL": 6,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 2,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "inventories": [
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1
+          },
+          {
+            "FERTILIZER": 2
+          },
+          {
+            "FERTILIZER": 2,
+            "STRAWBERRY": 2
+          },
+          {
+            "FERTILIZER": 4
+          },
+          {},
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 2
+          },
+          {
+            "WHEAT": 4
+          },
+          {
+            "WHEAT": 2,
+            "FERTILIZER": 1
+          },
+          {
+            "STRAWBERRY": 4
+          },
+          {
+            "WHEAT": 3,
+            "FERTILIZER": 1
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1,
+            "MILK": 3
+          }
+        ],
+        "market_prices": {
+          "WHEAT": 43,
+          "CARROT": 37,
+          "TOMATO": 62,
+          "STRAWBERRY": 221,
+          "MELON": 96,
+          "EGG": 61,
+          "MILK": 82,
+          "WOOL": 5,
+          "FERTILIZER": 40
+        },
+        "market_inventory": {
+          "WHEAT": 9680,
+          "CARROT": 9980,
+          "TOMATO": 9980,
+          "STRAWBERRY": 9856,
+          "MELON": 10124,
+          "EGG": 9820,
+          "MILK": 10037,
+          "WOOL": 10058,
+          "FERTILIZER": 10298
+        },
+        "shops": [
+          "BAKERY",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "ICE_CREAM_SHOP"
+        ]
+      },
+      "baseline_next_state": {
+        "step": 466,
+        "day": 19,
+        "hour": 10,
+        "money": 54270.0,
+        "farmer": [
+          6,
+          2
+        ],
+        "hands": [
+          [
+            3,
+            4
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "shed": {
+          "WHEAT": 17,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 3,
+          "WOOL": 6,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 2,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "inventories": [
+          {
+            "FERTILIZER": 1
+          },
+          {
+            "FERTILIZER": 2
+          },
+          {
+            "FERTILIZER": 2,
+            "STRAWBERRY": 2
+          },
+          {
+            "FERTILIZER": 4
+          },
+          {},
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 2
+          },
+          {
+            "WHEAT": 4
+          },
+          {
+            "WHEAT": 2,
+            "FERTILIZER": 1
+          },
+          {
+            "STRAWBERRY": 4
+          },
+          {
+            "WHEAT": 3,
+            "FERTILIZER": 1
+          },
+          {
+            "WHEAT": 1,
+            "FERTILIZER": 1,
+            "MILK": 3
+          }
+        ],
+        "market_prices": {
+          "WHEAT": 43,
+          "CARROT": 37,
+          "TOMATO": 62,
+          "STRAWBERRY": 221,
+          "MELON": 96,
+          "EGG": 61,
+          "MILK": 82,
+          "WOOL": 5,
+          "FERTILIZER": 40
+        },
+        "market_inventory": {
+          "WHEAT": 9680,
+          "CARROT": 9980,
+          "TOMATO": 9980,
+          "STRAWBERRY": 9856,
+          "MELON": 10124,
+          "EGG": 9820,
+          "MILK": 10037,
+          "WOOL": 10058,
+          "FERTILIZER": 10298
+        },
+        "shops": [
+          "BAKERY",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "SMOOTHIE_SHOP",
+          "BRUNCH_SPOT",
+          "ICE_CREAM_SHOP"
+        ]
+      }
+    }
+  },
+  {
+    "label": "no_effect_not_triggered",
+    "arm": "P_ROTATE2",
+    "opponent": "B1",
+    "seed": 812609253,
+    "seat": 0,
+    "interpretation": "Observable trigger never fires; every final action and the terminal state match B1.",
+    "evaluation_mode": "REACTIVE_FULLGAME",
+    "candidate_replay": "metrics/development/replays/P_ROTATE2/B1/seed_812609253_seat_0.json.gz",
+    "baseline_replay": "metrics/development/replays/D0_B1/B1/seed_812609253_seat_0.json.gz",
+    "different_action_steps": 0,
+    "candidate_terminal": {
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "self_cash": 109255.0,
+      "opponent_cash": 109255.0,
+      "margin": 0.0,
+      "result": "D",
+      "final_public_shops": [
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP"
+      ]
+    },
+    "baseline_terminal": {
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "self_cash": 109255.0,
+      "opponent_cash": 109255.0,
+      "margin": 0.0,
+      "result": "D",
+      "final_public_shops": [
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP"
+      ]
+    },
+    "agent_telemetry": {
+      "mode": "P_ROTATE2",
+      "calls": 719,
+      "baseline_calls": 719,
+      "baseline_selected": 40,
+      "changed_final_actions": 0,
+      "invalid_candidates": 40,
+      "ledger_exact_zero": 5689,
+      "ledger_exact_positive": 225,
+      "ledger_interval": 341,
+      "ledger_unknown": 207,
+      "market_reservations_created": 0,
+      "market_reservations_due": 0,
+      "market_reservations_filled": 0,
+      "market_reservations_expired": 0,
+      "early_started": 0,
+      "early_plants": 0,
+      "early_purchase_units_suppressed": 0,
+      "early_owned_commands": 0,
+      "rotate_started": 0,
+      "rotate_feed_blocks": 0,
+      "rotate_digs": 0,
+      "rotate_plants": 0,
+      "rotate_owned_commands": 0,
+      "decisions": []
+    },
+    "first_difference": null
+  }
+]

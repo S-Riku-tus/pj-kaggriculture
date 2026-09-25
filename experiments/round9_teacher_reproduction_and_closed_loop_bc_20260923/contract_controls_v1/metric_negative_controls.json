@@ -1,0 +1,516 @@
+{
+  "results": {
+    "identity": {
+      "actor_token_accuracy": {
+        "numerator": 7196,
+        "denominator": 7196,
+        "ratio": 1.0
+      },
+      "actor_complete_command": {
+        "numerator": 7196,
+        "denominator": 7196,
+        "ratio": 1.0
+      },
+      "market_token_accuracy": {
+        "numerator": 1628,
+        "denominator": 1628,
+        "ratio": 1.0
+      },
+      "ordered_market_list": {
+        "numerator": 719,
+        "denominator": 719,
+        "ratio": 1.0
+      },
+      "quantity_accuracy_all_rows": {
+        "numerator": 314,
+        "denominator": 314,
+        "ratio": 1.0
+      },
+      "joint_turn_exact": {
+        "numerator": 719,
+        "denominator": 719,
+        "ratio": 1.0
+      },
+      "work_volume": 3748,
+      "work_effect_rate": {
+        "numerator": null,
+        "denominator": 3748,
+        "ratio": null,
+        "status": "NOT_OBSERVED_IN_LABEL_CONTROL"
+      },
+      "first_difference": null,
+      "first_difference_official_effect_equivalent": null
+    },
+    "all_pass": {
+      "actor_token_accuracy": {
+        "numerator": 58,
+        "denominator": 7196,
+        "ratio": 0.008060033351862146
+      },
+      "actor_complete_command": {
+        "numerator": 58,
+        "denominator": 7196,
+        "ratio": 0.008060033351862146
+      },
+      "market_token_accuracy": {
+        "numerator": 719,
+        "denominator": 1628,
+        "ratio": 0.4416461916461916
+      },
+      "ordered_market_list": {
+        "numerator": 295,
+        "denominator": 719,
+        "ratio": 0.4102920723226704
+      },
+      "quantity_accuracy_all_rows": {
+        "numerator": 0,
+        "denominator": 314,
+        "ratio": 0.0
+      },
+      "joint_turn_exact": {
+        "numerator": 2,
+        "denominator": 719,
+        "ratio": 0.0027816411682892906
+      },
+      "work_volume": 0,
+      "work_effect_rate": {
+        "numerator": null,
+        "denominator": 0,
+        "ratio": null,
+        "status": "NOT_APPLICABLE"
+      },
+      "first_difference": {
+        "step": 0,
+        "teacher": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "predicted": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        }
+      },
+      "first_difference_official_effect_equivalent": false
+    },
+    "movement_only": {
+      "actor_token_accuracy": {
+        "numerator": 3448,
+        "denominator": 7196,
+        "ratio": 0.47915508615897723
+      },
+      "actor_complete_command": {
+        "numerator": 3448,
+        "denominator": 7196,
+        "ratio": 0.47915508615897723
+      },
+      "market_token_accuracy": {
+        "numerator": 719,
+        "denominator": 1628,
+        "ratio": 0.4416461916461916
+      },
+      "ordered_market_list": {
+        "numerator": 295,
+        "denominator": 719,
+        "ratio": 0.4102920723226704
+      },
+      "quantity_accuracy_all_rows": {
+        "numerator": 0,
+        "denominator": 314,
+        "ratio": 0.0
+      },
+      "joint_turn_exact": {
+        "numerator": 5,
+        "denominator": 719,
+        "ratio": 0.006954102920723227
+      },
+      "work_volume": 0,
+      "work_effect_rate": {
+        "numerator": null,
+        "denominator": 0,
+        "ratio": null,
+        "status": "NOT_APPLICABLE"
+      },
+      "first_difference": {
+        "step": 0,
+        "teacher": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "predicted": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        }
+      },
+      "first_difference_official_effect_equivalent": false
+    },
+    "delete_work_candidates": {
+      "actor_token_accuracy": {
+        "numerator": 3448,
+        "denominator": 7196,
+        "ratio": 0.47915508615897723
+      },
+      "actor_complete_command": {
+        "numerator": 3448,
+        "denominator": 7196,
+        "ratio": 0.47915508615897723
+      },
+      "market_token_accuracy": {
+        "numerator": 1628,
+        "denominator": 1628,
+        "ratio": 1.0
+      },
+      "ordered_market_list": {
+        "numerator": 719,
+        "denominator": 719,
+        "ratio": 1.0
+      },
+      "quantity_accuracy_all_rows": {
+        "numerator": 0,
+        "denominator": 314,
+        "ratio": 0.0
+      },
+      "joint_turn_exact": {
+        "numerator": 14,
+        "denominator": 719,
+        "ratio": 0.019471488178025034
+      },
+      "work_volume": 0,
+      "work_effect_rate": {
+        "numerator": null,
+        "denominator": 0,
+        "ratio": null,
+        "status": "NOT_APPLICABLE"
+      },
+      "first_difference": {
+        "step": 1,
+        "teacher": {
+          "farmer": [
+            "PICKUP",
+            "COW",
+            1
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              3
+            ]
+          ]
+        },
+        "predicted": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              3
+            ]
+          ]
+        }
+      },
+      "first_difference_official_effect_equivalent": false
+    },
+    "quantity_one": {
+      "actor_token_accuracy": {
+        "numerator": 7196,
+        "denominator": 7196,
+        "ratio": 1.0
+      },
+      "actor_complete_command": {
+        "numerator": 7008,
+        "denominator": 7196,
+        "ratio": 0.9738743746525848
+      },
+      "market_token_accuracy": {
+        "numerator": 1628,
+        "denominator": 1628,
+        "ratio": 1.0
+      },
+      "ordered_market_list": {
+        "numerator": 489,
+        "denominator": 719,
+        "ratio": 0.6801112656467315
+      },
+      "quantity_accuracy_all_rows": {
+        "numerator": 126,
+        "denominator": 314,
+        "ratio": 0.4012738853503185
+      },
+      "joint_turn_exact": {
+        "numerator": 436,
+        "denominator": 719,
+        "ratio": 0.6063977746870653
+      },
+      "work_volume": 3748,
+      "work_effect_rate": {
+        "numerator": null,
+        "denominator": 3748,
+        "ratio": null,
+        "status": "NOT_OBSERVED_IN_LABEL_CONTROL"
+      },
+      "first_difference": {
+        "step": 0,
+        "teacher": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "predicted": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      },
+      "first_difference_official_effect_equivalent": false
+    },
+    "teacher_action_shift_plus_one": {
+      "actor_token_accuracy": {
+        "numerator": 876,
+        "denominator": 7196,
+        "ratio": 0.1217342968315731
+      },
+      "actor_complete_command": {
+        "numerator": 876,
+        "denominator": 7196,
+        "ratio": 0.1217342968315731
+      },
+      "market_token_accuracy": {
+        "numerator": 628,
+        "denominator": 1628,
+        "ratio": 0.3857493857493858
+      },
+      "ordered_market_list": {
+        "numerator": 178,
+        "denominator": 719,
+        "ratio": 0.24756606397774686
+      },
+      "quantity_accuracy_all_rows": {
+        "numerator": 34,
+        "denominator": 314,
+        "ratio": 0.10828025477707007
+      },
+      "joint_turn_exact": {
+        "numerator": 0,
+        "denominator": 719,
+        "ratio": 0.0
+      },
+      "work_volume": 3604,
+      "work_effect_rate": {
+        "numerator": null,
+        "denominator": 3604,
+        "ratio": null,
+        "status": "NOT_OBSERVED_IN_LABEL_CONTROL"
+      },
+      "first_difference": {
+        "step": 0,
+        "teacher": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ]
+          ]
+        },
+        "predicted": {
+          "farmer": [
+            "PICKUP",
+            "COW",
+            1
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              1
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "HIRE"
+            ],
+            [
+              "BUY_ANIMAL",
+              "COW",
+              1
+            ],
+            [
+              "BUY_ANIMAL",
+              "SHEEP",
+              3
+            ]
+          ]
+        }
+      },
+      "first_difference_official_effect_equivalent": false
+    }
+  },
+  "validations": {
+    "all_pass": {
+      "checks": {
+        "actor_complete_command": true,
+        "joint_turn_exact": true,
+        "work_volume": true
+      },
+      "passed": true
+    },
+    "movement_only": {
+      "checks": {
+        "actor_complete_command": true,
+        "joint_turn_exact": true,
+        "work_volume": true
+      },
+      "passed": true
+    },
+    "delete_work_candidates": {
+      "checks": {
+        "actor_complete_command": true,
+        "joint_turn_exact": true,
+        "work_volume": true
+      },
+      "passed": true
+    },
+    "quantity_one": {
+      "checks": {
+        "quantity_accuracy_all_rows": true,
+        "actor_complete_command": true,
+        "joint_turn_exact": true
+      },
+      "passed": true
+    },
+    "teacher_action_shift_plus_one": {
+      "checks": {
+        "actor_token_accuracy": true,
+        "market_token_accuracy": true,
+        "joint_turn_exact": true
+      },
+      "passed": true
+    }
+  },
+  "all_passed": true
+}

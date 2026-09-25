@@ -1,0 +1,47 @@
+{
+  "created_at_utc": "2026-09-22T07:22:56.202363+00:00",
+  "archive": "artifacts\\submissions\\learning_round7_20260922_arm_b_plan_v1.tar.gz",
+  "archive_sha256": "cd7bb5b04a6bc2138bd995380b827a35ef066466ee6690c1a9f91d00efce8a69",
+  "source_replay": "experiments\\learning_round6_20260922\\development_evaluation\\replays\\round6_sequence_bc_v1\\v122\\seed_2026102201_seat_1.json.gz",
+  "source_replay_sha256": "c3b967d542de2fb3657e33a7ab86aaf47dd0139f924606c30cd4f308a2424f62",
+  "process_contract": "one fresh agent-only subprocess per seat; no engine or match process in worker",
+  "seats": [
+    {
+      "seat": 0,
+      "observations": 719,
+      "cold_import_seconds": 0.40282070002285764,
+      "inference_seconds": {
+        "p50": 0.011960499978158623,
+        "p95": 0.01740067999926396,
+        "p99": 0.02084481599391441,
+        "max": 0.043365599995013326
+      },
+      "peak_rss_bytes": 130650112,
+      "final_rss_bytes": 114360320,
+      "runtime_exceptions": []
+    },
+    {
+      "seat": 1,
+      "observations": 719,
+      "cold_import_seconds": 0.42342840001219884,
+      "inference_seconds": {
+        "p50": 0.009536099969409406,
+        "p95": 0.0148811899824068,
+        "p99": 0.018713714001933116,
+        "max": 0.07164619996910915
+      },
+      "peak_rss_bytes": 130682880,
+      "final_rss_bytes": 111280128,
+      "runtime_exceptions": []
+    }
+  ],
+  "aggregate": {
+    "cold_start_max_seconds": 0.42342840001219884,
+    "inference_p50_max_seconds": 0.011960499978158623,
+    "inference_p95_max_seconds": 0.01740067999926396,
+    "inference_p99_max_seconds": 0.02084481599391441,
+    "inference_max_seconds": 0.07164619996910915,
+    "peak_rss_max_bytes": 130682880,
+    "runtime_exception_count": 0
+  }
+}

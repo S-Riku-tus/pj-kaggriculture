@@ -1,0 +1,178 @@
+{
+  "created_at_utc": "2026-09-23T12:11:18.435099+00:00",
+  "purpose": "one coherent complete-trajectory memorization control; no generalization claim",
+  "episode_id": 109118332,
+  "source_teacher": 56216119,
+  "source_path": "data\\replays\\submission_56216119\\episode_109118332.json",
+  "source_sha256": "94c21f59dd6fe86023fd986649fb28fc20e8eaafde0d0159418758a21d7a2a48",
+  "seat": 0,
+  "states": 720,
+  "decisions": 719,
+  "sampling": "none; every actor and every ordered market token including EOS",
+  "actor_rows": 7196,
+  "market_rows": 1628,
+  "codec_roundtrip_failures": {},
+  "market_prefix_resolution": {
+    "accepted": 889,
+    "not_executable": 13,
+    "insufficient_funds": 3,
+    "partial_fill": 3,
+    "unavailable_or_insufficient_funds": 1
+  },
+  "label_counts": {
+    "actor": {
+      "PASS": 58,
+      "PICKUP:COW": 23,
+      "BUILD_PASTURE": 16,
+      "PICKUP:SHEEP": 3,
+      "PLACE:COW": 15,
+      "NORTH": 1131,
+      "WEST": 948,
+      "PICKUP:WHEAT": 167,
+      "FEED": 321,
+      "PLACE:SHEEP": 3,
+      "CARE": 327,
+      "SOUTH": 648,
+      "PLANT:MELON": 12,
+      "WATER": 1348,
+      "PLANT:WHEAT": 138,
+      "COLLECT_FERTILIZER": 381,
+      "PLACE:FERTILIZER": 59,
+      "EAST": 663,
+      "HARVEST": 507,
+      "PLANT:STRAWBERRY": 27,
+      "DROP": 70,
+      "PLACE:MILK": 40,
+      "PLACE:WOOL": 4,
+      "PLANT:TOMATO": 21,
+      "FERTILIZE": 167,
+      "DIG": 41,
+      "PLANT:CARROT": 58
+    },
+    "market": {
+      "BUY_ANIMAL:COW": 16,
+      "BUY_PRODUCT:WHEAT": 28,
+      "EOS": 719,
+      "SELL:WHEAT": 66,
+      "HIRE": 288,
+      "BUY_ANIMAL:SHEEP": 1,
+      "BUY_SEED:MELON": 8,
+      "BUY_SEED:WHEAT": 134,
+      "SELL:FERTILIZER": 93,
+      "BUY_SEED:STRAWBERRY": 32,
+      "SELL:WOOL": 39,
+      "BUY_LAND": 3,
+      "SELL:MILK": 91,
+      "BUY_SEED:TOMATO": 20,
+      "SELL:MELON": 10,
+      "SELL:STRAWBERRY": 36,
+      "SELL:TOMATO": 19,
+      "BUY_SEED:CARROT": 9,
+      "SELL:CARROT": 16
+    }
+  },
+  "exact_input_empirical_ceiling": {
+    "actor_token": {
+      "rows": 7196,
+      "exact_unique_inputs": 7196,
+      "rows_in_conflicting_exact_inputs": 0,
+      "numerator": 7196,
+      "denominator": 7196,
+      "ratio": 1.0,
+      "claim_scope": "empirical ceiling for byte-exact current inputs only; not an impossibility proof for richer history"
+    },
+    "market_token": {
+      "rows": 1628,
+      "exact_unique_inputs": 1628,
+      "rows_in_conflicting_exact_inputs": 0,
+      "numerator": 1628,
+      "denominator": 1628,
+      "ratio": 1.0,
+      "claim_scope": "empirical ceiling for byte-exact current inputs only; not an impossibility proof for richer history"
+    }
+  },
+  "files": {
+    "actor_x": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\actor_x.npy",
+      "sha256": "b4ac7ba6b0768dda0fae246aaa4dea62ae97a269f6e952b3bc04d89efa01e211",
+      "shape": [
+        7196,
+        1871
+      ]
+    },
+    "actor_y": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\actor_y.npy",
+      "sha256": "92ef0854754b2a7b77ede9273e809ac13fe63e149d6863742cbe42360bd03258",
+      "shape": [
+        7196
+      ]
+    },
+    "actor_q": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\actor_q.npy",
+      "sha256": "0806afe1000f3a10e2ba6f534f84c7d6d798ddff8b3185dacaae800e98ab433e",
+      "shape": [
+        7196
+      ]
+    },
+    "actor_step": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\actor_step.npy",
+      "sha256": "98b67539558419f1484a6b7a1d2014e5b5258000d532df0feef54a902d476d67",
+      "shape": [
+        7196
+      ]
+    },
+    "actor_index": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\actor_index.npy",
+      "sha256": "fb41a3d1c4467b1689ede8143118bdffa6d7459f425f0a723ec4be580ac629a9",
+      "shape": [
+        7196
+      ]
+    },
+    "market_x": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\market_x.npy",
+      "sha256": "3e9e1306faa7304e63aaad0b78f36adb5894e75a823699625c3e6eb7f8ce1360",
+      "shape": [
+        1628,
+        1664
+      ]
+    },
+    "market_y": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\market_y.npy",
+      "sha256": "9e015255fc4d3e8027fefc3781d675355ab19337af7ae4897950cc5acd830878",
+      "shape": [
+        1628
+      ]
+    },
+    "market_q": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\market_q.npy",
+      "sha256": "888304d44484a9a0df160c8a0bce39b9bbc1c6351690deb5d95e234dad57f68a",
+      "shape": [
+        1628
+      ]
+    },
+    "market_step": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\market_step.npy",
+      "sha256": "a781c50cddb2dda1377dff53f9d912d16f3203a7c8d3c81ca807674ef1128b13",
+      "shape": [
+        1628
+      ]
+    },
+    "market_slot": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\market_slot.npy",
+      "sha256": "928be6158e27bc67915460e2a5af0ebb8311aaac2517f5702a3e0207d3773dc8",
+      "shape": [
+        1628
+      ]
+    }
+  },
+  "row_provenance": {
+    "actor": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\actor_row_provenance.csv.gz",
+      "sha256": "8669a908f43ca08b4b9049e934bec9a282c7a006b1d0961bc084532960607d58"
+    },
+    "market": {
+      "path": "experiments\\round9_teacher_reproduction_and_closed_loop_bc_20260923\\trajectory_control_episode_109118332_v1\\dataset\\market_row_provenance.csv.gz",
+      "sha256": "57cdfa809bf8637fdd2d8ff24a453234185421a24ca6b4cfb27f58bd78447de7"
+    }
+  }
+}

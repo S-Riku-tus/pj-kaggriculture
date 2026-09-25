@@ -1,0 +1,374 @@
+{
+  "schema": "round11-source-registry-v1",
+  "created_at_utc": "2026-09-24T12:40:12.362782+00:00",
+  "baseline": {
+    "id": "B1",
+    "archive_path": "artifacts/submissions/round10_20260924_b1_herd_safe.tar.gz",
+    "archive_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+    "main_path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+    "main_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "last_callable": "opening_liquidity_agent",
+    "public_submission_id": 56509493
+  },
+  "official_reference": {
+    "commit": "302d8e20c83822b8d4572975cdea1180b792b748",
+    "git_blob": "3c202c7ee921da239356789e266b694635103fc4",
+    "installed_path": ".venv/Lib/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "installed_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "version": "1.32.7"
+  },
+  "inherited_raw_inputs": [
+    {
+      "meaning": "downloaded public submission 56509493 raw ZIP",
+      "path": "data/submissions/round10_b1_herd_safe_submission_56509493.zip",
+      "sha256": "af0f67733ca8c0b612903d55064efa5ad79f1d2ab979ec1fc9a414c0570cfbab"
+    },
+    {
+      "meaning": "original Round10 research bundle",
+      "path": "experiments/round10_public_learning_20260924.zip",
+      "sha256": "5675ffbdf473a0a6a3c7a7a18260f2fac2cd4323e8d8fd25cc46917a328b0de6"
+    }
+  ],
+  "public_sources": [
+    {
+      "id": "more_wheat",
+      "kaggle_ref": "dmitriigluzdov/kaggriculture-more-wheat-smarter-sales",
+      "original_url": "https://www.kaggle.com/code/dmitriigluzdov/kaggriculture-more-wheat-smarter-sales",
+      "api_acquisition_url": "https://www.kaggle.com/api/v1/kernels/pull/dmitriigluzdov/kaggriculture-more-wheat-smarter-sales",
+      "title": "Kaggriculture: More Wheat, Smarter Sales",
+      "author": "Dmitrii Gluzdov",
+      "original_version": 9,
+      "original_last_run_utc": "2026-09-21T11:24:22.8236292Z",
+      "fetched_at_utc": "2026-09-24T11:24:28.840311+00:00",
+      "raw_response": {
+        "path": "experiments/round11_execution_20260924/sources/raw/kaggle/dmitriigluzdov__kaggriculture-more-wheat-smarter-sales/kernels_pull_response.json",
+        "sha256": "6d495afac7122057b9ae73eb1c4cb7e179eceba03c155a5c50bb5cd7fcc89c60",
+        "bytes": 1954019
+      },
+      "payloads": [
+        {
+          "json_path": "$.blob.sourceNullable",
+          "path": "payload_1.ipynb",
+          "bytes": 965241,
+          "sha256": "24c3c73cc845ea9ee6d19cf818a703cdc2ee206420d0f4218810f46b714985e7"
+        },
+        {
+          "json_path": "$.blob.source",
+          "path": "payload_2.ipynb",
+          "bytes": 965241,
+          "sha256": "24c3c73cc845ea9ee6d19cf818a703cdc2ee206420d0f4218810f46b714985e7"
+        }
+      ],
+      "executed_source": {
+        "path": "experiments/round11_execution_20260924/sources/extracted_static/more_wheat/extracted_agent_1.py",
+        "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+        "bytes": 1040401,
+        "last_callable": "rescue_agent",
+        "expected_notebook_hash_match": true
+      },
+      "license": "Apache-2.0 SPDX found in extracted source; bundle includes package NOTICE and Apache license",
+      "execution_safety": {
+        "conservative_static_scanner_pass": false,
+        "external_io_imports": [],
+        "literal_execs_parseable_and_hashed": true,
+        "only_flagged_open_is_disabled_path_none_branch": true,
+        "reviewed_local_execution_allowed": true
+      },
+      "usage": "executed unchanged as loader-selected standalone policy in Track A",
+      "local_track_a": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "score_rate": 0.8125,
+        "mean_margin": 592.875,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": 271.125,
+        "decision": "not promoted"
+      },
+      "lineage_note": "Farm-route measurements match B1 (strawberry day 5, 33 tiles); names are not counted as independent production families."
+    },
+    {
+      "id": "order_book_v3",
+      "kaggle_ref": "arsgorynich/order-book-v3-response-improvement",
+      "original_url": "https://www.kaggle.com/code/arsgorynich/order-book-v3-response-improvement",
+      "api_acquisition_url": "https://www.kaggle.com/api/v1/kernels/pull/arsgorynich/order-book-v3-response-improvement",
+      "title": "Order Book v3 Response Improvement",
+      "author": "Arsgorynich",
+      "original_version": 1,
+      "original_last_run_utc": "2026-09-21T11:24:24.2237884Z",
+      "fetched_at_utc": "2026-09-24T11:24:30.441424+00:00",
+      "raw_response": {
+        "path": "experiments/round11_execution_20260924/sources/raw/kaggle/arsgorynich__order-book-v3-response-improvement/kernels_pull_response.json",
+        "sha256": "d440442e70270ee59988920f8a06cd7adff68be246b495c99b2224e5ae6f196a",
+        "bytes": 1878923
+      },
+      "payloads": [
+        {
+          "json_path": "$.blob.sourceNullable",
+          "path": "payload_1.ipynb",
+          "bytes": 795419,
+          "sha256": "9a3dda5be337e2ec7b8e546cf69a1146d6db53e1b9f2163614335afaf599569c"
+        },
+        {
+          "json_path": "$.blob.source",
+          "path": "payload_2.ipynb",
+          "bytes": 795419,
+          "sha256": "9a3dda5be337e2ec7b8e546cf69a1146d6db53e1b9f2163614335afaf599569c"
+        }
+      ],
+      "executed_source": {
+        "path": "experiments/round11_execution_20260924/sources/extracted_static/order_book_v3/extracted_agent_1.py",
+        "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+        "bytes": 1030005,
+        "last_callable": "orderbook_response_agent",
+        "expected_notebook_hash_match": true
+      },
+      "license": "Apache-2.0 SPDX found in extracted source; bundle includes package NOTICE and Apache license",
+      "execution_safety": {
+        "conservative_static_scanner_pass": false,
+        "external_io_imports": [],
+        "literal_execs_parseable_and_hashed": true,
+        "only_flagged_open_is_disabled_path_none_branch": true,
+        "reviewed_local_execution_allowed": true
+      },
+      "usage": "executed unchanged as loader-selected standalone policy in Track A",
+      "local_track_a": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "score_rate": 0.8125,
+        "mean_margin": 132.25,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": -189.5,
+        "decision": "not promoted"
+      },
+      "lineage_note": "Farm-route measurements match B1 (strawberry day 5, 33 tiles); names are not counted as independent production families."
+    },
+    {
+      "id": "moon",
+      "kaggle_ref": "prvsiyan/kaggriculture-frontier-the-moon-counts-melons",
+      "original_url": "https://www.kaggle.com/code/prvsiyan/kaggriculture-frontier-the-moon-counts-melons",
+      "api_acquisition_url": "https://www.kaggle.com/api/v1/kernels/pull/prvsiyan/kaggriculture-frontier-the-moon-counts-melons",
+      "title": "Kaggriculture Frontier | The Moon Counts Melons",
+      "author": "prvsiyan",
+      "original_version": 63,
+      "original_last_run_utc": "2026-09-21T11:24:25.9183019Z",
+      "fetched_at_utc": "2026-09-24T11:24:32.041710+00:00",
+      "raw_response": {
+        "path": "experiments/round11_execution_20260924/sources/raw/kaggle/prvsiyan__kaggriculture-frontier-the-moon-counts-melons/kernels_pull_response.json",
+        "sha256": "d89424face17f8e42a0cd1e1350a3f52060a0d562d19d20398a72b7330409423",
+        "bytes": 2330206
+      },
+      "payloads": [
+        {
+          "json_path": "$.blob.sourceNullable",
+          "path": "payload_1.ipynb",
+          "bytes": 998395,
+          "sha256": "959210dbf54402319d7a66729c8d68fddb8118f360597d3bd377c75486a324da"
+        },
+        {
+          "json_path": "$.blob.source",
+          "path": "payload_2.ipynb",
+          "bytes": 998395,
+          "sha256": "959210dbf54402319d7a66729c8d68fddb8118f360597d3bd377c75486a324da"
+        }
+      ],
+      "executed_source": {
+        "path": "experiments/round11_execution_20260924/sources/extracted_static/moon/extracted_agent_1.py",
+        "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+        "bytes": 1046403,
+        "last_callable": "_final_sell_block_reorder_entrypoint",
+        "expected_notebook_hash_match": true
+      },
+      "license": "Apache-2.0 SPDX found in extracted source; bundle includes package NOTICE and Apache license",
+      "execution_safety": {
+        "conservative_static_scanner_pass": false,
+        "external_io_imports": [],
+        "literal_execs_parseable_and_hashed": true,
+        "only_flagged_open_is_disabled_path_none_branch": false,
+        "reviewed_local_execution_allowed": false
+      },
+      "usage": "executed unchanged as loader-selected standalone policy in Track A",
+      "local_track_a": {
+        "games": 32,
+        "wins": 22,
+        "losses": 10,
+        "ties": 0,
+        "score_rate": 0.6875,
+        "mean_margin": 861.1875,
+        "mean_delta_points_vs_b1": -0.125,
+        "mean_delta_margin_vs_b1": 539.4375,
+        "decision": "not promoted"
+      },
+      "lineage_note": "Farm-route measurements match B1 (strawberry day 5, 33 tiles); names are not counted as independent production families."
+    },
+    {
+      "id": "v15stack",
+      "kaggle_ref": "wzhengbiao/kaggriculture-v15stack-submit",
+      "original_url": "https://www.kaggle.com/code/wzhengbiao/kaggriculture-v15stack-submit",
+      "api_acquisition_url": "https://www.kaggle.com/api/v1/kernels/pull/wzhengbiao/kaggriculture-v15stack-submit",
+      "title": "kaggriculture v15stack submit",
+      "author": "WUZB",
+      "original_version": 1,
+      "original_last_run_utc": "2026-09-21T11:24:27.4339352Z",
+      "fetched_at_utc": "2026-09-24T11:24:33.377785+00:00",
+      "raw_response": {
+        "path": "experiments/round11_execution_20260924/sources/raw/kaggle/wzhengbiao__kaggriculture-v15stack-submit/kernels_pull_response.json",
+        "sha256": "ba904aae3300e07ec933db7fbae287bc39140bbd58f53c382948084db6e57c72",
+        "bytes": 2158769
+      },
+      "payloads": [],
+      "executed_source": {
+        "path": "experiments/round11_execution_20260924/sources/extracted_static/v15stack/extracted_agent_1.py",
+        "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+        "bytes": 1057901,
+        "last_callable": "v15_submission_entry",
+        "expected_notebook_hash_match": null
+      },
+      "license": "Apache-2.0 SPDX found in extracted source; bundle includes package NOTICE and Apache license",
+      "execution_safety": {
+        "conservative_static_scanner_pass": false,
+        "external_io_imports": [],
+        "literal_execs_parseable_and_hashed": true,
+        "only_flagged_open_is_disabled_path_none_branch": true,
+        "reviewed_local_execution_allowed": true
+      },
+      "usage": "executed unchanged as loader-selected standalone policy in Track A",
+      "local_track_a": {
+        "games": 32,
+        "wins": 22,
+        "losses": 10,
+        "ties": 0,
+        "score_rate": 0.6875,
+        "mean_margin": 480.0,
+        "mean_delta_points_vs_b1": -0.125,
+        "mean_delta_margin_vs_b1": 158.25,
+        "decision": "not promoted"
+      },
+      "lineage_note": "Farm-route measurements match B1 (strawberry day 5, 33 tiles); names are not counted as independent production families."
+    },
+    {
+      "id": "wonderful",
+      "kaggle_ref": "hanifnoerrofiq/a-wonderful-life",
+      "original_url": "https://www.kaggle.com/code/hanifnoerrofiq/a-wonderful-life",
+      "api_acquisition_url": "https://www.kaggle.com/api/v1/kernels/pull/hanifnoerrofiq/a-wonderful-life",
+      "title": "A wonderful Life",
+      "author": "Hanif Noer Rofiq",
+      "original_version": 1,
+      "original_last_run_utc": "2026-09-21T11:24:28.8468199Z",
+      "fetched_at_utc": "2026-09-24T11:24:34.713518+00:00",
+      "raw_response": {
+        "path": "experiments/round11_execution_20260924/sources/raw/kaggle/hanifnoerrofiq__a-wonderful-life/kernels_pull_response.json",
+        "sha256": "19ee6b83f1d8199f8dcf28afb21ba558ab6fbc63f36ebf46388a0667d96dc194",
+        "bytes": 1547332
+      },
+      "payloads": [
+        {
+          "json_path": "$.blob.sourceNullable",
+          "path": "payload_1.ipynb",
+          "bytes": 655214,
+          "sha256": "54fa074dab44dc66c411409a45af3ef928cab5a2c3ab63f2fe00dab4dd7295ee"
+        },
+        {
+          "json_path": "$.blob.source",
+          "path": "payload_2.ipynb",
+          "bytes": 655214,
+          "sha256": "54fa074dab44dc66c411409a45af3ef928cab5a2c3ab63f2fe00dab4dd7295ee"
+        }
+      ],
+      "executed_source": {
+        "path": "experiments/round11_execution_20260924/sources/extracted_static/wonderful/extracted_agent_1.py",
+        "sha256": "caf490d382731dce2ce85b227b407ddef70c5df88f0773ebe017b695226d3e6d",
+        "bytes": 866704,
+        "last_callable": "agent",
+        "expected_notebook_hash_match": true
+      },
+      "license": "Apache-2.0 SPDX found in extracted source; bundle includes package NOTICE and Apache license",
+      "execution_safety": {
+        "conservative_static_scanner_pass": false,
+        "external_io_imports": [],
+        "literal_execs_parseable_and_hashed": true,
+        "only_flagged_open_is_disabled_path_none_branch": false,
+        "reviewed_local_execution_allowed": false
+      },
+      "usage": "executed unchanged as loader-selected standalone policy in Track A",
+      "local_track_a": {
+        "games": 32,
+        "wins": 0,
+        "losses": 32,
+        "ties": 0,
+        "score_rate": 0.0,
+        "mean_margin": -1517.875,
+        "mean_delta_points_vs_b1": -0.8125,
+        "mean_delta_margin_vs_b1": -1839.625,
+        "decision": "not promoted"
+      },
+      "lineage_note": "Farm-route measurements match B1 (strawberry day 5, 33 tiles); names are not counted as independent production families."
+    },
+    {
+      "id": "master_hybrid",
+      "kaggle_ref": "haideptry/the-2965-master-hybrid-engine",
+      "original_url": "https://www.kaggle.com/code/haideptry/the-2965-master-hybrid-engine",
+      "api_acquisition_url": "https://www.kaggle.com/api/v1/kernels/pull/haideptry/the-2965-master-hybrid-engine",
+      "title": "The 2965 Master Hybrid Engine",
+      "author": "haideptry",
+      "original_version": 7,
+      "original_last_run_utc": "2026-09-21T11:24:30.2167095Z",
+      "fetched_at_utc": "2026-09-24T11:24:36.230555+00:00",
+      "raw_response": {
+        "path": "experiments/round11_execution_20260924/sources/raw/kaggle/haideptry__the-2965-master-hybrid-engine/kernels_pull_response.json",
+        "sha256": "2ede360621a1d6156c6f0a5d7dd916c9962d6b01b3639be6643cd76515eb52dd",
+        "bytes": 1720851
+      },
+      "payloads": [
+        {
+          "json_path": "$.blob.sourceNullable",
+          "path": "payload_1.ipynb",
+          "bytes": 857156,
+          "sha256": "5b8eadbe6e57979f6b54320b4af49003c2efb9a31751944b72c3f23fc6a3875f"
+        },
+        {
+          "json_path": "$.blob.source",
+          "path": "payload_2.ipynb",
+          "bytes": 857156,
+          "sha256": "5b8eadbe6e57979f6b54320b4af49003c2efb9a31751944b72c3f23fc6a3875f"
+        }
+      ],
+      "executed_source": {
+        "path": "experiments/round11_execution_20260924/sources/extracted_static/master_hybrid/extracted_agent_1.py",
+        "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+        "bytes": 1031606,
+        "last_callable": "agent",
+        "expected_notebook_hash_match": true
+      },
+      "license": "Apache-2.0 SPDX found in extracted source; bundle includes package NOTICE and Apache license",
+      "execution_safety": {
+        "conservative_static_scanner_pass": false,
+        "external_io_imports": [],
+        "literal_execs_parseable_and_hashed": true,
+        "only_flagged_open_is_disabled_path_none_branch": false,
+        "reviewed_local_execution_allowed": false
+      },
+      "usage": "executed unchanged as loader-selected standalone policy in Track A",
+      "local_track_a": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "score_rate": 0.8125,
+        "mean_margin": 273.875,
+        "mean_delta_points_vs_b1": 0.0,
+        "mean_delta_margin_vs_b1": -47.875,
+        "decision": "not promoted"
+      },
+      "lineage_note": "Farm-route measurements match B1 (strawberry day 5, 33 tiles); names are not counted as independent production families."
+    }
+  ],
+  "notes": [
+    "Kaggle CLI help was checked; public API pull was used only after unauthenticated CLI pull could not authenticate.",
+    "Raw notebook/script responses, payloads, extracted sources and hashes remain under sources/.",
+    "No downloaded notebook builder was executed; extraction was literal/static before reviewed policy execution."
+  ]
+}

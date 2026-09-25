@@ -1,0 +1,68 @@
+{
+  "round11_execution": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\research\\Kaggriculture_Round11_Execution_20260924.zip",
+    "exists": true,
+    "expected_sha256": "60b04f07e0621884ea362c0d969ddd49629acca8adfb98064920bd4a57f405ce",
+    "observed_sha256": "eaffe964e4bb7bc2a3708c8174ed3d1d57f0c5434fbb818ed64c2ece6d69a174",
+    "matches_expected": false
+  },
+  "round11_research_revision": {
+    "path": "C:\\Users\\shiba\\Downloads\\Kaggriculture_Round11_Research_Revision_20260924.zip",
+    "exists": true,
+    "expected_sha256": "d42d17597285b84abc2096fbf4aa04b57fdf622f8d71587310199b5756165044",
+    "observed_sha256": "00c3048ef7ea31e52020d964af363c77db03eaf379797859523fb6447ffa7c1d",
+    "matches_expected": false
+  },
+  "round10_b1": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\submissions\\round10_20260924_b1_herd_safe.tar.gz",
+    "exists": true,
+    "expected_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+    "observed_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+    "matches_expected": true
+  },
+  "round10_b2": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\submissions\\round10_20260924_b2_buy10_sell5.tar.gz",
+    "exists": true,
+    "expected_sha256": "70ede751deac2688a2e822f65f10069e3b98d9db9d6dd0278d7574e13acb651a",
+    "observed_sha256": "70ede751deac2688a2e822f65f10069e3b98d9db9d6dd0278d7574e13acb651a",
+    "matches_expected": true
+  },
+  "round10_learned": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\artifacts\\submissions\\round10_20260924_learned_diagnostic.tar.gz",
+    "exists": true,
+    "expected_sha256": "f0e1d9012b1cf2e9556302a299c8ac459990466cd3d0a3b6cd26fa45e95c636e",
+    "observed_sha256": "f0e1d9012b1cf2e9556302a299c8ac459990466cd3d0a3b6cd26fa45e95c636e",
+    "matches_expected": true
+  },
+  "round11_independent_audit": {
+    "path": "C:\\Users\\shiba\\Downloads\\Kaggriculture_Round11_Independent_Audit_20260924.zip",
+    "exists": true,
+    "expected_sha256": null,
+    "observed_sha256": "8e8434b2906c7a371815412fc341fcd39715881bf992ed748e280d985cc51dff",
+    "matches_expected": null
+  },
+  "B1_main_py": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\Kaggriculture_Round11_Research_Revision_20260924\\inputs\\agents\\B1.py",
+    "observed_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "expected_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "matches_expected": true
+  },
+  "M20_main_py": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\experiments\\round11_execution_20260924\\arms\\m20_multi_hypothesis\\main.py",
+    "observed_sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+    "expected_sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+    "matches_expected": true,
+    "note": "correct value generated from file; 98d374ab... is not used"
+  },
+  "installed_kaggriculture_py": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "observed_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "reference_commit": "302d8e20c83822b8d4572975cdea1180b792b748",
+    "reference_sha256_from_round10_registry": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "matches_reference": true
+  },
+  "installed_agent_py": {
+    "path": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.venv\\Lib\\site-packages\\kaggle_environments\\agent.py",
+    "observed_sha256": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6"
+  }
+}

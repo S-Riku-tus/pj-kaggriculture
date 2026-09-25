@@ -1,0 +1,63 @@
+{
+  "audit_date_jst": "2026-09-25",
+  "outer_input": {
+    "original_path": "C:/Users/shiba/Downloads/Kaggriculture_B1_Breakthrough_20260925.zip",
+    "sha256": "38fc4ddbbbd1a90da1b73937f6c1a29d388953eb3315059289613e6907c35492",
+    "member_count": 76,
+    "temporary_inspection_copy": ".tmp/kaggriculture_round13_input_20260925/Kaggriculture_B1_Breakthrough_20260925"
+  },
+  "nested_round12_input": {
+    "outer_member": "inputs/round12_causal_repairs_20260925.zip",
+    "sha256": "47e61b8324d2724face858ff846a8770ca5cd5e51cb7c0802c0b00307b14f20d",
+    "member_count": 306,
+    "repo_copy_identical": true,
+    "reuse": "Existing untracked repo extraction used read-only; it was not edited or deleted."
+  },
+  "b1_main": {
+    "repo_path": "experiments/round12_causal_repairs_20260925/agents/P0M0_B1/main.py",
+    "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "bytes": 1040805,
+    "physical_lines": 7141,
+    "last_top_level_callable": "opening_liquidity_agent"
+  },
+  "round10_submission_tar": {
+    "path": "artifacts/research/Kaggriculture_Round11_Execution_20260924/retained_baseline/round10_20260924_b1_herd_safe.tar.gz",
+    "sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+    "members": ["main.py"],
+    "member_main_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+    "identity_confirmed": true
+  },
+  "engine": {
+    "installed_kaggle_environments_version": "1.32.7",
+    "installed_official_kaggriculture_py_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "installed_official_kaggriculture_git_blob": "302d8e20c83822b8d4572975cdea1180b792b748",
+    "fixed_reference_git_blob": "302d8e20c83822b8d4572975cdea1180b792b748",
+    "fixed_reference_match": true,
+    "cppsim_repo_head": "f0084b916343c37bbcbdc7de9d833dc96caff78f",
+    "cppsim_binary_sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92",
+    "official_vs_cpp_parity": "Reused Round12 two divergent-case parity check: passed. Existing cppsim working-tree changes were not modified."
+  },
+  "loader_contract": {
+    "no_file_global": true,
+    "numpy_required": false,
+    "modified_agent_last_callable": "round13_agent",
+    "test_file": "tests/test_round13_contracts.py"
+  },
+  "repository_preservation": {
+    "branch": "main",
+    "work_isolated_in": "experiments/round13_strategy_reset_20260925",
+    "new_branch_created": false,
+    "reason": "The requested isolation is supplied by a new experiment directory; switching branches with pre-existing user changes was avoided.",
+    "pre_existing_changes_preserved": [
+      "modified nested experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim",
+      "untracked experiments/round12_causal_repairs_20260925.zip",
+      "untracked experiments/round12_causal_repairs_20260925/"
+    ]
+  },
+  "schedule_and_submission_rule": {
+    "carried_verified_record": "Final submission 2026-09-30 23:59 UTC (2026-10-01 08:59 JST); latest two submissions tracked/finally evaluated.",
+    "fresh_public_page_check": "HTTP 200 and page title obtained, but the unauthenticated shell did not expose the rule text and local Kaggle CLI had no credentials.",
+    "required_action": "Reconfirm official deadline and latest-two rule immediately before any manual submission.",
+    "submission_performed_this_cycle": false
+  }
+}

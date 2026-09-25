@@ -1,0 +1,812 @@
+{
+  "created_at_utc": "2026-09-22T04:57:28.009587+00:00",
+  "candidate": "round6_sequence_bc_v1",
+  "archive": "artifacts\\submissions\\learning_round6_20260922_sequence_bc_v1.tar.gz",
+  "archive_sha256": "f8d1bc6ea5d69ef8777013995c63aa88e83f8a5c1402b184f356153d2d372434",
+  "teacher_submission": 56216119,
+  "teacher_episode": 109590135,
+  "source_split": "test",
+  "extraction_root": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.tmp\\kaggriculture-round6-h5ky0l99",
+  "scope": "exact teacher prefix followed by learner closed loop against fixed saved opponent actions",
+  "reactive_opponent_evidence": "separate normal-start v122/v123/v124 development evaluation",
+  "all_prefixes_exact": true,
+  "results": [
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "seed": 769964722,
+      "prefix_steps": 96,
+      "rollout_steps": 24,
+      "remaining_all": false,
+      "prefix_exact": true,
+      "prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "teacher_prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "opponent_after_branch": "fixed saved replay actions; not reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 97,
+        "learner": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        },
+        "teacher": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              4
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        }
+      },
+      "valid_action_shapes": 24,
+      "learner_end": {
+        "money": 134.0,
+        "shed": {
+          "WHEAT": 16,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 2,
+          "MELON": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 3
+        },
+        "crops": {
+          "STRAWBERRY": 7,
+          "MELON": 12,
+          "WHEAT": 1
+        }
+      },
+      "teacher_end": {
+        "money": 298.0,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 21,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 3
+        },
+        "crops": {
+          "STRAWBERRY": 8,
+          "MELON": 12
+        }
+      },
+      "delta_self_money": -164.0,
+      "learner_opponent_money": 1195.0,
+      "teacher_opponent_money": 1193.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "stored_states": 121,
+      "counterfactual_replay": "experiments\\learning_round6_20260922\\closed_loop_continuations_round6_sequence_bc_v1\\episode_109590135_prefix_96_horizon_24.json.gz",
+      "counterfactual_replay_sha256": "1a1584d0d2d9114e895372f101126498f3413eb681b62390c305a0513b216708"
+    },
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "seed": 769964722,
+      "prefix_steps": 96,
+      "rollout_steps": 48,
+      "remaining_all": false,
+      "prefix_exact": true,
+      "prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "teacher_prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "opponent_after_branch": "fixed saved replay actions; not reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 97,
+        "learner": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        },
+        "teacher": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              4
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        }
+      },
+      "valid_action_shapes": 48,
+      "learner_end": {
+        "money": 528.0,
+        "shed": {
+          "WHEAT": 9,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 1,
+          "MELON": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 3
+        },
+        "crops": {
+          "MELON": 12,
+          "STRAWBERRY": 7
+        }
+      },
+      "teacher_end": {
+        "money": 633.0,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 16,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 1,
+          "TOMATO": 0,
+          "WHEAT": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 3
+        },
+        "crops": {
+          "STRAWBERRY": 8,
+          "MELON": 12
+        }
+      },
+      "delta_self_money": -105.0,
+      "learner_opponent_money": 712.0,
+      "teacher_opponent_money": 709.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "stored_states": 145,
+      "counterfactual_replay": "experiments\\learning_round6_20260922\\closed_loop_continuations_round6_sequence_bc_v1\\episode_109590135_prefix_96_horizon_48.json.gz",
+      "counterfactual_replay_sha256": "c5daa2528571e6d8bf10361e083fc49b17a733b70a8e67eef82c46197c472826"
+    },
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "seed": 769964722,
+      "prefix_steps": 96,
+      "rollout_steps": 96,
+      "remaining_all": false,
+      "prefix_exact": true,
+      "prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "teacher_prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "opponent_after_branch": "fixed saved replay actions; not reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 97,
+        "learner": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        },
+        "teacher": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              4
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        }
+      },
+      "valid_action_shapes": 96,
+      "learner_end": {
+        "money": 211.0,
+        "shed": {
+          "WHEAT": 11,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 4,
+          "MELON": 0
+        },
+        "animals": {
+          "COW": 2,
+          "SHEEP": 1
+        },
+        "crops": {
+          "STRAWBERRY": 8,
+          "MELON": 11
+        }
+      },
+      "teacher_end": {
+        "money": 55.0,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 1,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 10,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 1
+        },
+        "animals": {
+          "COW": 7,
+          "SHEEP": 3
+        },
+        "crops": {
+          "STRAWBERRY": 23,
+          "MELON": 12,
+          "WHEAT": 1
+        }
+      },
+      "delta_self_money": 156.0,
+      "learner_opponent_money": 1574.0,
+      "teacher_opponent_money": 1400.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "stored_states": 193,
+      "counterfactual_replay": "experiments\\learning_round6_20260922\\closed_loop_continuations_round6_sequence_bc_v1\\episode_109590135_prefix_96_horizon_96.json.gz",
+      "counterfactual_replay_sha256": "f60ac96e3589ebd64d5bcc3bf0d58d12756f0835417932f224ccb7a2b4830a8e"
+    },
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "seed": 769964722,
+      "prefix_steps": 96,
+      "rollout_steps": 192,
+      "remaining_all": false,
+      "prefix_exact": true,
+      "prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "teacher_prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "opponent_after_branch": "fixed saved replay actions; not reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 97,
+        "learner": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        },
+        "teacher": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              4
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        }
+      },
+      "valid_action_shapes": 192,
+      "learner_end": {
+        "money": 1205.0,
+        "shed": {
+          "WHEAT": 13,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 18,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 1,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 8,
+          "MELON": 0
+        },
+        "animals": {
+          "COW": 1
+        },
+        "crops": {
+          "STRAWBERRY": 17,
+          "MELON": 3
+        }
+      },
+      "teacher_end": {
+        "money": 8195.0,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 9,
+          "GOOSE": 0,
+          "MELON": 18,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 60,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 5
+        },
+        "animals": {
+          "COW": 11,
+          "SHEEP": 3
+        },
+        "crops": {
+          "STRAWBERRY": 29,
+          "MELON": 3,
+          "WHEAT": 24
+        }
+      },
+      "delta_self_money": -6990.0,
+      "learner_opponent_money": 14204.0,
+      "teacher_opponent_money": 12074.0,
+      "statuses": [
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "stored_states": 289,
+      "counterfactual_replay": "experiments\\learning_round6_20260922\\closed_loop_continuations_round6_sequence_bc_v1\\episode_109590135_prefix_96_horizon_192.json.gz",
+      "counterfactual_replay_sha256": "adf50280b6990e9f548d05ef09770391f0be4927e2c9af532030398d89b74bf1"
+    },
+    {
+      "episode_id": 109590135,
+      "seat": 1,
+      "seed": 769964722,
+      "prefix_steps": 96,
+      "rollout_steps": 623,
+      "remaining_all": true,
+      "prefix_exact": true,
+      "prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "teacher_prefix_state_sha256": "2c8851410b279206b4992ca55535e9302da012bbba208ae15b24bb49bc2be207",
+      "opponent_after_branch": "fixed saved replay actions; not reactive",
+      "dagger_claimed": false,
+      "first_action_difference": {
+        "decision_step": 97,
+        "learner": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        },
+        "teacher": {
+          "farmer": [
+            "PLACE",
+            "FERTILIZER",
+            1
+          ],
+          "hands": [
+            [
+              "PICKUP",
+              "WHEAT",
+              4
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "PICKUP",
+              "WHEAT",
+              3
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ],
+            [
+              "NORTH"
+            ]
+          ],
+          "market": []
+        }
+      },
+      "valid_action_shapes": 623,
+      "learner_end": {
+        "money": 3107.0,
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 4,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 0,
+          "CARROT": 2,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0
+        },
+        "animals": {
+          "SHEEP": 1
+        },
+        "crops": {
+          "CARROT": 3,
+          "WHEAT": 4,
+          "TOMATO": 1
+        }
+      },
+      "teacher_end": {
+        "money": 107896.0,
+        "shed": {
+          "CARROT": 0,
+          "COW": 0,
+          "EGG": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "MELON": 0,
+          "MILK": 0,
+          "SHEEP": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 0,
+          "WOOL": 0
+        },
+        "seeds": {
+          "CARROT": 0,
+          "MELON": 0,
+          "STRAWBERRY": 0,
+          "TOMATO": 0,
+          "WHEAT": 0
+        },
+        "animals": {
+          "COW": 6
+        },
+        "crops": {
+          "TOMATO": 2,
+          "STRAWBERRY": 6,
+          "WHEAT": 2
+        }
+      },
+      "delta_self_money": -104789.0,
+      "learner_opponent_money": 148105.0,
+      "teacher_opponent_money": 108466.0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "counterfactual_replay": "experiments\\learning_round6_20260922\\closed_loop_continuations_round6_sequence_bc_v1\\episode_109590135_prefix_96_horizon_623.json.gz",
+      "counterfactual_replay_sha256": "a411b4c082296f3a6a2ddebe9e6a8ae251dbbf3d2e3e41801293c3c087705dab"
+    }
+  ]
+}

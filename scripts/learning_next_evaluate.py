@@ -240,7 +240,17 @@ def _run_game(task: dict[str, Any]) -> dict[str, Any]:
         timings.append(time.perf_counter() - started)
         getter = getattr(focal_module, "policy_diagnostics", None)
         if callable(getter):
-            value = getter(observation)
+            positional = [
+                parameter
+                for parameter in inspect.signature(getter).parameters.values()
+                if parameter.kind
+                in (inspect.Parameter.POSITIONAL_ONLY, inspect.Parameter.POSITIONAL_OR_KEYWORD)
+            ]
+            has_varargs = any(
+                parameter.kind == inspect.Parameter.VAR_POSITIONAL
+                for parameter in inspect.signature(getter).parameters.values()
+            )
+            value = getter(observation) if positional or has_varargs else getter()
             diagnostics = dict(value) if isinstance(value, dict) else {}
         return action
 

@@ -1,0 +1,46 @@
+{
+  "schema": "round11-holdout-acceptance-v1",
+  "frozen_before_run": true,
+  "candidate": "m20_multi_hypothesis",
+  "candidate_sha256": "98d374abdf6e28fcde76c1b2da06bef0e1f6da91c3906768c1d8a8d836e92c4a",
+  "baseline": "B1",
+  "baseline_sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+  "selection_evidence": {
+    "development_seeds": [522609241, 522609242, 522609243, 522609244],
+    "candidate_score_rate": 0.8125,
+    "baseline_score_rate": 0.65625,
+    "candidate_minus_baseline_points": 5.0,
+    "candidate_minus_baseline_mean_margin": 251.25,
+    "loss_to_win": 4,
+    "win_to_loss": 0,
+    "reported_alternate_forecast_fires": 70,
+    "final_action_changed_decisions": 244
+  },
+  "evaluation": {
+    "engine": "validated cppsim 1.32.7",
+    "seeds": "612609241..612609264 inclusive",
+    "seed_clusters": 24,
+    "opponents": ["B1", "v57", "order_book", "metav4"],
+    "seats": [0, 1],
+    "arms": ["B1", "m20_multi_hypothesis"],
+    "planned_cells": 384,
+    "primary_score": "win=1, tie=0.5, loss=0",
+    "uncertainty_unit": "world seed; all opponents and seats remain in one cluster"
+  },
+  "acceptance_gates": {
+    "coverage": "all 384 cells complete, 720 states/719 decisions, no exceptions",
+    "primary": "candidate total score strictly greater than B1 total score",
+    "cluster_uncertainty": "one-sided 90% bootstrap lower bound of mean seed-cluster point delta is >= 0",
+    "opponent_guardrail": "candidate paired point delta is >= -1.0 for every opponent family (48 games each)",
+    "margin_guardrail": "overall mean paired margin delta is greater than -250",
+    "large_regression_guardrail": "no paired margin delta <= -5000",
+    "transition_guardrail": "candidate creates at most 2 baseline-win to candidate-loss transitions",
+    "effective_change": "candidate changes at least one final action and reports zero policy errors",
+    "official_parity_precondition": "phase0/m20_official_cppsim_parity.json has all_exact=true"
+  },
+  "notes": [
+    "The four opponents are source-lineage related and are not counted as independent uncertainty units.",
+    "No thresholds, opponent identities, seeds, or sample size may be changed after inspecting holdout results.",
+    "A passing local holdout does not establish a 2500/3000 public rating prediction."
+  ]
+}

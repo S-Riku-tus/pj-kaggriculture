@@ -1,0 +1,62 @@
+{
+  "created_at_utc": "2026-09-22T05:08:00.930431+00:00",
+  "candidate": "round6_sequence_bc_v1",
+  "archive": "artifacts\\submissions\\learning_round6_20260922_sequence_bc_v1.tar.gz",
+  "archive_sha256": "f8d1bc6ea5d69ef8777013995c63aa88e83f8a5c1402b184f356153d2d372434",
+  "opponent": "v122",
+  "seed": 2026102201,
+  "fresh_process_per_game": true,
+  "extraction_root": "C:\\Users\\shiba\\Kaggle\\pj-kaggriculture\\.tmp\\kaggriculture-round6-6bxm7g5q",
+  "act_timeout_seconds": 1.0,
+  "results": [
+    {
+      "seat": 0,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "elapsed_seconds": 11.628528400033247,
+      "cold_import_seconds": 0.10263370000757277,
+      "inference": {
+        "calls": 719,
+        "mean_seconds": 0.005537538526347231,
+        "p50_seconds": 0.0049149999977089465,
+        "p95_seconds": 0.009649110009195284,
+        "p99_seconds": 0.013173718028701847,
+        "max_seconds": 0.2550805999781005,
+        "rss_before_bytes": 181297152,
+        "rss_after_bytes": 781127680,
+        "rss_delta_bytes": 599830528
+      },
+      "replay": "experiments\\learning_round6_20260922\\candidate_v1_runtime_validation\\seed_2026102201_seat_0.json.gz",
+      "replay_sha256": "008f37aa66771c4b15166840c6bda278e49223a1777447717803daa145ddbf00"
+    },
+    {
+      "seat": 1,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "stored_states": 720,
+      "elapsed_seconds": 11.178565600013826,
+      "cold_import_seconds": 0.12685790000250563,
+      "inference": {
+        "calls": 719,
+        "mean_seconds": 0.004597405841595445,
+        "p50_seconds": 0.004309500043746084,
+        "p95_seconds": 0.008080019993940368,
+        "p99_seconds": 0.010305337989702823,
+        "max_seconds": 0.012401099957060069,
+        "rss_before_bytes": 180785152,
+        "rss_after_bytes": 778903552,
+        "rss_delta_bytes": 598118400
+      },
+      "replay": "experiments\\learning_round6_20260922\\candidate_v1_runtime_validation\\seed_2026102201_seat_1.json.gz",
+      "replay_sha256": "acf7a5df129ed9e231f8bf8f6abf440aa9c12645373d05e11915dea40552b8f0"
+    }
+  ],
+  "all_done": true,
+  "clock_pass": true,
+  "online_operations": 0
+}

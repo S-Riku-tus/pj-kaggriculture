@@ -1,0 +1,68 @@
+{
+  "format": "round10-panel-v1",
+  "created_at_utc": "2026-09-24T02:04:13.017303+00:00",
+  "config": {
+    "engine": "kagsim",
+    "output": "experiments/round10_public_learning_20260924/evaluations/opening_b2_confirmation",
+    "development_evidence_not_holdout": false,
+    "qualification": "fresh seeds; public opponent families were used during B1 selection",
+    "arms": {
+      "B1_buy8_sell3": {
+        "path": "experiments/round10_public_learning_20260924/opening_candidates/buy8_sell3.py",
+        "mode": "module_agent",
+        "baseline_id": "B1_opening"
+      },
+      "B2_buy10_sell5": {
+        "path": "experiments/round10_public_learning_20260924/opening_candidates/buy10_sell5.py",
+        "mode": "module_agent",
+        "baseline_id": "B2_opening_candidate"
+      }
+    },
+    "opponents": {
+      "herd_safe_B1": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/herd_safe/main.py",
+        "mode": "last_callable",
+        "family": "herd_safe"
+      },
+      "ahmed_v57": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+        "mode": "last_callable",
+        "family": "ahmed_route"
+      },
+      "metav4": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/metav4/main.py",
+        "mode": "last_callable",
+        "family": "metav4"
+      },
+      "melon_threshold": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/melon_threshold/main.py",
+        "mode": "last_callable",
+        "family": "melon_threshold"
+      },
+      "order_book": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/order_book/main.py",
+        "mode": "last_callable",
+        "family": "order_book"
+      },
+      "qeinstein_moev2": {
+        "path": "experiments/research_20260910/runtime/qeinstein_moev2/main.py",
+        "mode": "module_agent",
+        "family": "qeinstein"
+      }
+    },
+    "seeds": [
+      2026092421,
+      2026092422,
+      2026092423,
+      2026092424
+    ],
+    "seats": [
+      0,
+      1
+    ]
+  },
+  "engine_path": "experiments/round10_public_learning_20260924/engines/kaggriculture-cppsim/kagsim.cp312-win_amd64.pyd",
+  "engine_sha256": "0fe077cc65622d6f6828160d90b617595a4aa7ea188e4afc67bfee8e4d290c92",
+  "tasks": 96,
+  "development_evidence_not_holdout": false
+}

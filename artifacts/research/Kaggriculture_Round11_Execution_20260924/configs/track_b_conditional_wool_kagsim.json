@@ -1,0 +1,47 @@
+{
+  "engine": "kagsim",
+  "output": "experiments/round11_execution_20260924/track_b/conditional_wool_kagsim",
+  "development_evidence_not_holdout": true,
+  "hypothesis_frozen_before_run": "CW1 opens only when >=2 of 3 public-history forecasts imply >=8 net imminent WOOL units and >=5 quote loss; thresholds are not tuned on these results",
+  "arms": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "wool_gate_open_control": {
+      "path": "experiments/round11_execution_20260924/arms/wool_gate_open_control/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    },
+    "cw1_conditional_wool": {
+      "path": "experiments/round11_execution_20260924/arms/cw1_conditional_wool/main.py",
+      "mode": "last_callable",
+      "baseline_id": "B1"
+    }
+  },
+  "opponents": {
+    "B1": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "mode": "last_callable",
+      "family": "herd_safe"
+    },
+    "v57": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+      "mode": "last_callable",
+      "family": "public_router"
+    },
+    "order_book": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/order_book.py",
+      "mode": "last_callable",
+      "family": "order_book"
+    },
+    "metav4": {
+      "path": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/metav4.py",
+      "mode": "last_callable",
+      "family": "metav4"
+    }
+  },
+  "seeds": [532609241, 532609242, 532609243, 532609244],
+  "seats": [0, 1]
+}

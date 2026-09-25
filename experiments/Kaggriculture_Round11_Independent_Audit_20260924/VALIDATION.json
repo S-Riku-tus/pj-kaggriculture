@@ -1,0 +1,68 @@
+[
+  {
+    "type": "script_syntax",
+    "path": "scripts/audit_runtime_ledger.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/reactive_diagnostics.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/summarize_pairs.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/probe_cw1.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/evaluate_alt_consensus.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/build_ledger_binding.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/audit_saved.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/postprocess_diagnostics.py",
+    "ok": true
+  },
+  {
+    "type": "script_syntax",
+    "path": "scripts/probe_b1_equivalence.py",
+    "ok": true
+  },
+  {
+    "type": "all_trace_hashes_and_rewards",
+    "metadata": "reactive_diagnostics.json",
+    "count": 16,
+    "ok": true
+  },
+  {
+    "type": "all_trace_hashes_and_rewards",
+    "metadata": "alt_consensus_full_panel.json",
+    "count": 192,
+    "ok": true
+  },
+  {
+    "type": "summary_values",
+    "ok": true
+  },
+  {
+    "type": "fresh_holdout_or_promotion_claim",
+    "fresh_holdout": false,
+    "promoted": false
+  }
+]

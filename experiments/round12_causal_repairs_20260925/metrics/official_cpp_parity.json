@@ -1,0 +1,60 @@
+{
+  "scope": "new full official-Python and reactive C++ executions; includes actual Round12 divergences",
+  "cases": [
+    {
+      "name": "P0M1_market_diverges_from_B1",
+      "arm": "agents/P0M1_market/main.py",
+      "opponent": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/v57.py",
+      "seed": 612609254,
+      "seat": 0,
+      "agent_sha256": "c09bdb29aa400e4766476104a80bdaf8ce081a2a41f10d4132f96aff220720c4",
+      "official_states": 720,
+      "cpp_decisions": 719,
+      "official_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "cpp_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "official_rewards": [
+        90401.0,
+        91730.0
+      ],
+      "cpp_rewards": [
+        90401.0,
+        91730.0
+      ],
+      "errors": []
+    },
+    {
+      "name": "P1_independent_route",
+      "arm": "agents/P1M1_strawberry_route/main.py",
+      "opponent": "experiments/Kaggriculture_Round11_Research_Revision_20260924/inputs/agents/B1.py",
+      "seed": 712609243,
+      "seat": 1,
+      "agent_sha256": "0a938f2ce82bde65821cabf0012af7e43cbf190696a118f331ccb434a95a6ffe",
+      "official_states": 720,
+      "cpp_decisions": 719,
+      "official_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "cpp_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "official_rewards": [
+        154733.0,
+        16010.0
+      ],
+      "cpp_rewards": [
+        154733.0,
+        16010.0
+      ],
+      "errors": []
+    }
+  ],
+  "passed": true
+}

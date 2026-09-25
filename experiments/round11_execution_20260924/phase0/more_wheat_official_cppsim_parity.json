@@ -1,0 +1,107 @@
+{
+  "schema": "round11-official-cppsim-decision-parity-v1",
+  "pairs": 4,
+  "all_exact": true,
+  "rows": [
+    {
+      "arm": "B1",
+      "opponent": "B1",
+      "seed": 512609244,
+      "seat": 0,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        99588.0,
+        99588.0
+      ],
+      "fast_rewards": [
+        99588.0,
+        99588.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    },
+    {
+      "arm": "B1",
+      "opponent": "B1",
+      "seed": 512609244,
+      "seat": 1,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        99588.0,
+        99588.0
+      ],
+      "fast_rewards": [
+        99588.0,
+        99588.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    },
+    {
+      "arm": "more_wheat",
+      "opponent": "B1",
+      "seed": 512609244,
+      "seat": 0,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        99896.0,
+        98848.0
+      ],
+      "fast_rewards": [
+        99896.0,
+        98848.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    },
+    {
+      "arm": "more_wheat",
+      "opponent": "B1",
+      "seed": 512609244,
+      "seat": 1,
+      "states": 720,
+      "decisions": 719,
+      "observation_mismatches": 0,
+      "first_observation_mismatch": [],
+      "action_mismatches": 0,
+      "first_action_mismatch": [],
+      "official_rewards": [
+        98848.0,
+        99896.0
+      ],
+      "fast_rewards": [
+        98848.0,
+        99896.0
+      ],
+      "terminal_statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "exact": true
+    }
+  ]
+}

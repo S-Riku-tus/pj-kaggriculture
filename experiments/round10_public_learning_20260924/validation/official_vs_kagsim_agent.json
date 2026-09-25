@@ -1,0 +1,36 @@
+{
+  "scope": "terminal cash/result and observed Shop sequence; bundled L1 tests cover full observation lockstep",
+  "pairs": 2,
+  "exact_pairs": 2,
+  "all_exact": true,
+  "rows": [
+    {
+      "arm": "B1_herd_safe",
+      "opponent_id": "ahmed_v57",
+      "seed": 2026092401,
+      "seat": 0,
+      "fields_equal": {
+        "self_final_cash": true,
+        "opp_final_cash": true,
+        "margin": true,
+        "result": true,
+        "shop_sequence_hash": true
+      },
+      "exact": true
+    },
+    {
+      "arm": "B1_herd_safe",
+      "opponent_id": "ahmed_v57",
+      "seed": 2026092401,
+      "seat": 1,
+      "fields_equal": {
+        "self_final_cash": true,
+        "opp_final_cash": true,
+        "margin": true,
+        "result": true,
+        "shop_sequence_hash": true
+      },
+      "exact": true
+    }
+  ]
+}

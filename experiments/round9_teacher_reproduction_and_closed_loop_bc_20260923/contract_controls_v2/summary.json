@@ -1,0 +1,128 @@
+{
+  "created_at_utc": "2026-09-23T13:20:04.385098+00:00",
+  "classification": "diagnostic controls only; recorded opponent/state data are not a real-agent score",
+  "hashes": {
+    "replay": "94c21f59dd6fe86023fd986649fb28fc20e8eaafde0d0159418758a21d7a2a48",
+    "a0_archive": "0b579c006fbc002d2873b55d9c936c149049575383e47309c9d6c0887e1a6e30",
+    "engine": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "positive_replay": {
+    "name": "teacher_replay_state_exact_match",
+    "source_episode": 109118332,
+    "environment_seed": 338650874,
+    "states": 720,
+    "state_seat_numerator": 1440,
+    "state_seat_denominator": 1440,
+    "ratio": 1.0,
+    "first_mismatch": null,
+    "field_mismatches": {},
+    "recorded_rewards": [
+      111530.0,
+      99333.0
+    ],
+    "replayed_rewards": [
+      111530.0,
+      99333.0
+    ],
+    "recorded_statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "replayed_statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "mapping": "observation at steps[t] -> action stored in steps[t+1] -> observation at steps[t+1]",
+    "classification": "REPRODUCTION_DIAGNOSTIC"
+  },
+  "codec": {
+    "name": "codec_exact_roundtrip",
+    "actor": {
+      "numerator": 7196,
+      "denominator": 7196,
+      "ratio": 1.0
+    },
+    "market_order": {
+      "numerator": 909,
+      "denominator": 909,
+      "ratio": 1.0
+    },
+    "eos": {
+      "numerator": 719,
+      "denominator": 719,
+      "ratio": 1.0
+    },
+    "quantity": {
+      "numerator": 932,
+      "denominator": 932,
+      "ratio": 1.0
+    },
+    "all": {
+      "numerator": 8824,
+      "denominator": 8824,
+      "ratio": 1.0
+    },
+    "first_failure": null,
+    "unknown_label_count": 0
+  },
+  "negative_controls_all_passed": true,
+  "decoders": {
+    "A0_frozen": {
+      "all_request_retention": {
+        "numerator": 8648,
+        "denominator": 8824,
+        "ratio": 0.9800543970988214
+      },
+      "joint_turn_exact": {
+        "numerator": 608,
+        "denominator": 719,
+        "ratio": 0.8456189151599444
+      },
+      "state_effect_equivalence": {
+        "numerator": 713,
+        "denominator": 719,
+        "ratio": 0.9916550764951322,
+        "official_engine_isolated_differing_turns": 111
+      }
+    },
+    "A1_prefix_legality": {
+      "all_request_retention": {
+        "numerator": 8648,
+        "denominator": 8824,
+        "ratio": 0.9800543970988214
+      },
+      "joint_turn_exact": {
+        "numerator": 608,
+        "denominator": 719,
+        "ratio": 0.8456189151599444
+      },
+      "state_effect_equivalence": {
+        "numerator": 713,
+        "denominator": 719,
+        "ratio": 0.9916550764951322,
+        "official_engine_isolated_differing_turns": 111
+      }
+    },
+    "A2_prefix_retrained_code": {
+      "all_request_retention": {
+        "numerator": 8659,
+        "denominator": 8824,
+        "ratio": 0.9813009972801451
+      },
+      "joint_turn_exact": {
+        "numerator": 612,
+        "denominator": 719,
+        "ratio": 0.8511821974965229
+      },
+      "state_effect_equivalence": {
+        "numerator": 719,
+        "denominator": 719,
+        "ratio": 1.0,
+        "official_engine_isolated_differing_turns": 107
+      }
+    }
+  },
+  "new_learning_runs": 0,
+  "new_real_opponent_games": 0,
+  "kaggle_submissions": 0
+}

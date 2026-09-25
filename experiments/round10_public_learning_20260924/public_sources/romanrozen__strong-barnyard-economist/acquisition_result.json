@@ -1,0 +1,70 @@
+{
+  "fetched_at_utc": "2026-09-24T00:57:51.545897+00:00",
+  "kernel": "romanrozen/strong-barnyard-economist",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/romanrozen/strong-barnyard-economist",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 433064,
+  "response_sha256": "d7cb86cfe8cc50dbaeb2983f349b31db55238385189f744630608ce817418c1a",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 167043,
+      "sha256": "baf566c50a76599c7ccd050cd809143c2fe8f29c4029cc691cff395a30cb25b1",
+      "main": {
+        "main_cells": 1,
+        "cell_ids": [
+          "9d87b0f5"
+        ],
+        "source_bytes": 27244,
+        "source_sha256": "997e6bfc5234534e246e945bc61c87858ebf997ab85b0a5c9427dd4ed710f1b6",
+        "top_level_functions": [
+          "_get",
+          "_copy_action",
+          "_seat",
+          "_farm",
+          "_align_hands",
+          "_shed_access",
+          "_projected_shed",
+          "_public_signature",
+          "_clone_distance",
+          "_shift_state",
+          "_repay_shift",
+          "_future_sells_at",
+          "_preempt_shift",
+          "_tile_at",
+          "_trace_actor_action",
+          "_weed_repair_action",
+          "_shape",
+          "_market_price",
+          "_is_sell",
+          "_impact_score",
+          "_demand_per_day",
+          "_order_score",
+          "_rank_sell_slots",
+          "_terminal_liquidation",
+          "agent",
+          "_kaggle_submission_entrypoint"
+        ]
+      },
+      "extracted_main": "extracted_main.py",
+      "decoded_sources": [
+        {
+          "source_path": "cell[4].string[0]",
+          "path": "decoded_main_1.py",
+          "bytes": 27244,
+          "sha256": "997e6bfc5234534e246e945bc61c87858ebf997ab85b0a5c9427dd4ed710f1b6"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "romanrozen/strong-barnyard-economist",
+    "title": "[STRONG] Barnyard Economist ",
+    "author": "Roman Rozen",
+    "slug": "strong-barnyard-economist",
+    "lastRunTime": "2026-09-21T00:57:47.452744Z"
+  }
+}

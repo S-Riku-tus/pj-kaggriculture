@@ -1,0 +1,359 @@
+{
+  "scope": {
+    "input_repairs": "40 reactive C++ games on two disclosed Round11 development seeds; not holdout",
+    "factorial": "64 reactive C++ games on two new development seeds; not holdout",
+    "bootstrap_cluster": "seed; all opponents and both seats remain together"
+  },
+  "input_repairs": {
+    "P0_ledger_only": {
+      "baseline": "P0M0_B1",
+      "candidate": "P0_ledger_only",
+      "games": 8,
+      "score_delta": 1.0,
+      "mean_self_cash_delta": -37.75,
+      "mean_opponent_cash_delta": -57.5,
+      "mean_margin_delta": 19.75,
+      "w_to_l": 0,
+      "l_to_w": 0,
+      "tie_to_loss": 0,
+      "one_sided_90_seed_bootstrap_lower": 0.0,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": 1.0,
+          "mean_self_cash_delta": -75.5,
+          "mean_margin_delta": 39.5
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 0.0,
+          "mean_margin_delta": 0.0
+        }
+      }
+    },
+    "P0_censor_only": {
+      "baseline": "P0M0_B1",
+      "candidate": "P0_censor_only",
+      "games": 8,
+      "score_delta": 0.0,
+      "mean_self_cash_delta": 0.0,
+      "mean_opponent_cash_delta": 0.0,
+      "mean_margin_delta": 0.0,
+      "w_to_l": 0,
+      "l_to_w": 0,
+      "tie_to_loss": 0,
+      "one_sided_90_seed_bootstrap_lower": 0.0,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 0.0,
+          "mean_margin_delta": 0.0
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 0.0,
+          "mean_margin_delta": 0.0
+        }
+      }
+    },
+    "P0_ledger_censor": {
+      "baseline": "P0M0_B1",
+      "candidate": "P0_ledger_censor",
+      "games": 8,
+      "score_delta": 1.0,
+      "mean_self_cash_delta": -37.75,
+      "mean_opponent_cash_delta": -57.5,
+      "mean_margin_delta": 19.75,
+      "w_to_l": 0,
+      "l_to_w": 0,
+      "tie_to_loss": 0,
+      "one_sided_90_seed_bootstrap_lower": 0.0,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": 1.0,
+          "mean_self_cash_delta": -75.5,
+          "mean_margin_delta": 39.5
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 0.0,
+          "mean_margin_delta": 0.0
+        }
+      }
+    },
+    "P0M1_market": {
+      "baseline": "P0M0_B1",
+      "candidate": "P0M1_market",
+      "games": 8,
+      "score_delta": -6.0,
+      "mean_self_cash_delta": -1326.75,
+      "mean_opponent_cash_delta": 906.75,
+      "mean_margin_delta": -2233.5,
+      "w_to_l": 4,
+      "l_to_w": 0,
+      "tie_to_loss": 4,
+      "one_sided_90_seed_bootstrap_lower": -0.75,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -1176.0,
+          "mean_margin_delta": -1833.0
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": -4.0,
+          "mean_self_cash_delta": -1477.5,
+          "mean_margin_delta": -2634.0
+        }
+      }
+    }
+  },
+  "factorial": {
+    "P0M1": {
+      "baseline": "P0M0",
+      "candidate": "P0M1",
+      "games": 16,
+      "score_delta": -8.0,
+      "mean_self_cash_delta": -124.125,
+      "mean_opponent_cash_delta": 437.0,
+      "mean_margin_delta": -561.125,
+      "w_to_l": 6,
+      "l_to_w": 0,
+      "tie_to_loss": 4,
+      "one_sided_90_seed_bootstrap_lower": -0.625,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -101.5,
+          "mean_margin_delta": -557.5
+        },
+        "metav4": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -167.5,
+          "mean_margin_delta": -598.5
+        },
+        "order_book": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -54.5,
+          "mean_margin_delta": -545.0
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -173.0,
+          "mean_margin_delta": -543.5
+        }
+      }
+    },
+    "P1M0": {
+      "baseline": "P0M0",
+      "candidate": "P1M0",
+      "games": 16,
+      "score_delta": -12.0,
+      "mean_self_cash_delta": -92609.625,
+      "mean_opponent_cash_delta": 74302.375,
+      "mean_margin_delta": -166912.0,
+      "w_to_l": 10,
+      "l_to_w": 0,
+      "tie_to_loss": 4,
+      "one_sided_90_seed_bootstrap_lower": -0.875,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -92601.5,
+          "mean_margin_delta": -165420.75
+        },
+        "metav4": {
+          "games": 4,
+          "score_delta": -4.0,
+          "mean_self_cash_delta": -92677.0,
+          "mean_margin_delta": -168474.5
+        },
+        "order_book": {
+          "games": 4,
+          "score_delta": -4.0,
+          "mean_self_cash_delta": -92627.0,
+          "mean_margin_delta": -165428.75
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -92533.0,
+          "mean_margin_delta": -168324.0
+        }
+      }
+    },
+    "P1M1": {
+      "baseline": "P0M0",
+      "candidate": "P1M1",
+      "games": 16,
+      "score_delta": -12.0,
+      "mean_self_cash_delta": -92606.25,
+      "mean_opponent_cash_delta": 74301.875,
+      "mean_margin_delta": -166908.125,
+      "w_to_l": 10,
+      "l_to_w": 0,
+      "tie_to_loss": 4,
+      "one_sided_90_seed_bootstrap_lower": -0.875,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -92598.0,
+          "mean_margin_delta": -165416.75
+        },
+        "metav4": {
+          "games": 4,
+          "score_delta": -4.0,
+          "mean_self_cash_delta": -92674.0,
+          "mean_margin_delta": -168471.0
+        },
+        "order_book": {
+          "games": 4,
+          "score_delta": -4.0,
+          "mean_self_cash_delta": -92623.5,
+          "mean_margin_delta": -165424.75
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": -2.0,
+          "mean_self_cash_delta": -92529.5,
+          "mean_margin_delta": -168320.0
+        }
+      }
+    },
+    "market_effect_with_P1": {
+      "baseline": "P1M0",
+      "candidate": "P1M1",
+      "games": 16,
+      "score_delta": 0.0,
+      "mean_self_cash_delta": 3.375,
+      "mean_opponent_cash_delta": -0.5,
+      "mean_margin_delta": 3.875,
+      "w_to_l": 0,
+      "l_to_w": 0,
+      "tie_to_loss": 0,
+      "one_sided_90_seed_bootstrap_lower": 0.0,
+      "opponents": {
+        "B1": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 3.5,
+          "mean_margin_delta": 4.0
+        },
+        "metav4": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 3.0,
+          "mean_margin_delta": 3.5
+        },
+        "order_book": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 3.5,
+          "mean_margin_delta": 4.0
+        },
+        "v57": {
+          "games": 4,
+          "score_delta": 0.0,
+          "mean_self_cash_delta": 3.5,
+          "mean_margin_delta": 4.0
+        }
+      }
+    }
+  },
+  "market_final_difference_input_panel": {
+    "baseline": "P0M0_B1",
+    "candidate": "P0M1_market",
+    "proposal_generated": 198,
+    "candidate_different_from_baseline_final": 106,
+    "candidate_survived_finalization": 192,
+    "paired_replay_action_differences": 392,
+    "actual_fill_different": 392,
+    "future_state_different": 392,
+    "terminal_value_delta_games": 8,
+    "terminal_self_cash_delta_sum": -10614.0,
+    "first_difference_by_game": [
+      {
+        "opponent": "B1",
+        "seed": 612609254,
+        "seat": 0,
+        "step": 572
+      },
+      {
+        "opponent": "B1",
+        "seed": 612609254,
+        "seat": 1,
+        "step": 572
+      },
+      {
+        "opponent": "B1",
+        "seed": 612609264,
+        "seat": 0,
+        "step": 292
+      },
+      {
+        "opponent": "B1",
+        "seed": 612609264,
+        "seat": 1,
+        "step": 292
+      },
+      {
+        "opponent": "v57",
+        "seed": 612609254,
+        "seat": 0,
+        "step": 561
+      },
+      {
+        "opponent": "v57",
+        "seed": 612609254,
+        "seat": 1,
+        "step": 561
+      },
+      {
+        "opponent": "v57",
+        "seed": 612609264,
+        "seat": 0,
+        "step": 292
+      },
+      {
+        "opponent": "v57",
+        "seed": 612609264,
+        "seat": 1,
+        "step": 292
+      }
+    ],
+    "reason_counts": {
+      "redundant_with_baseline": 0,
+      "overwritten_during_finalization": 6,
+      "guard_not_met": 5554,
+      "invalid_action": 0,
+      "not_filled": 0,
+      "no_value": 0,
+      "undetermined": 0,
+      "selected_wait": 106,
+      "selected_baseline": 86
+    }
+  },
+  "oracle": {
+    "future_looking_diagnostic_only": true,
+    "games": 16,
+    "baseline_score": 12.0,
+    "oracle_score": 12.0,
+    "oracle_score_delta": 0.0,
+    "tie_break": "score_then_margin_then_self_cash",
+    "chosen_arms": {
+      "P0M0": 16
+    }
+  }
+}

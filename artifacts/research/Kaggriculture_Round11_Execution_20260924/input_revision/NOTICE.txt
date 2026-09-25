@@ -1,0 +1,28 @@
+Kaggriculture Round11 research revision — 24 September 2026
+
+This package preserves user-supplied benchmark agents and the user-supplied
+kaggriculture-cppsim source for reproducing the reported local experiments.
+They are not newly authored policies, and inclusion is not a claim of ownership,
+endorsement, universal simulator equivalence, or official Kaggle performance.
+
+The original notices within inputs/agents/*.py and engine_cppsim/ are retained.
+The agents credit their respective upstream contributors, including Thomas
+Tschinkel, Ahmed Berat Ozer, shiiin9, Dmitrii Gluzdov, Yusuke Hayashi and other
+contributors named in the original source. Preserve those notices when creating
+or redistributing derivatives. The full Apache License 2.0 is supplied as
+THIRD_PARTY_APACHE_2_LICENSE.txt and within engine_cppsim/LICENSE.
+
+The newly written diagnostic overlays are in scripts/probe_game.py, not silently
+patched into the original benchmark inputs. They are development experiments,
+not promoted submission agents. scripts/executed/ retains the scripts actually
+run in this session, including their original environment paths. The portable
+scripts at scripts/ have path and output handling adjustments, and the panel
+runner includes an additional implementation-fingerprint cache guard.
+
+Public-source references in SOURCE_REGISTRY.json distinguish original authors,
+readable public mirrors, executable artifacts and author-reported measurements.
+Not all referenced candidate agents are present or have been executed here.
+
+The reports and result tables distinguish newly run simulations, inherited
+analyses, external reports and unexecuted proposals. No new model was trained
+and no Kaggle submission was made during this research revision.

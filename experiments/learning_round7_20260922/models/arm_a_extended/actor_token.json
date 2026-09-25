@@ -1,0 +1,29 @@
+{
+  "task": "Round7 arm_a_extended full-action behavioral cloning",
+  "architecture": [
+    407,
+    96,
+    44
+  ],
+  "seed": 20260923,
+  "train_rows": 579777,
+  "validation_rows": 126799,
+  "diagnostic_test_rows": 126561,
+  "optimizer_steps": 14200,
+  "best_epoch": 49,
+  "best_validation_loss": 0.5077567322962918,
+  "parameter_count": 43436,
+  "class_weight_exponent": 0.5,
+  "parameter_change_l2": 45.233373348893174,
+  "training_seconds": 165.58588249998866,
+  "round6_epoch10_comparison": {
+    "max_abs_by_array": [
+      0.9980982542037964,
+      0.1914013773202896,
+      0.6713160276412964,
+      0.025257296860218048
+    ],
+    "all_equal": false
+  },
+  "old_test_role": "diagnostic_development; not checkpoint selection"
+}

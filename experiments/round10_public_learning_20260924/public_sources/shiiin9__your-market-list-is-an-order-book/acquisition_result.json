@@ -1,0 +1,37 @@
+{
+  "fetched_at_utc": "2026-09-24T00:54:05.038594+00:00",
+  "kernel": "shiiin9/your-market-list-is-an-order-book",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/shiiin9/your-market-list-is-an-order-book",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 1886259,
+  "response_sha256": "1cd1c32bf4d1302a7a2c8d2217fa8fcaa770ad7f4dd9e69341c8160edd221b78",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 797200,
+      "sha256": "bcd3503d92b1685b8bbf0ea04f4430334693cde716aaf151b92b1d6dc1f3a468",
+      "main": {
+        "main_cells": 0,
+        "cell_ids": []
+      },
+      "decoded_sources": [
+        {
+          "source_path": "cell[2].string[0]",
+          "path": "decoded_main_1.py",
+          "bytes": 1026965,
+          "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "shiiin9/your-market-list-is-an-order-book",
+    "title": "Your Market List Is an Order Book",
+    "author": "shiiin9",
+    "slug": "your-market-list-is-an-order-book",
+    "lastRunTime": "2026-09-21T00:54:00.3663181Z"
+  }
+}

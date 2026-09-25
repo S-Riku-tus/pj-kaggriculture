@@ -1,0 +1,141 @@
+{
+  "seed": 2026092428,
+  "all_passed": true,
+  "results": [
+    {
+      "name": "B1_herd_safe",
+      "archive_sha256": "3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986",
+      "hash_matches_manifest": true,
+      "members": [
+        "main.py"
+      ],
+      "worker_returncode": 0,
+      "worker_stderr": "",
+      "full_episode_probe": {
+        "first_action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              8
+            ],
+            [
+              "SELL",
+              "WHEAT",
+              3
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "rewards": [
+          118885.0,
+          119000.0
+        ],
+        "model_loaded": null,
+        "model_calls": null,
+        "contract_failures": null
+      },
+      "passed": true
+    },
+    {
+      "name": "B2_buy10_sell5",
+      "archive_sha256": "70ede751deac2688a2e822f65f10069e3b98d9db9d6dd0278d7574e13acb651a",
+      "hash_matches_manifest": true,
+      "members": [
+        "NOTICE.md",
+        "base_main.py",
+        "main.py"
+      ],
+      "worker_returncode": 0,
+      "worker_stderr": "",
+      "full_episode_probe": {
+        "first_action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              10
+            ],
+            [
+              "SELL",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "rewards": [
+          118887.0,
+          118998.0
+        ],
+        "model_loaded": null,
+        "model_calls": null,
+        "contract_failures": null
+      },
+      "passed": true
+    },
+    {
+      "name": "learned_diagnostic",
+      "archive_sha256": "f0e1d9012b1cf2e9556302a299c8ac459990466cd3d0a3b6cd26fa45e95c636e",
+      "hash_matches_manifest": true,
+      "members": [
+        "NOTICE.md",
+        "base_main.py",
+        "main.py",
+        "model.json",
+        "policy_runtime.py"
+      ],
+      "worker_returncode": 0,
+      "worker_stderr": "",
+      "full_episode_probe": {
+        "first_action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              8
+            ],
+            [
+              "SELL",
+              "WHEAT",
+              3
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        },
+        "rewards": [
+          118885.0,
+          119000.0
+        ],
+        "model_loaded": true,
+        "model_calls": 61,
+        "contract_failures": 0
+      },
+      "passed": true
+    }
+  ]
+}

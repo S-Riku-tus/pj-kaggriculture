@@ -1,0 +1,160 @@
+{
+  "created_at_utc": "2026-09-22T12:00:42.168121+00:00",
+  "purpose": "free execution smoke checks; not a strength or generalization estimate",
+  "engine": {
+    "path": ".venv\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "rows": [
+    {
+      "arm": "spatial_pure",
+      "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v2.tar.gz",
+      "archive_sha256": "26b97504f6f64c1b53c167b2e93883166950429875b054540ae19205644b9b16",
+      "opponent": "built-in pass",
+      "seed": 2026102290,
+      "requested_decisions": 24,
+      "stored_states": 25,
+      "actual_decisions": 24,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "final": {
+        "money": 175.0,
+        "hands": 0,
+        "land": 1,
+        "crops": 0,
+        "animals": 3,
+        "yield_on_tiles": 0
+      },
+      "replay": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\free_horizons_v1\\spatial_pure_24_turns.json.gz",
+      "replay_sha256": "3909011b980c070883fe6c6ed9e4a22165471b358cb8c8a3bef188be26027c41",
+      "teacher_state_reinjection": false
+    },
+    {
+      "arm": "spatial_pure",
+      "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v2.tar.gz",
+      "archive_sha256": "26b97504f6f64c1b53c167b2e93883166950429875b054540ae19205644b9b16",
+      "opponent": "built-in pass",
+      "seed": 2026102290,
+      "requested_decisions": 96,
+      "stored_states": 97,
+      "actual_decisions": 96,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "final": {
+        "money": 175.0,
+        "hands": 0,
+        "land": 1,
+        "crops": 0,
+        "animals": 0,
+        "yield_on_tiles": 0
+      },
+      "replay": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\free_horizons_v1\\spatial_pure_96_turns.json.gz",
+      "replay_sha256": "46a8ded76249b0b0d8eb974d4b9c455d8e2deca18cf4b80f2e2009cdb58dde66",
+      "teacher_state_reinjection": false
+    },
+    {
+      "arm": "spatial_pure",
+      "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_pure_v2.tar.gz",
+      "archive_sha256": "26b97504f6f64c1b53c167b2e93883166950429875b054540ae19205644b9b16",
+      "opponent": "built-in pass",
+      "seed": 2026102290,
+      "requested_decisions": 192,
+      "stored_states": 193,
+      "actual_decisions": 192,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "final": {
+        "money": 175.0,
+        "hands": 0,
+        "land": 1,
+        "crops": 0,
+        "animals": 0,
+        "yield_on_tiles": 0
+      },
+      "replay": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\free_horizons_v1\\spatial_pure_192_turns.json.gz",
+      "replay_sha256": "889cf25c1671d60fc46776382c7944d7923883310fdb4d3cabbf5322f616a607",
+      "teacher_state_reinjection": false
+    },
+    {
+      "arm": "spatial_hybrid",
+      "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v2.tar.gz",
+      "archive_sha256": "e49af803c21234809278f9f16f004d8688f0c37fd896d9bf8e2644071e6b39d9",
+      "opponent": "built-in pass",
+      "seed": 2026102290,
+      "requested_decisions": 24,
+      "stored_states": 25,
+      "actual_decisions": 24,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "final": {
+        "money": 148.0,
+        "hands": 0,
+        "land": 1,
+        "crops": 0,
+        "animals": 1,
+        "yield_on_tiles": 0
+      },
+      "replay": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\free_horizons_v1\\spatial_hybrid_24_turns.json.gz",
+      "replay_sha256": "fd91cebef8a3756c37b25b4c03b5e1465fe9d4311ecc2cf73474a971bdae3dee",
+      "teacher_state_reinjection": false
+    },
+    {
+      "arm": "spatial_hybrid",
+      "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v2.tar.gz",
+      "archive_sha256": "e49af803c21234809278f9f16f004d8688f0c37fd896d9bf8e2644071e6b39d9",
+      "opponent": "built-in pass",
+      "seed": 2026102290,
+      "requested_decisions": 96,
+      "stored_states": 97,
+      "actual_decisions": 96,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "final": {
+        "money": 94.0,
+        "hands": 0,
+        "land": 1,
+        "crops": 0,
+        "animals": 1,
+        "yield_on_tiles": 0
+      },
+      "replay": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\free_horizons_v1\\spatial_hybrid_96_turns.json.gz",
+      "replay_sha256": "2f7613779d7f9da4321092c32ab69e1f622d9844c9983b55212d65b403ae1ca6",
+      "teacher_state_reinjection": false
+    },
+    {
+      "arm": "spatial_hybrid",
+      "archive": "artifacts\\submissions\\round8_spatial_bc_20260922_seed20260922_hybrid_v2.tar.gz",
+      "archive_sha256": "e49af803c21234809278f9f16f004d8688f0c37fd896d9bf8e2644071e6b39d9",
+      "opponent": "built-in pass",
+      "seed": 2026102290,
+      "requested_decisions": 192,
+      "stored_states": 193,
+      "actual_decisions": 192,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "final": {
+        "money": 10.0,
+        "hands": 0,
+        "land": 1,
+        "crops": 0,
+        "animals": 0,
+        "yield_on_tiles": 0
+      },
+      "replay": "experiments\\round8_execution_reset_20260922\\phase_c_spatial\\free_horizons_v1\\spatial_hybrid_192_turns.json.gz",
+      "replay_sha256": "c760f23175714f4776b5cfb3c7a592340a8ebf31a7872d463fa87a2aac7d0469",
+      "teacher_state_reinjection": false
+    }
+  ]
+}

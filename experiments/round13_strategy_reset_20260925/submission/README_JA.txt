@@ -1,0 +1,7 @@
+提出候補はKEEP_B1のみ。
+
+round10_20260924_b1_herd_safe.tar.gz
+SHA-256: 3fff94ec235566fff3416627d2691dec2e502bc80646a9016ee15e6fc2067986
+内包 main.py SHA-256: b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02
+
+Kaggleへ自動提出していない。提出直前に公式deadline、latest-two規定、現在のsubmission履歴を再確認すること。B1が最新2枠の外なら、このtarを最後に手動提出する。

@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-09-24T01:50:43.383765+00:00",
+  "config": {
+    "output": "experiments/round10_public_learning_20260924/training/task_labels",
+    "development_evidence_not_holdout": true,
+    "candidate_limit_per_game": 3,
+    "opponents": {
+      "ahmed_v57": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/ahmed_v57/main.py",
+        "mode": "last_callable",
+        "family": "ahmed_route"
+      },
+      "metav4": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/metav4/main.py",
+        "mode": "last_callable",
+        "family": "metav4"
+      },
+      "melon_threshold": {
+        "path": "experiments/round10_public_learning_20260924/public_agents/melon_threshold/main.py",
+        "mode": "last_callable",
+        "family": "melon_threshold"
+      },
+      "qeinstein_moev2": {
+        "path": "experiments/research_20260910/runtime/qeinstein_moev2/main.py",
+        "mode": "module_agent",
+        "family": "qeinstein"
+      }
+    },
+    "seeds": [
+      2026092413,
+      2026092414,
+      2026092415
+    ],
+    "seats": [
+      0,
+      1
+    ]
+  },
+  "config_sha256": "68f822fdb9101387de99092eb1d6d920a10bbf4739cff7fa42273afc9852ee0d",
+  "engine": "kagsim L1 pinned/validated against official 1.32.7",
+  "fork_method": "restart both agents from step 0; no snapshot/clone",
+  "label": "paired terminal margin delta; future outcome excluded from runtime features"
+}

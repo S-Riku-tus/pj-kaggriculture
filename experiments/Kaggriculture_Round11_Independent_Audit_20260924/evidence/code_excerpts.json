@@ -1,0 +1,41 @@
+{
+  "m20_multi_hypothesis": {
+    "sha256": "98d374f58f68c5b9f263eb3ed04f724e1e0b7a4fa562b581bdac90b276492c4a",
+    "functions": {
+      "_v92_p_update": {
+        "line": 3459,
+        "end_line": 3472,
+        "source": "3459: def _v92_p_update(obs, st):\n3460:     player, step = int(obs[\"player\"]), int(obs[\"step\"])\n3461:     race = _V9_RACE.get(player) or {}\n3462:     prev = race.get(\"prev\")\n3463:     if not prev or prev[\"step\"] != step - 1:\n3464:         return\n3465:     inv = obs[\"market\"][\"inventory\"]\n3466:     draw = _v9_town_draw(prev[\"shops\"], prev[\"step\"])\n3467:     for i, item in enumerate(_V92_P_ITEMS):\n3468:         if prev[\"prices\"].get(item, 0) <= 3:\n3469:             continue\n3470:         sold = inv[item] - prev[\"inventory\"][item] + draw.get(item, 0) - prev[\"own\"].get(item, 0)\n3471:         if sold >= 2:\n3472:             st[\"obs\"][(step - 1, i)] = sold"
+      },
+      "_v92_p_forecast": {
+        "line": 3475,
+        "end_line": 3499,
+        "source": "3475: def _v92_p_forecast(obs, st):\n3476:     step = int(obs[\"step\"])\n3477:     shops = tuple(obs[\"town\"][\"unlocked_shops\"][:2])\n3478:     cands = _v92_p_pair(shops)\n3479:     if _V92_EP is not None:\n3480:         cands = [c for c in cands if c[0] % 2 != _V92_EP % 2]\n3481:     seen = st[\"obs\"]\n3482:     lo = step - 240\n3483:     scored = []\n3484:     recent = [(tt, i) for (tt, i) in seen if tt >= lo]\n3485:     for ep, ev in cands:\n3486:         m = f = 0\n3487:         for (tt, i), q in ev.items():\n3488:             if lo <= tt < step - 1:\n3489:                 if (tt, i) in seen or (tt - 1, i) in seen or (tt + 1, i) in seen:\n3490:                     m += 1\n3491:                 else:\n3492:                     f += 1\n3493:         miss = sum(1 for (tt, i) in recent if (tt, i) not in ev and (tt - 1, i) not in ev and (tt + 1, i) not in ev)\n3494:         scored.append((m - 0.5 * f - 0.5 * miss, ev))\n3495:     scored.sort(key=lambda x: -x[0])\n3496:     # Keep up to three positively supported near-best rival trajectories.\n3497:     if not scored or scored[0][0] < 0:\n3498:         return [ev for _, ev in scored[:_V92_P_TOP]]\n3499:     return [ev for score, ev in scored[:3] if score >= scored[0][0] - 1.0]"
+      },
+      "_v92_predict": {
+        "line": 3502,
+        "end_line": 3546,
+        "source": "3502: def _v92_predict(obs, action, st):\n3503:     step = int(obs[\"step\"])\n3504:     _v92_p_update(obs, st)\n3505:     if step < 150 or step >= 700:\n3506:         return action\n3507:     if step % _V92_P_EVERY == 0 or \"best\" not in st:\n3508:         st[\"best\"] = _v92_p_forecast(obs, st)\n3509:     best = st[\"best\"]\n3510:     if not best:\n3511:         return action\n3512:     native = _IMPL.chassis.players.get(int(obs[\"player\"]))\n3513:     if not native or native.get(\"route\") not in _IMPL.chassis.routes:\n3514:         return action\n3515:     tape = _IMPL.chassis.routes[native[\"route\"]]\n3516:     market = [list(o) for o in action.get(\"market\") or []]\n3517:     already = {o[1] for o in market if len(o) > 1 and o[0] in (\"SELL\", \"BUY_PRODUCT\")}\n3518:     stock = projected_shed(action, FarmView(obs))\n3519:     changed = False\n3520:     for i, item in enumerate(_V92_P_ITEMS):\n3521:         if item not in _V92_P_USE or item in already or len(market) >= MAX_ORDERS:\n3522:             continue\n3523:         votes = sum(1 for ev in best if ev.get((step + 1, i), 0) + ev.get((step + 2, i), 0) >= _V92_P_K)\n3524:         if votes < 1:\n3525:             continue\n3526:         alternate = not (\n3527:             best[0].get((step + 1, i), 0) + best[0].get((step + 2, i), 0) >= _V92_P_K\n3528:         )\n3529:         ours = 0\n3530:         for t in range(step + 1, min(len(tape), step + _V92_P_H + 1)):\n3531:             ours += sum(min(100, int(o[2])) for o in (tape[t] or {}).get(\"market\") or []\n3532:                         if len(o) >= 3 and o[0] == \"SELL\" and o[1] == item)\n3533:         qty = min(int(stock.get(item, 0)), ours)\n3534:         if qty > 0:\n3535:             market.insert(0, [\"SELL\", item, qty])\n3536:             _V92_P_REPORT[\"pred_units\"] += qty\n3537:             _V92_P_REPORT[\"pred_fires\"] += 1\n3538:             if alternate:\n3539:                 _V92_P_REPORT[\"frontier_fires\"] = _V92_P_REPORT.get(\"frontier_fires\", 0) + 1\n3540:                 _V92_P_REPORT[\"frontier_units\"] = _V92_P_REPORT.get(\"frontier_units\", 0) + qty\n3541:             changed = True\n3542:     if not changed:\n3543:         return action\n3544:     result = dict(action)\n3545:     result[\"market\"] = market[:MAX_ORDERS]\n3546:     return result"
+      }
+    }
+  },
+  "cw1_conditional_wool": {
+    "sha256": "03ce209a821496fe33916a8c425fbedd4d4a13133820e720c99d1d845d51fbed",
+    "functions": {
+      "_cw1_forecast": {
+        "line": 7059,
+        "end_line": 7081,
+        "source": "7059: def _cw1_forecast(observation):\n7060:     player = int(observation[\"player\"])\n7061:     step = int(observation[\"step\"])\n7062:     state = _V92_P.get(player) or {}\n7063:     if step < 192 or step >= 672 or not state.get(\"obs\"):\n7064:         return 0, 0, 0\n7065:     global _V92_P_TOP\n7066:     previous_top = _V92_P_TOP\n7067:     try:\n7068:         _V92_P_TOP = 3\n7069:         forecasts = _v92_p_forecast(observation, state)\n7070:     finally:\n7071:         _V92_P_TOP = previous_top\n7072:     if len(forecasts) < 2:\n7073:         return 0, 0, len(forecasts)\n7074:     index = _V92_P_ITEMS.index(\"WOOL\")\n7075:     quantities = [\n7076:         int(events.get((step + 1, index), 0)) + int(events.get((step + 2, index), 0))\n7077:         for events in forecasts\n7078:     ]\n7079:     votes = sum(quantity >= 4 for quantity in quantities)\n7080:     conservative_quantity = sorted(quantities, reverse=True)[1] if votes >= 2 else 0\n7081:     return votes, conservative_quantity, len(forecasts)"
+      },
+      "_cw1_reserve": {
+        "line": 7109,
+        "end_line": 7127,
+        "source": "7109: def _cw1_reserve(observation, action):\n7110:     _CW1_REPORT[\"eligible\"] += 1\n7111:     if not _cw1_should_open(observation, action):\n7112:         return _CW1_RESERVE_HOST(observation, action)\n7113:     _CW1_REPORT[\"open_attempts\"] += 1\n7114:     before = sum(int(order[2]) for order in action.get(\"market\") or []\n7115:                  if order and len(order) >= 3 and order[:2] == [\"SELL\", \"WOOL\"])\n7116:     previous = V9_RACEGATE_BASE[\"WOOL\"]\n7117:     try:\n7118:         V9_RACEGATE_BASE[\"WOOL\"] = 0\n7119:         result = _CW1_RESERVE_HOST(observation, action)\n7120:     finally:\n7121:         V9_RACEGATE_BASE[\"WOOL\"] = previous\n7122:     after = sum(int(order[2]) for order in result.get(\"market\") or []\n7123:                 if order and len(order) >= 3 and order[:2] == [\"SELL\", \"WOOL\"])\n7124:     if after > before:\n7125:         _CW1_REPORT[\"changes\"] += 1\n7126:         _CW1_REPORT[\"reserved_units\"] += after - before\n7127:     return result"
+      }
+    }
+  },
+  "m11_robust_response": {
+    "sha256": "0bea36c2040b5090be76f4b4bab54caafd424815c9d915d4b2ba40f21f28bbbd",
+    "functions": {}
+  }
+}

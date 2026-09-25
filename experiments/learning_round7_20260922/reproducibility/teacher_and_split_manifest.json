@@ -1,0 +1,32 @@
+{
+  "source_manifest": {
+    "path": "experiments\\learning_next_20260921\\source_manifest.json",
+    "sha256": "4f4e4fbd4a322c3aaedf27d1b03aef47ceaff51ffda91c602be50130f47707be",
+    "source_appearances": 864,
+    "unique_episodes": 850
+  },
+  "split_manifest": {
+    "path": "experiments\\learning_next_20260921\\split_manifest.json",
+    "sha256": "cb8aab7dc031166d31167397379dbe7aa233f1b096774d8342fa1af4d1d10376"
+  },
+  "round6_sequence_dataset_manifest": {
+    "path": "experiments/learning_round6_20260922/datasets/sequence_bc_v1/dataset_manifest.json",
+    "sha256": "7ae779e2e50a91b575f242c5d5b9ea5908cd04db5996c6625ba7028e880a142d"
+  },
+  "causal_teacher_episode": {
+    "submission_id": 56216119,
+    "episode_id": 109590135,
+    "seat": 1,
+    "result": "loss",
+    "own_reward": 107896.0,
+    "opponent_reward": 108466.0,
+    "step_count": 720,
+    "path": "data\\replays\\submission_56216119\\episode_109590135.json",
+    "bytes": 31525778,
+    "sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+    "actual_sha256": "ac674040b640ec24b9cf163170342eccdfc8bdc25809834f307053fc5e555466",
+    "included_in_bundle": true
+  },
+  "full_teacher_payload_included": false,
+  "full_teacher_payload_limit": "The roughly 1 GB local teacher arrays/replays are not duplicated in the bundle; their complete manifests and the causal episode are included."
+}

@@ -1,0 +1,92 @@
+{
+  "schema": "round11-telemetry-summary-v1",
+  "arms": {
+    "B1": {
+      "games": 32,
+      "games_with_reported_changes": 0,
+      "totals": {
+        "opening_calls": 32.0,
+        "opening_stock_ok": 32.0,
+        "parent.fertilizer.capped": 32.0,
+        "parent.fertilizer.covered": 48.0,
+        "parent.fertilizer.errors": 0.0,
+        "parent.fertilizer.skips": 80.0,
+        "parent.rescue.aborted": 0.0,
+        "parent.rescue.accepted": 32.0,
+        "parent.rescue.changed_steps": 208.0,
+        "parent.rescue.errors": 0.0,
+        "parent.rescue.max_planning_ms": 2210.20410003257,
+        "parent.rescue.planning_calls": 32.0,
+        "parent.rescue.shadow_declines": 0.0,
+        "parent.seed_budget.changed_turns": 104.0,
+        "parent.seed_budget.cut_units": 504.0,
+        "parent.seed_budget.errors": 0.0,
+        "parent.seed_budget.saved_cost": 10080.0
+      }
+    },
+    "m11_final_response": {
+      "games": 32,
+      "games_with_reported_changes": 24,
+      "totals": {
+        "calls": 23008.0,
+        "changes": 36.0,
+        "eligible": 3692.0,
+        "errors": 0.0,
+        "evaluations": 7396.0,
+        "predicted_gain": 332.0
+      }
+    },
+    "m11_robust_response": {
+      "games": 32,
+      "games_with_reported_changes": 0,
+      "totals": {
+        "calls": 23008.0,
+        "changes": 0.0,
+        "eligible": 3692.0,
+        "errors": 0.0,
+        "evaluations": 7396.0,
+        "predicted_gain": 0.0
+      }
+    },
+    "m20_m11_final": {
+      "games": 32,
+      "games_with_reported_changes": 24,
+      "totals": {
+        "calls": 23008.0,
+        "changes": 40.0,
+        "eligible": 3670.0,
+        "errors": 0.0,
+        "evaluations": 7278.0,
+        "predicted_gain": 362.0
+      }
+    },
+    "m20_multi_hypothesis": {
+      "games": 32,
+      "games_with_reported_changes": 32,
+      "totals": {
+        "opening_calls": 32.0,
+        "opening_stock_ok": 32.0,
+        "parent.fertilizer.capped": 32.0,
+        "parent.fertilizer.covered": 48.0,
+        "parent.fertilizer.errors": 0.0,
+        "parent.fertilizer.skips": 80.0,
+        "parent.forecast.frontier_fires": 70.0,
+        "parent.forecast.frontier_units": 552.0,
+        "parent.forecast.pred_errors": 0.0,
+        "parent.forecast.pred_fires": 548.0,
+        "parent.forecast.pred_units": 3872.0,
+        "parent.rescue.aborted": 0.0,
+        "parent.rescue.accepted": 32.0,
+        "parent.rescue.changed_steps": 208.0,
+        "parent.rescue.errors": 0.0,
+        "parent.rescue.max_planning_ms": 2622.799999968265,
+        "parent.rescue.planning_calls": 32.0,
+        "parent.rescue.shadow_declines": 0.0,
+        "parent.seed_budget.changed_turns": 104.0,
+        "parent.seed_budget.cut_units": 504.0,
+        "parent.seed_budget.errors": 0.0,
+        "parent.seed_budget.saved_cost": 10080.0
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "engine": "kagsim",
+  "output": "experiments/round10_public_learning_20260924/evaluations/opening_candidate_isolation",
+  "development_evidence_not_holdout": true,
+  "arms": {
+    "buy8_sell3_B1": {
+      "path": "experiments/round10_public_learning_20260924/opening_candidates/buy8_sell3.py",
+      "mode": "module_agent",
+      "baseline_id": "B1_opening"
+    },
+    "direct_buy5": {
+      "path": "experiments/round10_public_learning_20260924/opening_candidates/direct_buy5.py",
+      "mode": "module_agent",
+      "baseline_id": "B1_opening_ablation"
+    },
+    "buy10_sell5": {
+      "path": "experiments/round10_public_learning_20260924/opening_candidates/buy10_sell5.py",
+      "mode": "module_agent",
+      "baseline_id": "B1_opening_variant"
+    },
+    "buy20_sell15": {
+      "path": "experiments/round10_public_learning_20260924/opening_candidates/buy20_sell15.py",
+      "mode": "module_agent",
+      "baseline_id": "B1_opening_variant"
+    },
+    "sell3_buy8": {
+      "path": "experiments/round10_public_learning_20260924/opening_candidates/sell3_buy8.py",
+      "mode": "module_agent",
+      "baseline_id": "B1_opening_order_ablation"
+    }
+  },
+  "opponents": {
+    "stress_buy90_sell90_buy5": {
+      "path": "experiments/round10_public_learning_20260924/stress_agents/buy90_sell90_buy5.py",
+      "mode": "module_agent",
+      "family": "opening_funding_stress"
+    },
+    "stress_sell5_buy10": {
+      "path": "experiments/round10_public_learning_20260924/stress_agents/sell5_buy10.py",
+      "mode": "module_agent",
+      "family": "opening_funding_stress"
+    },
+    "stress_no_trade": {
+      "path": "experiments/round10_public_learning_20260924/stress_agents/no_trade.py",
+      "mode": "module_agent",
+      "family": "opening_funding_stress"
+    }
+  },
+  "seeds": [2026092419, 2026092420],
+  "seats": [0, 1]
+}

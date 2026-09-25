@@ -1,0 +1,37 @@
+{
+  "fetched_at_utc": "2026-09-24T00:54:05.772529+00:00",
+  "kernel": "dmitriigluzdov/kaggriculture-herd-safe-sale-window-lb-2700",
+  "url": "https://www.kaggle.com/api/v1/kernels/pull/dmitriigluzdov/kaggriculture-herd-safe-sale-window-lb-2700",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_bytes": 1894093,
+  "response_sha256": "3127108ce2db2fbdb869ad4e89b9140c96e0bd21d0d7f7799cd5d9386a63bf1e",
+  "complete_json": true,
+  "payloads": [
+    {
+      "json_path": "$.blob.sourceNullable",
+      "path": "payload_1.ipynb",
+      "bytes": 943619,
+      "sha256": "8210223a8671eb30604b3f9189ad2b58e022614488bcd3e58c8f2a8ed6901515",
+      "main": {
+        "main_cells": 0,
+        "cell_ids": []
+      },
+      "decoded_sources": [
+        {
+          "source_path": "cell[4].string[0].tar",
+          "path": "decoded_main_1.py",
+          "bytes": 1033759,
+          "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "ref": "dmitriigluzdov/kaggriculture-herd-safe-sale-window-lb-2700",
+    "title": "Kaggriculture: Herd-Safe Sale Window | LB 2700",
+    "author": "Dmitrii Gluzdov",
+    "slug": "kaggriculture-herd-safe-sale-window-lb-2700",
+    "lastRunTime": "2026-09-21T00:54:01.0472372Z"
+  }
+}

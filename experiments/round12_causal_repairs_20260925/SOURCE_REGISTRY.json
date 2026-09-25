@@ -1,0 +1,43 @@
+{
+  "official": {
+    "commit": "302d8e20c83822b8d4572975cdea1180b792b748",
+    "installed_version": "1.32.7",
+    "source_hash_match": true,
+    "license": "Apache-2.0"
+  },
+  "opponents": {
+    "B1": {
+      "path": "experiments\\Kaggriculture_Round11_Research_Revision_20260924\\inputs\\agents\\B1.py",
+      "sha256": "b6553c296c556aff5b5e2d12b75618e505fa4d852afb5338414ac6d6e039cb02",
+      "review": "bounded static review plus reactive execution",
+      "license": "source bundle provenance/NOTICE applies; no relicensing asserted"
+    },
+    "v57": {
+      "path": "experiments\\Kaggriculture_Round11_Research_Revision_20260924\\inputs\\agents\\v57.py",
+      "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+      "review": "bounded static review plus reactive execution",
+      "license": "source bundle provenance/NOTICE applies; no relicensing asserted"
+    },
+    "order_book": {
+      "path": "experiments\\Kaggriculture_Round11_Research_Revision_20260924\\inputs\\agents\\order_book.py",
+      "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+      "review": "bounded static review plus reactive execution",
+      "license": "source bundle provenance/NOTICE applies; no relicensing asserted"
+    },
+    "metav4": {
+      "path": "experiments\\Kaggriculture_Round11_Research_Revision_20260924\\inputs\\agents\\metav4.py",
+      "sha256": "9d63494603f88219857a3101d7dc19cc750ded04e5886732ee428580326967d9",
+      "review": "bounded static review plus reactive execution",
+      "license": "source bundle provenance/NOTICE applies; no relicensing asserted"
+    }
+  },
+  "round12_new_code": {
+    "origin": "implemented locally for this audit",
+    "license": "repository license; no third-party code copied into route/controller patch",
+    "review": "tests and bounded execution complete"
+  },
+  "network_acquisition": {
+    "calls": 0,
+    "unreviewed_code_executed": 0
+  }
+}

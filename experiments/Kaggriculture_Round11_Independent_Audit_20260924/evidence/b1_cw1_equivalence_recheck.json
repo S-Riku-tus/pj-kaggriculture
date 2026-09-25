@@ -1,0 +1,144 @@
+{
+  "seed": 532609243,
+  "opponent": "B1",
+  "seat": 0,
+  "step": 668,
+  "policy_calls": 669,
+  "saved_action_mismatch_steps": [],
+  "action_changes_in_return_chain": [
+    {
+      "function": "_route_action",
+      "line": 436,
+      "market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ]
+      ]
+    },
+    {
+      "function": "_v92_predict",
+      "line": 3499,
+      "market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ]
+      ]
+    },
+    {
+      "function": "_ch_tape",
+      "line": 4987,
+      "market": [
+        [
+          "SELL",
+          "STRAWBERRY",
+          18
+        ],
+        [
+          "SELL",
+          "MILK",
+          9
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          8
+        ],
+        [
+          "SELL",
+          "MILK",
+          4
+        ],
+        [
+          "SELL",
+          "STRAWBERRY",
+          1
+        ],
+        [
+          "SELL",
+          "MILK",
+          1
+        ]
+      ]
+    },
+    {
+      "function": "_ch_tape",
+      "line": 4987,
+      "market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          997
+        ],
+        [
+          "SELL",
+          "MILK",
+          999
+        ],
+        [
+          "SELL",
+          "CARROT",
+          1000
+        ]
+      ]
+    },
+    {
+      "function": "_ch_tape",
+      "line": 4987,
+      "market": [
+        [
+          "SELL",
+          "FERTILIZER",
+          1000
+        ],
+        [
+          "SELL",
+          "MILK",
+          1000
+        ],
+        [
+          "SELL",
+          "CARROT",
+          1000
+        ]
+      ]
+    },
+    {
+      "function": "agent",
+      "line": 5030,
+      "market": [
+        [
+          "SELL",
+          "WOOL",
+          3
+        ],
+        [
+          "SELL",
+          "FERTILIZER",
+          1
+        ]
+      ]
+    }
+  ],
+  "final": [
+    [
+      "SELL",
+      "WOOL",
+      3
+    ],
+    [
+      "SELL",
+      "FERTILIZER",
+      1
+    ]
+  ],
+  "debt_after": {}
+}
